@@ -1,0 +1,466 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" compressed="false" version="29.6.6">
+  <diagram id="industrial-gateway-functional" name="Functional Architecture">
+    <mxGraphModel dx="947" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1123" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#1f2937;" value="INDUSTRIAL GATEWAY — FUNCTIONAL ARCHITECTURE &amp;amp; WORKFLOW" vertex="1">
+          <mxGeometry height="30" width="900" x="190" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;align=right;verticalAlign=middle;fontSize=12;fontColor=#64748b;" value="Rev. A baseline • STM32H723VET6 + Zephyr RTOS • Not implemented / not validated" vertex="1">
+          <mxGeometry height="24" width="580" x="1150" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="acquisition_flow" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2563eb;fontColor=#1d4ed8;fontStyle=1;labelBackgroundColor=#ffffff;" value="ACQUISITION: field data → interface → processing / logging → Ethernet → SCADA / server">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="75" as="sourcePoint" />
+            <mxPoint x="1720" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="command_flow" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#b45309;fontColor=#000000;fontStyle=1;labelBackgroundColor=#ffffff;" value="COMMAND: SCADA / server → Ethernet → processing / protocol handling → interface → field device">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1720" y="100" as="sourcePoint" />
+            <mxPoint x="205" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="field_zone" parent="1" style="swimlane;html=1;horizontal=1;startSize=42;rounded=0;collapsible=0;fillColor=#f8fafc;swimlaneFillColor=#e2e8f0;strokeColor=#64748b;strokeWidth=1.5;fontSize=14;fontStyle=1;fontColor=#000000;" value="FIELD DEVICES" vertex="1">
+          <mxGeometry height="630" width="190" x="67" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="carrier_zone" parent="1" style="swimlane;html=1;horizontal=1;startSize=42;rounded=0;collapsible=0;fillColor=#f8fbff;swimlaneFillColor=#dbeafe;strokeColor=#3b82f6;strokeWidth=1.5;fontSize=14;fontStyle=1;fontColor=#000000;" value="INDUSTRIAL INTERFACE / CARRIER" vertex="1">
+          <mxGeometry height="630" width="440" x="332" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="processing_zone" parent="1" style="swimlane;html=1;horizontal=1;startSize=84;rounded=0;collapsible=0;fillColor=#f3fbf6;swimlaneFillColor=#dcfce7;strokeColor=#16a34a;strokeWidth=2;fontSize=17;fontStyle=0;fontColor=#000000;" value="&lt;b&gt;PROCESSING PLATFORM&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;STM32H723VET6&lt;br&gt;Zephyr RTOS • DECIDED REV. A&lt;/font&gt;" vertex="1">
+          <mxGeometry height="630" width="377" x="837" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="platform_io" parent="processing_zone" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fillColor=#e2f5e8;strokeColor=#16a34a;fontSize=10;fontStyle=1;fontColor=#000000;" value="FIELD I/O ABSTRACTION" vertex="1">
+          <mxGeometry height="488" width="38" x="10" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="network_zone" parent="1" style="swimlane;html=1;horizontal=1;startSize=42;rounded=0;collapsible=0;fillColor=#fffcf5;swimlaneFillColor=#fef3c7;strokeColor=#d97706;strokeWidth=1.5;fontSize=14;fontStyle=1;fontColor=#000000;" value="NETWORK" vertex="1">
+          <mxGeometry height="630" width="230" x="1300" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="server_zone" parent="1" style="swimlane;html=1;horizontal=1;startSize=42;rounded=0;collapsible=0;fillColor=#fbf9ff;swimlaneFillColor=#ede9fe;strokeColor=#7c3aed;strokeWidth=1.5;fontSize=14;fontStyle=1;fontColor=#000000;" value="SERVER / SCADA" vertex="1">
+          <mxGeometry height="630" width="267" x="1587" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="plc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#64748b;fontSize=13;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;&quot;&gt;PLC&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="150" x="87" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="vfd" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#64748b;fontSize=13;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;&quot;&gt;VFD&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="150" x="87" y="339" as="geometry" />
+        </mxCell>
+        <mxCell id="legacy" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#64748b;fontSize=13;fontStyle=1;fontColor=#000000;" value="LEGACY EQUIPMENT" vertex="1">
+          <mxGeometry height="55" width="150" x="87" y="441" as="geometry" />
+        </mxCell>
+        <mxCell id="sensors" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#64748b;fontSize=13;fontStyle=1;fontColor=#000000;" value="INDUSTRIAL SENSORS" vertex="1">
+          <mxGeometry height="55" width="150" x="87" y="543" as="geometry" />
+        </mxCell>
+        <mxCell id="actuators" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#64748b;fontSize=13;fontStyle=1;fontColor=#000000;" value="ACTUATORS" vertex="1">
+          <mxGeometry height="55" width="150" x="87" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="rs485_1_group" parent="1" style="swimlane;html=1;horizontal=1;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#eff6ff;strokeColor=#60a5fa;fontSize=12;fontStyle=1;fontColor=#000000;" value="RS-485 CHANNEL 1" vertex="1">
+          <mxGeometry height="85" width="420" x="342" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="rs485_1_connector" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Field&lt;br&gt;connector" vertex="1">
+          <mxGeometry height="42" width="75" x="352" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="rs485_1_protection" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Protection" vertex="1">
+          <mxGeometry height="42" width="75" x="437" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="rs485_1_isolation" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f59e0b;dashed=1;fontSize=9;fontColor=#000000;" value="Optional&lt;br&gt;isolation&lt;br&gt;&lt;b&gt;TBD&lt;/b&gt;" vertex="1">
+          <mxGeometry height="54" width="85" x="522" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="rs485_1_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Transceiver /&lt;br&gt;front-end" vertex="1">
+          <mxGeometry height="42" width="130" x="617" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="rs485_2_group" parent="1" style="swimlane;html=1;horizontal=1;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#eff6ff;strokeColor=#60a5fa;fontSize=12;fontStyle=1;fontColor=#000000;" value="RS-485 CHANNEL 2" vertex="1">
+          <mxGeometry height="85" width="420" x="342" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="rs485_2_connector" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Field&lt;br&gt;connector" vertex="1">
+          <mxGeometry height="42" width="75" x="352" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="rs485_2_protection" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Protection" vertex="1">
+          <mxGeometry height="42" width="75" x="437" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="rs485_2_isolation" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f59e0b;dashed=1;fontSize=9;fontColor=#000000;" value="Optional&lt;br&gt;isolation&lt;br&gt;&lt;b&gt;TBD&lt;/b&gt;" vertex="1">
+          <mxGeometry height="54" width="85" x="522" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="rs485_2_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Transceiver /&lt;br&gt;front-end" vertex="1">
+          <mxGeometry height="42" width="130" x="617" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="can_group" parent="1" style="swimlane;html=1;horizontal=1;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#eff6ff;strokeColor=#60a5fa;fontSize=12;fontStyle=1;fontColor=#000000;" value="CAN-FD CHANNEL" vertex="1">
+          <mxGeometry height="85" width="420" x="342" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="can_connector" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Field&lt;br&gt;connector" vertex="1">
+          <mxGeometry height="42" width="75" x="352" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="can_protection" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Protection" vertex="1">
+          <mxGeometry height="42" width="75" x="437" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="can_isolation" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f59e0b;dashed=1;fontSize=9;fontColor=#000000;" value="Optional&lt;br&gt;isolation&lt;br&gt;&lt;b&gt;TBD&lt;/b&gt;" vertex="1">
+          <mxGeometry height="54" width="85" x="522" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="can_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Transceiver /&lt;br&gt;front-end" vertex="1">
+          <mxGeometry height="42" width="130" x="617" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="di_group" parent="1" style="swimlane;html=1;horizontal=1;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#eff6ff;strokeColor=#60a5fa;fontSize=11;fontStyle=1;fontColor=#000000;" value="DIGITAL INPUTS — Target: 4 × 24 V industrial inputs" vertex="1">
+          <mxGeometry height="85" width="420" x="342" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="di_connector" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Field&lt;br&gt;connector" vertex="1">
+          <mxGeometry height="42" width="75" x="352" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="di_protection" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Protection" vertex="1">
+          <mxGeometry height="42" width="75" x="437" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="di_isolation" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f59e0b;dashed=1;fontSize=9;fontColor=#000000;" value="Optional&lt;br&gt;isolation&lt;br&gt;&lt;b&gt;TBD&lt;/b&gt;" vertex="1">
+          <mxGeometry height="54" width="85" x="522" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="di_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Input&lt;br&gt;front-end" vertex="1">
+          <mxGeometry height="42" width="130" x="617" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="do_group" parent="1" style="swimlane;html=1;horizontal=1;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#eff6ff;strokeColor=#60a5fa;fontSize=11;fontStyle=1;fontColor=#000000;" value="DIGITAL OUTPUTS — Target: 2 channels" vertex="1">
+          <mxGeometry height="85" width="420" x="342" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="do_connector" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Field&lt;br&gt;connector" vertex="1">
+          <mxGeometry height="42" width="75" x="352" y="662" as="geometry" />
+        </mxCell>
+        <mxCell id="do_protection" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Protection" vertex="1">
+          <mxGeometry height="42" width="75" x="437" y="662" as="geometry" />
+        </mxCell>
+        <mxCell id="do_isolation" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f59e0b;dashed=1;fontSize=9;fontColor=#000000;" value="Optional&lt;br&gt;isolation&lt;br&gt;&lt;b&gt;TBD&lt;/b&gt;" vertex="1">
+          <mxGeometry height="54" width="85" x="522" y="656" as="geometry" />
+        </mxCell>
+        <mxCell id="do_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Output&lt;br&gt;front-end" vertex="1">
+          <mxGeometry height="42" width="130" x="617" y="662" as="geometry" />
+        </mxCell>
+        <mxCell id="data_acquisition" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4b9f65;fontSize=11;fontStyle=1;fontColor=#000000;" value="DATA ACQUISITION" vertex="1">
+          <mxGeometry height="42" width="170" x="924" y="227" as="geometry" />
+        </mxCell>
+        <mxCell id="protocol_handling" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4b9f65;fontSize=11;fontStyle=1;fontColor=#000000;" value="PROTOCOL HANDLING" vertex="1">
+          <mxGeometry height="42" width="170" x="924" y="289" as="geometry" />
+        </mxCell>
+        <mxCell id="normalization" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4b9f65;fontSize=11;fontStyle=1;fontColor=#000000;" value="DATA NORMALIZATION" vertex="1">
+          <mxGeometry height="42" width="170" x="924" y="351" as="geometry" />
+        </mxCell>
+        <mxCell id="local_processing" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4b9f65;fontSize=11;fontStyle=1;fontColor=#000000;" value="LOCAL PROCESSING" vertex="1">
+          <mxGeometry height="42" width="170" x="924" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="logging" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4b9f65;fontSize=11;fontStyle=1;fontColor=#000000;" value="LOGGING" vertex="1">
+          <mxGeometry height="42" width="170" x="924" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="local_storage" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4b9f65;fontSize=11;fontStyle=1;fontColor=#000000;" value="PERSISTENT STORAGE&lt;br&gt;TECHNOLOGY TBD" vertex="1">
+          <mxGeometry height="42" width="170" x="924" y="537" as="geometry" />
+        </mxCell>
+        <mxCell id="network_services" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4b9f65;fontSize=11;fontStyle=1;fontColor=#000000;" value="NETWORK SERVICES" vertex="1">
+          <mxGeometry height="42" width="170" x="924" y="599" as="geometry" />
+        </mxCell>
+        <mxCell id="diagnostics_fn" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ecfdf5;strokeColor=#4b9f65;fontSize=10;fontStyle=1;fontColor=#000000;" value="DIAGNOSTICS" vertex="1">
+          <mxGeometry height="62" width="90" x="1109" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="configuration_fn" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ecfdf5;strokeColor=#4b9f65;fontSize=10;fontStyle=1;fontColor=#000000;" value="CONFIGURATION" vertex="1">
+          <mxGeometry height="62" width="90" x="1109" y="352" as="geometry" />
+        </mxCell>
+        <mxCell id="update_fn" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ecfdf5;strokeColor=#4b9f65;fontSize=10;fontStyle=1;fontColor=#000000;" value="FIRMWARE /&lt;br&gt;SOFTWARE&lt;br&gt;UPDATE" vertex="1">
+          <mxGeometry height="78" width="90" x="1109" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="maintenance_console" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d97706;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PC MAINTENANCE&lt;/b&gt;&lt;br&gt;Diagnostics&lt;br&gt;Logs / recovery&lt;br&gt;Medium TBD" vertex="1">
+          <mxGeometry height="105" width="190" x="1320" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="usb_service" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d97706;dashed=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;SERVICE INTERFACE&lt;/b&gt;&lt;br&gt;Configuration / update&lt;br&gt;Physical medium TBD" vertex="1">
+          <mxGeometry height="78" width="190" x="1320" y="352" as="geometry" />
+        </mxCell>
+        <mxCell id="eth2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#d97706;dashed=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;ETHERNET #2&lt;/b&gt;&lt;br&gt;Machine network /&lt;br&gt;secondary network&lt;br&gt;&lt;b&gt;Target / TBD&lt;/b&gt;" vertex="1">
+          <mxGeometry height="92" width="190" x="1320" y="487" as="geometry" />
+        </mxCell>
+        <mxCell id="eth1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d97706;fontSize=12;fontColor=#000000;" value="&lt;b&gt;ETHERNET PRIMARY&lt;/b&gt;&lt;br&gt;Network implementation TBD" vertex="1">
+          <mxGeometry height="82" width="190" x="1320" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="external_note" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#000000;" value="External system&lt;br&gt;Receives telemetry / logs&lt;br&gt;Issues authorized commands" vertex="1">
+          <mxGeometry height="65" width="217" x="1612" y="222" as="geometry" />
+        </mxCell>
+        <mxCell id="scada_server" parent="1" style="swimlane;html=1;horizontal=1;startSize=72;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#f5f3ff;strokeColor=#7c3aed;strokeWidth=1.5;fontSize=14;fontColor=#000000;" value="&lt;b&gt;SCADA / SERVER /&lt;br&gt;INDUSTRIAL NETWORK&lt;/b&gt;" vertex="1">
+          <mxGeometry height="275" width="227" x="1607" y="402" as="geometry" />
+        </mxCell>
+        <mxCell id="mqtt" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#a78bfa;fontSize=11;fontColor=#000000;" value="MQTT — Target / TBD" vertex="1">
+          <mxGeometry height="42" width="187" x="1627" y="497" as="geometry" />
+        </mxCell>
+        <mxCell id="modbus_tcp" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#a78bfa;fontSize=11;fontColor=#000000;" value="Modbus TCP — Target / TBD" vertex="1">
+          <mxGeometry height="42" width="187" x="1627" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="rest_api" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#a78bfa;fontSize=11;fontColor=#000000;" value="REST/API — Target / TBD" vertex="1">
+          <mxGeometry height="42" width="187" x="1627" y="607" as="geometry" />
+        </mxCell>
+        <mxCell id="power_zone" parent="1" style="swimlane;html=1;horizontal=1;startSize=38;rounded=0;collapsible=0;fillColor=#f8fafc;swimlaneFillColor=#e2e8f0;strokeColor=#475569;strokeWidth=1.5;fontSize=14;fontStyle=1;fontColor=#000000;" value="POWER ARCHITECTURE" vertex="1">
+          <mxGeometry height="235" width="1150" x="67" y="777" as="geometry" />
+        </mxCell>
+        <mxCell id="vin24" parent="power_zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontColor=#000000;" value="&lt;b&gt;24 VDC INDUSTRIAL INPUT&lt;/b&gt;&lt;br&gt;Nominal baseline" vertex="1">
+          <mxGeometry height="62" width="135" x="67" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="input_protection" parent="power_zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#475569;fontSize=10;fontColor=#000000;" value="&lt;b&gt;INPUT PROTECTION&lt;/b&gt;&lt;br&gt;Reverse polarity&lt;br&gt;Overcurrent&lt;br&gt;Transient" vertex="1">
+          <mxGeometry height="82" width="145" x="222" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="emi_filter" parent="power_zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontColor=#000000;" value="&lt;b&gt;EMI FILTERING&lt;/b&gt;&lt;br&gt;Targets TBD" vertex="1">
+          <mxGeometry height="62" width="125" x="387" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="power_conversion" parent="power_zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontColor=#000000;" value="&lt;b&gt;POWER CONVERSION&lt;/b&gt;&lt;br&gt;Implementation TBD" vertex="1">
+          <mxGeometry height="62" width="140" x="532" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="processing_rail" parent="power_zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#16a34a;fontSize=10;fontColor=#000000;" value="&lt;b&gt;MCU / DIGITAL RAILS&lt;/b&gt;&lt;br&gt;Topology / voltage / budget TBD" vertex="1">
+          <mxGeometry height="62" width="160" x="692" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="aux_rails" parent="power_zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eff6ff;strokeColor=#3b82f6;fontSize=10;fontColor=#000000;" value="&lt;b&gt;INTERFACE / FIELD RAILS&lt;/b&gt;&lt;br&gt;Topology / voltage / budget TBD" vertex="1">
+          <mxGeometry height="62" width="175" x="872" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="brownout" parent="power_zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f59e0b;dashed=1;fontSize=10;fontColor=#000000;" value="BROWNOUT / POWER SUPERVISION&lt;br&gt;&lt;b&gt;Strategy TBD&lt;/b&gt;" vertex="1">
+          <mxGeometry height="42" width="220" x="532" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pwr_1" edge="1" parent="power_zone" source="vin24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#000000;" target="input_protection">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pwr_2" edge="1" parent="power_zone" source="input_protection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#000000;" target="emi_filter">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pwr_3" edge="1" parent="power_zone" source="emi_filter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#000000;" target="power_conversion">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pwr_4" edge="1" parent="power_zone" source="power_conversion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#000000;" target="processing_rail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pwr_5" edge="1" parent="power_zone" source="power_conversion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#000000;" target="aux_rails">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_brownout_conversion" edge="1" parent="power_zone" source="power_conversion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;strokeColor=#f59e0b;dashed=1;fontSize=9;labelBackgroundColor=#ffffff;fontColor=#000000;entryX=0.444;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" target="brownout" value="monitors">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_brownout_rail" edge="1" parent="power_zone" source="brownout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;strokeColor=#f59e0b;dashed=1;fontSize=9;labelBackgroundColor=#ffffff;fontColor=#000000;" target="processing_rail" value="supervision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="status_zone" parent="1" style="swimlane;html=1;horizontal=1;startSize=38;rounded=0;collapsible=0;fillColor=#fffbeb;swimlaneFillColor=#fef3c7;strokeColor=#ca8a04;strokeWidth=1.5;fontSize=13;fontStyle=1;fontColor=#000000;" value="STATUS / DIAGNOSTICS" vertex="1">
+          <mxGeometry height="235" width="230" x="1300" y="777" as="geometry" />
+        </mxCell>
+        <mxCell id="status_power" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b84d;fontSize=10;fontColor=#000000;" value="Power — Target" vertex="1">
+          <mxGeometry height="38" width="94" x="1318" y="834" as="geometry" />
+        </mxCell>
+        <mxCell id="status_heartbeat" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b84d;fontSize=9;fontColor=#000000;" value="System / Heartbeat — Target" vertex="1">
+          <mxGeometry height="38" width="94" x="1420" y="834" as="geometry" />
+        </mxCell>
+        <mxCell id="status_fault" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b84d;fontSize=10;fontColor=#000000;" value="Fault — Target" vertex="1">
+          <mxGeometry height="38" width="94" x="1318" y="887" as="geometry" />
+        </mxCell>
+        <mxCell id="status_eth" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b84d;fontSize=10;fontColor=#000000;" value="Ethernet — Target" vertex="1">
+          <mxGeometry height="38" width="94" x="1420" y="887" as="geometry" />
+        </mxCell>
+        <mxCell id="status_rs485" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b84d;fontSize=9;fontColor=#000000;" value="RS-485 activity — Target" vertex="1">
+          <mxGeometry height="38" width="94" x="1318" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="status_can" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b84d;fontSize=9;fontColor=#000000;" value="CAN activity — Target" vertex="1">
+          <mxGeometry height="38" width="94" x="1420" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="future_zone" parent="1" style="swimlane;html=1;horizontal=1;startSize=50;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#f8fafc;strokeColor=#64748b;strokeWidth=1.5;dashed=1;dashPattern=8 6;fontSize=11;fontStyle=1;fontColor=#000000;" value="FUTURE / OPTIONAL&lt;br&gt;NOT REQUIRED FOR REV A" vertex="1">
+          <mxGeometry height="235" width="267" x="1587" y="777" as="geometry" />
+        </mxCell>
+        <mxCell id="future_420" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;dashed=1;fontSize=11;fontColor=#000000;" value="4–20 mA" vertex="1">
+          <mxGeometry height="42" width="100" x="1607" y="837" as="geometry" />
+        </mxCell>
+        <mxCell id="future_010" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;dashed=1;fontSize=11;fontColor=#000000;" value="0–10 V" vertex="1">
+          <mxGeometry height="42" width="105" x="1727" y="837" as="geometry" />
+        </mxCell>
+        <mxCell id="future_lte" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;dashed=1;fontSize=10;fontColor=#000000;" value="LTE EXTERNAL MODEM" vertex="1">
+          <mxGeometry height="42" width="225" x="1607" y="897" as="geometry" />
+        </mxCell>
+        <mxCell id="future_can" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;dashed=1;fontSize=10;fontColor=#000000;" value="ADDITIONAL CAN" vertex="1">
+          <mxGeometry height="38" width="100" x="1607" y="957" as="geometry" />
+        </mxCell>
+        <mxCell id="future_rs485" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;dashed=1;fontSize=10;fontColor=#000000;" value="ADDITIONAL RS-485" vertex="1">
+          <mxGeometry height="38" width="105" x="1727" y="957" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontColor=#000000;" value="LEGEND: Solid = baseline function/path | Dashed = implementation TBD, conditional-by-policy or service | Blue = data | Amber = commands | Gray = power / bidirectional link" vertex="1">
+          <mxGeometry height="28" width="1540" x="174" y="1032" as="geometry" />
+        </mxCell>
+        <mxCell id="footer_note" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontColor=#000000;fontStyle=2;" value="Block architecture only — pin assignment, PHY/transceivers, storage, connectors, isolation placement, power topology and application protocols remain TBD." vertex="1">
+          <mxGeometry height="28" width="1540" x="174" y="1062" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rs1_1" edge="1" parent="1" source="rs485_1_connector" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="rs485_1_protection">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rs1_2" edge="1" parent="1" source="rs485_1_protection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="rs485_1_isolation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rs1_3" edge="1" parent="1" source="rs485_1_isolation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="rs485_1_frontend">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rs2_1" edge="1" parent="1" source="rs485_2_connector" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="rs485_2_protection">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rs2_2" edge="1" parent="1" source="rs485_2_protection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="rs485_2_isolation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rs2_3" edge="1" parent="1" source="rs485_2_isolation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="rs485_2_frontend">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_can_1" edge="1" parent="1" source="can_connector" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="can_protection">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_can_2" edge="1" parent="1" source="can_protection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="can_isolation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_can_3" edge="1" parent="1" source="can_isolation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="can_frontend">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_di_1" edge="1" parent="1" source="di_connector" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="di_protection">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_di_2" edge="1" parent="1" source="di_protection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="di_isolation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_di_3" edge="1" parent="1" source="di_isolation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="di_frontend">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_do_1" edge="1" parent="1" source="do_frontend" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="do_isolation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_do_2" edge="1" parent="1" source="do_isolation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="do_protection">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_do_3" edge="1" parent="1" source="do_protection" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="do_connector">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_plc" edge="1" parent="1" source="plc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=9;labelBackgroundColor=#ffffff;fontColor=#000000;" target="rs485_1_connector" value="data / commands">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_vfd" edge="1" parent="1" source="vfd" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=9;labelBackgroundColor=#ffffff;fontColor=#000000;" target="rs485_2_connector" value="data / commands">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_legacy" edge="1" parent="1" source="legacy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=9;labelBackgroundColor=#ffffff;fontColor=#000000;" target="can_connector" value="bus data / commands">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_sensors" edge="1" parent="1" source="sensors" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;fontSize=9;labelBackgroundColor=#ffffff;fontColor=#000000;" target="di_connector" value="signals">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_actuators" edge="1" parent="1" source="do_connector" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#b45309;fontSize=9;labelBackgroundColor=#ffffff;fontColor=#000000;" target="actuators" value="drive commands">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_rs1_platform" edge="1" parent="1" source="rs485_1_frontend" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#475569;fontColor=#000000;" target="platform_io">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="797" y="275" />
+              <mxPoint x="797" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_rs2_platform" edge="1" parent="1" source="rs485_2_frontend" style="rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#475569;fontColor=#000000;entryX=0.005;entryY=0.318;entryDx=0;entryDy=0;entryPerimeter=0;" target="platform_io">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="377" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_can_platform" edge="1" parent="1" source="can_frontend" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#475569;fontColor=#000000;" target="platform_io">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="797" y="479" />
+              <mxPoint x="797" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_di_platform" edge="1" parent="1" source="di_frontend" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;fontColor=#000000;" target="platform_io">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="581" />
+              <mxPoint x="810" y="466" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_do_platform" edge="1" parent="1" source="platform_io" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#b45309;fontColor=#000000;" target="do_frontend">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="510" />
+              <mxPoint x="820" y="683" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_io_acq" edge="1" parent="1" source="platform_io" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;fontColor=#000000;" target="data_acquisition">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_protocol_io" edge="1" parent="1" source="protocol_handling" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#b45309;exitX=0;exitY=0.5;entryX=1;entryY=0.3;fontColor=#000000;" target="platform_io">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="907" y="310" />
+              <mxPoint x="907" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_acq_protocol" edge="1" parent="1" source="data_acquisition" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;fontColor=#000000;" target="protocol_handling">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_protocol_norm" edge="1" parent="1" source="protocol_handling" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;fontColor=#000000;" target="normalization">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_norm_process" edge="1" parent="1" source="normalization" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;fontColor=#000000;" target="local_processing">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_process_network" edge="1" parent="1" source="local_processing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;fontSize=9;labelBackgroundColor=#ffffff;fontColor=#000000;" target="network_services" value="validated / normalized data">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_process_log" edge="1" parent="1" source="local_processing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;fontColor=#000000;" target="logging">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_log_storage" edge="1" parent="1" source="logging" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;dashed=1;fontColor=#000000;" target="local_storage">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_storage_network" edge="1" parent="1" source="local_storage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;dashed=1;fontSize=9;labelBackgroundColor=#ffffff;fontColor=#000000;" target="network_services" value="retry / recovery when required">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_command_internal" edge="1" parent="1" source="network_services" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#b45309;exitX=0;exitY=0.5;entryX=0;entryY=0.756;fontColor=#000000;entryDx=0;entryDy=0;entryPerimeter=0;" target="protocol_handling">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="620" />
+              <mxPoint x="910" y="320" />
+              <mxPoint x="924" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_net_eth1" edge="1" parent="1" source="network_services" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#475569;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontColor=#000000;" target="eth1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="620" />
+              <mxPoint x="1240" y="653" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_net_eth2" edge="1" parent="1" source="network_services" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#d97706;dashed=1;exitX=1;exitY=0.5;entryX=0;entryY=0.605;fontColor=#000000;entryDx=0;entryDy=0;entryPerimeter=0;" target="eth2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="620" />
+              <mxPoint x="1260" y="543" />
+              <mxPoint x="1307" y="543" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_eth1_server" edge="1" parent="1" source="eth1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#475569;fontSize=9;labelBackgroundColor=#ffffff;fontColor=#000000;" target="scada_server" value="IP data / commands">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_eth2_server" edge="1" parent="1" source="eth2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#d97706;dashed=1;fontSize=9;labelBackgroundColor=#ffffff;fontColor=#000000;" target="scada_server" value="Target / TBD">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_usb_update" edge="1" parent="1" source="update_fn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;dashed=1;fontSize=9;labelBackgroundColor=#ffffff;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="usb_service" value="service / update">
+          <mxGeometry relative="1" x="-0.0476" y="2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1260" y="491" />
+              <mxPoint x="1260" y="390" />
+              <mxPoint x="1320" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_console_diag" edge="1" parent="1" source="diagnostics_fn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;dashed=1;fontSize=9;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0;entryY=0.5;fontColor=#000000;" target="maintenance_console" value="debug / logs / recovery">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_platform_diag" edge="1" parent="1" source="local_processing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;dashed=1;fontColor=#000000;" target="diagnostics_fn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_platform_config" edge="1" parent="1" source="local_processing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;dashed=1;fontColor=#000000;" target="configuration_fn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_update_platform" edge="1" parent="1" source="update_fn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#64748b;dashed=1;fontColor=#000000;" target="local_processing">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
