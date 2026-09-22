@@ -45,6 +45,7 @@ No están seleccionados todavía el PHY, los transceptores, los front-ends, el a
 ## Documentación
 
 - [Requisitos técnicos y Decision Register](docs/industrial_linux_gateway_requirements.md)
+- [Proof of Concept: alcance y criterios de éxito](docs/proof_of_concept.md)
 - [Fuente de presentación NABC](docs/presentation_nabc.md)
 - [Competidores y fuentes oficiales](docs/competitor_references.md)
 - [Diagrama de arquitectura editable](docs/figures/industrial_gateway_architecture.drawio)
