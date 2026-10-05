@@ -7,7 +7,7 @@
         <mxCell id="title" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#1f2937;" value="INDUSTRIAL GATEWAY — FUNCTIONAL ARCHITECTURE &amp;amp; WORKFLOW" vertex="1">
           <mxGeometry height="30" width="900" x="190" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" parent="1" style="text;html=1;align=right;verticalAlign=middle;fontSize=12;fontColor=#64748b;" value="Rev. A baseline • STM32H723VET6 + Zephyr RTOS • Not implemented / not validated" vertex="1">
+        <mxCell id="subtitle" parent="1" style="text;html=1;align=right;verticalAlign=middle;fontSize=12;fontColor=#64748b;" value="Rev. A • Components provisionally selected • Not implemented / not validated" vertex="1">
           <mxGeometry height="24" width="580" x="1150" y="34" as="geometry" />
         </mxCell>
         <mxCell id="acquisition_flow" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#2563eb;fontColor=#1d4ed8;fontStyle=1;labelBackgroundColor=#ffffff;" value="ACQUISITION: field data → interface → processing / logging → Ethernet → SCADA / server">
@@ -67,7 +67,7 @@
         <mxCell id="rs485_1_isolation" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f59e0b;dashed=1;fontSize=9;fontColor=#000000;" value="Optional&lt;br&gt;isolation&lt;br&gt;&lt;b&gt;TBD&lt;/b&gt;" vertex="1">
           <mxGeometry height="54" width="85" x="522" y="248" as="geometry" />
         </mxCell>
-        <mxCell id="rs485_1_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Transceiver /&lt;br&gt;front-end" vertex="1">
+        <mxCell id="rs485_1_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="THVD1420&lt;br&gt;Half-duplex" vertex="1">
           <mxGeometry height="42" width="130" x="617" y="254" as="geometry" />
         </mxCell>
         <mxCell id="rs485_2_group" parent="1" style="swimlane;html=1;horizontal=1;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#eff6ff;strokeColor=#60a5fa;fontSize=12;fontStyle=1;fontColor=#000000;" value="RS-485 CHANNEL 2" vertex="1">
@@ -82,7 +82,7 @@
         <mxCell id="rs485_2_isolation" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f59e0b;dashed=1;fontSize=9;fontColor=#000000;" value="Optional&lt;br&gt;isolation&lt;br&gt;&lt;b&gt;TBD&lt;/b&gt;" vertex="1">
           <mxGeometry height="54" width="85" x="522" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="rs485_2_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Transceiver /&lt;br&gt;front-end" vertex="1">
+        <mxCell id="rs485_2_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="THVD1420&lt;br&gt;Half-duplex" vertex="1">
           <mxGeometry height="42" width="130" x="617" y="356" as="geometry" />
         </mxCell>
         <mxCell id="can_group" parent="1" style="swimlane;html=1;horizontal=1;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#eff6ff;strokeColor=#60a5fa;fontSize=12;fontStyle=1;fontColor=#000000;" value="CAN-FD CHANNEL" vertex="1">
@@ -97,7 +97,7 @@
         <mxCell id="can_isolation" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f59e0b;dashed=1;fontSize=9;fontColor=#000000;" value="Optional&lt;br&gt;isolation&lt;br&gt;&lt;b&gt;TBD&lt;/b&gt;" vertex="1">
           <mxGeometry height="54" width="85" x="522" y="452" as="geometry" />
         </mxCell>
-        <mxCell id="can_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Transceiver /&lt;br&gt;front-end" vertex="1">
+        <mxCell id="can_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="ATA6561&lt;br&gt;CAN-FD" vertex="1">
           <mxGeometry height="42" width="130" x="617" y="458" as="geometry" />
         </mxCell>
         <mxCell id="di_group" parent="1" style="swimlane;html=1;horizontal=1;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#eff6ff;strokeColor=#60a5fa;fontSize=11;fontStyle=1;fontColor=#000000;" value="DIGITAL INPUTS — Target: 4 × 24 V industrial inputs" vertex="1">
@@ -109,10 +109,10 @@
         <mxCell id="di_protection" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Protection" vertex="1">
           <mxGeometry height="42" width="75" x="437" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="di_isolation" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f59e0b;dashed=1;fontSize=9;fontColor=#000000;" value="Optional&lt;br&gt;isolation&lt;br&gt;&lt;b&gt;TBD&lt;/b&gt;" vertex="1">
+        <mxCell id="di_isolation" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f59e0b;fontSize=9;fontColor=#000000;" value="Integrated&lt;br&gt;ISO1212&lt;br&gt;isolation" vertex="1">
           <mxGeometry height="54" width="85" x="522" y="554" as="geometry" />
         </mxCell>
-        <mxCell id="di_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Input&lt;br&gt;front-end" vertex="1">
+        <mxCell id="di_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="2x ISO1212&lt;br&gt;4 isolated DI" vertex="1">
           <mxGeometry height="42" width="130" x="617" y="560" as="geometry" />
         </mxCell>
         <mxCell id="do_group" parent="1" style="swimlane;html=1;horizontal=1;startSize=24;rounded=0;collapsible=0;fillColor=#ffffff;swimlaneFillColor=#eff6ff;strokeColor=#60a5fa;fontSize=11;fontStyle=1;fontColor=#000000;" value="DIGITAL OUTPUTS — Target: 2 channels" vertex="1">
@@ -127,7 +127,7 @@
         <mxCell id="do_isolation" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f59e0b;dashed=1;fontSize=9;fontColor=#000000;" value="Optional&lt;br&gt;isolation&lt;br&gt;&lt;b&gt;TBD&lt;/b&gt;" vertex="1">
           <mxGeometry height="54" width="85" x="522" y="656" as="geometry" />
         </mxCell>
-        <mxCell id="do_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="Output&lt;br&gt;front-end" vertex="1">
+        <mxCell id="do_frontend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;fontSize=10;fontColor=#000000;" value="2x BSP75N&lt;br&gt;LOW-SIDE&lt;br&gt;Driver TBD" vertex="1">
           <mxGeometry height="42" width="130" x="617" y="662" as="geometry" />
         </mxCell>
         <mxCell id="data_acquisition" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4b9f65;fontSize=11;fontStyle=1;fontColor=#000000;" value="DATA ACQUISITION" vertex="1">
@@ -169,7 +169,7 @@
         <mxCell id="eth2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#d97706;dashed=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;ETHERNET #2&lt;/b&gt;&lt;br&gt;Machine network /&lt;br&gt;secondary network&lt;br&gt;&lt;b&gt;Target / TBD&lt;/b&gt;" vertex="1">
           <mxGeometry height="92" width="190" x="1320" y="487" as="geometry" />
         </mxCell>
-        <mxCell id="eth1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d97706;fontSize=12;fontColor=#000000;" value="&lt;b&gt;ETHERNET PRIMARY&lt;/b&gt;&lt;br&gt;Network implementation TBD" vertex="1">
+        <mxCell id="eth1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d97706;fontSize=12;fontColor=#000000;" value="&lt;b&gt;ETHERNET PRIMARY&lt;/b&gt;&lt;br&gt;DP83826I • 10/100&lt;br&gt;RMII planned" vertex="1">
           <mxGeometry height="82" width="190" x="1320" y="612" as="geometry" />
         </mxCell>
         <mxCell id="external_note" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontColor=#000000;" value="External system&lt;br&gt;Receives telemetry / logs&lt;br&gt;Issues authorized commands" vertex="1">
@@ -202,10 +202,10 @@
         <mxCell id="power_conversion" parent="power_zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontColor=#000000;" value="&lt;b&gt;POWER CONVERSION&lt;/b&gt;&lt;br&gt;Implementation TBD" vertex="1">
           <mxGeometry height="62" width="140" x="532" y="75" as="geometry" />
         </mxCell>
-        <mxCell id="processing_rail" parent="power_zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#16a34a;fontSize=10;fontColor=#000000;" value="&lt;b&gt;MCU / DIGITAL RAILS&lt;/b&gt;&lt;br&gt;Topology / voltage / budget TBD" vertex="1">
+        <mxCell id="processing_rail" parent="power_zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#16a34a;fontSize=10;fontColor=#000000;" value="&lt;b&gt;MCU / DIGITAL RAILS&lt;/b&gt;&lt;br&gt;3.3 V • budget TBD" vertex="1">
           <mxGeometry height="62" width="160" x="692" y="75" as="geometry" />
         </mxCell>
-        <mxCell id="aux_rails" parent="power_zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eff6ff;strokeColor=#3b82f6;fontSize=10;fontColor=#000000;" value="&lt;b&gt;INTERFACE / FIELD RAILS&lt;/b&gt;&lt;br&gt;Topology / voltage / budget TBD" vertex="1">
+        <mxCell id="aux_rails" parent="power_zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eff6ff;strokeColor=#3b82f6;fontSize=10;fontColor=#000000;" value="&lt;b&gt;INTERFACE / FIELD RAILS&lt;/b&gt;&lt;br&gt;5 V / 24 V • budget TBD" vertex="1">
           <mxGeometry height="62" width="175" x="872" y="75" as="geometry" />
         </mxCell>
         <mxCell id="brownout" parent="power_zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f59e0b;dashed=1;fontSize=10;fontColor=#000000;" value="BROWNOUT / POWER SUPERVISION&lt;br&gt;&lt;b&gt;Strategy TBD&lt;/b&gt;" vertex="1">
@@ -274,7 +274,7 @@
         <mxCell id="legend" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontColor=#000000;" value="LEGEND: Solid = baseline function/path | Dashed = implementation TBD, conditional-by-policy or service | Blue = data | Amber = commands | Gray = power / bidirectional link" vertex="1">
           <mxGeometry height="28" width="1540" x="174" y="1032" as="geometry" />
         </mxCell>
-        <mxCell id="footer_note" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontColor=#000000;fontStyle=2;" value="Block architecture only — pin assignment, PHY/transceivers, storage, connectors, isolation placement, power topology and application protocols remain TBD." vertex="1">
+        <mxCell id="footer_note" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontColor=#000000;fontStyle=2;" value="Provisional component baseline — pin mapping, BSP75N control adaptation, passives/protection, storage, connectors, power budget and regulators remain TBD." vertex="1">
           <mxGeometry height="28" width="1540" x="174" y="1062" as="geometry" />
         </mxCell>
         <mxCell id="e_rs1_1" edge="1" parent="1" source="rs485_1_connector" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#64748b;fontColor=#000000;" target="rs485_1_protection">

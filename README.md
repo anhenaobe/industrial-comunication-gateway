@@ -6,7 +6,8 @@ Gateway embebido para adquirir, normalizar, diagnosticar y comunicar datos entre
 
 **Design / requirements phase**
 
-- Plataforma Rev. A decidida: **STM32H723VET6 + Zephyr RTOS**.
+- Plataforma Rev. A: **STM32H723VET6 + Zephyr RTOS**, arquitectura sin cambios.
+- Componentes: **SELECTED / PROVISIONAL DESIGN BASELINE**; selección suficiente para iniciar la extracción de consumos y el power budget, todavía pendientes.
 - Suficiencia total de pines para las interfaces previstas: **validada externamente**.
 - Asignación concreta de pines/periféricos: **TBD**.
 - No PCB fabricated.
@@ -31,16 +32,19 @@ SERVER / SCADA
 
 Interfaces y funciones objetivo:
 
-- 2 × RS-485;
-- 1 × CAN-FD;
-- 4 × entradas digitales industriales de 24 V;
-- 2 × salidas digitales industriales;
-- Ethernet principal;
+- PROCESSING: **STM32H723VET6**;
+- NETWORK: **1 × DP83826I**, PHY Ethernet externo 10/100, RMII previsto;
+- INDUSTRIAL COMMUNICATION: **2 × THVD1420**, RS-485 independientes half-duplex;
+- **1 × ATA6561**, transceiver CAN-FD (VCC 5 V / VIO 3.3 V);
+- INDUSTRIAL I/O: **2 × ISO1212 → 4 DI aisladas de 24 V**;
+- **2 × BSP75N → 2 DO LOW-SIDE**, 24 V / 500 mA nominales por canal;
 - almacenamiento persistente, tecnología y capacidad TBD;
 - diagnóstico, configuración y mantenimiento desde PC;
 - segundo Ethernet sujeto a justificación: TBD.
 
-No están seleccionados todavía el PHY, los transceptores, los front-ends, el almacenamiento, los conectores ni la topología detallada de alimentación.
+Esta selección es provisional: no representa hardware fabricado, circuito probado ni validación física. El power budget, los reguladores/DC/DC, la adaptación STM32 3.3 V → control BSP75N ≈5 V, los pasivos/protecciones específicos, el almacenamiento, los conectores, el esquemático y PCB finales siguen pendientes. Las protecciones del BSP75N requieren aproximadamente VIN ≥ 4.5 V; no asumir control directo desde GPIO de 3.3 V.
+
+Se identifican rails mínimos de 3.3 V, 5 V y campo de 24 V. La tabla inicial de power budget y el detalle de componentes están en §3.4–3.6 del documento maestro.
 
 ## Documentación
 
@@ -57,6 +61,6 @@ La arquitectura MYC-YM6231/Linux se conserva únicamente como historia de diseñ
 
 ## Próximos pasos
 
-Cerrar el demostrador y los TBD que condicionan el diseño; congelar periféricos/pinout y alimentación; seleccionar los componentes de interfaz y almacenamiento; desarrollar esquemático y firmware mínimo; diseñar, fabricar y probar la PCB Rev. A.
+El siguiente paso es extraer formalmente los consumos de los componentes seleccionados y construir el power budget. Después: seleccionar reguladores, definir adaptación de las DO y pasivos/protecciones; cerrar el demostrador, pinout y almacenamiento; desarrollar esquemático y firmware mínimo; diseñar, fabricar y probar la PCB Rev. A.
 
 El nombre remoto `industrial-linux-gateway` es histórico. Un posible cambio a un nombre neutral queda **TBD** y no se ha realizado.

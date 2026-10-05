@@ -1,14 +1,14 @@
 # Industrial Communication Gateway
 
-## Revisión 0.4 — Especificación técnica preliminar de producto y sistema
+## Revisión 0.5 — Especificación técnica preliminar de producto y sistema
 
 | Campo | Valor |
 |---|---|
 | Proyecto | Industrial Communication Gateway (nombre provisional) |
 | Tipo de documento | Especificación técnica preliminar de producto y sistema |
-| Revisión | 0.4 |
-| Estado | Fase de diseño y requisitos; plataforma Rev. A decidida; sin esquemático, PCB, firmware validado ni prototipo completo |
-| Fecha | 2026-09-15 |
+| Revisión | 0.5 |
+| Estado | Fase de diseño y requisitos; baseline de componentes seleccionada provisionalmente; sin esquemático, PCB, firmware validado ni prototipo completo |
+| Fecha | 2026-10-04 |
 | Propietario | Equipo del proyecto universitario de Diseño Electrónico |
 | Archivo maestro | `docs/industrial_linux_gateway_requirements.md` |
 
@@ -37,7 +37,7 @@ El problema de ingeniería no es solo traducir datos. El sistema debe:
 
 ### 1.2 Solución propuesta y propósito
 
-La solución se compone de una PCB propia con un **STM32H723VET6**, software embebido basado en **Zephyr RTOS** y bloques industriales de alimentación, protección, conversión, transceptores, acondicionamiento de E/S, almacenamiento persistente, conectores, diagnóstico y prueba. La tecnología y capacidad del almacenamiento, los componentes de interfaz y la asignación concreta de pines permanecen TBD.
+La solución se compone de una PCB propia con un **STM32H723VET6**, software embebido basado en **Zephyr RTOS** y bloques industriales de alimentación, protección, conversión, transceptores, acondicionamiento de E/S, almacenamiento persistente, conectores, diagnóstico y prueba. Los componentes principales de interfaz están seleccionados provisionalmente (§3.6); la tecnología y capacidad del almacenamiento y la asignación concreta de pines permanecen TBD.
 
 El producto actúa como puente entre:
 
@@ -105,6 +105,7 @@ Las capacidades objetivo comprenden adquisición, traducción de protocolos, pro
 - **Must / Should / Could / Won't:** prioridad MoSCoW para Rev. A.
 - **Accepted:** decisión vigente; **Preliminary Accepted:** baseline de diseño sujeto a validación; **Planned:** uso reservado, no dependencia obligatoria; **Deferred:** fuera de Rev. A; **Superseded:** decisión histórica reemplazada.
 - Una cantidad marcada **TARGET / PRELIMINARY BASELINE** orienta la arquitectura, pero no se considera congelada hasta cerrar sus criterios de aceptación.
+- **SELECTED / PROVISIONAL DESIGN BASELINE:** selección provisional para la arquitectura actual; no implica fabricación, circuito probado ni validación física.
 - **Origen:** necesidad, caso de uso o decisión que justifica el requisito.
 - Producto (§5) define comportamiento; sistema (§7) lo descompone por responsabilidad.
 - **Decided:** decisión formal vigente; **Implemented:** existe una realización revisable; **Validated:** existe evidencia contra un criterio de aceptación; **Not implemented / Not validated:** estado explícito cuando solo existe intención o decisión.
@@ -142,16 +143,16 @@ Un requisito no puede cerrarse mientras su criterio de aceptación siga siendo T
 | Elemento | Objetivo preliminar | Estado |
 |---|---|---|
 | Plataforma de procesamiento | STM32H723VET6 + Zephyr RTOS | Decided / Accepted for Rev. A; firmware not implemented, not validated |
-| Ethernet principal | 1 × Ethernet cableado | Accepted como función; PHY, velocidad, interfaz física y componentes TBD |
+| Ethernet principal | 1 × DP83826I, 10/100, RMII previsto | Seleccionado provisionalmente; implementación pendiente |
 | Segundo Ethernet | Segunda interfaz independiente | Target / TBD; requiere justificación y validación de recursos |
-| RS-485 | 2 × canales independientes | Preliminary Accepted; transceptores y parámetros TBD |
-| CAN | 1 × CAN-FD | Preliminary Accepted; transceptor y parámetros TBD |
-| Entradas digitales | 4 × entradas industriales de 24 V | Preliminary Accepted; front-end y umbrales TBD |
-| Salidas digitales | 2 × salidas industriales | Preliminary Accepted; tipo, carga y estado seguro TBD |
+| RS-485 | 2 × THVD1420, half-duplex | Seleccionados provisionalmente; parámetros de bus TBD |
+| CAN | 1 × ATA6561 CAN-FD | Seleccionado provisionalmente; parámetros de bus TBD |
+| Entradas digitales | 2 × ISO1212 → 4 DI aisladas de 24 V | Seleccionados provisionalmente; pasivos y umbrales TBD |
+| Salidas digitales | 2 × BSP75N → 2 DO low-side, 24 V / 500 mA nominales por canal | Seleccionados provisionalmente; adaptación de control y estado seguro TBD |
 | Interfaz de servicio | Medio soportado desde PC | Función Accepted por D-17; medio, cantidad, protocolo y conectores TBD |
 | Almacenamiento | Persistencia local para configuración, logs y datos pendientes | Función accepted; tecnología, capacidad y resistencia TBD |
 | Indicadores | Alimentación, sistema y fault; actividad adicional si es práctica | Target; cantidad y semántica TBD |
-| Alimentación | Entrada nominal de 24 VDC → protección → filtro → conversión y rails requeridos | Preliminary Accepted; tensiones, presupuesto y componentes TBD |
+| Alimentación | 24 VDC nominal → protección → filtro → conversión | Rails mínimos 3.3 V, 5 V y campo 24 V; presupuesto y conversión TBD |
 
 ### 2.3 Decision Register
 
@@ -170,9 +171,9 @@ Se preservan los IDs `D-*` de las revisiones anteriores. Las decisiones solicita
 | D-09 | Reservar el Cortex-M4F interno del SoM anterior para supervisión y tareas deterministas. | **Superseded by D-18** | Decisión histórica asociada exclusivamente al MYC-YM6231; ese recurso no forma parte de la arquitectura vigente. |
 | D-10 | Reservar PRU del SoM anterior para I/O determinista o protocolos futuros. | **Superseded by D-18** | Decisión histórica asociada exclusivamente al MYC-YM6231; ese recurso no forma parte de la arquitectura vigente. |
 | D-11 | Dos interfaces Gigabit Ethernet como arquitectura objetivo. | Reopened / TBD | Ethernet cableado principal permanece Accepted por D-02. La necesidad, velocidad y viabilidad de una segunda interfaz deben justificarse; no se consideran cerradas. |
-| D-12 | Dos canales RS-485 independientes como arquitectura objetivo. | Preliminary Accepted | Soportan integración de buses/equipos separados; transceptores, aislamiento y parámetros permanecen TBD. |
-| D-13 | Un canal CAN-FD en Rev. A. | Preliminary Accepted | El transceptor, aislamiento, velocidad, terminación y protocolo permanecen TBD. |
-| D-14 | Cuatro entradas digitales de 24 V y dos salidas digitales industriales como arquitectura objetivo. | Preliminary Accepted | Front-ends, drivers, niveles, cargas, diagnóstico y estados seguros permanecen TBD. |
+| D-12 | Dos interfaces RS-485 independientes. | Preliminary Accepted | 2 × THVD1420 seleccionados provisionalmente en half-duplex; aislamiento, terminación, bias y parámetros de operación TBD. |
+| D-13 | Un canal CAN-FD en Rev. A. | Preliminary Accepted | ATA6561 seleccionado provisionalmente; aislamiento, velocidad de operación, terminación y protocolo TBD. |
+| D-14 | Cuatro DI de 24 V y dos DO industriales. | Preliminary Accepted | 2 × ISO1212 para DI aisladas y 2 × BSP75N para DO low-side seleccionados provisionalmente; adaptación, pasivos, protecciones específicas y estados seguros TBD. |
 | D-15 | Entrada nominal de 24 VDC. | Preliminary Accepted | El rango, potencia y perfil de perturbaciones deben definirse antes de seleccionar protección y conversión. |
 | D-16 | Sin pantalla local en Rev. A. | Accepted | La operación y configuración se realizarán mediante interfaces de red y servicio. |
 | D-17 | Uso de PC externo para mantenimiento y configuración. | Accepted | El medio podrá ser Ethernet, USB, UART u otro mecanismo soportado; protocolo, conector, permisos y procedimiento permanecen TBD. SSH no es una obligación universal. |
@@ -183,10 +184,10 @@ Se preservan los IDs `D-*` de las revisiones anteriores. Las decisiones solicita
 | ID | Elemento | Estado y condición para decidir |
 |---|---|---|
 | C-01 | Perfil completo de alimentación de 24 VDC | Rango, corriente, transientes, hold-up y entorno TBD. |
-| C-02 | Parámetros eléctricos y de protocolo de RS-485 | La cantidad objetivo está aceptada; velocidad, dúplex, terminación, polarización y aislamiento están abiertos. |
+| C-02 | Parámetros RS-485 | THVD1420 half-duplex seleccionado provisionalmente; velocidad de operación, terminación, bias y aislamiento TBD. |
 | C-03 | Parámetros eléctricos y de protocolo de CAN-FD | El canal está aceptado preliminarmente; velocidad, carga, terminación, aislamiento y protocolo están abiertos. |
-| C-04 | Front-end de cuatro entradas digitales | Cantidad objetivo aceptada; tipo, umbrales, corriente, protección y diagnóstico TBD. |
-| C-05 | Etapa de dos salidas digitales | Cantidad objetivo aceptada; tipo, cargas, estado seguro, protección y diagnóstico TBD. |
+| C-04 | Cuatro DI aisladas | 2 × ISO1212 seleccionados provisionalmente; umbrales, corriente, pasivos, protección y diagnóstico TBD. |
+| C-05 | Dos DO low-side | 2 × BSP75N seleccionados provisionalmente; 24 V / 500 mA nominales por canal; adaptación de control, cargas concretas, estado seguro y protección adicional TBD. |
 | C-06 | Entradas analógicas 0–10 V o 4–20 mA | Could / Future Expansion; requieren caso de uso y requisitos metrológicos. |
 | C-07 | Procesador o MCU auxiliar | Won't para Rev. A por D-08; no se refiere al MCU principal seleccionado por D-18. |
 | C-08 | Aislamiento galvánico por interfaz o dominio | Requiere análisis de tierras, cableado, fallos, EMC y costo. |
@@ -213,10 +214,10 @@ Se preservan los IDs `D-*` de las revisiones anteriores. Las decisiones solicita
 flowchart TB
     FIELD["Field devices<br/>Equipos legacy / sensores / actuadores"]
     IFACES["RS-485 ×2 TARGET<br/>CAN-FD ×1 TARGET<br/>Digital I/O 24 V: 4 DI + 2 DO TARGET"]
-    CARRIER["Industrial carrier<br/>Power / protection / transceivers<br/>Isolation TBD / diagnostics / connectors"]
+    CARRIER["Industrial carrier<br/>Power / protection / transceivers<br/>DI isolation integrated / other isolation TBD<br/>Diagnostics / connectors"]
     MCU["STM32H723VET6<br/>Rev. A processing baseline<br/>Pin assignment TBD"]
     ZEPHYR["Zephyr RTOS<br/>Acquisition / protocol services<br/>Normalization / logging / diagnostics"]
-    ETH["Ethernet primary<br/>Second interface TBD<br/>Physical implementation TBD"]
+    ETH["Ethernet primary<br/>Second interface TBD<br/>DP83826I 10/100 / RMII<br/>Implementation pending"]
     SERVER["SCADA / server<br/>Network-side services TBD"]
 
     FIELD <--> IFACES
@@ -286,8 +287,8 @@ flowchart TB
     PROT["Input protection<br/>Fuse/eFuse / reverse polarity / TVS TBD"]
     EMI["EMI filter<br/>Topology and targets TBD"]
     CONV["Power conversion<br/>Topology / components / efficiency TBD"]
-    MCU_RAILS["MCU and digital rails<br/>Voltages / sequence / budget TBD"]
-    FIELD_RAILS["Interface / field rails<br/>Voltages / isolation / budget TBD"]
+    MCU_RAILS["MCU and digital rails<br/>3.3 V / sequence / budget TBD"]
+    FIELD_RAILS["Interface / field rails<br/>5 V / 24 V field<br/>Isolation / budget TBD"]
 
     VIN --> PROT
     PROT --> EMI
@@ -296,9 +297,30 @@ flowchart TB
     CONV --> FIELD_RAILS
 ```
 
-La arquitectura funcional aceptada es `24 VDC nominal → protección → filtrado → conversión → rails requeridos por procesamiento e interfaces`. No se fija todavía la topología, las tensiones secundarias, el convertidor principal ni su potencia.
+La arquitectura funcional aceptada es `24 VDC nominal → protección → filtrado → conversión → rails requeridos por procesamiento e interfaces`. Se identifican necesidades mínimas de 3.3 V, 5 V y dominio de campo de 24 V; la topología, secuencias, reguladores, DC/DC y potencia siguen pendientes.
 
-Antes de seleccionar componentes deben definirse: rango de entrada, presupuesto de corriente, carga pico, objetivo de eficiencia, transientes, inversión de polaridad, surge/EFT, hold-up, brownout y presupuesto térmico.
+Antes de seleccionar componentes de conversión deben definirse: rango de entrada, presupuesto de corriente, carga pico, objetivo de eficiencia, transientes, inversión de polaridad, surge/EFT, hold-up, brownout y presupuesto térmico.
+
+#### Rails mínimos y Power Budget inicial
+
+| Rail / dominio | Necesidades previstas |
+|---|---|
+| 3.3 V | STM32H723, DP83826I / lógica según configuración, 2 × THVD1420, VIO del ATA6561, VCC1 de los 2 × ISO1212 y lógica adicional. |
+| 5 V | VCC del ATA6561; posible interfaz de control del BSP75N. ATA6561 introduce la necesidad de este rail. |
+| 24 V | Dominio de campo, entradas digitales y alimentación de cargas externas de las DO según arquitectura final. |
+
+Base para la siguiente fase: extracción formal de consumos desde datasheets, sin estimaciones ni selección de reguladores o DC/DC. El power budget no está completo.
+
+| Bloque | Componente | Cant. | Rail | Ityp | Imax | Ipeak | Estado del dato |
+|---|---|---:|---|---|---|---|---|
+| Procesamiento | STM32H723VET6 | 1 | 3.3 V; configuración interna pendiente | TO EXTRACT FROM DATASHEET | TO EXTRACT FROM DATASHEET | TO EXTRACT FROM DATASHEET | Pendiente de extracción formal |
+| Ethernet PHY | DP83826I | 1 | 3.3 V / lógica según configuración | TO EXTRACT FROM DATASHEET | TO EXTRACT FROM DATASHEET | TO EXTRACT FROM DATASHEET | Pendiente de extracción formal |
+| RS-485 | THVD1420 | 2 | 3.3 V | TO EXTRACT FROM DATASHEET | TO EXTRACT FROM DATASHEET | TO EXTRACT FROM DATASHEET | Pendiente de extracción formal |
+| CAN-FD | ATA6561 | 1 | VCC 5 V; VIO 3.3 V | TO EXTRACT FROM DATASHEET | TO EXTRACT FROM DATASHEET | TO EXTRACT FROM DATASHEET | Pendiente de extracción por rail |
+| DI aisladas | ISO1212 | 2 | VCC1 3.3 V; entradas de campo 24 V | TO EXTRACT FROM DATASHEET | TO EXTRACT FROM DATASHEET | TO EXTRACT FROM DATASHEET | Pendiente: separar lógica y corriente de entrada |
+| DO low-side | BSP75N | 2 | Cargas externas 24 V; control ≈5 V mediante adaptación TBD | TO EXTRACT FROM DATASHEET | TO EXTRACT FROM DATASHEET | TO EXTRACT FROM DATASHEET | Pendiente: separar control, cargas y disipación |
+
+Los 500 mA nominales por DO son una especificación preliminar de carga externa, no un consumo interno extraído. La adaptación de control y los bloques adicionales se incorporarán al presupuesto cuando se definan.
 
 ### 3.5 System Functional Blocks
 
@@ -308,11 +330,11 @@ Antes de seleccionar componentes deben definirse: rango de entrada, presupuesto 
 | 2 | Industrial power input | Recibir alimentación industrial nominal de 24 VDC. | Preliminary Accepted | Perfil de instalación | Conector, rango y presupuesto TBD |
 | 3 | Input protection | Limitar daño por sobrecorriente, polaridad inversa y transientes. | Required; diseño TBD | Perfil eléctrico/ambiental | Fusible/eFuse, reverse-polarity, TVS TBD |
 | 4 | Power conversion | Generar los rails requeridos desde 24 V nominal. | Functional architecture accepted; implementación TBD | Tensiones, secuencia, potencia, eficiencia y térmica | Topología, convertidores, inductores y pasivos TBD |
-| 5 | Ethernet interface | Conectar la red superior y evaluar una posible segunda red. | Ethernet principal accepted; segundo enlace TBD | Ethernet MAC integrado; implementación física y recursos por validar | PHY, magnetics, velocidad, conectores y protección TBD |
-| 6 | RS-485 interfaces | Conectar dos buses independientes y soportar Modbus RTU. | Preliminary Accepted | UARTs, aislamiento y topología | Transceptores, terminación, bias y protección TBD |
-| 7 | CAN-FD interface | Conectar un bus CAN-FD. | Preliminary Accepted | Controlador del MCU, aislamiento y topología | Transceptor, terminación y protección TBD |
-| 8 | Digital input front-end | Adaptar cuatro entradas de 24 V al dominio lógico. | Preliminary Accepted | Niveles, corriente y diagnóstico | Front-end, protección, filtros y aisladores TBD |
-| 9 | Digital output stage | Accionar dos cargas industriales con estado definido. | Preliminary Accepted | Tipo de carga y estado seguro | Driver, protección y feedback TBD |
+| 5 | Ethernet interface | Conectar la red superior; segundo enlace TBD. | DP83826I seleccionado provisionalmente | MAC del MCU, 10/100, RMII | Magnetics, clocks, conector y protección TBD |
+| 6 | RS-485 interfaces | Dos buses independientes half-duplex. | 2 × THVD1420 seleccionados provisionalmente | UARTs, aislamiento y topología | Terminación, bias, protección y bitrate de operación TBD |
+| 7 | CAN-FD interface | Conectar un bus CAN-FD. | ATA6561 seleccionado provisionalmente | FDCAN; VCC 5 V / VIO 3.3 V | Terminación, protección, aislamiento y bitrate de operación TBD |
+| 8 | Digital input front-end | Cuatro entradas aisladas de 24 V. | 2 × ISO1212 seleccionados provisionalmente | VCC1 3.3 V; 2 canales por dispositivo | RSENSE, RTHR, CIN y EMC/surge TBD |
+| 9 | Digital output stage | Dos DO low-side, 24 V / 500 mA nominales por canal. | 2 × BSP75N seleccionados provisionalmente | Control ≈5 V mediante adaptación TBD | Adaptación, protección adicional, feedback y estado seguro TBD |
 | 10 | PC service interface | Servicio, actualización, recuperación o expansión. | Required function; medio TBD | Periféricos y recursos del MCU | USB/UART/Ethernet, conectores, alimentación y ESD TBD |
 | 11 | Maintenance console | Exponer logs de arranque, recuperación y debug cuando aplique. | Target | Interfaz soportada por el firmware y niveles eléctricos | Medio, conector/adaptador y protección TBD |
 | 12 | Status indicators | Indicar alimentación, heartbeat, fault y actividad práctica. | Target | GPIO, software y panel mecánico | LEDs, drivers, colores y semántica TBD |
@@ -325,7 +347,28 @@ Antes de seleccionar componentes deben definirse: rango de entrada, presupuesto 
 | 19 | Test points / DFT | Permitir prueba de rails, reset y señales críticas. | Required | Plan de prueba y layout | Lista, geometría, fixtures y cobertura TBD |
 | 20 | Mechanical integration | Alojar PCB, conectores y cableado, disipar calor y dar acceso seguro. | TBD | Dimensiones, conectores y térmica | Envolvente, montaje, retención y solución térmica TBD |
 
-### 3.6 Componentes y subbloques pendientes de selección
+### 3.6 Selección provisional de componentes y subbloques pendientes
+
+Todos los componentes siguientes quedan **SELECTED / PROVISIONAL DESIGN BASELINE** para la arquitectura actual. Son la base del siguiente paso, construir el power budget; no existe hardware fabricado, circuito probado ni selección validada físicamente, y el esquemático y PCB finales siguen pendientes. Se conserva la arquitectura STM32H723VET6 + Zephyr RTOS.
+
+| Bloque | Componente | Cant. | Función y características de la selección provisional |
+|---|---|---:|---|
+| PROCESSING | STM32H723VET6 | 1 | Microcontrolador principal; arquitectura sin cambios y asignación concreta pendiente. |
+| NETWORK | DP83826I | 1 | PHY externo 10BASE-Te / 100BASE-TX para el MAC Ethernet del STM32H723; RMII previsto, lógica compatible con 3.3 V, aplicaciones y temperatura industriales. No es un controlador Ethernet completo. |
+| INDUSTRIAL COMMUNICATION / RS-485 | THVD1420 | 2 | Dos interfaces físicas independientes half-duplex; alimentación compatible con 3.3 V, hasta 12 Mbps, fail-safe, protección ESD/EFT elevada, hasta 256 nodos y temperatura industrial. Reemplaza la selección provisional previa de SP3485. |
+| INDUSTRIAL COMMUNICATION / CAN-FD | ATA6561 | 1 | Transceiver físico CAN FD, hasta aproximadamente 5 Mbps, protecciones integradas de bus; VCC = 5 V y VIO = 3.3 V para compatibilidad lógica. Se selecciona ATA6561, no ATA6560. |
+| INDUSTRIAL I/O / DI | ISO1212 | 2 | Dos canales por dispositivo → 4 entradas digitales aisladas de 24 V. Receptor de 24–60 V; IEC 61131-2 Type 1, 2 y 3, configurable sourcing/sinking, salida compatible con 3.3 V, aislamiento integrado, sin alimentación de campo independiente. Corriente de entrada configurable mediante RSENSE; lado lógico alimentado por VCC1. |
+| INDUSTRIAL I/O / DO | BSP75N | 2 | Dos salidas **LOW-SIDE**, especificación preliminar 24 V nominales / 500 mA nominales por salida. Dispositivo autoprotegido, VDS continuo = 60 V, destinado a aplicaciones de 12 V y 24 V con cargas resistivas, inductivas y capacitivas. Protecciones contra cortocircuito, sobretemperatura y sobrecorriente; active clamp, load dump y elevada capacidad de energía inductiva. |
+
+CAN-FD previsto: `STM32H723 FDCAN → ATA6561 → CANH / CANL`. Su VCC requiere disponer de un rail de 5 V.
+
+**Control BSP75N pendiente:** aunque puede activarse con niveles lógicos relativamente bajos, las protecciones están especificadas correctamente a partir de aproximadamente **VIN ≥ 4.5 V**. No asumir conexión directa `STM32 GPIO 3.3 V → BSP75N`. Camino previsto: `STM32 3.3 V → etapa de adaptación / driver TBD → señal ≈5 V → BSP75N`. La etapa exacta aún no está seleccionada.
+
+Los pasivos de las DI no se diseñan en esta actualización. Los procedimientos del datasheet para RSENSE, RTHR, CIN y EMC/surge protection se desarrollarán posteriormente, junto con las protecciones específicas de las otras interfaces.
+
+Fuente de esta actualización: documentación vigente y decisiones de selección comunicadas por el equipo. No se encontraron datasheets locales de los componentes seleccionados; las características aquí registradas proceden de esas decisiones y su verificación documental y extracción formal de consumos siguen pendientes.
+
+Subbloques que todavía requieren definición:
 
 | Block | Required function | Status | Selection pending |
 |---|---|---|---|
@@ -336,12 +379,12 @@ Antes de seleccionar componentes deben definirse: rango de entrada, presupuesto 
 | EMI filter | Atenuar perturbaciones conducidas. | TBD | Topología, corner, damping y componentes |
 | Power conversion | Alimentar MCU e interfaces con margen. | TBD | Topología, tensiones, secuencia, controladores, frecuencia, potencia y magnetics |
 | Auxiliary regulators | Generar los rails adicionales requeridos. | TBD | Tensiones, secuencia, cargas y reguladores |
-| Ethernet PHY / magnetics | Implementar el enlace Ethernet físico desde el MAC integrado. | TBD | PHY, magnetics, clocks y termination |
+| Ethernet PHY / magnetics | Enlace desde MAC integrado. | DP83826I seleccionado provisionalmente | Magnetics, clocks, termination y protección |
 | Ethernet connector | Conectar el enlace principal; posible segundo enlace TBD. | TBD | Con/sin magnetics, LEDs, shield y retención |
-| RS-485 transceivers | Adaptar dos canales UART/bus. | TBD | Transceptor, supply, isolation, duplex y fail-safe |
-| CAN-FD transceiver | Adaptar controlador CAN al bus. | TBD | Transceptor, bitrate capability, isolation y standby |
-| Digital input front-end | Adaptar cuatro entradas de 24 V. | TBD | Topología, thresholds, filtering, isolation y diagnostics |
-| Digital output driver | Accionar dos salidas industriales. | TBD | High/low side, load rating, protection y feedback |
+| RS-485 transceivers | Dos interfaces half-duplex. | 2 × THVD1420 seleccionados provisionalmente | Aislamiento, terminación, bias y protección |
+| CAN-FD transceiver | Adaptar FDCAN al bus. | ATA6561 seleccionado provisionalmente | Bitrate de operación, aislamiento, terminación y standby |
+| Digital input front-end | Cuatro DI aisladas de 24 V. | 2 × ISO1212 seleccionados provisionalmente | RSENSE, RTHR, CIN, EMC/surge y diagnóstico |
+| Digital output driver | Dos DO low-side de 24 V / 500 mA nominales. | 2 × BSP75N seleccionados provisionalmente | Adaptación 3.3 V → ≈5 V, estado seguro, protección adicional y feedback |
 | Isolators | Cruzar barreras justificadas. | TBD after isolation analysis | Tecnología, canales, ratings y isolated power |
 | PC service connector / protection | Exponer el medio de mantenimiento seleccionado. | TBD | USB/UART/Ethernet, tipo de conector, role, ESD y alimentación |
 | UART/service interface | Proporcionar consola segura y accesible. | TBD | Nivel lógico, conector, adapter y protección |
@@ -364,9 +407,9 @@ Los comandos solo se habilitarán para casos de uso y actores autorizados. El ga
 
 | Interfaz | Objetivo | Uso previsto | Pendiente |
 |---|---|---|---|
-| Ethernet | Una interfaz cableada principal; segunda interfaz TBD | Uplink principal; una segunda red solo si se justifica | Velocidad, PHY/magnetics, protocolo, conector, protección y segundo enlace TBD |
-| RS-485 | Dos canales independientes | Modbus RTU y equipos legacy | Transceptores, aislamiento, duplex, bias, terminación y bitrate TBD |
-| CAN-FD | Un canal en Rev. A | Driver Zephyr y protocolo de aplicación TBD | Transceptor, aislamiento, bitrate, terminación y carga TBD |
+| Ethernet | DP83826I 10/100, RMII; segundo enlace TBD | Uplink principal | Magnetics, clocks, protocolo, conector, protección y segundo enlace TBD |
+| RS-485 | 2 × THVD1420 half-duplex | Modbus RTU y equipos legacy | Aislamiento, bias, terminación, protección y bitrate de operación TBD |
+| CAN-FD | ATA6561 desde FDCAN | Driver Zephyr y protocolo de aplicación TBD | Aislamiento, bitrate de operación, terminación, protección y carga TBD |
 | USB | Capacidad por definir | Posible mantenimiento, actualización o expansión | Necesidad, roles, alimentación, conectores y protección TBD |
 | Interfaz de servicio | Acceso desde PC | Configuración, logs de arranque, recuperación y debug | Medio, nivel, conector, acceso y protección TBD |
 
@@ -478,10 +521,10 @@ Las tablas de requisitos son la referencia normativa. El baseline incluye Ethern
 
 | ID | Requisito | Especificación/valor | MoSCoW | Estado | Origen | Verificación |
 |---|---|---|---|---|---|---|
-| SR-COM-01 | El sistema deberá proporcionar Ethernet cableado como enlace principal con la red superior. | Velocidad, PHY, conector, cable y alcance TBD | Must | Accepted; not implemented / not validated | D-02, D-18, UC-01 | I, T, D |
+| SR-COM-01 | El sistema deberá proporcionar Ethernet cableado como enlace principal con la red superior. | DP83826I 10/100 RMII provisional; conector, cable, clocks, magnetics, protección y alcance TBD | Must | Accepted; not implemented / not validated | D-02, D-18, UC-01 | I, T, D |
 | SR-COM-02 | El sistema deberá proporcionar al menos una interfaz de campo compatible con el equipo demostrador. | Selección entre baseline; protocolo, velocidad y topología TBD | Must | Accepted | F-02, UC-01 | I, A, T, D |
-| SR-COM-03 | La arquitectura deberá contemplar dos canales RS-485 independientes. | Transceptor, dúplex, terminación, bias, protección y aislamiento TBD | Should | Preliminary Accepted | D-12 | I, A, T |
-| SR-COM-04 | La arquitectura deberá contemplar un canal CAN-FD en Rev. A. | Transceptor, bitrate, carga, terminación, protección, aislamiento y protocolo TBD | Should | Preliminary Accepted | D-13 | I, A, T |
+| SR-COM-03 | La arquitectura deberá contemplar dos canales RS-485 independientes. | 2 × THVD1420 half-duplex provisionales; terminación, bias, protección, aislamiento y bitrate de operación TBD | Should | Preliminary Accepted | D-12 | I, A, T |
+| SR-COM-04 | La arquitectura deberá contemplar un canal CAN-FD en Rev. A. | ATA6561 provisional; bitrate de operación, carga, terminación, protección, aislamiento y protocolo TBD | Should | Preliminary Accepted | D-13 | I, A, T |
 | SR-COM-05 | Cada interfaz de campo implementada deberá reportar condiciones de error observables. | Condiciones y contadores: TBD | Must | Accepted | UC-04, F-08 | A, T, D |
 | SR-COM-06 | La electrónica de interfaz deberá conectar los puertos de campo a periféricos del STM32H723VET6 mediante límites eléctricos y lógicos documentados. | Suficiencia de pines validada externamente; pin mapping y asignación concreta TBD | Must | Accepted como arquitectura; not implemented | D-18, H-08 | I, A |
 | SR-COM-07 | Ethernet deberá recuperar comunicación tras una interrupción temporal sin ciclo manual de potencia. | Tiempo y condiciones: TBD | Must | Accepted | UC-02 | T, D |
@@ -493,8 +536,8 @@ Las tablas de requisitos son la referencia normativa. El baseline incluye Ethern
 
 | ID | Requisito | Especificación/valor | MoSCoW | Estado | Origen | Verificación |
 |---|---|---|---|---|---|---|
-| SR-IO-01 | La arquitectura deberá contemplar cuatro entradas digitales de 24 V sin aplicar niveles industriales directamente al dominio lógico del MCU. | Tipo, umbrales, corriente, filtro, aislamiento y protección TBD | Should | Preliminary Accepted | D-14 | I, A, T |
-| SR-IO-02 | La arquitectura deberá contemplar dos salidas digitales con estado seguro definido durante arranque, apagado, brownout y pérdida de control. | Tipo, cargas, estado seguro y aislamiento TBD | Should; comportamiento seguro Must si se implementan | Preliminary Accepted | D-14, NF-03 | A, T |
+| SR-IO-01 | La arquitectura deberá contemplar cuatro entradas digitales de 24 V sin aplicar niveles industriales directamente al dominio lógico del MCU. | 2 × ISO1212 provisionales, aislamiento integrado; umbrales, corriente, filtro y protección adicional TBD | Should | Preliminary Accepted | D-14 | I, A, T |
+| SR-IO-02 | La arquitectura deberá contemplar dos salidas digitales con estado seguro definido durante arranque, apagado, brownout y pérdida de control. | 2 × BSP75N low-side provisionales, 24 V / 500 mA nominales por canal; adaptación de control, cargas concretas, estado seguro y aislamiento TBD | Should; comportamiento seguro Must si se implementan | Preliminary Accepted | D-14, NF-03 | A, T |
 | SR-IO-03 | Cada salida implementada deberá limitar efectos de sobrecarga y cargas transientes conforme al perfil definido. | Corriente, energía y recuperación: TBD | Must si hay salidas | Preliminary Accepted | D-14 | A, T |
 | SR-IO-04 | Si se incluyen entradas 0–10 V o 4–20 mA, deberán cumplir parámetros metrológicos y de protección definidos. | Rango, exactitud, resolución, impedancia y bandwidth TBD | Could | Future | C-06 | A, T |
 | SR-IO-05 | Las I/O implementadas deberán exponer diagnóstico suficiente para distinguir estado de proceso de fallos observables. | Cobertura: TBD | Should | Target | UC-04 | A, T, D |
@@ -738,9 +781,9 @@ Los parámetros sin evidencia se concentran en §12. Aunque la plataforma de Rev
 | TBD-24 | DFM/DFT, puntos de prueba, fixtures y cobertura. | Fabricación y prueba | Tecnología PCB y recursos de laboratorio. |
 | TBD-25 | Procedimientos y criterios de aceptación por requisito. | Cierre de verificación | Cierre de TBD anteriores. |
 | TBD-26 | Asignación concreta de pines/periféricos y conflictos de DMA, interrupciones o concurrencia. La suficiencia total de pines ya fue validada externamente. | Congelación del baseline | Datasheet, referencia del MCU, configuración Zephyr y revisión del mapa de recursos. |
-| TBD-27 | Implementación física del Ethernet principal y justificación/decisión sobre un segundo Ethernet. | PCB y red | Selección de PHY/magnetics/conector y análisis del caso de uso. |
-| TBD-28 | Selección de transceptores RS-485 y CAN-FD. | BOM e interfaces | Requisitos eléctricos cerrados. |
-| TBD-29 | Selección de front-end DI y driver DO. | BOM y seguridad de estado | Niveles, cargas, aislamiento y diagnóstico. |
+| TBD-27 | Implementación Ethernet con DP83826I provisional y decisión sobre segundo enlace. | PCB y red | Magnetics, clocks, conector, protección y caso de uso. |
+| TBD-28 | THVD1420 y ATA6561 seleccionados provisionalmente; implementación y validación pendientes. | BOM e interfaces | Parámetros de bus, terminación, protección y aislamiento. |
+| TBD-29 | ISO1212 y BSP75N seleccionados provisionalmente; adaptación STM32 3.3 V → control BSP75N ≈5 V sin seleccionar. | BOM y estado seguro | Pasivos DI, protecciones específicas, cargas y diagnóstico. |
 | TBD-30 | Componentes de protección, filtro y DC/DC principal. | Alimentación y EMC | Cierre de TBD-05/06/20. |
 | TBD-31 | Medio físico, roles, alimentación y protección de la interfaz de servicio desde PC. | Servicio/expansión | Casos de mantenimiento y arquitectura de acceso. |
 | TBD-32 | Implementación de la consola o interfaz de servicio. | Bring-up y recuperación | Medio, niveles, conector y política de acceso. |
@@ -774,8 +817,8 @@ Los parámetros sin evidencia se concentran en §12. Aunque la plataforma de Rev
 | 1 | Cerrar el caso demostrador. | Equipo, flujo, datos y criterios de éxito definidos. |
 | 2 | Cerrar requisitos todavía TBD que condicionan la arquitectura. | Baseline verificable y controlado. |
 | 3 | Congelar asignación de periféricos y pinout. | Mapa revisado sin afirmar asignaciones antes de validarlas. |
-| 4 | Definir arquitectura de alimentación. | Rangos, rails, secuencias y protecciones justificadas. |
-| 5 | Seleccionar componentes de interfaces. | PHY, transceptores, front-ends y protecciones trazables a requisitos. |
+| 4 | Extraer consumos y construir el power budget. | Datos por componente y rail, cargas, picos y disipación; después definir conversión y reguladores. |
+| 5 | Desarrollar interfaces desde la baseline provisional. | Adaptación STM32 → BSP75N, pasivos y protecciones específicos definidos y revisados. |
 | 6 | Definir almacenamiento persistente. | Medio, capacidad, retención y recuperación definidos. |
 | 7 | Desarrollar el esquemático. | Diseño revisable de Rev. A. |
 | 8 | Validar interfaces y presupuestos antes del layout. | Evidencia de viabilidad eléctrica y de recursos. |
@@ -805,3 +848,4 @@ Los parámetros sin evidencia se concentran en §12. Aunque la plataforma de Rev
 | 0.2 | 2026-09-08 | Equipo del proyecto / Codex | Preliminar | Revisión editorial: compactación de narrativa y duplicados, diagrama funcional consolidado, plataforma Linux pendiente y aclaración de candidatos. Se conservaron IDs y prioridades. |
 | 0.3 | 2026-09-13 | Equipo del proyecto / Codex | Preliminar; baseline Rev. A | Selección MYC-YM6231; decisión de no usar MCU externo; responsabilidades A53/Linux, M4F y PRU; alcance, bloques, potencia, interfaces, componentes pendientes, rendimiento, trazabilidad y TBD ampliados. |
 | 0.4 | 2026-09-15 | Equipo del proyecto / Codex | Preliminar; baseline Rev. A actualizado | D-18 selecciona STM32H723VET6 + Zephyr RTOS. D-07, D-09 y D-10 quedan `SUPERSEDED`; se neutralizan dependencias Linux/SoM, se conserva trazabilidad de SR-LNX y se actualizan arquitectura, riesgos, TBD y pasos siguientes. |
+| 0.5 | 2026-10-04 | Equipo del proyecto / Codex | Selección provisional de componentes | STM32H723VET6, DP83826I, THVD1420, ATA6561, ISO1212 y BSP75N como SELECTED / PROVISIONAL DESIGN BASELINE; rails mínimos, adaptación DO pendiente y tabla inicial de power budget sin consumos extraídos. |

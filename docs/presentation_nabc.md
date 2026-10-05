@@ -34,7 +34,7 @@ Trazabilidad: §1.1; UC-01 a UC-05; F-01 a F-09 del [documento maestro](industri
 | Conectar con red superior | Ethernet principal | Decidido como función; implementación TBD |
 | Conservar datos durante cortes de enlace | Persistencia y política de reintento | Objetivo; medio/capacidad/política TBD |
 | Diagnosticar y mantener | Logs, estado, configuración, actualización y recuperación | Objetivo; mecanismos TBD |
-| Interactuar con campo industrial | Protección/acondicionamiento; aislamiento si se justifica | Objetivo; niveles y componentes TBD |
+| Interactuar con campo industrial | Protección/acondicionamiento; aislamiento si se justifica | ISO1212 (DI aisladas) y BSP75N (DO low-side) provisionales; pasivos/protecciones TBD |
 
 Trazabilidad: D-11 a D-18; SR-COM, SR-IO, SR-DIA, SR-SAF y SR-MNT.
 
@@ -45,7 +45,7 @@ FIELD DEVICES
   RS-485 | CAN-FD | DI/DO 24 V
           ↓
 INDUSTRIAL INTERFACE / CARRIER
-  protección + acondicionamiento + aislamiento TBD
+  protección + acondicionamiento; DI aisladas, otros aislamientos TBD
           ↓
 PROCESSING PLATFORM
   STM32H723VET6 + Zephyr RTOS
@@ -56,7 +56,7 @@ NETWORK INTERFACE
 SERVER / SCADA
 ```
 
-Usar visualmente el [diagrama de bloques](figures/industrial_gateway_architecture.drawio). La asignación concreta de pines, PHY, transceptores, almacenamiento, conectores y alimentación detallada permanece TBD.
+Usar visualmente el [diagrama de bloques](figures/industrial_gateway_architecture.drawio). La baseline de componentes es **SELECTED / PROVISIONAL DESIGN BASELINE**: STM32H723VET6, 1 × DP83826I (10/100, RMII), 2 × THVD1420 (half-duplex), 1 × ATA6561, 2 × ISO1212 (4 DI aisladas) y 2 × BSP75N (2 DO low-side, 24 V / 500 mA nominales por canal). La asignación de pines, almacenamiento, conectores, pasivos/protecciones y alimentación detallada permanece TBD. ATA6561 requiere VCC 5 V / VIO 3.3 V. La adaptación STM32 3.3 V → control BSP75N ≈5 V aún no está seleccionada; no asumir conexión directa (protecciones especificadas desde VIN ≈4.5 V).
 
 Trazabilidad: D-18; §3; SR-COM-01 a 10; SR-LNX-01 a 11.
 
@@ -123,7 +123,8 @@ Mensaje defendible: **mejor ajuste potencial a este conjunto específico de requ
 | STM32H723VET6 + Zephyr | Decidido por D-18 |
 | Suficiencia total de pines | Validada externamente |
 | Asignación concreta de pines/periféricos | TBD |
-| Interfaces objetivo | Decididas como alcance; no implementadas |
+| Interfaces objetivo | Componentes seleccionados provisionalmente (§3.6 del documento maestro); no implementados ni validados físicamente |
+| Power budget y rails | Rails mínimos 3.3 V, 5 V y campo 24 V; extracción formal de consumos, presupuesto y reguladores pendientes |
 | Segundo Ethernet | TBD; requiere justificación |
 | Esquemático y PCB | No desarrollados/fabricados |
 | Firmware y prueba simultánea de interfaces | No implementados/no validados |
@@ -132,8 +133,8 @@ Mensaje defendible: **mejor ajuste potencial a este conjunto específico de requ
 ## 10. Próximos pasos
 
 1. Cerrar caso demostrador y requisitos TBD críticos.
-2. Congelar periféricos/pinout y arquitectura de alimentación.
-3. Seleccionar interfaces y almacenamiento.
+2. Extraer consumos de datasheets y construir el power budget; después seleccionar reguladores.
+3. Congelar periféricos/pinout, definir adaptación BSP75N, pasivos/protecciones y almacenamiento.
 4. Desarrollar esquemático y validar interfaces/presupuestos.
 5. Desarrollar firmware mínimo en Zephyr.
 6. Diseñar y fabricar PCB Rev. A.
