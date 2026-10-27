@@ -1,0 +1,41 @@
+﻿Name,Value,Category,Description
+Vout,3.3 V,System Information,Operational Output Voltage
+IC Tolerance,12.5 mV,IC,IC Feedback Tolerance
+Cin IRMS,285.32 mA,Capacitor,Input capacitor RMS ripple current
+Cin Pd,244.23 µW,Capacitor,Input capacitor power dissipation
+Cout IRMS,242.35 mA,Capacitor,Output capacitor RMS ripple current
+Cout Pd,58.73 µW,Capacitor,Output capacitor power dissipation
+Cinx IRMS,7.51 mA,Capacitor,Bulk capacitor RMS ripple current
+Cinx Pd,1.67 µW,Capacitor,Bulk capacitor power dissipation
+L Ipp,839.52 mA,Inductor,Peak-to-peak inductor ripple current
+L Pd,7.13 mW,Inductor,Inductor power dissipation
+Ipp percentage,119.93%,Inductor,Inductor ripple current percentage (with respect to average inductor current)
+Duty Cycle,18.78%,System Information,Duty cycle
+Efficiency,89.6%,System Information,Steady state efficiency
+Frequency,2.18 MHz,System Information,Switching frequency
+IC Tj,40.42 °C,IC,IC junction temperature
+IC Pd,260.41 mW,IC,IC power dissipation
+Pout,2.31 W,System Information,Total output power
+Iin Avg,143.23 mA,IC,Average input current
+IC Ipk,1.12 A,IC,Peak switch current in IC
+Mode,CCM,System Information,Conduction Mode
+Vout p-p,6.16 mV,System Information,Peak-to-peak output ripple voltage
+Vin p-p,17.6 mV,System Information,Peak-to-peak input voltage
+Phase Marg,70.97 °,System Information,Bode Plot Phase Margin
+Cross Freq,138.37 kHz,System Information,Bode plot crossover frequency
+Low Freq Gain,67.5 dB,System Information,Gain at 1Hz
+Gain Marg,-17.86 dB,System Information,Bode Plot Gain Margin
+ICThetaJA Effective,40 °C/W,IC,Effective IC Junction-to-Ambient Thermal Resistance
+Total Pd,268.18 mW,Power,Total Power Dissipation
+FootPrint,152 mm²,System Information,Total Foot Print Area of BOM components
+Vin,18 V,System Information,Vin operating point
+Iout,700 mA,System Information,Iout operating point
+Cin Pd,244.23 µW,Power,Input capacitor power dissipation
+Cout Pd,58.73 µW,Power,Output capacitor power dissipation
+Cinx Pd,1.67 µW,Power,Bulk capacitor power dissipation
+L Pd,7.13 mW,Power,Inductor power dissipation
+IC Pd,260.41 mW,Power,IC power dissipation
+Vout Actual,3.32 V,System Information,Vout Actual calculated based on selected voltage divider resistors
+Vout Tolerance,2.68%,System Information,Vout Tolerance based on IC Tolerance (no load) and voltage divider resistors if applicable
+Total BOM,$1.63,System Information,Total BOM Cost
+BOM Count,10 ,System Information,Total Design BOM count

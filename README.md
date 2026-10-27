@@ -1,66 +1,56 @@
 # Industrial Communication Gateway
 
-Gateway embebido para adquirir, normalizar, diagnosticar y comunicar datos entre interfaces industriales y una red IP. El diseño de Rev. A se centra en el conjunto objetivo de interfaces definido por los requisitos; no se presenta como un producto comercial terminado.
+Gateway embebido para adquirir, normalizar y comunicar datos entre interfaces
+industriales y una red IP, basado en **STM32H723VET6 + Zephyr RTOS**.
 
-## Status
+## Arquitectura actual
 
-**Design / requirements phase**
+- **Ethernet:** 1 × DP83826I, 10/100, conectado al MAC mediante RMII.
+- **RS-485:** 2 × THVD1420, buses independientes half-duplex.
+- **CAN-FD:** 1 × ATA6561, VCC = 5 V y VIO = 3.3 V.
+- **Digital inputs:** 2 × ISO1212, cuatro DI aisladas de 24 V.
+- **Digital outputs:** 2 × BSP75N low-side, hasta 500 mA por canal.
+- **Control de DO:** SN74LVC2T45, traducción activa 3.3 V → 5 V, A → B.
 
-- Plataforma Rev. A: **STM32H723VET6 + Zephyr RTOS**, arquitectura sin cambios.
-- Componentes: **SELECTED / PROVISIONAL DESIGN BASELINE**; selección suficiente para iniciar la extracción de consumos y el power budget, todavía pendientes.
-- Suficiencia total de pines para las interfaces previstas: **validada externamente**.
-- Asignación concreta de pines/periféricos: **TBD**.
-- No PCB fabricated.
-- No firmware validated.
-- No complete prototype yet.
+## Alimentación
 
-La selección de plataforma está decidida, pero todavía no equivale a implementación ni validación funcional.
+Dos entradas físicas, adaptador externo y gabinete industrial, admiten
+**18–30 VDC**, con **24 V nominales**, y pueden conectarse simultáneamente.
+Cada entrada utiliza **TDS3011P** junto al conector y una rama
+**LTC4414 + DMP6023LSS-13** para ideal-diode OR-ing sin prioridad explícita.
 
-## Arquitectura Rev. A
+Las ramas convergen en **24V_OR**. Un canal de **NIS3071MT4TWG Auto-Retry**
+genera **24V_SYS**, que alimenta campo de 24 V y los bucks **LMR36015 → 3.3 V**
+y **LMR36015 → 5 V**. R_LIM = **43.2 kΩ** proporciona **ITH ≈1.4 A**, estimado
+de la curva MT3/MT4 del datasheet.
 
-```text
-FIELD DEVICES
-    ↓
-INDUSTRIAL INTERFACE / CARRIER
-    ↓
-STM32H723VET6 + ZEPHYR RTOS
-    ↓
-NETWORK INTERFACE
-    ↓
-SERVER / SCADA
-```
+El TDS3011P especifica VC = **40 V máximo** bajo su ensayo de surge. Ese valor
+coincide con el absoluto del LTC4414: el diseño acepta ese trade-off y requiere
+un lazo conector–TDS–GND corto; no afirma margen garantizado por debajo de 40 V.
 
-Interfaces y funciones objetivo:
-
-- PROCESSING: **STM32H723VET6**;
-- NETWORK: **1 × DP83826I**, PHY Ethernet externo 10/100, RMII previsto;
-- INDUSTRIAL COMMUNICATION: **2 × THVD1420**, RS-485 independientes half-duplex;
-- **1 × ATA6561**, transceiver CAN-FD (VCC 5 V / VIO 3.3 V);
-- INDUSTRIAL I/O: **2 × ISO1212 → 4 DI aisladas de 24 V**;
-- **2 × BSP75N → 2 DO LOW-SIDE**, 24 V / 500 mA nominales por canal;
-- almacenamiento persistente, tecnología y capacidad TBD;
-- diagnóstico, configuración y mantenimiento desde PC;
-- segundo Ethernet sujeto a justificación: TBD.
-
-Esta selección es provisional: no representa hardware fabricado, circuito probado ni validación física. El power budget, los reguladores/DC/DC, la adaptación STM32 3.3 V → control BSP75N ≈5 V, los pasivos/protecciones específicos, el almacenamiento, los conectores, el esquemático y PCB finales siguen pendientes. Las protecciones del BSP75N requieren aproximadamente VIN ≥ 4.5 V; no asumir control directo desde GPIO de 3.3 V.
-
-Se identifican rails mínimos de 3.3 V, 5 V y campo de 24 V. La tabla inicial de power budget y el detalle de componentes están en §3.4–3.6 del documento maestro.
+Los cálculos de consumo, pérdidas y capacidades de los reguladores se detallan
+en el documento técnico. Las capacidades de diseño de **0.7 A en 3.3 V** y
+**0.1 A en 5 V** se distinguen del consumo estimado de las cargas.
 
 ## Documentación
 
-- [Requisitos técnicos y Decision Register](docs/industrial_linux_gateway_requirements.md)
-- [Proof of Concept: alcance y criterios de éxito](docs/proof_of_concept.md)
-- [Fuente de presentación NABC](docs/presentation_nabc.md)
+- [Diseño técnico actual y Power Budget](docs/industrial_gateway_requirements.md)
+- [Arquitectura editable](docs/figures/industrial_gateway_architecture.drawio)
+- [Diagrama de contexto](docs/figures/industrial_gateway_context.drawio)
+- [Organigrama de firmware](docs/figures/industrial_gateway_firmware_organigram.drawio)
+- [Fuentes locales WEBENCH](docs/sources/webench/)
+- [Proof of Concept](docs/proof_of_concept.md)
+- [Arquitectura de firmware PoC](docs/firmware_architecture_poc.md)
+- [Documento preparatorio de firmware para Diseño Electrónico](docs/firmware_session_brief.md)
+- [Presentación NABC](docs/presentation_nabc.md)
 - [Competidores y fuentes oficiales](docs/competitor_references.md)
-- [Diagrama de arquitectura editable](docs/figures/industrial_gateway_architecture.drawio)
-- [Auditoría NABC del estado previo](docs/auditoria_nabc_2026-09-15.md)
 
-El `.drawio` es la fuente normativa del diagrama. El SVG debe regenerarse desde esa fuente; el export anterior se retiró porque aún representaba la selección de plataforma como TBD y la exportación local no produjo un reemplazo verificable.
+La colección local de datasheets se encuentra en
+`C:/dev/7mo/design/Datasheets_industrial_gateway`. Las alternativas fuera del
+baseline se conservan en su subcarpeta `revision_posterior`.
 
-La arquitectura MYC-YM6231/Linux se conserva únicamente como historia de diseño en el Decision Register. La decisión vigente es D-18.
+## Project Status
 
-## Próximos pasos
-
-El siguiente paso es extraer formalmente los consumos de los componentes seleccionados y construir el power budget. Después: seleccionar reguladores, definir adaptación de las DO y pasivos/protecciones; cerrar el demostrador, pinout y almacenamiento; desarrollar esquemático y firmware mínimo; diseñar, fabricar y probar la PCB Rev. A.
-
-El nombre remoto `industrial-linux-gateway` es histórico. Un posible cambio a un nombre neutral queda **TBD** y no se ha realizado.
+The project is currently in the electronic-design phase. Documented component
+selections represent the current design baseline and do not imply physical
+hardware validation.

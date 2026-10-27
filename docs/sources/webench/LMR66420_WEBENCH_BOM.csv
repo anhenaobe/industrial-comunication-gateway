@@ -1,0 +1,11 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rt,Yageo,RC0603FR-077K15L,1,0.01,4.68,Resistance: 7.15 kΩ  Tolerance: 1.0%  Power: 100 mW  
+U1,Texas Instruments,LMR66420R5RXBR,1,1.208,12.96,
+Cout,MuRata,GRM188R60J226MEA0D,1,0.04,4.68,Cap: 22 µF  Total Derated Cap: 7.9 µF  VDC: 6.3 V  ESR: 1 mΩ  Package: 0603  
+Cvcc,Taiyo Yuden,EMK107B7105KA-T,1,0.01,4.68,Cap: 1 µF  Total Derated Cap: 1 µF  VDC: 16 V  ESR: 1 mΩ  Package: 0603  
+Cin,MuRata,GRM31CR71H475KA12L,1,0.1,10.92,Cap: 4.7 µF  Total Derated Cap: 2.2 µF  VDC: 50 V  ESR: 3 mΩ  Package: 1206  
+Cboot,MuRata,GRM155R71C104KA88D,1,0.01,3,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0402  
+L1,TDK,VLP8040T-1R5N,1,0.22,113.42,L: 1.5 µH  DCR: 13 mΩ  IDC: 7.8 A  
+Cinx,TDK,CGA3E2X7R1H104K080AA,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 72 nF  VDC: 50 V  ESR: 29.6 mΩ  Package: 0603  
+Rfbb,Vishay-Dale,CRCW040210K0FKED,1,0.01,3,Resistance: 10 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rfbt,Vishay-Dale,CRCW040223K2FKED,1,0.01,3,Resistance: 23.2 kΩ  Tolerance: 1.0%  Power: 63 mW  

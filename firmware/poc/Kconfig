@@ -1,0 +1,43 @@
+mainmenu "Industrial Gateway PoC"
+
+source "Kconfig.zephyr"
+
+menu "PoC heartbeat"
+
+config POC_DHCP
+	bool "Obtain IPv4 configuration using DHCP"
+	default y
+	select NET_DHCPV4
+
+config POC_LOCAL_IPV4
+	string "Static board IPv4 address"
+	default "192.0.2.2"
+	depends on !POC_DHCP
+
+config POC_NETMASK
+	string "Static IPv4 netmask"
+	default "255.255.255.0"
+	depends on !POC_DHCP
+
+config POC_GATEWAY
+	string "Static gateway (0.0.0.0 for an isolated link)"
+	default "0.0.0.0"
+	depends on !POC_DHCP
+
+config POC_DEST_IPV4
+	string "Approved PC IPv4 destination (empty disables heartbeat transmission)"
+	default ""
+	help
+	  Set explicitly to the receiver PC address. No address discovery or broadcast.
+
+config POC_UDP_PORT
+	int "Destination UDP port"
+	range 1024 65535
+	default 4242
+
+config POC_SEND_INTERVAL_MS
+	int "Heartbeat interval in milliseconds"
+	range 100 60000
+	default 2000
+
+endmenu

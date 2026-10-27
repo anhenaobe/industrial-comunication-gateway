@@ -1,0 +1,12 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rfbb,Yageo,RC0603FR-0724K9L,1,0.01,4.68,Resistance: 24.9 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rfbt,Vishay-Dale,CRCW0402100KFKED,1,0.01,3,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cout,MuRata,GRM32ER61C476KE15L,1,0.17,14.7,Cap: 47 µF  Total Derated Cap: 32 µF  VDC: 16 V  ESR: 3.04 mΩ  Package: 1210  
+U1,Texas Instruments,LMR36015ARNXR,1,1.171,12,
+Cvcc,Kemet,C0603C105Z8VACTU,1,0.01,4.68,Cap: 1 µF  Total Derated Cap: 1 µF  VDC: 10 V  ESR: 1 mΩ  Package: 0603  
+Coutx,MuRata,GRM32ER61C476KE15L,1,0.17,14.7,Cap: 47 µF  Total Derated Cap: 32 µF  VDC: 16 V  ESR: 3.04 mΩ  Package: 1210  
+Cin,Taiyo Yuden,MSASU21GBB5475KTNA01,1,0.09025,6.75,Cap: 4.7 µF  Total Derated Cap: 310 nF  VDC: 50 V  ESR: 10.31 mΩ  Package: 0805  
+Cinx2,Taiyo Yuden,MSASH21GSB7473KTNA01,1,0.03136,6.75,Cap: 47 nF  Total Derated Cap: 41 nF  VDC: 100 V  ESR: 456.78 mΩ  Package: 0805  
+Cinx,Taiyo Yuden,MSASH21GSB7473KTNA01,1,0.03136,6.75,Cap: 47 nF  Total Derated Cap: 41 nF  VDC: 100 V  ESR: 456.78 mΩ  Package: 0805  
+L1,NIC Components,NPI31W220MTRF,1,0.2312,172.5,L: 22 µH  DCR: 85 mΩ  IDC: 2.7 A  
+Cboot,MuRata,GRM155R71A104KA01D,1,0.01,3,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 10 V  ESR: 1 mΩ  Package: 0402  
