@@ -1,5 +1,8 @@
 # Academic Gateway Rev. 1 — manual schematic construction guide
 
+> Actualización nativa 2026-11-10: ver [cierre y evidencia actual](closure_verification_rev1.md) y [BOM real por designador](assembly_bom_rev1.csv). Los pendientes de captura/modelos descritos debajo son históricos y quedan sustituidos por ese cierre; la validación del diálogo ECO sigue pendiente.
+
+
 Current baseline: **2026-11-08**. This is the primary construction reference for
 manual drawing in Altium. Use the exact connections below and current
 [BOM](final_bom.csv), [passive BOM](passive_bom.csv) and [CAD mapping](cad_library_mapping.csv).

@@ -1,0 +1,2045 @@
+[
+  {
+    "sheet": "Power",
+    "designator": "U2",
+    "uid": "HRMXGOKP",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RNX0012A_TI",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "L1",
+    "uid": "OEWBQQXK",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_XAL4030_COILCRAFT",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C6",
+    "uid": "GYVJIUFB",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C3225_TDK_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C4",
+    "uid": "XJRSGURG",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C3225_TDK_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C5",
+    "uid": "GXHOBYAR",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C3225_TDK_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R6",
+    "uid": "MGEQAODF",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C8",
+    "uid": "XAWODNOW",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0805_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C9",
+    "uid": "YFDKQRST",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0805_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C11",
+    "uid": "OOFJQOSD",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C10",
+    "uid": "DILWSMQE",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R7",
+    "uid": "WSVQJHSJ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "J1",
+    "uid": "JQFVLHLV",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_TB002_500_2P_SAMESKY",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "L2",
+    "uid": "RKAKPZLP",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_XAL4040_COILCRAFT",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "U3",
+    "uid": "JLMOVQWE",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RNX0012A_TI",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C15",
+    "uid": "RIHZZXDF",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C3225_TDK_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C13",
+    "uid": "FMATDAQA",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C3225_TDK_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C14",
+    "uid": "WKNAIATP",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C3225_TDK_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R9",
+    "uid": "RURNYBAG",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C18",
+    "uid": "AUPIRNQP",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0805_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C20",
+    "uid": "DFJBIELY",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C19",
+    "uid": "CKIXXZPM",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R10",
+    "uid": "NOTQJJBT",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "F1",
+    "uid": "MSRHFNGW",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0451_LITTELFUSE",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C3",
+    "uid": "ZVSXFFNA",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R5",
+    "uid": "YCPJZLYO",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R8",
+    "uid": "KBWRAZAY",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "D2",
+    "uid": "WUBXBPPV",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_TDS3311P_SEMTECH",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C1",
+    "uid": "RKRKFCMQ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0805_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C2",
+    "uid": "UTTETZAT",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C5750_TDK_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C7",
+    "uid": "SGAYZVWG",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C3225_TDK_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C12",
+    "uid": "VDIDGJBL",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C5750_TDK_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C16",
+    "uid": "NACSMIJC",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0805_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C17",
+    "uid": "EDGIHUFV",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0805_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C21",
+    "uid": "ZRJTUGCW",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C3225_TDK_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C60",
+    "uid": "ZLBZMHIR",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C5750_TDK_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C61",
+    "uid": "EACTPBPA",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0805_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "D1",
+    "uid": "IHKGJGCT",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_SS3P6L_VISHAY_88987",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R1",
+    "uid": "BLNFQLBZ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R2",
+    "uid": "OWKWZNDC",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R3",
+    "uid": "ROAOTNFT",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R4",
+    "uid": "DZUIXBLP",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "U1",
+    "uid": "PBWRWDQM",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_DRC0010J_TI_TPS2662_EPU",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C66",
+    "uid": "JYDRTDJC",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C5750_TDK_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C67",
+    "uid": "EUAKJXSD",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C5750_TDK_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "U4",
+    "uid": "GRNOZAMD",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_LQFP100_ST_1L",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C22",
+    "uid": "KQULQVJX",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C31",
+    "uid": "BNBEPVDO",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C32",
+    "uid": "LSWJZRFS",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C26",
+    "uid": "YZKFPFLD",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C35",
+    "uid": "ILZXHJRZ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C27",
+    "uid": "YPTBYMJC",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0805_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C33",
+    "uid": "JYNLOCNH",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C34",
+    "uid": "RBNTEYAH",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C30",
+    "uid": "GLVNHTQP",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C29",
+    "uid": "GUCMBGVU",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_SAMSUNG_CL10_1608_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C24",
+    "uid": "RFWMSFCK",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C23",
+    "uid": "XCSEVBTV",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_SAMSUNG_CL10_1608_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C28",
+    "uid": "LGKHVULL",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "R11",
+    "uid": "DEJZJHXW",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "Y1",
+    "uid": "RCWUKIAN",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_KC2016Z_KYOCERA",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C25",
+    "uid": "OTVSHVWB",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "J3",
+    "uid": "COUCKRXB",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_WRPHD_6X1_254_WURTH",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C62",
+    "uid": "CWUGVEBI",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_SAMSUNG_CL10_1608_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C63",
+    "uid": "SIFCIMEA",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "J8",
+    "uid": "OGTGRVSS",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_WRPHD_2X1_254_WURTH",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "U5",
+    "uid": "WCLMUURL",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RHB0032M_TI",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R13",
+    "uid": "HECPLJIL",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "Y2",
+    "uid": "FKHSFCWU",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_KC2016Z_KYOCERA",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C37",
+    "uid": "TAHHXFNC",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C38",
+    "uid": "IZIQQNAQ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C39",
+    "uid": "RQZPEICP",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C40",
+    "uid": "QFTYFZKS",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_SAMSUNG_CL10_1608_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C41",
+    "uid": "EIFZMQEV",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_SAMSUNG_CL21_2012_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R15",
+    "uid": "GOYDQSAU",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C36",
+    "uid": "KDCUGLRA",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C47",
+    "uid": "WLLEHORR",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C48",
+    "uid": "BXGPDHAO",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C49",
+    "uid": "WGKTYEQO",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_SAMSUNG_CL10_1608_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C50",
+    "uid": "NJVBYEAV",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_SAMSUNG_CL21_2012_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "T1",
+    "uid": "TZFWBQJG",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_HX1188FNL_PULSE",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C43",
+    "uid": "NJVAAZFJ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C42",
+    "uid": "XTTHKGIP",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C45",
+    "uid": "IYTKAWMY",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C44",
+    "uid": "YGKUKIJX",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "U6",
+    "uid": "KYEFSGEW",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_SOIC8_1P27_5P4",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "J2",
+    "uid": "COZFDHHG",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_SS7188SANF_STEWART",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [
+          "MP1",
+          "MP2"
+        ],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R16",
+    "uid": "CJHZXOPZ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R18",
+    "uid": "ILPXQPZL",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C51",
+    "uid": "HCWJDRLY",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "U7",
+    "uid": "PDGUCLHA",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_SOIC8_1P27_5P4",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C53",
+    "uid": "HWYTFHHZ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C54",
+    "uid": "NLYTMBUU",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "D3",
+    "uid": "CHFQVBCZ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_DQA0010A_TI",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R36",
+    "uid": "QMYQFUAL",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_CRCW1206_VISHAY_20035_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R35",
+    "uid": "LZXKQHYA",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_CRCW1206_VISHAY_20035_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R34",
+    "uid": "GIKIFSPE",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C46",
+    "uid": "NIJCSQQZ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C1206_KEMET_C1076_DENSITY_B",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C52",
+    "uid": "BXITNTOA",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C1206_KEMET_C1076_DENSITY_B",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C65",
+    "uid": "LSSDIOIY",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_C1206_KEMET_C1076_DENSITY_B",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R12",
+    "uid": "IJVLMCAI",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_CRCW0805_VISHAY_20035_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R14",
+    "uid": "NCGSEMQA",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_CRCW0805_VISHAY_20035_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R17",
+    "uid": "MPSWLHLR",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_CRCW0805_VISHAY_20035_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R19",
+    "uid": "BPELKBGI",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_CRCW0805_VISHAY_20035_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "U8",
+    "uid": "YBIQUACK",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_DBQ0016A_TI",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "U10",
+    "uid": "HFVWTFFX",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_BSP75N_SOT223_DN_DIODES",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "U11",
+    "uid": "HXFRPTPO",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_BSP75N_SOT223_DN_DIODES",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "C56",
+    "uid": "DRLIHQRN",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R23",
+    "uid": "UALMXCSK",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "C57",
+    "uid": "WYHGLROD",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R20",
+    "uid": "NLIJFTYK",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "C55",
+    "uid": "RNAUMUON",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R24",
+    "uid": "MPAKHNYW",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "C59",
+    "uid": "HWDGPBOG",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "Q1",
+    "uid": "ZGPLWPAI",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_MMBT3904_BEC_DIODES",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R25",
+    "uid": "EIFUFBCH",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R26",
+    "uid": "WWPIMQDJ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "Q2",
+    "uid": "LYKPEOLB",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_DMP2035U_GSD_DIODES",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R27",
+    "uid": "GYTFUJGQ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R30",
+    "uid": "KTKLPTQK",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "Q3",
+    "uid": "JWETHJDZ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_MMBT3904_BEC_DIODES",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "Q4",
+    "uid": "KCBTBQQQ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_DMP2035U_GSD_DIODES",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R28",
+    "uid": "FQNRBDVH",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R29",
+    "uid": "SIHMJMSZ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "C58",
+    "uid": "JHIWKOKG",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R31",
+    "uid": "NYCHPYYK",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R32",
+    "uid": "RNDWTKPP",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R33",
+    "uid": "INOIRBWY",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "J5",
+    "uid": "GEAPITIA",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_TB002_500_2P_SAMESKY",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "J6",
+    "uid": "FRLZEHLZ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_TB002_500_2P_SAMESKY",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "J7",
+    "uid": "DDGOBXHJ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_TB002_500_2P_SAMESKY",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "J4",
+    "uid": "QBMJUTDX",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_TB002_500_3P_SAMESKY",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "J9",
+    "uid": "OWIWTRZK",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_TB002_500_3P_SAMESKY",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "J10",
+    "uid": "IVYVIXIY",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_TB002_500_3P_SAMESKY",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "D4",
+    "uid": "AVTRSCHS",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_SM712_BOURNS",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R21",
+    "uid": "JUPRMEBQ",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_MM204_FIRSTOHM",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R22",
+    "uid": "KFWKUEKU",
+    "current_model_count": 1,
+    "checks": [
+      {
+        "name": "GW_MM204_FIRSTOHM",
+        "exists": true,
+        "symbol_pins_without_same_named_pad": [],
+        "pads_without_same_named_symbol_pin": [],
+        "model_parent_record": "44"
+      }
+    ]
+  }
+]

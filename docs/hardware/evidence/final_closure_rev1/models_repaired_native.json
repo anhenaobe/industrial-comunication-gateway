@@ -1,0 +1,810 @@
+{
+  "objects": [
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "U2",
+      "UniqueId": "HRMXGOKP",
+      "Models": "[{\"model_name\":\"GW_RNX0012A_TI\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RNX0012A_TI\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]},{\"model_name\":\"GW_RNX0012B_TI\",\"model_type\":\"PCBLIB\",\"is_current\":false,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RNX0012B_TI\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "L1",
+      "UniqueId": "OEWBQQXK",
+      "Models": "[{\"model_name\":\"GW_XAL4030_COILCRAFT\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_XAL4030_COILCRAFT\",\"file_kind\":\"PCBLIB\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C6",
+      "UniqueId": "GYVJIUFB",
+      "Models": "[{\"model_name\":\"GW_C3225_TDK_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C3225_TDK_REFLOW\",\"file_kind\":\"PCBLIB\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C4",
+      "UniqueId": "XJRSGURG",
+      "Models": "[{\"model_name\":\"GW_C3225_TDK_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C3225_TDK_REFLOW\",\"file_kind\":\"PCBLIB\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C5",
+      "UniqueId": "GXHOBYAR",
+      "Models": "[{\"model_name\":\"GW_C3225_TDK_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C3225_TDK_REFLOW\",\"file_kind\":\"PCBLIB\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R6",
+      "UniqueId": "MGEQAODF",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C8",
+      "UniqueId": "XAWODNOW",
+      "Models": "[{\"model_name\":\"GW_0805_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0805_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C9",
+      "UniqueId": "YFDKQRST",
+      "Models": "[{\"model_name\":\"GW_0805_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0805_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C11",
+      "UniqueId": "OOFJQOSD",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C10",
+      "UniqueId": "DILWSMQE",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R7",
+      "UniqueId": "WSVQJHSJ",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "J1",
+      "UniqueId": "JQFVLHLV",
+      "Models": "[{\"model_name\":\"GW_TB002_500_2P_SAMESKY\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_TB002_500_2P_SAMESKY\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "L2",
+      "UniqueId": "RKAKPZLP",
+      "Models": "[{\"model_name\":\"GW_XAL4040_COILCRAFT\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_XAL4040_COILCRAFT\",\"file_kind\":\"PCBLIB\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "U3",
+      "UniqueId": "JLMOVQWE",
+      "Models": "[{\"model_name\":\"GW_RNX0012A_TI\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RNX0012A_TI\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]},{\"model_name\":\"GW_RNX0012B_TI\",\"model_type\":\"PCBLIB\",\"is_current\":false,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RNX0012B_TI\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C15",
+      "UniqueId": "RIHZZXDF",
+      "Models": "[{\"model_name\":\"GW_C3225_TDK_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C3225_TDK_REFLOW\",\"file_kind\":\"PCBLIB\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C13",
+      "UniqueId": "FMATDAQA",
+      "Models": "[{\"model_name\":\"GW_C3225_TDK_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C3225_TDK_REFLOW\",\"file_kind\":\"PCBLIB\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C14",
+      "UniqueId": "WKNAIATP",
+      "Models": "[{\"model_name\":\"GW_C3225_TDK_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C3225_TDK_REFLOW\",\"file_kind\":\"PCBLIB\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R9",
+      "UniqueId": "RURNYBAG",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C18",
+      "UniqueId": "AUPIRNQP",
+      "Models": "[{\"model_name\":\"GW_0805_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0805_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C20",
+      "UniqueId": "DFJBIELY",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C19",
+      "UniqueId": "CKIXXZPM",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R10",
+      "UniqueId": "NOTQJJBT",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "F1",
+      "UniqueId": "MSRHFNGW",
+      "Models": "[{\"model_name\":\"GW_0451_LITTELFUSE\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0451_LITTELFUSE\",\"file_kind\":\"PCBLIB\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C3",
+      "UniqueId": "ZVSXFFNA",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R5",
+      "UniqueId": "YCPJZLYO",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R8",
+      "UniqueId": "KBWRAZAY",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "D2",
+      "UniqueId": "WUBXBPPV",
+      "Models": "[{\"model_name\":\"GW_TDS3311P_SEMTECH\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_TDS3311P_SEMTECH\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C1",
+      "UniqueId": "RKRKFCMQ",
+      "Models": "[{\"model_name\":\"GW_0805_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0805_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C2",
+      "UniqueId": "UTTETZAT",
+      "Models": "[{\"model_name\":\"GW_C5750_TDK_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C5750_TDK_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C7",
+      "UniqueId": "SGAYZVWG",
+      "Models": "[{\"model_name\":\"GW_C3225_TDK_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C3225_TDK_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C12",
+      "UniqueId": "VDIDGJBL",
+      "Models": "[{\"model_name\":\"GW_C5750_TDK_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C5750_TDK_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C16",
+      "UniqueId": "NACSMIJC",
+      "Models": "[{\"model_name\":\"GW_0805_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0805_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C17",
+      "UniqueId": "EDGIHUFV",
+      "Models": "[{\"model_name\":\"GW_0805_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0805_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C21",
+      "UniqueId": "ZRJTUGCW",
+      "Models": "[{\"model_name\":\"GW_C3225_TDK_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C3225_TDK_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C60",
+      "UniqueId": "ZLBZMHIR",
+      "Models": "[{\"model_name\":\"GW_C5750_TDK_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C5750_TDK_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C61",
+      "UniqueId": "EACTPBPA",
+      "Models": "[{\"model_name\":\"GW_0805_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0805_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "D1",
+      "UniqueId": "IHKGJGCT",
+      "Models": "[{\"model_name\":\"GW_SS3P6L_VISHAY_88987\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_SS3P6L_VISHAY_88987\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R1",
+      "UniqueId": "BLNFQLBZ",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R2",
+      "UniqueId": "OWKWZNDC",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R3",
+      "UniqueId": "ROAOTNFT",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R4",
+      "UniqueId": "DZUIXBLP",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "U1",
+      "UniqueId": "PBWRWDQM",
+      "Models": "[{\"model_name\":\"GW_DRC0010J_TI_TPS2662_EPU\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_DRC0010J_TI_TPS2662_EPU\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "U4",
+      "UniqueId": "GRNOZAMD",
+      "Models": "[{\"model_name\":\"GW_LQFP100_ST_1L\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_LQFP100_ST_1L\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C22",
+      "UniqueId": "KQULQVJX",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C31",
+      "UniqueId": "BNBEPVDO",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C32",
+      "UniqueId": "LSWJZRFS",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C26",
+      "UniqueId": "YZKFPFLD",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C35",
+      "UniqueId": "ILZXHJRZ",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C27",
+      "UniqueId": "YPTBYMJC",
+      "Models": "[{\"model_name\":\"GW_0805_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0805_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C33",
+      "UniqueId": "JYNLOCNH",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C34",
+      "UniqueId": "RBNTEYAH",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C30",
+      "UniqueId": "GLVNHTQP",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C29",
+      "UniqueId": "GUCMBGVU",
+      "Models": "[{\"model_name\":\"GW_SAMSUNG_CL10_1608_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_SAMSUNG_CL10_1608_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C24",
+      "UniqueId": "RFWMSFCK",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C23",
+      "UniqueId": "XCSEVBTV",
+      "Models": "[{\"model_name\":\"GW_SAMSUNG_CL10_1608_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_SAMSUNG_CL10_1608_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C28",
+      "UniqueId": "LGKHVULL",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "R11",
+      "UniqueId": "DEJZJHXW",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "Y1",
+      "UniqueId": "RCWUKIAN",
+      "Models": "[{\"model_name\":\"GW_KC2016Z_KYOCERA\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_KC2016Z_KYOCERA\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C25",
+      "UniqueId": "OTVSHVWB",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "J3",
+      "UniqueId": "COUCKRXB",
+      "Models": "[{\"model_name\":\"GW_WRPHD_6X1_254_WURTH\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_WRPHD_6X1_254_WURTH\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C62",
+      "UniqueId": "CWUGVEBI",
+      "Models": "[{\"model_name\":\"GW_SAMSUNG_CL10_1608_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_SAMSUNG_CL10_1608_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C63",
+      "UniqueId": "SIFCIMEA",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "J8",
+      "UniqueId": "OGTGRVSS",
+      "Models": "[{\"model_name\":\"GW_WRPHD_2X1_254_WURTH\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_WRPHD_2X1_254_WURTH\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "U5",
+      "UniqueId": "WCLMUURL",
+      "Models": "[{\"model_name\":\"GW_RHB0032M_TI\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RHB0032M_TI\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R13",
+      "UniqueId": "HECPLJIL",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "Y2",
+      "UniqueId": "FKHSFCWU",
+      "Models": "[{\"model_name\":\"GW_KC2016Z_KYOCERA\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_KC2016Z_KYOCERA\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C37",
+      "UniqueId": "TAHHXFNC",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C38",
+      "UniqueId": "IZIQQNAQ",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C39",
+      "UniqueId": "RQZPEICP",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C40",
+      "UniqueId": "QFTYFZKS",
+      "Models": "[{\"model_name\":\"GW_SAMSUNG_CL10_1608_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_SAMSUNG_CL10_1608_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C41",
+      "UniqueId": "EIFZMQEV",
+      "Models": "[{\"model_name\":\"GW_SAMSUNG_CL21_2012_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_SAMSUNG_CL21_2012_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R15",
+      "UniqueId": "GOYDQSAU",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C36",
+      "UniqueId": "KDCUGLRA",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C47",
+      "UniqueId": "WLLEHORR",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C48",
+      "UniqueId": "BXGPDHAO",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C49",
+      "UniqueId": "WGKTYEQO",
+      "Models": "[{\"model_name\":\"GW_SAMSUNG_CL10_1608_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_SAMSUNG_CL10_1608_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C50",
+      "UniqueId": "NJVBYEAV",
+      "Models": "[{\"model_name\":\"GW_SAMSUNG_CL21_2012_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_SAMSUNG_CL21_2012_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "T1",
+      "UniqueId": "TZFWBQJG",
+      "Models": "[{\"model_name\":\"GW_HX1188FNL_PULSE\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_HX1188FNL_PULSE\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C43",
+      "UniqueId": "NJVAAZFJ",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C42",
+      "UniqueId": "XTTHKGIP",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C45",
+      "UniqueId": "IYTKAWMY",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C44",
+      "UniqueId": "YGKUKIJX",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "U6",
+      "UniqueId": "KYEFSGEW",
+      "Models": "[{\"model_name\":\"GW_SOIC8_1P27_5P4\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_SOIC8_1P27_5P4\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "J2",
+      "UniqueId": "COZFDHHG",
+      "Models": "[{\"model_name\":\"GW_SS7188SANF_STEWART\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_SS7188SANF_STEWART\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R16",
+      "UniqueId": "CJHZXOPZ",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R18",
+      "UniqueId": "ILPXQPZL",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C51",
+      "UniqueId": "HCWJDRLY",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "U7",
+      "UniqueId": "PDGUCLHA",
+      "Models": "[{\"model_name\":\"GW_SOIC8_1P27_5P4\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_SOIC8_1P27_5P4\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C53",
+      "UniqueId": "HWYTFHHZ",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C54",
+      "UniqueId": "NLYTMBUU",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "D3",
+      "UniqueId": "CHFQVBCZ",
+      "Models": "[{\"model_name\":\"GW_DQA0010A_TI\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_DQA0010A_TI\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R36",
+      "UniqueId": "QMYQFUAL",
+      "Models": "[{\"model_name\":\"GW_CRCW1206_VISHAY_20035_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_CRCW1206_VISHAY_20035_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R35",
+      "UniqueId": "LZXKQHYA",
+      "Models": "[{\"model_name\":\"GW_CRCW1206_VISHAY_20035_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_CRCW1206_VISHAY_20035_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R34",
+      "UniqueId": "GIKIFSPE",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C46",
+      "UniqueId": "NIJCSQQZ",
+      "Models": "[{\"model_name\":\"GW_C1206_KEMET_C1076_DENSITY_B\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C1206_KEMET_C1076_DENSITY_B\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C52",
+      "UniqueId": "BXITNTOA",
+      "Models": "[{\"model_name\":\"GW_C1206_KEMET_C1076_DENSITY_B\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C1206_KEMET_C1076_DENSITY_B\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C65",
+      "UniqueId": "LSSDIOIY",
+      "Models": "[{\"model_name\":\"GW_C1206_KEMET_C1076_DENSITY_B\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_C1206_KEMET_C1076_DENSITY_B\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R12",
+      "UniqueId": "IJVLMCAI",
+      "Models": "[{\"model_name\":\"GW_CRCW0805_VISHAY_20035_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_CRCW0805_VISHAY_20035_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R14",
+      "UniqueId": "NCGSEMQA",
+      "Models": "[{\"model_name\":\"GW_CRCW0805_VISHAY_20035_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_CRCW0805_VISHAY_20035_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R17",
+      "UniqueId": "MPSWLHLR",
+      "Models": "[{\"model_name\":\"GW_CRCW0805_VISHAY_20035_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_CRCW0805_VISHAY_20035_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R19",
+      "UniqueId": "BPELKBGI",
+      "Models": "[{\"model_name\":\"GW_CRCW0805_VISHAY_20035_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_CRCW0805_VISHAY_20035_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "U8",
+      "UniqueId": "YBIQUACK",
+      "Models": "[{\"model_name\":\"GW_DBQ0016A_TI\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_DBQ0016A_TI\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "U10",
+      "UniqueId": "HFVWTFFX",
+      "Models": "[{\"model_name\":\"GW_BSP75N_SOT223_DN_DIODES\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_BSP75N_SOT223_DN_DIODES\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "U11",
+      "UniqueId": "HXFRPTPO",
+      "Models": "[{\"model_name\":\"GW_BSP75N_SOT223_DN_DIODES\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_BSP75N_SOT223_DN_DIODES\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "C56",
+      "UniqueId": "DRLIHQRN",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R23",
+      "UniqueId": "UALMXCSK",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "C57",
+      "UniqueId": "WYHGLROD",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R20",
+      "UniqueId": "NLIJFTYK",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "C55",
+      "UniqueId": "RNAUMUON",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R24",
+      "UniqueId": "MPAKHNYW",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "C59",
+      "UniqueId": "HWDGPBOG",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "Q1",
+      "UniqueId": "ZGPLWPAI",
+      "Models": "[{\"model_name\":\"GW_MMBT3904_BEC_DIODES\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_MMBT3904_BEC_DIODES\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R25",
+      "UniqueId": "EIFUFBCH",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R26",
+      "UniqueId": "WWPIMQDJ",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "Q2",
+      "UniqueId": "LYKPEOLB",
+      "Models": "[{\"model_name\":\"GW_DMP2035U_GSD_DIODES\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_DMP2035U_GSD_DIODES\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R27",
+      "UniqueId": "GYTFUJGQ",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R30",
+      "UniqueId": "KTKLPTQK",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "Q3",
+      "UniqueId": "JWETHJDZ",
+      "Models": "[{\"model_name\":\"GW_MMBT3904_BEC_DIODES\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_MMBT3904_BEC_DIODES\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "Q4",
+      "UniqueId": "KCBTBQQQ",
+      "Models": "[{\"model_name\":\"GW_DMP2035U_GSD_DIODES\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_DMP2035U_GSD_DIODES\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R28",
+      "UniqueId": "FQNRBDVH",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R29",
+      "UniqueId": "SIHMJMSZ",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "C58",
+      "UniqueId": "JHIWKOKG",
+      "Models": "[{\"model_name\":\"GW_0603_KEMET_NOMINAL\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_0603_KEMET_NOMINAL\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R31",
+      "UniqueId": "NYCHPYYK",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R32",
+      "UniqueId": "RNDWTKPP",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R33",
+      "UniqueId": "INOIRBWY",
+      "Models": "[{\"model_name\":\"GW_RC0603_YAGEO_REFLOW\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_RC0603_YAGEO_REFLOW\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "J5",
+      "UniqueId": "GEAPITIA",
+      "Models": "[{\"model_name\":\"GW_TB002_500_2P_SAMESKY\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_TB002_500_2P_SAMESKY\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "J6",
+      "UniqueId": "FRLZEHLZ",
+      "Models": "[{\"model_name\":\"GW_TB002_500_2P_SAMESKY\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_TB002_500_2P_SAMESKY\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "J7",
+      "UniqueId": "DDGOBXHJ",
+      "Models": "[{\"model_name\":\"GW_TB002_500_2P_SAMESKY\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_TB002_500_2P_SAMESKY\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "J4",
+      "UniqueId": "QBMJUTDX",
+      "Models": "[{\"model_name\":\"GW_TB002_500_3P_SAMESKY\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_TB002_500_3P_SAMESKY\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "J9",
+      "UniqueId": "OWIWTRZK",
+      "Models": "[{\"model_name\":\"GW_TB002_500_3P_SAMESKY\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_TB002_500_3P_SAMESKY\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "J10",
+      "UniqueId": "IVYVIXIY",
+      "Models": "[{\"model_name\":\"GW_TB002_500_3P_SAMESKY\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_TB002_500_3P_SAMESKY\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "D4",
+      "UniqueId": "AVTRSCHS",
+      "Models": "[{\"model_name\":\"GW_SM712_BOURNS\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_SM712_BOURNS\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R21",
+      "UniqueId": "JUPRMEBQ",
+      "Models": "[{\"model_name\":\"GW_MM204_FIRSTOHM\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_MM204_FIRSTOHM\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R22",
+      "UniqueId": "KFWKUEKU",
+      "Models": "[{\"model_name\":\"GW_MM204_FIRSTOHM\",\"model_type\":\"PCBLIB\",\"is_current\":true,\"use_component_library\":false,\"datafile_links\":[{\"entity_name\":\"GW_MM204_FIRSTOHM\",\"file_kind\":\"PCBLib\",\"location\":\"\"}]}]"
+    }
+  ],
+  "count": 134,
+  "sheets_processed": 4
+}

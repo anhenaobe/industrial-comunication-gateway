@@ -1,0 +1,960 @@
+{
+  "variants": [
+    "Rev1_Assembly"
+  ],
+  "rows": [
+    {
+      "designator": "C1",
+      "unique_id": "\\HTGYNFPM\\RKRKFCMQ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C2",
+      "unique_id": "\\HTGYNFPM\\UTTETZAT",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C3",
+      "unique_id": "\\HTGYNFPM\\ZVSXFFNA",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C4",
+      "unique_id": "\\HTGYNFPM\\XJRSGURG",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C5",
+      "unique_id": "\\HTGYNFPM\\GXHOBYAR",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C6",
+      "unique_id": "\\HTGYNFPM\\GYVJIUFB",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C7",
+      "unique_id": "\\HTGYNFPM\\SGAYZVWG",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C8",
+      "unique_id": "\\HTGYNFPM\\XAWODNOW",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C9",
+      "unique_id": "\\HTGYNFPM\\YFDKQRST",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C10",
+      "unique_id": "\\HTGYNFPM\\DILWSMQE",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C11",
+      "unique_id": "\\HTGYNFPM\\OOFJQOSD",
+      "cells": [
+        "Not Fitted"
+      ]
+    },
+    {
+      "designator": "C12",
+      "unique_id": "\\HTGYNFPM\\VDIDGJBL",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C13",
+      "unique_id": "\\HTGYNFPM\\FMATDAQA",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C14",
+      "unique_id": "\\HTGYNFPM\\WKNAIATP",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C15",
+      "unique_id": "\\HTGYNFPM\\RIHZZXDF",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C16",
+      "unique_id": "\\HTGYNFPM\\NACSMIJC",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C17",
+      "unique_id": "\\HTGYNFPM\\EDGIHUFV",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C18",
+      "unique_id": "\\HTGYNFPM\\AUPIRNQP",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C19",
+      "unique_id": "\\HTGYNFPM\\CKIXXZPM",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C20",
+      "unique_id": "\\HTGYNFPM\\DFJBIELY",
+      "cells": [
+        "Not Fitted"
+      ]
+    },
+    {
+      "designator": "C21",
+      "unique_id": "\\HTGYNFPM\\ZRJTUGCW",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C22",
+      "unique_id": "\\EAFYYBYY\\KQULQVJX",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C23",
+      "unique_id": "\\EAFYYBYY\\XCSEVBTV",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C24",
+      "unique_id": "\\EAFYYBYY\\RFWMSFCK",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C25",
+      "unique_id": "\\EAFYYBYY\\OTVSHVWB",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C26",
+      "unique_id": "\\EAFYYBYY\\YZKFPFLD",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C27",
+      "unique_id": "\\EAFYYBYY\\YPTBYMJC",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C28",
+      "unique_id": "\\EAFYYBYY\\LGKHVULL",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C29",
+      "unique_id": "\\EAFYYBYY\\GUCMBGVU",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C30",
+      "unique_id": "\\EAFYYBYY\\GLVNHTQP",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C31",
+      "unique_id": "\\EAFYYBYY\\BNBEPVDO",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C32",
+      "unique_id": "\\EAFYYBYY\\LSWJZRFS",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C33",
+      "unique_id": "\\EAFYYBYY\\JYNLOCNH",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C34",
+      "unique_id": "\\EAFYYBYY\\RBNTEYAH",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C35",
+      "unique_id": "\\EAFYYBYY\\ILZXHJRZ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C36",
+      "unique_id": "\\RNFEVPSC\\KDCUGLRA",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C37",
+      "unique_id": "\\RNFEVPSC\\TAHHXFNC",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C38",
+      "unique_id": "\\RNFEVPSC\\IZIQQNAQ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C39",
+      "unique_id": "\\RNFEVPSC\\RQZPEICP",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C40",
+      "unique_id": "\\RNFEVPSC\\QFTYFZKS",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C41",
+      "unique_id": "\\RNFEVPSC\\EIFZMQEV",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C42",
+      "unique_id": "\\RNFEVPSC\\XTTHKGIP",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C43",
+      "unique_id": "\\RNFEVPSC\\NJVAAZFJ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C44",
+      "unique_id": "\\RNFEVPSC\\YGKUKIJX",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C45",
+      "unique_id": "\\RNFEVPSC\\IYTKAWMY",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C46",
+      "unique_id": "\\RNFEVPSC\\NIJCSQQZ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C47",
+      "unique_id": "\\RNFEVPSC\\WLLEHORR",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C48",
+      "unique_id": "\\RNFEVPSC\\BXGPDHAO",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C49",
+      "unique_id": "\\RNFEVPSC\\WGKTYEQO",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C50",
+      "unique_id": "\\RNFEVPSC\\NJVBYEAV",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C51",
+      "unique_id": "\\RNFEVPSC\\HCWJDRLY",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C52",
+      "unique_id": "\\RNFEVPSC\\BXITNTOA",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C53",
+      "unique_id": "\\RNFEVPSC\\HWYTFHHZ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C54",
+      "unique_id": "\\RNFEVPSC\\NLYTMBUU",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C55",
+      "unique_id": "\\PYNLHHMX\\RNAUMUON",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C56",
+      "unique_id": "\\PYNLHHMX\\DRLIHQRN",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C57",
+      "unique_id": "\\PYNLHHMX\\WYHGLROD",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C58",
+      "unique_id": "\\PYNLHHMX\\JHIWKOKG",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C59",
+      "unique_id": "\\PYNLHHMX\\HWDGPBOG",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C60",
+      "unique_id": "\\HTGYNFPM\\ZLBZMHIR",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C61",
+      "unique_id": "\\HTGYNFPM\\EACTPBPA",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C62",
+      "unique_id": "\\EAFYYBYY\\CWUGVEBI",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C63",
+      "unique_id": "\\EAFYYBYY\\SIFCIMEA",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C65",
+      "unique_id": "\\RNFEVPSC\\LSSDIOIY",
+      "cells": [
+        "Not Fitted"
+      ]
+    },
+    {
+      "designator": "C66",
+      "unique_id": "\\HTGYNFPM\\JYDRTDJC",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "C67",
+      "unique_id": "\\HTGYNFPM\\EUAKJXSD",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "D1",
+      "unique_id": "\\HTGYNFPM\\IHKGJGCT",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "D2",
+      "unique_id": "\\HTGYNFPM\\WUBXBPPV",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "D3",
+      "unique_id": "\\RNFEVPSC\\CHFQVBCZ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "D4",
+      "unique_id": "\\PYNLHHMX\\AVTRSCHS",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "F1",
+      "unique_id": "\\HTGYNFPM\\MSRHFNGW",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "J1",
+      "unique_id": "\\HTGYNFPM\\JQFVLHLV",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "J2",
+      "unique_id": "\\RNFEVPSC\\COZFDHHG",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "J3",
+      "unique_id": "\\EAFYYBYY\\COUCKRXB",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "J4",
+      "unique_id": "\\PYNLHHMX\\QBMJUTDX",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "J5",
+      "unique_id": "\\PYNLHHMX\\GEAPITIA",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "J6",
+      "unique_id": "\\PYNLHHMX\\FRLZEHLZ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "J7",
+      "unique_id": "\\PYNLHHMX\\DDGOBXHJ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "J8",
+      "unique_id": "\\EAFYYBYY\\OGTGRVSS",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "J9",
+      "unique_id": "\\PYNLHHMX\\OWIWTRZK",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "J10",
+      "unique_id": "\\PYNLHHMX\\IVYVIXIY",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "L1",
+      "unique_id": "\\HTGYNFPM\\OEWBQQXK",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "L2",
+      "unique_id": "\\HTGYNFPM\\RKAKPZLP",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "Q1",
+      "unique_id": "\\PYNLHHMX\\ZGPLWPAI",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "Q2",
+      "unique_id": "\\PYNLHHMX\\LYKPEOLB",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "Q3",
+      "unique_id": "\\PYNLHHMX\\JWETHJDZ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "Q4",
+      "unique_id": "\\PYNLHHMX\\KCBTBQQQ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R1",
+      "unique_id": "\\HTGYNFPM\\BLNFQLBZ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R2",
+      "unique_id": "\\HTGYNFPM\\OWKWZNDC",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R3",
+      "unique_id": "\\HTGYNFPM\\ROAOTNFT",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R4",
+      "unique_id": "\\HTGYNFPM\\DZUIXBLP",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R5",
+      "unique_id": "\\HTGYNFPM\\YCPJZLYO",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R6",
+      "unique_id": "\\HTGYNFPM\\MGEQAODF",
+      "cells": [
+        "Not Fitted"
+      ]
+    },
+    {
+      "designator": "R7",
+      "unique_id": "\\HTGYNFPM\\WSVQJHSJ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R8",
+      "unique_id": "\\HTGYNFPM\\KBWRAZAY",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R9",
+      "unique_id": "\\HTGYNFPM\\RURNYBAG",
+      "cells": [
+        "Not Fitted"
+      ]
+    },
+    {
+      "designator": "R10",
+      "unique_id": "\\HTGYNFPM\\NOTQJJBT",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R11",
+      "unique_id": "\\EAFYYBYY\\DEJZJHXW",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R12",
+      "unique_id": "\\RNFEVPSC\\IJVLMCAI",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R13",
+      "unique_id": "\\RNFEVPSC\\HECPLJIL",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R14",
+      "unique_id": "\\RNFEVPSC\\NCGSEMQA",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R15",
+      "unique_id": "\\RNFEVPSC\\GOYDQSAU",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R16",
+      "unique_id": "\\RNFEVPSC\\CJHZXOPZ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R17",
+      "unique_id": "\\RNFEVPSC\\MPSWLHLR",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R18",
+      "unique_id": "\\RNFEVPSC\\ILPXQPZL",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R19",
+      "unique_id": "\\RNFEVPSC\\BPELKBGI",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R20",
+      "unique_id": "\\PYNLHHMX\\NLIJFTYK",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R21",
+      "unique_id": "\\PYNLHHMX\\JUPRMEBQ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R22",
+      "unique_id": "\\PYNLHHMX\\KFWKUEKU",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R23",
+      "unique_id": "\\PYNLHHMX\\UALMXCSK",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R24",
+      "unique_id": "\\PYNLHHMX\\MPAKHNYW",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R25",
+      "unique_id": "\\PYNLHHMX\\EIFUFBCH",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R26",
+      "unique_id": "\\PYNLHHMX\\WWPIMQDJ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R27",
+      "unique_id": "\\PYNLHHMX\\GYTFUJGQ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R28",
+      "unique_id": "\\PYNLHHMX\\FQNRBDVH",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R29",
+      "unique_id": "\\PYNLHHMX\\SIHMJMSZ",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R30",
+      "unique_id": "\\PYNLHHMX\\KTKLPTQK",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R31",
+      "unique_id": "\\PYNLHHMX\\NYCHPYYK",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R32",
+      "unique_id": "\\PYNLHHMX\\RNDWTKPP",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R33",
+      "unique_id": "\\PYNLHHMX\\INOIRBWY",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "R34",
+      "unique_id": "\\RNFEVPSC\\GIKIFSPE",
+      "cells": [
+        "Not Fitted"
+      ]
+    },
+    {
+      "designator": "R35",
+      "unique_id": "\\RNFEVPSC\\LZXKQHYA",
+      "cells": [
+        "Not Fitted"
+      ]
+    },
+    {
+      "designator": "R36",
+      "unique_id": "\\RNFEVPSC\\QMYQFUAL",
+      "cells": [
+        "Not Fitted"
+      ]
+    },
+    {
+      "designator": "T1",
+      "unique_id": "\\RNFEVPSC\\TZFWBQJG",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "U1",
+      "unique_id": "\\HTGYNFPM\\PBWRWDQM",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "U2",
+      "unique_id": "\\HTGYNFPM\\HRMXGOKP",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "U3",
+      "unique_id": "\\HTGYNFPM\\JLMOVQWE",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "U4",
+      "unique_id": "\\EAFYYBYY\\GRNOZAMD",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "U5",
+      "unique_id": "\\RNFEVPSC\\WCLMUURL",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "U6",
+      "unique_id": "\\RNFEVPSC\\KYEFSGEW",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "U7",
+      "unique_id": "\\RNFEVPSC\\PDGUCLHA",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "U8",
+      "unique_id": "\\PYNLHHMX\\YBIQUACK",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "U10",
+      "unique_id": "\\PYNLHHMX\\HFVWTFFX",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "U11",
+      "unique_id": "\\PYNLHHMX\\HXFRPTPO",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "Y1",
+      "unique_id": "\\EAFYYBYY\\RCWUKIAN",
+      "cells": [
+        "Fitted"
+      ]
+    },
+    {
+      "designator": "Y2",
+      "unique_id": "\\RNFEVPSC\\FKHSFCWU",
+      "cells": [
+        "Fitted"
+      ]
+    }
+  ],
+  "component_count": 136
+}

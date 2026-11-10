@@ -1,5 +1,8 @@
 # Academic Gateway Rev.1 — initial native schematic audit
 
+> Actualización nativa 2026-11-10: ver [cierre y evidencia actual](closure_verification_rev1.md) y [BOM real por designador](assembly_bom_rev1.csv). Los pendientes de captura/modelos descritos debajo son históricos y quedan sustituidos por ese cierre; la validación del diálogo ECO sigue pendiente.
+
+
 <!-- AUTONOMOUS_CLOSURE_20261108_START -->
 > **Current2026-11-08 baseline:** use [schematic_construction_guide.md](schematic_construction_guide.md) and [electrical_closure_rev1.md](electrical_closure_rev1.md). Source libraries now contain76symbols/48footprints;file validation0errors,4intentionalTPS-subpad warnings.98of99mandatoryBOM rows have sourceCAD geometry verified;TPS thermal-pad net transfer remains candidate. Native corrections,ERC andIntLib compilation remain pending after bridge loss. Earlier counts/holds below are historical snapshots,not current release approval.
 <!-- AUTONOMOUS_CLOSURE_20261108_END -->

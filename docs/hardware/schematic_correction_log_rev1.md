@@ -1,5 +1,8 @@
 # Academic Rev.1 — controlled correction log
 
+> Actualización nativa 2026-11-10: ver [cierre y evidencia actual](closure_verification_rev1.md) y [BOM real por designador](assembly_bom_rev1.csv). Los pendientes de captura/modelos descritos debajo son históricos y quedan sustituidos por ese cierre; la validación del diálogo ECO sigue pendiente.
+
+
 Initial read-only baseline: [schematic_audit_rev1.md](schematic_audit_rev1.md), saved before any native edit. All27 baseline findings remain preserved there. Four findings were corrected with eight individual property edits, without component replacement or wire regeneration.
 
 ## Before/after and evidence

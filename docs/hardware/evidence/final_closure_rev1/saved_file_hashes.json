@@ -1,0 +1,15 @@
+{
+  "hardware\\academic_rev1\\Ethernet.SchDoc": "b49046f28a8b7e9c5e8690d97f6a86f6ed22b1c34bfbfd0d4afac3f6dc7d766d",
+  "hardware\\academic_rev1\\Field_IO.SchDoc": "50c31f472dfdae1179c2f74a77e268a0604ebc0147eca03b9d1daf78913ea60c",
+  "hardware\\academic_rev1\\MCU.SchDoc": "e7974e193f25a96f35d6f6adfe323266674273f366c680f5e71f52665d9c5236",
+  "hardware\\academic_rev1\\Power.SchDoc": "83ac1638e682ea5b10f725e1efa6ce5a99cc8625f3a071ea4da3442d09f2d3fb",
+  "hardware\\academic_rev1\\TopLevel.SchDoc": "645b98a9160a6acb85021763399f1f16d573b0d6dd4a1acd9e0c2a3ec0b4fe21",
+  "hardware\\academic_rev1\\Industrial_Gateway_Academic.PrjPcb": "5687c82b6afa0afc6c36a2e8736a5c9c1fb1f7a60d7da72a33f444d7d8ba6e6d",
+  "hardware\\academic_rev1\\libraries\\CL10B103KA8WPNC.SchLib": "9cc386e13ead09c12cc59c5c1ee92310bf323d5aaaffb94520701d273ad59ad9",
+  "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib": "9eb5eca4c44441ed8ce2789bf27b6b351c11f53e366d2a18aa4b80ec7bbd204d",
+  "hardware\\academic_rev1\\libraries\\Gateway_Closure.SchLib": "a2c7058d061a90e9ac8980a0059d196caa5cb4e1067b96903fef3f24d7462e25",
+  "hardware\\academic_rev1\\libraries\\Professor_shared.SchLib": "4224bca2915106499b00128131c8a18d48b1bddc8573ebf9c80952c32e85d620",
+  "hardware\\academic_rev1\\libraries\\SS3P6L-M386A.SchLib": "4ee1abdea0db1cbf3acd6851413ff0169964a6576cfdf8f4b82c82d5119108a9",
+  "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib": "791f4061c8d56e646e74d3cf8ffce5a9c168b51f7b6ec99841edccab9d908eb2",
+  "hardware\\academic_rev1\\PCB1.PcbDoc": "064f8832b40b21228e2df9e902e3c8119b0f66904a7a202e79fd74070c5f06a3"
+}

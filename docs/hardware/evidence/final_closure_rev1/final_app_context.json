@@ -1,0 +1,26 @@
+{
+  "backend": "altium",
+  "bridge_answering": true,
+  "coordination": {
+    "runtime_path": "C:\\Users\\justa\\AppData\\Local\\ElectronicsAI",
+    "workspace_path": "C:\\Users\\justa\\AppData\\Local\\ElectronicsAI\\workspace",
+    "native_session_id": "20261110010017594-98170593",
+    "compiled_project_path": "C:\\Users\\justa\\AppData\\Local\\ElectronicsAI\\scripts\\eda-7edd5178d4b869e7\\ElectronicsAI-EDA.PrjScr",
+    "expected_project_path": "C:\\Users\\justa\\AppData\\Local\\ElectronicsAI\\scripts\\eda-7edd5178d4b869e7\\ElectronicsAI-EDA.PrjScr",
+    "script_hash_match": true
+  },
+  "script_version_match": true,
+  "running_script_version": "2026.11.04.electronics-ai-p3",
+  "deployed_script_version": "2026.11.04.electronics-ai-p3",
+  "active_document": {
+    "file_name": "Power.SchDoc",
+    "file_path": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+    "document_kind": "SCH"
+  },
+  "open_document_count": 23,
+  "unsaved": [],
+  "unsaved_source": "native_modified_flag",
+  "unsaved_detection_complete": false,
+  "warnings": [],
+  "next_step": ""
+}

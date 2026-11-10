@@ -1,5 +1,7 @@
 # Estado del proyecto — Gateway académico Rev1
 
+Resultado de ejecución del 2026-11-10: [handoff y diagnóstico concreto del motor nativo](final_execution_handoff_rev1.md). C2 queda **Fitted**: el proyecto guardado y el BOM REQUIRED ya coinciden; queda invalidada la nota heredada de C2 DNP. CIN seleccionado: dos C5750 por buck, con dos posiciones todavía no capturadas debido al bloqueo nativo. No hubo commit/push ni ECO en esa ejecución.
+
 Actualización: 2026-11-09. **NO-GO para transferencia a PCB** hasta reparar y verificar los modelos en Altium. No se ejecutó ECO ni se modificó PCB1.PcbDoc.
 
 ## Evidencia y fases

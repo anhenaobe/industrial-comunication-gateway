@@ -1,5 +1,8 @@
 # Academic Gateway Rev.1 — engineering closure,2026-11-08
 
+> Actualización nativa 2026-11-10: ver [cierre y evidencia actual](closure_verification_rev1.md) y [BOM real por designador](assembly_bom_rev1.csv). Los pendientes de captura/modelos descritos debajo son históricos y quedan sustituidos por ese cierre; la validación del diálogo ECO sigue pendiente.
+
+
 **Continue manual schematic completion;do not start full routing or manufacturing yet.**
 The connection specification and source libraries were substantially completed.
 The actual native circuit still contains the localized errors below. Altium became

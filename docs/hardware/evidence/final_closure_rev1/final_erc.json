@@ -1,0 +1,1951 @@
+{
+  "violation_count": 96,
+  "violations": [
+    {
+      "index": 0,
+      "suppressed": true,
+      "severity": "Error",
+      "error_kind": 10,
+      "description": "Nets containing floating input pins",
+      "detail": "Net NetU1_4 contains floating input pins (Pin U1-4)",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Power.SchDoc",
+          "cross_probe": "NetU1_4|LocX=100000000|LocY=73000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "U1-4"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "suppressed": true,
+      "severity": "Error",
+      "error_kind": 10,
+      "description": "Nets containing floating input pins",
+      "detail": "Net NetU5_1 contains floating input pins (Pin U5-1)",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "NetU5_1|LocX=37000000|LocY=79000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U5-1"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "suppressed": true,
+      "severity": "Error",
+      "error_kind": 10,
+      "description": "Nets containing floating input pins",
+      "detail": "Net NetU5_26 contains floating input pins (Pin U5-26)",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "NetU5_26|LocX=57000000|LocY=72000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U5-26"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "suppressed": true,
+      "severity": "Error",
+      "error_kind": 10,
+      "description": "Nets containing floating input pins",
+      "detail": "Net NetU5_27 contains floating input pins (Pin U5-27)",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "NetU5_27|LocX=57000000|LocY=73000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U5-27"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net DO1_DRIVE has no driving source (Pin Q2-D, Pin R27-1, Pin U10-IN)",
+      "related_object_count": 4,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "DO1_DRIVE|LocX=62000000|LocY=45000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "Q2-D"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R27-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "U10-IN"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net DO1_GATE has no driving source (Pin Q2-G, Pin R25-2, Pin R26-1)",
+      "related_object_count": 4,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "DO1_GATE|LocX=50000000|LocY=52000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "Q2-G"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R25-2"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R26-1"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net DO2_DRIVE has no driving source (Pin Q4-D, Pin R31-1, Pin U11-IN)",
+      "related_object_count": 4,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "DO2_DRIVE|LocX=28000000|LocY=20000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "Q4-D"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R31-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "U11-IN"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net DO2_GATE has no driving source (Pin Q4-G, Pin R28-2, Pin R29-1)",
+      "related_object_count": 4,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "DO2_GATE|LocX=50000000|LocY=38000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "Q4-G"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R28-2"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R29-1"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net NetC11_2 has no driving source (Pin C11-2, Pin R5-1, Pin R7-2, Pin U2-7)",
+      "related_object_count": 5,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Power.SchDoc",
+          "cross_probe": "NetR5_1|LocX=95000000|LocY=48000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C11-2"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "R5-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "R7-2"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "U2-7"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net NetC20_2 has no driving source (Pin C20-2, Pin R8-1, Pin R10-2, Pin U3-7)",
+      "related_object_count": 5,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Power.SchDoc",
+          "cross_probe": "NetC20_2|LocX=92000000|LocY=31200000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C20-2"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "R8-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "R10-2"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "U3-7"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net NetJ8_1 has no driving source (Pin J8-1, Pin R11-1, Pin U4-94)",
+      "related_object_count": 4,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "MCU.SchDoc",
+          "cross_probe": "NetR11_1|LocX=67000000|LocY=58000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "J8-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "R11-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-94"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net NetQ1_B has no driving source (Pin Q1-B, Pin R32-2)",
+      "related_object_count": 3,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "NetR32_2|LocX=30600000|LocY=50000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "Q1-B"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R32-2"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net NetQ3_B has no driving source (Pin Q3-B, Pin R33-2)",
+      "related_object_count": 3,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "NetQ3_B|LocX=32000000|LocY=36000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "Q3-B"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R33-2"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net NetR20_1 has no driving source (Pin R20-1, Pin U8-15)",
+      "related_object_count": 3,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "NetU8_15|LocX=52000000|LocY=64000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R20-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "U8-15"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net NetR23_1 has no driving source (Pin R23-1, Pin U8-10)",
+      "related_object_count": 3,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "NetU8_10|LocX=52000000|LocY=59000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R23-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "U8-10"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net OVP has no driving source (Pin R3-1, Pin R4-1, Pin U1-3)",
+      "related_object_count": 4,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Power.SchDoc",
+          "cross_probe": "OVP|LocX=93000000|LocY=66000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "R3-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "R4-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "U1-3"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net SENSE1 has no driving source (Pin C55-1, Pin R20-2, Pin R21-1, Pin U8-16)",
+      "related_object_count": 5,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "SENSE1|LocX=61000000|LocY=64000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "C55-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R20-2"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R21-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "U8-16"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net SENSE2 has no driving source (Pin C57-1, Pin R22-1, Pin R23-2, Pin U8-11)",
+      "related_object_count": 5,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "SENSE2|LocX=61000000|LocY=59000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "C57-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R22-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "R23-2"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "U8-11"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net UVLO has no driving source (Pin R1-1, Pin R3-2, Pin U1-2)",
+      "related_object_count": 4,
+      "related_objects": [
+        {
+          "kind": "Net",
+          "document": "Power.SchDoc",
+          "cross_probe": "UVLO|LocX=97000000|LocY=77000000"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "R1-1"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "R3-2"
+        },
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "U1-2"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetR35_1 contains IO Pin and Output Port objects (Pin U6-6, Port A).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U6-6"
+        },
+        {
+          "kind": "Port",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "A"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetR35_2 contains IO Pin and Output Port objects (Pin U6-7, Port B).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U6-7"
+        },
+        {
+          "kind": "Port",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "B"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetR36_1 contains IO Pin and Output Port objects (Pin U7-6, Port CANL).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U7-6"
+        },
+        {
+          "kind": "Port",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "CANL"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetR36_2 contains IO Pin and Output Port objects (Pin U7-7, Port CANH).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U7-7"
+        },
+        {
+          "kind": "Port",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "CANH"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_1 contains IO Pin and Input Port objects (Pin U4-1, Port DO1).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-1"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "DO1"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_2 contains IO Pin and Input Port objects (Pin U4-2, Port DO2).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-2"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "DO2"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_3 contains IO Pin and Input Port objects (Pin U4-3, Port DI1).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-3"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "DI1"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_3 contains IO Pin and Output Pin objects (Pin U4-3, Pin U8-4).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-3"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "U8-4"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_4 contains IO Pin and Input Port objects (Pin U4-4, Port DI2).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-4"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "DI2"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_4 contains IO Pin and Output Pin objects (Pin U4-4, Pin U8-5).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-4"
+        },
+        {
+          "kind": "Pin",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "U8-5"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_5 contains IO Pin and Output Port objects (Pin U4-5, Port PHY_nRESET).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-5"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "PHY_nRESET"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_16 contains IO Pin and Output Port objects (Pin U4-16, Port ETH_MDC).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-16"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_MDC"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_23 contains IO Pin and Input Port objects (Pin U4-23, Port ETH_RMII_REF_CLK).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-23"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_RMII_REF_CLK"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_31 contains IO Pin and Input Port objects (Pin U4-31, Port ETH_RMII_CRS_DV).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-31"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_RMII_CRS_DV"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_32 contains IO Pin and Input Port objects (Pin U4-32, Port ETH_RMII_RXD0).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-32"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_RMII_RXD0"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_33 contains IO Pin and Input Port objects (Pin U4-33, Port ETH_RMII_RXD1).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-33"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_RMII_RXD1"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_37 contains IO Pin and Output Port objects (Pin U4-37, Port CAN_STBY).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-37"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "CAN_STBY"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_47 contains IO Pin and Output Port objects (Pin U4-47, Port ETH_RMII_TX_EN).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-47"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_RMII_TX_EN"
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_51 contains IO Pin and Output Port objects (Pin U4-51, Port ETH_RMII_TXD0).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-51"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_RMII_TXD0"
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_52 contains IO Pin and Output Port objects (Pin U4-52, Port ETH_RMII_TXD1).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-52"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_RMII_TXD1"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_55 contains IO Pin and Output Port objects (Pin U4-55, Port USART3_TX).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-55"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "USART3_TX"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_56 contains IO Pin and Input Port objects (Pin U4-56, Port USART3_RX).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-56"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "USART3_RX"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_56 contains IO Pin and Output Pin objects (Pin U4-56, Pin U6-1).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-56"
+        },
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U6-1"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_57 contains IO Pin and Output Port objects (Pin U4-57, Port RS485_DE).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-57"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "RS485_DE"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_58 contains IO Pin and Output Port objects (Pin U4-58, Port RS485_nRE).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-58"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "RS485_nRE"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_81 contains IO Pin and Input Port objects (Pin U4-81, Port FDCAN1_RX).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-81"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "FDCAN1_RX"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_81 contains IO Pin and Output Pin objects (Pin U4-81, Pin U7-4).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-81"
+        },
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U7-4"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU4_82 contains IO Pin and Output Port objects (Pin U4-82, Port FDCAN1_TX).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-82"
+        },
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "FDCAN1_TX"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU5_15 contains IO Pin and Output Port objects (Pin U5-15, Port ETH_RMII_RXD1).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U5-15"
+        },
+        {
+          "kind": "Port",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "ETH_RMII_RXD1"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU5_16 contains IO Pin and Output Port objects (Pin U5-16, Port ETH_RMII_RXD0).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U5-16"
+        },
+        {
+          "kind": "Port",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "ETH_RMII_RXD0"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU5_18 contains IO Pin and Output Port objects (Pin U5-18, Port ETH_RMII_CRS_DV).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U5-18"
+        },
+        {
+          "kind": "Port",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "ETH_RMII_CRS_DV"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "NetU5_19 contains IO Pin and Output Port objects (Pin U5-19, Port ETH_RMII_REF_CLK).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U5-19"
+        },
+        {
+          "kind": "Port",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "ETH_RMII_REF_CLK"
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid C7 at 10700mil,5155mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Part",
+          "document": "Power.SchDoc",
+          "cross_probe": "C7"
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid C9 at 5100mil,5145mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Part",
+          "document": "Power.SchDoc",
+          "cross_probe": "C9"
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid C10 at 5505mil,5000mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Part",
+          "document": "Power.SchDoc",
+          "cross_probe": "C10"
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid C12 at 4500mil,5005mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Part",
+          "document": "Power.SchDoc",
+          "cross_probe": "C12"
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid C15 at 10400mil,3595mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Part",
+          "document": "Power.SchDoc",
+          "cross_probe": "C15"
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid C17 at 4800mil,3205mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Part",
+          "document": "Power.SchDoc",
+          "cross_probe": "C17"
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid C19 at 5455mil,3300mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Part",
+          "document": "Power.SchDoc",
+          "cross_probe": "C19"
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid C21 at 10725mil,3470mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Part",
+          "document": "Power.SchDoc",
+          "cross_probe": "C21"
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid C60 at 4500mil,3195mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Part",
+          "document": "Power.SchDoc",
+          "cross_probe": "C60"
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid C61 at 5900mil,3055mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Part",
+          "document": "Power.SchDoc",
+          "cross_probe": "C61"
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid C66 at 4000mil,5005mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Part",
+          "document": "Power.SchDoc",
+          "cross_probe": "C66"
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid C67 at 4000mil,3195mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Part",
+          "document": "Power.SchDoc",
+          "cross_probe": "C67"
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Pin C7-2 at 10700mil,5285mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C7-2"
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Pin C9-2 at 5100mil,4865mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C9-2"
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Pin C10-2 at 5785mil,5000mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C10-2"
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Pin C12-2 at 4500mil,5135mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C12-2"
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Pin C15-2 at 10400mil,3315mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C15-2"
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Pin C17-2 at 4800mil,3335mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C17-2"
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Pin C19-2 at 5735mil,3300mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C19-2"
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Pin C21-1 at 10725mil,3340mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C21-1"
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Pin C60-1 at 4500mil,3065mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C60-1"
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Pin C61-2 at 5900mil,3185mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C61-2"
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Pin C66-2 at 4000mil,5135mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C66-2"
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Pin C67-1 at 4000mil,3065mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "C67-1"
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Port A at 7135.803mil,3400mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Port",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "A"
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Port B at 7135.803mil,3200mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Port",
+          "document": "Field_IO.SchDoc",
+          "cross_probe": "B"
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Port ETH_MDC at 3076.72mil,6800mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Port",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "ETH_MDC"
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Port ETH_MDC at 3776.72mil,4900mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_MDC"
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Port ETH_MDIO at 3042.02mil,6900mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Port",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "ETH_MDIO"
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Port ETH_MDIO at 3742.02mil,4100mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_MDIO"
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Port ETH_RMII_CRS_DV at 3388.36mil,3400mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_RMII_CRS_DV"
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Port ETH_RMII_REF_CLK at 3341.402mil,4200mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_RMII_REF_CLK"
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Port ETH_RMII_RXD0 at 2800.926mil,6400mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Port",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "ETH_RMII_RXD0"
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Port ETH_RMII_RXD1 at 2808.73mil,6500mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Port",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "ETH_RMII_RXD1"
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Port ETH_RMII_RXD1 at 3508.73mil,3200mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_RMII_RXD1"
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 0,
+      "description": "Off-grid object",
+      "detail": "Off grid Port ETH_RMII_TX_EN at 3448.898mil,1800mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Port",
+          "document": "MCU.SchDoc",
+          "cross_probe": "ETH_RMII_TX_EN"
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "suppressed": false,
+      "severity": "Warning",
+      "error_kind": 11,
+      "description": "Nets with possible connection problems",
+      "detail": "PH0 contains IO Pin and Output Pin objects (Pin U4-12, Pin Y1-3).",
+      "related_object_count": 2,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "U4-12"
+        },
+        {
+          "kind": "Pin",
+          "document": "MCU.SchDoc",
+          "cross_probe": "Y1-3"
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "suppressed": true,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net NetU1_4 has no driving source (Pin U1-4)",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "U1-4"
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "suppressed": true,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net NetU5_1 has no driving source (Pin U5-1)",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U5-1"
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "suppressed": true,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net NetU5_26 has no driving source (Pin U5-26)",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U5-26"
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "suppressed": true,
+      "severity": "Warning",
+      "error_kind": 9,
+      "description": "Nets with no driving source",
+      "detail": "Net NetU5_27 has no driving source (Pin U5-27)",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U5-27"
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "suppressed": true,
+      "severity": "Warning",
+      "error_kind": 8,
+      "description": "Unconnected objects in net",
+      "detail": "Unconnected Pin U1-4 at 10000mil,7300mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Power.SchDoc",
+          "cross_probe": "U1-4"
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "suppressed": true,
+      "severity": "Warning",
+      "error_kind": 8,
+      "description": "Unconnected objects in net",
+      "detail": "Unconnected Pin U5-1 at 3700mil,7900mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U5-1"
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "suppressed": true,
+      "severity": "Warning",
+      "error_kind": 8,
+      "description": "Unconnected objects in net",
+      "detail": "Unconnected Pin U5-26 at 5700mil,7200mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U5-26"
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "suppressed": true,
+      "severity": "Warning",
+      "error_kind": 8,
+      "description": "Unconnected objects in net",
+      "detail": "Unconnected Pin U5-27 at 5700mil,7300mil",
+      "related_object_count": 1,
+      "related_objects": [
+        {
+          "kind": "Pin",
+          "document": "Ethernet.SchDoc",
+          "cross_probe": "U5-27"
+        }
+      ]
+    }
+  ]
+}

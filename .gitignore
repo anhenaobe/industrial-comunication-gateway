@@ -13,3 +13,5 @@
 # Electronics AI automatic library backups
 *.SchLib.*.bak
 *.PcbLib.*.bak
+*.mcp-variant.lock
+*.PrjPcb.variants-*.bak
