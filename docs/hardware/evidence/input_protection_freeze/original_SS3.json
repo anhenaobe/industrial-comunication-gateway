@@ -1,0 +1,648 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"status\": \"success\", \"filepath\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.SchLib\", \"component_name\": \"SS3P6L-M3_86A\", \"component\": {\"name\": \"SS3P6L-M3_86A\", \"description\": \"Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands; Exact suffix from existing source parameters. Manufacturer terminalK retained as padK; no inherited provider1/2/3 map. Both anodes connect input; cathode protected rail. Source/cable reverse envelope and hot loss pending.\", \"part_count\": 1, \"current_part_id\": 1, \"display_mode_count\": 1, \"part_id_locked\": false, \"source_library_name\": \"*\", \"target_file_name\": \"*\", \"all_pin_count\": 3, \"header_params\": [[\"RECORD\", \"1\"], [\"IndexInSheet\", \"-1\"], [\"OwnerPartId\", \"-1\"], [\"LibraryPath\", \"*\"], [\"SheetPartFileName\", \"*\"], [\"AreaColor\", \"11599871\"], [\"Color\", \"128\"], [\"LibReference\", \"SS3P6L-M3_86A\"], [\"ComponentDescription\", \"Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands; Exact suffix from existing source parameters. Manufacturer terminalK retained as padK; no inherited provider1/2/3 map. Both anodes connect input; cathode protected rail. Source/cable reverse envelope and hot loss pending.\"], [\"PartCount\", \"2\"], [\"DisplayModeCount\", \"1\"], [\"CurrentPartId\", \"1\"], [\"SourceLibraryName\", \"*\"], [\"TargetFileName\", \"*\"], [\"AllPinCount\", \"3\"], [\"PartIDLocked\", \"F\"]], \"rectangles\": [{\"owner_part_id\": 1, \"x1\": -80.0, \"y1\": -10.0, \"x2\": 80.0, \"y2\": 40.0, \"line_width\": 1, \"line_color\": 128, \"fill_color\": 11599871, \"filled\": true, \"transparent\": false, \"line_style\": 0, \"unique_id\": \"AZKQSFIT\", \"raw_params\": [[\"RECORD\", \"14\"], [\"IsNotAccesible\", \"T\"], [\"OwnerPartId\", \"1\"], [\"Location.X\", \"-80\"], [\"Location.Y\", \"-10\"], [\"Corner.X\", \"80\"], [\"Corner.Y\", \"40\"], [\"LineWidth\", \"1\"], [\"Color\", \"128\"], [\"AreaColor\", \"11599871\"], [\"IsSolid\", \"T\"], [\"UniqueID\", \"AZKQSFIT\"]]}], \"pins\": [{\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"passive\", \"orientation\": \"left\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": -80, \"y\": 20, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"ANODE1\", \"designator\": \"1\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"passive\", \"orientation\": \"left\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": -80, \"y\": 0, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"ANODE2\", \"designator\": \"2\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"passive\", \"orientation\": \"right\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": 80, \"y\": 20, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"CATHODE\", \"designator\": \"K\", \"part_and_sequence\": \"|&|\"}], \"parameters\": [{\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"Vishay\", \"name\": \"Manufacturer\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"BHZDZDRF\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"4\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"Vishay\"], [\"Name\", \"Manufacturer\"], [\"UniqueID\", \"BHZDZDRF\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"SS3P6L-M3/86A\", \"name\": \"Manufacturer Part Number\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"HFLQXNLJ\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"5\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"SS3P6L-M3/86A\"], [\"Name\", \"Manufacturer Part Number\"], [\"UniqueID\", \"HFLQXNLJ\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands\", \"name\": \"Source\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"CEYIXAYN\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"6\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands\"], [\"Name\", \"Source\"], [\"UniqueID\", \"CEYIXAYN\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"sources/SS3P6L_88987.pdf\", \"name\": \"Datasheet\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"VXCXQUMS\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"7\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"sources/SS3P6L_88987.pdf\"], [\"Name\", \"Datasheet\"], [\"UniqueID\", \"VXCXQUMS\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"CAD_CANDIDATE\", \"name\": \"CAD Status\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"BWLPWXHE\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"8\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"CAD_CANDIDATE\"], [\"Name\", \"CAD Status\"], [\"UniqueID\", \"BWLPWXHE\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"PROPOSED_FOR_REUSE\", \"name\": \"Electrical Approval\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"FPVXUTJI\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"9\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"PROPOSED_FOR_REUSE\"], [\"Name\", \"Electrical Approval\"], [\"UniqueID\", \"FPVXUTJI\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"Exact suffix from existing source parameters. Manufacturer terminalK retained as padK; no inherited provider1/2/3 map. Both anodes connect input; cathode protected rail. Source/cable reverse envelope and hot loss pending.\", \"name\": \"Limitations\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"FNPVIZTW\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"10\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"Exact suffix from existing source parameters. Manufacturer terminalK retained as padK; no inherited provider1/2/3 map. Both anodes connect input; cathode protected rail. Source/cable reverse envelope and hot loss pending.\"], [\"Name\", \"Limitations\"], [\"UniqueID\", \"FNPVIZTW\"]]}], \"designator\": \"D?\", \"designator_x\": -5.0, \"designator_y\": 5.0, \"designator_unique_id\": \"AAQCIPHU\", \"footprints\": [{\"name\": \"GW_SS3P6L_VISHAY_88987\", \"is_current\": true, \"raw_params\": [[\"RECORD\", \"45\"], [\"OwnerIndex\", \"13\"], [\"IndexInSheet\", \"-1\"], [\"Description\", \"\"], [\"ModelType\", \"PCBLIB\"], [\"ModelName\", \"GW_SS3P6L_VISHAY_88987\"], [\"IsCurrent\", \"T\"], [\"UniqueID\", \"QHUOINCB\"]], \"unique_id\": \"QHUOINCB\"}], \"primitive_order\": [\"rectangle\", \"pin\", \"pin\", \"pin\", \"parameter\", \"parameter\", \"parameter\", \"parameter\", \"parameter\", \"parameter\", \"parameter\"]}, \"type\": \"SchLib\", \"units\": \"schematic units (10 = 1 grid)\", \"message\": \"Retrieved symbol 'SS3P6L-M3_86A' from 'C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.SchLib'\"}"
+    }
+  ],
+  "structuredContent": {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "component_name": "SS3P6L-M3_86A",
+    "component": {
+      "name": "SS3P6L-M3_86A",
+      "description": "Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands; Exact suffix from existing source parameters. Manufacturer terminalK retained as padK; no inherited provider1/2/3 map. Both anodes connect input; cathode protected rail. Source/cable reverse envelope and hot loss pending.",
+      "part_count": 1,
+      "current_part_id": 1,
+      "display_mode_count": 1,
+      "part_id_locked": false,
+      "source_library_name": "*",
+      "target_file_name": "*",
+      "all_pin_count": 3,
+      "header_params": [
+        [
+          "RECORD",
+          "1"
+        ],
+        [
+          "IndexInSheet",
+          "-1"
+        ],
+        [
+          "OwnerPartId",
+          "-1"
+        ],
+        [
+          "LibraryPath",
+          "*"
+        ],
+        [
+          "SheetPartFileName",
+          "*"
+        ],
+        [
+          "AreaColor",
+          "11599871"
+        ],
+        [
+          "Color",
+          "128"
+        ],
+        [
+          "LibReference",
+          "SS3P6L-M3_86A"
+        ],
+        [
+          "ComponentDescription",
+          "Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands; Exact suffix from existing source parameters. Manufacturer terminalK retained as padK; no inherited provider1/2/3 map. Both anodes connect input; cathode protected rail. Source/cable reverse envelope and hot loss pending."
+        ],
+        [
+          "PartCount",
+          "2"
+        ],
+        [
+          "DisplayModeCount",
+          "1"
+        ],
+        [
+          "CurrentPartId",
+          "1"
+        ],
+        [
+          "SourceLibraryName",
+          "*"
+        ],
+        [
+          "TargetFileName",
+          "*"
+        ],
+        [
+          "AllPinCount",
+          "3"
+        ],
+        [
+          "PartIDLocked",
+          "F"
+        ]
+      ],
+      "rectangles": [
+        {
+          "owner_part_id": 1,
+          "x1": -80,
+          "y1": -10,
+          "x2": 80,
+          "y2": 40,
+          "line_width": 1,
+          "line_color": 128,
+          "fill_color": 11599871,
+          "filled": true,
+          "transparent": false,
+          "line_style": 0,
+          "unique_id": "AZKQSFIT",
+          "raw_params": [
+            [
+              "RECORD",
+              "14"
+            ],
+            [
+              "IsNotAccesible",
+              "T"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Location.X",
+              "-80"
+            ],
+            [
+              "Location.Y",
+              "-10"
+            ],
+            [
+              "Corner.X",
+              "80"
+            ],
+            [
+              "Corner.Y",
+              "40"
+            ],
+            [
+              "LineWidth",
+              "1"
+            ],
+            [
+              "Color",
+              "128"
+            ],
+            [
+              "AreaColor",
+              "11599871"
+            ],
+            [
+              "IsSolid",
+              "T"
+            ],
+            [
+              "UniqueID",
+              "AZKQSFIT"
+            ]
+          ]
+        }
+      ],
+      "pins": [
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "passive",
+          "orientation": "left",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": -80,
+          "y": 20,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "ANODE1",
+          "designator": "1",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "passive",
+          "orientation": "left",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": -80,
+          "y": 0,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "ANODE2",
+          "designator": "2",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "passive",
+          "orientation": "right",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": 80,
+          "y": 20,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "CATHODE",
+          "designator": "K",
+          "part_and_sequence": "|&|"
+        }
+      ],
+      "parameters": [
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "Vishay",
+          "name": "Manufacturer",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "BHZDZDRF",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "4"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "Vishay"
+            ],
+            [
+              "Name",
+              "Manufacturer"
+            ],
+            [
+              "UniqueID",
+              "BHZDZDRF"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "SS3P6L-M3/86A",
+          "name": "Manufacturer Part Number",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "HFLQXNLJ",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "5"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "SS3P6L-M3/86A"
+            ],
+            [
+              "Name",
+              "Manufacturer Part Number"
+            ],
+            [
+              "UniqueID",
+              "HFLQXNLJ"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands",
+          "name": "Source",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "CEYIXAYN",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "6"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands"
+            ],
+            [
+              "Name",
+              "Source"
+            ],
+            [
+              "UniqueID",
+              "CEYIXAYN"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "sources/SS3P6L_88987.pdf",
+          "name": "Datasheet",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "VXCXQUMS",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "7"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "sources/SS3P6L_88987.pdf"
+            ],
+            [
+              "Name",
+              "Datasheet"
+            ],
+            [
+              "UniqueID",
+              "VXCXQUMS"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "CAD_CANDIDATE",
+          "name": "CAD Status",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "BWLPWXHE",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "8"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "CAD_CANDIDATE"
+            ],
+            [
+              "Name",
+              "CAD Status"
+            ],
+            [
+              "UniqueID",
+              "BWLPWXHE"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "PROPOSED_FOR_REUSE",
+          "name": "Electrical Approval",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "FPVXUTJI",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "9"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "PROPOSED_FOR_REUSE"
+            ],
+            [
+              "Name",
+              "Electrical Approval"
+            ],
+            [
+              "UniqueID",
+              "FPVXUTJI"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "Exact suffix from existing source parameters. Manufacturer terminalK retained as padK; no inherited provider1/2/3 map. Both anodes connect input; cathode protected rail. Source/cable reverse envelope and hot loss pending.",
+          "name": "Limitations",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "FNPVIZTW",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "10"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "Exact suffix from existing source parameters. Manufacturer terminalK retained as padK; no inherited provider1/2/3 map. Both anodes connect input; cathode protected rail. Source/cable reverse envelope and hot loss pending."
+            ],
+            [
+              "Name",
+              "Limitations"
+            ],
+            [
+              "UniqueID",
+              "FNPVIZTW"
+            ]
+          ]
+        }
+      ],
+      "designator": "D?",
+      "designator_x": -5,
+      "designator_y": 5,
+      "designator_unique_id": "AAQCIPHU",
+      "footprints": [
+        {
+          "name": "GW_SS3P6L_VISHAY_88987",
+          "is_current": true,
+          "raw_params": [
+            [
+              "RECORD",
+              "45"
+            ],
+            [
+              "OwnerIndex",
+              "13"
+            ],
+            [
+              "IndexInSheet",
+              "-1"
+            ],
+            [
+              "Description",
+              ""
+            ],
+            [
+              "ModelType",
+              "PCBLIB"
+            ],
+            [
+              "ModelName",
+              "GW_SS3P6L_VISHAY_88987"
+            ],
+            [
+              "IsCurrent",
+              "T"
+            ],
+            [
+              "UniqueID",
+              "QHUOINCB"
+            ]
+          ],
+          "unique_id": "QHUOINCB"
+        }
+      ],
+      "primitive_order": [
+        "rectangle",
+        "pin",
+        "pin",
+        "pin",
+        "parameter",
+        "parameter",
+        "parameter",
+        "parameter",
+        "parameter",
+        "parameter",
+        "parameter"
+      ]
+    },
+    "type": "SchLib",
+    "units": "schematic units (10 = 1 grid)",
+    "message": "Retrieved symbol 'SS3P6L-M3_86A' from 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib'"
+  },
+  "isError": false
+}

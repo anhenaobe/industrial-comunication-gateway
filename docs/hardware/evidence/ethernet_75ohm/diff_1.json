@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "filepath_a": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\backups\\ethernet75_20261107T205121Z\\Gateway_Academic.PcbLib",
+  "filepath_b": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+  "file_type": "PcbLib",
+  "added": [
+    "GW_CRCW0805_VISHAY_20035_REFLOW"
+  ],
+  "removed": [],
+  "modified": [],
+  "summary": {
+    "added_count": 1,
+    "removed_count": 0,
+    "modified_count": 0,
+    "unchanged_count": 35,
+    "components_in_a": 35,
+    "components_in_b": 36
+  }
+}

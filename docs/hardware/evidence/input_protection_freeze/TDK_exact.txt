@@ -1,0 +1,71 @@
+PAGE 1
+•This PDF document was created based on the data listed on the TDK Corporation website.
+•All specifications are subject to change without notice.
+Copyright(c) TDK Corporation. All rights reserved
+Page 1 of 2
+Creation Date : December 16, 2014
+C5750X7R2A475K230KA
+(TDK item description : C5750X7R2A475KT****)
+Applications
+Commercial Grade
+ Please refer to Part No. CGA9N2X7R2A475K230KA for automotive use.
+Feature
+Mid Voltage (100 to 630V)
+Series
+C5750 [EIA CC2220]
+Size
+  Length(L)
+  5.70mm +/-0.40mm
+  Width(W)
+  5.00mm +/-0.40mm
+  Thickness(T)
+  2.30mm +/-0.20mm
+  Terminal Width(B)
+  0.20mm Min.
+  Terminal Spacing(G)
+  
+  Recommended Land Pattern(PA)
+  4.10 to 4.80mm
+  Recommended Land Pattern(PB)
+  1.20 to 1.40mm
+  Recommended Land Pattern(PC)
+  4.00 to 5.00mm
+  Recommended Slit Pattern(SD)
+  
+Electrical Characteristics
+  Capacitance
+  4.7uF +/-10%
+  Rated Voltage
+  100Vdc
+  Temperature Characteristic
+  X7R(+/-15%)
+  Dissipation Factor
+  3% Max.
+  Insulation Resistance
+  106MΩ Min.
+Other
+  Soldering Method
+  Reflow
+  AEC Q200
+  No
+  Packing
+  Blister (Plastic)Taping [180mm Reel]
+  Package Quantity
+  500Pcs Min.
+
+PAGE 2
+•This PDF document was created based on the data listed on the TDK Corporation website.
+•All specifications are subject to change without notice.
+Copyright(c) TDK Corporation. All rights reserved
+Page 2 of 2
+Creation Date : December 16, 2014
+C5750X7R2A475K230KA
+C5750X7R2A475K230KA
+C5750X7R2A475K230KA
+C5750X7R2A475K230KA
+C5750X7R2A475K230KA
+C5750X7R2A475K230KA(DC Bias = 0V)
+C5750X7R2A475K230KA(DC Bias = 50V)
+C5750X7R2A475K230KA(100kHz)
+C5750X7R2A475K230KA(500kHz)
+C5750X7R2A475K230KA(1MHz)

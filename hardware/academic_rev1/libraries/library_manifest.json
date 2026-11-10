@@ -1,0 +1,60 @@
+[
+  {
+    "file": "Professor_shared.SchLib",
+    "source": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\shared_lib (1).IntLib",
+    "source_stream": "SchLib/0.schlib",
+    "source_sha256": "91594ede8aadf6449fff5b44b7443deafeb73cfaf0bc1eb1ff434d8ac1fb6159",
+    "sha256": "4224bca2915106499b00128131c8a18d48b1bddc8573ebf9c80952c32e85d620",
+    "entries": 71,
+    "state": "extracted_original; presence_checked; not_CAD_qualified"
+  },
+  {
+    "file": "Professor_shared.PcbLib",
+    "source": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\shared_lib (1).IntLib",
+    "source_stream": "PCBLib/0.pcblib",
+    "source_sha256": "91594ede8aadf6449fff5b44b7443deafeb73cfaf0bc1eb1ff434d8ac1fb6159",
+    "sha256": "f359611c12c5777b634ba5ecbd4cf5e3fa5ce805aa9b3c63db867b173a7fbc97",
+    "entries": 37,
+    "state": "extracted_original; presence_checked; not_CAD_qualified"
+  },
+  {
+    "file": "SS3P6L-M386A.SchLib",
+    "source": "C:\\dev\\7mo\\design\\electronic-design-dc-dc\\components_models\\SS3P6L_M3_86A\\Altium\\SS3P6L-M3-86A\\SS3P6L-M386A.SchLib",
+    "sha256": "4ee1abdea0db1cbf3acd6851413ff0169964a6576cfdf8f4b82c82d5119108a9",
+    "entries": [
+      "SS3P6L-M386A"
+    ],
+    "state": "copied_original; not_CAD_qualified"
+  },
+  {
+    "file": "SS3P6L-M386A.PcbLib",
+    "source": "C:\\dev\\7mo\\design\\electronic-design-dc-dc\\components_models\\SS3P6L_M3_86A\\Altium\\SS3P6L-M3-86A\\SS3P6L-M386A.PcbLib",
+    "sha256": "e793dfcca4a28d5ecb300129b51ac08c52ec590f49989ba222f4624e9b60c6d8",
+    "entries": [
+      "SS3P6L-M386A_VIS",
+      "SS3P6L-M386A_VIS-L",
+      "SS3P6L-M386A_VIS-M"
+    ],
+    "state": "copied_original; not_CAD_qualified"
+  },
+  {
+    "file": "CL10B103KA8WPNC.SchLib",
+    "source": "C:\\dev\\7mo\\design\\electronic-design-dc-dc\\components_models\\ul_CL10B103KA8WPNC\\Altium\\CL10B103KA8WPNC.SchLib",
+    "sha256": "9cc386e13ead09c12cc59c5c1ee92310bf323d5aaaffb94520701d273ad59ad9",
+    "entries": [
+      "CL10B103KA8WPNC"
+    ],
+    "state": "copied_original; not_CAD_qualified"
+  },
+  {
+    "file": "CL10B103KA8WPNC.PcbLib",
+    "source": "C:\\dev\\7mo\\design\\electronic-design-dc-dc\\components_models\\ul_CL10B103KA8WPNC\\Altium\\CL10B103KA8WPNC.PcbLib",
+    "sha256": "c9496f975a16591976208cbb517f3227292981eccf8fcac6ddb7468af688f6f4",
+    "entries": [
+      "CAP_CL_10_SAM",
+      "CAP_CL_10_SAM-L",
+      "CAP_CL_10_SAM-M"
+    ],
+    "state": "copied_original; not_CAD_qualified"
+  }
+]

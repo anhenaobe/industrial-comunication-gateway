@@ -1,0 +1,72 @@
+[
+  {
+    "name": "GW_C1206_KEMET_C1076_DENSITY_B",
+    "description": "KEMET C1076p10 Table3 DensityB1206:C1.50,Y1.15,X1.80mm; centers3.00; gap1.85; body3.2x1.6mm. Mask+.05/paste1:1 process choices, not safety insulation geometry.",
+    "pads": [
+      {
+        "designator": "1",
+        "x": -1.5,
+        "y": 0,
+        "width": 1.15,
+        "height": 1.8,
+        "shape": "rectangle",
+        "layer": "Top Layer",
+        "hole_size": 0,
+        "is_plated": false,
+        "solder_mask_expansion": 0.05,
+        "solder_mask_expansion_mode": "manual",
+        "paste_mask_expansion": 0,
+        "paste_mask_expansion_mode": "manual"
+      },
+      {
+        "designator": "2",
+        "x": 1.5,
+        "y": 0,
+        "width": 1.15,
+        "height": 1.8,
+        "shape": "rectangle",
+        "layer": "Top Layer",
+        "hole_size": 0,
+        "is_plated": false,
+        "solder_mask_expansion": 0.05,
+        "solder_mask_expansion_mode": "manual",
+        "paste_mask_expansion": 0,
+        "paste_mask_expansion_mode": "manual"
+      }
+    ],
+    "tracks": [
+      {
+        "x1": -1.6,
+        "y1": -0.8,
+        "x2": 1.6,
+        "y2": -0.8,
+        "width": 0.05,
+        "layer": "Mechanical 1"
+      },
+      {
+        "x1": 1.6,
+        "y1": -0.8,
+        "x2": 1.6,
+        "y2": 0.8,
+        "width": 0.05,
+        "layer": "Mechanical 1"
+      },
+      {
+        "x1": 1.6,
+        "y1": 0.8,
+        "x2": -1.6,
+        "y2": 0.8,
+        "width": 0.05,
+        "layer": "Mechanical 1"
+      },
+      {
+        "x1": -1.6,
+        "y1": 0.8,
+        "x2": -1.6,
+        "y2": -0.8,
+        "width": 0.05,
+        "layer": "Mechanical 1"
+      }
+    ]
+  }
+]

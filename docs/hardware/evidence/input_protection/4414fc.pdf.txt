@@ -1,0 +1,782 @@
+=== PDF PAGE 1 ===
+                                         LTC4414
+                            36V, Low Loss PowerPathTM
+                              Controller for Large PFETs
+                                U
+FEATURES                      DESCRIPTIO
+
+■Designed Specifically to Drive Large QG PFETs        The LTC®4414 controls an external P-channel MOSFET to
+■Very Low Loss Replacement for Power Supply          create a near ideal diode function for power switchover.
+  OR’ing Diodes                                       This permits highly efficient OR’ing of multiple power
+■3.5V to 36V AC/DC Adapter Voltage Range             sources for extended battery life and low self- heating. When
+■Minimal External Components                         conducting, the voltage drop across the MOSFET is typi-
+■Automatic Switching Between DC Sources                cally 20mV. For applications with a wall adapter or other aux-
+■Low Quiescent Current: 30µA                                  iliary power source, the load is automatically disconnected
+■3V to 36V Battery Voltage Range                     from the battery when the auxiliary source is connected.
+■Limited Reverse Battery Protection                Two or more LTC4414s may be interconnected to allow
+■MOSFET Gate Protection Clamp                        switchover between multiple batteries or charging of mul-
+■Manual Control Input                                           tiple batteries from a single charger.
+■Space Saving 8-Lead MSOP Package
+                                                 The wide supply operating range supports operation from
+                                                 one to eight Li-Ion cells in series. The low quiescent
+        U                                     current (30µA typical) is independent of the load current.APPLICATIO S
+                                                 The gate driver includes an internal voltage clamp for
+■High Current Power Path Switch                  MOSFET protection.
+■Industrial and Automotive Applications
+                                                 The STAT pin can be used to enable an auxiliary P-channel■Uninterruptable Power Supplies
+                                       MOSFET power switch when an auxiliary supply is■Logic Controlled Power Switch
+                                                            detected. This pin may also be used to indicate to a micro-■Battery Backup Systems
+                                                               controller that an auxiliary supply is connected. The con-■Emergency Systems with Battery Backups
+                                                                   trol (CTL) input enables the user to force the primary
+       , LT, LTC and LTM are registered trademarks of Linear Technology Corporation.
+PowerPath and ThinSOT are trademarks of Linear Technology Corporation. All other      MOSFET off and the STAT pin low.
+trademarks are the property of their respective owners.
+                                                The LTC4414 is available in a low profile 8-lead MSOP
+                                                       package.
+
+              U
+TYPICAL APPLICATIO
+
+                                                                   LTC4414 vs Schottky Diode Forward Voltage Drop
+
+Automatic Switchover of Load Between a Battery and a Power Supply                         8.0
+
+                    UPS840                                                                           CONSTANT
+  POWER                                                                                                 RON
+ SUPPLY
+   INPUT                    SUP75P03_07                                                                     3.6
+                                                    TO LOAD                                             (A)
+ BATTERY                                                                                              LTC4414
+  CELL(S)                                        COUT
+                   LTC4414
+                                                 VCC                     VIN  SENSE                                                                                                                                                                                                                                        CURRENT              CONSTANT
+               GND  GATE                         470k                                                    VOLTAGE
+                                                     STATUS OUTPUT                                                SCHOTTKY
+                  CTL   STAT                       LOW WHEN POWER                                                 DIODE
+                                                                                           4414 TA01 SUPPLY PRESENT
+                NC     NC
+
+                                                                                                   0
+                                                                                                                   0.02                                        0.5
+                                                                                          FORWARD VOLTAGE (V)
+
+                                                                                                                                                                                                                                         4414 TA01b
+
+                                                                                                                                                                        4414fc
+                              1
+=== PDF PAGE 2 ===
+LTC4414
+     W W W   U                  U  W   U
+ABSOLUTE MAXIMUM RATINGS    PACKAGE/ORDER INFORMATION
+(Note 1)
+Supply Voltage (VIN).................................. –14V to 40V                                  TOP VIEW
+Voltage from VIN to SENSE ........................ –40V to 40V                          STAT 1               8 GATE
+                                                                                                                           7                                                                                                   CTL 2                                                                                                                                              VINInput Voltage                                                                                                                           6                                                                                                                  SENSE                                                                                    GND                                                                                                           3
+    CTL........................................................–0.3V to 40V                         NC 4               5 NC
+  SENSE ....................................................–14V to 40V                             MS8 PACKAGE
+                                                                                                          8-LEAD PLASTIC MSOP
+Output Voltage                                                                                                                 TJMAX = 125°C, θJA = 200°C/W
+  GATE ..................... –0.3V to the Higher of VIN + 0.3V
+                      or SENSE + 0.3V               ORDER PART NUMBER   MS8 PART MARKING
+  STAT .....................................................–0.3V to 40V                                                 LTC4414EMS8             LTBQF
+Operating Ambient Temperature Range (Note 2)                                                   LTC4414IMS8            LTBQG
+    I Grade ............................................ –40°C to 125°C
+                                                                      Order Options Tape and Reel: Add #TR
+  E Grade.............................................. –40°C to 85°C     Lead Free: Add #PBF  Lead Free Tape and Reel: Add #TRPBF
+Operating Junction Temperature ......... –40°C to 125°C     Lead Free Part Marking: http://www.linear.com/leadfree/
+Storage Temperature Range ................. –65°C to 150°C                                                                                Consult LTC Marketing for parts specified with wider operating temperature ranges.
+Lead Temperature (Soldering, 10 sec)..................300°C
+
+ELECTRICAL CHARACTERISTICS  The ● denotes specifications which apply over the full operating
+temperature range, unless otherwise noted specifications are at TA = 25°C, VIN = 12V, CTL and GND = 0V. Current into a pin is positive
+and current out of a pin is negative. All voltages are referenced to GND, unless otherwise specified.
+
+SYMBOL  PARAMETER                       CONDITIONS                                  MIN     TYP    MAX    UNITS
+
+VIN,        Operating Supply Range                  VIN and/or VSENSE Must Be in This Range        ●    3               36        V
+VSENSE                                                    for Proper Operation
+IQFL        Quiescent Supply Current at Low Supply   VIN = 3.6V. Measure Combined Current         ●            31      60        µA
+           While in Forward Regulation                 at VIN and SENSE Pins Averaged with
+                                                 VSENSE = 3.5V and VSENSE = 3.6V (Note 3)
+IQFH        Quiescent Supply Current at High Supply   VIN = 36V. Measure Combined Current         ●            36      61        µA
+           While in Forward Regulation                 at VIN and SENSE Pins Averaged with
+                                                 VSENSE = 35.9V and VSENSE = 36V (Note 3)
+IQRL        Quiescent Supply Current at Low Supply   VIN = 3.6V, VSENSE = 3.7V. Measure                             21      30        µA
+           While in Reverse Turn-Off              Combined Current of VIN and SENSE Pins
+IQRH       Quiescent Supply Current at High Supply   VIN = 35.9V, VSENSE = 36V. Measure                             33      45        µA
+           While in Reverse Turn-Off              Combined Current of VIN and SENSE Pins
+IQCL        Quiescent Supply Current at Low Supply   VIN = 3.6V, VCTL = 1V,                                        14      20        µA
+            with CTL Active                          VIN – VSENSE = 0.9V
+IQCH       Quiescent Supply Current at High Supply   VIN = 36V, VCTL = 1V,                                        26      35        µA
+            with CTL Active                          VIN – VSENSE = 0.9V
+ILEAK       VIN and SENSE Pin Leakage Currents      VIN = 28V, SENSE = 0V                              –10      –1       1        µA
+         When Other Pin Supplies Power           VIN = 14V, SENSE = –14V                            –10               1        µA
+                                                     VIN = 36V, SENSE = 8V                              –10               1        µA
+                                                     VIN = 0V, SENSE = 28V                              –10               1        µA
+                                                     VIN = –14V, SENSE = 14V                            –10               1        µA
+                                                     VIN = 8V, SENSE = 36V                              –10               1        µA
+PowerPath Controller
+VFR       PowerPath Switch Forward Regulation     VIN – VSENSE, 3V ≤ VIN ≤ 36V, CGATE = 3nF       ●    10               32      mV
+            Voltage
+VRTO      PowerPath Switch Reverse Turn-Off       VSENSE – VIN, 3V ≤ VIN ≤ 36V, CGATE = 3nF       ●    10               32      mV
+           Threshold Voltage
+
+                                                                                                                                                                        4414fc
+2
+=== PDF PAGE 3 ===
+                                         LTC4414
+
+ELECTRICAL CHARACTERISTICS  The ● denotes specifications which apply over the full operating
+temperature range, unless otherwise noted specifications are at TA = 25°C, VIN = 12V, CTL and GND = 0V. Current into a pin is positive
+and current out of a pin is negative. All voltages are referenced to GND, unless otherwise specified.
+
+SYMBOL  PARAMETER                              CONDITIONS                            MIN     TYP    MAX    UNITS
+
+GATE and STAT Outputs
+
+         GATE Active Forward Regulation                  (Note 4)
+IG(SRC)      Source Current                                                                  –25             –7        µA
+IG(SNK)      Sink Current                                                                        190              500       µA
+VG(ON)    GATE Clamp Voltage                            Apply IGATE = 6µA, VIN = 12V,                   8                9         V
+                                                         VSENSE = 11.9V, Measure VIN – VGATE
+VG(OFF)    GATE Off Voltage                                Apply IGATE = –30µA, VIN = 12V,                            0.35      0.92        V
+                                                         VSENSE = 12.1V, Measure VSENSE – VGATE
+tG(ON)     GATE Turn-On Time                          VGS < –6V, CGATE = 17nF (Note 5)                                600        µs
+tG(OFF)    GATE Turn-Off Time                          VGS > –1.5V, CGATE = 17nF (Note 6)                               20         µs
+IS(OFF)     STAT Off Current                          3V ≤ VIN ≤ 36V (Note 7)            ●    –1       0       1        µA
+IS(SNK)    STAT Sink Current                          12V ≤ VIN ≤ 36V (Note 7)            ●    50              200       µA
+tS(ON)     STAT Turn-On Time                              (Note 8)                                                     8         µs
+tS(OFF)     STAT Turn-Off Time                              (Note 8)                                                    51         µs
+
+CTL Input
+VIL       CTL Input Low Voltage                      3V ≤ VIN ≤ 36V                 ●    0.35                       V
+VIH       CTL Input High Voltage                      3V ≤ VIN ≤ 36V                 ●                         0.9        V
+ICTL       CTL Input Pull-Down Current                    0.35V ≤ VCTL ≤ 36V                           1        3.5       5.9       µA
+HCTL      CTL Hysteresis                            3V ≤ VIN ≤ 36V                                      170            mV
+
+Note 1: Stresses beyond those listed under Absolute Maximum Ratings       Note 5: VIN is held at 12V and SENSE is stepped from 12.2V to 11.8V to
+may cause permanent damage to the device. Exposure to any Absolute          trigger the event. GATE voltage is initially VG(OFF).
+Maximum Rating condition for extended periods may affect device            Note 6: VIN is held at 12V and SENSE is stepped from 11.8V to 12.2V to
+reliability and lifetime.                                                              trigger the event. GATE voltage is initially internally clamped at VG(ON).
+Note 2: The LTC4414E is guaranteed to meet performance specifications      Note 7: STAT is forced to VIN – 1.5V. SENSE is set at VIN – 0.1V to
+from 0°C to 85°C. Specifications over the –40°C to 85°C operating           measure the off current at STAT. SENSE is set VIN + 0.1V to measure the
+temperature range are assured by design, characterization and correlation      sink current at STAT.
+with statistical process controls. The LTC4414I is guaranteed and tested
+                                                                   Note 8: STAT is forced to 9V and VIN is held at 12V. SENSE is stepped
+over the –40° to 125° operating temperature range.                                                                   from 11.8V to 12.2V to measure the STAT turn-on time defined when ISTAT
+Note 3: This results in the same supply current as would be observed with     reaches one half the measured IS(SNK). SENSE is stepped from 12.2V to
+an external P-channel MOSFET connected to the LTC4414 and operating in     11.8V to measure the STAT turn-off time defined when ISTAT reaches one
+forward regulation.                                                                   half the measured IS(SNK) .
+Note 4: VIN is held at 12V and GATE is forced to 9V. SENSE is set at 12V
+to measure the source current at GATE. SENSE is set at 11.9V to measure
+sink current at GATE.
+
+
+
+
+
+                                                                                                                                                                        4414fc
+                              3
+=== PDF PAGE 4 ===
+LTC4414
+        W U
+TYPICAL PERFOR A CE CHARACTERISTICS
+
+
+      VFR vs Temperature and                   VRTO vs Temperature and                  Normalized Quiescent Supply
+      Supply Voltage                            Supply Voltage                             Current vs Temperature
+
+     25                                                 26                                                      1.05
+
+                           VIN = 3V
+
+
+                          VIN = 28V
+                                                                                                                                                             (µA)                3V ≤ VIN ≤ 36V                          = 36V                                           (mV)  (mV)                       VIN     23                                                 24                                                      1.00
+ VFR                                                                                   VRTO                                                                                                                                                                                                                                                                                                                                                                        CURRENT
+                                                                                                 VIN = 36V
+
+
+                                                                                                VIN = 28V
+                                                                               VIN = 3V
+     21                                                 22                                                      0.95
+      –50       0        50       100      150          –50       0        50       100      150          –50       0        50       100      150
+                 TEMPERATURE (°C)                               TEMPERATURE (°C)                              TEMPERATURE (°C)
+
+                                                                4414 G01                                                                         4414 G02                                                                        4414 G03
+
+       VIN and SENSE Pin Leakage
+      vs Temperature                              VG(ON) vs Temperature                       VG(OFF) vs Temperature and IGATE
+      0                                                           9.0                                                          1.0
+                                                                      IGATE = 6µA                                       3V ≤ VIN ≤ 36V
+
+
+ (µA)            ISENSE: VIN – SENSE = 28V                          (V)                              VIN = 36V                        (V)                                IGATE = –60µA
+     –1                                                           8.5                                                          0.5                                                                                                                                  –VGATE                                                                                                                                                                                                                         VGATE   CURRENT                                                             VIN
+                                                                                          VIN = 10V                                                                                                                                                            IGATE = –30µA
+                    IVIN: SENSE – VIN = 28V
+                                                                                                                                                             IGATE = 0µA
+
+     –2                                                           8.0                                                 0
+      –50       0        50       100      150          –50       0        50       100      150          –50       0        50       100      150
+                 TEMPERATURE (°C)                               TEMPERATURE (°C)                              TEMPERATURE (°C)
+
+                                                                4414 G04                                                                         4414 G05                                                                        4414 G06
+
+
+                         tG(ON) vs Temperature                                         tG(OFF) vs Temperature
+                      320                                                               10
+                          CLOAD = 15nF                                                        CGATE = 15nF
+                         12V ≤ VIN ≤ 36V                                                  12V ≤ VIN ≤ 36V
+
+
+                            (µs)                                                                                                  (µs)
+                                              tG(ON) 300                                                                                                                                                                                  tG(OFF) 8
+
+
+
+
+
+                      280                                                                6
+                        –50       0        50       100      150                        –50       0        50       100      150
+                                TEMPERATURE (°C)                                           TEMPERATURE (°C)
+
+                                                                                            4414 G07                                                                                               4414 G08
+
+
+                                                                                                                                                                        4414fc
+4
+=== PDF PAGE 5 ===
+                                         LTC4414
+  U  U   U
+PI FU CTIO S
+
+STAT (Pin 1): Open-Drain Output Status Pin. When the   SENSE (Pin 6): Power Sense Input Pin. Supplies power to
+SENSE pin is pulled above the VIN pin with an auxiliary    the internal circuitry and is a voltage sense input to the
+power source by VRTO or more, the reverse turn-off    internal analog controller (The other input to the controller
+ threshold (VRTO) is reached. The STAT pin will then go     is the VIN pin). This input is usually supplied power from
+ from an open state to a current sink (IS(SNK)). The STAT pin   an auxiliary source such as an AC adapter or back-up
+ current sink can be used, along with an external resistor,    battery which also supplies current to the load.
+ to turn on an auxiliary P-channel power switch and/or
+                                                         VIN (Pin 7): Primary Input Supply Voltage. Supplies power
+ signal the presence of an auxiliary power source to a
+                                                              to the internal circuitry and is one of two voltage sense
+ microcontroller.
+                                                           inputs to the internal analog controller (The other input to
+CTL (Pin 2): Digital Control Input. A logical high input (VIH)    the controller is the SENSE pin). This input is usually
+on this pin forces the gate to source voltage of the primary    supplied power from a battery or other power source
+ P-channel MOSFET power switch to a small voltage (VGOFF).   which supplies current to the load. This pin can be by-
+ This will turn the MOSFET off and no current will flow from   passed to ground with a capacitor in the range of 0.1µF to
+ the primary power input at VIN if the MOSFET is configured   10µF if needed to suppress load transients.
+ so that the drain to source diode does not forward bias. A
+                                            GATE (Pin 8): Primary P-Channel MOSFET Power Switch
+ high input also forces the Open-Drain STAT pin ON. If the
+                                                      Gate Drive Pin. This pin is directed by the power controller
+STAT pin is used to control an auxiliary P-channel power
+                                                              to maintain a forward regulation voltage (VFR) of 20mV
+ switch, then a second active source of power, such as an
+                                                   between the VIN and SENSE pins when an auxiliary power
+AC wall adaptor, will be connected to the load (see Appli-
+                                                      source is not present. When an auxiliary power source is
+ cations Information). An internal current sink will pull the
+                                                        connected, the GATE pin will pull up to the SENSE pin
+CTL pin voltage to ground (logical low) if the pin is open.
+                                                              voltage, turning off the primary P-channel power switch.
+GND (Pin 3): Ground. Provides a power return for all the
+ internal circuits.
+       W
+BLOCK DIAGRA                    +
+                                                           AUXILIARY
+                                                       SUPPLY –
+                                                            *
+                     +                                                                                +
+                    PRIMARY                     SUPPLY –                                                                                – OUTPUTTO LOAD
+
+
+                                                                                7       6
+
+                                                                                            VIN     SENSE
+
+
+                                                        –    +
+
+                                     POWER  SOURCE
+                                                                               A1
+                                              SELECTOR
+
+
+                                         POWER
+
+                                           VOLTAGE/CURRENT                                           LINEAR GATE      GATE
+                                              REFERENCE                                             DRIVER AND             8
+                                                          0.5V                                             VOLTAGE CLAMP
+                                                                                                                                     VCC
+
+
+                                      CTL
+                          ON/OFF     2              +                                                             STAT           STATUS
+                                                                                                                                  1
+                                                                                                                            OUTPUT
+                                                  3.5µA       C1           ANALOG CONTROLLER      ON/OFF
+                                         –
+
+
+                                                                       GND                                                                        4414 BD                                                                                    3
+
+                                                                                      *DRAIN-SOURCE DIODE OF MOSFET
+                                                                                                                                                                         4414fc
+                              5
+=== PDF PAGE 6 ===
+LTC4414
+
+OPERATIOU
+
+Operation can best be understood by referring to the Block   The Power Source Selector will power the LTC4414
+Diagram, which illustrates the internal circuit blocks along   from the SENSE pin. As the SENSE voltage pulls above
+with the few external components, and the graph that    VIN – 20mV, the Analog Controller will instruct the Linear
+accompanies the Typical Application drawing on the front   Gate Driver and Voltage Clamp block to pull the GATE
+page of the data sheet. The terms primary and auxiliary are    voltage up to turn off the P-channel MOSFET. When the
+arbitrary and may be changed to suit the application.    voltage on SENSE is higher than VIN + 20mV (VRTO), the
+Operation begins when either or both power sources are   Analog Controller will instruct the Linear Gate Driver and
+applied and the CTL control pin is below the input low    Voltage Clamp block to rapidly pull the GATE pin voltage
+voltage of 0.35V (VIL).  If only the primary supply is    to the SENSE pin voltage. This action will quickly finish
+present, the Power Source Selector will power the LTC4414    turning off the external P-channel MOSFET if it hasn’t
+from the VIN pin. Amplifier A1 will deliver a current to the    already turned completely off. For a clean transition, the
+Analog Controller block that is proportional to the voltage    reverse turn-off threshold has hysteresis to prevent
+difference in the VIN and SENSE pins. While the voltage on    uncertainty. The system is now in the reverse turn-off
+SENSE is lower than VIN – 20mV (VFR), the Analog   mode. Power to the load is being delivered through the
+Controller will instruct the Linear Gate Driver and Voltage    external diode and no current is drawn from the primary
+Clamp block to pull down the GATE pin voltage and turn on    supply. The external diode provides protection in case
+the external P-channel MOSFET. The dynamic pull-down    the auxiliary supply is below the primary supply, sinks
+current of 300µA (IG(SNK)) stops when the GATE voltage    current to ground or  is connected reverse polarity.
+reaches ground or the gate clamp voltage. The gate clamp   During the reverse turn-off mode of operation the STAT
+voltage is 8.5V (VG(ON)) below the higher of VIN or VSENSE.    pin will sink a current (IS(SNK)) if connected. Note that the
+As the SENSE voltage pulls up to VIN – 20mV, the LTC4414    external MOSFET is wired so that the drain to source
+will regulate the GATE voltage to maintain a 20mV differ-    diode will momentarily forward bias when power is first
+ence between VIN and VSENSE which is also the VDS of the    applied to VIN and will become reverse biased when an
+MOSFET. The system is now in the forward regulation    auxiliary supply is applied.
+mode and the load will be powered from the primary
+                                          When the CTL (control) input is asserted high, the external
+supply. As the load current varies, the GATE voltage will be
+                                          MOSFET will have its gate to source voltage forced to a
+controlled to maintain the 20mV difference. If the load
+                                                        small voltage VG(OFF) and the STAT pin will sink a mini-
+current exceeds the P-channel MOSFET’s ability to deliver                                  mum of 50µA of current if connected. This feature is useful
+the current with a 20mV VDS the GATE voltage will clamp,                                                             to allow control input switching of the load between two
+the MOSFET will behave as a fixed resistor and the forward
+                                                 power sources as shown in Figure 3 or as a switchable
+voltage will increase slightly. While the MOSFET is on the                                                       high side driver as shown in Figure 7. A 3.5µA internal pull-
+STAT pin is an open circuit.
+                                            down current (ICTL) on the CTL pin will insure a low level
+When an auxiliary supply is applied, the SENSE pin will be    input if the pin should become open.
+pulled higher than the VIN pin through the external diode.
+
+
+
+
+
+                                                                                                                                                                        4414fc
+6
+=== PDF PAGE 7 ===
+                                         LTC4414
+        U  U  W   U
+APPLICATIO S I FOR ATIO
+
+Introduction                                          Care should be taken to ensure that the power dissipated
+                                                                       is never allowed to rise above the manufacturer’s recom-
+The system designer will find the LTC4414 useful in a
+                                             mended maximum level. The auxiliary MOSFET power
+variety of cost and space sensitive power control applica-
+                                                           switch, if used, has similar considerations, but its VGS cantions that include low loss diode OR’ing, fully automatic
+                                                  be tailored by resistor selection. When choosing the
+switchover from a primary to an auxiliary source of power,
+                                                               resistor value consider the full range of STAT pin current
+microcontroller controlled switchover from a primary to
+                                                                 (IS(SNK)) that may flow through it.an auxiliary source of power, charging of multiple batter-
+ies from a single charger and high side power switching.
+                                                        VIN and SENSE Pin Bypass Capacitors
+External P-Channel MOSFET Transistor Selection       Many types of capacitors, ranging from 0.1µF to 10µF and
+                                                           located close to the LTC4414, will provide adequate VINImportant parameters for the selection of MOSFETs are
+                                                     bypassing if needed. Voltage droop can occur at the load
+the maximum drain-source voltage VDS(MAX), threshold
+                                                        during a supply switchover because some time is required
+voltage VGS(VT) and on-resistance RDS(ON).
+                                                             to turn on the MOSFET power switch. Factors that deter-
+The maximum allowable drain-source voltage, VDS(MAX),   mine the magnitude of the voltage droop include the
+must be high enough to withstand the maximum drain-    supply rise and fall times, the MOSFET’s characteristics,
+source voltage seen in the application.                     the value of COUT and the load current. Droop can be made
+                                                                 insignificant by the proper choice of COUT, since the droopThe maximum gate drive voltage for the primary MOSFET
+                                                                       is inversely proportional to the capacitance. Bypass ca-is set by the smaller of the VIN supply voltage or the internal
+                                                         pacitance for the load also depends on the application’sclamping voltage VG(ON). A logic level MOSFET is com-
+                                                  dynamic load requirements and typically ranges from 1µFmonly used, but if a low supply voltage limits the gate
+                                                             to 47µF. In all cases, the maximum droop is limited to thevoltage, a sub-logic level threshold MOSFET should be
+                                                           drain source diode forward drop inside the MOSFET.considered. The maximum gate drive voltage for the
+auxiliary MOSFET, if used, is determined by the external    Caution must be exercised when using multilayer ceramic
+resistor connected to the STAT pin.                         capacitors. Because of the self resonance and high Q
+                                                              characteristics of some types of ceramic capacitors, highAs a general rule, select a MOSFET with a low enough
+                                                           voltage transients can be generated under some start-upRDS(ON) to obtain the desired VDS while operating at full
+                                                          conditions such as connecting a supply input to a hotload current and an achievable VGS. The MOSFET normally
+                                                power source. To reduce the Q and prevent these tran-operates in the linear region and acts like a voltage
+                                                             sients from exceeding the LTC4414’s absolute maximumcontrolled resistor. If the MOSFET is grossly undersized,
+                                                           voltage rating, the capacitor’s ESR can be increased byit can enter the saturation region and a large VDS may
+                                                     adding up to several ohms of resistance in series with theresult. However, the drain-source diode of the MOSFET, if
+                                                     ceramic capacitor. Refer to Application Note 88.forward biased, will limit VDS. A large VDS, combined with
+the load current, will likely result in excessively high   The selected capacitance value and capacitor’s ESR can be
+MOSFET power dissipation. Keep in mind that the LTC4414    verified by observing VIN and SENSE for acceptable volt-
+will regulate the forward voltage drop across the primary   age transitions during dynamic conditions over the full
+MOSFET at 20mV if RDS(ON) is low enough. The required    load current range. This should be checked with each
+RDS(ON) can be calculated by dividing 0.02V by the load   power source as well. Ringing may indicate an incorrect
+current in amps. Achieving forward regulation will mini-   bypass capacitor value and/or too low an ESR.
+mize power loss and heat dissipation, but  it is not a
+necessity. If a forward voltage drop of more than 20mV is    VIN and SENSE Pin Usage
+acceptable then a smaller MOSFET can be used, but must                                                        Since the analog controller’s thresholds are small (±20mV),
+be sized compatible with the higher power dissipation.
+                                                          the VIN and SENSE pin connections should be made in a
+
+                                                                                                                                                                        4414fc
+                              7
+=== PDF PAGE 8 ===
+LTC4414
+        U  U  W   U
+APPLICATIO S I FOR ATIO
+
+way to avoid unwanted I • R drops in the power path. Both   CTL Pin Usage
+pins are protected from negative voltages.
+                                                         This is a digital control input pin with low threshold
+                                                          voltages (VIL,VIH) for use with logic powered from as littleGATE Pin Usage
+                                                     as 1V. During normal operation, the CTL pin can be biased
+The GATE pin controls the external P-channel MOSFET    at any voltage between ground and 36V, regardless of the
+connected between the VIN and SENSE pins when the load    supply voltage to the LTC4414. A logical high input on this
+current is supplied by the power source at VIN. In this    pin forces the gate to source voltage of the primary
+mode of operation, the internal current source, which is    P-channel MOSFET power switch to a small voltage (VGOFF).
+responsible for pulling the GATE pin up, is limited to a few    This will turn the MOSFET off and no current will flow from
+microamps (IG(SRC)). If external opposing leakage cur-    the primary power input at VIN if the MOSFET is configured
+rents exceed this, the GATE pin voltage will reach the   so that the drain to source diode is not forward biased. The
+clamp voltage (VGON) and VDS will be smaller. The internal    high input also forces the STAT pin to sink at least 50µA of
+current sink, which is responsible for pulling the GATE pin    current (IS(SNK)). See the Typical Applications for various
+down, has a higher current capability (IG(SNK)). With an   examples on using the STAT pin. A 3.5µA internal pull-
+auxiliary supply input pulling up on the SENSE pin and   down current (ICTL) on the CTL pin will insure a logical low
+exceeding the VIN pin voltage by 20mV (VRTO), the device    level input if the pin should be open.
+enters the reverse turn-off mode and a much stronger
+current source is available to oppose external leakage    Protection
+currents and turn off the MOSFET (VGOFF).                                               Most of the application circuits shown provide some
+While in forward regulation, if the on resistance of the    protection against supply faults such as shorted, low or
+MOSFET is too high to maintain forward regulation, the    reversed supply inputs. The fault protection does not
+GATE pin will maximize the MOSFET’s VGS to that of the    protect shorted supplies but can isolate other supplies and
+clamp voltage (VGON). The clamping action takes place    the load from faults. A necessary condition of this protec-
+between VIN and the GATE pin.                               tion is for all components to have sufficient breakdown
+                                                             voltages. In some cases, if protection of the auxiliary input
+STAT Pin Usage                                     (sometimes referred to as the wall adapter input) is not
+                                                            required, then the series diode or MOSFET may beDuring normal operation, the open-drain STAT pin can be
+                                                             eliminated.biased at any voltage between ground and 36V regardless
+of the supply voltage to the LTC4414. It is usually con-    Internal protection for the LTC4414 is provided to prevent
+nected to a resistor whose other end connects to a voltage   damaging pin currents and excessive internal self heating
+source. In the forward regulation mode, the STAT pin will    during a fault condition. These fault conditions can be a
+be open (IS(OFF)). When a wall adaptor input or other    result of VIN, SENSE, GATE or CTL pins shorted to ground
+auxiliary supply is connected to that input, and the voltage    or to a power source that is within the pin’s absolute
+on SENSE is higher than VIN + 20mV (VRTO), the system is   maximum voltage limits. Both the VIN and SENSE pins are
+in the reverse turn-off mode. During this mode of opera-    capable of being taken significantly below ground without
+tion the STAT pin will sink at least 50µA of current    current drain or damage to the IC (see Absolute Maximum
+(IS(SNK)). This will result in a voltage change across the    Voltage Limits). This feature allows for limited reverse-
+resistor, depending on the resistance, which is useful to    battery condition without current drain or damage. This
+turn on an auxiliary P-channel MOSFET or signal to a    internal protection is not designed to prevent overcurrent
+microcontroller that an auxiliary power source is con-    or overheating of external components.
+nected. External leakage currents, if significant, should be
+accounted for when determining the voltage across the
+resistor when the STAT pin is either on or off.
+
+
+                                                                                                                                                                        4414fc
+8
+=== PDF PAGE 9 ===
+                                         LTC4414
+              U
+TYPICAL APPLICATIO S
+Automatic PowerPath Control                             Figure 1 illustrates an application circuit for automatic
+                                                       switchover of load between a battery and a wall adapterThe applications shown in Figures 1 and 2 and the typical
+                                                               that features lowest power loss. Operation is similar to theapplication shown on the first page of this data sheet are
+                                                           Typical Application on the front page except that anautomatic ideal diode controllers that require no assis-
+                                                                 auxiliary P-channel MOSFET replaces the diode. Thetance from a microcontroller. Each of these will automati-
+                                            STAT pin is used to turn on the MOSFET once the SENSEcally connect the higher supply voltage, after accounting
+                                                          pin voltage exceeds the battery voltage by 20mV. Whenfor certain diode forward voltage drops, to the load with
+                                                          the wall adapter input is applied, the drain-source diode ofapplication of the higher supply voltage. These circuits are
+                                                          the auxiliary MOSFET will turn on first to pull up thenot recommended for load sharing.
+                                           SENSE pin and turn off the primary MOSFET followed by
+The typical application shown on the first page on this data                                                          turning on of the auxiliary MOSFET. Once the auxiliary
+sheet illustrates an application circuit for automatic                                          MOSFET has turned on the voltage drop across it can be
+switchover of a load between a battery and a wall adapter                                                        very low depending on the MOSFET’s characteristics.
+or other power input. With application of the battery, the
+                                                          Figure 2 illustrates an application circuit for the automaticload will initially be pulled up by the drain-source diode of
+                                                       switchover of a load between a battery and a wall adapterthe P-channel MOSFET. As the LTC4414 comes into
+                                                                  in the comparator mode. It also shows how a batteryaction, it will control the MOSFET’s gate to turn it on and
+                                                       charger can be connected. This circuit differs from Figurereduce the MOSFET’s voltage drop from a diode drop to
+                                               1 in the way the SENSE pin is connected. The SENSE pin20mV. The system is now in the low loss forward regula-
+                                                                       is connected directly to the auxiliary power input and nottion mode. Should the wall adapter input be applied, the
+                                                          the load. This change forces the LTC4414’s control cir-Schottky diode will pull up the SENSE pin, connected to the
+                                                                cuitry to operate in an open-loop comparator mode. Whileload, above the battery voltage and the LTC4414 will turn
+                                                          the battery supplies the system, the GATE pin voltage willthe MOSFET off.  The STAT pin will then sink current
+                                                  be forced to its lowest clamped potential, instead of beingindicating an auxiliary input is connected. The battery is
+                                                          regulated to maintain a 20mV drop across the MOSFET.now supplying no load current and all the load current
+                                                         This has the advantages of minimizing power loss in theflows through the Schottky diode. A silicon diode could be
+                                          MOSFET by minimizing its RON and not having the influ-used instead of the Schottky, but will result in higher
+                                                    ence of a linear control loop’s dynamics. A possiblepower dissipation and heating due to the higher forward
+                                                       disadvantage is  if the auxiliary input ramps up slowvoltage drop.
+                                                enough the load voltage will initially droop before rising.
+                              AUXILIARY
+                           P-CHANNEL
+                           MOSFET
+                               *
+   WALL
+ADAPTER
+   INPUT
+                                                                    WALL
+                                                                      ADAPTER
+                           PRIMARY                                          INPUT
+                           P-CHANNEL                                                     BATTERY      P-CHANNEL
+                           MOSFET                                                   CHARGER       MOSFET
+                               *                                                                                 *
+                                                    TO LOAD                                                               TO LOAD
+BATTERY                                                                 BATTERY
+                                                                                                                              COUT                                                    COUT                       CELL(S)  CELL(S)                                                                                               LTC4414                   LTC4414                                                                                             7                             6                7                                                                                                           6          VCC
+                    VIN SENSE                                                                             VIN SENSE
+                3             8                                                               3             8
+               GND GATE              47k             STATUS OUTPUT                    GND GATE                47k          STATUS OUTPUT
+                                                                                                           1                                                                                             2                                                                                                                                                                  IS                                                                                                          LOW                                                                                                               WHEN A                             1                2                                                 DROPS                                                  WHEN A                                                                                            CTL  STAT                 CTL  STAT                                                                                                                                                                                                                                    4414 F02                                                                                                                 WALL                                                                                                                              ADAPTER                                                                                            4414 F01                                                WALL ADAPTER
+                                                                     IS PRESENT                         *DRAIN-SOURCE DIODE OF MOSFET              IS PRESENT               *DRAIN-SOURCE DIODE OF MOSFET
+
+Figure 1. Automatic Switchover of Load Between a Battery and a            Figure 2. Automatic Switchover of Load Between
+Wall Adapter with Auxiliary P-Channel MOSFET for Lowest Loss           a Battery and a Wall Adapter in Comparator Mode
+
+                                                                                                                                                                        4414fc
+                              9
+=== PDF PAGE 10 ===
+LTC4414
+              U
+TYPICAL APPLICATIO S
+This is due to the SENSE pin voltage rising above the    continue to power the load. Only when the primary
+battery voltage and turning off the MOSFET before the    voltage is higher than the auxiliary voltage will taking CTL
+Schottky diode turns on. The factors that determine the   low switch back to the primary power, otherwise the
+magnitude of the voltage droop are the auxiliary input rise    auxiliary stays connected. When the primary power is
+time, the type of diode used, the value of COUT and the load    disconnected and VIN falls below VLOAD, it will turn on the
+current.                                                       auxiliary MOSFET if CTL is low, but VLOAD must stay up
+                                                      long enough for the MOSFET to turn on. At a minimum,
+Ideal Diode Control with a Microcontroller             COUT capacitance must be sized to hold up VLOAD until the
+                                                              transition between the sets of MOSFETs is complete.Figure 3 illustrates an application circuit for microcontrol-
+                                                              Sufficient capacitance on the load and low or no capaci-ler monitoring and control of two power sources. The
+                                                       tance on VIN will help ensure this. If desired, this can bemicrocontroller’s analog inputs, perhaps with the aid of a
+                                                     avoided by use of a capacitor on VIN to ensure that VINresistor voltage divider, monitors each supply input and
+                                                                        falls more slowly than VLOAD. This circuit is not recom-commands the LTC4414 through the CTL input. Back-to-
+                                             mended for load sharing.back MOSFETs are used so that the drain-source diode will
+not power the load when the MOSFET is turned off (dual
+                                                  High Current Power Supply Load Sharing
+MOSFETs in one package are commercially available).
+                                                          Figure 4 illustrates an application circuit for dual identical
+With a logical low input on the CTL pin, the primary input
+                                                power supply load sharing. The load will then be shared
+supplies power to the load regardless of the auxiliary
+                                                   between the two power supplies according to their source
+voltage. When CTL is switched high, the auxiliary input
+                                                    impedances. The STAT pins provide information as to
+will power the load whether or not it is higher or lower
+                                                   which input is supplying the load current. This concept can
+than the primary power voltage. Once the auxiliary is on,
+                                                  be expanded to more power inputs.
+the primary power can be removed and the auxiliary will
+
+
+                                                                                                  Q1
+                                                                                                           *
+                                                                POWER
+                                                                                                                          TO LOAD
+                                    AUXILIARY                               SUPPLY1
+                             P-CHANNEL MOSFETS                                                                               COUT
+                                                                                              LTC4414
+                          *                          *                                      7             6             VCC
+                                                                                                           VIN SENSE
+   AUXILIARY POWER                                                      OPTIONAL                          3             8
+     SOURCE INPUT                                                              GND GATE                   47k                                                     ZENER
+                                    470k                CLAMP                             2 CTL  STAT 1                          STATUS
+                                                                                IF VGS(MAX)
+                                                 AN ISSUE
+  MICROCONTROLLER                 PRIMARY
+                              P-CHANNEL MOSFETS                                                     WHEN BOTH STATUS LINES ARE
+                                  *             *                                                      Q2       HIGH, THEN BOTH POWER SUPPLIES
+                                                                                                           *         ARE SUPPLYING LOAD CURRENTS.
+                                                         TO LOAD
+                                                                POWER
+                 0.1µF                                        COUT            SUPPLY2
+
+                                                                                              LTC4414
+                                                                                            7                                                                                                         6             VCC                               LTC4414              PRIMARY                                                                                                           VIN SENSE                                          6                            7
+              POWER        VIN SENSE                  RLIMIT                               3 GND GATE 8                47k          SOURCE INPUT     3             8
+                         GND GATE                                                    2             1
+                                                                                           CTL  STAT                             STATUS                            2             1                                                                                                                                                     4414 F04
+                              CTL  STAT                 4414 F03
+                                                                                       *DRAIN-SOURCE DIODE OF MOSFET
+          *DRAIN-SOURCE DIODE OF MOSFET                                                           Q1, Q2: SUB75P03-07
+
+       Figure 3. Microcontroller Monitoring and Control                 Figure 4. High Current Dual Power Supply Load Sharing
+        of Two Power Sources
+
+
+
+
+
+                                                                                                                                                                        4414fc
+10
+=== PDF PAGE 11 ===
+                                         LTC4414
+              U
+TYPICAL APPLICATIO S
+
+Battery Load Sharing                             CTL pin input can be used with a microcontroller and
+                                                       back-to-back MOSFETs as shown in Figure 4. This allows
+Figure 5 illustrates an application circuit for dual battery
+                                                    complete control for disconnection of the charger from
+load sharing with automatic switchover of load from
+                                                                either battery.
+batteries to wall adapter. Whichever battery can supply the
+higher voltage will provide the load current until  it is
+                                                  High Side Power Switch
+discharged to the voltage of the other battery. The load will
+then be shared between the two batteries according to the    Figure 7 illustrates an application circuit for a logic con-
+capacity of each battery. The higher capacity battery will    trolled high side power switch. When the CTL pin is a
+provide proportionally higher current to the load. When a    logical low, the LTC4414 will turn on the MOSFET. Be-
+wall adapter input is applied, both MOSFETs will turn off   cause the SENSE pin is grounded, the LTC4414 will apply
+and no load current will be drawn from the batteries. The   maximum clamped gate drive voltage to the MOSFET.
+STAT pins provide information as to which input is supply-   When the CTL pin is a logical high, the LTC4414 will turn
+ing the load current. This concept can be expanded to    off the MOSFET by pulling its gate voltage up to the supply
+more power inputs.                                        input voltage and thus deny power to the load. The
+                                          MOSFET is connected with its source connected to the
+      WALL                                          power source. This disables the drain-source diode from    ADAPTER
+       INPUT                      *                                 supplying voltage to the load when the MOSFET is off. Note
+                                                        TO LOAD
+      BAT1                                            COUT                   that if the load is powered from another source, then the
+                      LTC4414
+                  7                                6             VCC                         drain-source diode can forward bias and deliver current to                        VIN SENSE
+                  3             8
+                 GND GATE                   47k         STATUS IS HIGH       the power supply connected to the VIN pin.
+                  2             1                       WHEN BAT1 IS
+                    CTL  STAT
+                                                         SUPPLYING
+                                                      LOAD CURRENT
+                                                                                                                           *
+                                   WHEN BOTH STATUS LINES ARE                  BATTERY                                             TO LOAD OR
+                                               HIGH, THEN BOTH BATTERIES ARE               CHARGER                                                     PowerPath
+                                  *         SUPPLYING LOAD CURRENTS. WHEN                  INPUT                                           BAT1 CONTROLLER
+                                                                                                              LTC4414                                       BOTH                                             STATUS                                                          LINES                                                        ARE LOW, THEN                                 7                                                                                                                          6           VCC                                     WALL                                             ADAPTER                                                                      IS PRESENT                                                                                                         SENSE                                                                                                                              VIN
+      BAT2                                                                                                 3             8
+                                                                                           GND GATE                                                                                                                                             470k                      LTC4414                                                                                                                                        STATUS IS HIGH                  7                                                                                                                          1                                6             VCC                                                           2
+                        VIN SENSE                                                                             CTL  STAT                      WHEN BAT1 IS
+                                8                  3                                                                                                                                     CHARGING                                                                                                     0.1µF                        GATE                 GND                                                   47k                                                         STATUS                                                                                   IS HIGH                                                                                                                           *                                1                  2                                                                                                                                     TO                                                                                                                                    LOAD OR                                                WHEN                                                                BAT2                                                                                      IS                         STAT                    CTL
+                                                                                               4414 F05                                                                                                                                                            PowerPath                                                         SUPPLYING
+                                                      LOAD CURRENT                                                                 BAT2 CONTROLLER                  *DRAIN-SOURCE DIODE OF MOSFET
+                                                                                                              LTC4414
+                                                                                                            7                                                                                                                          6           VCC
+                                                                                                                              VIN SENSE
+      Figure 5. Dual Battery Load Sharing with Automatic                                    3             8
+                                                                                           GND GATE                 470k
+      Switchover of Load from Batteries to Wall Adapter                                      2             1                       STATUS IS HIGH
+                                                                                                           CTL  STAT                                        4414 F06 WHEN BAT2 IS
+                                                                                                                                     CHARGING
+Multiple Battery Charging                                                                   *DRAIN-SOURCE DIODE OF MOSFET
+                                                                            Figure 6. Automatic Dual Battery Charging
+Figure 6 illustrates an application circuit for automatic              from Single Charging Source
+dual battery charging from a single charger. Whichever
+battery has the lower voltage will receive the charging
+current until both battery voltages are equal, then both will                                          P-CHANNELMOSFET
+be charged. When both are charged simultaneously, the                 SUPPLY                           *
+                                                                                                                                    TO LOAD
+higher capacity battery will get proportionally higher cur-                    INPUT                                   COUT
+                                                                                                                              6                                                                                                                7rent from the charger. For Li-Ion batteries, both batteries                     0.1µF            LTC4414                                                                                                                                  VIN SENSE
+will achieve the float voltage minus the forward regulation                                3 GND GATE 8
+
+                                                                                                              CTL  STAT
+                                                                                                                                                                                                                           4414 F07voltage of 20mV. This concept can apply to more than two                    LOGICINPUT       2             1
+batteries. The STAT pins provide information as to which                        *DRAIN-SOURCE DIODE OF MOSFET
+batteries are being charged. For intelligent control, the           Figure 7. Logic Controlled High Side Power Switch
+
+                                                                                                                                                                        4414fc
+
+
+                                              Information furnished by Linear Technology Corporation is believed to be accurate and reliable.
+                                          However, no responsibility is assumed for its use. Linear Technology Corporation makes no represen-
+                                                    tation that the interconnection of its circuits as described herein will not infringe on existing patent rights.                             11
+=== PDF PAGE 12 ===
+LTC4414
+               U
+PACKAGE DESCRIPTIO
+
+
+                                         MS8 Package
+                                                  8-Lead Plastic MSOP
+                                                       (Reference LTC DWG # 05-08-1660)
+
+                                                                                                                  3.00 ± 0.102
+                                                                                                                        (.118 ± .004)                         0.52                                           0.889 ± 0.127
+                                               (.035 ± .005)                                                   (NOTE 3)       8  7  6 5       (.0205)
+                                                                                                                                REF
+
+
+
+                                                                                                                                                     3.00                                                                                                                                                       0.102                                                                                                                          ±                 5.23                                                                                                                     0.152                                                                                                                  4.90 ±                                              3.20 –                                                    3.45                                                                                                                                                            (.118                                                                                                                                                                   .004)                                                                        DETAIL “A”                                                                                                                           ±                 (.206)                                                                                                                        (.193                                                                                                                               .006)                                                                                               ±                                               (.126                                            –                                                      .136)              0.254                                                                                                                                 (NOTE                                                                                                                                                                     4)             MIN
+                                                                             (.010)             0° – 6° TYP
+
+                                           GAUGE PLANE
+        0.42 ± 0.038                         0.65                                                                        1  2  3  4
+       (.0165 ± .0015)                        (.0256)                                             0.53 ± 0.152
+          TYP                       BSC                                                (.021 ± .006)                 1.10                       0.86
+                                                                                                                                      (.043)                       (.034)
+           RECOMMENDED SOLDER PAD LAYOUT                             DETAIL “A”                     MAX                   REF
+                                                          0.18
+                                                              (.007)
+
+                                                                                       SEATING
+                                                                                    PLANE     0.22 – 0.38                         0.127 ± 0.076              NOTE:
+                  1. DIMENSIONS IN MILLIMETER/(INCH)                                                                  (.009 – .015)                          (.005 ± .003)
+                  2. DRAWING NOT TO SCALE                                                               TYP       0.65                        MSOP (MS8) 0204
+                                                                                                                                       (.0256)
+                  3. DIMENSION DOES NOT INCLUDE MOLD FLASH, PROTRUSIONS OR GATE BURRS.
+                                                                                                      BSC
+             MOLD FLASH, PROTRUSIONS OR GATE BURRS SHALL NOT EXCEED 0.152mm (.006") PER SIDE
+                  4. DIMENSION DOES NOT INCLUDE INTERLEAD FLASH OR PROTRUSIONS.
+               INTERLEAD FLASH OR PROTRUSIONS SHALL NOT EXCEED 0.152mm (.006") PER SIDE
+                  5. LEAD COPLANARITY (BOTTOM OF LEADS AFTER FORMING) SHALL BE 0.102mm (.004") MAX
+
+
+RELATED PARTS
+
+PART NUMBER     DESCRIPTION                            COMMENTS
+
+LTC1473           Dual PowerPath Switch Driver                         Switches and Isolates Sources Up to 30V
+
+LTC1479           PowerPath Controller for Dual Battery Systems          Complete PowerPath Management for Two Batteries; DC Power Source,
+                                                                        Charger and Backup
+
+LTC1558/LTC1559   Back-Up Battery Controller with Programmable Output    Adjustable Backup Voltage from 1.2V NiCd Button Cell,
+                                                                            Includes Boost Converter
+
+LT®1579         300mA Dual Input Smart Battery Back-Up Regulator      Maintains Output Regulation with Dual Inputs, 0.4V Dropout at 300mA
+
+LTC1733/LTC1734   Monolithic Linear Li-Ion Chargers                     Thermal Regulation, No External MOSFET/Sense Resistor
+LTC1998            2.5µA, 1% Accurate Programmable Battery Detector      Adjustable Trip Voltage/Hysteresis, ThinSOT
+
+LTC4055         USB Power Controller and Li-Ion Linear Charger         Automatic Battery Switchover, Thermal Regulation, Accepts Wall Adapter
+                                                                  and USB Power, 4mm × 4mm QFN
+
+LTC4354            Negative Voltage Diode-OR Controller and Monitor       Replaces Power Schottky Diodes; 80V Operation
+
+LTC4410         USB Power Manager in ThinSOTTM                      Enables Simultaneous Battery Charging and
+                                                                           Operation of USB Component Peripheral Devices
+
+LTC4411          SOT-23 Ideal Diode                                  2.6A Forward Current, 28mV Regulated Forward Voltage
+LTC4412HV         36V, Low Loss PowerPath Controller in MSOP          –40°C to –125°C Operation; Automatic Switch Between DC Sources
+LTC4413           Dual 2.6A, 2.5V to 5.5V Ideal Diodes in 3mm × 3mm    100mΩ ON Resistance, 1µA Reverse Leakage Current, 28mV Regulated
+                DFN                                              Forward Voltage
+
+
+
+
+                                                                                                                                                                        4414fc
+       Linear Technology Corporation                                                           LT/LWI 0806 REV C • PRINTED IN USA
+         1630 McCarthy Blvd., Milpitas, CA 95035-741712             (408) 432-1900 ● FAX: (408) 434-0507  ● www.linear.com                                    © LINEAR TECHNOLOGY CORPORATION 2005

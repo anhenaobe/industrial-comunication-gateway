@@ -1,0 +1,480 @@
+
+===== PDF PAGE 1 =====
+                                                           BSP75N
+
+                                      60V SELF-PROTECTED LOW-SIDE IntelliFET MOSFET SWITCH
+
+Product Summary                          Features and Benefits
+
+    Continuous Drain-Source Voltage: VDS = 60V                            Short-Circuit Protection with Auto Restart
+    On-State Resistance: 500mΩ                                           Overvoltage Protection (Active Clamp)
+   Max Nominal Load Current (VIN = 5V): 1.1A                            Thermal Shutdown with Auto Restart
+   Min Nominal Load Current (VIN = 5V): 0.7A                              Overcurrent Protection
+   Clamping Energy: 550mJ                                               Input Protection (ESD)
+                                                                           Load-Dump Protection (Actively Protects Load)
+Description                                                          Logic-Level Input
+                                                                           High Continuous Current Rating
+The BSP75N  is a self-protected, low-side IntelliFET® MOSFET.  It        Lead-Free Finish; RoHS Compliant (Notes 1 & 2)
+features monolithic overtemperature, overcurrent, overvoltage (active        Halogen and Antimony Free. “Green” Device (Note 3)
+clamp), and ESD protected logic-level functionality. It is intended as a        An automotive-compliant part is available under separate
+general-purpose switch.                                                datasheet (BSP75NQ)
+
+Applications                              Mechanical Data
+
+    Especially suited for loads with high inrush current, such as             Package: SOT223
+    lamps and motors                                                     Package Material: Molded Plastic, “Green” Molding Compound
+     All types of resistive, inductive, and capacitive loads in switching       UL Flammability Classification Rating 94V-0
+     applications                                                            Moisture Sensitivity: Level 1 per J-STD-020
+   µC compatible power switches for 12V and 24V DC applications          Terminals: Matte Tin Finish e3
+   Replaces electromechanical relays and discrete circuits                  Weight: 0.112 grams (Approximate)
+    Linear mode capabilities—current-limiting protection circuitry is
+    designed to deactivate at low VDS to not compromise the load
+     current during normal operation. Maximum DC operating current
+      is therefore determined by thermal capability of the
+    package/board combination rather than by protection circuitry,
+    which does not compromise the product’s ability to self-protect at
+    low VDS.
+                         SOT223 (Type DN)
+
+
+
+
+
+                                                                              Top View
+                            Top View                                                    Pin Out
+
+ Note:     The tab is connected to the source pin and must be electrically isolated from the drain pin. Connection of significant copper to the drain pin is recommended
+              for best thermal performance.
+
+
+Ordering Information (Note 4)
+
+                                                                                                   Packing
+   Part Number        Package         Marking    Reel Size (inches)   Tape Width (mm)
+                                                                                                         Qty.             Carrier
+   BSP75NTA     SOT223 (Type DN)     BSP75N           7                 12            1000 Units           Reel
+   BSP75NTC     SOT223 (Type DN)     BSP75N           13                 12            4000 Units           Reel
+
+ Notes:     1. EU Directive 2002/95/EC (RoHS), 2011/65/EU (RoHS 2) & 2015/863/EU (RoHS 3) compliant. All applicable RoHS exemptions applied.
+             2. See https://www.diodes.com/quality/lead-free/ for more information about Diodes Incorporated’s definitions of Halogen- and Antimony-free, "Green" and
+              Lead-free.
+             3. Halogen- and Antimony-free "Green” products are defined as those which contain <900ppm bromine, <900ppm chlorine (<1500ppm total Br + Cl) and
+           <1000ppm antimony compounds.
+             4. For packaging details, go to our website at https://www.diodes.com/design/support/packaging/diodes-packaging/.
+
+
+BSP75N                                               1 of 9                                                 January 2024
+ Document number: DS33016 Rev. 7 - 2                      www.diodes.com                      © 2024 Copyright Diodes Incorporated. All Rights Reserved.
+===== PDF PAGE 2 =====
+                                                           BSP75N
+
+
+Marking Information
+
+
+
+
+
+                                           BSP75N = Product Type Marking Code
+                                 YWW = Date Code Marking
+                                         Y or Y = Last Digit of Year (ex: 4 = 2024)
+                             WW or WW = Week Code (01 to 53)
+
+
+
+
+Functional Block Diagram
+
+
+
+
+
+                                                Overvoltage
+                                                     Protection
+
+                                                                       dv/dt
+                                                                     Limitation
+
+                         Overtemperature
+         Human                               Protection
+         Body ESD
+           Protection                                 Logic
+                            Overcurrent
+                              Protection
+
+
+
+
+
+BSP75N                                               2 of 9                                                 January 2024
+Document number: DS33016 Rev. 7 - 2                      www.diodes.com                      © 2024 Copyright Diodes Incorporated. All Rights Reserved.
+===== PDF PAGE 3 =====
+                                                           BSP75N
+
+
+Absolute Maximum Ratings (@TA = +25°C, unless otherwise specified.)
+
+                        Parameter                          Symbol                    Limit                     Unit
+ Continuous Drain-Source Voltage                                 VDS                     60                 V
+ Drain-Source Voltage for Short-Circuit Protection VIN = 5V                VDS(SC)                   36                 V
+ Drain-Source Voltage for Short-Circuit Protection VIN = 10V               VDS(SC)                   20                 V
+ Continuous Input Voltage                                                VIN                       -0.2 to 10               V
+ Peak Input Voltage                                                      VIN                       -0.2 to 20               V
+ Operating Temperature Range                                          TJ                    -40 to +150                 °C
+ Storage Temperature Range                                       TSTG                   -55 to +150                 °C
+ Power Dissipation at TA = +25°C (Note 5)                          PD                         1.5            W
+ Power Dissipation at TA = +25°C (Note 6)                          PD                         0.6            W
+ Continuous Drain Current @ VIN = 10V, TA = +25°C (Note 5)                  ID                         1.3                 A
+ Continuous Drain Current @ VIN = 5V, TA = +25°C (Note 5)                    ID                         1.1                 A
+ Continuous Drain Current @ VIN = 5V, TA = +25°C (Note 6)                    ID                         0.7                 A
+ Continuous Source Current (Body Diode) (Note 5)                               IS                         2.0                 A
+ Pulsed Source Current (Body Diode) (Note 7)                                    IS                         3.3                 A
+ Unclamped Single Pulse Inductive Energy                            EAS                    550                mJ
+ Load Dump Protection                                          VLOAD_DUMP                 80                 V
+  Electrostatic Discharge (Human Body Model)                         VESD                   4000                V
+ DIN Humidity Category, DIN 40 040                  —                  E            —
+ IEC Climatic Category, DIN IEC 68-1                  —                    40/150/56          —
+
+
+Thermal Resistance
+
+                        Parameter                          Symbol                     Limit                     Unit
+ Junction to Ambient (Note 5)                                          RθJA                     83                  C/W
+ Junction to Ambient (Note 7)                                          RθJA                    45                  C/W
+ Junction to Ambient (Note 6)                                          RθJA                    208                  C/W
+
+Notes:     5. For a device surface mounted on 25mm x 25mm x 1.6mm FR-4 board with a high coverage of single-sided 2oz weight copper. Allocation of 6cm2 copper
+          33% to source tab and 66% to drain pin with source tab and drain pin electrically isolated.
+            6. For a device surface-mounted on FR-4 board with the minimum copper required for electrical connections.
+            7. For a device surface-mounted on FR-4 board as (a) and measured at t ≤ 10s.
+
+
+
+
+
+BSP75N                                               3 of 9                                                 January 2024
+Document number: DS33016 Rev. 7 - 2                      www.diodes.com                      © 2024 Copyright Diodes Incorporated. All Rights Reserved.
+===== PDF PAGE 4 =====
+                                                           BSP75N
+
+
+Electrical Characteristics (@TA = +25°C, unless otherwise specified.)
+
+               Characteristic              Symbol     Min      Typ     Max        Unit              Conditions
+ Static Characteristics
+ Drain-Source Clamp Voltage                    VDS(AZ)      60       70       75        V         ID = 10mA
+ Off-State Drain Current                           IDSS    —        0.1       3        µA      VDS = 12V, VIN = 0V
+ Off-State Drain Current                           IDSS    —        3        15        µA      VDS = 32V, VIN = 0V
+ Input Threshold Voltage (Note 8)                   VIN(TH)       1         2.1    —        V       VDS = VGS, ID = 1mA
+ Input Current                                                  IIN     —        0.7        1.2      mA       VIN = 5V
+ Input Current                                                  IIN     —        1.5        2.7      mA       VIN = 7V
+ Input Current                                                  IIN     —        4        7       mA       VIN = 10V
+  Static Drain-Source On-State Resistance        RDS(ON)    —       520      675     mΩ       VIN = 5V, ID = 0.7A
+  Static Drain-Source On-State Resistance        RDS(ON)    —       385      550     mΩ       VIN = 10V, ID = 0.7A
+ Current Limit (Note 9)                                  ID(LIM)        0.7        1.0        1.5       A        VIN = 5V, VDS > 5V
+ Current Limit (Note 9)                                  ID(LIM)       1         1.8        2.3       A        VIN = 10V, VDS > 5V
+ Dynamic Characteristics
+                                                                                        RL = 22Ω, VIN = 0V to 10V
+ Turn-On Time (VIN to 90% ID)                     tON     —        3    —         μs
+                                                                                      VDD = 12V
+                                                                                        RL = 22Ω, VIN = 10V to 0V
+ Turn-Off Time (VIN to 90% ID)                     tOFF    —       13    —         μs
+                                                                                      VDD = 12V
+                                                                                        RL = 22Ω, VIN = 0V to 10V
+ Slew Rate On (70% to 50% VDD)              -dvDS/dtON   —        8    —         V/μs
+                                                                                      VDD = 12V
+                                                                                        RL = 22Ω, VIN = 10V to 0V
+ Slew Rate Off (50% to 70% VDD)              dvDS/dtON   —        3.2    —         V/μs
+                                                                                      VDD = 12V
+ Protection Functions (Note 10)
+ Minimum Input Voltage for Overtemperature
+                                          VPROT        4.5    —    —        V    — Protection
+ Thermal Overload Trip Temperature              TJT       +150     +175   —         °C    —
+ Thermal Hysteresis              —     —       +1    —         °C    —
+ Unclamped Single Pulse Inductive Energy
+                                          EAS       550    —    —       mJ         ID(ISO) = 0.7A, VDD = 32V
+ TJ = +25°C
+ Unclamped Single Pulse Inductive Energy
+                                          EAS       200    —    —       mJ         ID(ISO) = 0.7A, VDD = 32V
+ TJ = +150°C
+ Inverse Diode
+ Source Drain Voltage                       VSD     —    —       1        V        VIN = 0V, -ID = 1.4A
+
+Notes:     8. Protection features may operate outside spec for VIN < 4.5V.
+            9. The drain current is limited to a reduced value when VDS exceeds a safe level.
+          10. Integrated protection functions are designed to prevent IC destruction under fault conditions described in the datasheet. Fault conditions are considered
+            as ”outside" normal operating range. Protection functions are not designed for continuous, repetitive operation.
+
+
+
+
+
+BSP75N                                               4 of 9                                                 January 2024
+Document number: DS33016 Rev. 7 - 2                      www.diodes.com                      © 2024 Copyright Diodes Incorporated. All Rights Reserved.
+===== PDF PAGE 5 =====
+                                                           BSP75N
+
+
+Application Information
+
+The current-limit protection circuitry is designed to deactivate at low VDS to prevent the load current from being unnecessarily restricted during
+normal operation. The design max DC operating current is therefore determined by the thermal capability of the package/board combination rather
+than by the protection circuitry (see Typical Characteristics graphs). This does not compromise the products ability to self-protect at low VDS.
+
+
+The overtemperature protection circuit trips at a minimum of +150°C, so the available package dissipation reduces as the maximum required
+ambient temperature increases. This leads to the following maximum recommended continuous operating currents.
+
+
+Minimum Copper Area Characteristics
+
+For minimum copper condition as described in Note 6.
+
+                                                      Maximum Continuous Current
+      Max Ambient Temperature TA
+                                                                 VIN = 5V                                     VIN = 10V
+                +25°C                              720mA                             840mA
+                +70°C                              575mA                             670mA
+                +85°C                              520mA                             605mA
+                +125°C                             320mA                             375mA
+
+
+
+
+                     RDS(ON)
+                    Limited                                                See Note 6
+
+
+
+
+
+              TA=25°C
+
+
+
+
+
+                TA = 25°C
+
+                                                                                              TA = 25°C
+
+
+
+
+
+BSP75N                                               5 of 9                                                 January 2024
+Document number: DS33016 Rev. 7 - 2                      www.diodes.com                      © 2024 Copyright Diodes Incorporated. All Rights Reserved.
+===== PDF PAGE 6 =====
+                                                           BSP75N
+
+
+Large Copper Area Characteristics
+
+For large copper area as described in Note 5.
+
+                                                     Maximum Continuous Current
+    Max Ambient Temperature TA
+                                                              VIN = 5V                                       VIN = 10V
+               +25°C                             1140mA                              1325mA
+               +70°C                             915mA                               1060mA
+               +85°C                             825mA                               955mA
+              +125°C                            510mA                               590mA
+
+
+
+
+
+               RDS(ON)
+               Limited
+                                                                  See Note 5
+
+
+
+
+
+           TA = 25°C
+
+
+
+
+
+            TA = 25°C
+                                                                                          TA = 25°C
+
+
+
+
+
+BSP75N                                               6 of 9                                                 January 2024
+Document number: DS33016 Rev. 7 - 2                      www.diodes.com                      © 2024 Copyright Diodes Incorporated. All Rights Reserved.
+===== PDF PAGE 7 =====
+                                                           BSP75N
+
+
+Typical Characteristics
+
+
+
+
+                                                                                                                                              RDS(ON)
+
+                                         On-State
+
+
+                                                                                                                                               VIN(TH)
+
+
+   RDS(ON)
+
+
+
+
+
+BSP75N                                               7 of 9                                                 January 2024
+Document number: DS33016 Rev. 7 - 2                      www.diodes.com                      © 2024 Copyright Diodes Incorporated. All Rights Reserved.
+===== PDF PAGE 8 =====
+                                                           BSP75N
+
+
+Package Outline Dimensions
+
+Please see http://www.diodes.com/package-outlines.html for the latest version.
+
+                                             SOT223 (Type DN)
+
+
+                    D
+
+                         b2
+                                                   C
+
+
+
+                                                                          SOT223 (Type DN)
+                                                                      Dim   Min  Max  Typ
+                                                              A        --    1.70      --
+                                                             E1  E                 A1    0.01   0.15      --
+                                                                        A2    1.50   1.68   1.60
+                                                    Gauge                                  b    0.60   0.80   0.70
+                                                             Plane                                   b2    2.90   3.10      --
+                                                             0.25                                 c    0.20   0.32      --
+                                                                Seating               L                  D    6.30   6.70      --
+                                                               Plane                               E    6.70   7.30      --
+                     e                     b                                       E1   3.30   3.70      --
+                                                                                 e        --        --    2.30
+                         e1                                                         e1       --        --    4.60
+                                                                          L    0.85      --        --
+                                                                                                            All Dimensions in mm
+      A     A1
+
+                                       A2
+
+
+
+
+
+Suggested Pad Layout
+
+Please see http://www.diodes.com/package-outlines.html for the latest version.
+
+                                             SOT223 (Type DN)
+
+
+                                          X1
+
+                              Y1                                             Dimensions Value (in mm)
+                                                            C           2.30
+                                                                    C1           6.40
+                                                                 X            1.20
+                                                                       X1           3.30
+                                                                 Y            1.60
+                                                        C1  Y2                    Y1           1.60
+                                                                        Y2           8.00
+
+
+
+
+
+                       Y
+
+
+                                  X        C
+
+
+
+
+
+BSP75N                                               8 of 9                                                 January 2024
+Document number: DS33016 Rev. 7 - 2                      www.diodes.com                      © 2024 Copyright Diodes Incorporated. All Rights Reserved.
+===== PDF PAGE 9 =====
+                                                           BSP75N
+
+
+
+
+                                          IMPORTANT NOTICE
+
+1.      DIODES INCORPORATED (Diodes) AND ITS SUBSIDIARIES MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH
+REGARDS TO ANY INFORMATION CONTAINED IN THIS DOCUMENT, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD PARTY INTELLECTUAL PROPERTY
+RIGHTS (AND THEIR EQUIVALENTS UNDER THE LAWS OF ANY JURISDICTION).
+
+2.      The Information contained herein is for informational purpose only and is provided only to illustrate the operation of Diodes’ products
+described herein and application examples. Diodes does not assume any liability arising out of the application or use of this document or any
+product described herein. This document is intended for skilled and technically trained engineering customers and users who design with Diodes’
+products. Diodes’ products may be used to facilitate safety-related applications; however, in all instances customers and users are responsible for
+(a) selecting the appropriate Diodes products for their applications, (b) evaluating the suitability of Diodes’ products for their intended applications,
+(c) ensuring their applications, which incorporate Diodes’ products, comply the applicable legal and regulatory requirements as well as safety and
+functional-safety related standards, and (d) ensuring they design with appropriate safeguards (including testing, validation, quality control
+techniques, redundancy, malfunction prevention, and appropriate treatment for aging degradation) to minimize the risks associated with their
+applications.
+
+3.       Diodes assumes no liability for any application-related information, support, assistance or feedback that may be provided by Diodes
+from time to time. Any customer or user of this document or products described herein will assume all risks and liabilities associated with such use,
+and will hold Diodes and all companies whose products are represented herein or on Diodes’ websites, harmless against all damages and
+liabilities.
+
+4.       Products described herein may be covered by one or more United States, international or foreign patents and pending patent
+applications. Product names and markings noted herein may also be covered by one or more United States, international or foreign trademarks
+and trademark applications. Diodes does not convey any license under any of its intellectual property rights or the rights of any third parties
+(including third parties whose products and services may be described in this document or on Diodes’ website) under this document.
+
+5.        Diodes’    products    are    provided    subject     to    Diodes’    Standard    Terms    and    Conditions     of    Sale
+(https://www.diodes.com/about/company/terms-and-conditions/terms-and-conditions-of-sales/) or other applicable terms. This document does not
+alter or expand the applicable warranties provided by Diodes. Diodes does not warrant or accept any liability whatsoever in respect of any
+products purchased through unauthorized sales channel.
+
+6.        Diodes’ products and technology may not be used for or incorporated into any products or systems whose manufacture, use or sale is
+prohibited under any applicable laws and regulations. Should customers or users use Diodes’ products in contravention of any applicable laws or
+regulations, or for any unintended or unauthorized application, customers and users will (a) be solely responsible for any damages, losses or
+penalties arising in connection therewith or as a result thereof, and (b) indemnify and hold Diodes and its representatives and agents harmless
+against any and all claims, damages, expenses, and attorney fees arising out of, directly or indirectly, any claim relating to any noncompliance with
+the applicable laws and regulations, as well as any unintended or unauthorized application.
+
+7.       While efforts have been made to ensure the information contained in this document is accurate, complete and current, it may contain
+technical inaccuracies, omissions and typographical errors. Diodes does not warrant that information contained in this document is error-free and
+Diodes is under no obligation to update or otherwise correct this information. Notwithstanding the foregoing, Diodes reserves the right to make
+modifications, enhancements, improvements, corrections or other changes without further notice to this document and any product described
+herein. This document is written in English but may be translated into multiple languages for reference. Only the English version of this document
+is the final and determinative format released by Diodes.
+
+8.      Any unauthorized copying, modification, distribution, transmission, display or other use of this document (or any portion hereof) is
+prohibited. Diodes assumes no responsibility for any losses incurred by the customers or users or any third parties arising from any such
+unauthorized use.
+
+9.        This Notice may be periodically updated with the most recent version available at https://www.diodes.com/about/company/terms-and-
+conditions/important-notice
+
+
+The Diodes logo is a registered trademark of Diodes Incorporated in the United States and other countries.
+All other trademarks are the property of their respective owners.
+© 2024 Diodes Incorporated. All Rights Reserved.
+
+www.diodes.com
+
+
+
+
+
+BSP75N                                               9 of 9                                                 January 2024
+Document number: DS33016 Rev. 7 - 2                      www.diodes.com                      © 2024 Copyright Diodes Incorporated. All Rights Reserved.

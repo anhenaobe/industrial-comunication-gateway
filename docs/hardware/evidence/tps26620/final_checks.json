@@ -1,0 +1,10 @@
+{
+  "git_diff_check_exit": 0,
+  "git_diff_check_stderr": "warning: in the working copy of 'firmware/poc/.gitignore', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'firmware/poc/CMakeLists.txt', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'firmware/poc/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'firmware/poc/prj.conf', LF will be replaced by CRLF the next time Git touches it\n",
+  "git_status": " M firmware/poc/.gitignore\n M firmware/poc/CMakeLists.txt\n M firmware/poc/README.md\n M firmware/poc/prj.conf\n?? \"converter_pcb_layout_appli-e (1).pdf\"\n?? docs/hardware/\n?? firmware/poc/.vscode/\n?? firmware/poc/platformio.ini\n?? firmware/poc/zephyr/\n?? hardware/\n?? \"shared_lib (1).IntLib\"\n?? tmp/\n",
+  "authored_text_whitespace_check": "PASS",
+  "BOM_and_doc_regeneration_idempotent": true,
+  "native_compile": "NOT_RUN",
+  "schematic_ERC": "NOT_RUN",
+  "no_commits_or_pushes": true
+}

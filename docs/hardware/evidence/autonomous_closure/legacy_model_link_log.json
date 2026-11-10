@@ -1,0 +1,90 @@
+[
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_XAL4030-682MEC_71dfd711",
+    "new_name": "GW_XAL4030-682MEC_71dfd711",
+    "would_rename": false,
+    "changes": [
+      "footprints: None -> [{'name': 'GW_XAL4030_COILCRAFT', 'is_current': True}]",
+      "parameters[8].value: 'CAD_BLOCKED' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_XAL4030-682MEC_71dfd711'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161749_312620.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_C5750X7R2A475K230KA_5f18f946",
+    "new_name": "GW_C5750X7R2A475K230KA_5f18f946",
+    "would_rename": false,
+    "changes": [
+      "footprints: None -> [{'name': 'GW_C5750_TDK_REFLOW', 'is_current': True}]",
+      "parameters[8].value: 'CAD_BLOCKED' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_C5750X7R2A475K230KA_5f18f946'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161808_430078.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_C3225X7R1C156M250AB_bb412b42",
+    "new_name": "GW_C3225X7R1C156M250AB_bb412b42",
+    "would_rename": false,
+    "changes": [
+      "footprints: None -> [{'name': 'GW_C3225_TDK_REFLOW', 'is_current': True}]",
+      "parameters[8].value: 'CAD_BLOCKED' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_C3225X7R1C156M250AB_bb412b42'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161823_209372.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_XAL4040-103MEC_b36cb917",
+    "new_name": "GW_XAL4040-103MEC_b36cb917",
+    "would_rename": false,
+    "changes": [
+      "footprints: None -> [{'name': 'GW_XAL4040_COILCRAFT', 'is_current': True}]",
+      "parameters[8].value: 'CAD_BLOCKED' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_XAL4040-103MEC_b36cb917'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161840_344162.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  }
+]

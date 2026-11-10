@@ -1,0 +1,90 @@
+{
+  "validation_scope": "Offline model/BOM/source/saved-record invariants;notERC/DRC",
+  "checks": [
+    "All67 original symbol pin arrays preserved exactly;34 unrelated symbols and36 unrelated footprints byte-field identical in official readback.33 metadata/model updates;DQA/TPS radii/paste corrections;9new symbols/10new footprints.",
+    "All9 new symbols have exact saved pin-to-pad sets;Diodes physical positions/dimensions correct;four new TH patterns plated and paste disabled.",
+    "ST100-lead orientation,pitch,lands andbothTI RNX12-pin layouts match independently inspected manufacturer drawings.",
+    "DQA rounded copper R0.05 andtwoexplicit reducedGND paste windows persisted;Altiumhalf-sidepercentage independentlyverified.",
+    "TPS alternate EP remains isolated as an unbound mapping candidate;no silent default1:1 transfer.",
+    "Unique stable BOM/mapping IDs,exact MPN/model agreement,allmandatorymodels saved;supersededactiveqty0;fourBobSmithresistors/twocaps;independentCIN banks and newdriver quantities correct.",
+    "BothSamsung footprints match documentedmidpoints ofcorrectmanufacturerbody-tolerancerows;allmandatory symbolpins have conductivepadcounterparts,extraRJmountpadsareNPTH.",
+    "Baseline native graph:19cross-sheet endpoint pairs,24distinct MCU reservations,no sharedSW,VCAP/GND/EF_RTN/FIELD_COM separation. This does not waive identifiedDI resistor bridge or prove post-edit ERC.",
+    "All108 nativecomponent definitions/locations/identities preserved. Fourother sheets differ only generated IDs/container bytes;Powerchanges restricted to wire,label/junction records. Native save side effects disclosed.",
+    "Allprojectsettings/documentpaths unchanged outside refreshed component/model reference caches.",
+    "Historical professor libraries,PCB and available original-library hashes match protected evidence.",
+    "All local PDF links in current construction guide exist;blockedHTML downloads are not masquerading asPDFs."
+  ],
+  "saved_power_geometry_changes": {
+    "removed": [
+      {
+        "COLOR": "8388608",
+        "LINEWIDTH": "1",
+        "LOCATIONCOUNT": "3",
+        "OWNERPARTID": "-1",
+        "RECORD": "27",
+        "X1": "1010",
+        "X2": "1000",
+        "X3": "970",
+        "Y1": "750",
+        "Y2": "750",
+        "Y3": "750"
+      }
+    ],
+    "added": [
+      {
+        "COLOR": "8388608",
+        "LINEWIDTH": "1",
+        "LOCATIONCOUNT": "2",
+        "OWNERPARTID": "-1",
+        "RECORD": "27",
+        "X1": "1000",
+        "X2": "980",
+        "Y1": "750",
+        "Y2": "750"
+      },
+      {
+        "COLOR": "128",
+        "FONTID": "1",
+        "LOCATION.X": "1000",
+        "LOCATION.Y": "770",
+        "OWNERPARTID": "-1",
+        "RECORD": "25",
+        "TEXT": "UVLO"
+      },
+      {
+        "COLOR": "128",
+        "LOCATION.X": "980",
+        "LOCATION.Y": "750",
+        "OWNERPARTID": "-1",
+        "RECORD": "29"
+      }
+    ]
+  },
+  "protected_hashes": {
+    "hardware\\academic_rev1\\PCB1.PcbDoc": "064f8832b40b21228e2df9e902e3c8119b0f66904a7a202e79fd74070c5f06a3",
+    "hardware\\academic_rev1\\libraries\\Professor_shared.PcbLib": "f359611c12c5777b634ba5ecbd4cf5e3fa5ce805aa9b3c63db867b173a7fbc97",
+    "hardware\\academic_rev1\\libraries\\Professor_shared.SchLib": "4224bca2915106499b00128131c8a18d48b1bddc8573ebf9c80952c32e85d620",
+    "shared_lib (1).IntLib": "91594ede8aadf6449fff5b44b7443deafeb73cfaf0bc1eb1ff434d8ac1fb6159"
+  },
+  "engineering_calculations": {
+    "TPS_ILIM_A": 0.49894736842105264,
+    "UVLO_rising_V": 15.759241706161138,
+    "OVP_rising_V": 33.14152823920266,
+    "PMOS_VGS_min_screen_V": 4.513517663020614,
+    "BSP_VIN_min_screen_V": 4.812265,
+    "NPN_base_min_screen_A": 0.000326522013903518,
+    "BSP_0p5A_loss_W": 0.16875,
+    "termination_fullrail_screen_W": 0.22530853806818185
+  },
+  "bom_summary": {
+    "rows": 140,
+    "required_rows": 99,
+    "required_units": 124,
+    "required_unique_MPNs": 50,
+    "CAD_statuses": {
+      "CAD_VERIFIED": 98,
+      "CAD_CANDIDATE": 1
+    }
+  },
+  "native_validation": "UNAVAILABLE;cachedbaselineandrawsavedreadbackonly;no post-edit compilation/ERC/IntLib compilation"
+}

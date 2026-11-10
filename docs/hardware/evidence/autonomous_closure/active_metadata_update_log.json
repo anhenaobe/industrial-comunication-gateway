@@ -1,0 +1,68 @@
+[
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "STM32H723VET6",
+    "new_name": "STM32H723VET6",
+    "would_rename": false,
+    "changes": [
+      "description: 'STM32H723VET6; CAD_CANDIDATE; GPIOs use bidirectional ERC type; oscillator pins have dedicated types. VCAP power pins are LDO outputs, never connect to VDD.' -> 'STM32H723VET6; CAD_VERIFIED_GEOMETRY; GPIOs use bidirectional ERC type; oscillator pins have dedicated types. VCAP power pins are LDO outputs, never connect to VDD.; ST fig65 lands and all100 pad IDs verified2026-11-08. GPIO ERC types conservative;VCAP neverVDD. Native placement/ECO pending.'",
+      "parameters[4].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_GEOMETRY;NATIVE_ECO_PENDING'",
+      "parameters[7].value: 'GPIOs use bidirectional ERC type; oscillator pins have dedicated types. VCAP power pins are LDO outputs, never connect to VDD.' -> 'ST fig65 lands and all100 pad IDs verified2026-11-08. GPIO ERC types conservative;VCAP neverVDD. Native placement/ECO pending.'"
+    ],
+    "message": "Updated component 'STM32H723VET6'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_155003_047184.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "LMR36015FBRNXR",
+    "new_name": "LMR36015FBRNXR",
+    "would_rename": false,
+    "changes": [
+      "description: 'LMR36015FBRNXR; CAD_CANDIDATE; CAD_CANDIDATE: confirm delivered RNX revision A/B. NC3 is externally connected to SW per TI. RNX12 is SW, not a ground exposed pad. Two footprint variants retained.' -> 'LMR36015FBRNXR; CAD_VERIFIED_GEOMETRY; CAD_VERIFIED_GEOMETRY: confirm delivered RNX revision A/B. NC3 is externally connected to SW per TI. RNX12 is SW, not a ground exposed pad. Two footprint variants retained.; RNX A/B copper/mask/stencil verified2026-11-08. Confirm lot/assembler process. NC3->SW12;12 is not ground. Native placement/ECO pending.'",
+      "parameters[4].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_GEOMETRY;NATIVE_ECO_PENDING'",
+      "parameters[7].value: 'CAD_CANDIDATE: confirm delivered RNX revision A/B. NC3 is externally connected to SW per TI. RNX12 is SW, not a ground exposed pad. Two footprint variants retained.' -> 'RNX A/B copper/mask/stencil verified2026-11-08. Confirm lot/assembler process. NC3->SW12;12 is not ground. Native placement/ECO pending.'"
+    ],
+    "message": "Updated component 'LMR36015FBRNXR'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_155020_725180.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "TPD4E05U06DQAR",
+    "new_name": "TPD4E05U06DQAR",
+    "would_rename": false,
+    "changes": [
+      "description: 'TI SLVSBO7O table4-2 p4; DQA0010A 4220328/A board/stencil pp29-30; PHY-side only, per DP83826EVM sheet3. GND3/8 to logic GND. NC6/7/9/10 may be pass-through pads; preserve isolation.' -> 'TI SLVSBO7O table4-2 p4; DQA0010A 4220328/A board/stencil pp29-30; PHY-side only, per DP83826EVM sheet3. GND3/8 to logic GND. NC6/7/9/10 may be pass-through pads; preserve isolation.; TI board/stencil pp29-30;rounded lands,3/8 reduced paste verified.3/8 radius0.052mm vs0.05typ quantization. External1-10,2-9,4-7,5-6 continuity required;native instance/ECO pending.'",
+      "parameters[3].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_GEOMETRY;NATIVE_ECO_PENDING'",
+      "parameters[4].value: 'PHY-side only, per DP83826EVM sheet3. GND3/8 to logic GND. NC6/7/9/10 may be pass-through pads; preserve isolation.' -> 'TI board/stencil pp29-30;rounded lands,3/8 reduced paste verified.3/8 radius0.052mm vs0.05typ quantization. External1-10,2-9,4-7,5-6 continuity required;native instance/ECO pending.'"
+    ],
+    "message": "Updated component 'TPD4E05U06DQAR'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_155038_559082.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  }
+]

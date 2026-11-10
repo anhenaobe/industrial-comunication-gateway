@@ -1,0 +1,15 @@
+{
+  "physical_mcu_pins": 100,
+  "proposed_gpio_reservations": 32,
+  "passive_requirement_groups": 39,
+  "cad_queue_entries": 18,
+  "interface_pins_checked": 32,
+  "library_files_hash_checked": 6,
+  "source_files_hash_checked": 7,
+  "reference_connections": 9,
+  "actual_project_created": false,
+  "schematic_blocks_drawn": 0,
+  "pcb_started": false,
+  "complete_electrical_blocks_released": 0,
+  "validation": "CSV consistency, physical-pin uniqueness, interface pin coverage, file hashes; NOT ERC/DRC or circuit validation"
+}

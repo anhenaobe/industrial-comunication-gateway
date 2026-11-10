@@ -1,0 +1,102 @@
+[
+  {
+    "name": "GW_BSP75N_SOT223_DN_DIODES",
+    "description": "Diodes DS33016 Rev7-2 Jan2024 p1 Top View Pin Out, p8 Suggested Pad Layout; functional pad identifiers preserve original symbol pins; C2.30 C1=6.40 X1.20 X1=3.30 Y1.60 Y1=1.60 Y2=8.00mm; mask+.05/paste1:1 explicit prototype process.",
+    "pads": [
+      {
+        "designator": "IN",
+        "x": -2.3,
+        "y": -3.2,
+        "width": 1.2,
+        "height": 1.6,
+        "shape": "rectangle",
+        "layer": "Top Layer",
+        "hole_size": 0,
+        "is_plated": false,
+        "solder_mask_expansion": 0.05,
+        "solder_mask_expansion_mode": "manual",
+        "paste_mask_expansion": 0,
+        "paste_mask_expansion_mode": "manual"
+      },
+      {
+        "designator": "D",
+        "x": 0,
+        "y": -3.2,
+        "width": 1.2,
+        "height": 1.6,
+        "shape": "rectangle",
+        "layer": "Top Layer",
+        "hole_size": 0,
+        "is_plated": false,
+        "solder_mask_expansion": 0.05,
+        "solder_mask_expansion_mode": "manual",
+        "paste_mask_expansion": 0,
+        "paste_mask_expansion_mode": "manual"
+      },
+      {
+        "designator": "S",
+        "x": 2.3,
+        "y": -3.2,
+        "width": 1.2,
+        "height": 1.6,
+        "shape": "rectangle",
+        "layer": "Top Layer",
+        "hole_size": 0,
+        "is_plated": false,
+        "solder_mask_expansion": 0.05,
+        "solder_mask_expansion_mode": "manual",
+        "paste_mask_expansion": 0,
+        "paste_mask_expansion_mode": "manual"
+      },
+      {
+        "designator": "S_TAB",
+        "x": 0,
+        "y": 3.2,
+        "width": 3.3,
+        "height": 1.6,
+        "shape": "rectangle",
+        "layer": "Top Layer",
+        "hole_size": 0,
+        "is_plated": false,
+        "solder_mask_expansion": 0.05,
+        "solder_mask_expansion_mode": "manual",
+        "paste_mask_expansion": 0,
+        "paste_mask_expansion_mode": "manual"
+      }
+    ],
+    "tracks": [
+      {
+        "x1": -3.25,
+        "y1": -1.75,
+        "x2": 3.25,
+        "y2": -1.75,
+        "width": 0.05,
+        "layer": "Mechanical 1"
+      },
+      {
+        "x1": 3.25,
+        "y1": -1.75,
+        "x2": 3.25,
+        "y2": 1.75,
+        "width": 0.05,
+        "layer": "Mechanical 1"
+      },
+      {
+        "x1": 3.25,
+        "y1": 1.75,
+        "x2": -3.25,
+        "y2": 1.75,
+        "width": 0.05,
+        "layer": "Mechanical 1"
+      },
+      {
+        "x1": -3.25,
+        "y1": 1.75,
+        "x2": -3.25,
+        "y2": -1.75,
+        "width": 0.05,
+        "layer": "Mechanical 1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "mpn": "TDS3011P.C",
+    "symbol": "TDS3011P.C",
+    "footprint": "GW_TDS3011P_SEMTECH",
+    "manufacturer": "Semtech",
+    "source": "Semtech TDS3011P Rev2.0 16-Jun-2021 pp5-7; p6 reference land pattern",
+    "local_pdf": "sources/input_protection/TDS3011P.pdf",
+    "electrical_status": "PROPOSED_FOR_REUSE",
+    "cad_status": "CAD_CANDIDATE",
+    "limitations": "All six pins must connect. 30V working limit; source tolerance, hot leakage and transient coordination not approved. Manufacturer reference copper; mask/paste DFM pending.",
+    "pin_map": {
+      "1": {
+        "function": "GND",
+        "type": "passive",
+        "pad": "1"
+      },
+      "2": {
+        "function": "GND",
+        "type": "passive",
+        "pad": "2"
+      },
+      "3": {
+        "function": "GND",
+        "type": "passive",
+        "pad": "3"
+      },
+      "4": {
+        "function": "IN",
+        "type": "passive",
+        "pad": "4"
+      },
+      "5": {
+        "function": "IN",
+        "type": "passive",
+        "pad": "5"
+      },
+      "6": {
+        "function": "IN",
+        "type": "passive",
+        "pad": "6"
+      }
+    }
+  },
+  {
+    "mpn": "NIS3071MT4TWG",
+    "symbol": "NIS3071MT4TWG",
+    "footprint": "GW_NIS3071_510CM_ONSEMI",
+    "manufacturer": "onsemi",
+    "source": "onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12",
+    "local_pdf": "sources/input_protection/NIS3071-D.PDF",
+    "electrical_status": "PROPOSED_FOR_REUSE",
+    "cad_status": "CAD_CANDIDATE",
+    "limitations": "MT4 Auto-Retry, one channel proposed. EP maps datasheet unnumbered PAD, not invented pin17. Unused IN2/3/4 and EN2/3/4 toGND; OUT2/3/4 unconnected. 43.2k is historical curve-based candidate. EP paste and thermal vias not assembly-qualified.",
+    "pin_map": {
+      "1": {
+        "function": "OUT1",
+        "type": "power",
+        "pad": "1"
+      },
+      "2": {
+        "function": "IN1",
+        "type": "power",
+        "pad": "2"
+      },
+      "3": {
+        "function": "IN2",
+        "type": "power",
+        "pad": "3"
+      },
+      "4": {
+        "function": "OUT2",
+        "type": "power",
+        "pad": "4"
+      },
+      "5": {
+        "function": "FAULT_N",
+        "type": "open_collector",
+        "pad": "5"
+      },
+      "6": {
+        "function": "dvdt",
+        "type": "passive",
+        "pad": "6"
+      },
+      "7": {
+        "function": "ILIM",
+        "type": "passive",
+        "pad": "7"
+      },
+      "8": {
+        "function": "GND",
+        "type": "power",
+        "pad": "8"
+      },
+      "9": {
+        "function": "OUT4",
+        "type": "power",
+        "pad": "9"
+      },
+      "10": {
+        "function": "IN4",
+        "type": "power",
+        "pad": "10"
+      },
+      "11": {
+        "function": "IN3",
+        "type": "power",
+        "pad": "11"
+      },
+      "12": {
+        "function": "OUT3",
+        "type": "power",
+        "pad": "12"
+      },
+      "13": {
+        "function": "EN4",
+        "type": "input",
+        "pad": "13"
+      },
+      "14": {
+        "function": "EN3",
+        "type": "input",
+        "pad": "14"
+      },
+      "15": {
+        "function": "EN2",
+        "type": "input",
+        "pad": "15"
+      },
+      "16": {
+        "function": "EN1",
+        "type": "input",
+        "pad": "16"
+      },
+      "EP": {
+        "function": "GND_PAD",
+        "type": "power",
+        "pad": "EP"
+      }
+    }
+  },
+  {
+    "mpn": "SS3P6L-M3/86A",
+    "symbol": "SS3P6L-M3_86A",
+    "footprint": "GW_SS3P6L_VISHAY_88987",
+    "manufacturer": "Vishay",
+    "source": "Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands",
+    "local_pdf": "sources/SS3P6L_88987.pdf",
+    "electrical_status": "PROPOSED_FOR_REUSE",
+    "cad_status": "CAD_CANDIDATE",
+    "limitations": "Exact suffix from existing source parameters. Manufacturer terminalK retained as padK; no inherited provider1/2/3 map. Both anodes connect input; cathode protected rail. Source/cable reverse envelope and hot loss pending.",
+    "pin_map": {
+      "1": {
+        "function": "ANODE1",
+        "type": "passive",
+        "pad": "1"
+      },
+      "2": {
+        "function": "ANODE2",
+        "type": "passive",
+        "pad": "2"
+      },
+      "K": {
+        "function": "CATHODE",
+        "type": "passive",
+        "pad": "K"
+      }
+    }
+  },
+  {
+    "mpn": "0451002.MRL",
+    "symbol": "0451002.MRL",
+    "footprint": null,
+    "manufacturer": "Littelfuse",
+    "source": "Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering",
+    "local_pdf": "",
+    "electrical_status": "PENDING_USER_APPROVAL",
+    "cad_status": "CAD_BLOCKED",
+    "limitations": "2A125VDC fast fuse candidate. End1/2 are project labels for nonpolar terminals. Official PDF download denied403; footprint blocked pending readable recommended pad-layout drawing. Supply fault, derating, inrush and coordination pending.",
+    "pin_map": {
+      "1": {
+        "function": "END1",
+        "type": "passive",
+        "pad": null
+      },
+      "2": {
+        "function": "END2",
+        "type": "passive",
+        "pad": null
+      }
+    }
+  }
+]

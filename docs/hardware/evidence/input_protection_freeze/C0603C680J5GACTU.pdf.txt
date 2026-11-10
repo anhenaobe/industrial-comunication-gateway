@@ -1,0 +1,68 @@
+KEMET Part Number: C0603C680J5GACTU
+(C0603C680J5GAC7867)
+SMD Comm C0G, Ceramic, 68 pF, 5%, 50 VDC, C0G, SMD, MLCC, Ultra-Stable, Low Loss, Class I, 0603
+Dimensions
+L
+1.6mm +/-0.15mm
+W
+0.8mm +/-0.15mm
+T
+0.8mm +/-0.07mm
+S
+0.7mm MIN
+B
+0.35mm +/-0.15mm
+Packaging Specifications
+Packaging:
+T&R, 180mm, Paper Tape
+Packaging Quantity:
+4000
+General Information
+Supplier:
+KEMET
+Series:
+SMD Comm C0G
+Style:
+SMD Chip
+Description:
+SMD, MLCC, Ultra-Stable, Low
+Loss, Class I
+Features:
+Ultra-Stable, Low Loss, Class I
+RoHS:
+Yes
+Termination:
+Tin
+Marking:
+No
+Miscellaneous:
+Note: KEMET 50V rated parts
+may be operated at 63 Volts
+Chip Size:
+0603
+Specifications
+Capacitance:
+68 pF
+Capacitance Tolerance:
+5%
+Voltage DC:
+50 VDC
+Dielectric Withstanding
+Voltage:
+125 VDC
+Temperature Range:
+-55/+125C
+Temperature Coefficient:
+C0G
+Dissipation Factor:
+0.10% 1MHz 25C
+Aging Rate:
+0% Loss/Decade Hour
+Insulation Resistance:
+100 GOhms
+© 2006 - 2019 KEMET
+Statements of suitability for certain applications are based on our knowledge of typical operating conditions for such applications, but are not intended to constitute - and
+we specifically disclaim - any warranty concerning suitability for a specific customer application or use. This Information is intended for use only by customers who have the
+requisite experience and capability to determine the correct products for their application. Any technical advice inferred from this Information or otherwise provided by us
+with reference to the use of our products is given gratis, and we assume no obligation or liability for the advice given or results obtained.
+Generated 6/27/2019 - c95f747d-9eb8-4339-9384-d41c83270b4d

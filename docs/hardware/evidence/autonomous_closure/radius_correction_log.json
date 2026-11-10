@@ -1,0 +1,161 @@
+[
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "file_type": "PcbLib",
+    "dry_run": false,
+    "component_name": "GW_DQA0010A_TI",
+    "new_name": "GW_DQA0010A_TI",
+    "would_rename": false,
+    "changes": [
+      "description: 'TI SLVSBO7O DQA0010A board/stencil pp29-30;0.565x0.2 leads,3/8=0.565x0.4;pitch0.5,row0.835mm. R0.05typ (3/8R0.052 quantized),NSMD+.05. GNDpaste0.565x0.36 windows,0.10mm stencil.' -> 'TI SLVSBO7O DQA0010A board/stencil pp29-30;0.565x0.2 leads,3/8=0.565x0.4;pitch0.5,row0.835mm. R0.05typ usingAltiumhalf-side50/25percent,NSMD+.05. GNDpaste0.565x0.36 windows,0.10mm stencil.'",
+      "pads[0].corner_radius_percent: 25 -> 50",
+      "pads[1].corner_radius_percent: 25 -> 50",
+      "pads[2].corner_radius_percent: 25 -> 50",
+      "pads[3].corner_radius_percent: 25 -> 50",
+      "pads[4].corner_radius_percent: 13 -> 25",
+      "pads[5].corner_radius_percent: 13 -> 25",
+      "pads[6].corner_radius_percent: 25 -> 50",
+      "pads[7].corner_radius_percent: 25 -> 50",
+      "pads[8].corner_radius_percent: 25 -> 50",
+      "pads[9].corner_radius_percent: 25 -> 50"
+    ],
+    "message": "Updated component 'GW_DQA0010A_TI'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261108_160654_253492.bak",
+    "validation": {
+      "status": "warnings",
+      "error_count": 0,
+      "warning_count": 4,
+      "issues": [
+        {
+          "component": "GW_DRC0010J_TI_TPS2662_EP11",
+          "issue": "Pads '11' and '11A' overlap",
+          "severity": "warning"
+        },
+        {
+          "component": "GW_DRC0010J_TI_TPS2662_EP11",
+          "issue": "Pads '11' and '11B' overlap",
+          "severity": "warning"
+        },
+        {
+          "component": "GW_DRC0010J_TI_TPS2662_EP11",
+          "issue": "Pads '11' and '11C' overlap",
+          "severity": "warning"
+        },
+        {
+          "component": "GW_DRC0010J_TI_TPS2662_EP11",
+          "issue": "Pads '11' and '11D' overlap",
+          "severity": "warning"
+        }
+      ]
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "file_type": "PcbLib",
+    "dry_run": false,
+    "component_name": "GW_DRC0010J_TI_TPS2662",
+    "new_name": "GW_DRC0010J_TI_TPS2662",
+    "would_rename": false,
+    "changes": [
+      "description: 'TI TPS2662 SLVSDT4F Dec2021 Table6-1 p4; DRC0010J4218878/B board p44/stencil p45; CAD_CANDIDATE: EP11 extensions require native custom-pad conversion/net inheritance; RTN only' -> 'TI TPS2662 SLVSDT4F Dec2021 Table6-1 p4; DRC0010J4218878/B board p44/stencil p45; CAD_CANDIDATE: EP11 extensions require native custom-pad conversion/net inheritance; RTN only;Altium radius=percent*min(width,height)/200:lead42%,EP6%,finger40%;Rabout0.05mm.'",
+      "pads[0].corner_radius_percent: 21 -> 42",
+      "pads[1].corner_radius_percent: 21 -> 42",
+      "pads[2].corner_radius_percent: 21 -> 42",
+      "pads[3].corner_radius_percent: 21 -> 42",
+      "pads[4].corner_radius_percent: 21 -> 42",
+      "pads[5].corner_radius_percent: 21 -> 42",
+      "pads[6].corner_radius_percent: 21 -> 42",
+      "pads[7].corner_radius_percent: 21 -> 42",
+      "pads[8].corner_radius_percent: 21 -> 42",
+      "pads[9].corner_radius_percent: 21 -> 42",
+      "pads[10].corner_radius_percent: 3 -> 6"
+    ],
+    "message": "Updated component 'GW_DRC0010J_TI_TPS2662'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261108_160655_144870.bak",
+    "validation": {
+      "status": "warnings",
+      "error_count": 0,
+      "warning_count": 4,
+      "issues": [
+        {
+          "component": "GW_DRC0010J_TI_TPS2662_EP11",
+          "issue": "Pads '11' and '11A' overlap",
+          "severity": "warning"
+        },
+        {
+          "component": "GW_DRC0010J_TI_TPS2662_EP11",
+          "issue": "Pads '11' and '11B' overlap",
+          "severity": "warning"
+        },
+        {
+          "component": "GW_DRC0010J_TI_TPS2662_EP11",
+          "issue": "Pads '11' and '11C' overlap",
+          "severity": "warning"
+        },
+        {
+          "component": "GW_DRC0010J_TI_TPS2662_EP11",
+          "issue": "Pads '11' and '11D' overlap",
+          "severity": "warning"
+        }
+      ]
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "file_type": "PcbLib",
+    "dry_run": false,
+    "component_name": "GW_DRC0010J_TI_TPS2662_EP11",
+    "new_name": "GW_DRC0010J_TI_TPS2662_EP11",
+    "would_rename": false,
+    "changes": [
+      "description: 'TI SLVSDT4F DRC0010J pp43-45; exact copper union central11+segment aliases11A/B/C/D. REQUIRED one-to-many model mapping: symbol11=>pads11,11A,11B,11C,11D; allEF_RTN. CANDIDATE until native mapping/transfer verified. Never bind by default1:1 mapping.' -> 'TI SLVSDT4F DRC0010J pp43-45; exact copper union central11+segment aliases11A/B/C/D. REQUIRED one-to-many model mapping: symbol11=>pads11,11A,11B,11C,11D; allEF_RTN. CANDIDATE until native mapping/transfer verified. Never bind by default1:1 mapping.;Altium radius=percent*min(width,height)/200:lead42%,EP6%,finger40%;Rabout0.05mm.'",
+      "pads[0].corner_radius_percent: 21 -> 42",
+      "pads[1].corner_radius_percent: 21 -> 42",
+      "pads[2].corner_radius_percent: 21 -> 42",
+      "pads[3].corner_radius_percent: 21 -> 42",
+      "pads[4].corner_radius_percent: 21 -> 42",
+      "pads[5].corner_radius_percent: 21 -> 42",
+      "pads[6].corner_radius_percent: 21 -> 42",
+      "pads[7].corner_radius_percent: 21 -> 42",
+      "pads[8].corner_radius_percent: 21 -> 42",
+      "pads[9].corner_radius_percent: 21 -> 42",
+      "pads[10].corner_radius_percent: 3 -> 6",
+      "pads[11].corner_radius_percent: 20 -> 40",
+      "pads[12].corner_radius_percent: 20 -> 40",
+      "pads[13].corner_radius_percent: 20 -> 40",
+      "pads[14].corner_radius_percent: 20 -> 40"
+    ],
+    "message": "Updated component 'GW_DRC0010J_TI_TPS2662_EP11'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261108_160655_723949.bak",
+    "validation": {
+      "status": "warnings",
+      "error_count": 0,
+      "warning_count": 4,
+      "issues": [
+        {
+          "component": "GW_DRC0010J_TI_TPS2662_EP11",
+          "issue": "Pads '11' and '11A' overlap",
+          "severity": "warning"
+        },
+        {
+          "component": "GW_DRC0010J_TI_TPS2662_EP11",
+          "issue": "Pads '11' and '11B' overlap",
+          "severity": "warning"
+        },
+        {
+          "component": "GW_DRC0010J_TI_TPS2662_EP11",
+          "issue": "Pads '11' and '11C' overlap",
+          "severity": "warning"
+        },
+        {
+          "component": "GW_DRC0010J_TI_TPS2662_EP11",
+          "issue": "Pads '11' and '11D' overlap",
+          "severity": "warning"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "name": "CRCW080575R0FKEA",
+    "designator": "R?",
+    "description": "75Ohm1%0.125W0805 Vishay D/CRCW e3; Ethernet cable termination; not C-suffix commodity variant",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -15,
+        "y": 0,
+        "orientation": "left",
+        "length": 15,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 15,
+        "y": 0,
+        "orientation": "right",
+        "length": 15,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_CRCW0805_VISHAY_20035_REFLOW",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Vishay",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "CRCW080575R0FKEA",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "75 Ohm",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Tolerance",
+        "value": "1%",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Power Rating",
+        "value": "0.125 W at70C; derating applies",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Package",
+        "value": "0805 /2012",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "TCR",
+        "value": "100 ppm/K",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Local Datasheet",
+        "value": "sources/ethernet_75ohm/C844859.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Vishay20035 Rev18-Jun-2018 p3 ordering, p9 body/reflow lands; JLC C844859 exact identity observed2026-11-07",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "LCSC Part Number",
+        "value": "C844859",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "RETAINED_ORIGINAL_SELECTION",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Terminal Mapping",
+        "value": "Nonpolar resistor: project pin1=left pad1,pin2=right pad2",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Assembly",
+        "value": "JLC Extended observed; quantity unknown; verify before ordering",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "designator_x": -15,
+    "designator_y": 18,
+    "rectangles": [
+      {
+        "x1": -15,
+        "y1": -6,
+        "x2": 15,
+        "y2": 6,
+        "filled": false,
+        "line_width": 1,
+        "line_color": 128
+      }
+    ]
+  }
+]

@@ -1,0 +1,1079 @@
+{
+  "status": "success",
+  "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+  "component_name": "CRCW080575R0FKEA",
+  "component": {
+    "name": "CRCW080575R0FKEA",
+    "description": "75Ohm1%0.125W0805 Vishay D/CRCW e3; Ethernet cable termination; not C-suffix commodity variant",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "CRCW080575R0FKEA"
+      ],
+      [
+        "ComponentDescription",
+        "75Ohm1%0.125W0805 Vishay D/CRCW e3; Ethernet cable termination; not C-suffix commodity variant"
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "rectangles": [
+      {
+        "owner_part_id": 1,
+        "x1": -15,
+        "y1": -6,
+        "x2": 15,
+        "y2": 6,
+        "line_width": 1,
+        "line_color": 128,
+        "fill_color": 11599871,
+        "filled": false,
+        "transparent": false,
+        "line_style": 0,
+        "unique_id": "RSWBDGRT",
+        "raw_params": [
+          [
+            "RECORD",
+            "14"
+          ],
+          [
+            "IsNotAccesible",
+            "T"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Location.X",
+            "-15"
+          ],
+          [
+            "Location.Y",
+            "-6"
+          ],
+          [
+            "Corner.X",
+            "15"
+          ],
+          [
+            "Corner.Y",
+            "6"
+          ],
+          [
+            "LineWidth",
+            "1"
+          ],
+          [
+            "Color",
+            "128"
+          ],
+          [
+            "AreaColor",
+            "11599871"
+          ],
+          [
+            "UniqueID",
+            "RSWBDGRT"
+          ]
+        ]
+      }
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 15,
+        "x": -15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 15,
+        "x": 15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Vishay",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "OWPYTLDA",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Vishay"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "OWPYTLDA"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CRCW080575R0FKEA",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "ZVXHLIAX",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CRCW080575R0FKEA"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "ZVXHLIAX"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "75 Ohm",
+        "name": "Value",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "GHNRJHOS",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "75 Ohm"
+          ],
+          [
+            "Name",
+            "Value"
+          ],
+          [
+            "UniqueID",
+            "GHNRJHOS"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "1%",
+        "name": "Tolerance",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "QBLUKHIL",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "1%"
+          ],
+          [
+            "Name",
+            "Tolerance"
+          ],
+          [
+            "UniqueID",
+            "QBLUKHIL"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "0.125 W at70C; derating applies",
+        "name": "Power Rating",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "GZAKJXHO",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "0.125 W at70C; derating applies"
+          ],
+          [
+            "Name",
+            "Power Rating"
+          ],
+          [
+            "UniqueID",
+            "GZAKJXHO"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "0805 /2012",
+        "name": "Package",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "WGQZYNWN",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "8"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "0805 /2012"
+          ],
+          [
+            "Name",
+            "Package"
+          ],
+          [
+            "UniqueID",
+            "WGQZYNWN"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "100 ppm/K",
+        "name": "TCR",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "JHVCGVGW",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "9"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "100 ppm/K"
+          ],
+          [
+            "Name",
+            "TCR"
+          ],
+          [
+            "UniqueID",
+            "JHVCGVGW"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+        "name": "Datasheet",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "EDCIIJRP",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "10"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+          ],
+          [
+            "Name",
+            "Datasheet"
+          ],
+          [
+            "UniqueID",
+            "EDCIIJRP"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "sources/ethernet_75ohm/C844859.pdf",
+        "name": "Local Datasheet",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "ZDMZLDNH",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "11"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "sources/ethernet_75ohm/C844859.pdf"
+          ],
+          [
+            "Name",
+            "Local Datasheet"
+          ],
+          [
+            "UniqueID",
+            "ZDMZLDNH"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Vishay20035 Rev18-Jun-2018 p3 ordering, p9 body/reflow lands; JLC C844859 exact identity observed2026-11-07",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "QTZBYAVC",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "12"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Vishay20035 Rev18-Jun-2018 p3 ordering, p9 body/reflow lands; JLC C844859 exact identity observed2026-11-07"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "QTZBYAVC"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "C844859",
+        "name": "LCSC Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "LIILRCIY",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "13"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "C844859"
+          ],
+          [
+            "Name",
+            "LCSC Part Number"
+          ],
+          [
+            "UniqueID",
+            "LIILRCIY"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_VERIFIED",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "ACWBIWFB",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "14"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_VERIFIED"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "ACWBIWFB"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "RETAINED_ORIGINAL_SELECTION",
+        "name": "Design Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "PUWTOUYV",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "15"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "RETAINED_ORIGINAL_SELECTION"
+          ],
+          [
+            "Name",
+            "Design Approval"
+          ],
+          [
+            "UniqueID",
+            "PUWTOUYV"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "NOT_TESTED",
+        "name": "Electrical Test",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "BQXOPMTM",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "16"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "NOT_TESTED"
+          ],
+          [
+            "Name",
+            "Electrical Test"
+          ],
+          [
+            "UniqueID",
+            "BQXOPMTM"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Nonpolar resistor: project pin1=left pad1,pin2=right pad2",
+        "name": "Terminal Mapping",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "GKQCUYCM",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "17"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Nonpolar resistor: project pin1=left pad1,pin2=right pad2"
+          ],
+          [
+            "Name",
+            "Terminal Mapping"
+          ],
+          [
+            "UniqueID",
+            "GKQCUYCM"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "JLC Extended observed; quantity unknown; verify before ordering",
+        "name": "Assembly",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "BCKWWQYN",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "18"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "JLC Extended observed; quantity unknown; verify before ordering"
+          ],
+          [
+            "Name",
+            "Assembly"
+          ],
+          [
+            "UniqueID",
+            "BCKWWQYN"
+          ]
+        ]
+      }
+    ],
+    "designator": "R?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "WWJCNJST",
+    "footprints": [
+      {
+        "name": "GW_CRCW0805_VISHAY_20035_REFLOW",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "21"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_CRCW0805_VISHAY_20035_REFLOW"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "VDGYBNXX"
+          ]
+        ],
+        "unique_id": "VDGYBNXX"
+      }
+    ],
+    "primitive_order": [
+      "rectangle",
+      "pin",
+      "pin",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter"
+    ]
+  },
+  "type": "SchLib",
+  "units": "schematic units (10 = 1 grid)",
+  "message": "Retrieved symbol 'CRCW080575R0FKEA' from 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib'"
+}

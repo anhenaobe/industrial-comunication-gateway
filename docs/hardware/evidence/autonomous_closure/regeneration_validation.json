@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "regeneration_idempotent": true,
+  "artifacts_checked": 13,
+  "artifact_hashes": {
+    "docs\\hardware\\schematic_construction_guide.md": "5a05b8816d070242b11577a598e270f7b47d6345389be84bff9124799156f276",
+    "docs\\hardware\\final_bom.csv": "826052c03f49f42989e871b238fef2485f26cdb00a4b83cd3817c46a9da72ef9",
+    "docs\\hardware\\passive_bom.csv": "d1cabe79ac61c2a06191bf81595183590ad386fd4a084c590e52d377b851e8ca",
+    "docs\\hardware\\cad_library_mapping.csv": "5a62c42687018e06b903a723b9839c8e859ad9d5c35044edfda5832cbd0f1e1c",
+    "docs\\hardware\\passive_component_selection.md": "68e612e77969761d8e9cf0551ab671837f8f1cd64cd63e5334cf35d194f677e0",
+    "docs\\hardware\\schematic_readiness_gate.md": "cf6f75e415f7c7503e49120349d520f05629c95e1b6ecfae81e59d6de8e0cee0",
+    "docs\\hardware\\manufacturer_layout_guidelines.md": "2b7ef8439adaf34e4ce7014dcad5eea472ec7c18879e076e51f6f159edb79a66",
+    "docs\\hardware\\input_protection_reference.md": "53ccfc2de376443844f5d5ade7f0f6c10a7dd02e29c8a5fee23b6e2df35f5b2b",
+    "docs\\hardware\\symbol_library_verification.md": "7943605566eb5483f7a57fefa1c3ff6001369cfb9780bd9091d3ca0d3cda24c1",
+    "docs\\hardware\\datasheet_inventory_closure.md": "1a9dfc34cef2dcf65709c903398ff25c674e241208b5456f4a5e11bf29a4f4df",
+    "docs\\hardware\\datasheet_inventory_closure.csv": "010e7dd88d558a1a469ff898d1c5b9b6bfe9dadced931e7ff7d9dd080c01f6d5",
+    "docs\\hardware\\evidence\\autonomous_closure\\bom_native_reconciliation.csv": "381e85171b1b11b4d682fc35688223e4e7c20e2592014991b95874c8d822de10",
+    "docs\\hardware\\evidence\\autonomous_closure\\native_model_reconciliation.csv": "51e01f4a00eb77f72c888e378ddbeec53d6089417de684a9759c4051311e7c9f"
+  },
+  "commands": [
+    "docs/hardware/evidence/autonomous_closure/prepare_closure_records.py",
+    "docs/hardware/evidence/build_passive_deliverables.py",
+    "docs/hardware/evidence/construction_sync/sync_guide.py",
+    "docs/hardware/evidence/autonomous_closure/finalize_records.py"
+  ],
+  "offline_verification": "PASS",
+  "native_ERC": "NOT_RUN;BRIDGE_UNAVAILABLE",
+  "native_IntLib_compile": "NOT_RUN;BRIDGE_UNAVAILABLE"
+}

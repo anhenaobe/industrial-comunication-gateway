@@ -1,0 +1,1824 @@
+
+===== PDF PAGE 1 =====
+                                                                              THVD1400, THVD1420
+                                                                         SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021
+     THVD1400, THVD1420 3.3-V to 5-V RS-485 Transceivers in Small Package
+                         with ±12-kV IEC ESD Protection
+
+1 Features                                 Description
+
+•  Meets or exceeds the requirements of the TIA/      THVD1400 and THVD1420 are robust  half-duplex
+   EIA-485A standard                            RS-485 transceivers for industrial applications. The
+•  3-V to 5.5-V Supply voltage                       bus pins are immune to high levels of IEC Contact
+•  Half-duplex RS-422/RS-485                        Discharge ESD  events,  eliminating  the need  for
+•  Data rates                                              additional system level protection components.
+   – THVD1400: 500 kbps                                             The devices operate from a single 3 to 5.5-V supply.
+   – THVD1420: 12 Mbps                                             The wide common-mode voltage range and low input
+•  Bus I/O protection                                                    leakage on bus pins make the devices suitable for
+   –  ±16-kV HBM ESD                                    multi-point applications over long cable runs.
+   –  ±12-kV IEC 61000-4-2 Contact discharge
+   –  ±15-kV IEC 61000-4-2 Air gap discharge        THVD1400  and  THVD1420   are   available   in
+   –  ±4-kV IEC 61000-4-4 Fast transient burst           industry standard, 8-pin SOIC package  for drop-in
+   –  ±16-V bus fault protection (absolute max            compatibility as well as in the industry-leading, small
+      voltage on bus pins)                    SOT package. The devices are  characterized  for
+•  Small, space-saving 8-pin SOT package option       ambient temperatures from –40°C to 125°C.
+   (2.1 mm x 1.2 mm)                                                              Device Information
+   – See the layout example for co-layout with           PART NUMBER      PACKAGE(1)    BODY SIZE (NOM)
+      standard SOIC-8 package
+                                                     THVD1400       SOT (8)              2.1 mm x 1.2 mm
+•  Extended industrial temperature range: -40°C to
+                                                     THVD1420        SOIC (8)            4.90 mm × 3.91 mm
+   125°C
+•  Large receiver hysteresis for noise rejection                (1)   For all available packages, see the orderable addendum at
+•  Low power consumption                                           the end of the data sheet.
+   – Low standby supply current: < 1 µA
+   –  Quiescent current during operation: 1.5 mA
+       (typ)
+•   Glitch-free power-up/down for hot plug-in capability
+•  Open, short, and idle bus failsafe                                      1                                                       R
+•  1/8 Unit load (Up to 256 bus nodes)
+                                                                            2                             7
+2 Applications                                        RE                                B
+•  Factory automation & control                                          3                             6
+•  Building automation                                    DE                                A
+•  Grid infrastructure                                                      4
+•  Motor drives                                          D
+•  Power delivery
+•   Industrial transport
+                                                                     Simplified Schematic•  HVAC systems
+•  Video surveillance
+•  Smart meters
+
+
+
+
+
+     An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications,
+       intellectual property matters and other important disclaimers. PRODUCTION DATA.
+===== PDF PAGE 2 =====
+THVD1400, THVD1420
+SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021                                                             www.ti.com
+
+                                 Table of Contents
+
+ 1 Features............................................................................1      7.3 Feature Description...................................................13
+ 2 Applications.....................................................................1      7.4 Device Functional Modes..........................................13
+ 3 Revision History.............................................................. 2    8 Application Information Disclaimer.............................15
+ 4 Pin Configuration and Functions...................................3      8.1 Application Information............................................. 15
+ 5 Specifications.................................................................. 4      8.2 Typical Application.................................................... 15
+   5.1 Absolute Maximum Ratings........................................ 4    9 Power Supply Recommendations................................19
+   5.2 ESD Ratings............................................................... 4    10 Layout...........................................................................20
+   5.3 ESD Ratings [IEC]...................................................... 4      10.1 Layout Guidelines................................................... 20
+   5.4 Recommended Operating Conditions.........................5      10.2 Layout Example...................................................... 20
+   5.5 Thermal Information....................................................5    11 Device and Documentation Support..........................22
+   5.6 Power Dissipation Characteristics.............................. 5      11.1 Device Support........................................................22
+   5.7 Electrical Characteristics.............................................6      11.2 Receiving Notification of Documentation Updates..22
+   5.8 Switching Characteristics (THVD1400).......................7      11.3 Support Resources................................................. 22
+   5.9 Switching Characteristics (THVD1420).......................7      11.4 Trademarks............................................................. 22
+   5.10 Typical Characteristics..............................................9      11.5 Electrostatic Discharge Caution..............................22
+ 6 Parameter Measurement Information.......................... 11      11.6 Glossary..................................................................22
+ 7 Detailed Description......................................................13    12 Mechanical, Packaging, and Orderable
+   7.1 Overview...................................................................13          Information.................................................................... 22
+   7.2 Functional Block Diagrams....................................... 13
+
+
+3 Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+
+Changes from Revision A (April 2021) to Revision B (October 2021)                          Page
+ •  Updated IEC ESD Contact rating from 8 kV to 12 kV in the Features section................................................... 1
+ •  Changed HBM rating for non-bus pins from 1kV to 4kV in the ESD Ratings table ...........................................4
+ •  Changed the IEC ESD contact rating for bus pins from 8kV to 12kV in the ESD Ratings [IEC] table................4
+ •  Updated the VIH max specification for the logic input pins from VCC to 5.5 V in the Recommended Operating
+    Conditions table..................................................................................................................................................5
+ •  Updated IEC ESD Contact rating from 8 kV to 12 kV in the Features Description section.............................. 13
+ •  Updated IEC ESD Contact rating from 8 kV to 12 kV in the Transient Protection section................................17
+
+
+
+Changes from Revision * (December 2020) to Revision A (April 2021)                         Page
+ •  Added Feature: See the layout example............................................................................................................ 1
+ •  Deleted the Advanced Information note from THVD1420 in the Device Information table.................................1
+ •  Added Figure 5-7, Figure 5-8 and Figure 5-9. ................................................................................................... 9
+ •  Added test conditions for Figure 5-1, Figure 5-2, Figure 5-4 and Figure 5-5. ....................................................9
+ •  Added Figure 10-2 ...........................................................................................................................................20
+
+
+
+
+
+2     Submit Document Feedback                                                                     Copyright © 2021 Texas Instruments Incorporated
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 3 =====
+                                                                              THVD1400, THVD1420
+www.ti.com                                                               SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021
+
+4 Pin Configuration and Functions
+
+
+
+
+                                     R        1               8       VCC
+
+
+                                      RE        2               7       B
+
+
+                                      DE        3               6       A
+
+
+                                     D        4               5      GND
+
+
+
+                                                            Not to scale
+
+                        Figure 4-1. SOIC-8 (D), SOT-8 (DRL) Package, Top View
+
+                                      Table 4-1. Pin Functions
+          PIN
+                                        I/O         DESCRIPTION
+ NAME         NO.
+
+ R              1              Digital output      Receive data output
+
+ RE             2               Digital input       Receiver enable, active low (internal 2-MΩ pull-up)
+
+ DE             3               Digital input        Driver enable, active high (internal 2-MΩ pull-down)
+
+ D              4               Digital input        Driver data input
+
+ GND            5            Ground         Device ground
+
+ A               6         Bus input/output    Bus I/O port, A (complementary to B)
+
+ B               7         Bus input/output    Bus I/O port, B (complementary to A)
+ VCC             8             Power          3.3-V to 5-V supply
+
+
+
+
+
+Copyright © 2021 Texas Instruments Incorporated                                                       Submit Document Feedback     3
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 4 =====
+THVD1400, THVD1420
+SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021                                                             www.ti.com
+
+5 Specifications
+ 5.1 Absolute Maximum Ratings
+ over operating free-air temperature range, unless otherwise noted (see (1))
+                                                                                        MIN         MAX    UNIT
+
+ VCC     Supply voltage                                                                                       –0.5               7     V
+ VL        Input voltage at any logic pin (D, DE or RE)                                                             –0.3                 5.7     V
+ VA, VB   Voltage at A or B inputs                                                                     –16              16     V
+  IO       Receiver output current                                                                     –24              24    mA
+ TJ        Junction temperature                                                                                        170     °C
+ TSTG     Storage temperature                                                                        –65             150     °C
+
+ (1)   Operation outside the Absolute Maximum Ratings may cause permanent device damage. Absolute maximum ratings do not imply
+       functional operation of the device at these or any other conditions beyond those listed under Recommended Operating Conditions.
+           If briefly operating outside the Recommended Operating Conditions but within the Absolute Maximum Ratings, the device may not
+       sustain damage, but it may not be fully functional. Operating the device in this manner may affect device reliability, functionality,
+      performance, and shorten the device lifetime.
+
+ 5.2 ESD Ratings
+
+                                                                                             VALUE     UNIT
+  V(ESD)    Electrostatic discharge   Human body model (HBM), per ANSI/ESDA/JEDEC JS-001(1)    Bus terminals (A, B) and GND   ±16,000     V
+                          Human body model (HBM), per ANSI/ESDA/JEDEC JS-001(1)      All other pins                  ±4,000
+  V(ESD)    Electrostatic discharge                                                                                V
+                                  Charged-device model (CDM), per ANSI/ESDA/JEDEC JS-002(2)                               ±1,500
+
+ (1)  JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+ (2)  JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+
+ 5.3 ESD Ratings [IEC]
+
+                                                                                          VALUE       UNIT
+
+              Electrostatic discharge         IEC 61000-4-2 ESD (Contact Discharge), bus terminals and GND                  ±12,000
+
+  V(ESD)      Electrostatic discharge         IEC 61000-4-2 ESD (Air-Gap Discharge), bus terminals and GND                  ±15,000       V
+
+              Electrostatic discharge         IEC 61000-4-4 EFT (Fast transient or burst), bus terminals and GND                 ±4,000
+
+
+
+
+
+4     Submit Document Feedback                                                                     Copyright © 2021 Texas Instruments Incorporated
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 5 =====
+                                                                              THVD1400, THVD1420
+www.ti.com                                                               SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021
+
+ 5.4 Recommended Operating Conditions
+
+                                                                                      MIN    NOM     MAX    UNIT
+
+ VCC      Supply voltage                                                                           3         5         5.5    V
+ VID         Differential input voltage                                                                 –12                  12    V
+  VI         Input voltage at any bus terminal(1)                                                          –7                  12    V
+ VIH        High-level input voltage (driver, driver-enable, and receiver-enable inputs)                            2                     5.5    V
+  VIL        Low-level input voltage (driver, driver-enable, and receiver-enable inputs)                             0                     0.8    V
+
+                                                       Driver                                              –60                  60
+  IO        Output current                                                                           mA
+                                                  Receiver                                            –8                   8
+
+ RL         Differential load resistance                                                                54        60           Ω
+  1/tUI       Signaling rate: THVD1400                                                                                    500    kbps
+  1/tUI       Signaling rate: THVD1420                                                                                     12   Mbps
+ TJ        Junction temperature                                                                    –40                 150     °C
+ TA (2)     Operating ambient temperature                                                            –40                 125     °C
+ TSHDN    Thermal shutdown threshold (temperature rising)                                              150       170               °C
+ THYS     Thermal shutdown hysteresis                                                                        15               °C
+
+ (1)  The algebraic convention in which the least positive (most negative) limit is designated as minimum is used in this data sheet.
+ (2)   Operation is specified for internal (junction) temperatures up to 150°C. Self-heating due to internal power dissipation should be
+      considered for each application. Maximum junction temperature is internally limited by the thermal shut-down (TSD) circuit which
+       disables the driver outputs when the junction temperature reaches 170°C.
+
+ 5.5 Thermal Information
+
+                                                                                      THVD1400, THVD1420
+                          THERMAL METRIC(1)                             DRL (SOT)       D (SOIC)         UNIT
+
+                                                                                        8 PINS           8 PINS
+
+ RθJA           Junction-to-ambient thermal resistance                                                 112.2              126.0          °C/W
+  RθJC(top)        Junction-to-case (top) thermal resistance                                                28.4                66.2           °C/W
+ RθJB           Junction-to-board thermal resistance                                                    22.1                69.4           °C/W
+ ψJT             Junction-to-top characterization parameter                                                  1.2                18.7           °C/W
+ ψJB            Junction-to-board characterization parameter                                            22.0                68.7           °C/W
+
+ (1)   For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application
+       report.
+
+ 5.6 Power Dissipation Characteristics
+
+                    PARAMETER                                  TEST CONDITIONS               VALUE      UNIT
+
+        Power dissipation, driver and         Unterminated          RL = 300 Ω, CL = 50 pF                               145
+           receiver enabled, VCC = 5.5 V, TA =                                       RS-422 load         RL = 100 Ω, CL = 50 pF                               175
+         125°C, 50% duty cycle square-wave                                                     mW
+           signal at maximum signaling rate
+                                       RS-485 load         RL = 54 Ω, CL = 50 pF                                235
+        (THVD1400)
+ PD
+        Power dissipation, driver and         Unterminated          RL = 300 Ω, CL = 50 pF                               175
+           receiver enabled, VCC = 5.5 V, TA =                                       RS-422 load           RL = 100 Ω, CL = 50 pF                               200         125°C, 50% duty cycle square-wave                                                     mW
+           signal at maximum signaling rate
+                                       RS-485 load           RL = 54 Ω, CL = 50 pF                                250        (THVD1420)
+
+
+
+
+
+Copyright © 2021 Texas Instruments Incorporated                                                       Submit Document Feedback     5
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 6 =====
+THVD1400, THVD1420
+SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021                                                             www.ti.com
+
+ 5.7 Electrical Characteristics
+ over operating free-air temperature range (unless otherwise noted)
+          PARAMETER                          TEST CONDITIONS                      MIN      TYP     MAX   UNIT
+
+ Driver
+
+                                    RL = 60 Ω, -7 V ≤ Vtest ≤ 12 V                                          1.5          2
+                                RL = 60 Ω, -7 V ≤ Vtest ≤ 12 V, 4.5 V ≤ Vcc  See Figure 6-1
+                                                                                                                  2.1          3
+                                     ≤ 5.5 V
+             Driver differential-output voltage
+ │VOD│                                                                                                 V           magnitude                  RL = 100 Ω, CL = 50 pF                                         2          2.5
+                                    RL = 54 Ω, CL = 50 pF                  See Figure 6-2            1.5          2
+                                    RL = 54 Ω, 4.5 V ≤ Vcc ≤ 5.5 V                                         2.1          3
+
+          Change in magnitude of driver
+ Δ│VOD│                                                                                       –50                   50   mV              differential-output voltage
+
+            Steady-state common-mode
+ VOC(SS)                             RL = 54 Ω or 100 Ω, CL = 50 pF           See Figure 6-2           1     VCC / 2         3    V            output voltage
+
+          Change in differential driver
+ ΔVOC                                                                                         –50                   50   mV         common-mode output voltage
+
+           Peak-to-peak driver common-
+ VOC(PP)                             RL = 54 Ω, CL = 50 pF, VCC = 5 V         See Figure 6-2                    520          mV         mode output voltage
+
+           Peak-to-peak driver common-
+ VOC(PP)                             RL = 54 Ω, CL = 50 pF, VCC = 3.3 V        See Figure 6-2                    250          mV         mode output voltage
+
+             Driver short-circuit output
+ │IOS│                         DE = VCC, -7 V ≤ [VA or VB] ≤ 12 V, or A pin shorted to B pin           -250                  250   mA             current
+
+ Receiver
+          Bus input current (driver                                                        VI = 12 V                          75       100
+   II                            DE = 0 V, VCC = 0 V or 5.5 V                                                         µA
+             disabled)                                                                       VI = –7 V              –97        –70
+
+             Positive-going receiver
+  VIT+        differential-input voltage                                                                             –70       –45   mV
+            threshold
+
+            Negative-going receiver
+  VIT–        differential-input voltage          -7 V ≤ VCM ≤ 12 V                                           –200       –150          mV
+            threshold
+
+           Receiver differential-input
+ VHYS (1)   voltage threshold hysteresis                                                               30         50          mV
+             (VIT+ – VIT– )
+
+           Receiver high-level output
+ VOH                                      IOH = –4 mA                                          VCC – 0.4   VCC – 0.2            V            voltage
+
+           Receiver low-level output
+ VOL                                           IOL = 4 mA                                                                         0.2         0.4    V            voltage
+
+           Receiver high-impedance
+  IOZ                              VO = 0 V or VCC, RE = VCC                                     –1                    1    µA            output current
+
+ Logic
+
+  IIN         Input current (D, DE, RE)                                                                  –5                    5    µA
+
+ Supply
+
+
+
+
+
+6     Submit Document Feedback                                                                     Copyright © 2021 Texas Instruments Incorporated
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 7 =====
+                                                                              THVD1400, THVD1420
+www.ti.com                                                               SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021
+
+ 5.7 Electrical Characteristics (continued)
+ over operating free-air temperature range (unless otherwise noted)
+          PARAMETER                          TEST CONDITIONS                      MIN      TYP     MAX   UNIT
+
+                                                           DE = VCC, RE =                                                 Both driver and receiver enabled                                 1500      1800
+                                                                                                  0, no load
+
+                                                         Driver enabled and receiver     DE = VCC, RE =                                                                                                         1000      1500
+                                   VCC = 3.6 disabled                       VCC, no load                                                                                                              µA
+                               V          Driver disabled and receiver    DE = 0, RE = 0,
+                                                                                                          700       900
+                                                  enabled                      no load
+
+                                                           DE = 0 , RE =
+                                                 Both driver and receiver disabled                                         0.1         1
+                                                                                 VCC, no load
+  ICC       Supply current (quiescent)
+                                                           DE = VCC, RE =                                                         Driver and receiver enabled                                     1700      3000
+                                                                                                  0, no load
+
+                                                           DE = VCC, RE =                                                         Driver enabled, receiver disabled                                 1300      2500
+                                   VCC = 5.5                                VCC, no load                                                                                                              µA
+                               V                             DE = 0, RE = 0,
+                                                         Driver disabled, receiver enabled                                  800      1000
+                                                                          no load
+
+                                                           DE = 0, RE =
+                                                 Both driver and receiver disabled                                         0.1         1
+                                                                                 VCC, no load
+
+ (1)   Under any specific conditions, VIT+ is specified to be at least VHYS higher than VIT–.
+
+ 5.8 Switching Characteristics (THVD1400)
+ over operating free-air temperature range (unless otherwise noted)
+              PARAMETER                           TEST CONDITIONS                  MIN     TYP    MAX   UNIT
+
+ Driver
+
+   tr, tf         Driver differential output rise and fall times                                                    200       400       600     ns
+  tPHL, tPLH   Driver propagation delay                See Figure 6-3                                               250       500     ns
+  tSK(P)       Driver pulse skew, |tPHL – tPLH|                                                                                 15     ns
+  tPHZ, tPLZ   Driver disable time                                                                                 80       200     ns
+                                                                 See Figure
+                                                     Receiver enabled                                             200       650     ns
+  tPZH, tPZL   Driver enable time                                                  6-4 and Figure 6-5
+                                                     Receiver disabled                                              4        10     µs
+
+ Receiver
+
+   tr, tf        Receiver output rise and fall times                                                                     13        20     ns
+  tPHL, tPLH   Receiver propagation delay time          See Figure 6-6                                                60       110     ns
+  tSK(P)      Receiver pulse skew, |tPHL – tPLH|                                                                                7     ns
+  tPHZ, tPLZ   Receiver disable time                                                                               30        60     ns
+                                                                 See Figure 6-7
+  tPZL(1),                                                   Driver enabled                                                60       150     ns
+  tPZH(1)            Receiver enable time
+  tPZL(2),                                                   Driver disabled         See Figure 6-8                           4        10     µs
+  tPZH(2)
+
+
+ 5.9 Switching Characteristics (THVD1420)
+ over operating free-air temperature range (unless otherwise noted)
+              PARAMETER                           TEST CONDITIONS                  MIN     TYP    MAX   UNIT
+
+ Driver
+
+   tr, tf         Driver differential output rise and fall times                                                              15        25     ns
+  tPHL, tPLH   Driver propagation delay                See Figure 6-3                                                20        38     ns
+  tSK(P)       Driver pulse skew, |tPHL – tPLH|                                                                                                 3.5     ns
+  tPHZ, tPLZ   Driver disable time                                                                                 15        38     ns
+                                                                 See Figure
+                                                     Receiver enabled                                              15        70     ns
+  tPZH, tPZL   Driver enable time                                                  6-4 and Figure 6-5
+                                                     Receiver disabled                                              4        10     µs
+
+ Receiver
+
+
+
+
+Copyright © 2021 Texas Instruments Incorporated                                                       Submit Document Feedback     7
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 8 =====
+THVD1400, THVD1420
+SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021                                                             www.ti.com
+
+ 5.9 Switching Characteristics (THVD1420) (continued)
+ over operating free-air temperature range (unless otherwise noted)
+              PARAMETER                           TEST CONDITIONS                  MIN     TYP    MAX   UNIT
+
+   tr, tf        Receiver output rise and fall times                                                                     10        16     ns
+  tPHL, tPLH   Receiver propagation delay time          See Figure 6-6                                                40        75     ns
+  tSK(P)      Receiver pulse skew, |tPHL – tPLH|                                                                                5     ns
+  tPHZ, tPLZ   Receiver disable time                                                                               15        25     ns
+                                                                 See Figure 6-7
+  tPZL(1),                                                   Driver enabled                                                25       170     ns
+  tPZH(1)            Receiver enable time
+  tPZL(2),                                                   Driver disabled         See Figure 6-8                           4        10     µs
+  tPZH(2)
+
+
+
+
+
+8     Submit Document Feedback                                                                     Copyright © 2021 Texas Instruments Incorporated
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 9 =====
+                                                                              THVD1400, THVD1420
+www.ti.com                                                               SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021
+
+ 5.10 Typical Characteristics
+
+
+
+                    6                                                                                        5
+                      5.5                                   VOH (VCC=5V)                                             4.8                                       VCC = 5 V
+                                                          VOL (VCC=5V)                                                          (V) 4.6                    5
+                         (V) 4.5                                                                                                        4.4                    4                                                                                                                                                                                                                                                                                                                                    Voltage 4.2
+                                                                                                             4                                                           Voltage 3.5                                                                                                                                3.8                    3                                                                                                                                                                                                                                                                                      Output
+                                                                                                                                3.6                                                  Output 2.5                                                                                                        3.4
+                                                  Driver 1.52                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Differential 3.23
+                                                                                                                                2.8                    1                                                                                                                                                                                                                                                                                      Driver                      0.5                                                                                                                                2.6
+                    0                                                                                                        2.4
+                     0     10    20    30    40    50    60    70    80                                      0  5  10 15 20 25 30 35 40 45 50 55 60 65 70 75 80
+                                            Driver Output Current (mA)                D001                                                               Driver Output Current (mA)                D002
+
+                                                                  D001_driver_vout_iout.grf                                                                                           D002_driver_vdiff.grf
+
+                  DE = VCC                 TA = 25°C            DE = VCC        D = 0 V         TA = 25°C
+
+    Figure 5-1. Driver Output voltage vs Driver Output Current     Figure 5-2. Driver Differential Output voltage vs Driver Output
+                                                                                        Current
+
+
+                  66                                                                                      350
+                                                                                                                                                                                                     Fall                                                                                                                                                                             time                                                                                                                                                               (VCC=5V)                  63
+                                                                                                                                                               Rise                                                                                                                                                                             time                                                                                                           345                                                                                                                                                                (VCC=5V)
+                  60                                                                                                                                                                                         (ns)                                  (mA) 57                                                                                      340
+                  54                                                                                                                                                                                         Time 335                                                            Current 51                                                                                                                                                                                         Fall
+
+
+                                                                                                           325                                                    Output 4845                                                                                                                                           andRise 330
+                  42                                                                                      320                                                    Driver                  39                                                                                                                                                                                                                                                                                      Driver
+                                                                                                           315
+                  36
+
+                  33                                                                                      310
+                     3   3.25  3.5  3.75   4   4.25  4.5  4.75   5   5.25  5.5                                            -40   -20    0    20   40   60   80   100  120  140
+                                                   Vcc (V)                          D003                                                           Temperature (qC)                     D004
+
+                                                                       D003_Iout_vcc.grf                                                                                                D004_rise_fall.grf
+
+             RL = 54 Ω       DE = VCC        D = VCC              RL = 54 Ω        CL = 50 pF
+              TA = 25°C                                                        spacer
+
+       Figure 5-3. Driver Output Current vs Supply Voltage        Figure 5-4. Driver Rise or Fall Time vs Temperature (THVD1400)
+
+
+                  320                                                                                      75
+                                                                        tPHL (ns) VCC=5V                                                                             VCC=5V
+                  315                                             tPLH (ns) VCC=5V
+                                                                                                           70
+                                 (ns) 310
+                  305                                                                                                                                                                                         (mA) 65                                          Delay
+                  300                                                                                                                                                                                                                                                                                                                                                                                                                      Current
+
+                  295
+                                                                                                                                                                                                                                                                                                                                                            Supply 60                                                                                   Propgation
+                  290
+                                                                                                           55
+                  285
+
+                  280                                                                                      50
+                        -40   -20    0    20   40   60   80   100  120  140                                     0   50  100  150  200  250  300  350  400  450  500
+                                          Temperature (qC)                     D005                                                                Signaling Rate (kbps)                   D006
+
+                                                                   D005_prop_delay.grf                                                                                   D006_Icc_datarate.grf
+
+             RL = 54 Ω        CL = 50 pF                              RL = 54 Ω        TA = 25 °C
+
+       Figure 5-5. Driver Propagation Delay vs Temperature            Figure 5-6. Supply Current vs Signal Rate (THVD1400)
+                       (THVD1400)
+
+
+
+
+
+Copyright © 2021 Texas Instruments Incorporated                                                       Submit Document Feedback     9
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 10 =====
+THVD1400, THVD1420
+SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021                                                             www.ti.com
+
+ 5.10 Typical Characteristics (continued)
+
+
+                  11                                                                              21
+                                                       Rise Time (VCC = 5 V )                                                                                      tPHL (VCC = 5 V)
+                 10.5                                           Fall Time (VCC = 5 V)                              20                                               tPLH (VCC = 5 V)
+                 10
+                           (ns)                   9.5                                                                                                                                                                      (ns) 19
+                                                                                                18                           Time    9                                                                                                                                                                                                                Delay
+                           Fall   8.5                                                                              17
+                           Rise    8                                                                              16                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Propagation 15                                        Driver   7.5
+                  7
+                   6.5                                                                              14
+
+                  6                                                                              13
+                     -40   -20    0    20   40   60   80   100  120  140                                -40   -20    0    20   40   60   80   100  120  140
+                                         Temperature (C)                                                                         Temperature (C)
+             RL = 54 Ω        CL = 50 pF                           RL = 54 Ω            CL = 50 pF
+
+       Figure 5-7. Driver Rise and Fall Time vs Temperature            Figure 5-8. Driver Propagation Delay vs Temperature
+                       (THVD1420)                                              (THVD1420)
+
+                                                       65
+                                                                                             VCC = 5 V
+
+                                                                                                                     (mA) 60
+                                                                                                                                                                                                            Current
+
+
+                                                       55                                                                                                                                                                               Supply
+
+
+
+
+
+                                                       50
+                                                          0      2000    4000    6000    8000    10000   12000
+                                                                                          Signaling Rate (kbps)
+                                                 RL = 54 Ω TA = 25 °C
+
+                                     Figure 5-9. Supply Current vs Signal Rate (THVD1420)
+
+
+
+
+
+10    Submit Document Feedback                                                                     Copyright © 2021 Texas Instruments Incorporated
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 11 =====
+                                                                              THVD1400, THVD1420
+www.ti.com                                                               SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021
+
+6 Parameter Measurement Information
+
+                                                              Vcc                  375 Ÿ
+
+                                                DE
+                                                          A
+                                             D                                            Vtest
+                                           0V or Vcc                  VOD     RL
+
+                                                          B
+
+
+                                                                                   375 Ÿ
+
+         Figure 6-1. Measurement of Driver Differential Output Voltage With Common-Mode Load
+
+
+                                                               A
+                                                                                                      VA
+                          A         RL/2                          B
+                 D                                                                                                      VB
+            0V or Vcc                             VOD
+                          B         RL/2                                                                                      VOC(PP)          ûVOC(SS)                                         VOC                                           CL
+                                                                VOC
+
+
+       Figure 6-2. Measurement of Driver Differential and Common-Mode Output With RS-485 Load
+
+                                 Vcc                                                                                Vcc
+                                                                                                VI            50%
+                         DE                                                                                 0 V
+                                 A
+                       D                RL=                    tPLH                                tPHL
+                                    VOD   54 Ÿ     CL= 50 pF                    90%                            ~~2 V                Input
+            Generator    VI   50 Ÿ        B                                          50%
+                                                             VOD                                                                             10%                                                                                                                                                                                                                         ~~ ± 2 V                                                                                                                                                     tr                                                                                                                                                                                                                  tf
+
+    Figure 6-3. Measurement of Driver Differential Output Rise and Fall Times and Propagation Delays
+
+
+                                 A
+                                        S1     VO                                                                    Vcc                       D
+                                                                                                 VI            50%
+                                                                                                                   0 V                                 B
+                                                        =                                                 RL                         DE                                                                         tPZH                                             =                                           Ÿ                                       CL                                                        110                 Input                                                                                                 VOH                                            50 pF                                                                                              90%
+             Generator                           VI    50 Ÿ                                                                        50%
+                                                               VO
+                                                                                                              ~~ 0V                                                                                              tPHZ
+
+   Figure 6-4. Measurement of Driver Enable and Disable Times With Active High Output and Pull-Down
+                                        Load
+
+
+                                                       Vcc
+                                                                                                                                      Vcc
+                                                          RL= 110 Ÿ                           VI              50%
+                                     A                                                                                          0 V
+                                             S1
+                                                          VO                                     tPZL
+                         D        B                                                                                                     tPLZ
+                                                                                                                                        § Vcc
+                           DE                                               VO                                                   CL=
+                     Input                              50 pF                                             50 %                     10%
+                                                                                                                                                   VOL                Generator      VI
+                                  50 Ÿ
+
+
+  Figure 6-5. Measurement of Driver Enable and Disable Times With Active Low Output and Pull-up Load
+
+
+
+
+
+Copyright © 2021 Texas Instruments Incorporated                                                       Submit Document Feedback    11
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 12 =====
+THVD1400, THVD1420
+SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021                                                             www.ti.com
+
+
+                                                                                                                                       3 V
+                                                                                                          VI             50%
+                                       A                                                                                       0 V
+
+                     Input                                            R  VO                         tPLH                                                    tPHL
+                Generator     VI     50 Ÿ    1.5V                                                                                            VOH
+                                       B                 CL=15 pF                             90%
+                                                                                        50%
+                                          0 V                                       RE                            VOD                  10 %
+                                                                                                                                                                                                                       tr                                                 tf          VOL
+
+        Figure 6-6. Measurement of Receiver Output Rise and Fall Times and Propagation Delays
+
+                                                                                                                                     Vcc
+                    Vcc                                         Vcc
+                                                                                                    VI               50%
+              DE                                                                                            0V
+                            A                   1 kŸ                                           tPZH(1)                              tPHZ
+            D                    R  VO
+      0V or Vcc                                                        S1                                                VOH D at Vcc
+                                                                                               90%         S1 to GND
+                                                                VO           50%                            B                                                   CL=15 pF                                                                                                                     § 0V                                RE
+                                                                                                                                                    tPZL(1)                                                                                                                                                                         tPLZ
+              Input
+          Generator                        VI    50 Ÿ                                                                               VCC DS1atto0VVcc
+                                                                VO                  50 %
+                                                                                                 10%
+                                                                                                               VOL
+
+            Figure 6-7. Measurement of Receiver Enable/Disable Times With Driver Enabled
+
+
+                                                                                                                                 Vcc
+                                                           Vcc                         VI         50%
+
+                                                                                                            0V
+                       A                   1 NŸ                                                    tPZH(2)
+          V or 1.5V             R   VO
+                                                       S1                                                                   VOH   A at 1.5V
+              1.5 V or 0V                                                               50%                              B at 0V
+                       B                                             CL=15 pF                           VO
+                            RE                                                                                                                                   § 0V  S1 to GND
+                                                                                                                                                    tPZL(2)
+              Input                                                                                                                                                                                      at                                                                                                                              0V                                                                                                                                      VCC   A
+          Generator                            VI    50 Ÿ                                                                                                                 B                                                                                                                                                                                      at                                                                                                                                                      1.5V                                                                             VO              50%
+                                                                                                                           S1 to VCC
+                                                                                                                                             VOL
+
+                Figure 6-8. Measurement of Receiver Enable Times With Driver Disabled
+
+
+
+
+
+12    Submit Document Feedback                                                                     Copyright © 2021 Texas Instruments Incorporated
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 13 =====
+                                                                              THVD1400, THVD1420
+www.ti.com                                                               SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021
+
+7 Detailed Description
+ 7.1 Overview
+
+The THVD1400 is a low-power, half-duplex RS-485 transceiver suitable for data transmission up to 500 kbps.
+The THVD1420 is a low-power, half-duplex RS-485 transceiver suitable for data transmission up to 12 Mbps.
+
+ 7.2 Functional Block Diagrams
+
+                                                          VCC
+
+
+                                     R
+
+                                      RE            A
+
+                                      DE            B
+
+                                     D
+
+
+                                          GND
+ 7.3 Feature Description
+
+ Internal ESD protection circuits protect the transceiver against Electrostatic Discharges (ESD) according to IEC
+ 61000-4-2 of up to ±12 kV (Contact Discharge), ±15 kV (Air Gap Discharge) and against electrical fast transients
+ (EFT) according to IEC 61000-4-4 of up to ±4 kV.
+
+ 7.4 Device Functional Modes
+
+When the driver enable pin, DE, is logic high, the differential outputs A and B follow the logic states at data input
+ D. A logic high at D causes A to turn high and B to turn low. In this case, the differential output voltage defined
+ as VOD = VA – VB is positive. When D is low, the output states reverse, B turns high, A becomes low, and VOD is
+ negative.
+
+When DE is low, both outputs turn high-impedance. In this condition, the logic state at D is irrelevant. The DE
+ pin has an internal pull-down resistor to ground; thus, when left open, the driver is disabled (high-impedance) by
+ default. The D pin has an internal pull-up resistor to VCC, thus, when left open while the driver is enabled, output
+A turns high and B turns low.
+
+                                   Table 7-1. Driver Function Table
+                 INPUT     ENABLE        OUTPUTS
+                                                                 FUNCTION
+               D        DE        A        B
+
+               H        H        H           L                   Actively drive bus high
+
+                    L        H           L        H                   Actively drive bus low
+
+                 X           L          Z          Z                      Driver disabled
+
+                 X       OPEN        Z          Z                 Driver disabled by default
+
+              OPEN       H        H           L             Actively drive bus high by default
+
+
+When the receiver enable pin, RE, is logic low, the receiver is enabled. When the differential input voltage
+ defined as VID = VA – VB is positive and higher than the positive input threshold, VIT+, the receiver output, R,
+ turns high. When VID is negative and lower than the negative input threshold, VIT-, the receiver output, R, turns
+ low. If VID is between VIT+ and VIT- the output is indeterminate.
+When RE is logic high or left open, the receiver output is high-impedance and the magnitude and polarity of VID
+ are irrelevant. Internal biasing of the receiver inputs causes the output to go failsafe-high when the transceiver is
+ disconnected from the bus (open-circuit), the bus lines are shorted (short-circuit), or the bus is not actively driven
+ (idle bus).
+
+
+
+
+
+Copyright © 2021 Texas Instruments Incorporated                                                       Submit Document Feedback    13
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 14 =====
+THVD1400, THVD1420
+SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021                                                             www.ti.com
+
+                                  Table 7-2. Receiver Function Table
+                  DIFFERENTIAL INPUT      ENABLE     OUTPUT
+                                                                     FUNCTION
+                           VID = VA – VB           RE         R
+                               VIT+ < VID                 L          H            Receive valid bus high
+                                VIT- < VID < VIT+              L             ?             Indeterminate bus state
+                             VID < VIT-                 L             L             Receive valid bus low
+                       X               H            Z               Receiver disabled
+
+                       X              OPEN          Z          Receiver disabled by default
+
+                           Open-circuit bus              L          H                Fail-safe high output
+
+                              Short-circuit bus              L          H                Fail-safe high output
+
+                            Idle (terminated) bus            L          H                Fail-safe high output
+
+
+
+
+
+14    Submit Document Feedback                                                                     Copyright © 2021 Texas Instruments Incorporated
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 15 =====
+                                                                              THVD1400, THVD1420
+www.ti.com                                                               SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021
+
+8 Application Information Disclaimer
+
+                                           Note
+
+      Information in the following applications sections  is not part of the TI component specification,
+     and  TI does  not  warrant  its accuracy  or completeness.  TI’s customers  are  responsible  for
+     determining suitability of components for their purposes, as well as validating and testing their design
+     implementation to confirm system functionality.
+
+ 8.1 Application Information
+
+The THVD1400 is a half-duplex RS-485 transceiver commonly used for asynchronous data transmissions. The
+ driver and receiver enable pins allow for the configuration of different operating modes.
+
+ 8.2 Typical Application
+
+An RS-485 bus consists of multiple transceivers connecting in parallel to a bus cable. To eliminate line
+ reflections, each cable end is terminated with a termination resistor, RT, whose value matches the characteristic
+ impedance, Z0, of the cable. This method, known as parallel termination, allows for higher data rates over longer
+ cable length.
+
+
+    R     R                                                                 R     R
+                    A                                                     A
+   RE                                                                                RE
+                         RT                                                 RT                    B                                                     B
+   DE                                                                                DE
+
+    D   D                                                                    D   D
+                                A  B                    A  B
+
+
+
+
+
+                            R                      R
+                                    D                      D
+
+
+
+                            R RE DE D             R RE DE D
+
+                   Figure 8-1. Typical RS-485 Network With Half-Duplex Transceivers
+
+ 8.2.1 Design Requirements
+
+RS-485 is a robust electrical standard suitable for long-distance networking that may be used in a wide range of
+ applications with varying requirements, such as distance, data rate, and number of nodes.
+
+ 8.2.1.1 Data Rate and Bus Length
+
+ There is an inverse relationship between data rate and cable length, which means the higher the data rate, the
+ shorter the cable length; and conversely, the lower the data rate, the longer the cable length. While most RS-485
+ systems use data rates between 10 kbps and 100 kbps, some applications require data rates up to 300 kbps at
+ distances of 4000 feet and longer. Longer distances are possible by allowing for small signal jitter of up to 5 or
+10%.
+
+
+
+
+
+Copyright © 2021 Texas Instruments Incorporated                                                       Submit Document Feedback    15
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 16 =====
+THVD1400, THVD1420
+SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021                                                             www.ti.com
+
+ 8.2.1.2 Stub Length
+
+When connecting a node to the bus, the distance between the transceiver inputs and the cable trunk, known as
+ the stub, should be as short as possible. Stubs present a non-terminated piece of bus line which can introduce
+ reflections as the length of the stub increases. As a general guideline, the electrical length, or round-trip delay, of
+a stub should be less than one-tenth of the rise time of the driver, thus giving a maximum physical stub length as
+shown in Equation 1.
+
+     L(STUB) ≤ 0.1 × tr × v × c                                                                                                 (1)
+
+where
+
+ •    tr is the 10/90 rise time of the driver
+ •  c is the speed of light (3 × 108 m/s)
+ •  v is the signal velocity of the cable or trace as a factor of c
+
+ 8.2.1.3 Bus Loading
+
+The RS-485 standard specifies that a compliant driver must be able to driver 32 unit loads (UL), where 1
+ unit load represents a load impedance of approximately 12 kΩ. Because the THVD1400 consists of 1/8 UL
+ transceivers, connecting up to 256 receivers to the bus is possible.
+
+ 8.2.1.4 Receiver Failsafe
+
+The differential receivers of the THVD1400 are failsafe to invalid bus states caused by the following:
+ •  Open bus conditions, such as a disconnected connector
+ •  Shorted bus conditions, such as cable damage shorting the twisted-pair together
+ •   Idle bus conditions that occur when no driver on the bus is actively driving
+
+ In any of these cases, the differential receiver outputs a failsafe logic high state so that the output of the receiver
+ is not indeterminate.
+
+ Receiver failsafe is accomplished by offsetting the receiver thresholds such that the input indeterminate range
+does not include zero volts differential. To comply with the RS-422 and RS-485 standards, the receiver output
+must output a high when the differential input VID is more positive than 200 mV, and must output a low when
+ VID is more negative than –200 mV. The receiver parameters which determine the failsafe performance are VIT+,
+ VIT–, and VHYS (the separation between VIT+ and VIT–). As shown in the Receiver Function Table, differential
+ signals more negative than –200 mV always causes a low receiver output, and differential signals more positive
+ than 200 mV always causes a high receiver output.
+
+When the differential input signal is close to zero, it is still above the VIT+ threshold, and the receiver output is
+ high. Only when the differential input is more than VHYS below VIT+ does the receiver output transition to a low
+ state. Therefore, the noise immunity of the receiver inputs during a bus fault conditions includes the receiver
+ hysteresis value, VHYS, as well as the value of VIT+.
+
+
+
+
+
+16    Submit Document Feedback                                                                     Copyright © 2021 Texas Instruments Incorporated
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 17 =====
+                                                                              THVD1400, THVD1420
+www.ti.com                                                               SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021
+
+ 8.2.1.5 Transient Protection
+
+The bus pins of the THVD1400 transceiver family include on-chip ESD protection against ±16-kV HBM and
+ ±12-kV IEC 61000-4-2 contact discharge. The International Electrotechnical Commission (IEC) ESD test is far
+more severe than the HBM ESD test. The 50% higher charge capacitance, C(S), and 78% lower discharge
+ resistance, R(D), of the IEC model produce significantly higher discharge currents than the HBM model.
+
+                            R(C)                      R(D)
+                                                                40
+                     50 M               330 Ω                    35
+                          (1 M)                   (1.5 kΩ)                          (A) 30  10-kV IEC
+                                                                25
+        High-Voltage                 150 pF          Device
+           Pulse                 C(S)                   Under          20                                     (100 pF)                                                                15                                                            Test                                Current         Generator
+                                                                10
+                                                                                        10-kV HBM
+                                                                 5
+                                                                 0
+                                                                   0    50   100   150   200   250   300
+
+                                                                              Time (ns)
+
+     Figure 8-2. HBM and IEC ESD Models and Currents in Comparison (HBM Values in Parenthesis)
+
+The on-chip implementation  of IEC ESD protection  significantly increases the robustness  of equipment.
+Common discharge events occur because of human contact with connectors and cables. Designers may choose
+ to implement protection against longer duration transients, typically referred to as surge transients.
+
+EFTs are generally caused by relay-contact bounce or the interruption of inductive loads. Surge transients
+ often result from lightning strikes (direct strike or an indirect strike which induce voltages and currents), or
+ the switching of power systems, including load changes and short circuit switching. These transients are often
+ encountered in industrial environments, such as factory automation and power-grid systems.
+
+ Figure 8-3 compares the pulse-power of the EFT and surge transients with the power caused by an IEC ESD
+ transient. The left hand diagram shows the relative pulse-power for a 0.5-kV surge transient and 4-kV EFT
+ transient, both of which dwarf the 10-kV ESD transient visible in the lower-left corner. 500-V surge transients are
+ representative of events that may occur in factory environments in industrial and process automation.
+
+The right hand diagram shows the pulse-power of a 6-kV surge transient, relative to the same 0.5-kV surge
+ transient. 6-kV surge transients are most likely to occur in power generation and power-grid systems.
+
+                                                                             3.0
+                                                                             2.8
+                                                                             2.6                       6-kV Surge
+                                                                             2.4
+            22                                                            2.2
+            20                                                            2.0                                                                                                                                       (MW)            18                       0.5-kV Surge                       1.8
+                    (kW) 1614                                                                                                                                   Power  1.61.4
+            12                                                            1.2
+                 4-kV EFT            10                                                                                                                                   Pulse  1.0                        Power
+             8                                                            0.8
+             6                                                            0.6                        Pulse
+             4                                                            0.4
+             2                                                                             0.2              0.5-kV Surge                  10-kV ESD
+             0                                                    0
+              0    5   10   15   20   25   30   35   40               0    5   10   15   20   25   30   35   40
+
+                            Time (µs)                                           Time (µs)
+
+                   Figure 8-3. Power Comparison of ESD, EFT, and Surge Transients
+
+
+
+
+Copyright © 2021 Texas Instruments Incorporated                                                       Submit Document Feedback    17
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 18 =====
+THVD1400, THVD1420
+SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021                                                             www.ti.com
+
+ In the event of surge transients, high-energy content is characterized by long pulse duration and slow decaying
+ pulse power. The electrical energy of a transient that is dumped into the internal protection cells of a transceiver
+ is converted into thermal energy, which heats and destroys the protection cells, thus destroying the transceiver.
+ Figure 8-4 shows the large differences in transient energies for single ESD, EFT, surge transients, and an EFT
+ pulse train that is commonly applied during compliance testing.
+
+                                 1000
+
+
+                                  100
+
+                                                   Surge
+                                  10
+
+
+                                   1
+                                         EFT Pulse Train
+                                                 (J)   0.1
+                                                                                                  Energy  0.01
+
+                                                    EFT                                                                                 Pulse                                            10-3
+
+
+                                            10-4
+
+                                                      ESD
+                                            10-5
+
+
+                                            10-6
+                                                0.5       1       2       4    6   8 10   15
+
+                                               Peak Pulse Voltage (kV)
+
+                            Figure 8-4. Comparison of Transient Energies
+
+
+
+
+
+18    Submit Document Feedback                                                                     Copyright © 2021 Texas Instruments Incorporated
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 19 =====
+                                                                              THVD1400, THVD1420
+www.ti.com                                                               SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021
+
+ 8.2.2 Detailed Design Procedure
+
+ In order to protect bus nodes against high-energy transients, the implementation of external transient protection
+ devices is necessary. Figure 8-5 suggests a protection circuit against 1 kV surge (IEC 61000-4-5) transients.
+ Table 8-1 shows the associated bill of materials.
+
+
+
+                                                                   5V
+                                                           100nF             100nF
+
+
+                                                       10k              VCC
+                                                                                   R1
+                                                   R
+                                          RxD
+                                       MCU/              RE            A          TVS
+                                    UART
+                                                     DE            B
+                                                DIR
+
+                                                   D
+                                             TxD
+
+                                                                                   R2
+                                                             10k        GND
+
+
+
+           Figure 8-5. Transient Protection Against Surge Transients for Half-Duplex Devices
+
+                                      Table 8-1. Bill of Materials
+ DEVICE           FUNCTION                       ORDER NUMBER          MANUFACTURER
+
+ XCVR              RS-485 transceiver                     THVD1400                        TI
+
+ R1
+                       10-Ω, pulse-proof thick-film resistor          CRCW0603010RJNEAHP        Vishay
+ R2
+
+ TVS                     Bidirectional 400-W transient suppressor      CDSOT23-SM712              Bourns
+
+ 8.2.3 Application Curves
+
+
+
+
+
+                        Figure 8-6. THVD1400 waveforms at 500 kbps, VCC = 5V
+
+9 Power Supply Recommendations
+
+ To ensure reliable operation at all data rates and supply voltages, each supply should be decoupled with a 100
+nF ceramic capacitor located as close to the supply pins as possible. This helps to reduce supply voltage ripple
+ present on the outputs of switched-mode power supplies and also helps to compensate for the resistance and
+ inductance of the PCB power planes.
+
+Copyright © 2021 Texas Instruments Incorporated                                                       Submit Document Feedback    19
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 20 =====
+THVD1400, THVD1420
+SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021                                                             www.ti.com
+
+10 Layout
+ 10.1 Layout Guidelines
+
+ Robust and reliable bus node design often requires the use of external transient protection devices in order
+ to protect against surge transients that may occur in industrial environments. Since these transients have a
+ wide frequency bandwidth (from approximately 3 MHz to 300 MHz), high-frequency layout techniques should be
+ applied during PCB design.
+ 1.  Place the protection circuitry close to the bus connector to prevent noise transients from propagating across
+    the board.
+ 2.  Use VCC and ground planes to provide low inductance. Note that high-frequency currents tend to follow the
+    path of least impedance and not the path of least resistance.
+ 3.  Design the protection components into the direction of the signal path. Do not force the transient currents to
+     divert from the signal path to reach the protection device.
+ 4.  Apply 100-nF to 220-nF decoupling capacitors as close as possible to the VCC pins of transceiver, UART
+    and/or controller ICs on the board.
+ 5.  Use at least two vias for VCC and ground connections of decoupling capacitors and protection devices to
+    minimize effective via inductance.
+ 6.  Use 1-kΩ to 10-kΩ pull-up and pull-down resistors for enable lines to limit noise currents in these lines during
+     transient events.
+ 7.  Insert pulse-proof resistors into the A and B bus lines if the TVS clamping voltage is higher than the specified
+   maximum voltage of the transceiver bus pins. These resistors limit the residual clamping current into the
+     transceiver and prevent it from latching up.
+ 8.  While pure TVS protection is sufficient for surge transients up to 1 kV, higher transients require metal-oxide
+     varistors (MOVs) which reduce the transients to a few hundred volts of clamping voltage, and transient
+    blocking units (TBUs) that limit transient current to less than 1 mA.
+
+ 10.2 Layout Example
+
+                                                          5
+                                                                                                                                Via to ground
+                                   R                    C  4                Via to VCC
+
+
+
+                            6 R
+                                                                            1                                                         R
+         MCU                                        7    R                              JMP
+                                                         R           5                                                                              TVS
+                            6 R
+
+                                                                5
+
+
+                            Figure 10-1. Layout Example for SOIC package
+
+
+
+
+
+20    Submit Document Feedback                                                                     Copyright © 2021 Texas Instruments Incorporated
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 21 =====
+                                                                              THVD1400, THVD1420
+www.ti.com                                                               SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021
+
+
+
+
+
+                 Figure 10-2. Layout Example for Co-layout of SOIC (D) and SOT (DRL)
+
+
+
+
+
+Copyright © 2021 Texas Instruments Incorporated                                                       Submit Document Feedback    21
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 22 =====
+THVD1400, THVD1420
+SLLSF78B – DECEMBER 2020 – REVISED OCTOBER 2021                                                             www.ti.com
+
+11 Device and Documentation Support
+ 11.1 Device Support
+ 11.2 Receiving Notification of Documentation Updates
+
+ To receive notification of documentation updates, navigate to the device product folder on ti.com. Click on
+ Subscribe to updates to register and receive a weekly digest of any product information that has changed. For
+change details, review the revision history included in any revised document.
+
+ 11.3 Support Resources
+
+ TI E2E™ support forums are an engineer's go-to source for fast, verified answers and design help — straight
+ from the experts. Search existing answers or ask your own question to get the quick design help you need.
+
+ Linked content is provided "AS IS" by the respective contributors. They do not constitute TI specifications and do
+ not necessarily reflect TI's views; see TI's Terms of Use.
+
+ 11.4 Trademarks
+ TI E2E™ is a trademark of Texas Instruments.
+ All trademarks are the property of their respective owners.
+ 11.5 Electrostatic Discharge Caution
+                  This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled
+                   with appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+
+            ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may
+               be more susceptible to damage because very small parametric changes could cause the device not to meet its published
+                    specifications.
+
+ 11.6 Glossary
+
+ TI Glossary      This glossary lists and explains terms, acronyms, and definitions.
+
+12 Mechanical, Packaging, and Orderable Information
+
+The following pages include mechanical, packaging, and orderable information. This information is the most
+ current data available for the designated devices. This data is subject to change without notice and revision of
+ this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+
+
+
+
+
+22    Submit Document Feedback                                                                     Copyright © 2021 Texas Instruments Incorporated
+
+                                            Product Folder Links: THVD1400 THVD1420
+===== PDF PAGE 23 =====
+                                                         PACKAGE OPTION ADDENDUM
+
+
+    www.ti.com                                                                                                                                                                         31-Oct-2025
+
+
+PACKAGING INFORMATION
+
+   Orderable part number     Status   Material type    Package | Pins    Package qty | Carrier    RoHS        Lead finish/       MSL rating/       Op temp (°C)           Part marking
+                                                      (1)                 (2)                                                                                          (3)            Ball material        Peak reflow                                                              (6)
+                                                                                                                                                                                                    (4)                                (5)
+      THVD1400DR           Active     Production      SOIC (D) | 8      2500 | LARGE T&R      Yes          NIPDAU        Level-1-260C-UNLIM        -40 to 125               1400
+      THVD1400DR.A          Active     Production      SOIC (D) | 8      2500 | LARGE T&R      Yes          NIPDAU        Level-1-260C-UNLIM        -40 to 125               1400
+     THVD1400DRG4          Active     Production      SOIC (D) | 8      2500 | LARGE T&R      Yes          NIPDAU        Level-1-260C-UNLIM        -40 to 125               1400
+    THVD1400DRG4.A         Active     Production      SOIC (D) | 8      2500 | LARGE T&R      Yes          NIPDAU        Level-1-260C-UNLIM        -40 to 125               1400
+     THVD1400DRLR          Active     Production    SOT-5X3 (DRL) | 8    4000 | LARGE T&R      Yes             Call TI | Sn       Level-1-260C-UNLIM        -40 to 125              T400
+     THVD1400DRLR.A         Active     Production    SOT-5X3 (DRL) | 8    4000 | LARGE T&R      Yes           SN          Level-1-260C-UNLIM        -40 to 125              T400
+      THVD1420DR           Active     Production      SOIC (D) | 8      2500 | LARGE T&R      Yes          NIPDAU        Level-1-260C-UNLIM        -40 to 125               1420
+      THVD1420DR.A          Active     Production      SOIC (D) | 8      2500 | LARGE T&R      Yes          NIPDAU        Level-1-260C-UNLIM        -40 to 125               1420
+     THVD1420DRLR          Active     Production    SOT-5X3 (DRL) | 8    4000 | LARGE T&R      Yes           SN          Level-1-260C-UNLIM        -40 to 125              T420
+     THVD1420DRLR.A         Active     Production    SOT-5X3 (DRL) | 8    4000 | LARGE T&R      Yes           SN          Level-1-260C-UNLIM        -40 to 125              T420
+
+(1) Status: For more details on status, see our product life cycle.
+
+(2) Material type: When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+
+(3) RoHS values: Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+
+(4) Lead finish/Ball material: Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+
+(5) MSL rating/Peak reflow: The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+
+(6) Part marking: There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+
+                                                                               Addendum-Page 1
+===== PDF PAGE 24 =====
+                                                         PACKAGE OPTION ADDENDUM
+
+
+    www.ti.com                                                                                                                                                                         31-Oct-2025
+
+
+
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+
+
+
+
+
+                                                                               Addendum-Page 2
+===== PDF PAGE 25 =====
+                         PACKAGE MATERIALS INFORMATION
+
+
+www.ti.com                                                                                                                                  24-Jul-2025
+
+TAPE AND REEL INFORMATION
+
+     REEL DIMENSIONS                                  TAPE DIMENSIONS
+                                                       K0    P1
+
+
+                                                   W                                                                               B0
+                                      Reel
+                                    Diameter
+                                                                         Cavity       A0
+                                         A0  Dimension designed to accommodate the component width
+                                           B0  Dimension designed to accommodate the component length
+                                         K0  Dimension designed to accommodate the component thickness
+                           W   Overall width of the carrier tape
+                                               P1   Pitch between successive cavity centers
+
+                                      Reel Width (W1)
+                  QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+                                                                                         Sprocket Holes
+
+
+                                  Q1  Q2     Q1  Q2
+
+                                  Q3  Q4     Q3  Q4             User Direction of Feed
+
+
+                                                      Pocket Quadrants
+
+
+*All dimensions are nominal
+        Device        Package Package Pins  SPQ     Reel     Reel    A0    B0    K0    P1   W     Pin1
+                       Type   Drawing               Diameter  Width  (mm)  (mm)  (mm)  (mm)  (mm) Quadrant
+                                                 (mm)  W1 (mm)
+     THVD1400DR      SOIC    D      8    2500    330.0     12.4     6.4     5.2     2.1     8.0    12.0    Q1
+   THVD1400DRG4     SOIC    D      8    2500    330.0     12.4     6.4     5.2     2.1     8.0    12.0    Q1
+    THVD1400DRLR    SOT-5X3  DRL    8    4000    180.0      8.4     2.75    1.9     0.8     4.0     8.0    Q3
+     THVD1420DR      SOIC    D      8    2500    330.0     12.4     6.4     5.2     2.1     8.0    12.0    Q1
+    THVD1420DRLR    SOT-5X3  DRL    8    4000    180.0      8.4     2.75    1.9     0.8     4.0     8.0    Q3
+
+
+
+
+
+                                                  Pack Materials-Page 1
+===== PDF PAGE 26 =====
+                         PACKAGE MATERIALS INFORMATION
+
+
+www.ti.com                                                                                                                                  24-Jul-2025
+
+
+ TAPE AND REEL BOX DIMENSIONS
+
+
+
+
+
+                                                                                                   Width (mm)     H
+
+
+
+
+
+     W             L
+
+
+
+
+
+*All dimensions are nominal
+         Device          Package Type  Package Drawing  Pins   SPQ    Length (mm)  Width (mm)   Height (mm)
+     THVD1400DR          SOIC          D          8     2500        353.0         353.0          32.0
+    THVD1400DRG4         SOIC          D          8     2500        353.0         353.0          32.0
+    THVD1400DRLR        SOT-5X3         DRL         8     4000        210.0         185.0          35.0
+     THVD1420DR          SOIC          D          8     2500        353.0         353.0          32.0
+    THVD1420DRLR        SOT-5X3         DRL         8     4000        210.0         185.0          35.0
+
+
+
+
+
+                                                  Pack Materials-Page 2
+===== PDF PAGE 27 =====
+                                 PACKAGE OUTLINE
+DRL0008A                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  SCALE 8.000          SOT-5X3 - 0.6 mm max height
+                                                                                    PLASTIC SMALL OUTLINE
+
+
+
+                                                   1.3                        B                                                   1.1
+                                                    A
+                       PIN 1
+                      ID AREA
+
+                             1
+                                                          8
+
+                    6X 0.5
+
+
+                                                                          2.2               2X 1.5                                                                          2.0
+                                                NOTE 3
+
+
+
+                                                          5
+                             4
+                      0.27               8X                      0.17
+                                                   1.7                                                                                                          0.05               0.1   C A B                                                                       2X 0 -10                                                   1.5                                                      0.00
+              0.05
+                                                      2X 4 -15
+
+                      0.6 MAX                              C
+
+                                                            SEATING PLANE
+                        0.18
+                        0.08                                                0.05 C
+                               SYMM
+                               0.4                     8X                               0.2
+
+
+
+
+
+                  SYMM
+
+
+
+
+
+                                                                                                  4224486/G  11/2024
+NOTES:
+
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+  per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, interlead flash, protrusions, or gate burrs shall not
+  exceed 0.15 mm per side.
+4.Reference JEDEC Registration MO-293, Variation UDAD
+
+
+
+                                                     www.ti.com
+===== PDF PAGE 28 =====
+                             EXAMPLE BOARD LAYOUT
+DRL0008A                                SOT-5X3 - 0.6 mm max height
+                                                                                   PLASTIC SMALL OUTLINE
+
+
+
+                                     8X (0.67)
+                                         SYMM
+
+                        8X (0.3)  1                                           8
+
+
+
+
+                                                             SYMM
+
+
+
+
+                        6X (0.5)
+
+                                                                                5
+                                    4
+
+                           (R0.05) TYP
+                                                                       (1.48)
+
+                             LAND PATTERN EXAMPLE
+                                      EXPOSED METAL SHOWN
+                                                  SCALE:30X
+
+
+
+                   0.05 MAX                                          0.05 MIN
+             AROUND                            AROUND
+
+
+            EXPOSED                              EXPOSED
+               METAL                                  METAL
+            SOLDER MASK             METAL         METAL UNDER             SOLDER MASK
+             OPENING                               SOLDER MASK              OPENING
+                     NON SOLDER MASK                                                             SOLDER MASK                            DEFINED                                                                     DEFINED                           (PREFERRED)
+
+                             SOLDERMASK DETAILS
+
+
+
+
+
+                                                                                                  4224486/G  11/2024
+NOTES: (continued)
+
+5. Publication IPC-7351 may have alternate designs.
+6. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+7. Land pattern design aligns to IPC-610, Bottom Termination Component (BTC) solder joint inspection criteria.
+
+
+
+
+
+                                                     www.ti.com
+===== PDF PAGE 29 =====
+                            EXAMPLE STENCIL DESIGN
+DRL0008A                                SOT-5X3 - 0.6 mm max height
+                                                                                    PLASTIC SMALL OUTLINE
+
+
+
+
+
+                                      8X (0.67)                                          SYMM
+
+
+                          8X (0.3)  1                                           8
+
+
+
+
+                                                              SYMM
+
+
+
+
+                          6X (0.5)
+
+                                                                                 5
+                                     4
+
+                            (R0.05) TYP
+                                                                         (1.48)
+
+                             SOLDER PASTE EXAMPLE
+                                     BASED ON 0.1 mm THICK STENCIL
+                                                    SCALE:30X
+
+
+
+
+
+                                                                                                  4224486/G  11/2024
+NOTES: (continued)
+
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+  design recommendations.
+9. Board assembly site may have different recommendations for stencil design.
+
+
+
+
+
+                                                     www.ti.com
+===== PDF PAGE 30 =====
+                                 PACKAGE OUTLINE
+D0008A                                                                                                                                                                                                                                                                                 SCALE 2.800            SOIC - 1.75 mm max height
+                                                                 SMALL OUTLINE INTEGRATED CIRCUIT
+
+
+                                                                           C
+
+                                                                         SEATING PLANE
+                                  .228-.244 TYP
+                                     [5.80-6.19]                                                                                                    .004 [0.1] C
+       A                                    PIN 1 ID AREA
+                                                        6X .050
+                                                                                       [1.27]
+                                                       8
+              1
+
+
+
+                                                         2X     .189-.197
+      [4.81-5.00]                                                       .150
+    NOTE 3                                                                  [3.81]
+
+
+                                                                      4X (0 -15 )
+
+              4
+                                                       5
+                                                        8X .012-.020
+              B               .150-.157                                [0.31-0.51]                                                                                                           .069 MAX
+                                        [3.81-3.98]                        .010 [0.25]   C A B                     [1.75]
+                          NOTE 4
+
+
+
+
+
+                                                                          .005-.010 TYP
+                                                                               [0.13-0.25]
+
+
+                            4X (0 -15 )
+
+             SEE DETAIL A
+                                                                   .010
+                                                                              [0.25]
+
+
+
+                                                                                                                   .004-.010                                                        0 - 8                                                                                                                            [0.11-0.25]
+                                                                        .016-.050
+                                                                             [0.41-1.27]              DETAIL A
+                                                                                                (.041)        TYPICAL
+                                                                                                    [1.04]
+
+                                                                                                   4214825/C  02/2019
+NOTES:
+
+1. Linear dimensions are in inches [millimeters]. Dimensions in parenthesis are for reference only. Controlling dimensions are in inches.
+  Dimensioning and tolerancing per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+  exceed .006 [0.15] per side.
+4. This dimension does not include interlead flash.
+5. Reference JEDEC registration MS-012, variation AA.
+
+
+
+
+                                                    www.ti.com
+===== PDF PAGE 31 =====
+                             EXAMPLE BOARD LAYOUT
+D0008A                                    SOIC - 1.75 mm max height
+                                                                 SMALL OUTLINE INTEGRATED CIRCUIT
+
+
+
+
+
+                         8X (.061  )
+                                        [1.55]
+                                        SYMM               SEE
+                                                                       DETAILS
+                                    1
+                                                                          8
+
+                       8X (.024)
+                                        [0.6]                                  SYMM
+
+
+
+                                                                                        (R.002  ) TYP
+                                                                                                            [0.05]                                                                          5
+                                     4
+                   6X (.050  )
+                                 [1.27]
+                                                                    (.213)
+                                                                             [5.4]
+
+                            LAND PATTERN EXAMPLE
+                                    EXPOSED METAL SHOWN
+                                                SCALE:8X
+
+
+
+
+
+                                SOLDER MASK      SOLDER MASK
+               METAL             OPENING              OPENING               METAL UNDER                                                                         SOLDER MASK
+
+
+        EXPOSED
+           METAL                                EXPOSED
+                                                   METAL
+                                 .0028 MAX                                              .0028 MIN
+                                       [0.07]                                                             [0.07]
+                            ALL AROUND                                    ALL AROUND
+
+                  NON SOLDER MASK                            SOLDER MASK
+                         DEFINED                                      DEFINED
+
+                              SOLDER MASK DETAILS
+
+
+
+
+                                                                                                   4214825/C  02/2019
+
+NOTES: (continued)
+
+6. Publication IPC-7351 may have alternate designs.
+7. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+
+
+
+
+
+                                                    www.ti.com
+===== PDF PAGE 32 =====
+                            EXAMPLE STENCIL DESIGN
+D0008A                                    SOIC - 1.75 mm max height
+                                                                 SMALL OUTLINE INTEGRATED CIRCUIT
+
+
+
+
+
+                           8X (.061  )
+                                            [1.55]              SYMM
+
+                                        1
+                                                                             8
+
+                         8X (.024)
+                                            [0.6]                                                            SYMM
+
+
+
+                                                                                            (R.002  ) TYP
+                                                                                                                [0.05]                                                                             5
+                                        4
+                      6X (.050  )
+                                     [1.27]
+                                                                         (.213)
+                                                                                  [5.4]
+
+                              SOLDER PASTE EXAMPLE
+                                BASED ON .005 INCH [0.125 MM] THICK STENCIL
+                                                   SCALE:8X
+
+
+
+
+
+                                                                                                   4214825/C  02/2019
+
+NOTES: (continued)
+
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+  design recommendations.
+9. Board assembly site may have different recommendations for stencil design.
+
+
+
+
+
+                                                     www.ti.com
+===== PDF PAGE 33 =====
+                 IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS”
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable
+standards, and any other safety, security, regulatory or other requirements.
+
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products
+are standard, catalog, general purpose devices.
+
+TI objects to and rejects any additional or different terms you may propose.
+
+IMPORTANT NOTICE
+
+
+                                          Copyright © 2025, Texas Instruments Incorporated
+
+                                                       Last updated 10/2025

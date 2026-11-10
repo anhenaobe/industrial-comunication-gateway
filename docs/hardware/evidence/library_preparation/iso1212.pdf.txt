@@ -1,0 +1,2749 @@
+
+===== PDF PAGE 1 =====
+                                                                                           ISO1211, ISO1212
+                                                                         SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+    ISO121x Isolated 24V to 60V Digital Input Receivers for Digital Input Modules
+
+1 Features                                             with an accurate current limit to enable the design
+                                                              of compact and  high-density  I/O modules. These•  Compliant to IEC 61131-2; Type 1, 2, 3
+                                                     devices do not require field-side power supply and are   characteristics for 24V isolated digital inputs
+                                                         configurable as sourcing or sinking inputs.•  Supports 9V to 300V DC and AC digital input
+   designs using external resistors                  The ISO121x devices operate over the supply range
+•  Accurate Current Limit for Low-Power Dissipation:      of 2.25V  to  5.5V, supporting  2.5V,  3.3V, and 5V
+   – 2.2mA to 2.47mA for Type 3                          controllers. A ±60V  input  tolerance  with  reverse
+   –  Adjustable up to 6.5mA                               polarity protection helps provide the input pins are
+•  Eliminates the need for field-side power supply        protected  in case  of  faults with negligible reverse
+•  High input-voltage range with reverse polarity          current. These devices support up to 4Mbps data
+   protection: ±60V                                       rates  passing a minimum  pulse  width  of 150ns
+•  Wire-break detection (refer to TIDA-01509)              for high-speed  operation. The ISO1211 device  is
+•  Configurable as sourcing or sinking input             designed  for  applications  that  require  channel-to-
+•  High data rates: up to 4Mbps                       channel isolation and the ISO1212 device is designed
+•  Enable pin to multiplex output signals                    for multichannel space-constrained designs.
+•  High transient immunity: ±70kV/µs CMTI                                             The  ISO121x  devices  reduce  component  count,
+•  Wide supply range (VCC1): 2.25V to 5.5V                                                              simplify system design, improve performance, and
+•  Ambient temperature range: –40°C to +125°C                                                   reduce board temperatures compared to traditional
+•  Compact package options:                                                       designs. For  details, refer to the How To Simplify
+   –  Single-channel ISO1211, SOIC-8                                                           Isolated 24V PLC Digital Input Module Designs TI
+   –  Dual-channel ISO1212, SSOP-16                                                    TechNote, How To Improve Speed and Reliability of
+•  Functional safety capable                                                           Isolated Digital Inputs in Motor Drives TI TechNote,
+   –  Documentation available to aid functional safety   and How to Design Isolated Comparators for ±48V,
+     system design: ISO1211, ISO1212              110V and 240V DC and AC Detection TI TechNote.
+•  –  Safety Related Certifications
+                                                         Package Information        •  DIN EN IEC 60747-17 (VDE 0884-17)
+                                                    PART               BODY SIZE  PACKAGE         conformity per VDE                                          PACKAGE(1)                                              NUMBER                   (NOM)      SIZE(2)
+        •  UL 1577 recognition, 2500VRMS insulation
+                                                                               4.90mm ×     4.90mm ×
+        •  IEC 60950-1, IEC 62368-1, IEC 61010-1         ISO1211     D (SOIC, 8)                                                                               3.91mm      3.91mm
+        and GB 4943.1-2011 certifications
+                                                       DBQ (SSOP,   4.90mm ×     4.90mm ×
+                                                          ISO1212
+2 Applications                                                              16)          3.90mm      3.90mm
+•  Programmable Logic Controller (PLC)                        (1)   For all available packages, see the orderable addendum at
+                                                                           the end of the data sheet.
+   –  Digital Input Modules                                          (2)  The package size (length × width) is a nominal value and
+   –  Mixed I/O Modules                                              includes pins, where applicable.
+•  Motor Drive I/O and Position Feedback
+• CNC Control                                                                                                                                                                  Field                 PLC Digital Input ModuleISO1211
+
+                                                                                                                                                                                                                                                                              VCC1                                                                                                                                                                                                                                           Host                                                                                                                                                                                                                         RSENSE  SENSE•  Data Acquisition                                                                                                                                                      RTHR                                                                                                                                                                                                                                                     Sensor/
+                                                                                                                                                                                                                                                       Switch                                                                                                                                                                                                                                                           IN                                                                                                                                                                                24 V                                                                                                                                                                                             OUT    Controller
+•  Binary Input Modules                                                                                                                                 FGND      GND1
+3 Description                                                                                                                                                                                                          Copyright © 2017, Texas Instruments Incorporated
+
+The ISO1211 and ISO1212  devices  are  isolated                   Application Diagram
+24V to 60V digital input receivers, compliant to IEC
+61131-2 Type  1,  2, and 3  characteristics. These                                                      TA = 25°C             TA = 25°C
+devices enable 9V to 300V DC and AC digital input
+modules  in programmable logic controllers (PLCs),
+motor-control, grid infrastructure, and other industrial
+applications. Unlike  traditional optocoupler designs                                                              a) 8-Ch With ISO1212  b) 8-Ch Traditional Solution Without Current Limit
+with discrete, imprecise current limiting circuitry, the
+                                              ISO121x Devices Reduce Board Temperatures vsISO121x devices provide a simple, low-power design
+                                                                        Traditional Designs
+
+     An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications,
+       intellectual property matters and other important disclaimers. PRODUCTION DATA.
+===== PDF PAGE 2 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+                                 Table of Contents
+
+ 1 Features............................................................................1      7.2 Functional Block Diagram.........................................17
+ 2 Applications.....................................................................1      7.3 Feature Description...................................................17
+ 3 Description.......................................................................1      7.4 Device Functional Modes..........................................18
+ 4 Pin Configuration and Functions...................................3    8 Application and Implementation..................................19
+ 5 Specifications.................................................................. 5      8.1 Application Information............................................. 19
+   5.1 Absolute Maximum Ratings........................................ 5      8.2 Typical Application.................................................... 19
+   5.2 ESD Ratings............................................................... 5      8.3 Power Supply Recommendations.............................30
+   5.3 Recommended Operating Conditions.........................5      8.4 Layout....................................................................... 30
+   5.4 Thermal Information....................................................6    9 Device and Documentation Support............................33
+   5.5 Power Ratings.............................................................6      9.1 Device Support......................................................... 33
+   5.6 Insulation Specifications............................................. 7      9.2 Documentation Support............................................ 33
+   5.7 Safety-Related Certifications...................................... 8      9.3 Related Links............................................................ 33
+   5.8 Safety Limiting Values.................................................9      9.4 Receiving Notification of Documentation Updates....33
+   5.9 Electrical Characteristics—DC Specification............ 10      9.5 Support Resources................................................... 33
+   5.10 Switching Characteristics—AC Specification.......... 11      9.6 Trademarks...............................................................33
+   5.11 Insulation Characteristics Curves............................12      9.7 Electrostatic Discharge Caution................................33
+   5.12 Typical Characteristics............................................13      9.8 Glossary....................................................................34
+ 6 Parameter Measurement Information..........................14    10 Revision History.......................................................... 34
+   6.1 Test Circuits.............................................................. 14    11 Mechanical, Packaging, and Orderable
+ 7 Detailed Description......................................................17          Information.................................................................... 35
+   7.1 Overview...................................................................17
+
+
+
+
+
+2     Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 3 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+4 Pin Configuration and Functions
+
+
+                                               VCC1   1                                8 SENSE
+
+
+
+
+
+                                 EN   2                                7    IN
+                                                                                                                                                                                                                                                                                                        Isolation
+                                                                                                                                                                     Basic                                                                                                                                                            ILIM         6  FGND                                OUT  3
+
+
+
+
+
+                                GND1  4                                5  SUB
+
+
+                         Figure 4-1. ISO1211 D Package 8-Pin SOIC Top View
+
+          PIN
+                         TYPE(1)                                 DESCRIPTION
+ NO.     NAME
+ 1          VCC1     —    Power supply, side 1
+                                  Output enable. The output pin on side 1 is enabled when the EN pin is high or open. The output pin
+ 2        EN                     I     on side 1 is in the high-impedance state when the EN pin is low. In noisy applications, tie the EN pin to
+                                   VCC1.
+ 3        OUT       O    Channel output
+ 4       GND1     —    Ground connection for VCC1
+                                         Internal connection to input chip substrate. For good thermal performance, connecting this pin to a
+ 5        SUB     —     small 2mm × 2mm floating plane on the board is recommended. Do not connect this floating plane to
+                        FGND or any other signal or plane.
+
+ 6       FGND     —     Field-side ground
+
+ 7            IN                     I      Field-side current input
+
+ 8       SENSE                 I      Field-side voltage sense
+
+ (1)     I = Input; O = Output
+
+
+
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback     3
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 4 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+
+
+                                GND1  1                               16 SENSE1
+
+
+
+                                              VCC1   2                               15    IN1
+                                                                                                                                                            ILIM
+                                 EN    3                               14  FGND1
+
+
+
+                                 OUT1   4                               13  SUB1
+                                                                                                                                                                                                                                                                                                        Isolation     Functional Isolation
+                                 OUT2   5                              Basic                   12  SUB2
+
+
+
+                                NC    6                               11 SENSE2
+
+
+
+                                NC    7                               10    IN2
+                                                                                                                                                            ILIM
+
+                                GND1  8                                9  FGND2
+
+
+                       Figure 4-2. ISO1212 DBQ Package 16-Pin SSOP Top View
+
+          PIN
+                         TYPE(1)                                          Description
+ NO.     NAME
+ 1       GND1     —    Ground connection for VCC1
+ 2          VCC1     —    Power supply, side 1
+                                  Output enable. The output pins on side 1 are enabled when the EN pin is high or open. The output
+ 3        EN                     I      pins on side 1 are in the high-impedance state when the EN pin is low. In noisy applications, tie the EN
+                                      pin to VCC1.
+ 4        OUT1      O    Channel 1 output
+
+ 5        OUT2      O    Channel 2 output
+
+ 6
+          NC     —    Not connected
+ 7
+ 8       GND1     —    Ground connection for VCC1
+ 9       FGND2    —     Field-side ground, channel 2
+
+ 10          IN2                    I      Field-side current input, channel 2
+
+ 11      SENSE2                I      Field-side voltage sense, channel 2
+
+                                         Internal connection to input chip 2 substrate. For good thermal performance, connecting this pin to a
+ 12       SUB2     —     small 2mm x 2mm floating plane on the board is recommended. Do not connect this floating plane to
+                            FGND1, FGND2, SUB1 or any other signal or plane.
+
+                                         Internal connection to input chip 1 substrate. For good thermal performance, connecting this pin to a
+ 13       SUB1     —     small 2mm x 2mm floating plane on the board is recommended. Do not connect this floating plane to
+                            FGND1, FGND2, SUB2 or any other signal or plane.
+
+ 14      FGND1    —     Field-side ground, channel 1
+
+ 15          IN1                    I      Field-side current input, channel 1
+
+ 16      SENSE1                I      Field-side voltage sense, channel 1
+
+ (1)     I = Input; O = Output
+
+
+
+
+
+4     Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 5 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+5 Specifications
+ 5.1 Absolute Maximum Ratings
+
+ over operating free-air temperature range (unless otherwise noted)(1)
+
+                                                                         MIN        MAX       UNIT
+ VCC1         Supply voltage, control side                                                   –0.5            6         V
+ VOUTx,               Voltage on OUTx pins and EN pin                                              –0.5        VCC1 + 0.5(2)     V VEN
+ IO            Output current on OUTx pins                                            –15            15       mA
+ VINx, VSENSEx  Voltage on IN and SENSE pins                                          –60            60         V
+ V(ISO,FUNC)    Functional isolation between channels in ISO1212 on the field side              –60            60         V
+ TJ            Junction temperature                                                  –40           150         °C
+  Tstg          Storage temperature                                                   –65           150         °C
+
+ (1)   Operation outside the Absolute Maximum Ratings may cause permanent device damage. Absolute Maximum Ratings do not imply
+       functional operation of the device at these or any other conditions beyond those listed under Recommended Operating Conditions.
+           If used outside the Recommended Operating Conditions but within the Absolute Maximum Ratings, the device may not be fully
+       functional, and this may affect device reliability, functionality, performance, and shorten the device lifetime.
+ (2)  Maximum voltage must not exceed 6V.
+
+ 5.2 ESD Ratings
+
+                                                                              VALUE      UNIT
+                Electrostatic   Human body model (HBM), per ANSI/ESDA/JEDEC JS-001(1)                  ±2000
+ V(ESD)                                                                                    V
+              discharge      Charged device model (CDM), per JEDEC specification JESD22C101(2)          ±1000
+
+ (1)  JEDEC document JEP155 states that 500V HBM allows safe manufacturing with a standard ESD control process.
+ (2)  JEDEC document JEP157 states that 250V CDM allows safe manufacturing with a standard ESD control process.
+
+ 5.3 Recommended Operating Conditions
+
+                                                                                MIN      MAX   UNIT
+ VCC1       Supply voltage input side                                                                 2.25           5.5    V
+ VINx,             Voltage on INx and SENSEx pins(1)                                                 –60          60    V
+ VSENSEx
+                                                       VCC1 = 5V                            –4
+ IOH         High-level output current from OUTx pin           VCC1 = 3.3V                          –3           mA
+                                                       VCC1 = 2.5V                          –2
+                                                       VCC1 = 5V                                         4
+ IOL         Low-level output current into OUTx pin            VCC1 = 3.3V                                       3   mA
+                                                       VCC1 = 2.5V                                       2
+  tUI        Minimum pulse width at SENSEx pins                                               150                 ns
+ TA        Ambient temperature                                                             –40         125    °C
+
+ (1)  See the Section 8.2.1.2.2 section.
+
+
+
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback     5
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 6 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+ 5.4 Thermal Information
+
+                                                                ISO1211               ISO1212
+                THERMAL METRIC(1)                    D (SOIC)          DBQ (SSOP)         UNIT
+
+                                                                 8 PINS                16 PINS
+ RθJA         Junction-to-ambient thermal resistance                         146.1                     116.9            °C/W
+  RθJC(top)      Junction-to-case (top) thermal resistance                        63.1                      56.5            °C/W
+ RθJB         Junction-to-board thermal resistance                         80                      64.7            °C/W
+ ΨJT          Junction-to-top characterization parameter                         9.6                      27.9            °C/W
+ ΨJB          Junction-to-board characterization parameter                   79                      64.1            °C/W
+  RθJC(bot)      Junction-to-case (bottom) thermal resistance           —           —             °C/W
+
+ (1)   For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application
+       note.
+
+ 5.5 Power Ratings
+
+           PARAMETER                      TEST CONDITIONS              MIN    TYP   MAX   UNIT
+
+ ISO1211
+                                         VSENSE = 60V, VCC1 = 5.5V, RSENSE = 200Ω, RTHR PD  Maximum power dissipation, both sides                                                               450  mW                                     = 0Ω, TJ = 150°C
+     Maximum power dissipation, output side  VCC1 = 5.5V, CL = 15pF, Input 2MHz 50% duty- PD1                                                                                                 20  mW       (side 1)                                  cycle square wave at SENSE pin, TJ = 150°C
+     Maximum power dissipation, field input   VSENSE = 60V, VCC1 = 5.5V, RSENSE = 200Ω, RTHR PD2                                                                                                430  mW       side                             = 0Ω, TJ = 150°C
+ ISO1212
+                                           VSENSEx = 60V, VCC1 = 5.5V, RSENSE = 200Ω, PD  Maximum power dissipation, both sides                                                               900  mW                                       RTHR = 0Ω, TJ = 150°C
+     Maximum power dissipation, output side  VCC1 = 5.5V, CL = 15pF, Input 2MHz 50% duty- PD1                                                                                                 40  mW       (side 1)                                  cycle square wave at SENSEx pins, TJ = 150°C
+     Maximum power dissipation, field input   VSENSEx = 60V, VCC1 = 5.5V, RSENSE = 200Ω, PD2                                                                                                860  mW       side                              RTHR = 0Ω, TJ = 150°C
+
+
+
+
+
+6     Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 7 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+ 5.6 Insulation Specifications
+
+                                                                                  SPECIFICATION
+            PARAMETER                        TEST CONDITIONS                                  UNIT
+                                                                                          D-8     DBQ-16
+ CLR       External clearance(1)                  Shortest terminal-to-terminal distance through air       4           3.7    mm
+
+                                                  Shortest terminal-to-terminal distance across the CPG      External Creepage(1)                                                             4           3.7    mm
+                                           package surface
+
+ DTI       Distance through the insulation       Minimum internal gap (internal clearance)             10.5        10.5     µm
+
+ CTI       Comparative tracking index          DIN EN 60112 (VDE 0303-11); IEC 60112          > 600      > 600     V
+
+             Material Group                      According to IEC 60664-1                                                   I                    I
+                                            Rated mains voltage ≤ 150VRMS                            I-IV           I-IV
+            Overvoltage category
+                                            Rated mains voltage ≤ 300VRMS                                     I-III               I-III
+ DIN VDE V 0884-11:2017-01(2)
+
+         Maximum repetitive peak isolation
+ VIORM                             AC voltage (bipolar)                             566        566      VPK            voltage
+
+                                  AC voltage (sine wave); time-dependent dielectric
+                                                                                       400        400      VRMS
+ VIOWM    Maximum working isolation voltage    breakdown (TDDB) test
+                                DC voltage                                    566        566      VDC
+                                             VTEST = VIOTM, t = 60s (qualification), VIOTM    Maximum transient isolation voltage                                               3600       3600      VPK                                             VTEST = VIOTM, t= 1s (100% production)
+                                                   Test method per IEC 60065-1, 1.2/50µs waveform,
+ VIOSM    Maximum surge isolation voltage(3)                                                4000       4000      VPK                                             VTEST = 1.3 × VIOSM = 5200VPK (qualification)
+                                          Method a: After I/O safety test subgroup 2/3,
+                                                                  Vini = VIOTM, tini = 60s;                          < 5        < 5
+                                                     Vpd(m) = 1.2 × VIORM = 680VPK, tm = 10s
+                                          Method a: After environmental tests subgroup 1,
+                                                                  Vini = VIOTM, tini = 60s;                          < 5        < 5 qpd       Apparent charge(4)                                                                       pC                                                     Vpd(m) = 1.3 × VIORM = 736VPK, tm = 10s
+                                          Method b1: At routine test (100% production) and
+                                                    preconditioning (type test),
+                                                                                   < 5        < 5
+                                                                  Vini = VIOTM, tini = 1s;
+                                                     Vpd(m) = 1.5 × VIORM = 849VPK, tm = 10s
+ CIO        Barrier capacitance, input to output(5)   VIO = 0.4 × sin (2 πft), f = 1MHz                    440        560         fF
+                                                VIO = 500V, TA = 25°C                        > 1012     > 1012
+ RIO        Insulation resistance, input to output(5)  VIO = 500V, 100°C ≤ TA ≤ 125°C                 > 1011     > 1011     Ω
+                                                VIO = 500V at TS = 150°C                      > 109      > 109
+             Pollution degree                                                                 2          2
+
+             Climatic category                                                                    40/125/21   40/125/21
+
+ UL 1577
+                                             VTEST = VISO = 2500VRMS, t = 60s (qualification);
+ VISO      Withstand isolation voltage           VTEST = 1.2 × VISO = 3000VRMS, t = 1s (100%        2500       2500     VRMS
+                                                   production)
+
+ (1)   Creepage and clearance requirements should be applied according to the specific equipment isolation standards of an application.
+      Care should be taken to maintain the creepage and clearance distance of a board design to ensure that the mounting pads of
+      the isolator on the printed-circuit board do not reduce this distance. Creepage and clearance on a printed-circuit board become
+      equal in certain cases. Techniques such as inserting grooves and/or ribs on a printed circuit board are used to help increase these
+       specifications.
+ (2)   This coupler is suitable for basic electrical insulation only within the maximum operating ratings. Compliance with the safety ratings
+       shall be ensured by means of suitable protective circuits.
+ (3)   Testing is carried out in air or oil to determine the intrinsic surge immunity of the isolation barrier.
+ (4)   Apparent charge is electrical discharge caused by a partial discharge (pd).
+ (5)    All pins on each side of the barrier tied together creating a two-terminal device
+
+
+
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback     7
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 8 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+ 5.7 Safety-Related Certifications
+
+       VDE              CSA                UL               CQC                 TUV
+
+ Certified according
+                                                                                                                         Certified according to EN
+ to DIN VDE V                                  Recognized under
+                             Certified according to IEC                               Certified according to         61010-1:2010/A1:2019, EN
+ 0884-11:2017-01 and                       UL 1577 Component
+                       60950-1 and IEC 62368-1                        GB4943.1-2011             60950-1:2006/A2:2013 and
+ DIN EN 61010-1 (VDE                             Recognition Program
+                                                                        EN 62368-1:2014
+ 0411-1):2011-07
+ Basic Insulation,       370VRMS (ISO1212) and                                                        Basic insulation per EN
+ Maximum Transient     400VRMS (ISO1211) Basic                                                    61010-1:2010/A1:2019 up
+ Isolation Voltage,         Insulation working voltage                                                                to working voltage of
+ 3600VPK,               per CSA 60950-1-07+A1 +                          Basic Insulation, Altitude ≤    300VRMS,
+ Maximum Repetitive    A2 and IEC 60950-1 2nd    Single protection,       5000m, Tropical Climate,     Basic insulation per EN
+ Peak Isolation Voltage,  Ed. + A1 + A2           2500VRMS            400VRMS maximum working   60950-1:2006/A2:2013 and
+ 566VPK,              300VRMS Basic Insulation                            voltage               EN 62368-1:2014 up
+ Maximum Surge        working voltage per CSA                                                                 to working voltage of
+ Isolation Voltage,       62368-1-14 and IEC                                                   370VRMS (ISO1212) and
+ 4000VPK              62368-1 2nd Ed.                                                      400VRMS (ISO1211)
+                                                                                         Certificate number:
+ Certificate number:      Master contract number:
+                                                             File number: E181974   CQC15001121656             Client ID number: 77311
+ 40047657            220991
+                                                              CQC18001199097
+
+
+
+
+
+8     Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 9 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+ 5.8 Safety Limiting Values
+
+ Safety limiting(1) intends to minimize potential damage to the isolation barrier upon failure of input or output circuitry. A failure
+ of the I/O can allow low resistance to ground or the supply and, without current limiting, dissipate sufficient power to overheat
+ the die and damage the isolation barrier, potentially leading to secondary system failures.
+
+          PARAMETER                      TEST CONDITIONS                MIN    TYP   MAX   UNIT
+
+ ISO1211
+                                        RθJA = 146.1°C/W, VI = 2.75V, TJ = 150°C,                                                                                                    310
+                                    TA = 25°C, see Figure 5-1
+           Safety input, output, or supply   RθJA = 146.1°C/W, VI = 3.6V, TJ = 150°C,  IS                                                                                                  237   mA            current - side 1               TA = 25°C, see Figure 5-1
+                                        RθJA = 146.1°C/W, VI = 5.5V, TJ = 150°C,                                                                                                    155
+                                    TA = 25°C, see Figure 5-1
+                                        RθJA = 146.1°C/W, VI = 24V, TJ = 150°C,                                                                                                     35
+                                    TA = 25°C, see Figure 5-1
+                                        RθJA = 146.1°C/W, VI = 36V, TJ = 150°C,  IS        Safety input current - field side                                                                    23   mA                                    TA = 25°C, see Figure 5-1
+                                        RθJA = 146.1°C/W, VI = 60V, TJ = 150°C,                                                                                                     14
+                                    TA = 25°C, see Figure 5-1
+           Safety input, output, or total     RθJA = 146.1°C/W, TJ = 150°C, TA = 25°C, PS                                                                                                 855  mW          power                       see Figure 5-2
+ TS      Maximum safety temperature                                                                    150    °C
+ ISO1212
+                                        RθJA = 116.9°C/W, VI = 2.75V, TJ = 150°C,                                                                                                    389
+                                    TA = 25°C, see Figure 5-3
+           Safety input, output, or supply   RθJA= 116.9°C/W, VI = 3.6V, TJ = 150°C,  IS                                                                                                  297   mA            current - side 1               TA = 25°C, see Figure 5-3
+                                        RθJA = 116.9°C/W, VI = 5.5V, TJ = 150°C,                                                                                                    194
+                                    TA = 25°C, see Figure 5-3
+                                        RθJA = 116.9°C/W, VI = 24V, TJ = 150°C,                                                                                                     44
+                                    TA = 25°C, see Figure 5-3
+                                       RθJA= 116.9°C/W, VI = 36V, TJ = 150°C,  IS        Safety input current - field side                                                                    29   mA                                    TA = 25°C, see Figure 5-3
+                                        RθJA = 116.9°C/W, VI = 60V, TJ = 150°C,                                                                                                     17
+                                    TA = 25°C, see Figure 5-3
+           Safety input, output, or total     RθJA = 116.9°C/W, TJ = 150°C, TA = 25°C, PS                                                                                                1070  mW          power                       see Figure 5-4
+ TS      Maximum safety temperature                                                                    150    °C
+
+ (1)  The safety-limiting constraint is the maximum junction temperature specified in the data sheet. The power dissipation and junction-
+        to-air thermal impedance of the device installed in the application hardware determines the junction temperature. The assumed
+       junction-to-air thermal resistance in the Section 5.4 table is that of a device installed on a high-K test board for leaded surface-mount
+      packages. The power is the recommended maximum input voltage times the current. The junction temperature is then the ambient
+      temperature plus the power times the junction-to-air thermal resistance.
+
+
+
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback     9
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 10 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+ 5.9 Electrical Characteristics—DC Specification
+
+ (Over recommended operating conditions unless otherwise noted).
+
+              PARAMETER                         TEST CONDITIONS             MIN   TYP  MAX UNIT
+ VCC1 VOLTAGE SUPPLY
+               Positive-going UVLO threshold voltage
+ VIT+ (UVLO1)                                                                                                          2.25  V              (VCC1)
+ VIT– (UVLO1)   Negative-going UVLO threshold (VCC1)                                                        1.7              V
+ VHYS (UVLO1) UVLO threshold hysteresis (VCC1)                                                                     0.2        V
+            VCC1 supply quiescent  ISO1211                                                                      0.6      1 ICC1                                 EN = VCC1                                        mA
+               current              ISO1212                                                                      1.2      1.9
+
+ LOGIC I/O
+
+               Positive-going input logic threshold                                                                           0.7 ×
+ VIT+ (EN)                                                                                     V               voltage for EN pin                                                                              VCC1
+              Negative-going input logic threshold                                                         0.3 ×
+ VIT– (EN)                                                                                     V               voltage for EN pin                                                               VCC1
+                                                                                                                   0.1 ×
+ VHYS(EN)     Input hysteresis voltage for EN pin                                                          V                                                                                                  VCC1
+  IIH           Low-level input leakage at EN pin     EN = GND1                                  –10               μA
+                                               VCC1 = 4.5V; IOH = –4mA                                                                                          VCC1 VOH          High-level output voltage on OUTx      VCC1 = 3V; IOH = –3mA                                      V                                                                                        – 0.4
+                                              VCC1= 2.25V; IOH = –2mA, see Figure 6-1
+                                               VCC1 = 4.5V; IOH = 4mA
+ VOL         Low-level output voltage on OUTx       VCC1 = 3V; IOH = 3mA                                                 0.4  V
+                                              VCC1= 2.25V ; IOH = 2mA, see Figure 6-1
+ CURRENT LIMIT
+  I(INx+SENSEx), Typical sum of current drawn from IN    RTHR = 0Ω, RSENSE = 562Ω, VSENSE = 24V,                                                                                                           2.2             2.47 mA
+ TYP        and SENSE pins across temperature    –40°C < TA < 125°C, see Figure 6-2
+                                             RTHR = 0Ω, RSENSE = 562Ω ± 1%;                                                                                                              –0.1        µA
+                                           –60V < VSENSE < 0V, see Figure 6-2
+                                             RTHR = 0Ω, RSENSE = 562Ω ± 1%;                                                                                                           1.9              2.5
+                                         5V < VSENSE < VIL, see Figure 6-2
+                                             RTHR = 0Ω, RSENSE = 562Ω ± 1%;                                                                                                     2.05             2.75
+                                                           VIL < VSENSE < 30V, see Figure 6-2
+                                                                                mA
+                                             RTHR = 0Ω, RSENSE = 562Ω ± 1%;                                                                                                           2.1             2.83
+                                           30V < VSENSE < 36V, see Figure 6-2
+          Sum of current drawn from IN and      RTHR = 0Ω, RSENSE = 562Ω ± 1%;  I(INx+SENSEx)                                                                                               2.1              3.1          SENSE pins                      36V < VSENSE < 60V(1), see Figure 6-2
+                                             RTHR = 0Ω, RSENSE = 200Ω ± 1%;                                                                                                              –0.1        µA
+                                           –60V < VSENSE < 0V, see Figure 6-2
+                                             RTHR = 0Ω, RSENSE = 200Ω ± 1%;                                                                                                           5.3              6.8
+                                         5V < VSENSE < VIL, see Figure 6-2
+                                             RTHR = 0Ω, RSENSE = 200Ω ± 1%;                                                                                                           5.5              7 mA
+                                                           VIL < VSENSE < 36V(1), see Figure 6-2
+                                             RTHR = 0Ω, RSENSE = 200Ω ± 1%;                                                                                                           5.5              7.3
+                                           36V < VSENSE < 60V(1), see Figure 6-2
+
+
+
+
+
+10    Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 11 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+ (Over recommended operating conditions unless otherwise noted).
+
+              PARAMETER                         TEST CONDITIONS             MIN   TYP  MAX UNIT
+
+ VOLTAGE TRANSITION THRESHOLD ON FIELD SIDE
+                                               RSENSE = 562Ω, RTHR = 0Ω, see Figure 6-2            6.5      7
+           Low level threshold voltage at module
+ VIL                                           RSENSE = 562Ω, RTHR = 1kΩ, see Figure 6-2           8.7      9.2        V                input (including RTHR) for output low
+                                               RSENSE = 562Ω, RTHR = 4kΩ, see Figure 6-2         15.2    15.8
+                                               RSENSE = 562Ω, RTHR = 0Ω, see Figure 6-2                     8.2    8.55
+             High level threshold voltage at module
+ VIH                                           RSENSE = 562Ω, RTHR = 1kΩ, see Figure 6-2                 10.4   10.95  V                input (including RTHR) for output high
+                                               RSENSE = 562Ω, RTHR = 4kΩ, see Figure 6-2                 17   18.25
+                                               RSENSE = 562Ω, RTHR = 0Ω, see Figure 6-2           1      1.2
+              Threshold voltage hysteresis at module
+ VHYS                                         RSENSE = 562Ω, RTHR = 1kΩ, see Figure 6-2          1      1.2        V                input
+                                               RSENSE = 562Ω, RTHR = 4kΩ, see Figure 6-2          1      1.2
+
+ (1)  See the Section 8.2.1.2.2 section.
+
+ 5.10 Switching Characteristics—AC Specification
+
+ (Over recommended operating conditions unless otherwise noted).
+
+          PARAMETER                       TEST CONDITIONS                 MIN    TYP   MAX  UNIT
+
+          Output signal rise and fall time,
+  tr, tf                                         Input rise and fall times = 10ns, see Figure 6-1                      3            ns        OUTx pins
+
+          Propagation delay time for low to
+ tPLH                                        Input rise and fall times = 10ns, see Figure 6-1                     110     140    ns          high transition
+
+          Propagation delay time for high
+ tPHL                                        Input rise and fall times = 10ns, see Figure 6-1                     10      15    ns            to low transition
+  tsk(p)     Pulse skew |tPHL - tPLH|           Input rise and fall times = 10ns, see Figure 6-1                    102     130    ns
+  tUI      Minimum pulse width             Input rise and fall times = 125ns, see Figure 6-1           150                    ns
+          Disable propagation delay, high-
+ tPHZ                              See Figure 6-4                                              17      40    ns           to-high impedance output
+
+          Disable propagation delay, low-
+ tPLZ                              See Figure 6-3                                              17      40    ns           to-high impedance output
+
+          Enable propagation delay, high
+ tPZH                              See Figure 6-4                                               3      8.5    µs          impedance-to-high output
+
+          Enable propagation delay, high
+ tPZL                              See Figure 6-3                                              17      40    ns          impedance-to-low output
+
+       Common mode transient
+ CMTI                             See Figure 6-5                                      25      70           kV/µs
+          immunity
+
+
+
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback    11
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 12 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+ 5.11 Insulation Characteristics Curves
+
+
+       350                                                              900
+                                                 VCC1 = 2.75 V
+       300                                       VCC1 = 3.6 V              800
+
+                                                 =                                                     24                                              V                                                           VINx         (mA)                                           VCC1 = 5.5 V                                                                                                                                                         (mW) 700       250                                                 =                                                     36                                              V                                                           VINx
+                                                                        600
+                                                           VINx = 60 V               Current 200                                                                                                                                                                   Power 500
+
+       150                                                              400                 Limiting                                                                                                                                                                                                                                                                                        Limiting                                                                        300
+
+                                                                        200             Safety 100                                                                                                                                                                                                    Safety
+        50                                                                        100
+
+         0                                                                0
+          0           50          100         150         200              0           50          100         150         200
+                          Ambient Temperature (qC)                 D001                            Ambient Temperature (qC)                 D002
+    Figure 5-1. Thermal Derating Curve for Safety       Figure 5-2. Thermal Derating Curve for Safety
+      Limiting Current per VDE for D-8 Package           Limiting Power per VDE for D-8 Package
+
+       450                                                               1200
+                                                 VCC1 = 2.75 V
+       400                                       VCC1 = 3.6 V
+                                                 VCC1 = 5.5 V              1000
+       350                                               VINx = 24 V         (mA)                                                                                                                                                           (mW)
+                                                           VINx = 36 V                800       300
+                                                           VINx = 60 V                                 Power               Current 250
+                                                                          600
+       200                                                                                                                                                                                                                                                                                                                       Limiting                  Limiting                                                                          400       150
+             Safety 100                                                                                                                                                                                                       Safety  200
+        50
+
+         0                                                                  0
+          0           50          100         150         200               0           50          100         150         200
+                                                                                                                                                            D004                          Ambient Temperature (qC)                 D003                              Ambient Temperature (qC)
+                                                     Figure 5-4. Thermal Derating Curve for Safety    Figure 5-3. Thermal Derating Curve for Safety
+                                                        Limiting Power per VDE for DBQ-16 Package    Limiting Current per VDE for DBQ-16 Package
+
+
+
+
+
+12    Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 13 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+ 5.12 Typical Characteristics
+
+
+        2.75                                                                3
+                                                                                                   40qC     85qC      115qC
+          2.5                                                                                       25qC      105qC     125qC
+        2.25
+                                                                                  2.75
+          2
+         (mA) 1.75                                                                                                                                 (mA)
+
+          1.5     V   V
+                                                                                        2.5                                                                                                                                                                                                                                                                             Current                Current 1.25               7.1           =           8.25
+                                                                                                                                                                                                Input            Input    1         =                          ±40°C                                                      25°C        0.75               OFF     ON                                                                                  2.25
+                                                      85°C
+          0.5                                            105°C
+                                                      115°C
+        0.25
+                                                      125°C
+          0                                                                2
+                                                                            30      35      40      45      50      55      60           0       5       10      15      20      25      30
+                                                                                                                      Input Voltage (V)                     D006                                    Input Voltage (V)
+          RSENSE = 562Ω        RTHR = 0Ω                           RSENSE = 562Ω        RTHR = 0Ω
+
+      Figure 5-5. Input Current vs Input Voltage          Figure 5-6. Input Current vs Input Voltage
+
+       20                                                              18
+                     =                        0                      k:                                    =                                        2                                    k:                                 RTHR                                                RTHR = 4 k:                    17       19       RTHR                     =                        1                      k:                                    =                                        3                                    k:                  RTHR                                 RTHR
+       (V) 18                                                                                                  (V) 16
+       17                                                              15
+       16                                                              14                Voltage                                                                                                                                                                                                                                                 Voltage 13
+       15
+                                                                       12
+       14
+                                                                       11
+       13
+                                                                       10                     Threshold 12                                                                                                                                                                                                                                                                                                      Threshold
+                                                                        9
+       11                                                                        8
+       10                                                               7                       High-Level  9                                                                                                                                                                                                                                                                                                      Low-Level  6
+                                                                                                  RTHR = 0 k:      RTHR = 2 k:      RTHR = 4 k:
+        8                                                               5               RTHR = 1 k:      RTHR = 3 k:
+        7                                                               4
+          -50   -30   -10   10   30   50   70   90   110  130              -50   -30   -10   10   30   50   70   90   110  130
+                             Temperature (qC)                     D007                                Temperature (qC)                     D008
+          RSENSE = 562Ω                                             RSENSE = 562Ω
+
+      Figure 5-7. High-Level Voltage Transition      Figure 5-8. Low-Level Voltage Transition Threshold
+        Threshold vs Ambient Temperature                   vs Ambient Temperature
+
+                                       7
+
+
+                                       6
+
+
+                                       5
+                                                                                 (mA)
+                                                                                                                                              Current 43
+                                                                                     40qC                                                                                                     Input                                       2                                            25qC
+                                                                                    85qC
+                                                                                    105qC
+                                       1                                            115qC
+                                                                                    125qC
+                                       0
+                                         0     10     20     30     40     50     60     70
+                                                                          Input Voltage (V)                     D009
+                                        RSENSE = 200Ω            RTHR = 0Ω
+
+                              Figure 5-9. Input Current vs Input Voltage
+
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback    13
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 14 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+6 Parameter Measurement Information
+ 6.1 Test Circuits
+
+
+
+
+
+                                    SENSE
+
+                                                                                                                              18 V
+
+                                                                                                 VI        50%                50%
+                                                             RSENSE                                                                   0 V
+               VCC1     Capacitive                     IN                      Signal                                                                                             tPLH                                           tPHL                             Isolation                                                                                    VI      100 nF                                                              Generator
+                                                                                                             VOH
+                                                                                     90%
+                                                                 VO     50%                        50%
+                                                                                     10%
+                                                                                                                      VOL
+                                                                                             ILIM
+          OUT                      FGND                                                                       tr                                                                           tf
+
+         CL
+ VO     15 pF
+           GND1
+
+
+
+
+
+               Figure 6-1. Switching Characteristics Test Circuit and Voltage Waveforms
+
+
+
+
+
+                                                                                                  RTHR
+                                                       SENSE
+
+
+                                                                                                                                               I(Inx+SENSEx)
+
+
+                                                                                        RSENSE
+                                        VCC1     Capacitive                     IN
+                                                           Isolation
+                            100 nF                                                                                                                             Signal
+                                                                                                                                  VI                                                                                                                  Generator
+
+                                                                                                                                              ILIM
+                            OUT                      FGND
+
+                              CL
+                 VO        15 pF
+                            GND1
+
+
+
+
+
+                      Figure 6-2. Input Current and Voltage Threshold Test Circuit
+
+
+
+
+
+14    Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 15 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+
+
+
+
+                                           SENSE
+                                                                           0 V
+
+
+
+                                                                       RSENSE                                                    VCC1
+                       VCC1     Capacitive                     IN
+                                        Isolation                                                                       VCC1 / 2
+                                                                                       VCC1 / 2                                                                                                   VI
+                                                                                                                            0 V
+          RL                                                                                            tPZL                  tPLZ
+         1 k                                                                                                  VOH
+                                                                                                              ILIM                                                                                   0.5 V
+    VO            OUT                      FGND                  VO         50%
+                                                                                                                    VOL
+               CL
+                        EN1
+              15 pF
+                 GND1
+
+
+
+
+
+      Signal
+    Generator    VI      50
+
+
+
+   Figure 6-3. Enable and Disable Propagation Delay Time Test Circuit and Waveform—Logic Low State
+
+
+
+
+
+                                         SENSE
+                                                                          24 V
+
+
+                                                                                                                      VCC1
+                                                                     RSENSE
+                      VCC1     Capacitive                     IN                                    VCC1 / 2           VCC1 / 2
+                                      Isolation                                                      VI
+                                                                                                                             0 V
+                                                                                                 tPZH
+                                                                                                             VOH
+
+                                                                                                                                              0.5 V                                                                                                          ILIM                        VO               50%
+   VO            OUT                      FGND
+                                                                                                                      tPHZ                  0 V
+  RL          CL
+ 1 k         15 pF        EN1
+               GND1
+
+
+
+
+
+    Signal
+  Generator    VI      50
+
+
+
+  Figure 6-4. Enable and Disable Propagation Delay Time Test Circuit and Waveform—Logic High State
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback    15
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 16 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+
+
+                                                        SENSE                        S1          +
+                                                                                                           24 V                                                                                                                 ±
+
+
+
+                                                                                         RSENSE
+                                         VCC1     Capacitive                     IN
+                                                             Isolation
+                             100 nF
+
+
+                                                                                                                                                 ILIM
+                             OUT                      FGND
+
+                              CL
+              VOH or VOL      15 pF
+                             GND1
+
+
+
+
+
+                           GND1              + VCM ±                  FGND
+
+ A.  Pass Criterion: The output must remain stable.
+
+                      Figure 6-5. Common-Mode Transient Immunity Test Circuit
+
+
+
+
+
+16    Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 17 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+7 Detailed Description
+ 7.1 Overview
+
+The ISO1211 and ISO1212 devices are fully-integrated, isolated digital-input receivers with IEC 61131-2 Type
+ 1, 2, and 3 characteristics. The devices receive 24V to 60V digital-input signals and provide isolated digital
+ outputs. No field-side power supply is required. An external resistor, RSENSE, on the input-signal path precisely
+ sets the limit for the current drawn from the field input based on an internal feedback loop. The voltage transition
+ thresholds are compliant with Type 1, 2, and 3 and can be increased further using an external resistor, RTHR.
+ For more information on selecting the RSENSE and RTHR resistor values, see the Section 8.2.1.2 section. The
+ISO121x devices use an ON-OFF keying (OOK) modulation scheme to transmit the digital data across a silicon-
+ dioxide based isolation barrier. The transmitter sends a high frequency carrier across the barrier to represent one
+ digital state and sends no signal to represent the other digital state. The receiver demodulates the signal after
+advanced signal conditioning and produces the output through a buffer stage. The conceptual block diagram of
+ the ISO121x device is shown in the Section 7.2 section.
+
+ 7.2 Functional Block Diagram
+
+
+                                        RTHR
+                                                 SENSE
+                           INPUT
+                                                    RSENSE
+                                                                   IN
+
+
+                                                 CURRENT                    OUT
+                                                                     LIMIT                                                                                                                                                                                                                                                                                                                                                                                                                           ISOLATION
+
+                                                          REF
+
+                       FGND
+
+
+ 7.3 Feature Description
+
+The ISO121x devices receive 24V to 60V digital input signals and provide isolated digital outputs. An external
+ resistor, RSENSE, connected between the INx and SENSEx pins, sets the limit for the current drawn from the
+ field input. Internal voltage comparators connected to the SENSEx pins determine the input-voltage transition
+ thresholds.
+
+The output buffers on the control side are capable of providing enough current to drive status LEDs. The EN pin
+ is used to enable the output buffers. A low state on the EN pin puts the output buffers in a high-impedance state.
+
+The ISO121x devices are capable of operating up to 4Mbps. Both devices support an isolation withstand voltage
+ of 2500VRMS between side 1 and side 2. Table 7-1 provides an overview of the device features.
+                                     Table 7-1. Device Features
+    PART NUMBER         CHANNELS      MAXIMUM DATA RATE       PACKAGE        RATED ISOLATION
+                                                                                                     2500VRMS,        ISO1211                  1                  4Mbps                 8-pin SOIC (D)
+                                                                                                  3600VPK
+                                                                                                     2500VRMS,        ISO1212                  2                  4Mbps              16-pin SSOP (DBQ)
+                                                                                                  3600VPK
+
+
+
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback    17
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 18 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+ 7.4 Device Functional Modes
+
+ Table 7-2 lists the functional modes for the ISO121x devices.
+
+                                      Table 7-2. Function Table
+  SIDE 1 SUPPLY       INPUT      OUTPUT ENABLE     OUTPUT
+                                                     COMMENTS
+       VCC1           (INx, SENSEx)(1)         (EN)            (OUTx)
+                    H          H or Open          H         Channel output assumes the logic state of channel
+                          L          H or Open             L            input.
+      PU             Open        H or Open             L       When INx and SENSEx are open, the output of the
+                                                                                corresponding channel goes to Low.
+
+                                                          A low value of output enable causes the outputs to
+                      X                L               Z
+                                                                      be high impedance.
+                                                            When VCC1 is unpowered, a channel output
+                                                                                                            is undetermined(2). When VCC1 transitions from      PD             X             X            Undetermined
+                                                                       unpowered to powered up; a channel output
+                                                                    assumes the logic state of the input.
+
+ (1)   VCC1 = Side 1 power supply; PU = Powered up (VCC1 ≥ 2.25V); PD = Powered down (VCC1 ≤ 1.7V); X = Irrelevant; H = High level; L =
+     Low level; Z = High impedance
+ (2)  The outputs are in an undetermined state when 1.7V < VCC1 < 2.25V.
+
+
+
+
+
+18    Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 19 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+8 Application and Implementation
+
+                                           Note
+
+      Information in the following applications sections is not part of the TI component specification, and
+      TI does not warrant its accuracy or completeness. TI’s customers are responsible for determining
+       suitability  of components  for  their purposes. Customers should  validate and  test  their design
+     implementation to confirm system functionality.
+
+ 8.1 Application Information
+
+The ISO1211 and ISO1212 devices are fully-integrated, isolated digital-input receivers with IEC 61131-2 Type
+ 1, 2, and 3 characteristics. These devices are designed for high-channel density, digital-input modules for
+ programmable logic controllers and motor control digital input modules. The devices receive 24V to 60V digital-
+ input signals and provide isolated digital outputs. No field side power supply is required. An external resistor,
+ RSENSE, on the input signal path precisely sets the limit for the current drawn from the field input. This current
+ limit helps minimize power dissipated in the system. The current limit can be set for Type 1, 2, or 3 operation.
+The voltage transition thresholds are compliant with Type 1, 2, and 3 and can be increased further using an
+ external resistor, RTHR. For more information on selecting the RSENSE and RTHR resistor values, see the Section
+ 8.2.1.2 section. The ISO1211 and ISO1212 devices are capable of high speed operation and can pass through a
+minimum pulse width of 150ns. The ISO1211 device has a single receive channel. The ISO1212 device has two
+ receive channels that are independent on the field side.
+
+                      Type 1                                 Type 2                                    Type 3
+
+
+             30                           30                                                  30
+
+             25                           25                                                  25
+                    ON
+             20                           20                  ON                       20         ON
+                  (V)                                             (V)                                                                                   (V)
+             15                           15                                                  15
+                 VIN                                          VIN                                                                              VIN
+             10                           10                                                  10
+
+              5                            5                                                   5
+
+              0         OFF              0                   OFF                        0        OFF
+             ±3                           ±3                                                  ±3
+                 0     5     10     15        0     5     10     15     20    25     30           0     5     10     15
+                                           IIN (mA)                                                            IIN (mA)                                                               IIN (mA)
+
+        Figure 8-1. Switching Characteristics for IEC61131-2 Type 1, 2, and 3 Proximity Switches
+
+ 8.2 Typical Application
+ 8.2.1 Sinking Inputs
+
+ Figure 8-2 shows the design for a typical multichannel, isolated digital-input module with sinking inputs. Push-
+ button switches, proximity sensors, and other field inputs connect to the host controller through an isolated
+ interface. The design is easily scalable from a few channels, such as 4 or 8, to many channels, such as 256 or
+ more. The RSENSE resistor limits the current drawn from the input pins. The RTHR resistor is used to adjust the
+ voltage thresholds and limit the peak current during surge events. The CIN capacitor is used to filter noise on the
+ input pins. For more information on selecting RSENSE, RTHR, and CIN, see the Section 8.2.1.2 section.
+The ISO121x devices derive field-side power from the input pins which eliminates the requirement for a field-
+ side, 24V input power supply to the module. Similarly, an isolated dc-dc converter creating a field-side power
+ supply from the controller side back plane supply is also eliminated which improves flexibility of system design
+and reduces system cost.
+
+ For systems requiring channel-to-channel isolation on the field side, use the ISO1211 device as shown in Figure
+ 8-3.
+
+
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback    19
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 20 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+
+                        Field Side                  PLC Digital Input Module             PLC
+
+
+
+                                                                                                 5 V or 3.3 V or 2.5 V
+                                                                                                         Backplane supply
+
+                                                                                ISO1212
+                                                           RTHR
+                                                                 SENSE1     VCC1           VCC
+                                                                             CIN    RSENSE
+                                                                         OUT1                                                                                  IN1
+
+                                                               FGND1
+
+
+                                                           RTHR
+                                                                 SENSE2
+                                                                             CIN    RSENSE           OUT2                    24 V
+                                                                                  IN2
+              Power                                                               FGND2   GND1
+                Supply
+                                                                                                                     Host                     0 V
+                                                                                                                                         Controller
+                                      Sensors and
+                                          Switches                                    ISO1212
+                                                           RTHR
+                                                                 SENSE1
+                                                                                                    VCC1
+                                                                             CIN    RSENSE
+                                                                                   IN1      OUT1
+
+                                                               FGND1
+
+
+                                                           RTHR
+                                                                 SENSE2
+                                                                             CIN    RSENSE
+                                                                                  IN2      OUT2
+
+                                                               FGND2   GND1            GND
+                                                          Field Ground
+                                             (FGND)
+
+
+                                                               500 pF/2 kV
+
+
+
+
+
+                                                        Protection
+                                                     Earth (PE)
+
+                                                                                             Copyright © 2017, Texas Instruments Incorporated
+
+                     Figure 8-2. Typical Application Schematic With Sinking Inputs
+
+
+
+
+
+20    Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 21 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+                                                                                             5 V or 3.3 V or 2.5 V
+                                                                                                    Backplane Supply
+
+
+                                                                        ISO1211
+                                                  RTHR
+                                                        SENSE         VCC1            VCC
+                                                                  CIN    RSENSE
+                 +
+            24 V                                                           IN          OUT                  ±
+
+                                                      FGND
+                                                                 GND1
+
+
+
+                                                                                                                  Host
+                                                                                                                                     Controller
+
+
+                                                                        ISO1211
+                                                  RTHR
+                                                        SENSE         VCC1
+                                                                  CIN    RSENSE
+                 +
+            24 V                                                           IN          OUT
+                  ±
+
+                                                      FGND
+                                                                 GND1         GND
+
+
+
+
+                                                                                          Copyright © 2017, Texas Instruments Incorporated
+
+            Figure 8-3. Single-Channel or Channel-to-Channel Isolated Designs With ISO1211
+
+ 8.2.1.1 Design Requirements
+
+The ISO121x devices require two resistors, RTHR and RSENSE, and a capacitor, CIN, on the field side. For more
+ information on selecting RSENSE, RTHR, and CIN, see the Section 8.2.1.2 section. A 100nF decoupling capacitor
+ is required on VCC1.
+
+ 8.2.1.2 Detailed Design Procedure
+ 8.2.1.2.1 Setting Current Limit and Voltage Thresholds
+
+The RSENSE resistor limits the current drawn from the field input. A value of 562Ω for RSENSE is recommended
+ for Type 1 and Type 3 operation, and results in a current limit of 2.25mA (typical). A value of 200Ω for RSENSE is
+recommended for Type 2 operation, and results in a current limit of 6mA (typical). In each case, a (slightly) lower
+ value of RSENSE can be selected based on the need for a higher current limit or component availability. For more
+ information, see the Section 5.9 table and Section 5.12 section. A 1% tolerance is recommended on RSENSE
+ but 5% resistors can also be used  if higher variation in the current limit value is acceptable. The relationship
+between the RSENSE resistor and the typical current limit (IL) is given by Equation 1.
+
+        2.25 mA u 562 :
+       IL
+        R SENSE                                                                                             (1)
+
+The RTHR resistor sets the voltage thresholds (VIL and VIH) as well as limits the surge current. A value of 1kΩ
+ is recommended for RTHR in Type 3 systems (maximum threshold voltage required is 11V). A value of 2.5kΩ is
+recommended for RTHR in Type 1 systems (maximum threshold voltage required is 15V) and a value of 330Ω is
+recommended for RTHR in Type 2 systems. The Section 5.9 table lists and the Section 5.12 section describes
+ the voltage thresholds with different values of RTHR. For other values of RTHR, derive the values through linear
+ interpolation. Use Equation 2 and Equation 3 to calculate the values for the typical VIH values and minimum VIL
+ values, respectively.
+
+                             2.25 mA u 562 :
+   VIH (typ)  8.25 V R THR u
+                       R SENSE                                                                   (2)
+
+
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback    21
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 22 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+                            2.25 mA u 562 :
+   VIL (typ)  7.1 V R THR u
+                      R SENSE                                                                                                                    (3)
+
+The maximum voltage on the SENSE pins of the ISO121x device is 60V. However, because the RTHR resistor
+ drops additional voltage, the maximum voltage supported at the module inputs is higher and given by Equation
+ 4.
+
+                       2.1mA u 562 :
+   VIN (max)  60 V R THR u
+                     RSENSE                                                                     (4)
+
+Use the ISO121x Threshold Calculator for 9V to 300V DC and AC Voltage Detection to estimate the values of
+ the voltage transition thresholds, the maximum-allowed module input voltage, and module input current for the
+ given values of the RSENSE and RTHR resistors.
+A value of 0Ω for RTHR also meets Type 1, Type 2 and Type 3 voltage-threshold requirements. The value of RTHR
+must be maximized for best EMC performance while meeting the desired input voltage thresholds. Because
+RTHR is used to limit surge current, 0.25W MELF resistors must be used.
+ Figure 8-4 shows the typical input current characteristics and voltage transition thresholds for 562Ω RSENSE and
+1kΩ RTHR.
+
+                                             2.75
+
+                                                2.5
+
+                                             2.25
+
+                                          2
+                                                                                (mA) 1.75
+                                                                                                                                            Current 1.251.5     V7.1   V                             =           8.25
+                                                                                                    Input                                          1               OFF   =ON                          ±40°C25°C                                             0.75
+                                                                                      85°C
+                                                0.5                                            105°C
+                                                                                      115°C
+                                             0.25
+                                                                                      125°C
+                                          0
+                                           0       5       10      15      20      25      30
+                                                                            Input Voltage (V)
+
+                                  Figure 8-4. Transition Thresholds
+
+ 8.2.1.2.2 Thermal Considerations
+
+ Thermal considerations constrain operation at different input current and voltage levels. The power dissipated
+ inside the ISO121x devices is determined by the voltage at the SENSE pin (VSENSE) and the current drawn by
+ the device (I(INx+SENSEx)). The internal power dissipated, when taken with the junction-to-air thermal resistance
+ defined in the Section 5.4 table can be used to determine the junction temperature for a given ambient
+ temperature. The junction temperature must not exceed 150°C.
+
+ Figure 8-5 shows the maximum allowed ambient temperature for the ISO1211 device for different current limit
+and input voltage conditions. The ISO1211 device can be used with a VSENSE voltage up to 60V and an
+ ambient temperature of up to 125°C for an RSENSE value of 562Ω, which corresponds to a typical current limit
+ of 2.25mA. At higher levels of current limit, either the ambient temperature or the maximum value of the VSENSE
+ voltage must be derated. In any design, the voltage drop across the external series resistor, RTHR, reduces the
+maximum voltage received by the SENSE pin and helps extend the allowable module input voltage and ambient
+ temperature range.
+
+
+
+
+
+22    Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 23 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+                                       130
+                                                                (qC) 125                                       120
+
+                                       115
+
+                                       110
+
+                                       105                                                                                                                                                                                                                          Temperature
+                                       100
+
+                                        95                                                                                                                                           Ambient  90
+
+                                        85
+                                        80      RSENSE = 562 :, IL = 2.25 mA
+                                                 RSENSE = 400 :, IL = 3.2 mA                                                                                                                                           Maximum  75                                                 RSENSE = 200 :, IL = 6.3 mA
+                                        70
+                                          0     10    20    30    40    50    60    70    80
+                                                                   Voltage at SENSE (V)                   D011D011
+
+ A.   This figure also applies to the ISO1212 device if only one of the two channels are expected to be active at a given time.
+
+            Figure 8-5. Maximum Ambient Temperature Derating Curve for ISO1211 vs VSENSE
+
+ Figure 8-6 shows the maximum allowed ambient temperature for the ISO1212 device for different current limit
+and input voltage conditions. The ISO1212 device can be used with a VSENSE voltage up to 36V and an ambient
+ temperature of up to 125°C for an RSENSE value of 562Ω, which corresponds to a typical current limit of 2.25mA.
+ At higher current limit levels, either the ambient temperature or the maximum value of the VSENSE voltage must
+be derated. Operation of the ISO1212 device with an RSENSE value of 200Ω and with both channels active is not
+recommended beyond a VSENSE voltage of 36V. In any design, the voltage drop across the series resistor, RTHR,
+ reduces the maximum voltage received by the SENSE pin and helps extend the allowable module input voltage
+and ambient temperature range.
+
+                                       130
+                                                                (qC) 125                                       120
+
+                                       115
+
+                                       110
+
+                                       105                                                                                                                                                                                                                         Temperature
+                                       100
+
+                                        95                                                                                                                                          Ambient  90
+
+                                        85
+                                        80      RSENSE = 562 :, IL = 2.25 mA
+                                                 RSENSE = 400 :, IL = 3.2 mA                                                                                                                                          Maximum  75                                                 RSENSE = 200 :, IL = 6.3 mA
+                                        70
+                                          0     10    20    30    40    50    60    70    80
+                                                                   Voltage at SENSE (V)                   D012
+
+ A.   This figure only applies if both channels of the ISO1212 device are expected to be on at the same time. If only one channel is expected
+      to be on at a given time, refer to Figure 8-5.
+
+            Figure 8-6. Maximum Ambient Temperature Derating Curve for ISO1212 vs VSENSE
+
+ 8.2.1.2.3 Designing for 48V Systems
+
+The ISO121x devices are designed for 48V digital input receivers. The current limit, voltage transition thresholds,
+and maximum voltage supported at the module input are governed by Equation 1, Equation 2, Equation 3,
+and Equation 4. For 48V systems, a threshold voltage close to 25V is desirable. The RTHR resistor can be
+ adjusted to achieve this higher threshold. For example, with an RSENSE value of 562Ω and an RTHR value of
+ 7.5kΩ, a VIH value of approximately 25V can be achieved. With this setting, the RTHR resistor drops a voltage
+ of approximately 17V, reducing the maximum value of the VSENSE voltage for any given module input voltage.
+ This drop vastly increases the allowable module input voltage and ambient temperature range as discussed in
+ Section 8.2.1.2.2.
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback    23
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 24 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+ 8.2.1.2.4 Designing for Input Voltages Greater Than 60V
+
+The ISO121x devices are rated for 60V on the SENSE and IN pins with respect to FGND. However, larger
+ voltages on the module input can be supported by dropping extra voltage across an external resistor, RTHR.
+Because the current drawn by the SENSE and IN pins is well controlled by the built-in current limit, the voltage
+ drop across RTHR is well controlled as well. However, increasing the RTHR resistance also correspondingly raises
+ the voltage transition threshold. An additional resistor, RSHUNT (see Figure 8-7), provides the flexibility to change
+ the voltage transition thresholds independently of the maximum input voltage. The current through the RSHUNT
+ resistor is less near the voltage transition threshold, but increases with the input voltage, increasing the voltage
+ drop across the RTHR resistor, and preventing the voltage on the ISO121x pins from exceeding 60V. With the
+ correct value selected for the RTHR and RSHUNT resistors, the voltage transition thresholds and the maximum
+ input voltage supported can be adjusted independently.
+
+A 1nF or greater CIN capacitor  is recommended between the SENSE and FGND pins to slow down the
+ transitions on the SENSE pin, and to prevent overshoot beyond 60V during transitions.
+
+ For more information, refer to the How to Design Isolated Comparators for ±48V, 110V and 240V DC and AC
+ Detection TI TechNote. Use the ISO121x Threshold Calculator for 9V to 300V DC and AC Voltage Detection
+ to estimate the values of voltage transition thresholds, the maximum-allowed module input voltage, and module
+ input current for given values of the RSENSE, RTHR, and RSHUNT resistors.
+
+                                                                                        ISO1211
+                                                    RTHR
+                                                                     SENSE      VCC1
+                        +                                                          RSENSE
+                          VIN                                         RSHUNT        CIN            IN          OUT                         ±
+
+                                                                  FGND      GND1
+
+
+                     Figure 8-7. Increase ISO121x Input Voltage Range With RSHUNT
+
+ Another way to increase the maximum module input voltage without changing the voltage transition thresholds is
+ to use a 60V Zener diode to limit the voltage on the ISO121x pins to less than 60V as shown in Figure 8-8. In
+ this case, when the module input is greater than 60V, the Zener diode must be designed to sink the additional
+ current, and the RTHR resistor must be designed to drop a higher voltage.
+ For example, with a 2.5kΩ RTHR and 560Ω RSENSE, the voltage transition threshold is 15V, and the ISO121x
+ input current is 2.25mA. If the module voltage reaches 100V, the voltage drop across the RTHR resistor is 40V,
+and the current through the Zener diode is approximately 14mA.
+
+                                                                                         ISO1211
+                                                     RTHR
+                                                                     SENSE      VCC1
+                         +                                                          RSENSE
+                           VIN                                                          CIN            IN          OUT                          ±                                   60 V
+
+                                                                   FGND      GND1
+
+
+                 Figure 8-8. Increase ISO121x Input Voltage Range Using a Zener Diode
+
+ 8.2.1.2.5 Surge, ESD, and EFT Tests
+
+ Digital input modules are subject to surge (IEC 61000-4-5), electrostatic discharge or ESD (IEC 61000-4-2) and
+ electrical fast transient or EFT (IEC 61000-4-4) tests. The surge impulse waveform has the highest energy and
+ the widest pulse width, and is therefore the most stringent test of the three.
+
+ Figure 8-2 shows the application diagram for Type 1 and 3 systems. For a 1-kVPP surge test between the input
+ terminals and protection earth (PE), a value of 1kΩ for RTHR and 10nF for CIN is recommended. Table 8-1 lists
+
+
+
+
+24    Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 25 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+a summary of recommended component values to meet different levels of EMC requirements for Type 1 and 3
+ systems.
+
+                                 Table 8-1. Surge, IEC ESD and EFT
+    IEC 61131-2                                                  SURGE
+                    RSENSE        RTH             CIN                                                        IEC ESD     IEC EFT
+     TYPE                                                LINE-TO-PE     LINE-TO-LINE   LINE-TO-FGND
+
+      Type 1          562         2.5kΩ         10nF           ±1 kV           ±1 kV           ±1 kV          ±6 kV        ±4 kV
+
+                                              10nF           ±1 kV           ±1 kV          ±500V         ±6 kV        ±4 kV
+      Type 3          562         1kΩ
+                                              330nF           ±1 kV           ±1 kV           ±1 kV          ±6 kV        ±4 kV
+
+
+ Figure 8-9 shows the test setup and application circuit used for surge testing. A noise filtering capacitor of 500pF
+ is recommended between the FGND pin and PE (earth). The total value of effective capacitance between
+ the FGND pin and any other ground potential (including PE) must not exceed 500pF for optimum surge
+ performance. For line-to-PE test (common-mode test), the FGND pin is connected to the auxiliary equipment
+ (AE) through a decoupling network.
+
+                                                                                                           5 V or 3.3 V or 2.5 V
+                                                                                                                   Backplane supply
+
+                                                                                         ISO1212
+                           20 mH                                   RTHR                                          IN1
+                                                                         SENSE1     VCC1           VCC
+                                                                                        CIN    RSENSE
+                                                                                 OUT1                                                                                             IN1
+
+                                                                       FGND1
+
+                           20 mH       IN2                        RTHR
+                                                                         SENSE2
+                                                                                        CIN    RSENSE           OUT2
+                                                                                            IN2
+                                                                       FGND2   GND1
+
+
+                                                                                                                                Host
+                            Decoupling
+                                                                                                                                                     Controller
+     Auxiliary                Network
+                                                                                         ISO1212   Equipment
+      (AE)                  20 mH       INN-1                      RTHR
+                                                                         SENSE1
+                                                                                                               VCC1
+                                                                                        CIN    RSENSE                                                                                                                                                                                                                                                                                  Line-to-PE
+                                                                                             IN1      OUT1
+
+                                                                       FGND1                                                                                                                                                                                                                                                                                                                                                                  Line-to-FGND                                                                                                                                                                                                                                                                                                            Line-to-Line
+                           20 mH                                   RTHR                                      INN
+                                                                         SENSE2
+                                                                                        CIN    RSENSE
+                                                                                             IN2      OUT2
+
+                                                                       FGND2   GND1            GND
+                                                                      Field Ground
+                                                      (FGND)
+                           20 mH       FGND(1)
+
+                                                                          500 pF(2)
+                                                                          2 kV
+                                  PE
+
+                                                            PE
+                                                                     Protection
+                                                                 Earth (PE)
+
+                                                                                                        Copyright © 2017, Texas Instruments Incorporated
+
+ A.   For line-to-PE test, FGND is connected to the auxiliary equipment (AE) through a decoupling network.
+ B.  A noise filtering capacitor of about 500pF is recommended between the FGND pin and PE (earth). The total value of effective
+     capacitance between the FGND pin and any other ground potential (including PE) must not exceed 500pF for optimum performance.
+
+                     Figure 8-9. Setup and Application Circuit Used for Surge Test
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback    25
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 26 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+ For higher voltage levels of surge tests or for faster systems that can not use a large value for CIN, TVS diodes
+ or varistors can be used to meet EMC requirements. Type 2 systems that use a smaller value for RTHR can
+ also require TVS diodes or varistors for surge protection. Figure 8-10 shows an example usage of TVS diodes
+ for surge protection. The recommended components for surge protection are VCAN26A2-03S (TVS, Vishay),
+EZJ-P0V420WM (Varistor, Panasonic), and GSOT36C (TVS, Vishay).
+
+Use of the RTHR resistor also reduces the peak current requirement for the TVS diodes, making them smaller
+and cost effective. For example, a 2-kV surge through a 1kΩ RTHR resistor creates only 2A peak current. Also,
+because of voltage drop across the RTHR resistor in normal operation, the working voltage requirement for the
+ varistor or TVS diodes is reduced. For example, for a RTHR value of 1kΩ and an RSENSE value of 562Ω, a
+module designed for 30V inputs only requires 28V TVS diodes because the RTHR resistor drops more than 2V.
+
+                                                                                                        5 V or 3.3 V or 2.5 V
+                                                                                                                Backplane Supply
+
+
+                                                                             ISO1211
+                                                       RTHR
+                    24 V                                        SENSE         VCC1             VCC
+                                                                          RSENSE
+                                                                                                                       Host
+                                            TVS                    IN          OUT                                                                                                                                          Controller
+
+                     0 V                                       FGND      GND1         GND
+
+
+
+
+                                                                                               Copyright © 2017, Texas Instruments Incorporated
+
+  Figure 8-10. TVS Diodes Used Instead of a Filtering Capacitor for Surge Protection in Faster Systems
+
+ 8.2.1.2.6 Multiplexing the Interface to the Host Controller
+
+The ISO121x devices provide an output-enable pin on the controller side (EN). Setting the EN pin to 0 causes
+ the output buffers to be in the high-impedance state. This feature can be used to multiplex the outputs of multiple
+ISO121x devices on the same host-controller input, reducing the number of pins on the host controller.
+
+ In the example shown in Figure 8-11, two sets of 8-channel inputs are multiplexed, reducing the number of
+ input pins required on the controller from 16 to 10. Similarly, if four sets of 8-channel inputs are multiplexed, the
+number of pins on the controller is reduced from 32 to 12.
+
+
+
+
+
+26    Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 27 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+                                               ISO1212                                          ISO1212
+                          RTHR                                                                                                        RTHR
+         IN1                                                                                                                                          IN9
+                                    SENSE1                                            SENSE1
+                                       RSENSE                                                                                   RSENSE
+                                             IN1        OUT1                           OUT1          IN1
+                          RTHR                                                                                                        RTHR
+         IN2                                                                                                                                       IN10
+                                    SENSE2                                            SENSE2
+                                       RSENSE                                                                                  RSENSE
+                                             IN2        OUT2                           OUT2          IN2
+
+
+                                              EN                          EN
+
+
+
+
+
+                                              ISO1212                                          ISO1212
+                          RTHR                                                                                                        RTHR
+         IN7                                                                                                                                       IN15
+                                    SENSE1                                             SENSE1
+                                       RSENSE                                                                                   RSENSE
+                                             IN1        OUT1                           OUT1           IN1
+                          RTHR                                                                                                       RTHR
+         IN8                                                                                                                                       IN16
+                                    SENSE2                                             SENSE2
+                                       RSENSE                                                                                   RSENSE
+                                             IN2        OUT2                           OUT2           IN2
+
+
+                                              EN                          EN
+
+
+                                                                                                         EN1     DIN1    DIN2               DIN7    DIN8    EN2
+
+                                                                                Host
+                                                                                            Controller
+
+                                                                                                Copyright © 2017, Texas Instruments Incorporated
+
+       Figure 8-11. Using the Output Enable Option to Multiplex the Interface to the Host Controller
+
+ 8.2.1.2.7 Status LEDs
+
+The outputs of the ISO121x devices can be used to drive status LEDs on the controller side as shown in Figure
+ 8-12. The output buffers of the ISO121x can provide 4mA, 3mA, and 2mA currents while working at VCC1 values
+ of 5V, 3.3V, and 2.5V respectively.
+
+ In some cases, placing the LED on the field side is desirable although the LED is powered from VCC1. In such
+ cases, the signal carrying current to the LED can be routed in an inner layer without compromising the isolation
+ of the digital-input module. For more information, see the Section 8.4.1 section.
+
+                                                                                                       5 V or 3.3 V or 2.5 V
+                                                                                                               Backplane Supply
+
+
+                                                                            ISO1211
+                                                      RTHR
+                    24 V                                       SENSE        VCC1               VCC
+                                                                      CIN    RSENSE
+             Power                                                           IN         OUT                       Host
+               Supply                                                                                                                 Controller
+
+                     0 V                                      FGND
+                                                                   GND1          GND
+
+
+
+
+
+                                                                                                                    Status
+                                                                                     LED
+
+
+
+
+
+                                                                                               Copyright © 2017, Texas Instruments Incorporated
+
+                       Figure 8-12. Using ISO121x Outputs to Drive Status LEDs
+
+
+
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback    27
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 28 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+ 8.2.1.3 Application Curve
+
+
+                                             2.75
+
+                                                2.5
+
+                                             2.25
+
+                                          2
+                                                                                (mA) 1.75
+                                                                                                                                            Current 1.251.5     V7.1   V                             =           8.25
+                                                                                                    Input                                          1               OFF   =ON                          ±40°C25°C                                             0.75
+                                                                                      85°C
+                                                0.5                                            105°C
+                                                                                      115°C
+                                             0.25
+                                                                                      125°C
+                                          0
+                                           0       5       10      15      20      25      30
+                                                                            Input Voltage (V)
+                                     RSENSE = 562Ω             RTHR = 0Ω
+
+                              Figure 8-13. Input Current vs Input Voltage
+
+
+
+
+
+28    Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 29 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+ 8.2.2 Sourcing Inputs
+
+The ISO121x devices can be configured as sourcing inputs as shown in Figure 8-14. In this configuration, all the
+SENSE pins are connected to the common voltage (24V), and the inputs are connected to the individual FGND
+ pins.
+
+                                                         24-V                                         5 V or 3.3 V or 2.5 V
+                                           Common                                           Backplane supply
+
+                                                                                  ISO1212
+
+                                                                   SENSE1     VCC1           VCC
+                                                                               CIN    RSENSE
+                                                                          OUT1                                                                                    IN1                                                             RTHR
+                                                                 FGND1
+
+
+                                         Current Flow
+
+                                                                   SENSE2
+                                                                               CIN    RSENSE           OUT2                  24 V
+                                                                                    IN2
+                                                             RTHR
+            Power                                                                FGND2   GND1
+             Supply
+                   0 V
+                                                                                                                       Host
+                                                                                                                                           Controller
+                                                                                  ISO1212
+
+
+                                                                  SENSE1
+                                                                                                      VCC1
+                                  Sensors and                           CIN    RSENSE
+                                      Switches                                                                                     IN1      OUT1                                                             RTHR
+                                                                 FGND1
+
+
+                                         Current Flow
+                                                                   SENSE2
+                                                                               CIN    RSENSE
+                                                                                    IN2      OUT2
+                                                             RTHR
+                                                                 FGND2   GND1            GND
+
+
+
+
+                                                                 500 pF/2 kV
+
+
+                          PE
+
+
+                                                     Protection
+                                                  Earth (PE)
+
+                                                                                               Copyright © 2017, Texas Instruments Incorporated
+
+                     Figure 8-14. Typical Application Circuit With Sourcing Inputs
+
+
+
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback    29
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 30 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+ 8.2.3 Sourcing and Sinking Inputs (Bidirectional Inputs)
+
+The ISO1212 device can be used to create a bidirectional input module that can sink and source current as
+shown in Figure 8-15. In this configuration, channel 1 is active if the COM terminal is connected to ground for
+ sinking inputs, and channel 2 is active  if the COM terminal is connected to 24V for sourcing input. The digital
+ input is considered high if either the OUT1 or OUT2 pin is high.
+
+                                                                                              5 V or 3.3 V or 2.5 V
+                                                                                                      Backplane supply
+
+                                        IN      RTHR                              ISO1212
+                                                              SENSE1     VCC1           VCC
+                                                               CIN             RSENSE
+                                                                      OUT1                                                                               IN1
+
+                                                             FGND1
+                                                                                                                  Host
+                                                                                                                                    Controller
+
+                                                              SENSE2
+                   ±24 V
+                                                                           RSENSE           OUT2
+                                                                               IN2
+                                                            FGND2   GND1            GND
+
+                         COM
+
+                                    Current for positive polarity
+
+                                    Current for negative polarity
+
+                                                                                         Copyright © 2017, Texas Instruments Incorporated
+
+              Figure 8-15. Application Circuit—ISO1212 With Sourcing and Sinking Inputs
+
+A bidirectional input module can also be built with the ISO121x devices using low-cost Schottky diodes as shown
+ in Figure 8-16.
+
+                                     IN
+                                           RTHR
+
+                                                           BAT54CLT1G
+                                                                                              ISO1211
+
+           ±24 V                                                              SENSE      VCC1                                                                                                                           Host
+                                                                                              RSENSE                               Controller
+                       COM                                                CIN             IN          OUT
+
+
+
+                                                                      FGND      GND1
+
+
+              Figure 8-16. Bidirectional Implementation With ISO1211 and Bridge Rectifier
+
+ 8.3 Power Supply Recommendations
+
+ To help provide reliable operation at data rates and supply voltages, a 0.1μF bypass capacitor is recommended
+on the side 1 supply pin (VCC1). The capacitor must be placed as close to the supply pins as possible.
+ 8.4 Layout
+ 8.4.1 Layout Guidelines
+
+The board layout for ISO1211 and ISO1212 can be completed in two layers. On the field side, place RSENSE,
+ CIN, and RTHR on the top layer. Use the bottom layer as the field ground (FGND) plane. TI recommends using
+RSENSE and CIN in 0603 footprint for a compact layout, although larger sizes (0805) can also be used. The CIN
+ capacitor is a 50V capacitor and is available in the 0603 footprint. Keep CIN as close to the ISO121x device as
+ possible. The SUB pin on the ISO1211 device and the SUB1 and SUB2 pins on the ISO1212 device must be left
+ unconnected. For group isolated design, use vias to connect the FGND pins of the ISO121x device to the bottom
+
+
+
+30    Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 31 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+FGND plane. The placement of the RTHR resistor is flexible, although the resistor pin connected to external high
+ voltage must not be placed within 4mm of the ISO121x device pins or the CIN and RSENSE pins to avoid flashover
+ during EMC tests.
+
+ Only a decoupling capacitor is required on side 1. Place this capacitor on the top-layer, with the bottom layer for
+GND1.
+
+ If a board with more than two layers is used, placing two ISO121x devices on the top-and bottom layers
+ (back-to-back) is possible to achieve a more compact board. The inner layers can be used for FGND.
+
+ Figure 8-17 and Figure 8-18 show the example layouts.
+
+ In some designs, placing the LED on the field side is desirable although the LED is powered from VCC1. In such
+ cases, the signal carrying current to the LED can be routed in an inner layer without compromising the isolation
+ of the digital-input module as shown in Figure 8-19. The LED must be placed with at least 4mm spacing between
+ other components and connections on side 1 to provide adequate isolation.
+
+ 8.4.2 Layout Example
+
+                                      2 mm maximum
+                                              from VCC
+
+                       VCC
+
+
+                                                                                                   RTHR
+                                      0.1 F  C
+                                                                        R
+                                                                 VCC1      SENSE
+                                                       R     C
+      MCU                                   EN              IN                                CIN                            High Voltage Input                                                                                                                                                                                                                                                                                                                                                                                                           Capacitor                                                         RSENSE
+                                              OUT                        Isolation  FGND
+                                              GND1       SUB
+                        GND1                                        FGND
+                                Plane                                                        Plane
+
+
+
+
+                              Figure 8-17. Layout Example With ISO1211
+
+
+                                      2 mm Maximum
+                                             from VCC
+
+                       VCC
+
+                                                                      R               INP1
+
+
+                                                            SENSE1                                      0.1 F  C        GND1                                                         R     RSENSE C   CIN     RTHR                                                                                IN1                                                                 VCC1
+                                                                                    FGND
+                                              EN          FGND
+
+                                                              SUB1                                                                                                                             High                                                                                                                                         Voltage                                                OUT1                                                                                                                                                                                                                                                                                            Capacitor        MCU                                                                                                 RTHR                                                                                                                                                    Input                                                              SUB2                                                OUT2
+                                            NC         SENSE1                   R              INP2                                            NC                           Isolation       IN1      R   C   CIN                       GND1              GND1        FGND                                  RSENSE
+                                Plane                                             FGND
+                                                                                                    Plane
+
+
+
+                              Figure 8-18. Layout Example With ISO1212
+
+
+
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback    31
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 32 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+                                      2 mm maximum
+                                              from VCC
+
+                       VCC
+
+
+                                                                                                   RTHR
+                                      0.1 F  C
+                                                                        R
+                                                                 VCC1      SENSE
+                                                       R     C
+      MCU                                   EN              IN                                CIN                            High Voltage Input                                                                                                                                                                                                                                                                                                                                                                                                           Capacitor                                                         RSENSE
+                                              OUT                        Isolation  FGND
+                                              GND1       SUB
+                                                                   FGND
+                                                                                             Plane
+                           R                                4 mm minimum
+
+
+                                                                 LED
+               GND1
+                     Plane
+
+
+
+
+   Figure 8-19. Layout Example With LED Placed on the Field Side But Driven From VCC1 Power Domain
+
+
+
+
+
+32    Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 33 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+9 Device and Documentation Support
+ 9.1 Device Support
+ 9.1.1 Development Support
+
+ For development support, refer to:
+
+ •  Sub 1W, 16-Channel, Isolated Digital Input Module Reference Design
+ •  Broken Wire Detection Using An Optical Switch Reference Design
+ •  Redundant Dual Channel Reference Design for Safe Torque Off in Variable Speed Drives
+
+ 9.2 Documentation Support
+ 9.2.1 Related Documentation
+
+ For related documentation see the following:
+ •  Texas Instruments, Isolation Glossary application note
+ •  Texas Instruments, How To Improve Speed and Reliability of Isolated Digital Inputs in Motor Drives TI
+   TechNote, application brief
+ •  Texas Instruments, How to Design Isolated Comparators for ±48V, 110V and 240V DC and AC Detection,
+    application brief
+ •  Texas Instruments, How To Simplify Isolated 24V PLC Digital Input Module Designs, application brief
+ •  Texas Instruments, ISO121x Threshold Calculator for 9V to 300V DC and AC Voltage Detection
+ •  Texas Instruments, ISO1211 Isolated Digital-Input Receiver Evaluation Module, EVM user's guide
+ •  Texas Instruments, ISO1212 Isolated Digital-Input Receiver Evaluation Module, EVM user's guide
+
+ 9.3 Related Links
+
+The table below  lists quick access links. Categories include technical documents, support and community
+ resources, tools and software, and quick access to order now.
+
+                                       Table 9-1. Related Links
+                                                     TECHNICAL        TOOLS &        SUPPORT &
+      PARTS      PRODUCT FOLDER    ORDER NOW
+                                               DOCUMENTS      SOFTWARE       COMMUNITY
+
+      ISO1211              Click here              Click here              Click here              Click here              Click here
+
+      ISO1212              Click here              Click here              Click here              Click here              Click here
+
+ 9.4 Receiving Notification of Documentation Updates
+
+ To receive notification of documentation updates, navigate to the device product folder on ti.com. In the upper
+ right corner, click on Alert me to register and receive a weekly digest of any product information that has
+ changed. For change details, review the revision history included in any revised document.
+
+ 9.5 Support Resources
+
+ TI E2E™ support forums are an engineer's go-to source for fast, verified answers and design help — straight
+ from the experts. Search existing answers or ask your own question to get the quick design help you need.
+
+ Linked content is provided "AS IS" by the respective contributors. They do not constitute TI specifications and do
+ not necessarily reflect TI's views; see TI's Terms of Use.
+
+ 9.6 Trademarks
+ TI E2E™ is a trademark of Texas Instruments.
+ All trademarks are the property of their respective owners.
+ 9.7 Electrostatic Discharge Caution
+                  This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled
+                   with appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+
+            ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may
+               be more susceptible to damage because very small parametric changes could cause the device not to meet its published
+                    specifications.
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback    33
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 34 =====
+ISO1211, ISO1212
+SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025                                                                www.ti.com
+
+ 9.8 Glossary
+
+ TI Glossary      This glossary lists and explains terms, acronyms, and definitions.
+
+10 Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+
+Changes from Revision F (April 2020) to Revision G (January 2026)                          Page
+ •  Updated the numbering format for tables, figures, and cross-references throughout the document................. 1
+ •  Adding links to the functional safety documents in the Features section........................................................... 1
+
+
+
+Changes from Revision E (August 2018) to Revision F (April 2020)                           Page
+ •  Changed VDE standard name From: DIN V VDE V 0884-10 To: DIN VDE V 0884-11 throughout the
+      document............................................................................................................................................................1
+ •  Changed Features bullet From: "CSA, CQC, TUV Certificates Available" To: "IEC 60950-1, IEC 62368-1, IEC
+   61010-1 and GB 4943.1-2011 certifications" .....................................................................................................1
+ •  Updated Section 2 list.........................................................................................................................................1
+ •  Changed ISO1211 'SUB' pin description text From: "Leave this pin unconnected on the board" To: "For good
+    thermal performance, connecting this pin to a small 2mm x 2mm floating plane on the board is
+   recommended. Do not connect this floating plane to FGND or any other signal or plane." in Pin Functions
+    table ...................................................................................................................................................................3
+ •  Changed ISO1212 'SUB1' and 'SUB2' pins description text From: "Leave this pin unconnected on the board"
+    To: "For good thermal performance, connecting this pin to a small 2mm x 2mm floating plane on the board is
+   recommended. Do not connect this floating plane to FGND1, FGND2, SUBx or any other signal or plane." in
+   Pin Functions table ..........................................................................................................................................3
+ •  Updated certification information in Section 5.7 table........................................................................................ 8
+
+
+
+Changes from Revision D (March 2018) to Revision E (August 2018)                          Page
+ •  Changed VIH and VIH to VIL and VIH in the RTHR resistor description in the Setting Current Limit and Voltage
+   Thresholds section............................................................................................................................................21
+
+
+
+Changes from Revision C (February 2018) to Revision D (March 2018)                        Page
+ •  Updated the Features and Applications sections. Added a new TI TechNote reference to the Description and
+   Related Documentation section..........................................................................................................................1
+ •  Changed the unit for CPG from µm to mm in the Insulation Specifications table...............................................7
+ •  Changed the Functional Block Diagram ..........................................................................................................17
+ •  Changed VIL from min to typ in the VIL equation.............................................................................................. 21
+ •  Added the Designing for Input Voltages Greater Than 60V section.................................................................24
+ •  Added the bidirectional implementation example to the Sourcing and Sinking Inputs section.........................30
+
+
+
+Changes from Revision B (September 2017) to Revision C (February 2018)                     Page
+ •  Added wire-break detection to the Features section.......................................................................................... 1
+ •  Added the enable pin to multiplex output signals to the Features section......................................................... 1
+ •  Changed RTHR = 5kΩ to 4kΩ in the High-Level Voltage Transition Threshold vs Ambient Temperature graph...
+      ..........................................................................................................................................................................13
+ •  Changed the Type 1RTH value from 3kΩ to 2.5kΩ in the Surge, IEC ESD and EFT table...............................24
+
+
+
+
+34    Submit Document Feedback                                                                   Copyright © 2026 Texas Instruments Incorporated
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 35 =====
+                                                                                           ISO1211, ISO1212
+www.ti.com                                                                SLLSEY7G – JUNE 2017 – REVISED FEBRUARY 2025
+
+Changes from Revision A (September 2017) to Revision B (September 2017)                   Page
+ •  Updated the numbering format for tables, figures, and cross-references throughout the document................. 1
+ •  Changed the status from Advance Information to Production Data .................................................................. 1
+
+
+11 Mechanical, Packaging, and Orderable Information
+
+The following pages include mechanical packaging and orderable information. This information is the most
+ current data available for the designated devices. This data is subject to change without notice and revision of
+ this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+
+
+
+
+
+Copyright © 2026 Texas Instruments Incorporated                                                      Submit Document Feedback    35
+
+                                              Product Folder Links: ISO1211 ISO1212
+===== PDF PAGE 36 =====
+                                                         PACKAGE OPTION ADDENDUM
+
+
+    www.ti.com                                                                                                                                                                      6-Feb-2026
+
+
+PACKAGING INFORMATION
+
+   Orderable part number     Status   Material type    Package | Pins    Package qty | Carrier    RoHS        Lead finish/       MSL rating/       Op temp (°C)           Part marking
+                                                      (1)                 (2)                                                                                          (3)            Ball material        Peak reflow                                                              (6)
+                                                                                                                                                                                                    (4)                                (5)
+        ISO1211D             Active     Production      SOIC (D) | 8          75 | TUBE          Yes          NIPDAU        Level-2-260C-1 YEAR       -40 to 125               1211
+        ISO1211D.A            Active     Production      SOIC (D) | 8          75 | TUBE          Yes          NIPDAU        Level-2-260C-1 YEAR       -40 to 125               1211
+       ISO1211DR             Active     Production      SOIC (D) | 8      2500 | LARGE T&R      Yes          NIPDAU        Level-2-260C-1 YEAR       -40 to 125               1211
+       ISO1211DR.A           Active     Production      SOIC (D) | 8      2500 | LARGE T&R      Yes          NIPDAU        Level-2-260C-1 YEAR       -40 to 125               1211
+       ISO1211SDR            Active     Production      SOIC (D) | 8      2500 | LARGE T&R      Yes           SN          Level-2-260C-1 YEAR       -40 to 125              1211S
+       ISO1212DBQ            Active     Production    SSOP (DBQ) | 16        75 | TUBE          Yes          NIPDAU        Level-2-260C-1 YEAR       -40 to 125               1212
+      ISO1212DBQ.A           Active     Production    SSOP (DBQ) | 16        75 | TUBE          Yes          NIPDAU        Level-2-260C-1 YEAR       -40 to 125               1212
+      ISO1212DBQR           Active     Production    SSOP (DBQ) | 16    2500 | LARGE T&R      Yes          NIPDAU        Level-2-260C-1 YEAR       -40 to 125               1212
+     ISO1212DBQR.A          Active     Production    SSOP (DBQ) | 16    2500 | LARGE T&R      Yes          NIPDAU        Level-2-260C-1 YEAR       -40 to 125               1212
+     ISO1212SDBQR          Active     Production    SSOP (DBQ) | 16    2500 | LARGE T&R      Yes           SN          Level-2-260C-1 YEAR       -40 to 125              1212S
+
+(1) Status: For more details on status, see our product life cycle.
+
+(2) Material type: When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+
+(3) RoHS values: Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+
+(4) Lead finish/Ball material: Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+
+(5) MSL rating/Peak reflow: The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+
+(6) Part marking: There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+
+                                                                               Addendum-Page 1
+===== PDF PAGE 37 =====
+                                                         PACKAGE OPTION ADDENDUM
+
+
+    www.ti.com                                                                                                                                                                      6-Feb-2026
+
+
+
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+
+
+
+
+
+                                                                               Addendum-Page 2
+===== PDF PAGE 38 =====
+                         PACKAGE MATERIALS INFORMATION
+
+
+www.ti.com                                                                                                                      10-Aug-2026
+
+TAPE AND REEL INFORMATION
+
+     REEL DIMENSIONS                                  TAPE DIMENSIONS
+                                                       K0    P1
+
+
+                                                   W                                                                               B0
+                                      Reel
+                                    Diameter
+                                                                         Cavity       A0
+                                         A0  Dimension designed to accommodate the component width
+                                           B0  Dimension designed to accommodate the component length
+                                         K0  Dimension designed to accommodate the component thickness
+                           W   Overall width of the carrier tape
+                                               P1   Pitch between successive cavity centers
+
+                                      Reel Width (W1)
+                  QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+                                                                                         Sprocket Holes
+
+
+                                  Q1  Q2     Q1  Q2
+
+                                  Q3  Q4     Q3  Q4             User Direction of Feed
+
+
+                                                      Pocket Quadrants
+
+
+*All dimensions are nominal
+        Device        Package Package Pins  SPQ     Reel     Reel    A0    B0    K0    P1   W     Pin1
+                       Type   Drawing               Diameter  Width  (mm)  (mm)  (mm)  (mm)  (mm) Quadrant
+                                                 (mm)  W1 (mm)
+      ISO1211DR       SOIC    D      8    2500    330.0     12.4     6.4     5.2     2.1     8.0    12.0    Q1
+     ISO1211SDR       SOIC    D      8    2500    330.0     12.4     6.4     5.2     2.1     8.0    12.0    Q1
+    ISO1212DBQR     SSOP   DBQ    16    2500    330.0     12.4     6.4     5.2     2.1     8.0    12.0    Q1
+    ISO1212SDBQR     SSOP   DBQ    16    2500    330.0     12.4     6.4     5.2     2.1     8.0    12.0    Q1
+
+
+
+
+
+                                                  Pack Materials-Page 1
+===== PDF PAGE 39 =====
+                         PACKAGE MATERIALS INFORMATION
+
+
+www.ti.com                                                                                                                      10-Aug-2026
+
+
+ TAPE AND REEL BOX DIMENSIONS
+
+
+
+
+
+                                                                                                   Width (mm)     H
+
+
+
+
+
+     W             L
+
+
+
+
+
+*All dimensions are nominal
+         Device          Package Type  Package Drawing  Pins   SPQ    Length (mm)  Width (mm)   Height (mm)
+      ISO1211DR           SOIC          D          8     2500        350.0         350.0          43.0
+     ISO1211SDR          SOIC          D          8     2500        350.0         350.0          43.0
+     ISO1212DBQR        SSOP         DBQ        16     2500        350.0         350.0          43.0
+    ISO1212SDBQR        SSOP         DBQ        16     2500        350.0         350.0          43.0
+
+
+
+
+
+                                                  Pack Materials-Page 2
+===== PDF PAGE 40 =====
+                         PACKAGE MATERIALS INFORMATION
+
+
+www.ti.com                                                                                                                      10-Aug-2026
+
+TUBE
+
+   T - Tube
+      height                           L - Tube length
+
+
+      W - Tube
+              width
+
+
+     B - Alignment groove width
+
+
+*All dimensions are nominal
+         Device         Package Name  Package Type   Pins     SPQ    L (mm)  W (mm)   T (µm)    B (mm)
+       ISO1211D           D          SOIC        8        75      505.46      6.76      3810         4
+      ISO1211D.A          D          SOIC        8        75      505.46      6.76      3810         4
+     ISO1212DBQ         DBQ        SSOP        16        75      505.46      6.76      3810         4
+     ISO1212DBQ.A        DBQ        SSOP        16        75      505.46      6.76      3810         4
+
+
+
+
+
+                                                  Pack Materials-Page 3
+===== PDF PAGE 41 =====
+                                 PACKAGE OUTLINE
+D0008A                                                                                                                                                                                                                                                                                 SCALE 2.800            SOIC - 1.75 mm max height
+                                                                 SMALL OUTLINE INTEGRATED CIRCUIT
+
+
+                                                                           C
+
+                                                                         SEATING PLANE
+                                  .228-.244 TYP
+                                     [5.80-6.19]                                                                                                    .004 [0.1] C
+       A                                    PIN 1 ID AREA
+                                                        6X .050
+                                                                                       [1.27]
+                                                       8
+              1
+
+
+
+                                                         2X     .189-.197
+      [4.81-5.00]                                                       .150
+    NOTE 3                                                                  [3.81]
+
+
+                                                                      4X (0 -15 )
+
+              4
+                                                       5
+                                                        8X .012-.020
+              B               .150-.157                                [0.31-0.51]                                                                                                           .069 MAX
+                                        [3.81-3.98]                        .010 [0.25]   C A B                     [1.75]
+                          NOTE 4
+
+
+
+
+
+                                                                          .005-.010 TYP
+                                                                               [0.13-0.25]
+
+
+                            4X (0 -15 )
+
+             SEE DETAIL A
+                                                                   .010
+                                                                              [0.25]
+
+
+
+                                                                                                                   .004-.010                                                        0 - 8                                                                                                                            [0.11-0.25]
+                                                                        .016-.050
+                                                                             [0.41-1.27]              DETAIL A
+                                                                                                (.041)        TYPICAL
+                                                                                                    [1.04]
+
+                                                                                                   4214825/C  02/2019
+NOTES:
+
+1. Linear dimensions are in inches [millimeters]. Dimensions in parenthesis are for reference only. Controlling dimensions are in inches.
+  Dimensioning and tolerancing per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+  exceed .006 [0.15] per side.
+4. This dimension does not include interlead flash.
+5. Reference JEDEC registration MS-012, variation AA.
+
+
+
+
+                                                    www.ti.com
+===== PDF PAGE 42 =====
+                             EXAMPLE BOARD LAYOUT
+D0008A                                    SOIC - 1.75 mm max height
+                                                                 SMALL OUTLINE INTEGRATED CIRCUIT
+
+
+
+
+
+                         8X (.061  )
+                                        [1.55]
+                                        SYMM               SEE
+                                                                       DETAILS
+                                    1
+                                                                          8
+
+                       8X (.024)
+                                        [0.6]                                  SYMM
+
+
+
+                                                                                        (R.002  ) TYP
+                                                                                                            [0.05]                                                                          5
+                                     4
+                   6X (.050  )
+                                 [1.27]
+                                                                    (.213)
+                                                                             [5.4]
+
+                            LAND PATTERN EXAMPLE
+                                    EXPOSED METAL SHOWN
+                                                SCALE:8X
+
+
+
+
+
+                                SOLDER MASK      SOLDER MASK
+               METAL             OPENING              OPENING               METAL UNDER                                                                         SOLDER MASK
+
+
+        EXPOSED
+           METAL                                EXPOSED
+                                                   METAL
+                                 .0028 MAX                                              .0028 MIN
+                                       [0.07]                                                             [0.07]
+                            ALL AROUND                                    ALL AROUND
+
+                  NON SOLDER MASK                            SOLDER MASK
+                         DEFINED                                      DEFINED
+
+                              SOLDER MASK DETAILS
+
+
+
+
+                                                                                                   4214825/C  02/2019
+
+NOTES: (continued)
+
+6. Publication IPC-7351 may have alternate designs.
+7. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+
+
+
+
+
+                                                    www.ti.com
+===== PDF PAGE 43 =====
+                            EXAMPLE STENCIL DESIGN
+D0008A                                    SOIC - 1.75 mm max height
+                                                                 SMALL OUTLINE INTEGRATED CIRCUIT
+
+
+
+
+
+                           8X (.061  )
+                                            [1.55]              SYMM
+
+                                        1
+                                                                             8
+
+                         8X (.024)
+                                            [0.6]                                                            SYMM
+
+
+
+                                                                                            (R.002  ) TYP
+                                                                                                                [0.05]                                                                             5
+                                        4
+                      6X (.050  )
+                                     [1.27]
+                                                                         (.213)
+                                                                                  [5.4]
+
+                              SOLDER PASTE EXAMPLE
+                                BASED ON .005 INCH [0.125 MM] THICK STENCIL
+                                                   SCALE:8X
+
+
+
+
+
+                                                                                                   4214825/C  02/2019
+
+NOTES: (continued)
+
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+  design recommendations.
+9. Board assembly site may have different recommendations for stencil design.
+
+
+
+
+
+                                                     www.ti.com
+===== PDF PAGE 44 =====
+                                 PACKAGE OUTLINE
+DBQ0016A                                                                                                                                                                                                                                              SCALE 2.800          SSOP - 1.75 mm max height
+                                                                       SHRINK SMALL-OUTLINE PACKAGE
+
+
+                                                                           C
+
+                                                                         SEATING PLANE
+
+                                   .228 -.244 TYP
+                                                             [5.80 -6.19 ]                                                       .004 [0.1] C
+        A                                      PIN 1 ID AREA
+                                                            14X .0250
+                                                                                      [0.635]                                                        16
+                1
+
+
+
+
+                                                          2X
+       .189 -.197                                                                        .175           [ 4.81 -5.00 ]                                                                                    [4.45]     NOTE 3
+
+
+
+
+                8
+                                                        9
+                                                          16X .008 -.012
+               B              .150 -.157                                                                                                                                   [0.21 -0.30 ]                      .069 MAX
+                                                                 [ 3.81 -3.98 ]                                                                       [1.75]                           NOTE 4                           .007 [0.17]   C A   B
+
+
+
+
+
+                                                                        .005 -.010 TYP
+                                                                                                                              [0.13 -0.25 ]
+
+
+
+                           SEE DETAIL A
+
+                                                                      .010
+                                                                                  [0.25]
+                                          GAGE PLANE
+
+
+                                                                                                                .004 -.010
+                                                       0 - 8                                                                             [0.11 -0.25 ]
+                                                                       .016 -.035
+                                                                                                                             [0.41 -0.88 ]              DETAIL A
+                                                                                             (.041  )        TYPICAL
+                                                                                                       [1.04]
+
+                                                                                                    4214846/A  03/2014
+NOTES:
+
+1. Linear dimensions are in inches [millimeters]. Dimensions in parenthesis are for reference only. Controlling dimensions are in inches.
+  Dimensioning and tolerancing per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+  exceed .006 inch, per side.
+4. This dimension does not include interlead flash.
+5. Reference JEDEC registration MO-137, variation AB.
+
+
+
+
+                                                    www.ti.com
+===== PDF PAGE 45 =====
+                             EXAMPLE BOARD LAYOUT
+DBQ0016A                            SSOP - 1.75 mm max height
+                                                                       SHRINK SMALL-OUTLINE PACKAGE
+
+
+
+
+
+                         16X (.063)
+                                            [1.6]                                       SYMM               SEE
+                                                                       DETAILS
+                                    1
+                                                                          16
+
+                    16X (.016  )
+                                   [0.41]
+
+
+
+
+
+                 14X (.0250  )
+                            [0.635]                                    8                                     9
+
+
+                                                                    (.213)
+                                                                             [5.4]
+
+                            LAND PATTERN EXAMPLE
+                                               SCALE:8X
+
+
+
+
+
+                               SOLDER MASK       SOLDER MASK
+             METAL             OPENING                OPENING               METAL
+
+
+
+                               .002 MAX                                                 .002 MIN
+                                     [0.05]                                                              [0.05]
+                          ALL AROUND                                     ALL AROUND
+
+                NON SOLDER MASK                              SOLDER MASK
+                       DEFINED                                       DEFINED
+
+                             SOLDER MASK DETAILS
+
+
+
+
+                                                                                                    4214846/A  03/2014
+
+NOTES: (continued)
+
+6. Publication IPC-7351 may have alternate designs.
+7. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+
+
+
+
+
+                                                    www.ti.com
+===== PDF PAGE 46 =====
+                            EXAMPLE STENCIL DESIGN
+DBQ0016A                            SSOP - 1.75 mm max height
+                                                                       SHRINK SMALL-OUTLINE PACKAGE
+
+
+
+
+
+                         16X (.063)
+                                             [1.6]
+                                        SYMM
+                                     1
+                                                                           16
+
+                      16X (.016  )
+                                    [0.41]
+                                                         SYMM
+
+
+
+                 14X (.0250  )
+                             [0.635]                                     8                                     9
+
+
+                                                                     (.213)
+                                                                              [5.4]
+
+                            SOLDER PASTE EXAMPLE
+                             BASED ON .005 INCH [0.127 MM] THICK STENCIL
+                                                SCALE:8X
+
+
+
+
+
+                                                                                                    4214846/A  03/2014
+
+NOTES: (continued)
+
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+  design recommendations.
+9. Board assembly site may have different recommendations for stencil design.
+
+
+
+
+
+                                                     www.ti.com
+===== PDF PAGE 47 =====
+                 IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS”
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable
+standards, and any other safety, security, regulatory or other requirements.
+
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products
+are standard, catalog, general purpose devices.
+
+TI objects to and rejects any additional or different terms you may propose.
+
+IMPORTANT NOTICE
+
+                                         Copyright © 2026, Texas Instruments Incorporated
+
+                                                       Last updated 10/2025

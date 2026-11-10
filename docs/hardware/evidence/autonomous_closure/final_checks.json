@@ -1,0 +1,32 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "c5f72f",
+      "wall_time_seconds": 0.1914284,
+      "exit_code": 0,
+      "original_token_count": 117,
+      "output": "warning: in the working copy of 'firmware/poc/.gitignore', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'firmware/poc/CMakeLists.txt', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'firmware/poc/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'firmware/poc/prj.conf', LF will be replaced by CRLF the next time Git touches it\n"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "e25b9e",
+      "wall_time_seconds": 0.2485214,
+      "exit_code": 0,
+      "original_token_count": 75,
+      "output": " M firmware/poc/.gitignore\n M firmware/poc/CMakeLists.txt\n M firmware/poc/README.md\n M firmware/poc/prj.conf\n?? \"converter_pcb_layout_appli-e (1).pdf\"\n?? docs/hardware/\n?? firmware/poc/.vscode/\n?? firmware/poc/platformio.ini\n?? firmware/poc/zephyr/\n?? hardware/\n?? \"shared_lib (1).IntLib\"\n?? tmp/\n"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "chunk_id": "6d6eda",
+      "wall_time_seconds": 0.506766,
+      "exit_code": 0,
+      "original_token_count": 105,
+      "output": "{\r\n  \"python_syntax_files\": 7,\r\n  \"offline_checks\": 12,\r\n  \"regeneration\": \"PASS\",\r\n  \"BOM\": {\r\n    \"rows\": 140,\r\n    \"required_rows\": 99,\r\n    \"required_units\": 124,\r\n    \"required_unique_MPNs\": 50,\r\n    \"CAD_statuses\": {\r\n      \"CAD_VERIFIED\": 98,\r\n      \"CAD_CANDIDATE\": 1\r\n    }\r\n  },\r\n  \"library_counts\": [\r\n    76,\r\n    48\r\n  ],\r\n  \"library_errors\": 0,\r\n  \"PCB_library_warnings\": 4,\r\n  \"native_ERC\": \"NOT_RUN\"\r\n}\r\n"
+    }
+  }
+]

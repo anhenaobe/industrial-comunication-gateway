@@ -1,0 +1,984 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"status\": \"success\", \"filepath\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.SchLib\", \"component_name\": \"NIS3071MT4TWG\", \"component\": {\"name\": \"NIS3071MT4TWG\", \"description\": \"onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12; MT4 Auto-Retry, one channel proposed. EP maps datasheet unnumbered PAD, not invented pin17. Unused IN2/3/4 and EN2/3/4 toGND; OUT2/3/4 unconnected. 43.2k is historical curve-based candidate. EP paste and thermal vias not assembly-qualified.\", \"part_count\": 1, \"current_part_id\": 1, \"display_mode_count\": 1, \"part_id_locked\": false, \"source_library_name\": \"*\", \"target_file_name\": \"*\", \"all_pin_count\": 17, \"header_params\": [[\"RECORD\", \"1\"], [\"IndexInSheet\", \"-1\"], [\"OwnerPartId\", \"-1\"], [\"LibraryPath\", \"*\"], [\"SheetPartFileName\", \"*\"], [\"AreaColor\", \"11599871\"], [\"Color\", \"128\"], [\"LibReference\", \"NIS3071MT4TWG\"], [\"ComponentDescription\", \"onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12; MT4 Auto-Retry, one channel proposed. EP maps datasheet unnumbered PAD, not invented pin17. Unused IN2/3/4 and EN2/3/4 toGND; OUT2/3/4 unconnected. 43.2k is historical curve-based candidate. EP paste and thermal vias not assembly-qualified.\"], [\"PartCount\", \"2\"], [\"DisplayModeCount\", \"1\"], [\"CurrentPartId\", \"1\"], [\"SourceLibraryName\", \"*\"], [\"TargetFileName\", \"*\"], [\"AllPinCount\", \"17\"], [\"PartIDLocked\", \"F\"]], \"rectangles\": [{\"owner_part_id\": 1, \"x1\": -80.0, \"y1\": -10.0, \"x2\": 80.0, \"y2\": 180.0, \"line_width\": 1, \"line_color\": 128, \"fill_color\": 11599871, \"filled\": true, \"transparent\": false, \"line_style\": 0, \"unique_id\": \"WVNAIEGI\", \"raw_params\": [[\"RECORD\", \"14\"], [\"IsNotAccesible\", \"T\"], [\"OwnerPartId\", \"1\"], [\"Location.X\", \"-80\"], [\"Location.Y\", \"-10\"], [\"Corner.X\", \"80\"], [\"Corner.Y\", \"180\"], [\"LineWidth\", \"1\"], [\"Color\", \"128\"], [\"AreaColor\", \"11599871\"], [\"IsSolid\", \"T\"], [\"UniqueID\", \"WVNAIEGI\"]]}], \"pins\": [{\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"power\", \"orientation\": \"left\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": -80, \"y\": 160, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"OUT1\", \"designator\": \"1\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"power\", \"orientation\": \"left\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": -80, \"y\": 140, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"IN1\", \"designator\": \"2\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"power\", \"orientation\": \"left\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": -80, \"y\": 120, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"IN2\", \"designator\": \"3\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"power\", \"orientation\": \"left\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": -80, \"y\": 100, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"OUT2\", \"designator\": \"4\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"open_collector\", \"orientation\": \"left\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": -80, \"y\": 80, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"FAULT_N\", \"designator\": \"5\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"passive\", \"orientation\": \"left\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": -80, \"y\": 60, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"dvdt\", \"designator\": \"6\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"passive\", \"orientation\": \"left\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": -80, \"y\": 40, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"ILIM\", \"designator\": \"7\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"power\", \"orientation\": \"left\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": -80, \"y\": 20, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"GND\", \"designator\": \"8\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"power\", \"orientation\": \"left\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": -80, \"y\": 0, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"OUT4\", \"designator\": \"9\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"power\", \"orientation\": \"right\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": 80, \"y\": 160, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"IN4\", \"designator\": \"10\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"power\", \"orientation\": \"right\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": 80, \"y\": 140, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"IN3\", \"designator\": \"11\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"power\", \"orientation\": \"right\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": 80, \"y\": 120, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"OUT3\", \"designator\": \"12\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"input\", \"orientation\": \"right\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": 80, \"y\": 100, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"EN4\", \"designator\": \"13\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"input\", \"orientation\": \"right\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": 80, \"y\": 80, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"EN3\", \"designator\": \"14\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"input\", \"orientation\": \"right\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": 80, \"y\": 60, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"EN2\", \"designator\": \"15\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"input\", \"orientation\": \"right\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": 80, \"y\": 40, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"EN1\", \"designator\": \"16\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"power\", \"orientation\": \"right\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": 80, \"y\": 20, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"GND_PAD\", \"designator\": \"EP\", \"part_and_sequence\": \"|&|\"}], \"parameters\": [{\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"onsemi\", \"name\": \"Manufacturer\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"MDRHQFNS\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"18\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"onsemi\"], [\"Name\", \"Manufacturer\"], [\"UniqueID\", \"MDRHQFNS\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"NIS3071MT4TWG\", \"name\": \"Manufacturer Part Number\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"HBNGDWGX\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"19\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"NIS3071MT4TWG\"], [\"Name\", \"Manufacturer Part Number\"], [\"UniqueID\", \"HBNGDWGX\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12\", \"name\": \"Source\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"IQGQYNNG\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"20\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12\"], [\"Name\", \"Source\"], [\"UniqueID\", \"IQGQYNNG\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"sources/input_protection/NIS3071-D.PDF\", \"name\": \"Datasheet\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"UZSFQLEL\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"21\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"sources/input_protection/NIS3071-D.PDF\"], [\"Name\", \"Datasheet\"], [\"UniqueID\", \"UZSFQLEL\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"CAD_CANDIDATE\", \"name\": \"CAD Status\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"JJRDHKST\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"22\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"CAD_CANDIDATE\"], [\"Name\", \"CAD Status\"], [\"UniqueID\", \"JJRDHKST\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"PROPOSED_FOR_REUSE\", \"name\": \"Electrical Approval\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"AKRQQVVP\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"23\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"PROPOSED_FOR_REUSE\"], [\"Name\", \"Electrical Approval\"], [\"UniqueID\", \"AKRQQVVP\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"MT4 Auto-Retry, one channel proposed. EP maps datasheet unnumbered PAD, not invented pin17. Unused IN2/3/4 and EN2/3/4 toGND; OUT2/3/4 unconnected. 43.2k is historical curve-based candidate. EP paste and thermal vias not assembly-qualified.\", \"name\": \"Limitations\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"QIHRSEOX\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"24\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"MT4 Auto-Retry, one channel proposed. EP maps datasheet unnumbered PAD, not invented pin17. Unused IN2/3/4 and EN2/3/4 toGND; OUT2/3/4 unconnected. 43.2k is historical curve-based candidate. EP paste and thermal vias not assembly-qualified.\"], [\"Name\", \"Limitations\"], [\"UniqueID\", \"QIHRSEOX\"]]}], \"designator\": \"U?\", \"designator_x\": -5.0, \"designator_y\": 5.0, \"designator_unique_id\": \"FSTNHSPH\", \"footprints\": [{\"name\": \"GW_NIS3071_510CM_ONSEMI\", \"is_current\": true, \"raw_params\": [[\"RECORD\", \"45\"], [\"OwnerIndex\", \"27\"], [\"IndexInSheet\", \"-1\"], [\"Description\", \"\"], [\"ModelType\", \"PCBLIB\"], [\"ModelName\", \"GW_NIS3071_510CM_ONSEMI\"], [\"IsCurrent\", \"T\"], [\"UniqueID\", \"BIPTTKND\"]], \"unique_id\": \"BIPTTKND\"}], \"primitive_order\": [\"rectangle\", \"pin\", \"pin\", \"pin\", \"pin\", \"pin\", \"pin\", \"pin\", \"pin\", \"pin\", \"pin\", \"pin\", \"pin\", \"pin\", \"pin\", \"pin\", \"pin\", \"pin\", \"parameter\", \"parameter\", \"parameter\", \"parameter\", \"parameter\", \"parameter\", \"parameter\"]}, \"type\": \"SchLib\", \"units\": \"schematic units (10 = 1 grid)\", \"message\": \"Retrieved symbol 'NIS3071MT4TWG' from 'C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.SchLib'\"}"
+    }
+  ],
+  "structuredContent": {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "component_name": "NIS3071MT4TWG",
+    "component": {
+      "name": "NIS3071MT4TWG",
+      "description": "onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12; MT4 Auto-Retry, one channel proposed. EP maps datasheet unnumbered PAD, not invented pin17. Unused IN2/3/4 and EN2/3/4 toGND; OUT2/3/4 unconnected. 43.2k is historical curve-based candidate. EP paste and thermal vias not assembly-qualified.",
+      "part_count": 1,
+      "current_part_id": 1,
+      "display_mode_count": 1,
+      "part_id_locked": false,
+      "source_library_name": "*",
+      "target_file_name": "*",
+      "all_pin_count": 17,
+      "header_params": [
+        [
+          "RECORD",
+          "1"
+        ],
+        [
+          "IndexInSheet",
+          "-1"
+        ],
+        [
+          "OwnerPartId",
+          "-1"
+        ],
+        [
+          "LibraryPath",
+          "*"
+        ],
+        [
+          "SheetPartFileName",
+          "*"
+        ],
+        [
+          "AreaColor",
+          "11599871"
+        ],
+        [
+          "Color",
+          "128"
+        ],
+        [
+          "LibReference",
+          "NIS3071MT4TWG"
+        ],
+        [
+          "ComponentDescription",
+          "onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12; MT4 Auto-Retry, one channel proposed. EP maps datasheet unnumbered PAD, not invented pin17. Unused IN2/3/4 and EN2/3/4 toGND; OUT2/3/4 unconnected. 43.2k is historical curve-based candidate. EP paste and thermal vias not assembly-qualified."
+        ],
+        [
+          "PartCount",
+          "2"
+        ],
+        [
+          "DisplayModeCount",
+          "1"
+        ],
+        [
+          "CurrentPartId",
+          "1"
+        ],
+        [
+          "SourceLibraryName",
+          "*"
+        ],
+        [
+          "TargetFileName",
+          "*"
+        ],
+        [
+          "AllPinCount",
+          "17"
+        ],
+        [
+          "PartIDLocked",
+          "F"
+        ]
+      ],
+      "rectangles": [
+        {
+          "owner_part_id": 1,
+          "x1": -80,
+          "y1": -10,
+          "x2": 80,
+          "y2": 180,
+          "line_width": 1,
+          "line_color": 128,
+          "fill_color": 11599871,
+          "filled": true,
+          "transparent": false,
+          "line_style": 0,
+          "unique_id": "WVNAIEGI",
+          "raw_params": [
+            [
+              "RECORD",
+              "14"
+            ],
+            [
+              "IsNotAccesible",
+              "T"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Location.X",
+              "-80"
+            ],
+            [
+              "Location.Y",
+              "-10"
+            ],
+            [
+              "Corner.X",
+              "80"
+            ],
+            [
+              "Corner.Y",
+              "180"
+            ],
+            [
+              "LineWidth",
+              "1"
+            ],
+            [
+              "Color",
+              "128"
+            ],
+            [
+              "AreaColor",
+              "11599871"
+            ],
+            [
+              "IsSolid",
+              "T"
+            ],
+            [
+              "UniqueID",
+              "WVNAIEGI"
+            ]
+          ]
+        }
+      ],
+      "pins": [
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "power",
+          "orientation": "left",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": -80,
+          "y": 160,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "OUT1",
+          "designator": "1",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "power",
+          "orientation": "left",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": -80,
+          "y": 140,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "IN1",
+          "designator": "2",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "power",
+          "orientation": "left",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": -80,
+          "y": 120,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "IN2",
+          "designator": "3",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "power",
+          "orientation": "left",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": -80,
+          "y": 100,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "OUT2",
+          "designator": "4",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "open_collector",
+          "orientation": "left",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": -80,
+          "y": 80,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "FAULT_N",
+          "designator": "5",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "passive",
+          "orientation": "left",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": -80,
+          "y": 60,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "dvdt",
+          "designator": "6",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "passive",
+          "orientation": "left",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": -80,
+          "y": 40,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "ILIM",
+          "designator": "7",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "power",
+          "orientation": "left",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": -80,
+          "y": 20,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "GND",
+          "designator": "8",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "power",
+          "orientation": "left",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": -80,
+          "y": 0,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "OUT4",
+          "designator": "9",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "power",
+          "orientation": "right",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": 80,
+          "y": 160,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "IN4",
+          "designator": "10",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "power",
+          "orientation": "right",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": 80,
+          "y": 140,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "IN3",
+          "designator": "11",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "power",
+          "orientation": "right",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": 80,
+          "y": 120,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "OUT3",
+          "designator": "12",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "input",
+          "orientation": "right",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": 80,
+          "y": 100,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "EN4",
+          "designator": "13",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "input",
+          "orientation": "right",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": 80,
+          "y": 80,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "EN3",
+          "designator": "14",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "input",
+          "orientation": "right",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": 80,
+          "y": 60,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "EN2",
+          "designator": "15",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "input",
+          "orientation": "right",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": 80,
+          "y": 40,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "EN1",
+          "designator": "16",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "power",
+          "orientation": "right",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": 80,
+          "y": 20,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "GND_PAD",
+          "designator": "EP",
+          "part_and_sequence": "|&|"
+        }
+      ],
+      "parameters": [
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "onsemi",
+          "name": "Manufacturer",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "MDRHQFNS",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "18"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "onsemi"
+            ],
+            [
+              "Name",
+              "Manufacturer"
+            ],
+            [
+              "UniqueID",
+              "MDRHQFNS"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "NIS3071MT4TWG",
+          "name": "Manufacturer Part Number",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "HBNGDWGX",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "19"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "NIS3071MT4TWG"
+            ],
+            [
+              "Name",
+              "Manufacturer Part Number"
+            ],
+            [
+              "UniqueID",
+              "HBNGDWGX"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12",
+          "name": "Source",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "IQGQYNNG",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "20"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12"
+            ],
+            [
+              "Name",
+              "Source"
+            ],
+            [
+              "UniqueID",
+              "IQGQYNNG"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "sources/input_protection/NIS3071-D.PDF",
+          "name": "Datasheet",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "UZSFQLEL",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "21"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "sources/input_protection/NIS3071-D.PDF"
+            ],
+            [
+              "Name",
+              "Datasheet"
+            ],
+            [
+              "UniqueID",
+              "UZSFQLEL"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "CAD_CANDIDATE",
+          "name": "CAD Status",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "JJRDHKST",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "22"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "CAD_CANDIDATE"
+            ],
+            [
+              "Name",
+              "CAD Status"
+            ],
+            [
+              "UniqueID",
+              "JJRDHKST"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "PROPOSED_FOR_REUSE",
+          "name": "Electrical Approval",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "AKRQQVVP",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "23"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "PROPOSED_FOR_REUSE"
+            ],
+            [
+              "Name",
+              "Electrical Approval"
+            ],
+            [
+              "UniqueID",
+              "AKRQQVVP"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "MT4 Auto-Retry, one channel proposed. EP maps datasheet unnumbered PAD, not invented pin17. Unused IN2/3/4 and EN2/3/4 toGND; OUT2/3/4 unconnected. 43.2k is historical curve-based candidate. EP paste and thermal vias not assembly-qualified.",
+          "name": "Limitations",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "QIHRSEOX",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "24"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "MT4 Auto-Retry, one channel proposed. EP maps datasheet unnumbered PAD, not invented pin17. Unused IN2/3/4 and EN2/3/4 toGND; OUT2/3/4 unconnected. 43.2k is historical curve-based candidate. EP paste and thermal vias not assembly-qualified."
+            ],
+            [
+              "Name",
+              "Limitations"
+            ],
+            [
+              "UniqueID",
+              "QIHRSEOX"
+            ]
+          ]
+        }
+      ],
+      "designator": "U?",
+      "designator_x": -5,
+      "designator_y": 5,
+      "designator_unique_id": "FSTNHSPH",
+      "footprints": [
+        {
+          "name": "GW_NIS3071_510CM_ONSEMI",
+          "is_current": true,
+          "raw_params": [
+            [
+              "RECORD",
+              "45"
+            ],
+            [
+              "OwnerIndex",
+              "27"
+            ],
+            [
+              "IndexInSheet",
+              "-1"
+            ],
+            [
+              "Description",
+              ""
+            ],
+            [
+              "ModelType",
+              "PCBLIB"
+            ],
+            [
+              "ModelName",
+              "GW_NIS3071_510CM_ONSEMI"
+            ],
+            [
+              "IsCurrent",
+              "T"
+            ],
+            [
+              "UniqueID",
+              "BIPTTKND"
+            ]
+          ],
+          "unique_id": "BIPTTKND"
+        }
+      ],
+      "primitive_order": [
+        "rectangle",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "pin",
+        "parameter",
+        "parameter",
+        "parameter",
+        "parameter",
+        "parameter",
+        "parameter",
+        "parameter"
+      ]
+    },
+    "type": "SchLib",
+    "units": "schematic units (10 = 1 grid)",
+    "message": "Retrieved symbol 'NIS3071MT4TWG' from 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib'"
+  },
+  "isError": false
+}

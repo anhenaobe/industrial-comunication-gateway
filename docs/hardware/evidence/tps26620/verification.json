@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "existing_symbols_checked": 58,
+  "graphical_updates": 13,
+  "existing_pin_identities_types_and_links_preserved": true,
+  "SS3_all_three_terminals_visible": true,
+  "CAD_counts": {
+    "symbols": 64,
+    "footprints": 35
+  },
+  "old_footprints_unchanged": 34,
+  "unrelated_symbols_unchanged": 44,
+  "preserved_hashes": 33,
+  "changed_native_files": [
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib"
+  ],
+  "links_checked": 60,
+  "broken_links": [],
+  "original_BOM_IDs_preserved": true,
+  "actual_blocker": "TPS thermal copper tongues: native custom-pad11 conversion/net inheritance, corner review",
+  "native_compilation": "NOT_RUN; existing IntLib stale; no new native automation session",
+  "graphical_symbols": [
+    "XAL4030-682MEC",
+    "XAL4040-103MEC",
+    "MM204F1K00TKRTR3K0",
+    "RC0603FR-0710KL",
+    "SS3P6L-M3_86A",
+    "0451002.MRL",
+    "RC0603FR-0762KL",
+    "RC0603FR-0715KL",
+    "C5750X7R2A475K230KA",
+    "C0805C224K1RACTU",
+    "C0805C225K5RACTU",
+    "C0603C680J5GACTU",
+    "C3225X7R1C156M250AB"
+  ]
+}

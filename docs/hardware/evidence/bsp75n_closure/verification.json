@@ -1,0 +1,10 @@
+{
+  "pins_and_graphics_unchanged": true,
+  "pad_dimensions_verified": true,
+  "hash_changes": [
+    "hardware\\academic_rev1\\Ethernet.SchDoc",
+    "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib"
+  ],
+  "bom_changed_ids": []
+}

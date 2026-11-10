@@ -1,0 +1,1433 @@
+{
+  "status": "success",
+  "filepath_a": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\backups\\tps26620_20261107T172600Z\\Gateway_Academic.SchLib",
+  "filepath_b": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+  "file_type": "SchLib",
+  "added": [
+    "TPS26620DRCR",
+    "RC0603FR-0713K3L",
+    "RC0603FR-07768KL",
+    "RC0603FR-0733K2L",
+    "RC0603FR-0730K1L",
+    "C0603C103K1RACTU"
+  ],
+  "removed": [],
+  "modified": [
+    {
+      "name": "NIS3071MT4TWG",
+      "changes": [
+        {
+          "property": "parameters.count",
+          "a": 9,
+          "b": 10
+        },
+        {
+          "property": "parameters[5].value",
+          "a": "PROTOTYPE_APPROVED",
+          "b": "SUPERSEDED_BY_TPS26620DRCR"
+        },
+        {
+          "property": "parameters[7].value",
+          "a": "PROTOTYPE_APPROVED",
+          "b": "SUPERSEDED_BY_TPS26620DRCR"
+        }
+      ]
+    },
+    {
+      "name": "MM204F1K00TKRTR3K0",
+      "changes": [
+        {
+          "property": "designator_x",
+          "a": -5,
+          "b": -15
+        },
+        {
+          "property": "designator_y",
+          "a": 5,
+          "b": 18
+        },
+        {
+          "property": "pins[0].length",
+          "a": 20,
+          "b": 15
+        },
+        {
+          "property": "pins[0].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].x",
+          "a": -60,
+          "b": -15
+        },
+        {
+          "property": "pins[1].length",
+          "a": 20,
+          "b": 15
+        },
+        {
+          "property": "pins[1].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].x",
+          "a": 60,
+          "b": 15
+        },
+        {
+          "property": "rectangles[0].filled",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "rectangles[0].x1",
+          "a": -60,
+          "b": -15
+        },
+        {
+          "property": "rectangles[0].x2",
+          "a": 60,
+          "b": 15
+        },
+        {
+          "property": "rectangles[0].y1",
+          "a": -10,
+          "b": -6
+        },
+        {
+          "property": "rectangles[0].y2",
+          "a": 20,
+          "b": 6
+        }
+      ]
+    },
+    {
+      "name": "C3225X7R1C156M250AB",
+      "changes": [
+        {
+          "property": "designator_x",
+          "a": -5,
+          "b": -15
+        },
+        {
+          "property": "designator_y",
+          "a": 5,
+          "b": 18
+        },
+        {
+          "property": "lines",
+          "a": null,
+          "b": [
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": -5,
+              "y1": -12,
+              "x2": -5,
+              "y2": 12,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": 5,
+              "y1": -12,
+              "x2": 5,
+              "y2": 12,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            }
+          ]
+        },
+        {
+          "property": "pins[0].length",
+          "a": 20,
+          "b": 25
+        },
+        {
+          "property": "pins[0].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].x",
+          "a": -70,
+          "b": -5
+        },
+        {
+          "property": "pins[1].length",
+          "a": 20,
+          "b": 25
+        },
+        {
+          "property": "pins[1].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].x",
+          "a": 70,
+          "b": 5
+        },
+        {
+          "property": "rectangles",
+          "a": [
+            {
+              "owner_part_id": 1,
+              "x1": -70,
+              "y1": -10,
+              "x2": 70,
+              "y2": 20,
+              "line_width": 1,
+              "line_color": 128,
+              "fill_color": 11599871,
+              "filled": true,
+              "transparent": false,
+              "line_style": 0
+            }
+          ],
+          "b": null
+        }
+      ]
+    },
+    {
+      "name": "C0805C225K5RACTU",
+      "changes": [
+        {
+          "property": "designator_x",
+          "a": -5,
+          "b": -15
+        },
+        {
+          "property": "designator_y",
+          "a": 5,
+          "b": 18
+        },
+        {
+          "property": "lines",
+          "a": null,
+          "b": [
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": -5,
+              "y1": -12,
+              "x2": -5,
+              "y2": 12,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": 5,
+              "y1": -12,
+              "x2": 5,
+              "y2": 12,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            }
+          ]
+        },
+        {
+          "property": "pins[0].length",
+          "a": 20,
+          "b": 25
+        },
+        {
+          "property": "pins[0].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].x",
+          "a": -70,
+          "b": -5
+        },
+        {
+          "property": "pins[1].length",
+          "a": 20,
+          "b": 25
+        },
+        {
+          "property": "pins[1].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].x",
+          "a": 70,
+          "b": 5
+        },
+        {
+          "property": "rectangles",
+          "a": [
+            {
+              "owner_part_id": 1,
+              "x1": -70,
+              "y1": -10,
+              "x2": 70,
+              "y2": 20,
+              "line_width": 1,
+              "line_color": 128,
+              "fill_color": 11599871,
+              "filled": true,
+              "transparent": false,
+              "line_style": 0
+            }
+          ],
+          "b": null
+        }
+      ]
+    },
+    {
+      "name": "RC0603FR-0710KL",
+      "changes": [
+        {
+          "property": "designator_x",
+          "a": -5,
+          "b": -15
+        },
+        {
+          "property": "designator_y",
+          "a": 5,
+          "b": 18
+        },
+        {
+          "property": "pins[0].length",
+          "a": 20,
+          "b": 15
+        },
+        {
+          "property": "pins[0].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].x",
+          "a": -60,
+          "b": -15
+        },
+        {
+          "property": "pins[1].length",
+          "a": 20,
+          "b": 15
+        },
+        {
+          "property": "pins[1].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].x",
+          "a": 60,
+          "b": 15
+        },
+        {
+          "property": "rectangles[0].filled",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "rectangles[0].x1",
+          "a": -60,
+          "b": -15
+        },
+        {
+          "property": "rectangles[0].x2",
+          "a": 60,
+          "b": 15
+        },
+        {
+          "property": "rectangles[0].y1",
+          "a": -10,
+          "b": -6
+        },
+        {
+          "property": "rectangles[0].y2",
+          "a": 20,
+          "b": 6
+        }
+      ]
+    },
+    {
+      "name": "C0603C680J5GACTU",
+      "changes": [
+        {
+          "property": "designator_x",
+          "a": -5,
+          "b": -15
+        },
+        {
+          "property": "designator_y",
+          "a": 5,
+          "b": 18
+        },
+        {
+          "property": "lines",
+          "a": null,
+          "b": [
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": -5,
+              "y1": -12,
+              "x2": -5,
+              "y2": 12,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": 5,
+              "y1": -12,
+              "x2": 5,
+              "y2": 12,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            }
+          ]
+        },
+        {
+          "property": "pins[0].length",
+          "a": 20,
+          "b": 25
+        },
+        {
+          "property": "pins[0].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].x",
+          "a": -70,
+          "b": -5
+        },
+        {
+          "property": "pins[1].length",
+          "a": 20,
+          "b": 25
+        },
+        {
+          "property": "pins[1].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].x",
+          "a": 70,
+          "b": 5
+        },
+        {
+          "property": "rectangles",
+          "a": [
+            {
+              "owner_part_id": 1,
+              "x1": -70,
+              "y1": -10,
+              "x2": 70,
+              "y2": 20,
+              "line_width": 1,
+              "line_color": 128,
+              "fill_color": 11599871,
+              "filled": true,
+              "transparent": false,
+              "line_style": 0
+            }
+          ],
+          "b": null
+        }
+      ]
+    },
+    {
+      "name": "SS3P6L-M3_86A",
+      "changes": [
+        {
+          "property": "designator_x",
+          "a": -5,
+          "b": -15
+        },
+        {
+          "property": "designator_y",
+          "a": 5,
+          "b": 35
+        },
+        {
+          "property": "lines",
+          "a": null,
+          "b": [
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": -70,
+              "y1": 20,
+              "x2": -25,
+              "y2": 20,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": -70,
+              "y1": -20,
+              "x2": -25,
+              "y2": -20,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": -25,
+              "y1": 20,
+              "x2": -25,
+              "y2": -20,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": -25,
+              "y1": 0,
+              "x2": -12,
+              "y2": 0,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": 10,
+              "y1": -12,
+              "x2": 10,
+              "y2": 12,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": 10,
+              "y1": 12,
+              "x2": 16,
+              "y2": 12,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": 16,
+              "y1": 12,
+              "x2": 16,
+              "y2": 7,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": 10,
+              "y1": -12,
+              "x2": 4,
+              "y2": -12,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": 4,
+              "y1": -12,
+              "x2": 4,
+              "y2": -7,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": 10,
+              "y1": 0,
+              "x2": 70,
+              "y2": 0,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            }
+          ]
+        },
+        {
+          "property": "pins[0].x",
+          "a": -80,
+          "b": -70
+        },
+        {
+          "property": "pins[1].x",
+          "a": -80,
+          "b": -70
+        },
+        {
+          "property": "pins[1].y",
+          "a": 0,
+          "b": -20
+        },
+        {
+          "property": "pins[2].x",
+          "a": 80,
+          "b": 70
+        },
+        {
+          "property": "pins[2].y",
+          "a": 20,
+          "b": 0
+        },
+        {
+          "property": "polygons",
+          "a": null,
+          "b": [
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "line_width": 1,
+              "line_color": 128,
+              "fill_color": 11599871,
+              "filled": false,
+              "transparent": false,
+              "line_style": 0,
+              "points": [
+                {
+                  "x": -12,
+                  "y": -12
+                },
+                {
+                  "x": -12,
+                  "y": 12
+                },
+                {
+                  "x": 10,
+                  "y": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "property": "rectangles",
+          "a": [
+            {
+              "owner_part_id": 1,
+              "x1": -80,
+              "y1": -10,
+              "x2": 80,
+              "y2": 40,
+              "line_width": 1,
+              "line_color": 128,
+              "fill_color": 11599871,
+              "filled": true,
+              "transparent": false,
+              "line_style": 0
+            }
+          ],
+          "b": null
+        }
+      ]
+    },
+    {
+      "name": "XAL4040-103MEC",
+      "changes": [
+        {
+          "property": "arcs",
+          "a": null,
+          "b": [
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x": -15,
+              "y": 0,
+              "radius": 5,
+              "line_width": 1,
+              "start_angle": 0,
+              "end_angle": 180,
+              "color": 128,
+              "fill_color": 0
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x": -5,
+              "y": 0,
+              "radius": 5,
+              "line_width": 1,
+              "start_angle": 0,
+              "end_angle": 180,
+              "color": 128,
+              "fill_color": 0
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x": 5,
+              "y": 0,
+              "radius": 5,
+              "line_width": 1,
+              "start_angle": 0,
+              "end_angle": 180,
+              "color": 128,
+              "fill_color": 0
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x": 15,
+              "y": 0,
+              "radius": 5,
+              "line_width": 1,
+              "start_angle": 0,
+              "end_angle": 180,
+              "color": 128,
+              "fill_color": 0
+            }
+          ]
+        },
+        {
+          "property": "designator_x",
+          "a": -5,
+          "b": -15
+        },
+        {
+          "property": "designator_y",
+          "a": 5,
+          "b": 18
+        },
+        {
+          "property": "pins[0].length",
+          "a": 20,
+          "b": 10
+        },
+        {
+          "property": "pins[0].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].x",
+          "a": -60,
+          "b": -20
+        },
+        {
+          "property": "pins[1].length",
+          "a": 20,
+          "b": 10
+        },
+        {
+          "property": "pins[1].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].x",
+          "a": 60,
+          "b": 20
+        },
+        {
+          "property": "rectangles",
+          "a": [
+            {
+              "owner_part_id": 1,
+              "x1": -60,
+              "y1": -10,
+              "x2": 60,
+              "y2": 20,
+              "line_width": 1,
+              "line_color": 128,
+              "fill_color": 11599871,
+              "filled": true,
+              "transparent": false,
+              "line_style": 0
+            }
+          ],
+          "b": null
+        }
+      ]
+    },
+    {
+      "name": "0451002.MRL",
+      "changes": [
+        {
+          "property": "designator_x",
+          "a": -5,
+          "b": -15
+        },
+        {
+          "property": "designator_y",
+          "a": 5,
+          "b": 18
+        },
+        {
+          "property": "lines",
+          "a": null,
+          "b": [
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": -15,
+              "y1": 0,
+              "x2": 15,
+              "y2": 0,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            }
+          ]
+        },
+        {
+          "property": "pins[0].length",
+          "a": 20,
+          "b": 15
+        },
+        {
+          "property": "pins[0].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].x",
+          "a": -80,
+          "b": -15
+        },
+        {
+          "property": "pins[1].length",
+          "a": 20,
+          "b": 15
+        },
+        {
+          "property": "pins[1].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].x",
+          "a": 80,
+          "b": 15
+        },
+        {
+          "property": "rectangles[0].filled",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "rectangles[0].x1",
+          "a": -80,
+          "b": -15
+        },
+        {
+          "property": "rectangles[0].x2",
+          "a": 80,
+          "b": 15
+        },
+        {
+          "property": "rectangles[0].y1",
+          "a": -10,
+          "b": -6
+        },
+        {
+          "property": "rectangles[0].y2",
+          "a": 20,
+          "b": 6
+        }
+      ]
+    },
+    {
+      "name": "RC0603FR-0715KL",
+      "changes": [
+        {
+          "property": "designator_x",
+          "a": -5,
+          "b": -15
+        },
+        {
+          "property": "designator_y",
+          "a": 5,
+          "b": 18
+        },
+        {
+          "property": "pins[0].length",
+          "a": 20,
+          "b": 15
+        },
+        {
+          "property": "pins[0].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].x",
+          "a": -70,
+          "b": -15
+        },
+        {
+          "property": "pins[1].length",
+          "a": 20,
+          "b": 15
+        },
+        {
+          "property": "pins[1].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].x",
+          "a": 70,
+          "b": 15
+        },
+        {
+          "property": "rectangles[0].filled",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "rectangles[0].x1",
+          "a": -70,
+          "b": -15
+        },
+        {
+          "property": "rectangles[0].x2",
+          "a": 70,
+          "b": 15
+        },
+        {
+          "property": "rectangles[0].y1",
+          "a": -10,
+          "b": -6
+        },
+        {
+          "property": "rectangles[0].y2",
+          "a": 20,
+          "b": 6
+        }
+      ]
+    },
+    {
+      "name": "C5750X7R2A475K230KA",
+      "changes": [
+        {
+          "property": "designator_x",
+          "a": -5,
+          "b": -15
+        },
+        {
+          "property": "designator_y",
+          "a": 5,
+          "b": 18
+        },
+        {
+          "property": "lines",
+          "a": null,
+          "b": [
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": -5,
+              "y1": -12,
+              "x2": -5,
+              "y2": 12,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": 5,
+              "y1": -12,
+              "x2": 5,
+              "y2": 12,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            }
+          ]
+        },
+        {
+          "property": "pins[0].length",
+          "a": 20,
+          "b": 25
+        },
+        {
+          "property": "pins[0].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].x",
+          "a": -70,
+          "b": -5
+        },
+        {
+          "property": "pins[1].length",
+          "a": 20,
+          "b": 25
+        },
+        {
+          "property": "pins[1].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].x",
+          "a": 70,
+          "b": 5
+        },
+        {
+          "property": "rectangles",
+          "a": [
+            {
+              "owner_part_id": 1,
+              "x1": -70,
+              "y1": -10,
+              "x2": 70,
+              "y2": 20,
+              "line_width": 1,
+              "line_color": 128,
+              "fill_color": 11599871,
+              "filled": true,
+              "transparent": false,
+              "line_style": 0
+            }
+          ],
+          "b": null
+        }
+      ]
+    },
+    {
+      "name": "C0805C224K1RACTU",
+      "changes": [
+        {
+          "property": "designator_x",
+          "a": -5,
+          "b": -15
+        },
+        {
+          "property": "designator_y",
+          "a": 5,
+          "b": 18
+        },
+        {
+          "property": "lines",
+          "a": null,
+          "b": [
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": -5,
+              "y1": -12,
+              "x2": -5,
+              "y2": 12,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x1": 5,
+              "y1": -12,
+              "x2": 5,
+              "y2": 12,
+              "line_width": 1,
+              "line_style": 0,
+              "color": 128
+            }
+          ]
+        },
+        {
+          "property": "pins[0].length",
+          "a": 20,
+          "b": 25
+        },
+        {
+          "property": "pins[0].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].x",
+          "a": -70,
+          "b": -5
+        },
+        {
+          "property": "pins[1].length",
+          "a": 20,
+          "b": 25
+        },
+        {
+          "property": "pins[1].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].x",
+          "a": 70,
+          "b": 5
+        },
+        {
+          "property": "rectangles",
+          "a": [
+            {
+              "owner_part_id": 1,
+              "x1": -70,
+              "y1": -10,
+              "x2": 70,
+              "y2": 20,
+              "line_width": 1,
+              "line_color": 128,
+              "fill_color": 11599871,
+              "filled": true,
+              "transparent": false,
+              "line_style": 0
+            }
+          ],
+          "b": null
+        }
+      ]
+    },
+    {
+      "name": "XAL4030-682MEC",
+      "changes": [
+        {
+          "property": "arcs",
+          "a": null,
+          "b": [
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x": -15,
+              "y": 0,
+              "radius": 5,
+              "line_width": 1,
+              "start_angle": 0,
+              "end_angle": 180,
+              "color": 128,
+              "fill_color": 0
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x": -5,
+              "y": 0,
+              "radius": 5,
+              "line_width": 1,
+              "start_angle": 0,
+              "end_angle": 180,
+              "color": 128,
+              "fill_color": 0
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x": 5,
+              "y": 0,
+              "radius": 5,
+              "line_width": 1,
+              "start_angle": 0,
+              "end_angle": 180,
+              "color": 128,
+              "fill_color": 0
+            },
+            {
+              "owner_part_id": 1,
+              "is_not_accessible": true,
+              "x": 15,
+              "y": 0,
+              "radius": 5,
+              "line_width": 1,
+              "start_angle": 0,
+              "end_angle": 180,
+              "color": 128,
+              "fill_color": 0
+            }
+          ]
+        },
+        {
+          "property": "designator_x",
+          "a": -5,
+          "b": -15
+        },
+        {
+          "property": "designator_y",
+          "a": 5,
+          "b": 18
+        },
+        {
+          "property": "pins[0].length",
+          "a": 20,
+          "b": 10
+        },
+        {
+          "property": "pins[0].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].x",
+          "a": -60,
+          "b": -20
+        },
+        {
+          "property": "pins[1].length",
+          "a": 20,
+          "b": 10
+        },
+        {
+          "property": "pins[1].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].x",
+          "a": 60,
+          "b": 20
+        },
+        {
+          "property": "rectangles",
+          "a": [
+            {
+              "owner_part_id": 1,
+              "x1": -60,
+              "y1": -10,
+              "x2": 60,
+              "y2": 20,
+              "line_width": 1,
+              "line_color": 128,
+              "fill_color": 11599871,
+              "filled": true,
+              "transparent": false,
+              "line_style": 0
+            }
+          ],
+          "b": null
+        }
+      ]
+    },
+    {
+      "name": "RC0603FR-0762KL",
+      "changes": [
+        {
+          "property": "designator_x",
+          "a": -5,
+          "b": -15
+        },
+        {
+          "property": "designator_y",
+          "a": 5,
+          "b": 18
+        },
+        {
+          "property": "pins[0].length",
+          "a": 20,
+          "b": 15
+        },
+        {
+          "property": "pins[0].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[0].x",
+          "a": -70,
+          "b": -15
+        },
+        {
+          "property": "pins[1].length",
+          "a": 20,
+          "b": 15
+        },
+        {
+          "property": "pins[1].show_designator",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].show_name",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "pins[1].x",
+          "a": 70,
+          "b": 15
+        },
+        {
+          "property": "rectangles[0].filled",
+          "a": true,
+          "b": false
+        },
+        {
+          "property": "rectangles[0].x1",
+          "a": -70,
+          "b": -15
+        },
+        {
+          "property": "rectangles[0].x2",
+          "a": 70,
+          "b": 15
+        },
+        {
+          "property": "rectangles[0].y1",
+          "a": -10,
+          "b": -6
+        },
+        {
+          "property": "rectangles[0].y2",
+          "a": 20,
+          "b": 6
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "added_count": 6,
+    "removed_count": 0,
+    "modified_count": 14,
+    "unchanged_count": 44,
+    "components_in_a": 58,
+    "components_in_b": 64
+  }
+}

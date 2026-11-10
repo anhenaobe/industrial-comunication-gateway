@@ -1,0 +1,4565 @@
+{
+  "open": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"project_path\": \"C:/dev/7mo/design/industrial-linux-gateway/hardware/academic_rev1/libraries/Gateway_Academic.LibPkg\",\n  \"focused\": true,\n  \"note\": \"focus follows the active DOCUMENT, not this call. If focused is false, activate one of the project's documents with app_set_active_document before using tools that default to the focused project.\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "project_path": "C:/dev/7mo/design/industrial-linux-gateway/hardware/academic_rev1/libraries/Gateway_Academic.LibPkg",
+      "focused": true,
+      "note": "focus follows the active DOCUMENT, not this call. If focused is false, activate one of the project's documents with app_set_active_document before using tools that default to the focused project."
+    },
+    "isError": false
+  },
+  "write_sch": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\": \"success\", \"filepath\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.SchLib\", \"symbol_count\": 44, \"symbol_names\": [\"STM32H723VET6\", \"DP83826IRHBR\", \"LMR36015FBRNXR\", \"THVD1420DR\", \"ATA6561-GAQW\", \"ISO1212DBQR\", \"SN74LVC2T45DCTR\", \"BSP75NTA\", \"GW_C0603C104K5RACTU_dc5e12a5\", \"GW_C0805C475K4RACTU_82374e08\", \"GW_CL10A105KB8NNNC_c3932faa\", \"GW_C0603C225K8RACTU_46503424\", \"GW_FRC0603J103TS_7289f91d\", \"GW_H_Male_6x1_TH_100mil_c0450d1e\", \"GW_Sw_PUSH_4.5x4.5x5.0xmm_0f078dd9\", \"GW_H_Male_2x1_TH_100mil_f89d9046\", \"GW_C0603C103K1RACTU_97f3ee33\", \"GW_CL21A106KAYNNNE_c6e24382\", \"GW_C0603C202J5GACTU_fa733a70\", \"GW_RC0603FR-076K49L_f42a9329\", \"GW_RC0603FR-072K49L_b905c5f0\", \"GW_HCB1608KF-600T20_c68e3ad6\", \"GW_XAL4030-682MEC_71dfd711\", \"GW_C5750X7R2A475K230KA_5f18f946\", \"GW_C0805C224K1RACTU_e16e52b8\", \"GW_C3225X7R1C156M250AB_bb412b42\", \"GW_RC0603FR-07100KL_ac663db8\", \"GW_RC0603FR-0743K2L_a8308c0c\", \"GW_C0603C200J5GACTU_c75b007a\", \"GW_XAL4040-103MEC_b36cb917\", \"GW_RC0603FR-0724K9L_10698e9e\", \"GW_JL126-50002G01_16238e52\", \"GW_CRCW0603010RJNEAHP_c8eb51d2\", \"GW_MX126-5.0-03P-GN01-Cu-S-A_d57a488f\", \"GW_JL126-50002G01_ddbad43f\", \"GW_RC0603FR-07562RL_a6fad8df\", \"GW_MX126-5.0-03P-GN01-Cu-S-A_8a7ef64c\", \"KC2016Z25.0000C15XXK\", \"HX1188FNL\", \"XAL4030-682MEC\", \"XAL4040-103MEC\", \"CDSOT23-SM712\", \"TPD4E05U06DQAR\", \"SS-7188S-A-NF\"], \"validation\": {\"status\": \"valid\", \"error_count\": 0, \"warning_count\": 0, \"issues\": []}, \"geometry\": [{\"name\": \"STM32H723VET6\", \"pins\": [{\"designator\": \"1\", \"name\": \"PE2\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 490}, \"tip\": {\"x\": -100, \"y\": 490}}, {\"designator\": \"2\", \"name\": \"PE3\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 480}, \"tip\": {\"x\": -100, \"y\": 480}}, {\"designator\": \"3\", \"name\": \"PE4\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 470}, \"tip\": {\"x\": -100, \"y\": 470}}, {\"designator\": \"4\", \"name\": \"PE5\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 460}, \"tip\": {\"x\": -100, \"y\": 460}}, {\"designator\": \"5\", \"name\": \"PE6\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 450}, \"tip\": {\"x\": -100, \"y\": 450}}, {\"designator\": \"6\", \"name\": \"VBAT\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 440}, \"tip\": {\"x\": -100, \"y\": 440}}, {\"designator\": \"7\", \"name\": \"PC13\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 430}, \"tip\": {\"x\": -100, \"y\": 430}}, {\"designator\": \"8\", \"name\": \"PC14\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 420}, \"tip\": {\"x\": -100, \"y\": 420}}, {\"designator\": \"9\", \"name\": \"PC15\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 410}, \"tip\": {\"x\": -100, \"y\": 410}}, {\"designator\": \"10\", \"name\": \"VSS\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 400}, \"tip\": {\"x\": -100, \"y\": 400}}, {\"designator\": \"11\", \"name\": \"VDD\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 390}, \"tip\": {\"x\": -100, \"y\": 390}}, {\"designator\": \"12\", \"name\": \"PH0\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 380}, \"tip\": {\"x\": -100, \"y\": 380}}, {\"designator\": \"13\", \"name\": \"PH1\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 370}, \"tip\": {\"x\": -100, \"y\": 370}}, {\"designator\": \"14\", \"name\": \"NRST\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 360}, \"tip\": {\"x\": -100, \"y\": 360}}, {\"designator\": \"15\", \"name\": \"PC0\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 350}, \"tip\": {\"x\": -100, \"y\": 350}}, {\"designator\": \"16\", \"name\": \"PC1\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 340}, \"tip\": {\"x\": -100, \"y\": 340}}, {\"designator\": \"17\", \"name\": \"PC2_C\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 330}, \"tip\": {\"x\": -100, \"y\": 330}}, {\"designator\": \"18\", \"name\": \"PC3_C\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 320}, \"tip\": {\"x\": -100, \"y\": 320}}, {\"designator\": \"19\", \"name\": \"VSSA\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 310}, \"tip\": {\"x\": -100, \"y\": 310}}, {\"designator\": \"20\", \"name\": \"VREF+\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 300}, \"tip\": {\"x\": -100, \"y\": 300}}, {\"designator\": \"21\", \"name\": \"VDDA\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 290}, \"tip\": {\"x\": -100, \"y\": 290}}, {\"designator\": \"22\", \"name\": \"PA0\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 280}, \"tip\": {\"x\": -100, \"y\": 280}}, {\"designator\": \"23\", \"name\": \"PA1\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 270}, \"tip\": {\"x\": -100, \"y\": 270}}, {\"designator\": \"24\", \"name\": \"PA2\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 260}, \"tip\": {\"x\": -100, \"y\": 260}}, {\"designator\": \"25\", \"name\": \"PA3\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 250}, \"tip\": {\"x\": -100, \"y\": 250}}, {\"designator\": \"26\", \"name\": \"VSS\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 240}, \"tip\": {\"x\": -100, \"y\": 240}}, {\"designator\": \"27\", \"name\": \"VDD\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 230}, \"tip\": {\"x\": -100, \"y\": 230}}, {\"designator\": \"28\", \"name\": \"PA4\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 220}, \"tip\": {\"x\": -100, \"y\": 220}}, {\"designator\": \"29\", \"name\": \"PA5\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 210}, \"tip\": {\"x\": -100, \"y\": 210}}, {\"designator\": \"30\", \"name\": \"PA6\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 200}, \"tip\": {\"x\": -100, \"y\": 200}}, {\"designator\": \"31\", \"name\": \"PA7\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 190}, \"tip\": {\"x\": -100, \"y\": 190}}, {\"designator\": \"32\", \"name\": \"PC4\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 180}, \"tip\": {\"x\": -100, \"y\": 180}}, {\"designator\": \"33\", \"name\": \"PC5\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 170}, \"tip\": {\"x\": -100, \"y\": 170}}, {\"designator\": \"34\", \"name\": \"PB0\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 160}, \"tip\": {\"x\": -100, \"y\": 160}}, {\"designator\": \"35\", \"name\": \"PB1\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 150}, \"tip\": {\"x\": -100, \"y\": 150}}, {\"designator\": \"36\", \"name\": \"PB2\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 140}, \"tip\": {\"x\": -100, \"y\": 140}}, {\"designator\": \"37\", \"name\": \"PE7\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 130}, \"tip\": {\"x\": -100, \"y\": 130}}, {\"designator\": \"38\", \"name\": \"PE8\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 120}, \"tip\": {\"x\": -100, \"y\": 120}}, {\"designator\": \"39\", \"name\": \"PE9\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 110}, \"tip\": {\"x\": -100, \"y\": 110}}, {\"designator\": \"40\", \"name\": \"PE10\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 100}, \"tip\": {\"x\": -100, \"y\": 100}}, {\"designator\": \"41\", \"name\": \"PE11\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 90}, \"tip\": {\"x\": -100, \"y\": 90}}, {\"designator\": \"42\", \"name\": \"PE12\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 80}, \"tip\": {\"x\": -100, \"y\": 80}}, {\"designator\": \"43\", \"name\": \"PE13\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 70}, \"tip\": {\"x\": -100, \"y\": 70}}, {\"designator\": \"44\", \"name\": \"PE14\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 60}, \"tip\": {\"x\": -100, \"y\": 60}}, {\"designator\": \"45\", \"name\": \"PE15\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 50}, \"tip\": {\"x\": -100, \"y\": 50}}, {\"designator\": \"46\", \"name\": \"PB10\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 40}, \"tip\": {\"x\": -100, \"y\": 40}}, {\"designator\": \"47\", \"name\": \"PB11\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 30}, \"tip\": {\"x\": -100, \"y\": 30}}, {\"designator\": \"48\", \"name\": \"VCAP\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 20}, \"tip\": {\"x\": -100, \"y\": 20}}, {\"designator\": \"49\", \"name\": \"VSS\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 10}, \"tip\": {\"x\": -100, \"y\": 10}}, {\"designator\": \"50\", \"name\": \"VDD\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 0}, \"tip\": {\"x\": -100, \"y\": 0}}, {\"designator\": \"51\", \"name\": \"PB12\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 0}, \"tip\": {\"x\": 100, \"y\": 0}}, {\"designator\": \"52\", \"name\": \"PB13\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 10}, \"tip\": {\"x\": 100, \"y\": 10}}, {\"designator\": \"53\", \"name\": \"PB14\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 20}, \"tip\": {\"x\": 100, \"y\": 20}}, {\"designator\": \"54\", \"name\": \"PB15\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 30}, \"tip\": {\"x\": 100, \"y\": 30}}, {\"designator\": \"55\", \"name\": \"PD8\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 40}, \"tip\": {\"x\": 100, \"y\": 40}}, {\"designator\": \"56\", \"name\": \"PD9\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 50}, \"tip\": {\"x\": 100, \"y\": 50}}, {\"designator\": \"57\", \"name\": \"PD10\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 60}, \"tip\": {\"x\": 100, \"y\": 60}}, {\"designator\": \"58\", \"name\": \"PD11\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 70}, \"tip\": {\"x\": 100, \"y\": 70}}, {\"designator\": \"59\", \"name\": \"PD12\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 80}, \"tip\": {\"x\": 100, \"y\": 80}}, {\"designator\": \"60\", \"name\": \"PD13\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 90}, \"tip\": {\"x\": 100, \"y\": 90}}, {\"designator\": \"61\", \"name\": \"PD14\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 100}, \"tip\": {\"x\": 100, \"y\": 100}}, {\"designator\": \"62\", \"name\": \"PD15\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 110}, \"tip\": {\"x\": 100, \"y\": 110}}, {\"designator\": \"63\", \"name\": \"PC6\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 120}, \"tip\": {\"x\": 100, \"y\": 120}}, {\"designator\": \"64\", \"name\": \"PC7\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 130}, \"tip\": {\"x\": 100, \"y\": 130}}, {\"designator\": \"65\", \"name\": \"PC8\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 140}, \"tip\": {\"x\": 100, \"y\": 140}}, {\"designator\": \"66\", \"name\": \"PC9\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 150}, \"tip\": {\"x\": 100, \"y\": 150}}, {\"designator\": \"67\", \"name\": \"PA8\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 160}, \"tip\": {\"x\": 100, \"y\": 160}}, {\"designator\": \"68\", \"name\": \"PA9\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 170}, \"tip\": {\"x\": 100, \"y\": 170}}, {\"designator\": \"69\", \"name\": \"PA10\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 180}, \"tip\": {\"x\": 100, \"y\": 180}}, {\"designator\": \"70\", \"name\": \"PA11\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 190}, \"tip\": {\"x\": 100, \"y\": 190}}, {\"designator\": \"71\", \"name\": \"PA12\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 200}, \"tip\": {\"x\": 100, \"y\": 200}}, {\"designator\": \"72\", \"name\": \"PA13\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 210}, \"tip\": {\"x\": 100, \"y\": 210}}, {\"designator\": \"73\", \"name\": \"VCAP\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 220}, \"tip\": {\"x\": 100, \"y\": 220}}, {\"designator\": \"74\", \"name\": \"VSS\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 230}, \"tip\": {\"x\": 100, \"y\": 230}}, {\"designator\": \"75\", \"name\": \"VDD\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 240}, \"tip\": {\"x\": 100, \"y\": 240}}, {\"designator\": \"76\", \"name\": \"PA14\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 250}, \"tip\": {\"x\": 100, \"y\": 250}}, {\"designator\": \"77\", \"name\": \"PA15\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 260}, \"tip\": {\"x\": 100, \"y\": 260}}, {\"designator\": \"78\", \"name\": \"PC10\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 270}, \"tip\": {\"x\": 100, \"y\": 270}}, {\"designator\": \"79\", \"name\": \"PC11\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 280}, \"tip\": {\"x\": 100, \"y\": 280}}, {\"designator\": \"80\", \"name\": \"PC12\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 290}, \"tip\": {\"x\": 100, \"y\": 290}}, {\"designator\": \"81\", \"name\": \"PD0\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 300}, \"tip\": {\"x\": 100, \"y\": 300}}, {\"designator\": \"82\", \"name\": \"PD1\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 310}, \"tip\": {\"x\": 100, \"y\": 310}}, {\"designator\": \"83\", \"name\": \"PD2\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 320}, \"tip\": {\"x\": 100, \"y\": 320}}, {\"designator\": \"84\", \"name\": \"PD3\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 330}, \"tip\": {\"x\": 100, \"y\": 330}}, {\"designator\": \"85\", \"name\": \"PD4\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 340}, \"tip\": {\"x\": 100, \"y\": 340}}, {\"designator\": \"86\", \"name\": \"PD5\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 350}, \"tip\": {\"x\": 100, \"y\": 350}}, {\"designator\": \"87\", \"name\": \"PD6\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 360}, \"tip\": {\"x\": 100, \"y\": 360}}, {\"designator\": \"88\", \"name\": \"PD7\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 370}, \"tip\": {\"x\": 100, \"y\": 370}}, {\"designator\": \"89\", \"name\": \"PB3\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 380}, \"tip\": {\"x\": 100, \"y\": 380}}, {\"designator\": \"90\", \"name\": \"PB4\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 390}, \"tip\": {\"x\": 100, \"y\": 390}}, {\"designator\": \"91\", \"name\": \"PB5\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 400}, \"tip\": {\"x\": 100, \"y\": 400}}, {\"designator\": \"92\", \"name\": \"PB6\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 410}, \"tip\": {\"x\": 100, \"y\": 410}}, {\"designator\": \"93\", \"name\": \"PB7\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 420}, \"tip\": {\"x\": 100, \"y\": 420}}, {\"designator\": \"94\", \"name\": \"BOOT0\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 430}, \"tip\": {\"x\": 100, \"y\": 430}}, {\"designator\": \"95\", \"name\": \"PB8\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 440}, \"tip\": {\"x\": 100, \"y\": 440}}, {\"designator\": \"96\", \"name\": \"PB9\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 450}, \"tip\": {\"x\": 100, \"y\": 450}}, {\"designator\": \"97\", \"name\": \"PE0\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 460}, \"tip\": {\"x\": 100, \"y\": 460}}, {\"designator\": \"98\", \"name\": \"PE1\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 470}, \"tip\": {\"x\": 100, \"y\": 470}}, {\"designator\": \"99\", \"name\": \"VSS\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 480}, \"tip\": {\"x\": 100, \"y\": 480}}, {\"designator\": \"100\", \"name\": \"VDD\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 490}, \"tip\": {\"x\": 100, \"y\": 490}}], \"bounding_box\": {\"min_x\": -100, \"max_x\": 100, \"min_y\": -10.0, \"max_y\": 500.0}}, {\"name\": \"DP83826IRHBR\", \"pins\": [{\"designator\": \"1\", \"name\": \"ModeSelect\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 160}, \"tip\": {\"x\": -100, \"y\": 160}}, {\"designator\": \"2\", \"name\": \"CEXT\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 150}, \"tip\": {\"x\": -100, \"y\": 150}}, {\"designator\": \"3\", \"name\": \"VDDA3V3\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 140}, \"tip\": {\"x\": -100, \"y\": 140}}, {\"designator\": \"4\", \"name\": \"RD_M\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 130}, \"tip\": {\"x\": -100, \"y\": 130}}, {\"designator\": \"5\", \"name\": \"RD_P\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 120}, \"tip\": {\"x\": -100, \"y\": 120}}, {\"designator\": \"6\", \"name\": \"TD_M\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 110}, \"tip\": {\"x\": -100, \"y\": 110}}, {\"designator\": \"7\", \"name\": \"TD_P\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 100}, \"tip\": {\"x\": -100, \"y\": 100}}, {\"designator\": \"8\", \"name\": \"XO\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 90}, \"tip\": {\"x\": -100, \"y\": 90}}, {\"designator\": \"9\", \"name\": \"XI/50MHzIn\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 80}, \"tip\": {\"x\": -100, \"y\": 80}}, {\"designator\": \"10\", \"name\": \"RBIAS\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 70}, \"tip\": {\"x\": -100, \"y\": 70}}, {\"designator\": \"11\", \"name\": \"MDIO\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 60}, \"tip\": {\"x\": -100, \"y\": 60}}, {\"designator\": \"12\", \"name\": \"MDC\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 50}, \"tip\": {\"x\": -100, \"y\": 50}}, {\"designator\": \"13\", \"name\": \"RX_D3\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 40}, \"tip\": {\"x\": -100, \"y\": 40}}, {\"designator\": \"14\", \"name\": \"RX_D2\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 30}, \"tip\": {\"x\": -100, \"y\": 30}}, {\"designator\": \"15\", \"name\": \"RX_D1\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 20}, \"tip\": {\"x\": -100, \"y\": 20}}, {\"designator\": \"16\", \"name\": \"RX_D0\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 10}, \"tip\": {\"x\": -100, \"y\": 10}}, {\"designator\": \"17\", \"name\": \"VDDIO\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 0}, \"tip\": {\"x\": -100, \"y\": 0}}, {\"designator\": \"18\", \"name\": \"RX_DV/CRS_DV\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 10}, \"tip\": {\"x\": 100, \"y\": 10}}, {\"designator\": \"19\", \"name\": \"RX_CLK/50MHz_RMII\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 20}, \"tip\": {\"x\": 100, \"y\": 20}}, {\"designator\": \"20\", \"name\": \"RX_ER\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 30}, \"tip\": {\"x\": 100, \"y\": 30}}, {\"designator\": \"21\", \"name\": \"PWRDN/INT\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 40}, \"tip\": {\"x\": 100, \"y\": 40}}, {\"designator\": \"22\", \"name\": \"TX_CLK\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 50}, \"tip\": {\"x\": 100, \"y\": 50}}, {\"designator\": \"23\", \"name\": \"TX_EN\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 60}, \"tip\": {\"x\": 100, \"y\": 60}}, {\"designator\": \"24\", \"name\": \"TX_D0\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 70}, \"tip\": {\"x\": 100, \"y\": 70}}, {\"designator\": \"25\", \"name\": \"TX_D1\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 80}, \"tip\": {\"x\": 100, \"y\": 80}}, {\"designator\": \"26\", \"name\": \"TX_D2\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 90}, \"tip\": {\"x\": 100, \"y\": 90}}, {\"designator\": \"27\", \"name\": \"TX_D3\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 100}, \"tip\": {\"x\": 100, \"y\": 100}}, {\"designator\": \"28\", \"name\": \"COL/LED2/TX_ER/GPIO\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 110}, \"tip\": {\"x\": 100, \"y\": 110}}, {\"designator\": \"29\", \"name\": \"CRS/LED3\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 120}, \"tip\": {\"x\": 100, \"y\": 120}}, {\"designator\": \"30\", \"name\": \"LED0\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 130}, \"tip\": {\"x\": 100, \"y\": 130}}, {\"designator\": \"31\", \"name\": \"CLKOUT/LED1\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 140}, \"tip\": {\"x\": 100, \"y\": 140}}, {\"designator\": \"32\", \"name\": \"RST_N\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 150}, \"tip\": {\"x\": 100, \"y\": 150}}, {\"designator\": \"33\", \"name\": \"GND_EP\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 160}, \"tip\": {\"x\": 100, \"y\": 160}}], \"bounding_box\": {\"min_x\": -100, \"max_x\": 100, \"min_y\": -10.0, \"max_y\": 170.0}}, {\"name\": \"LMR36015FBRNXR\", \"pins\": [{\"designator\": \"1\", \"name\": \"PGND\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 50}, \"tip\": {\"x\": -100, \"y\": 50}}, {\"designator\": \"2\", \"name\": \"VIN\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 40}, \"tip\": {\"x\": -100, \"y\": 40}}, {\"designator\": \"3\", \"name\": \"NC\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 30}, \"tip\": {\"x\": -100, \"y\": 30}}, {\"designator\": \"4\", \"name\": \"BOOT\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 20}, \"tip\": {\"x\": -100, \"y\": 20}}, {\"designator\": \"5\", \"name\": \"VCC\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 10}, \"tip\": {\"x\": -100, \"y\": 10}}, {\"designator\": \"6\", \"name\": \"AGND\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 0}, \"tip\": {\"x\": -100, \"y\": 0}}, {\"designator\": \"7\", \"name\": \"FB\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 0}, \"tip\": {\"x\": 100, \"y\": 0}}, {\"designator\": \"8\", \"name\": \"PG\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 10}, \"tip\": {\"x\": 100, \"y\": 10}}, {\"designator\": \"9\", \"name\": \"EN\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 20}, \"tip\": {\"x\": 100, \"y\": 20}}, {\"designator\": \"10\", \"name\": \"VIN\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 30}, \"tip\": {\"x\": 100, \"y\": 30}}, {\"designator\": \"11\", \"name\": \"PGND\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 40}, \"tip\": {\"x\": 100, \"y\": 40}}, {\"designator\": \"12\", \"name\": \"SW\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 50}, \"tip\": {\"x\": 100, \"y\": 50}}], \"bounding_box\": {\"min_x\": -100, \"max_x\": 100, \"min_y\": -10.0, \"max_y\": 60.0}}, {\"name\": \"THVD1420DR\", \"pins\": [{\"designator\": \"1\", \"name\": \"R\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 30}, \"tip\": {\"x\": -100, \"y\": 30}}, {\"designator\": \"2\", \"name\": \"/RE\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 20}, \"tip\": {\"x\": -100, \"y\": 20}}, {\"designator\": \"3\", \"name\": \"DE\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 10}, \"tip\": {\"x\": -100, \"y\": 10}}, {\"designator\": \"4\", \"name\": \"D\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 0}, \"tip\": {\"x\": -100, \"y\": 0}}, {\"designator\": \"5\", \"name\": \"GND\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 0}, \"tip\": {\"x\": 100, \"y\": 0}}, {\"designator\": \"6\", \"name\": \"A\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 10}, \"tip\": {\"x\": 100, \"y\": 10}}, {\"designator\": \"7\", \"name\": \"B\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 20}, \"tip\": {\"x\": 100, \"y\": 20}}, {\"designator\": \"8\", \"name\": \"VCC\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 30}, \"tip\": {\"x\": 100, \"y\": 30}}], \"bounding_box\": {\"min_x\": -100, \"max_x\": 100, \"min_y\": -10.0, \"max_y\": 40.0}}, {\"name\": \"ATA6561-GAQW\", \"pins\": [{\"designator\": \"1\", \"name\": \"TXD\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 30}, \"tip\": {\"x\": -100, \"y\": 30}}, {\"designator\": \"2\", \"name\": \"GND\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 20}, \"tip\": {\"x\": -100, \"y\": 20}}, {\"designator\": \"3\", \"name\": \"VCC\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 10}, \"tip\": {\"x\": -100, \"y\": 10}}, {\"designator\": \"4\", \"name\": \"RXD\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 0}, \"tip\": {\"x\": -100, \"y\": 0}}, {\"designator\": \"5\", \"name\": \"VIO\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 0}, \"tip\": {\"x\": 100, \"y\": 0}}, {\"designator\": \"6\", \"name\": \"CANL\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 10}, \"tip\": {\"x\": 100, \"y\": 10}}, {\"designator\": \"7\", \"name\": \"CANH\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 20}, \"tip\": {\"x\": 100, \"y\": 20}}, {\"designator\": \"8\", \"name\": \"STBY\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 30}, \"tip\": {\"x\": 100, \"y\": 30}}], \"bounding_box\": {\"min_x\": -100, \"max_x\": 100, \"min_y\": -10.0, \"max_y\": 40.0}}, {\"name\": \"ISO1212DBQR\", \"pins\": [{\"designator\": \"1\", \"name\": \"GND1\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 70}, \"tip\": {\"x\": -100, \"y\": 70}}, {\"designator\": \"2\", \"name\": \"VCC1\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 60}, \"tip\": {\"x\": -100, \"y\": 60}}, {\"designator\": \"3\", \"name\": \"EN\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 50}, \"tip\": {\"x\": -100, \"y\": 50}}, {\"designator\": \"4\", \"name\": \"OUT1\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 40}, \"tip\": {\"x\": -100, \"y\": 40}}, {\"designator\": \"5\", \"name\": \"OUT2\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 30}, \"tip\": {\"x\": -100, \"y\": 30}}, {\"designator\": \"6\", \"name\": \"NC\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 20}, \"tip\": {\"x\": -100, \"y\": 20}}, {\"designator\": \"7\", \"name\": \"NC\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 10}, \"tip\": {\"x\": -100, \"y\": 10}}, {\"designator\": \"8\", \"name\": \"GND1\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 0}, \"tip\": {\"x\": -100, \"y\": 0}}, {\"designator\": \"9\", \"name\": \"FGND2\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 0}, \"tip\": {\"x\": 100, \"y\": 0}}, {\"designator\": \"10\", \"name\": \"IN2\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 10}, \"tip\": {\"x\": 100, \"y\": 10}}, {\"designator\": \"11\", \"name\": \"SENSE2\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 20}, \"tip\": {\"x\": 100, \"y\": 20}}, {\"designator\": \"12\", \"name\": \"SUB2\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 30}, \"tip\": {\"x\": 100, \"y\": 30}}, {\"designator\": \"13\", \"name\": \"SUB1\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 40}, \"tip\": {\"x\": 100, \"y\": 40}}, {\"designator\": \"14\", \"name\": \"FGND1\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 50}, \"tip\": {\"x\": 100, \"y\": 50}}, {\"designator\": \"15\", \"name\": \"IN1\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 60}, \"tip\": {\"x\": 100, \"y\": 60}}, {\"designator\": \"16\", \"name\": \"SENSE1\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 70}, \"tip\": {\"x\": 100, \"y\": 70}}], \"bounding_box\": {\"min_x\": -100, \"max_x\": 100, \"min_y\": -10.0, \"max_y\": 80.0}}, {\"name\": \"SN74LVC2T45DCTR\", \"pins\": [{\"designator\": \"1\", \"name\": \"VCCA\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 30}, \"tip\": {\"x\": -100, \"y\": 30}}, {\"designator\": \"2\", \"name\": \"A1\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 20}, \"tip\": {\"x\": -100, \"y\": 20}}, {\"designator\": \"3\", \"name\": \"A2\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 10}, \"tip\": {\"x\": -100, \"y\": 10}}, {\"designator\": \"4\", \"name\": \"GND\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 0}, \"tip\": {\"x\": -100, \"y\": 0}}, {\"designator\": \"5\", \"name\": \"DIR\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 0}, \"tip\": {\"x\": 100, \"y\": 0}}, {\"designator\": \"6\", \"name\": \"B2\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 10}, \"tip\": {\"x\": 100, \"y\": 10}}, {\"designator\": \"7\", \"name\": \"B1\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 20}, \"tip\": {\"x\": 100, \"y\": 20}}, {\"designator\": \"8\", \"name\": \"VCCB\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 30}, \"tip\": {\"x\": 100, \"y\": 30}}], \"bounding_box\": {\"min_x\": -100, \"max_x\": 100, \"min_y\": -10.0, \"max_y\": 40.0}}, {\"name\": \"BSP75NTA\", \"pins\": [{\"designator\": \"IN\", \"name\": \"IN\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 10}, \"tip\": {\"x\": -100, \"y\": 10}}, {\"designator\": \"D\", \"name\": \"D\", \"orientation\": \"left\", \"body_end\": {\"x\": -80, \"y\": 0}, \"tip\": {\"x\": -100, \"y\": 0}}, {\"designator\": \"S\", \"name\": \"S\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 0}, \"tip\": {\"x\": 100, \"y\": 0}}, {\"designator\": \"S_TAB\", \"name\": \"S_TAB\", \"orientation\": \"right\", \"body_end\": {\"x\": 80, \"y\": 10}, \"tip\": {\"x\": 100, \"y\": 10}}], \"bounding_box\": {\"min_x\": -100, \"max_x\": 100, \"min_y\": -10.0, \"max_y\": 20.0}}, {\"name\": \"GW_C0603C104K5RACTU_dc5e12a5\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"up\", \"body_end\": {\"x\": 0, \"y\": -10}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"down\", \"body_end\": {\"x\": 0, \"y\": -20}, \"tip\": {\"x\": 0, \"y\": -30}}], \"bounding_box\": {\"min_x\": -9.0, \"max_x\": 9.0, \"min_y\": -30, \"max_y\": 0}}, {\"name\": \"GW_C0805C475K4RACTU_82374e08\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"up\", \"body_end\": {\"x\": 0, \"y\": -10}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"down\", \"body_end\": {\"x\": 0, \"y\": -20}, \"tip\": {\"x\": 0, \"y\": -30}}], \"bounding_box\": {\"min_x\": -9.0, \"max_x\": 9.0, \"min_y\": -30, \"max_y\": 0}}, {\"name\": \"GW_CL10A105KB8NNNC_c3932faa\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"up\", \"body_end\": {\"x\": 0, \"y\": -10}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"down\", \"body_end\": {\"x\": 0, \"y\": -20}, \"tip\": {\"x\": 0, \"y\": -30}}], \"bounding_box\": {\"min_x\": -9.0, \"max_x\": 9.0, \"min_y\": -30, \"max_y\": 0}}, {\"name\": \"GW_C0603C225K8RACTU_46503424\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"up\", \"body_end\": {\"x\": 0, \"y\": -10}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"down\", \"body_end\": {\"x\": 0, \"y\": -20}, \"tip\": {\"x\": 0, \"y\": -30}}], \"bounding_box\": {\"min_x\": -9.0, \"max_x\": 9.0, \"min_y\": -30, \"max_y\": 0}}, {\"name\": \"GW_FRC0603J103TS_7289f91d\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": 8, \"y\": 0}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 22, \"y\": 0}, \"tip\": {\"x\": 30, \"y\": 0}}], \"bounding_box\": {\"min_x\": 0, \"max_x\": 30, \"min_y\": 0, \"max_y\": 0}}, {\"name\": \"GW_H_Male_6x1_TH_100mil_c0450d1e\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"right\", \"body_end\": {\"x\": 5, \"y\": 20}, \"tip\": {\"x\": 25, \"y\": 20}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 5, \"y\": 10}, \"tip\": {\"x\": 25, \"y\": 10}}, {\"designator\": \"3\", \"name\": \"3\", \"orientation\": \"right\", \"body_end\": {\"x\": 5, \"y\": 0}, \"tip\": {\"x\": 25, \"y\": 0}}, {\"designator\": \"4\", \"name\": \"4\", \"orientation\": \"right\", \"body_end\": {\"x\": 5, \"y\": -10}, \"tip\": {\"x\": 25, \"y\": -10}}, {\"designator\": \"5\", \"name\": \"5\", \"orientation\": \"right\", \"body_end\": {\"x\": 5, \"y\": -20}, \"tip\": {\"x\": 25, \"y\": -20}}, {\"designator\": \"6\", \"name\": \"6\", \"orientation\": \"right\", \"body_end\": {\"x\": 5, \"y\": -30}, \"tip\": {\"x\": 25, \"y\": -30}}], \"bounding_box\": {\"min_x\": 5, \"max_x\": 25, \"min_y\": -30, \"max_y\": 20}}, {\"name\": \"GW_Sw_PUSH_4.5x4.5x5.0xmm_0f078dd9\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": -10, \"y\": 0}, \"tip\": {\"x\": -20, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 20, \"y\": 0}, \"tip\": {\"x\": 30, \"y\": 0}}], \"bounding_box\": {\"min_x\": -20, \"max_x\": 30, \"min_y\": 0, \"max_y\": 0}}, {\"name\": \"GW_H_Male_2x1_TH_100mil_f89d9046\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"right\", \"body_end\": {\"x\": 5, \"y\": 5}, \"tip\": {\"x\": 25, \"y\": 5}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 5, \"y\": -5}, \"tip\": {\"x\": 25, \"y\": -5}}], \"bounding_box\": {\"min_x\": 5, \"max_x\": 25, \"min_y\": -5, \"max_y\": 5}}, {\"name\": \"GW_C0603C103K1RACTU_97f3ee33\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"up\", \"body_end\": {\"x\": 0, \"y\": -10}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"down\", \"body_end\": {\"x\": 0, \"y\": -20}, \"tip\": {\"x\": 0, \"y\": -30}}], \"bounding_box\": {\"min_x\": -9.0, \"max_x\": 9.0, \"min_y\": -30, \"max_y\": 0}}, {\"name\": \"GW_CL21A106KAYNNNE_c6e24382\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"up\", \"body_end\": {\"x\": 0, \"y\": -10}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"down\", \"body_end\": {\"x\": 0, \"y\": -20}, \"tip\": {\"x\": 0, \"y\": -30}}], \"bounding_box\": {\"min_x\": -9.0, \"max_x\": 9.0, \"min_y\": -30, \"max_y\": 0}}, {\"name\": \"GW_C0603C202J5GACTU_fa733a70\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"up\", \"body_end\": {\"x\": 0, \"y\": -10}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"down\", \"body_end\": {\"x\": 0, \"y\": -20}, \"tip\": {\"x\": 0, \"y\": -30}}], \"bounding_box\": {\"min_x\": -9.0, \"max_x\": 9.0, \"min_y\": -30, \"max_y\": 0}}, {\"name\": \"GW_RC0603FR-076K49L_f42a9329\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": 8, \"y\": 0}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 22, \"y\": 0}, \"tip\": {\"x\": 30, \"y\": 0}}], \"bounding_box\": {\"min_x\": 0, \"max_x\": 30, \"min_y\": 0, \"max_y\": 0}}, {\"name\": \"GW_RC0603FR-072K49L_b905c5f0\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": 8, \"y\": 0}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 22, \"y\": 0}, \"tip\": {\"x\": 30, \"y\": 0}}], \"bounding_box\": {\"min_x\": 0, \"max_x\": 30, \"min_y\": 0, \"max_y\": 0}}, {\"name\": \"GW_HCB1608KF-600T20_c68e3ad6\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": 10, \"y\": 0}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 40, \"y\": 0}, \"tip\": {\"x\": 50, \"y\": 0}}], \"bounding_box\": {\"min_x\": 0, \"max_x\": 50, \"min_y\": 0, \"max_y\": 0}}, {\"name\": \"GW_XAL4030-682MEC_71dfd711\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": -20, \"y\": 0}, \"tip\": {\"x\": -30, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 10, \"y\": 0}, \"tip\": {\"x\": 20, \"y\": 0}}], \"bounding_box\": {\"min_x\": -30, \"max_x\": 20, \"min_y\": 0, \"max_y\": 0}}, {\"name\": \"GW_C5750X7R2A475K230KA_5f18f946\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"up\", \"body_end\": {\"x\": 0, \"y\": -10}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"down\", \"body_end\": {\"x\": 0, \"y\": -20}, \"tip\": {\"x\": 0, \"y\": -30}}], \"bounding_box\": {\"min_x\": -9.0, \"max_x\": 9.0, \"min_y\": -30, \"max_y\": 0}}, {\"name\": \"GW_C0805C224K1RACTU_e16e52b8\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"up\", \"body_end\": {\"x\": 0, \"y\": -10}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"down\", \"body_end\": {\"x\": 0, \"y\": -20}, \"tip\": {\"x\": 0, \"y\": -30}}], \"bounding_box\": {\"min_x\": -9.0, \"max_x\": 9.0, \"min_y\": -30, \"max_y\": 0}}, {\"name\": \"GW_C3225X7R1C156M250AB_bb412b42\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"up\", \"body_end\": {\"x\": 0, \"y\": -10}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"down\", \"body_end\": {\"x\": 0, \"y\": -20}, \"tip\": {\"x\": 0, \"y\": -30}}], \"bounding_box\": {\"min_x\": -9.0, \"max_x\": 9.0, \"min_y\": -30, \"max_y\": 0}}, {\"name\": \"GW_RC0603FR-07100KL_ac663db8\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": 8, \"y\": 0}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 22, \"y\": 0}, \"tip\": {\"x\": 30, \"y\": 0}}], \"bounding_box\": {\"min_x\": 0, \"max_x\": 30, \"min_y\": 0, \"max_y\": 0}}, {\"name\": \"GW_RC0603FR-0743K2L_a8308c0c\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": 8, \"y\": 0}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 22, \"y\": 0}, \"tip\": {\"x\": 30, \"y\": 0}}], \"bounding_box\": {\"min_x\": 0, \"max_x\": 30, \"min_y\": 0, \"max_y\": 0}}, {\"name\": \"GW_C0603C200J5GACTU_c75b007a\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"up\", \"body_end\": {\"x\": 0, \"y\": -10}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"down\", \"body_end\": {\"x\": 0, \"y\": -20}, \"tip\": {\"x\": 0, \"y\": -30}}], \"bounding_box\": {\"min_x\": -9.0, \"max_x\": 9.0, \"min_y\": -30, \"max_y\": 0}}, {\"name\": \"GW_XAL4040-103MEC_b36cb917\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": -20, \"y\": 0}, \"tip\": {\"x\": -30, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 10, \"y\": 0}, \"tip\": {\"x\": 20, \"y\": 0}}], \"bounding_box\": {\"min_x\": -30, \"max_x\": 20, \"min_y\": 0, \"max_y\": 0}}, {\"name\": \"GW_RC0603FR-0724K9L_10698e9e\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": 8, \"y\": 0}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 22, \"y\": 0}, \"tip\": {\"x\": 30, \"y\": 0}}], \"bounding_box\": {\"min_x\": 0, \"max_x\": 30, \"min_y\": 0, \"max_y\": 0}}, {\"name\": \"GW_JL126-50002G01_16238e52\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"right\", \"body_end\": {\"x\": 20, \"y\": 20}, \"tip\": {\"x\": 40, \"y\": 20}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 20, \"y\": 10}, \"tip\": {\"x\": 40, \"y\": 10}}], \"bounding_box\": {\"min_x\": 20, \"max_x\": 40, \"min_y\": 10, \"max_y\": 20}}, {\"name\": \"GW_CRCW0603010RJNEAHP_c8eb51d2\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": 8, \"y\": 0}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 22, \"y\": 0}, \"tip\": {\"x\": 30, \"y\": 0}}], \"bounding_box\": {\"min_x\": 0, \"max_x\": 30, \"min_y\": 0, \"max_y\": 0}}, {\"name\": \"GW_MX126-5.0-03P-GN01-Cu-S-A_d57a488f\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"right\", \"body_end\": {\"x\": 20, \"y\": 20}, \"tip\": {\"x\": 40, \"y\": 20}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 20, \"y\": 10}, \"tip\": {\"x\": 40, \"y\": 10}}, {\"designator\": \"3\", \"name\": \"3\", \"orientation\": \"right\", \"body_end\": {\"x\": 20, \"y\": 0}, \"tip\": {\"x\": 40, \"y\": 0}}], \"bounding_box\": {\"min_x\": 20, \"max_x\": 40, \"min_y\": 0, \"max_y\": 20}}, {\"name\": \"GW_JL126-50002G01_ddbad43f\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"right\", \"body_end\": {\"x\": 20, \"y\": 20}, \"tip\": {\"x\": 40, \"y\": 20}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 20, \"y\": 10}, \"tip\": {\"x\": 40, \"y\": 10}}], \"bounding_box\": {\"min_x\": 20, \"max_x\": 40, \"min_y\": 10, \"max_y\": 20}}, {\"name\": \"GW_RC0603FR-07562RL_a6fad8df\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": 8, \"y\": 0}, \"tip\": {\"x\": 0, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 22, \"y\": 0}, \"tip\": {\"x\": 30, \"y\": 0}}], \"bounding_box\": {\"min_x\": 0, \"max_x\": 30, \"min_y\": 0, \"max_y\": 0}}, {\"name\": \"GW_MX126-5.0-03P-GN01-Cu-S-A_8a7ef64c\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"right\", \"body_end\": {\"x\": 20, \"y\": 20}, \"tip\": {\"x\": 40, \"y\": 20}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 20, \"y\": 10}, \"tip\": {\"x\": 40, \"y\": 10}}, {\"designator\": \"3\", \"name\": \"3\", \"orientation\": \"right\", \"body_end\": {\"x\": 20, \"y\": 0}, \"tip\": {\"x\": 40, \"y\": 0}}], \"bounding_box\": {\"min_x\": 20, \"max_x\": 40, \"min_y\": 0, \"max_y\": 20}}, {\"name\": \"KC2016Z25.0000C15XXK\", \"pins\": [{\"designator\": \"1\", \"name\": \"STANDBY\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 20}, \"tip\": {\"x\": -80, \"y\": 20}}, {\"designator\": \"2\", \"name\": \"GND\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 0}, \"tip\": {\"x\": -80, \"y\": 0}}, {\"designator\": \"3\", \"name\": \"OUT_25MHz\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 20}, \"tip\": {\"x\": 80, \"y\": 20}}, {\"designator\": \"4\", \"name\": \"VCC\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 0}, \"tip\": {\"x\": 80, \"y\": 0}}], \"bounding_box\": {\"min_x\": -80, \"max_x\": 80, \"min_y\": -10, \"max_y\": 40}}, {\"name\": \"HX1188FNL\", \"pins\": [{\"designator\": \"1\", \"name\": \"TD+\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 140}, \"tip\": {\"x\": -80, \"y\": 140}}, {\"designator\": \"2\", \"name\": \"TCT\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 120}, \"tip\": {\"x\": -80, \"y\": 120}}, {\"designator\": \"3\", \"name\": \"TD-\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 100}, \"tip\": {\"x\": -80, \"y\": 100}}, {\"designator\": \"4\", \"name\": \"NC\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 80}, \"tip\": {\"x\": -80, \"y\": 80}}, {\"designator\": \"5\", \"name\": \"NC\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 60}, \"tip\": {\"x\": -80, \"y\": 60}}, {\"designator\": \"6\", \"name\": \"RD+\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 40}, \"tip\": {\"x\": -80, \"y\": 40}}, {\"designator\": \"7\", \"name\": \"RCT\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 20}, \"tip\": {\"x\": -80, \"y\": 20}}, {\"designator\": \"8\", \"name\": \"RD-\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 0}, \"tip\": {\"x\": -80, \"y\": 0}}, {\"designator\": \"9\", \"name\": \"RX-\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 140}, \"tip\": {\"x\": 80, \"y\": 140}}, {\"designator\": \"10\", \"name\": \"CMT_RX\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 120}, \"tip\": {\"x\": 80, \"y\": 120}}, {\"designator\": \"11\", \"name\": \"RX+\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 100}, \"tip\": {\"x\": 80, \"y\": 100}}, {\"designator\": \"12\", \"name\": \"NC\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 80}, \"tip\": {\"x\": 80, \"y\": 80}}, {\"designator\": \"13\", \"name\": \"NC\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 60}, \"tip\": {\"x\": 80, \"y\": 60}}, {\"designator\": \"14\", \"name\": \"TX-\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 40}, \"tip\": {\"x\": 80, \"y\": 40}}, {\"designator\": \"15\", \"name\": \"CMT_TX\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 20}, \"tip\": {\"x\": 80, \"y\": 20}}, {\"designator\": \"16\", \"name\": \"TX+\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 0}, \"tip\": {\"x\": 80, \"y\": 0}}], \"bounding_box\": {\"min_x\": -80, \"max_x\": 80, \"min_y\": -10, \"max_y\": 160}}, {\"name\": \"XAL4030-682MEC\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 0}, \"tip\": {\"x\": -80, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 0}, \"tip\": {\"x\": 80, \"y\": 0}}], \"bounding_box\": {\"min_x\": -80, \"max_x\": 80, \"min_y\": -10, \"max_y\": 20}}, {\"name\": \"XAL4040-103MEC\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 0}, \"tip\": {\"x\": -80, \"y\": 0}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 0}, \"tip\": {\"x\": 80, \"y\": 0}}], \"bounding_box\": {\"min_x\": -80, \"max_x\": 80, \"min_y\": -10, \"max_y\": 20}}, {\"name\": \"CDSOT23-SM712\", \"pins\": [{\"designator\": \"1\", \"name\": \"BUS_A\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 20}, \"tip\": {\"x\": -80, \"y\": 20}}, {\"designator\": \"2\", \"name\": \"BUS_B\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 0}, \"tip\": {\"x\": -80, \"y\": 0}}, {\"designator\": \"3\", \"name\": \"GND_REF\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 20}, \"tip\": {\"x\": 80, \"y\": 20}}], \"bounding_box\": {\"min_x\": -80, \"max_x\": 80, \"min_y\": -10, \"max_y\": 40}}, {\"name\": \"TPD4E05U06DQAR\", \"pins\": [{\"designator\": \"1\", \"name\": \"D1+\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 80}, \"tip\": {\"x\": -80, \"y\": 80}}, {\"designator\": \"2\", \"name\": \"D1-\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 60}, \"tip\": {\"x\": -80, \"y\": 60}}, {\"designator\": \"3\", \"name\": \"GND\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 40}, \"tip\": {\"x\": -80, \"y\": 40}}, {\"designator\": \"4\", \"name\": \"D2+\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 20}, \"tip\": {\"x\": -80, \"y\": 20}}, {\"designator\": \"5\", \"name\": \"D2-\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 0}, \"tip\": {\"x\": -80, \"y\": 0}}, {\"designator\": \"6\", \"name\": \"NC\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 80}, \"tip\": {\"x\": 80, \"y\": 80}}, {\"designator\": \"7\", \"name\": \"NC\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 60}, \"tip\": {\"x\": 80, \"y\": 60}}, {\"designator\": \"8\", \"name\": \"GND\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 40}, \"tip\": {\"x\": 80, \"y\": 40}}, {\"designator\": \"9\", \"name\": \"NC\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 20}, \"tip\": {\"x\": 80, \"y\": 20}}, {\"designator\": \"10\", \"name\": \"NC\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 0}, \"tip\": {\"x\": 80, \"y\": 0}}], \"bounding_box\": {\"min_x\": -80, \"max_x\": 80, \"min_y\": -10, \"max_y\": 100}}, {\"name\": \"SS-7188S-A-NF\", \"pins\": [{\"designator\": \"1\", \"name\": \"1\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 80}, \"tip\": {\"x\": -80, \"y\": 80}}, {\"designator\": \"2\", \"name\": \"2\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 60}, \"tip\": {\"x\": -80, \"y\": 60}}, {\"designator\": \"3\", \"name\": \"3\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 40}, \"tip\": {\"x\": -80, \"y\": 40}}, {\"designator\": \"4\", \"name\": \"4\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 20}, \"tip\": {\"x\": -80, \"y\": 20}}, {\"designator\": \"5\", \"name\": \"5\", \"orientation\": \"left\", \"body_end\": {\"x\": -60, \"y\": 0}, \"tip\": {\"x\": -80, \"y\": 0}}, {\"designator\": \"6\", \"name\": \"6\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 80}, \"tip\": {\"x\": 80, \"y\": 80}}, {\"designator\": \"7\", \"name\": \"7\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 60}, \"tip\": {\"x\": 80, \"y\": 60}}, {\"designator\": \"8\", \"name\": \"8\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 40}, \"tip\": {\"x\": 80, \"y\": 40}}, {\"designator\": \"S1\", \"name\": \"SHIELD1\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 20}, \"tip\": {\"x\": 80, \"y\": 20}}, {\"designator\": \"S2\", \"name\": \"SHIELD2\", \"orientation\": \"right\", \"body_end\": {\"x\": 60, \"y\": 0}, \"tip\": {\"x\": 80, \"y\": 0}}], \"bounding_box\": {\"min_x\": -80, \"max_x\": 80, \"min_y\": -10, \"max_y\": 100}}], \"backup\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.SchLib.20261107_002452_093519.bak\"}"
+      }
+    ],
+    "structuredContent": {
+      "status": "success",
+      "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+      "symbol_count": 44,
+      "symbol_names": [
+        "STM32H723VET6",
+        "DP83826IRHBR",
+        "LMR36015FBRNXR",
+        "THVD1420DR",
+        "ATA6561-GAQW",
+        "ISO1212DBQR",
+        "SN74LVC2T45DCTR",
+        "BSP75NTA",
+        "GW_C0603C104K5RACTU_dc5e12a5",
+        "GW_C0805C475K4RACTU_82374e08",
+        "GW_CL10A105KB8NNNC_c3932faa",
+        "GW_C0603C225K8RACTU_46503424",
+        "GW_FRC0603J103TS_7289f91d",
+        "GW_H_Male_6x1_TH_100mil_c0450d1e",
+        "GW_Sw_PUSH_4.5x4.5x5.0xmm_0f078dd9",
+        "GW_H_Male_2x1_TH_100mil_f89d9046",
+        "GW_C0603C103K1RACTU_97f3ee33",
+        "GW_CL21A106KAYNNNE_c6e24382",
+        "GW_C0603C202J5GACTU_fa733a70",
+        "GW_RC0603FR-076K49L_f42a9329",
+        "GW_RC0603FR-072K49L_b905c5f0",
+        "GW_HCB1608KF-600T20_c68e3ad6",
+        "GW_XAL4030-682MEC_71dfd711",
+        "GW_C5750X7R2A475K230KA_5f18f946",
+        "GW_C0805C224K1RACTU_e16e52b8",
+        "GW_C3225X7R1C156M250AB_bb412b42",
+        "GW_RC0603FR-07100KL_ac663db8",
+        "GW_RC0603FR-0743K2L_a8308c0c",
+        "GW_C0603C200J5GACTU_c75b007a",
+        "GW_XAL4040-103MEC_b36cb917",
+        "GW_RC0603FR-0724K9L_10698e9e",
+        "GW_JL126-50002G01_16238e52",
+        "GW_CRCW0603010RJNEAHP_c8eb51d2",
+        "GW_MX126-5.0-03P-GN01-Cu-S-A_d57a488f",
+        "GW_JL126-50002G01_ddbad43f",
+        "GW_RC0603FR-07562RL_a6fad8df",
+        "GW_MX126-5.0-03P-GN01-Cu-S-A_8a7ef64c",
+        "KC2016Z25.0000C15XXK",
+        "HX1188FNL",
+        "XAL4030-682MEC",
+        "XAL4040-103MEC",
+        "CDSOT23-SM712",
+        "TPD4E05U06DQAR",
+        "SS-7188S-A-NF"
+      ],
+      "validation": {
+        "status": "valid",
+        "error_count": 0,
+        "warning_count": 0,
+        "issues": []
+      },
+      "geometry": [
+        {
+          "name": "STM32H723VET6",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "PE2",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 490
+              },
+              "tip": {
+                "x": -100,
+                "y": 490
+              }
+            },
+            {
+              "designator": "2",
+              "name": "PE3",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 480
+              },
+              "tip": {
+                "x": -100,
+                "y": 480
+              }
+            },
+            {
+              "designator": "3",
+              "name": "PE4",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 470
+              },
+              "tip": {
+                "x": -100,
+                "y": 470
+              }
+            },
+            {
+              "designator": "4",
+              "name": "PE5",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 460
+              },
+              "tip": {
+                "x": -100,
+                "y": 460
+              }
+            },
+            {
+              "designator": "5",
+              "name": "PE6",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 450
+              },
+              "tip": {
+                "x": -100,
+                "y": 450
+              }
+            },
+            {
+              "designator": "6",
+              "name": "VBAT",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 440
+              },
+              "tip": {
+                "x": -100,
+                "y": 440
+              }
+            },
+            {
+              "designator": "7",
+              "name": "PC13",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 430
+              },
+              "tip": {
+                "x": -100,
+                "y": 430
+              }
+            },
+            {
+              "designator": "8",
+              "name": "PC14",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 420
+              },
+              "tip": {
+                "x": -100,
+                "y": 420
+              }
+            },
+            {
+              "designator": "9",
+              "name": "PC15",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 410
+              },
+              "tip": {
+                "x": -100,
+                "y": 410
+              }
+            },
+            {
+              "designator": "10",
+              "name": "VSS",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 400
+              },
+              "tip": {
+                "x": -100,
+                "y": 400
+              }
+            },
+            {
+              "designator": "11",
+              "name": "VDD",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 390
+              },
+              "tip": {
+                "x": -100,
+                "y": 390
+              }
+            },
+            {
+              "designator": "12",
+              "name": "PH0",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 380
+              },
+              "tip": {
+                "x": -100,
+                "y": 380
+              }
+            },
+            {
+              "designator": "13",
+              "name": "PH1",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 370
+              },
+              "tip": {
+                "x": -100,
+                "y": 370
+              }
+            },
+            {
+              "designator": "14",
+              "name": "NRST",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 360
+              },
+              "tip": {
+                "x": -100,
+                "y": 360
+              }
+            },
+            {
+              "designator": "15",
+              "name": "PC0",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 350
+              },
+              "tip": {
+                "x": -100,
+                "y": 350
+              }
+            },
+            {
+              "designator": "16",
+              "name": "PC1",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 340
+              },
+              "tip": {
+                "x": -100,
+                "y": 340
+              }
+            },
+            {
+              "designator": "17",
+              "name": "PC2_C",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 330
+              },
+              "tip": {
+                "x": -100,
+                "y": 330
+              }
+            },
+            {
+              "designator": "18",
+              "name": "PC3_C",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 320
+              },
+              "tip": {
+                "x": -100,
+                "y": 320
+              }
+            },
+            {
+              "designator": "19",
+              "name": "VSSA",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 310
+              },
+              "tip": {
+                "x": -100,
+                "y": 310
+              }
+            },
+            {
+              "designator": "20",
+              "name": "VREF+",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 300
+              },
+              "tip": {
+                "x": -100,
+                "y": 300
+              }
+            },
+            {
+              "designator": "21",
+              "name": "VDDA",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 290
+              },
+              "tip": {
+                "x": -100,
+                "y": 290
+              }
+            },
+            {
+              "designator": "22",
+              "name": "PA0",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 280
+              },
+              "tip": {
+                "x": -100,
+                "y": 280
+              }
+            },
+            {
+              "designator": "23",
+              "name": "PA1",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 270
+              },
+              "tip": {
+                "x": -100,
+                "y": 270
+              }
+            },
+            {
+              "designator": "24",
+              "name": "PA2",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 260
+              },
+              "tip": {
+                "x": -100,
+                "y": 260
+              }
+            },
+            {
+              "designator": "25",
+              "name": "PA3",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 250
+              },
+              "tip": {
+                "x": -100,
+                "y": 250
+              }
+            },
+            {
+              "designator": "26",
+              "name": "VSS",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 240
+              },
+              "tip": {
+                "x": -100,
+                "y": 240
+              }
+            },
+            {
+              "designator": "27",
+              "name": "VDD",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 230
+              },
+              "tip": {
+                "x": -100,
+                "y": 230
+              }
+            },
+            {
+              "designator": "28",
+              "name": "PA4",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 220
+              },
+              "tip": {
+                "x": -100,
+                "y": 220
+              }
+            },
+            {
+              "designator": "29",
+              "name": "PA5",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 210
+              },
+              "tip": {
+                "x": -100,
+                "y": 210
+              }
+            },
+            {
+              "designator": "30",
+              "name": "PA6",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 200
+              },
+              "tip": {
+                "x": -100,
+                "y": 200
+              }
+            },
+            {
+              "designator": "31",
+              "name": "PA7",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 190
+              },
+              "tip": {
+                "x": -100,
+                "y": 190
+              }
+            },
+            {
+              "designator": "32",
+              "name": "PC4",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 180
+              },
+              "tip": {
+                "x": -100,
+                "y": 180
+              }
+            },
+            {
+              "designator": "33",
+              "name": "PC5",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 170
+              },
+              "tip": {
+                "x": -100,
+                "y": 170
+              }
+            },
+            {
+              "designator": "34",
+              "name": "PB0",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 160
+              },
+              "tip": {
+                "x": -100,
+                "y": 160
+              }
+            },
+            {
+              "designator": "35",
+              "name": "PB1",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 150
+              },
+              "tip": {
+                "x": -100,
+                "y": 150
+              }
+            },
+            {
+              "designator": "36",
+              "name": "PB2",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 140
+              },
+              "tip": {
+                "x": -100,
+                "y": 140
+              }
+            },
+            {
+              "designator": "37",
+              "name": "PE7",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 130
+              },
+              "tip": {
+                "x": -100,
+                "y": 130
+              }
+            },
+            {
+              "designator": "38",
+              "name": "PE8",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 120
+              },
+              "tip": {
+                "x": -100,
+                "y": 120
+              }
+            },
+            {
+              "designator": "39",
+              "name": "PE9",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 110
+              },
+              "tip": {
+                "x": -100,
+                "y": 110
+              }
+            },
+            {
+              "designator": "40",
+              "name": "PE10",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 100
+              },
+              "tip": {
+                "x": -100,
+                "y": 100
+              }
+            },
+            {
+              "designator": "41",
+              "name": "PE11",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 90
+              },
+              "tip": {
+                "x": -100,
+                "y": 90
+              }
+            },
+            {
+              "designator": "42",
+              "name": "PE12",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 80
+              },
+              "tip": {
+                "x": -100,
+                "y": 80
+              }
+            },
+            {
+              "designator": "43",
+              "name": "PE13",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 70
+              },
+              "tip": {
+                "x": -100,
+                "y": 70
+              }
+            },
+            {
+              "designator": "44",
+              "name": "PE14",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 60
+              },
+              "tip": {
+                "x": -100,
+                "y": 60
+              }
+            },
+            {
+              "designator": "45",
+              "name": "PE15",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 50
+              },
+              "tip": {
+                "x": -100,
+                "y": 50
+              }
+            },
+            {
+              "designator": "46",
+              "name": "PB10",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 40
+              },
+              "tip": {
+                "x": -100,
+                "y": 40
+              }
+            },
+            {
+              "designator": "47",
+              "name": "PB11",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 30
+              },
+              "tip": {
+                "x": -100,
+                "y": 30
+              }
+            },
+            {
+              "designator": "48",
+              "name": "VCAP",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 20
+              },
+              "tip": {
+                "x": -100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "49",
+              "name": "VSS",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 10
+              },
+              "tip": {
+                "x": -100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "50",
+              "name": "VDD",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 0
+              },
+              "tip": {
+                "x": -100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "51",
+              "name": "PB12",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 0
+              },
+              "tip": {
+                "x": 100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "52",
+              "name": "PB13",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 10
+              },
+              "tip": {
+                "x": 100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "53",
+              "name": "PB14",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 20
+              },
+              "tip": {
+                "x": 100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "54",
+              "name": "PB15",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 30
+              },
+              "tip": {
+                "x": 100,
+                "y": 30
+              }
+            },
+            {
+              "designator": "55",
+              "name": "PD8",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 40
+              },
+              "tip": {
+                "x": 100,
+                "y": 40
+              }
+            },
+            {
+              "designator": "56",
+              "name": "PD9",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 50
+              },
+              "tip": {
+                "x": 100,
+                "y": 50
+              }
+            },
+            {
+              "designator": "57",
+              "name": "PD10",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 60
+              },
+              "tip": {
+                "x": 100,
+                "y": 60
+              }
+            },
+            {
+              "designator": "58",
+              "name": "PD11",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 70
+              },
+              "tip": {
+                "x": 100,
+                "y": 70
+              }
+            },
+            {
+              "designator": "59",
+              "name": "PD12",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 80
+              },
+              "tip": {
+                "x": 100,
+                "y": 80
+              }
+            },
+            {
+              "designator": "60",
+              "name": "PD13",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 90
+              },
+              "tip": {
+                "x": 100,
+                "y": 90
+              }
+            },
+            {
+              "designator": "61",
+              "name": "PD14",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 100
+              },
+              "tip": {
+                "x": 100,
+                "y": 100
+              }
+            },
+            {
+              "designator": "62",
+              "name": "PD15",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 110
+              },
+              "tip": {
+                "x": 100,
+                "y": 110
+              }
+            },
+            {
+              "designator": "63",
+              "name": "PC6",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 120
+              },
+              "tip": {
+                "x": 100,
+                "y": 120
+              }
+            },
+            {
+              "designator": "64",
+              "name": "PC7",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 130
+              },
+              "tip": {
+                "x": 100,
+                "y": 130
+              }
+            },
+            {
+              "designator": "65",
+              "name": "PC8",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 140
+              },
+              "tip": {
+                "x": 100,
+                "y": 140
+              }
+            },
+            {
+              "designator": "66",
+              "name": "PC9",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 150
+              },
+              "tip": {
+                "x": 100,
+                "y": 150
+              }
+            },
+            {
+              "designator": "67",
+              "name": "PA8",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 160
+              },
+              "tip": {
+                "x": 100,
+                "y": 160
+              }
+            },
+            {
+              "designator": "68",
+              "name": "PA9",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 170
+              },
+              "tip": {
+                "x": 100,
+                "y": 170
+              }
+            },
+            {
+              "designator": "69",
+              "name": "PA10",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 180
+              },
+              "tip": {
+                "x": 100,
+                "y": 180
+              }
+            },
+            {
+              "designator": "70",
+              "name": "PA11",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 190
+              },
+              "tip": {
+                "x": 100,
+                "y": 190
+              }
+            },
+            {
+              "designator": "71",
+              "name": "PA12",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 200
+              },
+              "tip": {
+                "x": 100,
+                "y": 200
+              }
+            },
+            {
+              "designator": "72",
+              "name": "PA13",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 210
+              },
+              "tip": {
+                "x": 100,
+                "y": 210
+              }
+            },
+            {
+              "designator": "73",
+              "name": "VCAP",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 220
+              },
+              "tip": {
+                "x": 100,
+                "y": 220
+              }
+            },
+            {
+              "designator": "74",
+              "name": "VSS",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 230
+              },
+              "tip": {
+                "x": 100,
+                "y": 230
+              }
+            },
+            {
+              "designator": "75",
+              "name": "VDD",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 240
+              },
+              "tip": {
+                "x": 100,
+                "y": 240
+              }
+            },
+            {
+              "designator": "76",
+              "name": "PA14",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 250
+              },
+              "tip": {
+                "x": 100,
+                "y": 250
+              }
+            },
+            {
+              "designator": "77",
+              "name": "PA15",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 260
+              },
+              "tip": {
+                "x": 100,
+                "y": 260
+              }
+            },
+            {
+              "designator": "78",
+              "name": "PC10",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 270
+              },
+              "tip": {
+                "x": 100,
+                "y": 270
+              }
+            },
+            {
+              "designator": "79",
+              "name": "PC11",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 280
+              },
+              "tip": {
+                "x": 100,
+                "y": 280
+              }
+            },
+            {
+              "designator": "80",
+              "name": "PC12",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 290
+              },
+              "tip": {
+                "x": 100,
+                "y": 290
+              }
+            },
+            {
+              "designator": "81",
+              "name": "PD0",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 300
+              },
+              "tip": {
+                "x": 100,
+                "y": 300
+              }
+            },
+            {
+              "designator": "82",
+              "name": "PD1",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 310
+              },
+              "tip": {
+                "x": 100,
+                "y": 310
+              }
+            },
+            {
+              "designator": "83",
+              "name": "PD2",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 320
+              },
+              "tip": {
+                "x": 100,
+                "y": 320
+              }
+            },
+            {
+              "designator": "84",
+              "name": "PD3",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 330
+              },
+              "tip": {
+                "x": 100,
+                "y": 330
+              }
+            },
+            {
+              "designator": "85",
+              "name": "PD4",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 340
+              },
+              "tip": {
+                "x": 100,
+                "y": 340
+              }
+            },
+            {
+              "designator": "86",
+              "name": "PD5",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 350
+              },
+              "tip": {
+                "x": 100,
+                "y": 350
+              }
+            },
+            {
+              "designator": "87",
+              "name": "PD6",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 360
+              },
+              "tip": {
+                "x": 100,
+                "y": 360
+              }
+            },
+            {
+              "designator": "88",
+              "name": "PD7",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 370
+              },
+              "tip": {
+                "x": 100,
+                "y": 370
+              }
+            },
+            {
+              "designator": "89",
+              "name": "PB3",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 380
+              },
+              "tip": {
+                "x": 100,
+                "y": 380
+              }
+            },
+            {
+              "designator": "90",
+              "name": "PB4",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 390
+              },
+              "tip": {
+                "x": 100,
+                "y": 390
+              }
+            },
+            {
+              "designator": "91",
+              "name": "PB5",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 400
+              },
+              "tip": {
+                "x": 100,
+                "y": 400
+              }
+            },
+            {
+              "designator": "92",
+              "name": "PB6",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 410
+              },
+              "tip": {
+                "x": 100,
+                "y": 410
+              }
+            },
+            {
+              "designator": "93",
+              "name": "PB7",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 420
+              },
+              "tip": {
+                "x": 100,
+                "y": 420
+              }
+            },
+            {
+              "designator": "94",
+              "name": "BOOT0",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 430
+              },
+              "tip": {
+                "x": 100,
+                "y": 430
+              }
+            },
+            {
+              "designator": "95",
+              "name": "PB8",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 440
+              },
+              "tip": {
+                "x": 100,
+                "y": 440
+              }
+            },
+            {
+              "designator": "96",
+              "name": "PB9",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 450
+              },
+              "tip": {
+                "x": 100,
+                "y": 450
+              }
+            },
+            {
+              "designator": "97",
+              "name": "PE0",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 460
+              },
+              "tip": {
+                "x": 100,
+                "y": 460
+              }
+            },
+            {
+              "designator": "98",
+              "name": "PE1",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 470
+              },
+              "tip": {
+                "x": 100,
+                "y": 470
+              }
+            },
+            {
+              "designator": "99",
+              "name": "VSS",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 480
+              },
+              "tip": {
+                "x": 100,
+                "y": 480
+              }
+            },
+            {
+              "designator": "100",
+              "name": "VDD",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 490
+              },
+              "tip": {
+                "x": 100,
+                "y": 490
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -100,
+            "max_x": 100,
+            "min_y": -10,
+            "max_y": 500
+          }
+        },
+        {
+          "name": "DP83826IRHBR",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "ModeSelect",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 160
+              },
+              "tip": {
+                "x": -100,
+                "y": 160
+              }
+            },
+            {
+              "designator": "2",
+              "name": "CEXT",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 150
+              },
+              "tip": {
+                "x": -100,
+                "y": 150
+              }
+            },
+            {
+              "designator": "3",
+              "name": "VDDA3V3",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 140
+              },
+              "tip": {
+                "x": -100,
+                "y": 140
+              }
+            },
+            {
+              "designator": "4",
+              "name": "RD_M",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 130
+              },
+              "tip": {
+                "x": -100,
+                "y": 130
+              }
+            },
+            {
+              "designator": "5",
+              "name": "RD_P",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 120
+              },
+              "tip": {
+                "x": -100,
+                "y": 120
+              }
+            },
+            {
+              "designator": "6",
+              "name": "TD_M",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 110
+              },
+              "tip": {
+                "x": -100,
+                "y": 110
+              }
+            },
+            {
+              "designator": "7",
+              "name": "TD_P",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 100
+              },
+              "tip": {
+                "x": -100,
+                "y": 100
+              }
+            },
+            {
+              "designator": "8",
+              "name": "XO",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 90
+              },
+              "tip": {
+                "x": -100,
+                "y": 90
+              }
+            },
+            {
+              "designator": "9",
+              "name": "XI/50MHzIn",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 80
+              },
+              "tip": {
+                "x": -100,
+                "y": 80
+              }
+            },
+            {
+              "designator": "10",
+              "name": "RBIAS",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 70
+              },
+              "tip": {
+                "x": -100,
+                "y": 70
+              }
+            },
+            {
+              "designator": "11",
+              "name": "MDIO",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 60
+              },
+              "tip": {
+                "x": -100,
+                "y": 60
+              }
+            },
+            {
+              "designator": "12",
+              "name": "MDC",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 50
+              },
+              "tip": {
+                "x": -100,
+                "y": 50
+              }
+            },
+            {
+              "designator": "13",
+              "name": "RX_D3",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 40
+              },
+              "tip": {
+                "x": -100,
+                "y": 40
+              }
+            },
+            {
+              "designator": "14",
+              "name": "RX_D2",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 30
+              },
+              "tip": {
+                "x": -100,
+                "y": 30
+              }
+            },
+            {
+              "designator": "15",
+              "name": "RX_D1",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 20
+              },
+              "tip": {
+                "x": -100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "16",
+              "name": "RX_D0",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 10
+              },
+              "tip": {
+                "x": -100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "17",
+              "name": "VDDIO",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 0
+              },
+              "tip": {
+                "x": -100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "18",
+              "name": "RX_DV/CRS_DV",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 10
+              },
+              "tip": {
+                "x": 100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "19",
+              "name": "RX_CLK/50MHz_RMII",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 20
+              },
+              "tip": {
+                "x": 100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "20",
+              "name": "RX_ER",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 30
+              },
+              "tip": {
+                "x": 100,
+                "y": 30
+              }
+            },
+            {
+              "designator": "21",
+              "name": "PWRDN/INT",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 40
+              },
+              "tip": {
+                "x": 100,
+                "y": 40
+              }
+            },
+            {
+              "designator": "22",
+              "name": "TX_CLK",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 50
+              },
+              "tip": {
+                "x": 100,
+                "y": 50
+              }
+            },
+            {
+              "designator": "23",
+              "name": "TX_EN",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 60
+              },
+              "tip": {
+                "x": 100,
+                "y": 60
+              }
+            },
+            {
+              "designator": "24",
+              "name": "TX_D0",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 70
+              },
+              "tip": {
+                "x": 100,
+                "y": 70
+              }
+            },
+            {
+              "designator": "25",
+              "name": "TX_D1",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 80
+              },
+              "tip": {
+                "x": 100,
+                "y": 80
+              }
+            },
+            {
+              "designator": "26",
+              "name": "TX_D2",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 90
+              },
+              "tip": {
+                "x": 100,
+                "y": 90
+              }
+            },
+            {
+              "designator": "27",
+              "name": "TX_D3",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 100
+              },
+              "tip": {
+                "x": 100,
+                "y": 100
+              }
+            },
+            {
+              "designator": "28",
+              "name": "COL/LED2/TX_ER/GPIO",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 110
+              },
+              "tip": {
+                "x": 100,
+                "y": 110
+              }
+            },
+            {
+              "designator": "29",
+              "name": "CRS/LED3",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 120
+              },
+              "tip": {
+                "x": 100,
+                "y": 120
+              }
+            },
+            {
+              "designator": "30",
+              "name": "LED0",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 130
+              },
+              "tip": {
+                "x": 100,
+                "y": 130
+              }
+            },
+            {
+              "designator": "31",
+              "name": "CLKOUT/LED1",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 140
+              },
+              "tip": {
+                "x": 100,
+                "y": 140
+              }
+            },
+            {
+              "designator": "32",
+              "name": "RST_N",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 150
+              },
+              "tip": {
+                "x": 100,
+                "y": 150
+              }
+            },
+            {
+              "designator": "33",
+              "name": "GND_EP",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 160
+              },
+              "tip": {
+                "x": 100,
+                "y": 160
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -100,
+            "max_x": 100,
+            "min_y": -10,
+            "max_y": 170
+          }
+        },
+        {
+          "name": "LMR36015FBRNXR",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "PGND",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 50
+              },
+              "tip": {
+                "x": -100,
+                "y": 50
+              }
+            },
+            {
+              "designator": "2",
+              "name": "VIN",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 40
+              },
+              "tip": {
+                "x": -100,
+                "y": 40
+              }
+            },
+            {
+              "designator": "3",
+              "name": "NC",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 30
+              },
+              "tip": {
+                "x": -100,
+                "y": 30
+              }
+            },
+            {
+              "designator": "4",
+              "name": "BOOT",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 20
+              },
+              "tip": {
+                "x": -100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "5",
+              "name": "VCC",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 10
+              },
+              "tip": {
+                "x": -100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "6",
+              "name": "AGND",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 0
+              },
+              "tip": {
+                "x": -100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "7",
+              "name": "FB",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 0
+              },
+              "tip": {
+                "x": 100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "8",
+              "name": "PG",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 10
+              },
+              "tip": {
+                "x": 100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "9",
+              "name": "EN",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 20
+              },
+              "tip": {
+                "x": 100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "10",
+              "name": "VIN",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 30
+              },
+              "tip": {
+                "x": 100,
+                "y": 30
+              }
+            },
+            {
+              "designator": "11",
+              "name": "PGND",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 40
+              },
+              "tip": {
+                "x": 100,
+                "y": 40
+              }
+            },
+            {
+              "designator": "12",
+              "name": "SW",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 50
+              },
+              "tip": {
+                "x": 100,
+                "y": 50
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -100,
+            "max_x": 100,
+            "min_y": -10,
+            "max_y": 60
+          }
+        },
+        {
+          "name": "THVD1420DR",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "R",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 30
+              },
+              "tip": {
+                "x": -100,
+                "y": 30
+              }
+            },
+            {
+              "designator": "2",
+              "name": "/RE",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 20
+              },
+              "tip": {
+                "x": -100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "3",
+              "name": "DE",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 10
+              },
+              "tip": {
+                "x": -100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "4",
+              "name": "D",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 0
+              },
+              "tip": {
+                "x": -100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "5",
+              "name": "GND",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 0
+              },
+              "tip": {
+                "x": 100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "6",
+              "name": "A",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 10
+              },
+              "tip": {
+                "x": 100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "7",
+              "name": "B",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 20
+              },
+              "tip": {
+                "x": 100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "8",
+              "name": "VCC",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 30
+              },
+              "tip": {
+                "x": 100,
+                "y": 30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -100,
+            "max_x": 100,
+            "min_y": -10,
+            "max_y": 40
+          }
+        },
+        {
+          "name": "ATA6561-GAQW",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "TXD",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 30
+              },
+              "tip": {
+                "x": -100,
+                "y": 30
+              }
+            },
+            {
+              "designator": "2",
+              "name": "GND",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 20
+              },
+              "tip": {
+                "x": -100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "3",
+              "name": "VCC",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 10
+              },
+              "tip": {
+                "x": -100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "4",
+              "name": "RXD",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 0
+              },
+              "tip": {
+                "x": -100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "5",
+              "name": "VIO",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 0
+              },
+              "tip": {
+                "x": 100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "6",
+              "name": "CANL",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 10
+              },
+              "tip": {
+                "x": 100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "7",
+              "name": "CANH",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 20
+              },
+              "tip": {
+                "x": 100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "8",
+              "name": "STBY",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 30
+              },
+              "tip": {
+                "x": 100,
+                "y": 30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -100,
+            "max_x": 100,
+            "min_y": -10,
+            "max_y": 40
+          }
+        },
+        {
+          "name": "ISO1212DBQR",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "GND1",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 70
+              },
+              "tip": {
+                "x": -100,
+                "y": 70
+              }
+            },
+            {
+              "designator": "2",
+              "name": "VCC1",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 60
+              },
+              "tip": {
+                "x": -100,
+                "y": 60
+              }
+            },
+            {
+              "designator": "3",
+              "name": "EN",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 50
+              },
+              "tip": {
+                "x": -100,
+                "y": 50
+              }
+            },
+            {
+              "designator": "4",
+              "name": "OUT1",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 40
+              },
+              "tip": {
+                "x": -100,
+                "y": 40
+              }
+            },
+            {
+              "designator": "5",
+              "name": "OUT2",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 30
+              },
+              "tip": {
+                "x": -100,
+                "y": 30
+              }
+            },
+            {
+              "designator": "6",
+              "name": "NC",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 20
+              },
+              "tip": {
+                "x": -100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "7",
+              "name": "NC",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 10
+              },
+              "tip": {
+                "x": -100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "8",
+              "name": "GND1",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 0
+              },
+              "tip": {
+                "x": -100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "9",
+              "name": "FGND2",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 0
+              },
+              "tip": {
+                "x": 100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "10",
+              "name": "IN2",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 10
+              },
+              "tip": {
+                "x": 100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "11",
+              "name": "SENSE2",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 20
+              },
+              "tip": {
+                "x": 100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "12",
+              "name": "SUB2",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 30
+              },
+              "tip": {
+                "x": 100,
+                "y": 30
+              }
+            },
+            {
+              "designator": "13",
+              "name": "SUB1",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 40
+              },
+              "tip": {
+                "x": 100,
+                "y": 40
+              }
+            },
+            {
+              "designator": "14",
+              "name": "FGND1",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 50
+              },
+              "tip": {
+                "x": 100,
+                "y": 50
+              }
+            },
+            {
+              "designator": "15",
+              "name": "IN1",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 60
+              },
+              "tip": {
+                "x": 100,
+                "y": 60
+              }
+            },
+            {
+              "designator": "16",
+              "name": "SENSE1",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 70
+              },
+              "tip": {
+                "x": 100,
+                "y": 70
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -100,
+            "max_x": 100,
+            "min_y": -10,
+            "max_y": 80
+          }
+        },
+        {
+          "name": "SN74LVC2T45DCTR",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "VCCA",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 30
+              },
+              "tip": {
+                "x": -100,
+                "y": 30
+              }
+            },
+            {
+              "designator": "2",
+              "name": "A1",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 20
+              },
+              "tip": {
+                "x": -100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "3",
+              "name": "A2",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 10
+              },
+              "tip": {
+                "x": -100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "4",
+              "name": "GND",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 0
+              },
+              "tip": {
+                "x": -100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "5",
+              "name": "DIR",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 0
+              },
+              "tip": {
+                "x": 100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "6",
+              "name": "B2",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 10
+              },
+              "tip": {
+                "x": 100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "7",
+              "name": "B1",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 20
+              },
+              "tip": {
+                "x": 100,
+                "y": 20
+              }
+            },
+            {
+              "designator": "8",
+              "name": "VCCB",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 30
+              },
+              "tip": {
+                "x": 100,
+                "y": 30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -100,
+            "max_x": 100,
+            "min_y": -10,
+            "max_y": 40
+          }
+        },
+        {
+          "name": "BSP75NTA",
+          "pins": [
+            {
+              "designator": "IN",
+              "name": "IN",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 10
+              },
+              "tip": {
+                "x": -100,
+                "y": 10
+              }
+            },
+            {
+              "designator": "D",
+              "name": "D",
+              "orientation": "left",
+              "body_end": {
+                "x": -80,
+                "y": 0
+              },
+              "tip": {
+                "x": -100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "S",
+              "name": "S",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 0
+              },
+              "tip": {
+                "x": 100,
+                "y": 0
+              }
+            },
+            {
+              "designator": "S_TAB",
+              "name": "S_TAB",
+              "orientation": "right",
+              "body_end": {
+                "x": 80,
+                "y": 10
+              },
+              "tip": {
+                "x": 100,
+                "y": 10
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -100,
+            "max_x": 100,
+            "min_y": -10,
+            "max_y": 20
+          }
+        },
+        {
+          "name": "GW_C0603C104K5RACTU_dc5e12a5",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "up",
+              "body_end": {
+                "x": 0,
+                "y": -10
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "down",
+              "body_end": {
+                "x": 0,
+                "y": -20
+              },
+              "tip": {
+                "x": 0,
+                "y": -30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -9,
+            "max_x": 9,
+            "min_y": -30,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_C0805C475K4RACTU_82374e08",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "up",
+              "body_end": {
+                "x": 0,
+                "y": -10
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "down",
+              "body_end": {
+                "x": 0,
+                "y": -20
+              },
+              "tip": {
+                "x": 0,
+                "y": -30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -9,
+            "max_x": 9,
+            "min_y": -30,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_CL10A105KB8NNNC_c3932faa",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "up",
+              "body_end": {
+                "x": 0,
+                "y": -10
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "down",
+              "body_end": {
+                "x": 0,
+                "y": -20
+              },
+              "tip": {
+                "x": 0,
+                "y": -30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -9,
+            "max_x": 9,
+            "min_y": -30,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_C0603C225K8RACTU_46503424",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "up",
+              "body_end": {
+                "x": 0,
+                "y": -10
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "down",
+              "body_end": {
+                "x": 0,
+                "y": -20
+              },
+              "tip": {
+                "x": 0,
+                "y": -30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -9,
+            "max_x": 9,
+            "min_y": -30,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_FRC0603J103TS_7289f91d",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": 8,
+                "y": 0
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 22,
+                "y": 0
+              },
+              "tip": {
+                "x": 30,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 0,
+            "max_x": 30,
+            "min_y": 0,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_H_Male_6x1_TH_100mil_c0450d1e",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "right",
+              "body_end": {
+                "x": 5,
+                "y": 20
+              },
+              "tip": {
+                "x": 25,
+                "y": 20
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 5,
+                "y": 10
+              },
+              "tip": {
+                "x": 25,
+                "y": 10
+              }
+            },
+            {
+              "designator": "3",
+              "name": "3",
+              "orientation": "right",
+              "body_end": {
+                "x": 5,
+                "y": 0
+              },
+              "tip": {
+                "x": 25,
+                "y": 0
+              }
+            },
+            {
+              "designator": "4",
+              "name": "4",
+              "orientation": "right",
+              "body_end": {
+                "x": 5,
+                "y": -10
+              },
+              "tip": {
+                "x": 25,
+                "y": -10
+              }
+            },
+            {
+              "designator": "5",
+              "name": "5",
+              "orientation": "right",
+              "body_end": {
+                "x": 5,
+                "y": -20
+              },
+              "tip": {
+                "x": 25,
+                "y": -20
+              }
+            },
+            {
+              "designator": "6",
+              "name": "6",
+              "orientation": "right",
+              "body_end": {
+                "x": 5,
+                "y": -30
+              },
+              "tip": {
+                "x": 25,
+                "y": -30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 5,
+            "max_x": 25,
+            "min_y": -30,
+            "max_y": 20
+          }
+        },
+        {
+          "name": "GW_Sw_PUSH_4.5x4.5x5.0xmm_0f078dd9",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": -10,
+                "y": 0
+              },
+              "tip": {
+                "x": -20,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 20,
+                "y": 0
+              },
+              "tip": {
+                "x": 30,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -20,
+            "max_x": 30,
+            "min_y": 0,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_H_Male_2x1_TH_100mil_f89d9046",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "right",
+              "body_end": {
+                "x": 5,
+                "y": 5
+              },
+              "tip": {
+                "x": 25,
+                "y": 5
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 5,
+                "y": -5
+              },
+              "tip": {
+                "x": 25,
+                "y": -5
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 5,
+            "max_x": 25,
+            "min_y": -5,
+            "max_y": 5
+          }
+        },
+        {
+          "name": "GW_C0603C103K1RACTU_97f3ee33",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "up",
+              "body_end": {
+                "x": 0,
+                "y": -10
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "down",
+              "body_end": {
+                "x": 0,
+                "y": -20
+              },
+              "tip": {
+                "x": 0,
+                "y": -30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -9,
+            "max_x": 9,
+            "min_y": -30,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_CL21A106KAYNNNE_c6e24382",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "up",
+              "body_end": {
+                "x": 0,
+                "y": -10
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "down",
+              "body_end": {
+                "x": 0,
+                "y": -20
+              },
+              "tip": {
+                "x": 0,
+                "y": -30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -9,
+            "max_x": 9,
+            "min_y": -30,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_C0603C202J5GACTU_fa733a70",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "up",
+              "body_end": {
+                "x": 0,
+                "y": -10
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "down",
+              "body_end": {
+                "x": 0,
+                "y": -20
+              },
+              "tip": {
+                "x": 0,
+                "y": -30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -9,
+            "max_x": 9,
+            "min_y": -30,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_RC0603FR-076K49L_f42a9329",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": 8,
+                "y": 0
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 22,
+                "y": 0
+              },
+              "tip": {
+                "x": 30,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 0,
+            "max_x": 30,
+            "min_y": 0,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_RC0603FR-072K49L_b905c5f0",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": 8,
+                "y": 0
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 22,
+                "y": 0
+              },
+              "tip": {
+                "x": 30,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 0,
+            "max_x": 30,
+            "min_y": 0,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_HCB1608KF-600T20_c68e3ad6",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": 10,
+                "y": 0
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 40,
+                "y": 0
+              },
+              "tip": {
+                "x": 50,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 0,
+            "max_x": 50,
+            "min_y": 0,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_XAL4030-682MEC_71dfd711",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": -20,
+                "y": 0
+              },
+              "tip": {
+                "x": -30,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 10,
+                "y": 0
+              },
+              "tip": {
+                "x": 20,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -30,
+            "max_x": 20,
+            "min_y": 0,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_C5750X7R2A475K230KA_5f18f946",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "up",
+              "body_end": {
+                "x": 0,
+                "y": -10
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "down",
+              "body_end": {
+                "x": 0,
+                "y": -20
+              },
+              "tip": {
+                "x": 0,
+                "y": -30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -9,
+            "max_x": 9,
+            "min_y": -30,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_C0805C224K1RACTU_e16e52b8",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "up",
+              "body_end": {
+                "x": 0,
+                "y": -10
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "down",
+              "body_end": {
+                "x": 0,
+                "y": -20
+              },
+              "tip": {
+                "x": 0,
+                "y": -30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -9,
+            "max_x": 9,
+            "min_y": -30,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_C3225X7R1C156M250AB_bb412b42",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "up",
+              "body_end": {
+                "x": 0,
+                "y": -10
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "down",
+              "body_end": {
+                "x": 0,
+                "y": -20
+              },
+              "tip": {
+                "x": 0,
+                "y": -30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -9,
+            "max_x": 9,
+            "min_y": -30,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_RC0603FR-07100KL_ac663db8",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": 8,
+                "y": 0
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 22,
+                "y": 0
+              },
+              "tip": {
+                "x": 30,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 0,
+            "max_x": 30,
+            "min_y": 0,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_RC0603FR-0743K2L_a8308c0c",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": 8,
+                "y": 0
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 22,
+                "y": 0
+              },
+              "tip": {
+                "x": 30,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 0,
+            "max_x": 30,
+            "min_y": 0,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_C0603C200J5GACTU_c75b007a",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "up",
+              "body_end": {
+                "x": 0,
+                "y": -10
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "down",
+              "body_end": {
+                "x": 0,
+                "y": -20
+              },
+              "tip": {
+                "x": 0,
+                "y": -30
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -9,
+            "max_x": 9,
+            "min_y": -30,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_XAL4040-103MEC_b36cb917",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": -20,
+                "y": 0
+              },
+              "tip": {
+                "x": -30,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 10,
+                "y": 0
+              },
+              "tip": {
+                "x": 20,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -30,
+            "max_x": 20,
+            "min_y": 0,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_RC0603FR-0724K9L_10698e9e",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": 8,
+                "y": 0
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 22,
+                "y": 0
+              },
+              "tip": {
+                "x": 30,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 0,
+            "max_x": 30,
+            "min_y": 0,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_JL126-50002G01_16238e52",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "right",
+              "body_end": {
+                "x": 20,
+                "y": 20
+              },
+              "tip": {
+                "x": 40,
+                "y": 20
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 20,
+                "y": 10
+              },
+              "tip": {
+                "x": 40,
+                "y": 10
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 20,
+            "max_x": 40,
+            "min_y": 10,
+            "max_y": 20
+          }
+        },
+        {
+          "name": "GW_CRCW0603010RJNEAHP_c8eb51d2",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": 8,
+                "y": 0
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 22,
+                "y": 0
+              },
+              "tip": {
+                "x": 30,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 0,
+            "max_x": 30,
+            "min_y": 0,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_MX126-5.0-03P-GN01-Cu-S-A_d57a488f",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "right",
+              "body_end": {
+                "x": 20,
+                "y": 20
+              },
+              "tip": {
+                "x": 40,
+                "y": 20
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 20,
+                "y": 10
+              },
+              "tip": {
+                "x": 40,
+                "y": 10
+              }
+            },
+            {
+              "designator": "3",
+              "name": "3",
+              "orientation": "right",
+              "body_end": {
+                "x": 20,
+                "y": 0
+              },
+              "tip": {
+                "x": 40,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 20,
+            "max_x": 40,
+            "min_y": 0,
+            "max_y": 20
+          }
+        },
+        {
+          "name": "GW_JL126-50002G01_ddbad43f",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "right",
+              "body_end": {
+                "x": 20,
+                "y": 20
+              },
+              "tip": {
+                "x": 40,
+                "y": 20
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 20,
+                "y": 10
+              },
+              "tip": {
+                "x": 40,
+                "y": 10
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 20,
+            "max_x": 40,
+            "min_y": 10,
+            "max_y": 20
+          }
+        },
+        {
+          "name": "GW_RC0603FR-07562RL_a6fad8df",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": 8,
+                "y": 0
+              },
+              "tip": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 22,
+                "y": 0
+              },
+              "tip": {
+                "x": 30,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 0,
+            "max_x": 30,
+            "min_y": 0,
+            "max_y": 0
+          }
+        },
+        {
+          "name": "GW_MX126-5.0-03P-GN01-Cu-S-A_8a7ef64c",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "right",
+              "body_end": {
+                "x": 20,
+                "y": 20
+              },
+              "tip": {
+                "x": 40,
+                "y": 20
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 20,
+                "y": 10
+              },
+              "tip": {
+                "x": 40,
+                "y": 10
+              }
+            },
+            {
+              "designator": "3",
+              "name": "3",
+              "orientation": "right",
+              "body_end": {
+                "x": 20,
+                "y": 0
+              },
+              "tip": {
+                "x": 40,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": 20,
+            "max_x": 40,
+            "min_y": 0,
+            "max_y": 20
+          }
+        },
+        {
+          "name": "KC2016Z25.0000C15XXK",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "STANDBY",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 20
+              },
+              "tip": {
+                "x": -80,
+                "y": 20
+              }
+            },
+            {
+              "designator": "2",
+              "name": "GND",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 0
+              },
+              "tip": {
+                "x": -80,
+                "y": 0
+              }
+            },
+            {
+              "designator": "3",
+              "name": "OUT_25MHz",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 20
+              },
+              "tip": {
+                "x": 80,
+                "y": 20
+              }
+            },
+            {
+              "designator": "4",
+              "name": "VCC",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 0
+              },
+              "tip": {
+                "x": 80,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -80,
+            "max_x": 80,
+            "min_y": -10,
+            "max_y": 40
+          }
+        },
+        {
+          "name": "HX1188FNL",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "TD+",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 140
+              },
+              "tip": {
+                "x": -80,
+                "y": 140
+              }
+            },
+            {
+              "designator": "2",
+              "name": "TCT",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 120
+              },
+              "tip": {
+                "x": -80,
+                "y": 120
+              }
+            },
+            {
+              "designator": "3",
+              "name": "TD-",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 100
+              },
+              "tip": {
+                "x": -80,
+                "y": 100
+              }
+            },
+            {
+              "designator": "4",
+              "name": "NC",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 80
+              },
+              "tip": {
+                "x": -80,
+                "y": 80
+              }
+            },
+            {
+              "designator": "5",
+              "name": "NC",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 60
+              },
+              "tip": {
+                "x": -80,
+                "y": 60
+              }
+            },
+            {
+              "designator": "6",
+              "name": "RD+",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 40
+              },
+              "tip": {
+                "x": -80,
+                "y": 40
+              }
+            },
+            {
+              "designator": "7",
+              "name": "RCT",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 20
+              },
+              "tip": {
+                "x": -80,
+                "y": 20
+              }
+            },
+            {
+              "designator": "8",
+              "name": "RD-",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 0
+              },
+              "tip": {
+                "x": -80,
+                "y": 0
+              }
+            },
+            {
+              "designator": "9",
+              "name": "RX-",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 140
+              },
+              "tip": {
+                "x": 80,
+                "y": 140
+              }
+            },
+            {
+              "designator": "10",
+              "name": "CMT_RX",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 120
+              },
+              "tip": {
+                "x": 80,
+                "y": 120
+              }
+            },
+            {
+              "designator": "11",
+              "name": "RX+",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 100
+              },
+              "tip": {
+                "x": 80,
+                "y": 100
+              }
+            },
+            {
+              "designator": "12",
+              "name": "NC",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 80
+              },
+              "tip": {
+                "x": 80,
+                "y": 80
+              }
+            },
+            {
+              "designator": "13",
+              "name": "NC",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 60
+              },
+              "tip": {
+                "x": 80,
+                "y": 60
+              }
+            },
+            {
+              "designator": "14",
+              "name": "TX-",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 40
+              },
+              "tip": {
+                "x": 80,
+                "y": 40
+              }
+            },
+            {
+              "designator": "15",
+              "name": "CMT_TX",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 20
+              },
+              "tip": {
+                "x": 80,
+                "y": 20
+              }
+            },
+            {
+              "designator": "16",
+              "name": "TX+",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 0
+              },
+              "tip": {
+                "x": 80,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -80,
+            "max_x": 80,
+            "min_y": -10,
+            "max_y": 160
+          }
+        },
+        {
+          "name": "XAL4030-682MEC",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 0
+              },
+              "tip": {
+                "x": -80,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 0
+              },
+              "tip": {
+                "x": 80,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -80,
+            "max_x": 80,
+            "min_y": -10,
+            "max_y": 20
+          }
+        },
+        {
+          "name": "XAL4040-103MEC",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 0
+              },
+              "tip": {
+                "x": -80,
+                "y": 0
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 0
+              },
+              "tip": {
+                "x": 80,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -80,
+            "max_x": 80,
+            "min_y": -10,
+            "max_y": 20
+          }
+        },
+        {
+          "name": "CDSOT23-SM712",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "BUS_A",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 20
+              },
+              "tip": {
+                "x": -80,
+                "y": 20
+              }
+            },
+            {
+              "designator": "2",
+              "name": "BUS_B",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 0
+              },
+              "tip": {
+                "x": -80,
+                "y": 0
+              }
+            },
+            {
+              "designator": "3",
+              "name": "GND_REF",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 20
+              },
+              "tip": {
+                "x": 80,
+                "y": 20
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -80,
+            "max_x": 80,
+            "min_y": -10,
+            "max_y": 40
+          }
+        },
+        {
+          "name": "TPD4E05U06DQAR",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "D1+",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 80
+              },
+              "tip": {
+                "x": -80,
+                "y": 80
+              }
+            },
+            {
+              "designator": "2",
+              "name": "D1-",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 60
+              },
+              "tip": {
+                "x": -80,
+                "y": 60
+              }
+            },
+            {
+              "designator": "3",
+              "name": "GND",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 40
+              },
+              "tip": {
+                "x": -80,
+                "y": 40
+              }
+            },
+            {
+              "designator": "4",
+              "name": "D2+",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 20
+              },
+              "tip": {
+                "x": -80,
+                "y": 20
+              }
+            },
+            {
+              "designator": "5",
+              "name": "D2-",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 0
+              },
+              "tip": {
+                "x": -80,
+                "y": 0
+              }
+            },
+            {
+              "designator": "6",
+              "name": "NC",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 80
+              },
+              "tip": {
+                "x": 80,
+                "y": 80
+              }
+            },
+            {
+              "designator": "7",
+              "name": "NC",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 60
+              },
+              "tip": {
+                "x": 80,
+                "y": 60
+              }
+            },
+            {
+              "designator": "8",
+              "name": "GND",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 40
+              },
+              "tip": {
+                "x": 80,
+                "y": 40
+              }
+            },
+            {
+              "designator": "9",
+              "name": "NC",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 20
+              },
+              "tip": {
+                "x": 80,
+                "y": 20
+              }
+            },
+            {
+              "designator": "10",
+              "name": "NC",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 0
+              },
+              "tip": {
+                "x": 80,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -80,
+            "max_x": 80,
+            "min_y": -10,
+            "max_y": 100
+          }
+        },
+        {
+          "name": "SS-7188S-A-NF",
+          "pins": [
+            {
+              "designator": "1",
+              "name": "1",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 80
+              },
+              "tip": {
+                "x": -80,
+                "y": 80
+              }
+            },
+            {
+              "designator": "2",
+              "name": "2",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 60
+              },
+              "tip": {
+                "x": -80,
+                "y": 60
+              }
+            },
+            {
+              "designator": "3",
+              "name": "3",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 40
+              },
+              "tip": {
+                "x": -80,
+                "y": 40
+              }
+            },
+            {
+              "designator": "4",
+              "name": "4",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 20
+              },
+              "tip": {
+                "x": -80,
+                "y": 20
+              }
+            },
+            {
+              "designator": "5",
+              "name": "5",
+              "orientation": "left",
+              "body_end": {
+                "x": -60,
+                "y": 0
+              },
+              "tip": {
+                "x": -80,
+                "y": 0
+              }
+            },
+            {
+              "designator": "6",
+              "name": "6",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 80
+              },
+              "tip": {
+                "x": 80,
+                "y": 80
+              }
+            },
+            {
+              "designator": "7",
+              "name": "7",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 60
+              },
+              "tip": {
+                "x": 80,
+                "y": 60
+              }
+            },
+            {
+              "designator": "8",
+              "name": "8",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 40
+              },
+              "tip": {
+                "x": 80,
+                "y": 40
+              }
+            },
+            {
+              "designator": "S1",
+              "name": "SHIELD1",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 20
+              },
+              "tip": {
+                "x": 80,
+                "y": 20
+              }
+            },
+            {
+              "designator": "S2",
+              "name": "SHIELD2",
+              "orientation": "right",
+              "body_end": {
+                "x": 60,
+                "y": 0
+              },
+              "tip": {
+                "x": 80,
+                "y": 0
+              }
+            }
+          ],
+          "bounding_box": {
+            "min_x": -80,
+            "max_x": 80,
+            "min_y": -10,
+            "max_y": 100
+          }
+        }
+      ],
+      "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_002452_093519.bak"
+    },
+    "isError": false
+  },
+  "write_pcb": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\": \"success\", \"filepath\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.PcbLib\", \"footprint_count\": 22, \"footprint_names\": [\"GW_LQFP100_ST_1L\", \"GW_RHB0032M_TI\", \"GW_RNX0012A_TI\", \"GW_RNX0012B_TI\", \"GW_SOIC8_1P27_5P4\", \"GW_DBQ0016A_TI\", \"GW_DCT0008A_TI\", \"GW_CAND_0603_cap\", \"GW_CAND_0603_fb\", \"GW_CAND_0603_res\", \"GW_CAND_0805_cap\", \"GW_CAND_CON_2x1_TH_5MM\", \"GW_CAND_CON_3x1_TH_5mm\", \"GW_CAND_H_2x1_TH_100mil\", \"GW_CAND_H_6x1_TH_100mil\", \"GW_KC2016Z_KYOCERA\", \"GW_HX1188FNL_PULSE\", \"GW_XAL4030_COILCRAFT\", \"GW_XAL4040_COILCRAFT\", \"GW_SM712_BOURNS\", \"GW_DQA0010A_TI\", \"GW_SS7188SANF_STEWART\"], \"validation\": {\"status\": \"valid\", \"error_count\": 0, \"warning_count\": 0, \"issues\": []}, \"bodies\": [{\"name\": \"GW_KC2016Z_KYOCERA\", \"source\": \"none\", \"note\": \"No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder.\"}, {\"name\": \"GW_HX1188FNL_PULSE\", \"source\": \"none\", \"note\": \"No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder.\"}, {\"name\": \"GW_XAL4030_COILCRAFT\", \"source\": \"none\", \"note\": \"No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder.\"}, {\"name\": \"GW_XAL4040_COILCRAFT\", \"source\": \"none\", \"note\": \"No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder.\"}, {\"name\": \"GW_SM712_BOURNS\", \"source\": \"none\", \"note\": \"No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder.\"}, {\"name\": \"GW_DQA0010A_TI\", \"source\": \"none\", \"note\": \"No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder.\"}, {\"name\": \"GW_SS7188SANF_STEWART\", \"source\": \"none\", \"note\": \"No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder.\"}], \"warnings\": [], \"backup\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.PcbLib.20261107_002432_492236.bak\"}"
+      }
+    ],
+    "structuredContent": {
+      "status": "success",
+      "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+      "footprint_count": 22,
+      "footprint_names": [
+        "GW_LQFP100_ST_1L",
+        "GW_RHB0032M_TI",
+        "GW_RNX0012A_TI",
+        "GW_RNX0012B_TI",
+        "GW_SOIC8_1P27_5P4",
+        "GW_DBQ0016A_TI",
+        "GW_DCT0008A_TI",
+        "GW_CAND_0603_cap",
+        "GW_CAND_0603_fb",
+        "GW_CAND_0603_res",
+        "GW_CAND_0805_cap",
+        "GW_CAND_CON_2x1_TH_5MM",
+        "GW_CAND_CON_3x1_TH_5mm",
+        "GW_CAND_H_2x1_TH_100mil",
+        "GW_CAND_H_6x1_TH_100mil",
+        "GW_KC2016Z_KYOCERA",
+        "GW_HX1188FNL_PULSE",
+        "GW_XAL4030_COILCRAFT",
+        "GW_XAL4040_COILCRAFT",
+        "GW_SM712_BOURNS",
+        "GW_DQA0010A_TI",
+        "GW_SS7188SANF_STEWART"
+      ],
+      "validation": {
+        "status": "valid",
+        "error_count": 0,
+        "warning_count": 0,
+        "issues": []
+      },
+      "bodies": [
+        {
+          "name": "GW_KC2016Z_KYOCERA",
+          "source": "none",
+          "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+        },
+        {
+          "name": "GW_HX1188FNL_PULSE",
+          "source": "none",
+          "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+        },
+        {
+          "name": "GW_XAL4030_COILCRAFT",
+          "source": "none",
+          "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+        },
+        {
+          "name": "GW_XAL4040_COILCRAFT",
+          "source": "none",
+          "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+        },
+        {
+          "name": "GW_SM712_BOURNS",
+          "source": "none",
+          "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+        },
+        {
+          "name": "GW_DQA0010A_TI",
+          "source": "none",
+          "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+        },
+        {
+          "name": "GW_SS7188SANF_STEWART",
+          "source": "none",
+          "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+        }
+      ],
+      "warnings": [],
+      "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261107_002432_492236.bak"
+    },
+    "isError": false
+  },
+  "compile": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true\n}"
+      }
+    ],
+    "structuredContent": {
+      "success": true
+    },
+    "isError": false
+  }
+}

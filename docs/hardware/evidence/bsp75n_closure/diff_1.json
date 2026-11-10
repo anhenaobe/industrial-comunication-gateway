@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "filepath_a": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\backups\\bsp75n_20261107T231133Z\\Gateway_Academic.PcbLib",
+  "filepath_b": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+  "file_type": "PcbLib",
+  "added": [
+    "GW_BSP75N_SOT223_DN_DIODES"
+  ],
+  "removed": [],
+  "modified": [],
+  "summary": {
+    "added_count": 1,
+    "removed_count": 0,
+    "modified_count": 0,
+    "unchanged_count": 37,
+    "components_in_a": 37,
+    "components_in_b": 38
+  }
+}

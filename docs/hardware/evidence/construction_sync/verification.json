@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "BOM_rows_checked": 110,
+  "local_links_checked": 18,
+  "MCU_and_interface_pin_tables_preserved": true,
+  "buck_pin_change_only": "VIN_PROT renamed24V_ELEC in documentation",
+  "native_and_firmware_hashes_unchanged": true,
+  "BOM_changes_only": "IN bypass descriptions and DO bypass parent metadata; no IDs/MPNs/values/quantities changed",
+  "downloads_datasheet_matches_project_copy": true,
+  "native_compile_ERC_DRC": "NOT_RUN",
+  "git_diff_check": 0,
+  "git_status": " M firmware/poc/.gitignore\n M firmware/poc/CMakeLists.txt\n M firmware/poc/README.md\n M firmware/poc/prj.conf\n?? \"converter_pcb_layout_appli-e (1).pdf\"\n?? docs/hardware/\n?? firmware/poc/.vscode/\n?? firmware/poc/platformio.ini\n?? firmware/poc/zephyr/\n?? hardware/\n?? \"shared_lib (1).IntLib\"\n?? tmp/\n"
+}

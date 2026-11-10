@@ -1,0 +1,2627 @@
+{
+  "pins": [
+    {
+      "component": "C36",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "GND"
+    },
+    {
+      "component": "C36",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "3.3V"
+    },
+    {
+      "component": "C37",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetC37_1"
+    },
+    {
+      "component": "C37",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C38",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C38",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C39",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C39",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C40",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C40",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C41",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C41",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C42",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetC42_1"
+    },
+    {
+      "component": "C42",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C43",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetC42_1"
+    },
+    {
+      "component": "C43",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C44",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetC44_1"
+    },
+    {
+      "component": "C44",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C45",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetC44_1"
+    },
+    {
+      "component": "C45",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C46",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "GND"
+    },
+    {
+      "component": "C46",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC46_2"
+    },
+    {
+      "component": "C47",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C47",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C48",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C48",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C49",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C49",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C50",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C50",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C51",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C51",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C52",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "GND"
+    },
+    {
+      "component": "C52",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC52_2"
+    },
+    {
+      "component": "C53",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "5V"
+    },
+    {
+      "component": "C53",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C54",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C54",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "J2",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "TX+"
+    },
+    {
+      "component": "J2",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "TX+"
+    },
+    {
+      "component": "J2",
+      "pin": "3",
+      "pin_name": "3",
+      "net": "RX+"
+    },
+    {
+      "component": "J2",
+      "pin": "4",
+      "pin_name": "4",
+      "net": "NetJ2_4"
+    },
+    {
+      "component": "J2",
+      "pin": "5",
+      "pin_name": "5",
+      "net": "NetJ2_4"
+    },
+    {
+      "component": "J2",
+      "pin": "6",
+      "pin_name": "6",
+      "net": "RX-"
+    },
+    {
+      "component": "J2",
+      "pin": "7",
+      "pin_name": "7",
+      "net": "NetJ2_7"
+    },
+    {
+      "component": "J2",
+      "pin": "8",
+      "pin_name": "8",
+      "net": "NetJ2_7"
+    },
+    {
+      "component": "J2",
+      "pin": "S1",
+      "pin_name": "SHIELD1",
+      "net": "NetJ2_S1"
+    },
+    {
+      "component": "J2",
+      "pin": "S2",
+      "pin_name": "SHIELD2",
+      "net": "NetJ2_S2"
+    },
+    {
+      "component": "R12",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetR12_1"
+    },
+    {
+      "component": "R12",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC46_2"
+    },
+    {
+      "component": "R13",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "GND"
+    },
+    {
+      "component": "R13",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetR13_2"
+    },
+    {
+      "component": "R14",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetR14_1"
+    },
+    {
+      "component": "R14",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC46_2"
+    },
+    {
+      "component": "R15",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "R15",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetR15_2"
+    },
+    {
+      "component": "R16",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetR16_1"
+    },
+    {
+      "component": "R16",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "3.3V"
+    },
+    {
+      "component": "R17",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetJ2_7"
+    },
+    {
+      "component": "R17",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC52_2"
+    },
+    {
+      "component": "R18",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "GND"
+    },
+    {
+      "component": "R18",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetR18_2"
+    },
+    {
+      "component": "R19",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetC52_2"
+    },
+    {
+      "component": "R19",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetJ2_4"
+    },
+    {
+      "component": "T1",
+      "pin": "1",
+      "pin_name": "TD+",
+      "net": "MDI_TXP"
+    },
+    {
+      "component": "T1",
+      "pin": "2",
+      "pin_name": "TCT",
+      "net": "NetC42_1"
+    },
+    {
+      "component": "T1",
+      "pin": "3",
+      "pin_name": "TD-",
+      "net": "MDI_TXN"
+    },
+    {
+      "component": "T1",
+      "pin": "4",
+      "pin_name": "NC",
+      "net": "NetT1_4"
+    },
+    {
+      "component": "T1",
+      "pin": "5",
+      "pin_name": "NC",
+      "net": "NetT1_5"
+    },
+    {
+      "component": "T1",
+      "pin": "6",
+      "pin_name": "RD+",
+      "net": "MDI_RXP"
+    },
+    {
+      "component": "T1",
+      "pin": "7",
+      "pin_name": "RCT",
+      "net": "NetC44_1"
+    },
+    {
+      "component": "T1",
+      "pin": "8",
+      "pin_name": "RD-",
+      "net": "MDI_RXN"
+    },
+    {
+      "component": "T1",
+      "pin": "9",
+      "pin_name": "RX-",
+      "net": "RX-"
+    },
+    {
+      "component": "T1",
+      "pin": "10",
+      "pin_name": "CMT_RX",
+      "net": "NetR12_1"
+    },
+    {
+      "component": "T1",
+      "pin": "11",
+      "pin_name": "RX+",
+      "net": "RX+"
+    },
+    {
+      "component": "T1",
+      "pin": "12",
+      "pin_name": "NC",
+      "net": "NetT1_12"
+    },
+    {
+      "component": "T1",
+      "pin": "13",
+      "pin_name": "NC",
+      "net": "NetT1_13"
+    },
+    {
+      "component": "T1",
+      "pin": "14",
+      "pin_name": "TX-",
+      "net": "TX-"
+    },
+    {
+      "component": "T1",
+      "pin": "15",
+      "pin_name": "CMT_TX",
+      "net": "NetR14_1"
+    },
+    {
+      "component": "T1",
+      "pin": "16",
+      "pin_name": "TX+",
+      "net": "TX+"
+    },
+    {
+      "component": "U5",
+      "pin": "1",
+      "pin_name": "ModeSelect",
+      "net": "NetU5_1"
+    },
+    {
+      "component": "U5",
+      "pin": "2",
+      "pin_name": "CEXT",
+      "net": "NetC37_1"
+    },
+    {
+      "component": "U5",
+      "pin": "3",
+      "pin_name": "VDDA3V3",
+      "net": "3.3V"
+    },
+    {
+      "component": "U5",
+      "pin": "4",
+      "pin_name": "RD_M",
+      "net": "MDI_RXN"
+    },
+    {
+      "component": "U5",
+      "pin": "5",
+      "pin_name": "RD_P",
+      "net": "MDI_RXP"
+    },
+    {
+      "component": "U5",
+      "pin": "6",
+      "pin_name": "TD_M",
+      "net": "MDI_TXN"
+    },
+    {
+      "component": "U5",
+      "pin": "7",
+      "pin_name": "TD_P",
+      "net": "MDI_TXP"
+    },
+    {
+      "component": "U5",
+      "pin": "8",
+      "pin_name": "XO",
+      "net": "NetU5_8"
+    },
+    {
+      "component": "U5",
+      "pin": "9",
+      "pin_name": "XI/50MHzIn",
+      "net": "XI"
+    },
+    {
+      "component": "U5",
+      "pin": "10",
+      "pin_name": "RBIAS",
+      "net": "NetR13_2"
+    },
+    {
+      "component": "U5",
+      "pin": "11",
+      "pin_name": "MDIO",
+      "net": "NetU4_24"
+    },
+    {
+      "component": "U5",
+      "pin": "12",
+      "pin_name": "MDC",
+      "net": "NetU4_16"
+    },
+    {
+      "component": "U5",
+      "pin": "13",
+      "pin_name": "RX_D3",
+      "net": "NetU5_13"
+    },
+    {
+      "component": "U5",
+      "pin": "14",
+      "pin_name": "RX_D2",
+      "net": "NetR15_2"
+    },
+    {
+      "component": "U5",
+      "pin": "15",
+      "pin_name": "RX_D1",
+      "net": "NetU4_33"
+    },
+    {
+      "component": "U5",
+      "pin": "16",
+      "pin_name": "RX_D0",
+      "net": "NetU4_32"
+    },
+    {
+      "component": "U5",
+      "pin": "17",
+      "pin_name": "VDDIO",
+      "net": "3.3V"
+    },
+    {
+      "component": "U5",
+      "pin": "18",
+      "pin_name": "RX_DV/CRS_DV",
+      "net": "NetU4_31"
+    },
+    {
+      "component": "U5",
+      "pin": "19",
+      "pin_name": "RX_CLK/50MHz_RMII",
+      "net": "NetU4_23"
+    },
+    {
+      "component": "U5",
+      "pin": "20",
+      "pin_name": "RX_ER",
+      "net": "NetU5_20"
+    },
+    {
+      "component": "U5",
+      "pin": "21",
+      "pin_name": "PWRDN/INT",
+      "net": "NetU5_21"
+    },
+    {
+      "component": "U5",
+      "pin": "22",
+      "pin_name": "TX_CLK",
+      "net": "NetU5_22"
+    },
+    {
+      "component": "U5",
+      "pin": "23",
+      "pin_name": "TX_EN",
+      "net": "NetU4_47"
+    },
+    {
+      "component": "U5",
+      "pin": "24",
+      "pin_name": "TX_D0",
+      "net": "NetU4_51"
+    },
+    {
+      "component": "U5",
+      "pin": "25",
+      "pin_name": "TX_D1",
+      "net": "NetU4_52"
+    },
+    {
+      "component": "U5",
+      "pin": "26",
+      "pin_name": "TX_D2",
+      "net": "NetU5_26"
+    },
+    {
+      "component": "U5",
+      "pin": "27",
+      "pin_name": "TX_D3",
+      "net": "NetU5_27"
+    },
+    {
+      "component": "U5",
+      "pin": "28",
+      "pin_name": "COL/LED2/TX_ER/GPIO",
+      "net": "NetU5_28"
+    },
+    {
+      "component": "U5",
+      "pin": "29",
+      "pin_name": "CRS/LED3",
+      "net": "NetU5_29"
+    },
+    {
+      "component": "U5",
+      "pin": "30",
+      "pin_name": "LED0",
+      "net": "NetU5_30"
+    },
+    {
+      "component": "U5",
+      "pin": "31",
+      "pin_name": "CLKOUT/LED1",
+      "net": "NetU5_31"
+    },
+    {
+      "component": "U5",
+      "pin": "32",
+      "pin_name": "RST_N",
+      "net": "NetU4_5"
+    },
+    {
+      "component": "U5",
+      "pin": "33",
+      "pin_name": "GND_EP",
+      "net": "GND"
+    },
+    {
+      "component": "U6",
+      "pin": "1",
+      "pin_name": "R",
+      "net": "NetU4_56"
+    },
+    {
+      "component": "U6",
+      "pin": "2",
+      "pin_name": "/RE",
+      "net": "NetR16_1"
+    },
+    {
+      "component": "U6",
+      "pin": "3",
+      "pin_name": "DE",
+      "net": "NetR18_2"
+    },
+    {
+      "component": "U6",
+      "pin": "4",
+      "pin_name": "D",
+      "net": "NetU4_55"
+    },
+    {
+      "component": "U6",
+      "pin": "5",
+      "pin_name": "GND",
+      "net": "GND"
+    },
+    {
+      "component": "U6",
+      "pin": "6",
+      "pin_name": "A",
+      "net": "NetU6_6"
+    },
+    {
+      "component": "U6",
+      "pin": "7",
+      "pin_name": "B",
+      "net": "NetU6_7"
+    },
+    {
+      "component": "U6",
+      "pin": "8",
+      "pin_name": "VCC",
+      "net": "3.3V"
+    },
+    {
+      "component": "U7",
+      "pin": "1",
+      "pin_name": "TXD",
+      "net": "NetU4_82"
+    },
+    {
+      "component": "U7",
+      "pin": "2",
+      "pin_name": "GND",
+      "net": "GND"
+    },
+    {
+      "component": "U7",
+      "pin": "3",
+      "pin_name": "VCC",
+      "net": "5V"
+    },
+    {
+      "component": "U7",
+      "pin": "4",
+      "pin_name": "RXD",
+      "net": "NetU4_81"
+    },
+    {
+      "component": "U7",
+      "pin": "5",
+      "pin_name": "VIO",
+      "net": "3.3V"
+    },
+    {
+      "component": "U7",
+      "pin": "6",
+      "pin_name": "CANL",
+      "net": "NetU7_6"
+    },
+    {
+      "component": "U7",
+      "pin": "7",
+      "pin_name": "CANH",
+      "net": "NetU7_7"
+    },
+    {
+      "component": "U7",
+      "pin": "8",
+      "pin_name": "STBY",
+      "net": "NetU4_37"
+    },
+    {
+      "component": "Y2",
+      "pin": "1",
+      "pin_name": "STANDBY",
+      "net": "3.3V"
+    },
+    {
+      "component": "Y2",
+      "pin": "2",
+      "pin_name": "GND",
+      "net": "GND"
+    },
+    {
+      "component": "Y2",
+      "pin": "3",
+      "pin_name": "OUT_25MHz",
+      "net": "XI"
+    },
+    {
+      "component": "Y2",
+      "pin": "4",
+      "pin_name": "VCC",
+      "net": "3.3V"
+    },
+    {
+      "component": "C55",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "SENSE1"
+    },
+    {
+      "component": "C55",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "FIELD_COM"
+    },
+    {
+      "component": "C56",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C56",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C57",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "SENSE2"
+    },
+    {
+      "component": "C57",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "FIELD_COM"
+    },
+    {
+      "component": "C58",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C58",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C59",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "5V"
+    },
+    {
+      "component": "C59",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "R20",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetR20_1"
+    },
+    {
+      "component": "R20",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "SENSE1"
+    },
+    {
+      "component": "R21",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "SENSE1"
+    },
+    {
+      "component": "R21",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetR21_2"
+    },
+    {
+      "component": "R22",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "SENSE2"
+    },
+    {
+      "component": "R22",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetR22_2"
+    },
+    {
+      "component": "R23",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetR23_1"
+    },
+    {
+      "component": "R23",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "SENSE2"
+    },
+    {
+      "component": "R24",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "GND"
+    },
+    {
+      "component": "R24",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetR24_2"
+    },
+    {
+      "component": "R25",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "GND"
+    },
+    {
+      "component": "R25",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetR25_2"
+    },
+    {
+      "component": "U8",
+      "pin": "1",
+      "pin_name": "GND1",
+      "net": "GND"
+    },
+    {
+      "component": "U8",
+      "pin": "2",
+      "pin_name": "VCC1",
+      "net": "3.3V"
+    },
+    {
+      "component": "U8",
+      "pin": "3",
+      "pin_name": "EN",
+      "net": "3.3V"
+    },
+    {
+      "component": "U8",
+      "pin": "4",
+      "pin_name": "OUT1",
+      "net": "NetR21_2"
+    },
+    {
+      "component": "U8",
+      "pin": "5",
+      "pin_name": "OUT2",
+      "net": "NetR22_2"
+    },
+    {
+      "component": "U8",
+      "pin": "6",
+      "pin_name": "NC",
+      "net": "NetU8_6"
+    },
+    {
+      "component": "U8",
+      "pin": "7",
+      "pin_name": "NC",
+      "net": "NetU8_7"
+    },
+    {
+      "component": "U8",
+      "pin": "8",
+      "pin_name": "GND1",
+      "net": "GND"
+    },
+    {
+      "component": "U8",
+      "pin": "9",
+      "pin_name": "FGND2",
+      "net": "FIELD_COM"
+    },
+    {
+      "component": "U8",
+      "pin": "10",
+      "pin_name": "IN2",
+      "net": "NetR23_1"
+    },
+    {
+      "component": "U8",
+      "pin": "11",
+      "pin_name": "SENSE2",
+      "net": "SENSE2"
+    },
+    {
+      "component": "U8",
+      "pin": "12",
+      "pin_name": "SUB2",
+      "net": "NetU8_12"
+    },
+    {
+      "component": "U8",
+      "pin": "13",
+      "pin_name": "SUB1",
+      "net": "NetU8_13"
+    },
+    {
+      "component": "U8",
+      "pin": "14",
+      "pin_name": "FGND1",
+      "net": "FIELD_COM"
+    },
+    {
+      "component": "U8",
+      "pin": "15",
+      "pin_name": "IN1",
+      "net": "NetR20_1"
+    },
+    {
+      "component": "U8",
+      "pin": "16",
+      "pin_name": "SENSE1",
+      "net": "SENSE1"
+    },
+    {
+      "component": "U9",
+      "pin": "1",
+      "pin_name": "VCCA",
+      "net": "3.3V"
+    },
+    {
+      "component": "U9",
+      "pin": "2",
+      "pin_name": "A1",
+      "net": "NetR24_2"
+    },
+    {
+      "component": "U9",
+      "pin": "3",
+      "pin_name": "A2",
+      "net": "NetR25_2"
+    },
+    {
+      "component": "U9",
+      "pin": "4",
+      "pin_name": "GND",
+      "net": "GND"
+    },
+    {
+      "component": "U9",
+      "pin": "5",
+      "pin_name": "DIR",
+      "net": "3.3V"
+    },
+    {
+      "component": "U9",
+      "pin": "6",
+      "pin_name": "B2",
+      "net": "DO2_DRIVE"
+    },
+    {
+      "component": "U9",
+      "pin": "7",
+      "pin_name": "B1",
+      "net": "DO1_DRIVE"
+    },
+    {
+      "component": "U9",
+      "pin": "8",
+      "pin_name": "VCCB",
+      "net": "5V"
+    },
+    {
+      "component": "U10",
+      "pin": "D",
+      "pin_name": "D",
+      "net": "NetU10_D"
+    },
+    {
+      "component": "U10",
+      "pin": "IN",
+      "pin_name": "IN",
+      "net": "NetU10_IN"
+    },
+    {
+      "component": "U10",
+      "pin": "S",
+      "pin_name": "S",
+      "net": "NetU10_S"
+    },
+    {
+      "component": "U10",
+      "pin": "S_TAB",
+      "pin_name": "S_TAB",
+      "net": "NetU10_S_TAB"
+    },
+    {
+      "component": "U11",
+      "pin": "D",
+      "pin_name": "D",
+      "net": "NetU11_D"
+    },
+    {
+      "component": "U11",
+      "pin": "IN",
+      "pin_name": "IN",
+      "net": "NetU11_IN"
+    },
+    {
+      "component": "U11",
+      "pin": "S",
+      "pin_name": "S",
+      "net": "NetU11_S"
+    },
+    {
+      "component": "U11",
+      "pin": "S_TAB",
+      "pin_name": "S_TAB",
+      "net": "NetU11_S_TAB"
+    },
+    {
+      "component": "C22",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C22",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C23",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C23",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C24",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C24",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C25",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "GND"
+    },
+    {
+      "component": "C25",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "3.3V"
+    },
+    {
+      "component": "C26",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C26",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C27",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C27",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C28",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "SWD"
+    },
+    {
+      "component": "C28",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C29",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C29",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C30",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C30",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C31",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C31",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C32",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C32",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C33",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "VCAP"
+    },
+    {
+      "component": "C33",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C34",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "VCAP"
+    },
+    {
+      "component": "C34",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C35",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C35",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "R11",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetR11_1"
+    },
+    {
+      "component": "R11",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "SW1",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetR11_1"
+    },
+    {
+      "component": "SW1",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "3.3V"
+    },
+    {
+      "component": "U4",
+      "pin": "1",
+      "pin_name": "PE2",
+      "net": "NetR24_2"
+    },
+    {
+      "component": "U4",
+      "pin": "2",
+      "pin_name": "PE3",
+      "net": "NetR25_2"
+    },
+    {
+      "component": "U4",
+      "pin": "3",
+      "pin_name": "PE4",
+      "net": "NetR21_2"
+    },
+    {
+      "component": "U4",
+      "pin": "4",
+      "pin_name": "PE5",
+      "net": "NetR22_2"
+    },
+    {
+      "component": "U4",
+      "pin": "5",
+      "pin_name": "PE6",
+      "net": "NetU4_5"
+    },
+    {
+      "component": "U4",
+      "pin": "6",
+      "pin_name": "VBAT",
+      "net": "3.3V"
+    },
+    {
+      "component": "U4",
+      "pin": "7",
+      "pin_name": "PC13",
+      "net": "NetU4_7"
+    },
+    {
+      "component": "U4",
+      "pin": "8",
+      "pin_name": "PC14",
+      "net": "NetU4_8"
+    },
+    {
+      "component": "U4",
+      "pin": "9",
+      "pin_name": "PC15",
+      "net": "NetU4_9"
+    },
+    {
+      "component": "U4",
+      "pin": "10",
+      "pin_name": "VSS",
+      "net": "GND"
+    },
+    {
+      "component": "U4",
+      "pin": "11",
+      "pin_name": "VDD",
+      "net": "3.3V"
+    },
+    {
+      "component": "U4",
+      "pin": "12",
+      "pin_name": "PH0",
+      "net": "PH0"
+    },
+    {
+      "component": "U4",
+      "pin": "13",
+      "pin_name": "PH1",
+      "net": "NetU4_13"
+    },
+    {
+      "component": "U4",
+      "pin": "14",
+      "pin_name": "NRST",
+      "net": "SWD"
+    },
+    {
+      "component": "U4",
+      "pin": "15",
+      "pin_name": "PC0",
+      "net": "NetU4_15"
+    },
+    {
+      "component": "U4",
+      "pin": "16",
+      "pin_name": "PC1",
+      "net": "NetU4_16"
+    },
+    {
+      "component": "U4",
+      "pin": "17",
+      "pin_name": "PC2_C",
+      "net": "NetU4_17"
+    },
+    {
+      "component": "U4",
+      "pin": "18",
+      "pin_name": "PC3_C",
+      "net": "NetU4_18"
+    },
+    {
+      "component": "U4",
+      "pin": "19",
+      "pin_name": "VSSA",
+      "net": "GND"
+    },
+    {
+      "component": "U4",
+      "pin": "20",
+      "pin_name": "VREF+",
+      "net": "3.3V"
+    },
+    {
+      "component": "U4",
+      "pin": "21",
+      "pin_name": "VDDA",
+      "net": "3.3V"
+    },
+    {
+      "component": "U4",
+      "pin": "22",
+      "pin_name": "PA0",
+      "net": "NetU4_22"
+    },
+    {
+      "component": "U4",
+      "pin": "23",
+      "pin_name": "PA1",
+      "net": "NetU4_23"
+    },
+    {
+      "component": "U4",
+      "pin": "24",
+      "pin_name": "PA2",
+      "net": "NetU4_24"
+    },
+    {
+      "component": "U4",
+      "pin": "25",
+      "pin_name": "PA3",
+      "net": "NetU4_25"
+    },
+    {
+      "component": "U4",
+      "pin": "26",
+      "pin_name": "VSS",
+      "net": "GND"
+    },
+    {
+      "component": "U4",
+      "pin": "27",
+      "pin_name": "VDD",
+      "net": "3.3V"
+    },
+    {
+      "component": "U4",
+      "pin": "28",
+      "pin_name": "PA4",
+      "net": "NetU4_28"
+    },
+    {
+      "component": "U4",
+      "pin": "29",
+      "pin_name": "PA5",
+      "net": "NetU4_29"
+    },
+    {
+      "component": "U4",
+      "pin": "30",
+      "pin_name": "PA6",
+      "net": "NetU4_30"
+    },
+    {
+      "component": "U4",
+      "pin": "31",
+      "pin_name": "PA7",
+      "net": "NetU4_31"
+    },
+    {
+      "component": "U4",
+      "pin": "32",
+      "pin_name": "PC4",
+      "net": "NetU4_32"
+    },
+    {
+      "component": "U4",
+      "pin": "33",
+      "pin_name": "PC5",
+      "net": "NetU4_33"
+    },
+    {
+      "component": "U4",
+      "pin": "34",
+      "pin_name": "PB0",
+      "net": "NetU4_34"
+    },
+    {
+      "component": "U4",
+      "pin": "35",
+      "pin_name": "PB1",
+      "net": "NetU4_35"
+    },
+    {
+      "component": "U4",
+      "pin": "36",
+      "pin_name": "PB2",
+      "net": "NetU4_36"
+    },
+    {
+      "component": "U4",
+      "pin": "37",
+      "pin_name": "PE7",
+      "net": "NetU4_37"
+    },
+    {
+      "component": "U4",
+      "pin": "38",
+      "pin_name": "PE8",
+      "net": "NetU4_38"
+    },
+    {
+      "component": "U4",
+      "pin": "39",
+      "pin_name": "PE9",
+      "net": "NetU4_39"
+    },
+    {
+      "component": "U4",
+      "pin": "40",
+      "pin_name": "PE10",
+      "net": "NetU4_40"
+    },
+    {
+      "component": "U4",
+      "pin": "41",
+      "pin_name": "PE11",
+      "net": "NetU4_41"
+    },
+    {
+      "component": "U4",
+      "pin": "42",
+      "pin_name": "PE12",
+      "net": "NetU4_42"
+    },
+    {
+      "component": "U4",
+      "pin": "43",
+      "pin_name": "PE13",
+      "net": "NetU4_43"
+    },
+    {
+      "component": "U4",
+      "pin": "44",
+      "pin_name": "PE14",
+      "net": "NetU4_44"
+    },
+    {
+      "component": "U4",
+      "pin": "45",
+      "pin_name": "PE15",
+      "net": "NetU4_45"
+    },
+    {
+      "component": "U4",
+      "pin": "46",
+      "pin_name": "PB10",
+      "net": "NetU4_46"
+    },
+    {
+      "component": "U4",
+      "pin": "47",
+      "pin_name": "PB11",
+      "net": "NetU4_47"
+    },
+    {
+      "component": "U4",
+      "pin": "48",
+      "pin_name": "VCAP",
+      "net": "VCAP"
+    },
+    {
+      "component": "U4",
+      "pin": "49",
+      "pin_name": "VSS",
+      "net": "GND"
+    },
+    {
+      "component": "U4",
+      "pin": "50",
+      "pin_name": "VDD",
+      "net": "3.3V"
+    },
+    {
+      "component": "U4",
+      "pin": "51",
+      "pin_name": "PB12",
+      "net": "NetU4_51"
+    },
+    {
+      "component": "U4",
+      "pin": "52",
+      "pin_name": "PB13",
+      "net": "NetU4_52"
+    },
+    {
+      "component": "U4",
+      "pin": "53",
+      "pin_name": "PB14",
+      "net": "NetU4_53"
+    },
+    {
+      "component": "U4",
+      "pin": "54",
+      "pin_name": "PB15",
+      "net": "NetU4_54"
+    },
+    {
+      "component": "U4",
+      "pin": "55",
+      "pin_name": "PD8",
+      "net": "NetU4_55"
+    },
+    {
+      "component": "U4",
+      "pin": "56",
+      "pin_name": "PD9",
+      "net": "NetU4_56"
+    },
+    {
+      "component": "U4",
+      "pin": "57",
+      "pin_name": "PD10",
+      "net": "NetR18_2"
+    },
+    {
+      "component": "U4",
+      "pin": "58",
+      "pin_name": "PD11",
+      "net": "NetR16_1"
+    },
+    {
+      "component": "U4",
+      "pin": "59",
+      "pin_name": "PD12",
+      "net": "NetU4_59"
+    },
+    {
+      "component": "U4",
+      "pin": "60",
+      "pin_name": "PD13",
+      "net": "NetU4_60"
+    },
+    {
+      "component": "U4",
+      "pin": "61",
+      "pin_name": "PD14",
+      "net": "NetU4_61"
+    },
+    {
+      "component": "U4",
+      "pin": "62",
+      "pin_name": "PD15",
+      "net": "NetU4_62"
+    },
+    {
+      "component": "U4",
+      "pin": "63",
+      "pin_name": "PC6",
+      "net": "NetU4_63"
+    },
+    {
+      "component": "U4",
+      "pin": "64",
+      "pin_name": "PC7",
+      "net": "NetU4_64"
+    },
+    {
+      "component": "U4",
+      "pin": "65",
+      "pin_name": "PC8",
+      "net": "NetU4_65"
+    },
+    {
+      "component": "U4",
+      "pin": "66",
+      "pin_name": "PC9",
+      "net": "NetU4_66"
+    },
+    {
+      "component": "U4",
+      "pin": "67",
+      "pin_name": "PA8",
+      "net": "NetU4_67"
+    },
+    {
+      "component": "U4",
+      "pin": "68",
+      "pin_name": "PA9",
+      "net": "NetU4_68"
+    },
+    {
+      "component": "U4",
+      "pin": "69",
+      "pin_name": "PA10",
+      "net": "NetU4_69"
+    },
+    {
+      "component": "U4",
+      "pin": "70",
+      "pin_name": "PA11",
+      "net": "NetU4_70"
+    },
+    {
+      "component": "U4",
+      "pin": "71",
+      "pin_name": "PA12",
+      "net": "SWCLK"
+    },
+    {
+      "component": "U4",
+      "pin": "72",
+      "pin_name": "PA13",
+      "net": "SWDIO"
+    },
+    {
+      "component": "U4",
+      "pin": "73",
+      "pin_name": "VCAP",
+      "net": "VCAP"
+    },
+    {
+      "component": "U4",
+      "pin": "74",
+      "pin_name": "VSS",
+      "net": "GND"
+    },
+    {
+      "component": "U4",
+      "pin": "75",
+      "pin_name": "VDD",
+      "net": "3.3V"
+    },
+    {
+      "component": "U4",
+      "pin": "76",
+      "pin_name": "PA14",
+      "net": "NetU4_76"
+    },
+    {
+      "component": "U4",
+      "pin": "77",
+      "pin_name": "PA15",
+      "net": "NetU4_77"
+    },
+    {
+      "component": "U4",
+      "pin": "78",
+      "pin_name": "PC10",
+      "net": "NetU4_78"
+    },
+    {
+      "component": "U4",
+      "pin": "79",
+      "pin_name": "PC11",
+      "net": "NetU4_79"
+    },
+    {
+      "component": "U4",
+      "pin": "80",
+      "pin_name": "PC12",
+      "net": "NetU4_80"
+    },
+    {
+      "component": "U4",
+      "pin": "81",
+      "pin_name": "PD0",
+      "net": "NetU4_81"
+    },
+    {
+      "component": "U4",
+      "pin": "82",
+      "pin_name": "PD1",
+      "net": "NetU4_82"
+    },
+    {
+      "component": "U4",
+      "pin": "83",
+      "pin_name": "PD2",
+      "net": "NetU4_83"
+    },
+    {
+      "component": "U4",
+      "pin": "84",
+      "pin_name": "PD3",
+      "net": "NetU4_84"
+    },
+    {
+      "component": "U4",
+      "pin": "85",
+      "pin_name": "PD4",
+      "net": "NetU4_85"
+    },
+    {
+      "component": "U4",
+      "pin": "86",
+      "pin_name": "PD5",
+      "net": "NetU4_86"
+    },
+    {
+      "component": "U4",
+      "pin": "87",
+      "pin_name": "PD6",
+      "net": "NetU4_87"
+    },
+    {
+      "component": "U4",
+      "pin": "88",
+      "pin_name": "PD7",
+      "net": "NetU4_88"
+    },
+    {
+      "component": "U4",
+      "pin": "89",
+      "pin_name": "PB3",
+      "net": "NetU4_89"
+    },
+    {
+      "component": "U4",
+      "pin": "90",
+      "pin_name": "PB4",
+      "net": "NetU4_90"
+    },
+    {
+      "component": "U4",
+      "pin": "91",
+      "pin_name": "PB5",
+      "net": "NetU4_91"
+    },
+    {
+      "component": "U4",
+      "pin": "92",
+      "pin_name": "PB6",
+      "net": "NetU4_92"
+    },
+    {
+      "component": "U4",
+      "pin": "93",
+      "pin_name": "PB7",
+      "net": "NetU4_93"
+    },
+    {
+      "component": "U4",
+      "pin": "94",
+      "pin_name": "BOOT0",
+      "net": "NetR11_1"
+    },
+    {
+      "component": "U4",
+      "pin": "95",
+      "pin_name": "PB8",
+      "net": "NetU4_95"
+    },
+    {
+      "component": "U4",
+      "pin": "96",
+      "pin_name": "PB9",
+      "net": "NetU4_96"
+    },
+    {
+      "component": "U4",
+      "pin": "97",
+      "pin_name": "PE0",
+      "net": "NetU4_97"
+    },
+    {
+      "component": "U4",
+      "pin": "98",
+      "pin_name": "PE1",
+      "net": "NetU4_98"
+    },
+    {
+      "component": "U4",
+      "pin": "99",
+      "pin_name": "VSS",
+      "net": "GND"
+    },
+    {
+      "component": "U4",
+      "pin": "100",
+      "pin_name": "VDD",
+      "net": "3.3V"
+    },
+    {
+      "component": "Y1",
+      "pin": "1",
+      "pin_name": "STANDBY",
+      "net": "3.3V"
+    },
+    {
+      "component": "Y1",
+      "pin": "2",
+      "pin_name": "GND",
+      "net": "GND"
+    },
+    {
+      "component": "Y1",
+      "pin": "3",
+      "pin_name": "OUT_25MHz",
+      "net": "PH0"
+    },
+    {
+      "component": "Y1",
+      "pin": "4",
+      "pin_name": "VCC",
+      "net": "3.3V"
+    },
+    {
+      "component": "C1",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "GND"
+    },
+    {
+      "component": "C1",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC1_2"
+    },
+    {
+      "component": "C2",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "GND"
+    },
+    {
+      "component": "C2",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC1_2"
+    },
+    {
+      "component": "C3",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "EF_RTN"
+    },
+    {
+      "component": "C3",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC3_2"
+    },
+    {
+      "component": "C4",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C4",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C5",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C5",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C6",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C6",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C7",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "24V"
+    },
+    {
+      "component": "C7",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C8",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "24V"
+    },
+    {
+      "component": "C8",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C9",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "24V"
+    },
+    {
+      "component": "C9",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C10",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "SW"
+    },
+    {
+      "component": "C10",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC10_2"
+    },
+    {
+      "component": "C11",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "3.3V"
+    },
+    {
+      "component": "C11",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC11_2"
+    },
+    {
+      "component": "C12",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetC12_1"
+    },
+    {
+      "component": "C12",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C13",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "5V"
+    },
+    {
+      "component": "C13",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C14",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "5V"
+    },
+    {
+      "component": "C14",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C15",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "5V"
+    },
+    {
+      "component": "C15",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C16",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "24V"
+    },
+    {
+      "component": "C16",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C17",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "24V"
+    },
+    {
+      "component": "C17",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C18",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "24V"
+    },
+    {
+      "component": "C18",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "C19",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "SW"
+    },
+    {
+      "component": "C19",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC19_2"
+    },
+    {
+      "component": "C20",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "5V"
+    },
+    {
+      "component": "C20",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC20_2"
+    },
+    {
+      "component": "C21",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetC21_1"
+    },
+    {
+      "component": "C21",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "D1",
+      "pin": "1",
+      "pin_name": "ANODE1",
+      "net": "NetD1_1"
+    },
+    {
+      "component": "D1",
+      "pin": "2",
+      "pin_name": "ANODE2",
+      "net": "NetD1_1"
+    },
+    {
+      "component": "D1",
+      "pin": "K",
+      "pin_name": "CATHODE",
+      "net": "NetC1_2"
+    },
+    {
+      "component": "D2",
+      "pin": "1",
+      "pin_name": "GND",
+      "net": "GND"
+    },
+    {
+      "component": "D2",
+      "pin": "2",
+      "pin_name": "GND",
+      "net": "GND"
+    },
+    {
+      "component": "D2",
+      "pin": "3",
+      "pin_name": "GND",
+      "net": "GND"
+    },
+    {
+      "component": "D2",
+      "pin": "4",
+      "pin_name": "IN",
+      "net": "NetC1_2"
+    },
+    {
+      "component": "D2",
+      "pin": "5",
+      "pin_name": "IN",
+      "net": "NetC1_2"
+    },
+    {
+      "component": "D2",
+      "pin": "6",
+      "pin_name": "IN",
+      "net": "NetC1_2"
+    },
+    {
+      "component": "F1",
+      "pin": "1",
+      "pin_name": "END1",
+      "net": "NetF1_1"
+    },
+    {
+      "component": "F1",
+      "pin": "2",
+      "pin_name": "END2",
+      "net": "NetD1_1"
+    },
+    {
+      "component": "J1",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetF1_1"
+    },
+    {
+      "component": "J1",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "GND"
+    },
+    {
+      "component": "L1",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "SW"
+    },
+    {
+      "component": "L1",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "3.3V"
+    },
+    {
+      "component": "L2",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "SW"
+    },
+    {
+      "component": "L2",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "5V"
+    },
+    {
+      "component": "R1",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetR1_1"
+    },
+    {
+      "component": "R1",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC1_2"
+    },
+    {
+      "component": "R2",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetR2_1"
+    },
+    {
+      "component": "R2",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "EF_RTN"
+    },
+    {
+      "component": "R3",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "OVP"
+    },
+    {
+      "component": "R3",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetR1_1"
+    },
+    {
+      "component": "R4",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "OVP"
+    },
+    {
+      "component": "R4",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "EF_RTN"
+    },
+    {
+      "component": "R5",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetC11_2"
+    },
+    {
+      "component": "R5",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "3.3V"
+    },
+    {
+      "component": "R6",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "Vin"
+    },
+    {
+      "component": "R6",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetR6_2"
+    },
+    {
+      "component": "R7",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "GND"
+    },
+    {
+      "component": "R7",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC11_2"
+    },
+    {
+      "component": "R8",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "NetC20_2"
+    },
+    {
+      "component": "R8",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "5V"
+    },
+    {
+      "component": "R9",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "Vin"
+    },
+    {
+      "component": "R9",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetR9_2"
+    },
+    {
+      "component": "R10",
+      "pin": "1",
+      "pin_name": "1",
+      "net": "GND"
+    },
+    {
+      "component": "R10",
+      "pin": "2",
+      "pin_name": "2",
+      "net": "NetC20_2"
+    },
+    {
+      "component": "U1",
+      "pin": "1",
+      "pin_name": "IN",
+      "net": "NetC1_2"
+    },
+    {
+      "component": "U1",
+      "pin": "2",
+      "pin_name": "UVLO",
+      "net": "NetR1_1"
+    },
+    {
+      "component": "U1",
+      "pin": "3",
+      "pin_name": "OVP",
+      "net": "OVP"
+    },
+    {
+      "component": "U1",
+      "pin": "4",
+      "pin_name": "SHDN_N",
+      "net": "NetU1_4"
+    },
+    {
+      "component": "U1",
+      "pin": "5",
+      "pin_name": "RTN",
+      "net": "EF_RTN"
+    },
+    {
+      "component": "U1",
+      "pin": "6",
+      "pin_name": "GND",
+      "net": "GND"
+    },
+    {
+      "component": "U1",
+      "pin": "7",
+      "pin_name": "ILIM",
+      "net": "NetR2_1"
+    },
+    {
+      "component": "U1",
+      "pin": "8",
+      "pin_name": "dVdT",
+      "net": "NetC3_2"
+    },
+    {
+      "component": "U1",
+      "pin": "9",
+      "pin_name": "FLT_N",
+      "net": "NetU1_9"
+    },
+    {
+      "component": "U1",
+      "pin": "10",
+      "pin_name": "OUT",
+      "net": "24V"
+    },
+    {
+      "component": "U1",
+      "pin": "11",
+      "pin_name": "RTN_EP",
+      "net": "EF_RTN"
+    },
+    {
+      "component": "U2",
+      "pin": "1",
+      "pin_name": "PGND",
+      "net": "GND"
+    },
+    {
+      "component": "U2",
+      "pin": "2",
+      "pin_name": "VIN",
+      "net": "24V"
+    },
+    {
+      "component": "U2",
+      "pin": "3",
+      "pin_name": "NC",
+      "net": "NetU2_3"
+    },
+    {
+      "component": "U2",
+      "pin": "4",
+      "pin_name": "BOOT",
+      "net": "NetC10_2"
+    },
+    {
+      "component": "U2",
+      "pin": "5",
+      "pin_name": "VCC",
+      "net": "NetC12_1"
+    },
+    {
+      "component": "U2",
+      "pin": "6",
+      "pin_name": "AGND",
+      "net": "GND"
+    },
+    {
+      "component": "U2",
+      "pin": "7",
+      "pin_name": "FB",
+      "net": "NetC11_2"
+    },
+    {
+      "component": "U2",
+      "pin": "8",
+      "pin_name": "PG",
+      "net": "NetR6_2"
+    },
+    {
+      "component": "U2",
+      "pin": "9",
+      "pin_name": "EN",
+      "net": "Vin"
+    },
+    {
+      "component": "U2",
+      "pin": "10",
+      "pin_name": "VIN",
+      "net": "Vin"
+    },
+    {
+      "component": "U2",
+      "pin": "11",
+      "pin_name": "PGND",
+      "net": "GND"
+    },
+    {
+      "component": "U2",
+      "pin": "12",
+      "pin_name": "SW",
+      "net": "SW"
+    },
+    {
+      "component": "U3",
+      "pin": "1",
+      "pin_name": "PGND",
+      "net": "GND"
+    },
+    {
+      "component": "U3",
+      "pin": "2",
+      "pin_name": "VIN",
+      "net": "24V"
+    },
+    {
+      "component": "U3",
+      "pin": "3",
+      "pin_name": "NC",
+      "net": "NetU3_3"
+    },
+    {
+      "component": "U3",
+      "pin": "4",
+      "pin_name": "BOOT",
+      "net": "NetC19_2"
+    },
+    {
+      "component": "U3",
+      "pin": "5",
+      "pin_name": "VCC",
+      "net": "NetC21_1"
+    },
+    {
+      "component": "U3",
+      "pin": "6",
+      "pin_name": "AGND",
+      "net": "GND"
+    },
+    {
+      "component": "U3",
+      "pin": "7",
+      "pin_name": "FB",
+      "net": "NetC20_2"
+    },
+    {
+      "component": "U3",
+      "pin": "8",
+      "pin_name": "PG",
+      "net": "NetR9_2"
+    },
+    {
+      "component": "U3",
+      "pin": "9",
+      "pin_name": "EN",
+      "net": "Vin"
+    },
+    {
+      "component": "U3",
+      "pin": "10",
+      "pin_name": "VIN",
+      "net": "Vin"
+    },
+    {
+      "component": "U3",
+      "pin": "11",
+      "pin_name": "PGND",
+      "net": "GND"
+    },
+    {
+      "component": "U3",
+      "pin": "12",
+      "pin_name": "SW",
+      "net": "SW"
+    }
+  ],
+  "count": 437
+}

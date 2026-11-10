@@ -1,0 +1,52 @@
+[
+  {
+    "part": "CL10A105KB8NNN",
+    "voltage": 1.3,
+    "delta_percent": -2.0760578096712106,
+    "typical_uf": 0.9792394219032879,
+    "degC": 25.0,
+    "test_frequency": 1000,
+    "test_vrms": 1.0,
+    "interpolation": "linear between supplied manufacturer graph samples; typical only; no aging or tolerance included"
+  },
+  {
+    "part": "CL10A105KB8NNN",
+    "voltage": 3.3,
+    "delta_percent": -18.378006506295016,
+    "typical_uf": 0.8162199349370498,
+    "degC": 25.0,
+    "test_frequency": 1000,
+    "test_vrms": 1.0,
+    "interpolation": "linear between supplied manufacturer graph samples; typical only; no aging or tolerance included"
+  },
+  {
+    "part": "CL10A105KB8NNN",
+    "voltage": 5,
+    "delta_percent": -34.42961920536047,
+    "typical_uf": 0.6557038079463953,
+    "degC": 25.0,
+    "test_frequency": 1000,
+    "test_vrms": 1.0,
+    "interpolation": "linear between supplied manufacturer graph samples; typical only; no aging or tolerance included"
+  },
+  {
+    "part": "CL21A106KAYNNN",
+    "voltage": 3.3,
+    "delta_percent": -30.453953229396575,
+    "typical_uf": 6.954604677060344,
+    "degC": 25.0,
+    "test_frequency": 1000,
+    "test_vrms": 1.0,
+    "interpolation": "linear between supplied manufacturer graph samples; typical only; no aging or tolerance included"
+  },
+  {
+    "part": "CL21A106KAYNNN",
+    "voltage": 5,
+    "delta_percent": -50.31482225958126,
+    "typical_uf": 4.9685177740418744,
+    "degC": 25.0,
+    "test_frequency": 1000,
+    "test_vrms": 1.0,
+    "interpolation": "linear between supplied manufacturer graph samples; typical only; no aging or tolerance included"
+  }
+]

@@ -1,0 +1,403 @@
+{
+  "patches": {
+    "IN_J": {
+      "recommended_mpn": "TB002-500-02BE",
+      "nominal_value": "2 poles;5mm pitch",
+      "package": "TB002-500 2P TH",
+      "quantity": 1,
+      "assembly": "REQUIRED",
+      "rated_voltage_or_current": "UL300V15A;IEC250V17.5A;academic circuit limits lower",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Selected 2026-11-08 engineering closure; explicit wiring in construction guide. Native instances require local migration.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "DO_JLOAD": {
+      "recommended_mpn": "TB002-500-02BE",
+      "nominal_value": "2 poles;5mm pitch",
+      "package": "TB002-500 2P TH",
+      "quantity": 2,
+      "assembly": "REQUIRED",
+      "rated_voltage_or_current": "UL300V15A;IEC250V17.5A;academic circuit limits lower",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Selected 2026-11-08 engineering closure; explicit wiring in construction guide. Native instances require local migration.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "RS_J": {
+      "recommended_mpn": "TB002-500-03BE",
+      "nominal_value": "3 poles;5mm pitch",
+      "package": "TB002-500 3P TH",
+      "quantity": 1,
+      "assembly": "REQUIRED",
+      "rated_voltage_or_current": "UL300V15A;IEC250V17.5A;academic circuit limits lower",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Selected 2026-11-08 engineering closure; explicit wiring in construction guide. Native instances require local migration.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "CAN_J": {
+      "recommended_mpn": "TB002-500-03BE",
+      "nominal_value": "3 poles;5mm pitch",
+      "package": "TB002-500 3P TH",
+      "quantity": 1,
+      "assembly": "REQUIRED",
+      "rated_voltage_or_current": "UL300V15A;IEC250V17.5A;academic circuit limits lower",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Selected 2026-11-08 engineering closure; explicit wiring in construction guide. Native instances require local migration.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "DI_J": {
+      "recommended_mpn": "TB002-500-03BE",
+      "nominal_value": "3 poles;5mm pitch",
+      "package": "TB002-500 3P TH",
+      "quantity": 1,
+      "assembly": "REQUIRED",
+      "rated_voltage_or_current": "UL300V15A;IEC250V17.5A;academic circuit limits lower",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Selected 2026-11-08 engineering closure; explicit wiring in construction guide. Native instances require local migration.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "MCU_JSWD": {
+      "recommended_mpn": "61300611121",
+      "nominal_value": "6-position unkeyed custom SWD",
+      "package": "6x1 2.54mm TH",
+      "quantity": 1,
+      "assembly": "REQUIRED",
+      "rated_voltage_or_current": "See manufacturer source",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Selected 2026-11-08 engineering closure; explicit wiring in construction guide. Native instances require local migration.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "MCU_JBOOT": {
+      "recommended_mpn": "61300211121",
+      "nominal_value": "2-position BOOT recovery",
+      "package": "2x1 2.54mm TH",
+      "quantity": 1,
+      "assembly": "REQUIRED",
+      "rated_voltage_or_current": "See manufacturer source",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Selected 2026-11-08 engineering closure; explicit wiring in construction guide. Native instances require local migration.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "MCU_SRESET": {
+      "quantity": 0,
+      "assembly": "DNP",
+      "observations": "Optional onboard reset button not selected. NRST is accessible at actual J3.4 and adjacentGND J3.5; debugger or a momentary external test contact provides reset. SW1 is BOOT recovery and should migrate locally to the verified2pinBOOT header,not be mistaken forNRST."
+    },
+    "RS_RT": {
+      "recommended_mpn": "CRCW1206120RFKEA",
+      "nominal_value": "120 Ohm",
+      "package": "1206",
+      "quantity": 1,
+      "assembly": "CONDITIONAL",
+      "rated_voltage_or_current": "1%;0.25W at70C;200V or power-limited",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Physical bus-end only; open-default2pinjumper in series. At5.174V differential the conservative DC dissipation screen is0.226W; normal differential voltage is lower. No bus-fault rating inferred.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "tolerance": "1%",
+      "power_rating": "0.25W"
+    },
+    "CAN_RT": {
+      "recommended_mpn": "CRCW1206120RFKEA",
+      "nominal_value": "120 Ohm",
+      "package": "1206",
+      "quantity": 1,
+      "assembly": "CONDITIONAL",
+      "rated_voltage_or_current": "1%;0.25W at70C;200V or power-limited",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Physical bus-end only; open-default2pinjumper in series. At5.174V differential the conservative DC dissipation screen is0.226W; normal differential voltage is lower. No bus-fault rating inferred.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "tolerance": "1%",
+      "power_rating": "0.25W"
+    },
+    "RS_JTERM": {
+      "recommended_mpn": "61300211121",
+      "nominal_value": "2-pin termination enable,defaultOPEN",
+      "package": "2x1 2.54mm TH",
+      "quantity": 1,
+      "assembly": "CONDITIONAL",
+      "rated_voltage_or_current": "See manufacturer source",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Selected 2026-11-08 engineering closure; explicit wiring in construction guide. Native instances require local migration.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "CAN_JTERM": {
+      "recommended_mpn": "61300211121",
+      "nominal_value": "2-pin termination enable,defaultOPEN",
+      "package": "2x1 2.54mm TH",
+      "quantity": 1,
+      "assembly": "CONDITIONAL",
+      "rated_voltage_or_current": "See manufacturer source",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Selected 2026-11-08 engineering closure; explicit wiring in construction guide. Native instances require local migration.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "DO_JSUPPLY": {
+      "recommended_mpn": "TB002-500-02BE",
+      "nominal_value": "External24V and DO return",
+      "package": "TB002-500 2P TH",
+      "quantity": 1,
+      "assembly": "REQUIRED",
+      "rated_voltage_or_current": "See manufacturer source",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Selected 2026-11-08 engineering closure; explicit wiring in construction guide. Native instances require local migration.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "DO_CVCCA3V3": {
+      "quantity": 0,
+      "assembly": "DNP",
+      "observations": "Former translator bypass; translator superseded. Existing native capacitor can be retained as extra3.3V local bypass after checking nets, but is not a mandatory DO part."
+    },
+    "DO_RPDB": {
+      "recommended_mpn": "RC0603FR-072K49L",
+      "nominal_value": "2.49 kOhm",
+      "quantity": 2,
+      "tolerance": "1%",
+      "power_rating": "0.1W",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Each BSP IN to localSOURCE/GND; sets defaultOFF for new discrete5V driver."
+    },
+    "DO_RBASE": {
+      "recommended_mpn": "RC0603FR-074K7L",
+      "nominal_value": "4.7 kOhm",
+      "package": "0603",
+      "quantity": 2,
+      "assembly": "REQUIRED",
+      "rated_voltage_or_current": "1%;0.1W;75V or power-limited",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Selected 2026-11-08 engineering closure; explicit wiring in construction guide. Native instances require local migration.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "tolerance": "1%",
+      "power_rating": "0.1W"
+    },
+    "DO_RGS": {
+      "recommended_mpn": "RC0603FR-074K7L",
+      "nominal_value": "4.7 kOhm",
+      "package": "0603",
+      "quantity": 2,
+      "assembly": "REQUIRED",
+      "rated_voltage_or_current": "1%;0.1W;75V or power-limited",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Selected 2026-11-08 engineering closure; explicit wiring in construction guide. Native instances require local migration.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "tolerance": "1%",
+      "power_rating": "0.1W"
+    },
+    "DO_RGATE": {
+      "recommended_mpn": "RC0603FR-07100RL",
+      "nominal_value": "100 Ohm",
+      "package": "0603",
+      "quantity": 2,
+      "assembly": "REQUIRED",
+      "rated_voltage_or_current": "1%;0.1W;75V or power-limited",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "observations": "Selected 2026-11-08 engineering closure; explicit wiring in construction guide. Native instances require local migration.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "tolerance": "1%",
+      "power_rating": "0.1W"
+    },
+    "DO_SUPPRESS": {
+      "quantity": 0,
+      "assembly": "DNP",
+      "observations": "No additional inductive clamp selected. Initial0.5A resistive-load bringup; verify actual repetitive inductive energy before using inductive loads."
+    }
+  },
+  "record_fields": {
+    "IN_J": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "DO_JLOAD": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "RS_J": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "CAN_J": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "DI_J": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "MCU_JSWD": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "MCU_JBOOT": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "MCU_SRESET": {
+      "design_approval": "OPTIONAL_DNP_RESET_ACCESS_VIA_J3",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "RS_RT": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "CAN_RT": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "RS_JTERM": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "CAN_JTERM": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "DO_JSUPPLY": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "DO_RPDB": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "DO_RBASE": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "DO_RGS": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "DO_RGATE": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "ACTIVE_SN74LVC2T45DCTR": {
+      "design_approval": "SUPERSEDED_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "ACTIVE_BSP75NTA": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "CLOSURE_MMBT3904-7-F": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "CLOSURE_DMP2035U-7": {
+      "design_approval": "ENGINEERING_SELECTED_ACADEMIC_2026_11_08",
+      "validation_scope": "SOURCE_REVIEW_AND_FILE_READBACK;NATIVE_CAPTURE_PENDING",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    }
+  },
+  "active_patches": {
+    "ACTIVE_SN74LVC2T45DCTR": {
+      "quantity": 0,
+      "assembly": "DNP",
+      "selection_status": "SUPERSEDED",
+      "capture_status": "NOT_POPULATED",
+      "electrical_status": "PROVISIONAL",
+      "observations": "Superseded for DO drive: loadedVOH not guaranteed>=4.5V. Historical symbol retained; replace locally with two NPN/PMOS input-driver channels. No global ECO."
+    },
+    "ACTIVE_BSP75NTA": {
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "capture_status": "CONNECTION_SPEC_READY_NATIVE_IMPLEMENTATION_PENDING",
+      "selection_status": "ENGINEERING_SELECTED",
+      "pin_pad_check": "VERIFIED IN,D,S,S_TAB functional pad positions from Diodes DS33016 pp1,8",
+      "action": "Implement source-backed discrete5V driver; verify IN-to-SOURCE>=4.5V and OFF during reset before loads",
+      "observations": "BSP source/lands closed. 0.5A resistive prototype target, external24V load supply; electrical testing not yet performed."
+    },
+    "CLOSURE_MMBT3904-7-F": {
+      "quantity": 2,
+      "assembly": "REQUIRED",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "capture_status": "CONNECTION_SPEC_READY_NATIVE_IMPLEMENTATION_PENDING",
+      "selection_status": "ENGINEERING_SELECTED",
+      "observations": "Selected discrete5V BSP input driver. Pin IDs are manufacturer functional terminal roles; physical top-view mapping verified. No24V load current in these transistors."
+    },
+    "CLOSURE_DMP2035U-7": {
+      "quantity": 2,
+      "assembly": "REQUIRED",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "capture_status": "CONNECTION_SPEC_READY_NATIVE_IMPLEMENTATION_PENDING",
+      "selection_status": "ENGINEERING_SELECTED",
+      "observations": "Selected discrete5V BSP input driver. Pin IDs are manufacturer functional terminal roles; physical top-view mapping verified. No24V load current in these transistors."
+    },
+    "ACTIVE_LMR36015FBRNXR": {
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "capture_status": "CONNECTION_SPEC_READY_NATIVE_REPAIRS_PENDING"
+    }
+  },
+  "new_rows": [
+    {
+      "clone_of": "MCU_JBOOT",
+      "component_id": "RS_JTERM",
+      "function": "RS485 end-termination jumper",
+      "main_reference": "Wurth61300211121 official p1 hole layout"
+    },
+    {
+      "clone_of": "MCU_JBOOT",
+      "component_id": "CAN_JTERM",
+      "function": "CAN end-termination jumper",
+      "main_reference": "Wurth61300211121 official p1 hole layout"
+    },
+    {
+      "clone_of": "DO_JLOAD",
+      "component_id": "DO_JSUPPLY",
+      "function": "External DO supply and common return",
+      "main_reference": "Same Sky TB002-500 Rev1.04 p1-2"
+    },
+    {
+      "clone_of": "DO_RPDA",
+      "component_id": "DO_RBASE",
+      "function": "MCU to NPN base",
+      "main_reference": "Diodes MMBT3904/DMP2035U source-based driver calculation"
+    },
+    {
+      "clone_of": "DO_RPDA",
+      "component_id": "DO_RGS",
+      "function": "PMOS gate-to-source defaultOFF",
+      "main_reference": "Diodes MMBT3904/DMP2035U source-based driver calculation"
+    },
+    {
+      "clone_of": "DO_RPDA",
+      "component_id": "DO_RGATE",
+      "function": "NPN collector to PMOS gate",
+      "main_reference": "Diodes MMBT3904/DMP2035U source-based driver calculation"
+    }
+  ]
+}

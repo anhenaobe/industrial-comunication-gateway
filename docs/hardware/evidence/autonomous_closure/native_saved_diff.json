@@ -1,0 +1,251 @@
+{
+  "Ethernet.SchDoc": {
+    "before": 1239,
+    "after": 1239,
+    "changed_keys": {
+      "UNIQUEID": 143
+    },
+    "examples": [
+      {
+        "index": 32,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "RRXMXQHR",
+            "RRTGTUGR"
+          ]
+        }
+      },
+      {
+        "index": 34,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "KXCSJGOU",
+            "IZJJAROK"
+          ]
+        }
+      },
+      {
+        "index": 36,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "EDOIVPVJ",
+            "YLENFJZL"
+          ]
+        }
+      },
+      {
+        "index": 38,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "EYPPBOSF",
+            "WYRGEVVJ"
+          ]
+        }
+      },
+      {
+        "index": 40,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "UXQXRLHO",
+            "LAPFIJYH"
+          ]
+        }
+      },
+      {
+        "index": 42,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "IWDDVZQP",
+            "NHQDYUJT"
+          ]
+        }
+      },
+      {
+        "index": 44,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "KJZMLVZC",
+            "HIZDZWFI"
+          ]
+        }
+      }
+    ]
+  },
+  "Field_IO.SchDoc": {
+    "before": 508,
+    "after": 508,
+    "changed_keys": {
+      "UNIQUEID": 54
+    },
+    "examples": [
+      {
+        "index": 32,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "WMWTDOGT",
+            "KIGTKJSG"
+          ]
+        }
+      },
+      {
+        "index": 34,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "ANHTJVFV",
+            "LSVYMFIU"
+          ]
+        }
+      },
+      {
+        "index": 36,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "RHTWTYOH",
+            "YVBQIXJI"
+          ]
+        }
+      },
+      {
+        "index": 38,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "WLPXVVJS",
+            "MYYWQQZG"
+          ]
+        }
+      },
+      {
+        "index": 40,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "VFUVKQRJ",
+            "FIUHUIPX"
+          ]
+        }
+      },
+      {
+        "index": 42,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "AWKWSJHA",
+            "WXIKVHNH"
+          ]
+        }
+      },
+      {
+        "index": 44,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "ZPGNMUEY",
+            "JZWZAXMM"
+          ]
+        }
+      }
+    ]
+  },
+  "MCU.SchDoc": {
+    "before": 855,
+    "after": 855,
+    "changed_keys": {
+      "UNIQUEID": 142
+    },
+    "examples": [
+      {
+        "index": 32,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "PNFXJOBL",
+            "ZDXOKEMO"
+          ]
+        }
+      },
+      {
+        "index": 34,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "BHGLYVCK",
+            "DBFUVQST"
+          ]
+        }
+      },
+      {
+        "index": 36,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "UFEUAHZZ",
+            "WXDIQOZD"
+          ]
+        }
+      },
+      {
+        "index": 38,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "UZVHQZNE",
+            "ICINNCFG"
+          ]
+        }
+      },
+      {
+        "index": 40,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "DPSVNCDR",
+            "CCLVTETU"
+          ]
+        }
+      },
+      {
+        "index": 42,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "ORYQQQPX",
+            "SQCOLQDG"
+          ]
+        }
+      },
+      {
+        "index": 44,
+        "record": "41",
+        "changes": {
+          "UNIQUEID": [
+            "KHGSNNBI",
+            "KQSUGMKK"
+          ]
+        }
+      }
+    ]
+  },
+  "Power.SchDoc": {
+    "before": 1259,
+    "after": 1261,
+    "changed_keys": {},
+    "examples": []
+  },
+  "TopLevel.SchDoc": {
+    "before": 41,
+    "after": 41,
+    "changed_keys": {},
+    "examples": []
+  }
+}

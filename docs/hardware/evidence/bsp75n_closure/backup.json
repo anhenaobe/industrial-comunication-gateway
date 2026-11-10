@@ -1,0 +1,17 @@
+[
+  {
+    "source": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\backups\\bsp75n_20261107T231133Z\\Gateway_Academic.SchLib",
+    "sha256": "53b56a44315cb9f9f43b316db8e6d65f5c995e58985608a379863a24410af10b"
+  },
+  {
+    "source": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\backups\\bsp75n_20261107T231133Z\\Gateway_Academic.PcbLib",
+    "sha256": "d495b251c0c134d9990b267de6e83bfb546a1b628046ccb1df4f0ef00f4cfb7f"
+  },
+  {
+    "source": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.LibPkg",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\backups\\bsp75n_20261107T231133Z\\Gateway_Academic.LibPkg",
+    "sha256": "73e70e6a93f8da86b27b99d618250b934dcdde6d262160927f9920ba5ae6631e"
+  }
+]

@@ -1,0 +1,565 @@
+[
+  {
+    "name": "TDS3011P.C",
+    "designator": "D?",
+    "description": "Semtech TDS3011P Rev2.0 16-Jun-2021 pp5-7; p6 reference land pattern; All six pins must connect. 30V working limit; source tolerance, hot leakage and transient coordination not approved. Manufacturer reference copper; mask/paste DFM pending.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "GND",
+        "electrical_type": "passive",
+        "x": -80,
+        "y": 40,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "electrical_type": "passive",
+        "x": -80,
+        "y": 20,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "3",
+        "name": "GND",
+        "electrical_type": "passive",
+        "x": -80,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "4",
+        "name": "IN",
+        "electrical_type": "passive",
+        "x": 80,
+        "y": 40,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      },
+      {
+        "designator": "5",
+        "name": "IN",
+        "electrical_type": "passive",
+        "x": 80,
+        "y": 20,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      },
+      {
+        "designator": "6",
+        "name": "IN",
+        "electrical_type": "passive",
+        "x": 80,
+        "y": 0,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -80,
+        "y1": -10,
+        "x2": 80,
+        "y2": 60
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_TDS3011P_SEMTECH",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Semtech",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "TDS3011P.C",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Semtech TDS3011P Rev2.0 16-Jun-2021 pp5-7; p6 reference land pattern",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "sources/input_protection/TDS3011P.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_CANDIDATE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Approval",
+        "value": "PROPOSED_FOR_REUSE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "All six pins must connect. 30V working limit; source tolerance, hot leakage and transient coordination not approved. Manufacturer reference copper; mask/paste DFM pending.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "NIS3071MT4TWG",
+    "designator": "U?",
+    "description": "onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12; MT4 Auto-Retry, one channel proposed. EP maps datasheet unnumbered PAD, not invented pin17. Unused IN2/3/4 and EN2/3/4 toGND; OUT2/3/4 unconnected. 43.2k is historical curve-based candidate. EP paste and thermal vias not assembly-qualified.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "OUT1",
+        "electrical_type": "power",
+        "x": -80,
+        "y": 160,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "2",
+        "name": "IN1",
+        "electrical_type": "power",
+        "x": -80,
+        "y": 140,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "3",
+        "name": "IN2",
+        "electrical_type": "power",
+        "x": -80,
+        "y": 120,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "4",
+        "name": "OUT2",
+        "electrical_type": "power",
+        "x": -80,
+        "y": 100,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "5",
+        "name": "FAULT_N",
+        "electrical_type": "open_collector",
+        "x": -80,
+        "y": 80,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "6",
+        "name": "dvdt",
+        "electrical_type": "passive",
+        "x": -80,
+        "y": 60,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "7",
+        "name": "ILIM",
+        "electrical_type": "passive",
+        "x": -80,
+        "y": 40,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "8",
+        "name": "GND",
+        "electrical_type": "power",
+        "x": -80,
+        "y": 20,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "9",
+        "name": "OUT4",
+        "electrical_type": "power",
+        "x": -80,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "10",
+        "name": "IN4",
+        "electrical_type": "power",
+        "x": 80,
+        "y": 160,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      },
+      {
+        "designator": "11",
+        "name": "IN3",
+        "electrical_type": "power",
+        "x": 80,
+        "y": 140,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      },
+      {
+        "designator": "12",
+        "name": "OUT3",
+        "electrical_type": "power",
+        "x": 80,
+        "y": 120,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      },
+      {
+        "designator": "13",
+        "name": "EN4",
+        "electrical_type": "input",
+        "x": 80,
+        "y": 100,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      },
+      {
+        "designator": "14",
+        "name": "EN3",
+        "electrical_type": "input",
+        "x": 80,
+        "y": 80,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      },
+      {
+        "designator": "15",
+        "name": "EN2",
+        "electrical_type": "input",
+        "x": 80,
+        "y": 60,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      },
+      {
+        "designator": "16",
+        "name": "EN1",
+        "electrical_type": "input",
+        "x": 80,
+        "y": 40,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      },
+      {
+        "designator": "EP",
+        "name": "GND_PAD",
+        "electrical_type": "power",
+        "x": 80,
+        "y": 20,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -80,
+        "y1": -10,
+        "x2": 80,
+        "y2": 180
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_NIS3071_510CM_ONSEMI",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "onsemi",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "NIS3071MT4TWG",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "sources/input_protection/NIS3071-D.PDF",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_CANDIDATE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Approval",
+        "value": "PROPOSED_FOR_REUSE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "MT4 Auto-Retry, one channel proposed. EP maps datasheet unnumbered PAD, not invented pin17. Unused IN2/3/4 and EN2/3/4 toGND; OUT2/3/4 unconnected. 43.2k is historical curve-based candidate. EP paste and thermal vias not assembly-qualified.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "SS3P6L-M3_86A",
+    "designator": "D?",
+    "description": "Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands; Exact suffix from existing source parameters. Manufacturer terminalK retained as padK; no inherited provider1/2/3 map. Both anodes connect input; cathode protected rail. Source/cable reverse envelope and hot loss pending.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "ANODE1",
+        "electrical_type": "passive",
+        "x": -80,
+        "y": 20,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "2",
+        "name": "ANODE2",
+        "electrical_type": "passive",
+        "x": -80,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "K",
+        "name": "CATHODE",
+        "electrical_type": "passive",
+        "x": 80,
+        "y": 20,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -80,
+        "y1": -10,
+        "x2": 80,
+        "y2": 40
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_SS3P6L_VISHAY_88987",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Vishay",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "SS3P6L-M3/86A",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "sources/SS3P6L_88987.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_CANDIDATE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Approval",
+        "value": "PROPOSED_FOR_REUSE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "Exact suffix from existing source parameters. Manufacturer terminalK retained as padK; no inherited provider1/2/3 map. Both anodes connect input; cathode protected rail. Source/cable reverse envelope and hot loss pending.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "0451002.MRL",
+    "designator": "F?",
+    "description": "Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering; 2A125VDC fast fuse candidate. End1/2 are project labels for nonpolar terminals. Official PDF download denied403; footprint blocked pending readable recommended pad-layout drawing. Supply fault, derating, inrush and coordination pending.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "END1",
+        "electrical_type": "passive",
+        "x": -80,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "2",
+        "name": "END2",
+        "electrical_type": "passive",
+        "x": 80,
+        "y": 0,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -80,
+        "y1": -10,
+        "x2": 80,
+        "y2": 20
+      }
+    ],
+    "footprints": [],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Littelfuse",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "0451002.MRL",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_BLOCKED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Approval",
+        "value": "PENDING_USER_APPROVAL",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "2A125VDC fast fuse candidate. End1/2 are project labels for nonpolar terminals. Official PDF download denied403; footprint blocked pending readable recommended pad-layout drawing. Supply fault, derating, inrush and coordination pending.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "patches": {
+    "ETH_CBOB": {
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "electrical_value_source": "KEMET C1076_X7R_HV_AUTO_SMD9/10/2019 pp1-2 ordering/rating,p4 body,p10 Table3 densityB1206; C600002 exact catalog identity",
+      "observations": "Two1nF2kVDC capacitors: nodeA->CHASSIS and separately nodeB->CHASSIS. C600002 exact MPN confirmed; not Y safety certified; no topology change."
+    }
+  }
+}

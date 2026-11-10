@@ -1,0 +1,19 @@
+{
+  "active_patches": {
+    "ACTIVE_BSP75NTA": {
+      "electrical_status": "ELECTRICAL_BLOCKED",
+      "capture_status": "PHYSICAL_WIRING_READY_DRIVER_ACCEPTANCE_PENDING",
+      "selection_status": "SELECTED_FOR_CAPTURE",
+      "pin_pad_check": "VERIFIED Diodes functional terminals to physical pad positions; alphabetic identifiers retained",
+      "dimensional_check": "VERIFIED DS33016p8 exact suggested land pattern",
+      "action": "Use saved BSP footprint; verify loaded drive and reset-OFF before energizing DO loads"
+    }
+  },
+  "record_fields": {
+    "ACTIVE_BSP75NTA": {
+      "design_approval": "SELECTED_DEVICE;DRIVE_NOT_APPROVED",
+      "validation_scope": "ACADEMIC_PROTOTYPE_PHYSICAL_MAPPING_CLOSED",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    }
+  }
+}

@@ -1,0 +1,5267 @@
+PAGE 1
+1
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Built Into Tomorrow
+Overview
+KEMET’s COTS program is an extension of KEMET knowledge 
+of high reliability test regimes and requirements. KEMET 
+regularly supplies “up-screened” products by working with 
+customer drawings and imposing specified design and test 
+requirements. The COTS program offers the same high quality 
+and high reliability components as up-screened products, 
+but at a lower cost to the customer. This is accomplished by 
+eliminating the need for customer-specific drawings to achieve 
+the reliability level required for customer applications. A series 
+of tests and inspections have been selected to provide the 
+accelerated conditioning and 100% screening necessary to 
+eliminate infant mortal failures from the population. 
+KEMET’s X7R dielectric features a 125°C maximum operating 
+temperature and is considered “temperature stable.” The 
+Electronics Components, Assemblies & Materials Association 
+(EIA) characterizes X7R dielectric as a Class II material. 
+Components of this classification are fixed, ceramic dielectric 
+capacitors suited for bypass and decoupling applications or 
+for frequency discriminating circuits where Q and stability of 
+capacitance characteristics are not critical. X7R exhibits a 
+predictable change in capacitance with respect to time and 
+voltage and boasts a minimal change in capacitance with 
+reference to ambient temperature. Capacitance change is 
+limited to ±15% from −55°C to +125°C.
+All COTS testing includes voltage conditioning and post-electrical 
+testing as per MIL–PRF–55681. For enhanced reliability, KEMET 
+also provides the following test level options and conformance 
+certifications:
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability 
+Applications, X7R Dielectric, 6.3 – 250 VDC
+Ordering Information
+C
+1210
+T
+104
+K
+5
+R
+A
+C
+TU
+Ceramic Case Size 
+(L" x W")
+Specification/
+Series
+Capacitance 
+Code (pF)
+Capacitance 
+Tolerance
+Rated 
+Voltage 
+(VDC)
+Dielectric
+Test Level
+Termination 
+Finish1
+Packaging/
+Grade (C-Spec)
+0402
+0603
+0805
+1206
+1210
+1805
+1808
+1812
+2220
+T = COTS
+Two 
+significant 
+digits and 
+number of 
+zeros
+J = ±5%
+K = ±10%
+M = ±20%
+9 = 6.3
+8 = 10
+4 = 16
+3 = 25
+5 = 50
+1 = 100
+2 = 200
+A = 250
+R = X7R
+A = Testing per MIL-
+PRF-55681 PDA 8%
+B= Testing per MIL-
+PRF-55681 PDA 8%, DPA 
+per EIA-469
+C = Testing per MIL-
+PRF-55681 PDA 8%, DPA 
+per EIA-469, Humidity per 
+MIL-STD-202, Method 103, 
+Condition A
+C = 100% 
+Matte Sn
+L = SnPb (5% 
+Pb minimum)
+G = Gold (Au) 
+100 µin min.
+See 
+"Packaging 
+C-Spec 
+Ordering 
+Options Table"
+1 Additional termination finish options may be available. Contact KEMET for details.
+Test Level A
+Test Level B
+Test Level C
+Voltage Conditioning 
+DWV
+IR@25°C
+CAP
+DF
+Voltage Conditioning 
+DWV
+IR@25°C
+CAP
+DF
+Voltage Conditioning 
+DWV
+IR@25°C
+CAP
+DF
+PDA 8%
+PDA 8%
+PDA 8%
+C of C
+DPA
+DPA
+C of C
+85/85
+C of C
+
+PAGE 2
+2
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Benefits
+•	 −55°C to +125°C operating temperature range
+•	 Lead (Pb)-free, RoHS and REACH compliant
+•	 Voltage conditioning and post-electrical testing per 
+MIL–PRF–55681
+•	 Destructive Physical Analysis (DPA) per EIA–469
+•	 Biased humidity testing (85/85) per MIL–STD–202
+•	 Certificate of Compliance
+•	 Temperature stable dielectric
+•	 EIA 0402, 0603, 0805, 1206, 1210, 1812, and 
+2220 case sizes
+•	 DC voltage ratings of 6.3 V, 10 V, 16 V, 25 V, 50 V, 100 V, 
+200 V, and 250 V
+•	 Capacitance offerings ranging from 10 pF to 22 μF
+•	 Available capacitance tolerances of ±5%, ±10%, and ±20% 
+•	 Non-polar device, minimizing installation concerns
+•	 100% pure matte tin-plated termination finish allowing for 
+excellent solderability
+•	 SnPb termination finish option available upon request 
+(5% Pb minimum)
+Applications
+Typical applications include military, space quality and high reliability electronics. 
+Packaging C-Spec Ordering Options Table (100% Matte Sn and SnPb Terminations)
+Packaging Type1
+Packaging/Grade  
+Ordering Code (C-Spec)
+Bulk Bag/Unmarked
+Not required (Blank)
+7" Reel/Unmarked
+TU
+13" Reel/Unmarked
+7138
+1 Default packaging is “Bulk Bag”. An ordering code C-Spec is not required for “Bulk Bag” packaging.
+1 The terms “Marked” and “Unmarked” pertain to laser marking option of capacitors. All packaging options labeled as “Unmarked” will contain 
+capacitors that have not been laser marked. The option to laser mark is not available on these devices. For more information see “Capacitor Marking”.
+
+PAGE 3
+3
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Packaging C-Spec Ordering Options Table (Gold Termination)
+Termination Finish Options
+Packaging Type/Options
+Packaging 
+Ordering Code (C-Spec)
+Standard Packaging – Unmarked3
+G = Gold (Au) 100 µin minimum
+Bulk Bag
+Blank1
+Waffle Tray2
+7292
+7" Reel
+TU
+13" Reel
+7138
+7" Tape & Reel – 50 pieces
+T050
+7" Tape & Reel – 100 pieces
+T100
+7" Tape & Reel – 250 pieces
+T250
+7" Tape & Reel – 500 pieces
+T500
+7" Tape & Reel – 1,000 pieces
+T1K0
+1 Default packaging is “Bulk Bag”. An ordering code C-Spec is not required for “Bulk Bag” packaging.
+1 “Bulk Bag” packaging option is not available for Gold (Au) termination finish options and case sizes larger than 2225 (5664 Metric).
+2 “Waffle Tray” packaging option is not available for case sizes larger than 2225 (5664 Metric).
+3 The terms “Marked” and “Unmarked” pertain to laser marking option of components. All packaging options labeled as “Unmarked” will contain 
+capacitors that have not been laser marked. The option to laser mark is not available on these devices.
+3 Reeling quantities are dependent upon chip size and thickness dimension. When ordering using the “T1K0” packaging option, 1812 through 2225 case 
+size devices with chip thickness of ≥ 1.9 mm (nominal) may be shipped on multiple 7” reels or a single 13” reel. Additional reeling or packaging options 
+may be available. Contact KEMET for details.
+Additional reeling or packaging options may be available. Contact KEMET for details.
+
+PAGE 4
+4
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Dimensions – Millimeters (Inches)
+ L 
+ B 
+ W
+ S
+T
+EIA Size 
+Code
+Metric Size 
+Code
+L 
+Length
+W 
+Width
+T 
+Thickness
+B 
+Bandwidth
+S
+Separation 
+Minimum
+Mounting 
+Technique
+0402
+1005
+1.00 (0.040) 
+±0.05 (0.002)
+0.50 (0.020) 
+±0.05 (0.002)
+See Table 2 for 
+Thickness
+0.30 (0.012) 
+±0.10 (0.004)
+0.30 (0.012)
+Solder Reflow 
+Only
+0603
+1608
+1.60 (0.063) 
+±0.15 (0.006)
+0.80 (0.032) 
+±0.15 (0.006)
+0.35 (0.014) 
+±0.15 (0.006)
+0.50 (0.020)
+Solder Wave or 
+Solder Reflow
+0805
+2012
+2.00 (0.079) 
+±0.20 (0.008)
+1.25 (0.049) 
+±0.20 (0.008)
+0.50 (0.02) 
+±0.25 (0.010)
+0.70 (0.028)
+1206
+3216
+3.20 (0.126) 
+±0.20 (0.008)
+1.60 (0.063) 
+±0.20 (0.008)
+0.50 (0.02) 
+±0.25 (0.010)
+1.50 (0.060)
+12101
+3225
+3.20 (0.126) 
+±0.20 (0.008)
+2.50 (0.098) 
+±0.20 (0.008)
+0.50 (0.02) 
+±0.25 (0.010)
+1.50 (0.060)
+Solder Reflow 
+Only
+1805
+4513
+4.50 (0.177) 
+±0.50 (0.020)
+1.27 (0.050) 
+±0.38 (0.015)
+0.60 (0.024) 
+±0.35 (0.014)
+2.90 (0.114)
+1808
+4520
+4.70 (0.185) 
+±0.50 (0.020)
+2.00 (0.079) 
+±0.20 (0.008)
+0.60 (0.024) 
+±0.35 (0.014)
+2.90 (0.114)
+1812
+4532
+4.50 (0.177) 
+±0.30 (0.012)
+3.20 (0.126) 
+±0.30 (0.012)
+0.60 (0.024) 
+±0.35 (0.014)
+2.30 (0.091)
+2220
+5650
+5.70 (0.224) 
+±0.40 (0.016)
+5.00 (0.197) 
+±0.40 (0.016)
+0.60 (0.024) 
+±0.35 (0.014)
+3.50 (0.138)
+1 For capacitance values ≥ 4.7 µF add 0.02 (0.001) to the width tolerance dimension and 0.10 (0.004) to the length tolerance dimension.
+Qualification/Certification
+Commercial Grade products are subject to internal qualification. Details regarding test methods and conditions are refer-
+enced in Table 4, Performance & Reliability.
+Environmental Compliance
+Lead (Pb)-free, RoHS, and REACH compliant without exemptions (excluding SnPb termination finish option).
+
+PAGE 5
+5
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Electrical Parameters/Characteristics
+Item
+Parameters/Characteristics
+Operating Temperature Range
+−55°C to +125°C  
+Capacitance Change with Reference to 
++25°C and 0 Vdc Applied (TCC)
+±15%
+1Aging Rate (Maximum % Capacitance Loss/Decade Hour)
+3.0%
+2Dielectric Withstanding Voltage (DWV) 
+250% of rated voltage 
+(5±1 seconds and charge/discharge not exceeding 50mA)
+3Dissipation Factor (DF) Maximum Limit at 25°C
+5%(6.3V & 10V), 3.5%(16V & 25V) and 2.5%(50V to 250V)
+4Insulation Resistance (IR) Minimum Limit at 25°C
+See Insulation Resistance Limit Table 
+(Rated voltage applied for 120±5 seconds at 25°C)
+1 Regarding Aging Rate: Capacitance measurements (including tolerance) are indexed to a referee time of 1,000 hours.
+2 DWV is the voltage a capacitor can withstand (survive) for a short period of time. It exceeds the nominal and continuous working voltage of the 
+capacitor.
+3 Capacitance and dissipation factor (DF) measured under the following conditions: 
+	 1kHz ± 50Hz and 1.0 ± 0.2 Vrms if capacitance ≤10µF
+	 120Hz ± 10Hz and 0.5 ± 0.1 Vrms if capacitance >10µF
+4 To obtain IR limit, divide MΩ-µF value by the capacitance and compare to GΩ limit. Select the lower of the two limits.
+Note:  When measuring capacitance it is important to ensure the set voltage level is held constant. The HP4284 & Agilent E4980 have a feature known as 
+Automatic Level Control (ALC). The ALC feature should be switched to "ON".
+Post Environmental Limits
+High Temperature Life, Biased Humidity, Moisture Resistance
+Dielectric
+Rated DC
+Voltage
+Capacitance
+Value
+Dissipation Factor 
+(Maximum %) 
+Capacitance
+Shift 
+Insulation 
+Resistance
+X7R
+> 25  
+All
+3.0  
+±20%
+10% of Initial 
+Limit
+16/25  
+5.0  
+< 16
+7.5  
+Insulation Resistance Limit Table
+EIA Case Size
+1,000 Megohm 
+Microfarads or 100 GΩ
+500 Megohm 
+Microfarads or 10 GΩ
+0201
+N/A
+ALL
+0402
+< 0.012 µF
+≥ 0.012 µF
+0603
+< 0.047 µF
+≥ 0.047 µF
+0805
+<  0.15 µF 
+≥ 0.15 µF
+1206
+< 0.47 µF
+≥ 0.47 µF
+1210
+< 0.39 µF
+≥ 0.39 µF
+1805
+ALL
+N/A
+1808
+ALL
+N/A
+1812
+< 2.2 µF
+≥ 2.2 µF
+1825
+ALL
+N/A
+2220
+< 10 µF
+≥ 10 µF
+2225
+ALL
+N/A
+
+PAGE 6
+6
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Table 1A – Capacitance Range/Selection Waterfall (0402 – 1206 Case Sizes)
+*Capacitance range Includes E24 decade values only. (i.e., 10, 11, 12, 13, 15, 16, 18, 20, 22, 24, 27, 30, 33, 36, 39, 43, 47, 51, 56, 62, 68, 75, 82, and 91)
+**Capacitance range Includes E12 decade values only. (i.e., 10, 12, 15, 18, 22, 27, 33, 39, 47, 56, 68, and 82)
+Capacitance
+Cap 
+Code
+Case Size/ 
+Series
+C0402C
+C0603C
+C0805C
+C1206C
+Voltage Code
+9
+8
+4
+3
+5
+9
+8
+4
+3
+5
+1
+2
+9
+8
+4
+3
+5
+1
+2
+A
+9
+8
+4
+3
+5
+1
+2
+A
+Rated Voltage 
+(VDC)
+6.3
+10
+16
+25
+50
+6.3
+10
+16
+25
+50
+100
+200
+6.3
+10
+16
+25
+50
+100
+200
+250
+6.3
+10
+16
+25
+50
+100
+200
+250
+Capacitance 
+Tolerance
+Product Availability and Chip Thickness Codes 
+See Table 2 for Chip Thickness Dimensions
+10 – 91 pF*
+100 – 910*
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+100 – 150 pF**
+101 – 151**
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+180 – 820 pF**
+181 – 821**
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+1,000 pF
+102
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+1,200 pF
+122
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+1,500 pF
+152
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+1,800 pF
+182
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+2,200 pF
+222
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+2,700 pF
+272
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+3,300 pF
+332
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+3,900 pF
+392
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+4,700 pF
+472
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+5,600 pF
+562
+J
+K
+M
+BB
+BB
+BB
+BB BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+6,800 pF
+682
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+8,200 pF
+822
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+10,000 pF
+103
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+12,000 pF
+123
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DN DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+15,000 pF
+153
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DP DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+18,000 pF
+183
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DP DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+22,000 pF
+223
+J
+K
+M
+BB
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DP DN DN
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+27,000 pF
+273
+J
+K
+M
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DP
+DE
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+33,000 pF
+333
+J
+K
+M
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DP
+DE
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+EB
+39,000 pF
+393
+J
+K
+M
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DP
+DE
+EB
+EB
+EB
+EB
+EB
+EC
+EB
+EB
+47,000 pF
+473
+J
+K
+M
+BB
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DE DG
+EB
+EB
+EB
+EB
+EB
+EC
+ED
+ED
+56,000 pF
+563
+J
+K
+M
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+DP
+DP DP DP DP
+DE DG
+EB
+EB
+EB
+EB
+EB
+EB
+ED
+ED
+68,000 pF
+683
+J
+K
+M
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+DP
+DP DP DP DP
+DE
+EB
+EB
+EB
+EB
+EB
+EB
+ED
+ED
+82,000 pF
+823
+J
+K
+M
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+DP
+DP DP DP DP
+DE
+EB
+EB
+EB
+EB
+EB
+EB
+ED
+ED
+0.10 µF
+104
+J
+K
+M
+BB
+BB
+BB
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DN DE
+EB
+EB
+EB
+EB
+EB
+EB EM EM
+0.12 µF
+124
+J
+K
+M
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DP DG
+EC
+EC
+EC
+EC
+EC
+EC
+EG
+0.15 µF
+154
+J
+K
+M
+CF
+CF
+CF
+CF
+CF
+DN
+DN DN DN DP DG
+EC
+EC
+EC
+EC
+EC
+EC
+EG
+0.18 µF
+184
+J
+K
+M
+CF
+CF
+CF
+CF
+DN
+DN DN DN DP DG
+EC
+EC
+EC
+EC
+EC
+EC
+0.22 µF
+224
+J
+K
+M
+CF
+CF
+CF
+CF
+DN
+DN DN DN DP DG
+EC
+EC
+EC
+EC
+EC
+EC
+0.27 µF
+274
+J
+K
+M
+CF
+CF
+CF
+DP
+DP DP DP DP
+EB
+EB
+EB
+EB
+EC EM
+0.33 µF
+334
+J
+K
+M
+CF
+CF
+CF
+DP
+DP DP DP DP
+EB
+EB
+EB
+EB
+EC
+EG
+0.39 µF
+394
+J
+K
+M
+CF
+CF
+CF
+DG
+DG DG DG
+DE
+EB
+EB
+EB
+EB
+EC
+EG
+0.47 µF
+474
+J
+K
+M
+CF
+CF
+CF
+DP
+DP DP DP
+DE
+EC
+EC
+EC
+EC
+EC
+EG
+0.56 µF
+564
+J
+K
+M
+DP
+DP DP DG DH
+ED
+ED
+ED
+ED
+EC
+0.68 µF
+684
+J
+K
+M
+DP
+DP DP DG DH
+EE
+EE
+EE
+EE
+ED
+0.82 µF
+824
+J
+K
+M
+DP
+DP DP DG
+EF
+EF
+EF
+EF
+ED
+1.0 µF
+105
+J
+K
+M
+DP
+DP DP DG
+EF
+EF
+EF
+EG
+ED
+1.2 µF
+125
+J
+K
+M
+DE
+DE
+DE
+ED
+ED
+ED
+EG
+EH
+1.5 µF
+155
+J
+K
+M
+DG
+DG DG
+EF
+EF
+EF
+EG
+EH
+1.8 µF
+185
+J
+K
+M
+DG
+DG DG
+ED
+ED
+ED
+EF
+EH
+2.2 µF
+225
+J
+K
+M
+DG
+DG DG
+ED
+ED
+ED
+EF
+EH
+2.7 µF
+275
+J
+K
+M
+EN
+EN EN EH
+3.3 µF
+335
+J
+K
+M
+ED
+ED
+ED
+EH
+3.9 µF
+395
+J
+K
+M
+EF
+EF
+EF
+EH
+4.7 µF
+475
+J
+K
+M
+EF
+EF
+EF
+EH
+5.6 µF
+565
+J
+K
+M
+EH
+EH EH
+6.8 µF
+685
+J
+K
+M
+EH
+EH EH
+Capacitance
+Cap 
+Code
+Rated Voltage 
+(VDC)
+6.3
+10
+16
+25
+50
+6.3
+10
+16
+25
+50
+100
+200
+6.3
+10
+16
+25
+50
+100
+200
+250
+6.3
+10
+16
+25
+50
+100
+200
+250
+Voltage Code
+9
+8
+4
+3
+5
+9
+8
+4
+3
+5
+1
+2
+9
+8
+4
+3
+5
+1
+2
+A
+9
+8
+4
+3
+5
+1
+2
+A
+Case Size/
+Series
+C0402C
+C0603C
+C0805C
+C1206C
+
+PAGE 7
+7
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Table 1B – Capacitance Range/Selection Waterfall (1210 – 1808 Case Sizes) 
+*Capacitance range Includes E24 decade values only. (i.e., 10, 11, 12, 13, 15, 16, 18, 20, 22, 24, 27, 30, 33, 36, 39, 43, 47, 51, 56, 62, 68, 75, 82, and 91)
+**Capacitance range Includes E12 decade values only. (i.e., 10, 12, 15, 18, 22, 27, 33, 39, 47, 56, 68, and 82)
+Capacitance
+Cap 
+Code
+Case Size/ 
+Series
+C1210C
+C1805C
+C1808C
+Voltage Code
+9
+8
+4
+3
+5
+1
+2
+A
+5
+1
+2
+5
+1
+2
+Rated Voltage (VDC)
+6.3
+10
+16
+25
+50
+100
+200
+250
+50
+100
+200
+50
+100
+200
+Capacitance Tolerance
+Product Availability and Chip Thickness Codes
+See Table 2 for Chip Thickness Dimensions
+10 - 91 pF*
+100 - 910*
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+100 -180 pF**
+101 - 181**
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+220 pF
+221
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NC
+NC
+NC
+270 pF
+271
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NC
+NC
+NC
+330 pF
+331
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NC
+NC
+NC
+LF
+LF
+LF
+390 pF
+391
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NC
+NC
+NC
+LF
+LF
+LF
+470 - 820 pF**
+471 - 821**
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NC
+NC
+NC
+LF
+LF
+LF
+1,000 pF
+102
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NC
+NC
+NC
+LF
+LF
+LF
+1,200 pF
+122
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NC
+NC
+LF
+LF
+LF
+1,500 pF
+152
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FE
+NC
+NC
+LF
+LF
+LF
+1,800 pF
+182
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FE
+NC
+NC
+LF
+LF
+LF
+2,200 pF
+222
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NC
+NC
+LF
+LF
+LF
+2,700 pF
+272
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+LF
+LF
+LF
+3,300 pF
+332
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+LF
+LF
+3,900 pF
+392
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+LF
+LF
+4,700 pF
+472
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+NA
+LD
+LD
+5,600 pF
+562
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+NA
+LD
+LD
+6,800 pF
+682
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+NA
+LD
+LD
+8,200 pF
+822
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+NA
+LD
+LD
+10,000 pF
+103
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+NA
+LD
+LD
+12,000 pF
+123
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+NA
+LD
+LD
+15,000 pF
+153
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+NA
+LD
+LD
+18,000 pF
+183
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+NA
+LD
+LD
+Capacitance
+Cap
+Code
+Rated Voltage (VDC)
+6.3
+10
+16
+25
+50
+100
+200
+250
+50
+100
+200
+50
+100
+200
+Voltage Code
+9
+8
+4
+3
+5
+1
+2
+A
+5
+1
+2
+5
+1
+2
+Case Size/Series
+C1210C
+C1805C
+C1808C
+Table 1A – Capacitance Range/Selection Waterfall (0402 – 1206 Case Sizes) cont.
+*Capacitance range Includes E24 decade values only. (i.e., 10, 11, 12, 13, 15, 16, 18, 20, 22, 24, 27, 30, 33, 36, 39, 43, 47, 51, 56, 62, 68, 75, 82, and 91)
+**Capacitance range Includes E12 decade values only. (i.e., 10, 12, 15, 18, 22, 27, 33, 39, 47, 56, 68, and 82)
+Capacitance
+Cap 
+Code
+Case Size/ 
+Series
+C0402C
+C0603C
+C0805C
+C1206C
+Voltage Code
+9
+8
+4
+3
+5
+9
+8
+4
+3
+5
+1
+2
+9
+8
+4
+3
+5
+1
+2
+A
+9
+8
+4
+3
+5
+1
+2
+A
+Rated Voltage 
+(VDC)
+6.3
+10
+16
+25
+50
+6.3
+10
+16
+25
+50
+100
+200
+6.3
+10
+16
+25
+50
+100
+200
+250
+6.3
+10
+16
+25
+50
+100
+200
+250
+Capacitance 
+Tolerance
+Product Availability and Chip Thickness Codes 
+See Table 2 for Chip Thickness Dimensions
+8.2 µF
+825
+J
+K
+M
+EH
+EH EH
+10 µF
+106
+J
+K
+M
+EH
+EH EH
+Capacitance
+Cap 
+Code
+Rated Voltage 
+(VDC)
+6.3
+10
+16
+25
+50
+6.3
+10
+16
+25
+50
+100
+200
+6.3
+10
+16
+25
+50
+100
+200
+250
+6.3
+10
+16
+25
+50
+100
+200
+250
+Voltage Code
+9
+8
+4
+3
+5
+9
+8
+4
+3
+5
+1
+2
+9
+8
+4
+3
+5
+1
+2
+A
+9
+8
+4
+3
+5
+1
+2
+A
+Case Size/
+Series
+C0402C
+C0603C
+C0805C
+C1206C
+
+PAGE 8
+8
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Table 1B – Capacitance Range/Selection Waterfall (1210 – 2220 Case Sizes) cont.
+*Capacitance range Includes E24 decade values only. (i.e., 10, 11, 12, 13, 15, 16, 18, 20, 22, 24, 27, 30, 33, 36, 39, 43, 47, 51, 56, 62, 68, 75, 82, and 91)
+**Capacitance range Includes E12 decade values only. (i.e., 10, 12, 15, 18, 22, 27, 33, 39, 47, 56, 68, and 82)
+Capacitance
+Cap 
+Code
+Case Size/ 
+Series
+C1210C
+C1805C
+C1808C
+Voltage Code
+9
+8
+4
+3
+5
+1
+2
+A
+5
+1
+2
+5
+1
+2
+Rated Voltage (VDC)
+6.3
+10
+16
+25
+50
+100
+200
+250
+50
+100
+200
+50
+100
+200
+Capacitance Tolerance
+Product Availability and Chip Thickness Codes
+See Table 2 for Chip Thickness Dimensions
+22,000 pF
+223
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+NA
+LD
+LD
+27,000 pF
+273
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+NA
+LD
+LD
+33,000 pF
+333
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+LD
+LD
+39,000 pF
+393
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+LD
+LD
+47,000 pF
+473
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+FB
+NA
+LD
+LD
+56,000 pF
+563
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FC
+FC
+NA
+LD
+LD
+68,000 pF
+683
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FB
+FC
+FC
+NA
+LD
+82,000 pF
+823
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FC
+FF
+FF
+NA
+LD
+0.10 µF
+104
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FD
+FG
+FG
+NA
+LD
+0.12 µF
+124
+J
+K
+M
+FB
+FB
+FB
+FB
+FB
+FD
+FH
+FH
+LD
+0.15 µF
+154
+J
+K
+M
+FC
+FC
+FC
+FC
+FC
+FD
+FM
+FM
+LD
+0.18 µF
+184
+J
+K
+M
+FC
+FC
+FC
+FC
+FC
+FD
+FK
+FK
+LD
+0.22 µF
+224
+J
+K
+M
+FC
+FC
+FC
+FC
+FC
+FD
+FK
+FK
+0.27 µF
+274
+J
+K
+M
+FC
+FC
+FC
+FC
+FC
+FD
+0.33 µF
+334
+J
+K
+M
+FD
+FD
+FD
+FD
+FD
+FD
+0.39 µF
+394
+J
+K
+M
+FD
+FD
+FD
+FD
+FD
+FD
+0.47 µF
+474
+J
+K
+M
+FD
+FD
+FD
+FD
+FD
+FD
+0.56 µF
+564
+J
+K
+M
+FD
+FD
+FD
+FD
+FD
+FF
+0.68 µF
+684
+J
+K
+M
+FD
+FD
+FD
+FD
+FD
+FG
+0.82 µF
+824
+J
+K
+M
+FF
+FF
+FF
+FF
+FF
+FL
+1.0 µF
+105
+J
+K
+M
+FH
+FH
+FH
+FH
+FH
+FM
+1.2 µF
+125
+J
+K
+M
+FH
+FH
+FH
+FH
+FG
+1.5 µF
+155
+J
+K
+M
+FH
+FH
+FH
+FH
+FG
+1.8 µF
+185
+J
+K
+M
+FH
+FH
+FH
+FH
+FG
+2.2 µF
+225
+J
+K
+M
+FJ
+FJ
+FJ
+FJ
+FG
+2.7 µF
+275
+J
+K
+M
+FE
+FE
+FE
+FG
+FH
+3.3 µF
+335
+J
+K
+M
+FF
+FF
+FF
+FM
+FM
+3.9 µF
+395
+J
+K
+M
+FG
+FG
+FG
+FG
+FK
+4.7 µF
+475
+J
+K
+M
+FC
+FC
+FC
+FG
+FS
+5.6 µF
+565
+J
+K
+M
+FF
+FF
+FF
+FH
+6.8 µF
+685
+J
+K
+M
+FG
+FG
+FG
+FM
+8.2 µF
+825
+J
+K
+M
+FH
+FH
+FH
+FK
+10 µF
+106
+J
+K
+M
+FH
+FH
+FH
+FS
+22 µF
+226
+J
+K
+M
+FS
+FS
+Capacitance
+Cap
+Code
+Rated Voltage (VDC)
+6.3
+10
+16
+25
+50
+100
+200
+250
+50
+100
+200
+50
+100
+200
+Voltage Code
+9
+8
+4
+3
+5
+1
+2
+A
+5
+1
+2
+5
+1
+2
+Case Size/Series
+C1210C
+C1805C
+C1808C
+
+PAGE 9
+9
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Table 1C – Capacitance Range/Selection Waterfall (1812 – 2220 Case Sizes)
+*Capacitance range Includes E24 decade values only. (i.e., 10, 11, 12, 13, 15, 16, 18, 20, 22, 24, 27, 30, 33, 36, 39, 43, 47, 51, 56, 62, 68, 75, 82, and 91)
+**Capacitance range Includes E12 decade values only. (i.e., 10, 12, 15, 18, 22, 27, 33, 39, 47, 56, 68, and 82)
+Capacitance
+Cap 
+Code
+Case Size/ 
+Series
+C1812C
+C1825C
+C2220C
+Voltage Code
+3
+5
+1
+2
+A
+5
+1
+2
+A
+3
+5
+1
+2
+A
+Rated Voltage (VDC)
+25
+50
+100
+200
+250
+50
+100
+200
+250
+25
+50
+100
+200
+250
+Capacitance Tolerance
+470 - 820 pF**
+471 - 821**
+J
+K
+M
+GB
+GB
+GB
+GB
+1,000 pF
+102
+J
+K
+M
+GB
+GB
+GB
+GB
+1,200 pF
+122
+J
+K
+M
+GB
+GB
+GB
+GB
+1,500 pF
+152
+J
+K
+M
+GB
+GB
+GB
+GB
+1,800 pF
+182
+J
+K
+M
+GB
+GB
+GB
+GB
+2,200 pF
+222
+J
+K
+M
+GB
+GB
+GB
+GB
+2,700 pF
+272
+J
+K
+M
+GB
+GB
+GB
+GB
+3,300 pF
+332
+J
+K
+M
+GB
+GB
+GB
+GB
+3,900 pF
+392
+J
+K
+M
+GB
+GB
+GB
+GB
+4,700 pF
+472
+J
+K
+M
+GB
+GB
+GB
+GD
+5,600 pF
+562
+J
+K
+M
+GB
+GB
+GB
+GH
+6,800 pF
+682
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+JE
+JE
+JE
+8,200 pF
+822
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+JE
+JE
+JE
+10,000 pF
+103
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+JE
+JE
+JE
+12,000 pF
+123
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+JE
+JE
+JE
+15,000 pF
+153
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+JE
+JE
+JE
+18,000 pF
+183
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+JE
+JE
+JE
+22,000 pF
+223
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+HB
+HB
+HB
+HB
+JE
+JE
+JE
+27,000 pF
+273
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+HB
+HB
+HB
+HB
+JE
+JE
+JE
+33,000 pF
+333
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+HB
+HB
+HB
+HB
+JB
+JB
+JB
+39,000 pF
+393
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+HB
+HB
+HB
+HB
+JB
+JB
+JB
+47,000 pF
+473
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+HB
+HB
+HB
+HB
+JB
+JB
+JB
+56,000 pF
+563
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+HB
+HB
+HB
+HB
+JB
+JB
+JB
+68,000 pF
+683
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+HB
+HB
+HB
+HB
+JB
+JB
+JB
+82,000 pF
+823
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+HB
+HB
+HB
+HB
+JB
+JB
+JC
+JC
+JC
+0.10 µF
+104
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+HB
+HB
+HB
+HB
+JB
+JB
+JC
+JC
+JC
+0.12 µF
+124
+J
+K
+M
+GB
+GB
+GB
+GB
+GB
+HB
+HB
+HB
+HB
+JB
+JB
+JC
+JC
+JC
+0.15 µF
+154
+J
+K
+M
+GB
+GB
+GB
+GE
+GE
+HB
+HB
+HB
+HB
+JB
+JB
+JC
+JC
+JC
+0.18 µF
+184
+J
+K
+M
+GB
+GB
+GB
+GG
+GG
+HB
+HB
+HB
+HB
+JB
+JB
+JC
+JC
+JC
+0.22 µF
+224
+J
+K
+M
+GB
+GB
+GB
+GG
+GG
+HB
+HB
+HB
+HB
+JB
+JB
+JC
+JC
+JC
+0.27 µF
+274
+J
+K
+M
+GB
+GB
+GG
+GG
+GG
+HB
+HB
+HB
+HB
+JC
+JC
+JC
+JC
+JC
+0.33 µF
+334
+J
+K
+M
+GB
+GB
+GG
+GG
+GG
+HB
+HB
+HB
+HB
+JC
+JC
+JC
+JC
+JC
+0.39 µF
+394
+J
+K
+M
+GB
+GB
+GG
+GG
+GG
+HD
+HD
+HD
+HD
+JC
+JC
+JC
+JC
+JC
+0.47 µF
+474
+J
+K
+M
+GB
+GB
+GG
+GJ
+GJ
+HD
+HD
+HD
+HD
+JC
+JC
+JC
+JC
+JC
+0.56 µF
+564
+J
+K
+M
+GC
+GC
+GG
+HD
+HD
+HD
+HD
+JC
+JD
+JD
+JD
+JD
+0.68 µF
+684
+J
+K
+M
+GC
+GC
+GG
+HD
+HD
+HD
+HD
+JC
+JD
+JD
+JD
+JD
+0.82 µF
+824
+J
+K
+M
+GE
+GE
+GG
+HF
+HF
+HF
+HF
+JC
+JF
+JF
+JF
+JF
+1.0 µF
+105
+J
+K
+M
+GE
+GE
+GG
+HF
+HF
+HF
+HF
+JC
+JF
+JF
+JF
+JF
+1.2 µF
+125
+J
+K
+M
+JC
+JC
+1.5 µF
+155
+J
+K
+M
+JC
+JC
+1.8 µF
+185
+J
+K
+M
+JD
+JD
+2.2 µF
+225
+J
+K
+M
+GO
+GO
+JF
+JF
+3.9 µF
+395
+J
+K
+M
+GK
+GK
+4.7 µF
+475
+J
+K
+M
+GK
+GK
+JF
+JF
+10 µF
+106
+J
+K
+M
+GK
+JF
+JO
+15 µF
+156
+J
+K
+M
+JO
+22 µF
+226
+J
+K
+M
+JO
+Capacitance
+Cap
+Code
+Rated Voltage (VDC)
+25
+50
+100
+200
+250
+50
+100
+200
+250
+25
+50
+100
+200
+250
+Voltage Code
+3
+5
+1
+2
+A
+5
+1
+2
+A
+3
+5
+1
+2
+A
+Case Size/Series
+C1812C
+C1825C
+C2220C
+
+PAGE 10
+10
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Table 2A – Chip Thickness/Tape & Reel Packaging Quantities
+Package quantity based on finished chip thickness specifications.
+Thickness 
+Code 
+Case 
+Size
+Thickness ± 
+Range (mm)
+Paper Quantity
+Plastic Quantity
+7" Reel
+13" Reel
+7" Reel
+13" Reel
+BB
+0402
+0.50 ± 0.05
+10,000
+50,000
+0
+0
+CF
+0603
+0.80 ± 0.07
+4,000 
+15,000 
+0 
+0 
+DN
+0805
+0.78 ± 0.10
+4,000
+15,000
+0
+0
+DP
+0805
+0.90 ± 0.10
+4,000
+15,000
+0
+0
+DE
+0805
+1.00 ± 0.10
+0 
+0 
+2,500 
+10,000 
+DG
+0805
+1.25 ± 0.15
+0
+0
+2,500
+10,000
+DH
+0805
+1.25 ± 0.20
+0 
+0 
+2,500 
+10,000 
+EB
+1206
+0.78 ± 0.10
+0
+0
+4,000 
+10,000 
+EC
+1206
+0.90 ± 0.10
+0
+0
+4,000
+10,000
+EN
+1206
+0.95 ± 0.10
+0
+0
+4,000
+10,000
+ED
+1206
+1.00 ± 0.10
+0 
+0 
+2,500 
+10,000 
+EE
+1206
+1.10 ± 0.10
+0
+0
+2,500
+10,000
+EF
+1206
+1.20 ± 0.15
+0 
+0 
+2,500 
+10,000 
+EM
+1206
+1.25 ± 0.15
+0 
+0 
+2,500 
+10,000 
+EG
+1206
+1.60 ± 0.15
+0
+0
+2,000
+8,000
+EH
+1206
+1.60 ± 0.20
+0
+0
+2,000
+8,000
+FB
+1210
+0.78 ± 0.10
+0 
+0 
+4,000 
+10,000 
+FC
+1210
+0.90 ± 0.10
+0
+0
+4,000
+10,000
+FD
+1210
+0.95 ± 0.10
+0
+0
+4,000
+10,000
+FE
+1210
+1.00 ± 0.10
+0 
+0 
+2,500 
+10,000 
+FF
+1210
+1.10 ± 0.10
+0 
+0 
+2,500 
+10,000 
+FG
+1210
+1.25 ± 0.15
+0
+0
+2,500
+10,000
+FL
+1210
+1.40 ± 0.15
+0
+0
+2,000
+8,000
+FH
+1210
+1.55 ± 0.15
+0 
+0 
+2,000 
+8,000 
+FM
+1210
+1.70 ± 0.20
+0 
+0 
+2,000 
+8,000 
+FJ
+1210
+1.85 ± 0.20
+0
+0
+2,000
+8,000
+FK
+1210
+2.10 ± 0.20
+0 
+0 
+2,000 
+8,000 
+FS
+1210
+2.50 ± 0.30
+0
+0
+1,000
+4,000
+NA
+1805
+0.90 ± 0.10
+0
+0
+4,000
+10,000
+NC
+1805
+1.00 ± 0.15
+0 
+0 
+4,000 
+10,000 
+LD
+1808
+0.90 ± 0.10
+0
+0
+2,500
+10,000
+LF
+1808
+1.00 ± 0.15
+0 
+0 
+2,500 
+10,000 
+GB
+1812
+1.00 ± 0.10
+0
+0
+1,000
+4,000
+GC
+1812
+1.10 ± 0.10
+0 
+0 
+1,000 
+4,000 
+GD
+1812
+1.25 ± 0.15
+0 
+0 
+1,000 
+4,000 
+GE
+1812
+1.30 ± 0.10
+0
+0
+1,000
+4,000
+GH
+1812
+1.40 ± 0.15
+0
+0
+1,000
+4,000
+GG
+1812
+1.55 ± 0.10
+0 
+0 
+1,000 
+4,000 
+GK
+1812
+1.60 ± 0.20
+0 
+0 
+1,000 
+4,000 
+GJ
+1812
+1.70 ± 0.15
+0 
+0 
+1,000 
+4,000 
+GO
+1812
+2.50 ± 0.20
+0 
+0 
+500 
+2,000 
+HB
+1825
+1.10 ± 0.15
+0 
+0 
+1,000 
+4,000 
+HD
+1825
+1.30 ± 0.15
+0 
+0 
+1,000 
+4,000 
+HF
+1825
+1.50 ± 0.15
+0 
+0 
+1,000 
+4,000 
+JB
+2220
+1.00 ± 0.15
+0
+0
+1,000
+4,000
+JC
+2220
+1.10 ± 0.15
+0 
+0 
+1,000 
+4,000 
+JD
+2220
+1.30 ± 0.15
+0
+0
+1,000
+4,000
+JE
+2220
+1.40 ± 0.15
+0
+0
+1,000
+4,000
+JF
+2220
+1.50 ± 0.15
+0 
+0 
+1,000 
+4,000 
+JO
+2220
+2.40 ± 0.15
+0 
+0 
+500 
+2,000 
+Thickness 
+Code 
+Case 
+Size1
+Thickness ± 
+Range (mm)
+7" Reel
+13" Reel
+7" Reel
+13" Reel
+Paper Quantity1
+Plastic Quantity
+
+PAGE 11
+11
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Table 2B – Bulk Packaging Quantities
+Packaging Type
+Loose Packaging
+Bulk Bag (default)
+Packaging C-Spec1
+N/A2
+Case Size
+Packaging Quantities (pieces/unit packaging)
+EIA (in)
+Metric (mm)
+Minimum
+Maximum
+0402
+1005
+1
+50,000
+0603
+1608
+0805
+2012
+1206
+3216
+1210
+3225
+1808
+4520
+20,000
+1812
+4532
+1825
+4564
+2220
+5650
+2225
+5664
+1 The "Packaging C-Spec" is a 4 to 8 digit code which identifies the packaging type and/or product grade. When ordering, the proper code must be 
+included in the 15th through 22nd character positions of the ordering code. See "Ordering Information" section of this document for further details. 
+Commercial Grade product ordered without a packaging C-Spec will default to our standard "Bulk Bag" packaging. Contact KEMET if you require a bulk 
+bag packaging option for Automotive Grade products.
+2 A packaging C-Spec (see note 1 above) is not required for "Bulk Bag" packaging (excluding Anti-Static Bulk Bag and Automotive Grade products). The 
+15th through 22nd character positions of the ordering code should be left blank. All product ordered without a packaging C-Spec will default to our 
+standard "Bulk Bag" packaging. 
+
+PAGE 12
+12
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Table 3 – Chip Capacitor Land Pattern Design Recommendations per IPC–7351
+EIA 
+Size 
+Code 
+Metric 
+Size 
+Code
+Density Level A:  
+Maximum (Most) 
+Land Protrusion (mm)
+Density Level B:  
+Median (Nominal) 
+Land Protrusion (mm)
+Density Level C:  
+Minimum (Least) 
+Land Protrusion (mm)
+C
+Y
+X
+V1
+V2
+C
+Y
+X
+V1
+V2
+C
+Y
+X
+V1
+V2
+0402
+1005
+0.50
+0.72
+0.72
+2.20
+1.20
+0.45
+0.62
+0.62
+1.90
+1.00
+0.40
+0.52
+0.52
+1.60
+0.80
+0603
+1608
+0.90
+1.15
+1.10
+4.00
+2.10
+0.80
+0.95
+1.00
+3.10
+1.50
+0.60
+0.75
+0.90
+2.40
+1.20
+0805
+2012
+1.00
+1.35
+1.55
+4.40
+2.60
+0.90
+1.15
+1.45
+3.50
+2.00
+0.75
+0.95
+1.35
+2.80
+1.70
+1206
+3216
+1.60
+1.35
+1.90
+5.60
+2.90
+1.50
+1.15
+1.80
+4.70
+2.30
+1.40
+0.95
+1.70
+4.00
+2.00
+1210
+3225
+1.60
+1.35
+2.80
+5.65
+3.80
+1.50
+1.15
+2.70
+4.70
+3.20
+1.40
+0.95
+2.60
+4.00
+2.90
+12101
+3225
+1.50
+1.60
+2.90
+5.60
+3.90
+1.40
+1.40
+2.80
+4.70
+3.30
+1.30
+1.20
+2.70
+4.00
+3.00
+1812
+4532
+2.15
+1.60
+3.60
+6.90
+4.60
+2.05
+1.40
+3.50
+6.00
+4.00
+1.95
+1.20
+3.40
+5.30
+3.70
+2220
+5650
+2.75
+1.70
+5.50
+8.20
+6.50
+2.65
+1.50
+5.40
+7.30
+5.90
+2.55
+1.30
+5.30
+6.60
+5.60
+1 Only for capacitance values ≥ 22 µF
+Density Level A: For low-density product applications. Recommended for wave solder applications and provides a wider process window for reflow 
+solder processes. KEMET only recommends wave soldering of EIA 0603, 0805, and 1206 case sizes.
+Density Level B: For products with a moderate level of component density. Provides a robust solder attachment condition for reflow solder processes.
+Density Level C: For high component density product applications. Before adapting the minimum land pattern variations the user should perform 
+qualification testing based on the conditions outlined in IPC Standard 7351 (IPC–7351).
+Image below based on Density Level B for an EIA 1210 case size.
+Y
+C
+C
+X
+X
+V1
+V2
+Grid Placement Courtyard
+Y
+
+PAGE 13
+13
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Soldering Process
+Recommended Soldering Technique:
+	 • Solder wave or solder reflow for EIA case sizes 0603, 0805 and 1206
+	 • All other EIA case sizes are limited to solder reflow only
+Recommended Reflow Soldering Profile:
+KEMET’s families of surface mount multilayer ceramic capacitors (SMD MLCCs) are compatible with wave (single or dual), 
+convection, IR or vapor phase reflow techniques. Preheating of these components is recommended to avoid extreme thermal 
+stress. KEMET’s recommended profile conditions for convection and IR reflow reflect the profile conditions of the IPC/J-
+STD-020 standard for moisture sensitivity testing. These devices can safely withstand a maximum of three reflow passes at 
+these conditions.
+Profile Feature
+Termination Finish
+SnPb
+100% Matte Sn
+Preheat/Soak
+Temperature Minimum (TSmin)
+100°C
+150°C
+Temperature Maximum (TSmax)
+150°C
+200°C
+Time (tS) from TSmin to TSmax
+60 – 120 seconds
+60 – 120 seconds
+Ramp-Up Rate (TL to TP)
+3°C/second 
+maximum
+3°C/second 
+maximum
+Liquidous Temperature (TL)
+183°C
+217°C
+Time Above Liquidous (tL)
+60 – 150 seconds
+60 – 150 seconds
+Peak Temperature (TP)
+235°C
+260°C
+Time Within 5°C of Maximum 
+Peak Temperature (tP)
+20 seconds 
+maximum
+30 seconds 
+maximum
+Ramp-Down Rate (TP to TL)
+6°C/second 
+maximum
+6°C/second 
+maximum
+Time 25°C to Peak 
+Temperature
+6 minutes 
+maximum
+8 minutes 
+maximum
+Note 1:  All temperatures refer to the center of the package, measured on the 
+capacitor body surface that is facing up during assembly reflow.
+Time
+Temperature 
+Tsmin
+25
+Tsmax
+TL
+TP
+Maximum Ramp-up Rate = 3°C/second
+Maximum Ramp-down Rate = 6°C/second
+tP
+tL
+ts
+25°C to Peak
+
+PAGE 14
+14
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Table 4 – Performance & Reliability: Test Methods and Conditions
+Stress
+Reference
+Test or Inspection Method
+Terminal Strength
+JIS–C–6429
+Appendix 1, Note: Force of 1.8 kg for 60 seconds.
+Board Flex
+JIS–C–6429
+Appendix 2, Note: Standard termination system – 2.0 mm (minimum) for all except 3 mm 
+for C0G. Flexible termination system – 3.0 mm (minimum).
+Solderability
+J–STD–002
+Magnification 50 X. Conditions:
+          a) Method B, 4 hours at 155°C, dry heat at 235°C
+          b) Method B at 215°C category 3
+          c) Method D, category 3 at 260°C
+Temperature Cycling
+JESD22 Method JA–104
+1,000 Cycles (−55°C to +125°C). Measurement at 24 hours +/−4 hours after test conclusion.
+Biased Humidity
+MIL–STD–202 
+Method 103
+Load Humidity: 1,000 hours 85°C/85% RH and rated voltage. Add 100 K ohm resistor. 
+Measurement at 24 hours +/−4 hours after test conclusion.
+Low Volt Humidity: 1,000 hours 85°C/85% RH and 1.5 V. Add 100 K ohm resistor. 
+Measurement at 24 hours +/−4 hours after test conclusion.
+Moisture Resistance
+MIL–STD–202 
+Method 106
+t = 24 hours/cycle. Steps 7a and 7b not required.
+Measurement at 24 hours +/−4 hours after test conclusion.
+Thermal Shock
+MIL–STD–202 
+Method 107
+−55°C/+125°C. Note: Number of cycles required – 300, maximum transfer time – 20 
+seconds, dwell time – 15 minutes. Air – Air.
+High Temperature Life
+MIL–STD–202 
+Method 108/EIA–198
+1,000 hours at 125°C (85°C for X5R, Z5U and Y5V) with 2 X rated voltage applied.
+Storage Life
+MIL–STD–202 
+Method 108
+150°C, 0 VDC for 1,000 hours.
+Vibration
+MIL–STD–202 
+Method 204
+5 g's for 20 min., 12 cycles each of 3 orientations. Note: Use 8" X 5" PCB 0.031" thick 7 
+secure points on one long side and 2 secure points at corners of opposite sides. Parts 
+mounted within 2" from any secure point. Test from 10 – 2,000 Hz
+Mechanical Shock
+MIL–STD–202 
+Method 213
+Figure 1 of Method 213, Condition F.
+Resistance to Solvents
+MIL–STD–202 
+Method 215
+Add aqueous wash chemical, OKEM Clean or equivalent.
+Storage & Handling
+Ceramic chip capacitors should be stored in normal working environments. While the chips themselves are quite robust in 
+other environments, solderability will be degraded by exposure to high temperatures, high humidity, corrosive atmospheres, 
+and long term storage. In addition, packaging materials will be degraded by high temperature–reels may soften or warp 
+and tape peel force may increase. KEMET recommends that maximum storage temperature not exceed 40ºC and maximum 
+storage humidity not exceed 70% relative humidity. Temperature fluctuations should be minimized to avoid condensation on 
+the parts and atmospheres should be free of chlorine and sulfur bearing compounds. For optimized solderability chip stock 
+should be used promptly, preferably within 1.5 years of receipt.
+
+PAGE 15
+15
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Construction
+Detailed Cross Section
+Barrier Layer
+(Ni)
+Inner Electrodes
+(Ni)
+Barrier Layer
+(Ni)
+Inner Electrodes
+(Ni)
+Dielectric Material
+(CaZrO3)
+Dielectric Material
+(CaZrO3)
+Termination Finish
+(100% Matte Sn / 
+SnPb - 5% Pb min, 
+Gold Au 100 µin min)
+Termination Finish
+(100% Matte Sn / 
+SnPb - 5% Pb min, 
+Gold Au 100 µin min)
+End Termination/
+External Electrode 
+(Cu)
+End Termination/
+External Electrode 
+(Cu)
+
+PAGE 16
+16
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+These surface mount multilayer ceramic capacitors are 
+normally supplied unmarked. If required, they can be 
+marked as an extra cost option. Marking is available 
+on most KEMET devices, but must be requested using 
+the correct ordering code identifi er(s). If this option is 
+requested, two sides of the ceramic body will be laser 
+marked with a “K” to identify KEMET, followed by two 
+characters (per EIA–198 - see table below) to identify the 
+capacitance value. EIA 0603 case size devices are limited 
+to the “K” character only.
+Laser marking option is not available on:
+• C0G, ultra stable X8R and Y5V dielectric devices. 
+• EIA 0402 case size devices. 
+• EIA 0603 case size devices with fl exible termination 
+option.
+• KPS commercial and automotive grade stacked 
+devices.
+• X7R dielectric products in capacitance values outlined 
+below.
+Capacitor Marking (Optional)
+Marking appears in legible contrast. Illustrated below 
+is an example of an MLCC with laser marking of “KA8”, 
+which designates a KEMET device with rated capacitance 
+of 100 µF. Orientation of marking is vendor optional. 
+KEMET 
+ID
+2-Digit 
+Capacitance 
+Code
+EIA Case Size
+Metric Size Code
+Capacitance
+0603
+1608
+≤ 170 pF
+0805
+2012
+≤ 150 pF
+1206
+3216
+≤ 910 pF
+1210
+3225
+≤ 2,000 pF
+1808
+4520
+≤ 3,900 pF
+1812
+4532
+≤ 6,700 pF
+1825
+4564
+≤ 0.018 µF
+2220
+5650
+≤ 0.027 µF
+2225
+5664
+≤ 0.033 µF
+
+PAGE 17
+17
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Capacitor Marking (Optional) cont.
+Capacitance (pF) For Various Alpha/Numeral Identifi ers
+Alpha
+Character
+Numeral
+9
+0
+1
+2
+3
+4
+5
+6
+7
+8
+Capacitance (pF)
+A 
+0.10
+1.0
+10
+100
+1,000
+10,000
+100,000
+1,000,000
+10,000,000
+100,000,000
+B 
+0.11
+1.1
+11
+110
+1,100
+11,000
+110,000
+1,100,000
+11,000,000
+110,000,000
+C 
+0.12
+1.2
+12
+120
+1,200
+12,000
+120,000
+1,200,000
+12,000,000
+120,000,000
+D 
+0.13
+1.3
+13
+130
+1,300
+13,000
+130,000
+1,300,000
+13,000,000
+130,000,000
+E 
+0.15
+1.5
+15
+150
+1,500
+15,000
+150,000
+1,500,000
+15,000,000
+150,000,000
+F 
+0.16
+1.6
+16
+160
+1,600
+16,000
+160,000
+1,600,000
+16,000,000
+160,000,000
+G 
+0.18
+1.8
+18
+180
+1,800
+18,000
+180,000
+1,800,000
+18,000,000
+180,000,000
+H 
+0.20
+2.0
+20
+200
+2,000
+20,000
+200,000
+2,000,000
+20,000,000
+200,000,000
+J 
+0.22
+2.2
+22
+220
+2,200
+22,000
+220,000
+2,200,000
+22,000,000
+220,000,000
+K 
+0.24
+2.4
+24
+240
+2,400
+24,000
+240,000
+2,400,000
+24,000,000
+240,000,000
+L 
+0.27
+2.7
+27
+270
+2,700
+27,000
+270,000
+2,700,000
+27,000,000
+270,000,000
+M 
+0.30
+3.0
+30
+300
+3,000
+30,000
+300,000
+3,000,000
+30,000,000
+300,000,000
+N 
+0.33
+3.3
+33
+330
+3,300
+33,000
+330,000
+3,300,000
+33,000,000
+330,000,000
+P 
+0.36
+3.6
+36
+360
+3,600
+36,000
+360,000
+3,600,000
+36,000,000
+360,000,000
+Q 
+0.39
+3.9
+39
+390
+3,900
+39,000
+390,000
+3,900,000
+39,000,000
+390,000,000
+R 
+0.43
+4.3
+43
+430
+4,300
+43,000
+430,000
+4,300,000
+43,000,000
+430,000,000
+S 
+0.47
+4.7
+47
+470
+4,700
+47,000
+470,000
+4,700,000
+47,000,000
+470,000,000
+T 
+0.51
+5.1
+51
+510
+5,100
+51,000
+510,000
+5,100,000
+51,000,000
+510,000,000
+U 
+0.56
+5.6
+56
+560
+5,600
+56,000
+560,000
+5,600,000
+56,000,000
+560,000,000
+V 
+0.62
+6.2
+62
+620
+6,200
+62,000
+620,000
+6,200,000
+62,000,000
+620,000,000
+W 
+0.68
+6.8
+68
+680
+6,800
+68,000
+680,000
+6,800,000
+68,000,000
+680,000,000
+X 
+0.75
+7.5
+75
+750
+7,500
+75,000
+750,000
+7,500,000
+75,000,000
+750,000,000
+Y 
+0.82
+8.2
+82
+820
+8,200
+82,000
+820,000
+8,200,000
+82,000,000
+820,000,000
+Z 
+0.91
+9.1
+91
+910
+9,100
+91,000
+910,000
+9,100,000
+91,000,000
+910,000,000
+a 
+0.25
+2.5
+25
+250
+2,500
+25,000
+250,000
+2,500,000
+25,000,000
+250,000,000
+b 
+0.35
+3.5
+35
+350
+3,500
+35,000
+350,000
+3,500,000
+35,000,000
+350,000,000
+d 
+0.40
+4.0
+40
+400
+4,000
+40,000
+400,000
+4,000,000
+40,000,000
+400,000,000
+e 
+0.45
+4.5
+45
+450
+4,500
+45,000
+450,000
+4,500,000
+45,000,000
+450,000,000
+f 
+0.50
+5.0
+50
+500
+5,000
+50,000
+500,000
+5,000,000
+50,000,000
+500,000,000
+m 
+0.60
+6.0
+60
+600
+6,000
+60,000
+600,000
+6,000,000
+60,000,000
+600,000,000
+n 
+0.70
+7.0
+70
+700
+7,000
+70,000
+700,000
+7,000,000
+70,000,000
+700,000,000
+t 
+0.80
+8.0
+80
+800
+8,000
+80,000
+800,000
+8,000,000
+80,000,000
+800,000,000
+y 
+0.90
+9.0
+90
+900
+9,000
+90,000
+900,000
+9,000,000
+90,000,000
+900,000,000
+
+PAGE 18
+18
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Tape & Reel Packaging Information
+KEMET offers multilayer ceramic chip capacitors packaged in 8, 12 and 16 mm tape on 7" and 13" reels in accordance with 
+EIA Standard 481. This packaging system is compatible with all tape-fed automatic pick and place systems. See Table 2 for 
+details on reeling quantities for commercial chips.
+8 mm, 12 mm
+or 16 mm carrier tape 
+180 mm (7.00")
+or
+330 mm (13.00")
+Anti-static reel
+Embossed plastic* or 
+punched paper carrier.
+Embossment or punched cavity
+Anti-static cover tape
+(0.10 mm (0.004") maximum thickness)
+       Chip and KPS orientation in pocket
+(except 1825 commercial, and 1825 and 2225 Military)
+*EIA 01005, 0201, 0402 and 0603 case sizes available on punched paper carrier only.
+KEMET
+®
+Bar code label
+Sprocket holes
+Table 5 – Carrier Tape Confi guration, Embossed Plastic & Punched Paper (mm)
+EIA Case Size
+Tape Size 
+(W)*
+Embossed Plastic
+Punched Paper
+7" Reel
+13" Reel
+7" Reel
+13" Reel
+Pitch (P1)*
+Pitch (P1)*
+01005 – 0402
+8
+2
+2
+0603
+8
+4
+4
+0805
+8
+4
+4
+4
+4
+1206 – 1210
+8
+4
+4
+4
+4
+1805 – 1808
+12
+4
+4
+≥ 1812
+12
+8
+8
+KPS 1210
+12
+8
+8
+KPS 1812
+and 2220
+16
+12
+12
+Array 0612
+8
+4
+4
+*Refer to Figures 1 and 2 for W and P1 carrier tape reference locations.
+*Refer to Tables 6 and 7 for tolerance specifi cations.
+
+PAGE 19
+19
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Figure 1 – Embossed (Plastic) Carrier Tape Dimensions
+P0
+T
+F
+W
+Center Lines of Cavity
+A0
+B0
+User Direction of Unreeling
+Cover Tape
+K0
+B1 is for tape feeder reference only, 
+including draft concentric about B0.
+T2
+ØD1
+ØD0
+B1
+S1
+T1
+E1
+E2
+P1
+P2
+Embossment
+For cavity size,
+see Note 1 Table 4
+(10 pitches cumulative
+tolerance on tape ±0.2 mm)
+Table 6 – Embossed (Plastic) Carrier Tape Dimensions
+Metric will govern
+Constant Dimensions — Millimeters (Inches) 
+Tape Size
+D0 
+D1 Minimum
+Note 1
+E1
+P0 
+P2 
+R Reference
+Note 2
+S1 Minimum
+Note 3
+T 
+Maximum
+T1 
+Maximum
+8 mm
+1.5 +0.10/−0.0 
+(0.059 +0.004/−0.0)
+1.0 
+(0.039)
+1.75 ±0.10 
+(0.069 ±0.004)
+4.0 ±0.10 
+(0.157 ±0.004)
+2.0 ±0.05
+(0.079 ±0.002)
+25.0 
+(0.984)
+0.600 
+(0.024)
+0.600 
+(0.024)
+0.100 
+(0.004)
+12 mm 
+1.5 
+(0.059)
+30 
+(1.181)
+16 mm 
+Variable Dimensions — Millimeters (Inches) 
+Tape Size
+Pitch 
+B1 Maximum
+Note 4
+E2 
+Minimum
+F 
+P1 
+T2 
+Maximum
+W 
+Maximum
+A0,B0 & K0
+8 mm 
+Single (4 mm)
+4.35 
+(0.171)
+6.25 
+(0.246)
+3.5 ±0.05 
+(0.138 ±0.002)
+4.0 ±0.10
+(0.157 ±0.004)
+2.5 
+(0.098)
+8.3 
+(0.327)
+Note 5
+12 mm 
+Single (4 mm)
+and double (8 mm)
+8.2 
+(0.323)
+10.25 
+(0.404)
+5.5 ±0.05 
+(0.217 ±0.002)
+8.0 ±0.10
+(0.315 ±0.004)
+4.6 
+(0.181)
+12.3 
+(0.484)
+16 mm 
+Triple (12 mm)
+12.1 
+(0.476)
+14.25
+(0.561)
+7.5 ±0.05
+(0.138 ±0.002) 
+12.0 ±0.10
+(0.157 ±0.004) 
+4.6 
+(0.181)
+16.3 
+(0.642)
+1. The embossment hole location shall be measured from the sprocket hole controlling the location of the embossment. Dimensions of the embossment 
+location and the hole location shall be applied independently of each other.
+2. The tape with or without components shall pass around R without damage (see Figure 6.)
+3. If S1 < 1.0 mm, there may not be enough area for a cover tape to be properly applied (see EIA Standard 481, paragraph 4.3, section b.)
+4. B1 dimension is a reference dimension for tape feeder clearance only.
+5. The cavity defi ned by A0, B0 and K0 shall surround the component with suﬃ  cient clearance that:
+  
+(a) the component does not protrude above the top surface of the carrier tape.
+  
+(b) the component can be removed from the cavity in a vertical direction without mechanical restriction, after the top cover tape has been
+ 
+removed.
+  
+(c) rotation of the component is limited to 20° maximum for 8 and 12 mm tapes and 10° maximum for 16 mm tapes (see Figure 3.)
+  
+(d) lateral movement of the component is restricted to 0.5 mm maximum for 8 and 12 mm wide tape and to 1.0 mm maximum for 16 mm tape
+ 
+(see Figure 4.)
+  
+(e) for KPS product, A0 and B0 are measured on a plane 0.3 mm above the bottom of the pocket.
+  
+(f) see addendum in EIA Standard 481 for standards relating to more precise taping requirements.
+
+PAGE 20
+20
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Figure 2 – Punched (Paper) Carrier Tape Dimensions 
+User Direction of Unreeling
+Top Cover Tape
+T
+Center Lines of Cavity
+P1
+ØDo
+Po
+E1
+F
+E2
+W
+G
+A0
+B0
+Cavity Size,
+See
+Note 1, Table 7
+Bottom Cover Tape
+T1
+T1
+Bottom Cover Tape
+(10 pitches cumulative
+tolerance on tape ±0.2 mm)
+Table 7 – Punched (Paper) Carrier Tape Dimensions 
+Metric will govern
+Constant Dimensions — Millimeters (Inches)
+Tape Size
+D0
+E1
+P0
+P2
+T1 Maximum
+G Minimum
+R Reference
+Note 2
+8 mm
+1.5 +0.10 -0.0 
+(0.059 +0.004 -0.0)
+1.75 ±0.10 
+(0.069 ±0.004)
+4.0 ±0.10 
+(0.157 ±0.004)
+2.0 ±0.05 
+(0.079 ±0.002)
+0.10 
+(0.004) 
+maximum
+0.75 
+(0.030) 
+25 
+(0.984) 
+Variable Dimensions — Millimeters (Inches)
+Tape Size
+Pitch
+E2 Minimum
+F 
+P1 
+T Maximum
+W Maximum
+A0 B0
+8 mm
+Half (2 mm)
+6.25 
+(0.246)
+3.5 ±0.05 
+(0.138 ±0.002)
+2.0 ±0.05 
+(0.079 ±0.002)
+1.1 
+(0.098) 
+8.3
+(0.327) 
+Note 1
+8 mm
+Single (4 mm)
+ 4.0 ±0.10 
+(0.157 ±0.004)
+8.3
+(0.327)
+1. The cavity defi ned by A0, B0 and T shall surround the component with suﬃ  cient clearance that:
+  
+a) the component does not protrude beyond either surface of the carrier tape.
+  
+b) the component can be removed from the cavity in a vertical direction without mechanical restriction, after the top cover tape has been
+ 
+removed.
+  
+c) rotation of the component is limited to 20° maximum (see Figure 3.)
+  
+d) lateral movement of the component is restricted to 0.5 mm maximum (see Figure 4.)
+  
+e) see addendum in EIA Standard 481 for standards relating to more precise taping requirements.
+2. The tape with or without components shall pass around R without damage (see Figure 6.)
+
+PAGE 21
+21
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Packaging Information Performance Notes
+1. Cover Tape Break Force: 1.0 kg minimum.
+2. Cover Tape Peel Strength: The total peel strength of the cover tape from the carrier tape shall be: 
+Tape Width
+Peel Strength
+8 mm
+0.1 to 1.0 newton (10 to 100 gf)
+12 and 16 mm
+0.1 to 1.3 newton (10 to 130 gf)
+The direction of the pull shall be opposite the direction of the carrier tape travel. The pull angle of the carrier tape shall be 
+165° to 180° from the plane of the carrier tape. During peeling, the carrier and/or cover tape shall be pulled at a velocity of 
+300 ±10 mm/minute.
+3. Labeling: Bar code labeling (standard or custom) shall be on the side of the reel opposite the sprocket holes. Refer to EIA 
+Standards 556 and 624.
+Figure 3 – Maximum Component Rotation
+Ao
+Bo
+°
+T
+°
+s
+Maximum Component Rotation
+Top View
+Maximum Component Rotation
+Side View
+Tape               Maximum
+Width (mm)    Rotation (
+°
+T)
+8,12                 20    
+16 – 200          10
+Tape               Maximum
+Width (mm)    Rotation (
+°
+S)
+8,12                 20    
+16 – 56           10
+72 – 200          5
+Typical Pocket Centerline
+Typical Component Centerline
+Figure 4 – Maximum Lateral Movement
+0.5 mm maximum
+0.5 mm maximum
+8 mm & 12 mm Tape
+1.0 mm maximum
+1.0 mm maximum
+16 mm Tape
+Figure 5 – Bending Radius
+R
+R
+Bending
+Radius
+Embossed
+Carrier
+Punched
+Carrier
+
+PAGE 22
+22
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Figure 6 – Reel Dimensions
+A
+D (See Note)
+Full Radius,
+See Note
+B (see Note)
+Access Hole at
+Slot Location
+(Ø 40 mm minimum)
+If present,
+tape slot in core
+for tape start:
+2.5 mm minimum width x
+10.0 mm minimum depth
+W3
+(Includes
+ flange distortion
+ at outer edge)
+W2
+(Measured at hub)
+W1
+(Measured at hub)
+C
+(Arbor hole
+diameter)
+Note: Drive spokes optional; if used, dimensions B and D shall apply.
+N
+Table 8 – Reel Dimensions
+Metric will govern
+Constant Dimensions — Millimeters (Inches)  
+Tape Size
+A 
+B Minimum
+C
+D Minimum
+8 mm
+178 ±0.20 
+(7.008 ±0.008) 
+or
+330 ±0.20
+(13.000 ±0.008)
+1.5 
+(0.059)
+13.0 +0.5/−0.2 
+(0.521 +0.02/−0.008)
+20.2 
+(0.795)
+12 mm
+16 mm
+Variable Dimensions — Millimeters (Inches)  
+Tape Size
+N Minimum
+W1 
+W2 Maximum
+W3 
+8 mm
+50 
+(1.969)
+8.4 +1.5/−0.0
+(0.331 +0.059/−0.0)
+14.4 
+(0.567)
+Shall accommodate tape 
+width without interference
+12 mm
+12.4 +2.0/−0.0
+(0.488 +0.078/−0.0)  
+18.4 
+(0.724)
+16 mm
+16.4 +2.0/−0.0
+(0.646 +0.078/−0.0)
+22.4 
+(0.882)
+
+PAGE 23
+23
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+Figure 7 – Tape Leader & Trailer Dimensions
+Trailer
+160 mm minimum
+Carrier Tape
+END
+START
+Round Sprocket Holes
+Elongated Sprocket Holes
+(32 mm tape and wider)
+Top Cover Tape
+Top Cover Tape
+Punched Carrier
+8 mm & 12 mm only
+Embossed Carrier
+Components
+100 mm 
+minimum leader
+400 mm minimum
+Figure 8 – Maximum Camber
+Carrier Tape
+Round Sprocket Holes
+1 mm maximum, either direction
+Straight Edge
+250 mm
+Elongated Sprocket Holes
+(32 mm & wider tapes)
+
+PAGE 24
+24
+© KEMET Electronics Corporation • One East Broward Boulevard
+C1027_X7R_COTS_SMD • 8/8/2024
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+Commercial Off-The-Shelf (COTS) for Higher Reliability Applications, X7R Dielectric, 6.3 – 250 VDC
+KEMET Electronics Corporation Sales Oﬃ  ces
+For a complete list of our global sales oﬃ  ces, please visit www.kemet.com/sales.
+Disclaimer
+YAGEO Corporation and its aﬃ  liates do not recommend the use of commercial or automotive grade products for high reliability applications or manned space fl ight.
+All product specifi cations, statements, information and data (collectively, the “Information”) in this datasheet are subject to change. The customer is responsible for 
+checking and verifying the extent to which the Information contained in this publication is applicable to an order at the time the order is placed. All Information given 
+herein is believed to be accurate and reliable, but it is presented without guarantee, warranty, or responsibility of any kind, expressed or implied.
+Statements of suitability for certain applications are based on KEMET Electronics Corporation’s (“KEMET”) knowledge of typical operating conditions for such 
+applications, but are not intended to constitute – and KEMET specifi cally disclaims – any warranty concerning suitability for a specifi c customer application or use. 
+The Information is intended for use only by customers who have the requisite experience and capability to determine the correct products for their application. Any 
+technical advice inferred from this Information or otherwise provided by KEMET with reference to the use of KEMET’s products is given gratis, and KEMET assumes
+no obligation or liability for the advice given or results obtained.
+Although KEMET designs and manufactures its products to the most stringent quality and safety standards, given the current state of the art, isolated component 
+failures may still occur. Accordingly, customer applications which require a high degree of reliability or safety should employ suitable designs or other safeguards 
+(such as installation of protective circuitry or redundancies) in order to ensure that the failure of an electrical component does not result in a risk of personal injury
+or property damage.
+Although all product–related warnings, cautions and notes must be observed, the customer should not assume that all safety measures are indicated or that other 
+measures may not be required.
+  KEMET is a registered trademark of KEMET Electronics Corporation.

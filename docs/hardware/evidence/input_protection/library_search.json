@@ -1,0 +1,20 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"status\": \"success\", \"pattern\": \"(?i)(TDS3011|NIS3071|LTC4414|DMP6023|fuse|fusib|PTC|holder|0451|SS3P6|SMBJ)\", \"pattern_type\": \"regex\", \"matches\": [], \"matches_found\": 0, \"components_searched\": 177, \"libraries_searched\": 4, \"errors\": null, \"message\": \"Found 0 matches for '(?i)(TDS3011|NIS3071|LTC4414|DMP6023|fuse|fusib|PTC|holder|0451|SS3P6|SMBJ)' across 4 libraries (177 components searched)\"}"
+    }
+  ],
+  "structuredContent": {
+    "status": "success",
+    "pattern": "(?i)(TDS3011|NIS3071|LTC4414|DMP6023|fuse|fusib|PTC|holder|0451|SS3P6|SMBJ)",
+    "pattern_type": "regex",
+    "matches": [],
+    "matches_found": 0,
+    "components_searched": 177,
+    "libraries_searched": 4,
+    "errors": null,
+    "message": "Found 0 matches for '(?i)(TDS3011|NIS3071|LTC4414|DMP6023|fuse|fusib|PTC|holder|0451|SS3P6|SMBJ)' across 4 libraries (177 components searched)"
+  },
+  "isError": false
+}

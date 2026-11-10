@@ -1,0 +1,73 @@
+=== PDF PAGE 1 ===
+Package Outline Dimensions
+
+
+                                               SOT223 (Type DN)
+
+
+                         D
+
+                                b2
+                                                        C
+
+
+
+                                                                                SOT223 (Type DN)
+                                                                            Dim   Min  Max  Typ
+                                                                   A        --    1.70      --
+                                                                   E1  E                  A1    0.01   0.15      --
+                                                                              A2    1.50   1.68   1.60
+                                                                                b    0.60   0.80   0.70                                                           Gauge
+                                                                      Plane                                    b2    2.90   3.10      --
+                                                                    0.25                                  c    0.20   0.32      --
+                                                                         Seating               L                  D    6.30   6.70      --
+                                                                       Plane                               E    6.70   7.30      --
+                           e                     b                                        E1   3.30   3.70      --
+                                                                                        e        --        --    2.30
+                                e1                                                          e1       --        --    4.60
+                                                                                L    0.85      --        --
+                                                                                                                     All Dimensions in mm
+            A     A1
+
+                                             A2
+
+
+
+Suggested Pad Layout
+
+                                               SOT223 (Type DN)
+
+
+                                                X1
+
+
+                                     Y1
+
+
+                                                                                  Dimensions Value (in mm)
+                                                                    C           2.30
+                                                                            C1           6.40
+                                                              C1  Y2                      X            1.20
+                                                                               X1           3.30
+                                                                         Y            1.60
+                                                                                Y1           1.60
+                                                                                Y2           8.00
+
+
+                             Y
+
+
+                                        X        C
+
+
+
+
+                            ALL DIMENSIONS ARE NOMINAL VALUES SHOWN IN MILLIMETERS
+       Note: The suggested land pattern dimensions have been provided for reference only, as actual pad layouts may vary depending on application. These numbers
+     may be modified based on user equipment capability or fabrication criteria. A more robust pattern may be desired for wave soldering and is calculated by adding
+       0.2 mm to the ‘Z’ dimension. For further information, please reference document IPC-7351A, Naming Convention for Standard SMT Land Patterns, and for
+        International grid details, please see document IEC, Publication 97.
+
+      2018-05-16                                               1 of 1                             Package Outline Dimensions
+                                                      www.diodes.com                              Suggested Pad Layout
+                                                                                                         © Diodes Incorporated

@@ -1,0 +1,8430 @@
+[
+  {
+    "name": "XAL4030-682MEC",
+    "description": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "XAL4030-682MEC"
+      ],
+      [
+        "ComponentDescription",
+        "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending."
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 10,
+        "x": -20,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 10,
+        "x": 20,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Coilcraft",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "XYIROXQD",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Coilcraft"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "XYIROXQD"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "XAL4030-682MEC",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "CWEDDZPX",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "XAL4030-682MEC"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "CWEDDZPX"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "PHJBJWDQ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "PHJBJWDQ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_CANDIDATE",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "MAGCDPXQ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_CANDIDATE"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "MAGCDPXQ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "RHDCTASI",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending."
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "RHDCTASI"
+          ]
+        ]
+      }
+    ],
+    "designator": "L?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "FGEJMSOM",
+    "footprints": [
+      {
+        "name": "GW_XAL4030_COILCRAFT",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "10"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_XAL4030_COILCRAFT"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "YMMBTIFV"
+          ]
+        ],
+        "unique_id": "YMMBTIFV"
+      }
+    ],
+    "arcs": [
+      {
+        "x": -15,
+        "y": 0,
+        "radius": 5,
+        "start_angle": 0,
+        "end_angle": 180,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x": -5,
+        "y": 0,
+        "radius": 5,
+        "start_angle": 0,
+        "end_angle": 180,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "radius": 5,
+        "start_angle": 0,
+        "end_angle": 180,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x": 15,
+        "y": 0,
+        "radius": 5,
+        "start_angle": 0,
+        "end_angle": 180,
+        "line_width": 1,
+        "color": 128
+      }
+    ]
+  },
+  {
+    "name": "XAL4040-103MEC",
+    "description": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "XAL4040-103MEC"
+      ],
+      [
+        "ComponentDescription",
+        "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending."
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 10,
+        "x": -20,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 10,
+        "x": 20,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Coilcraft",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "CWHCKFFI",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Coilcraft"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "CWHCKFFI"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "XAL4040-103MEC",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "AMYWPSTS",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "XAL4040-103MEC"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "AMYWPSTS"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "FUBEHSUV",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "FUBEHSUV"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_CANDIDATE",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "GJYRHQEJ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_CANDIDATE"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "GJYRHQEJ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "KGCPFUKN",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending."
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "KGCPFUKN"
+          ]
+        ]
+      }
+    ],
+    "designator": "L?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "RGGWLAGB",
+    "footprints": [
+      {
+        "name": "GW_XAL4040_COILCRAFT",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "10"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_XAL4040_COILCRAFT"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "NEKGBEXL"
+          ]
+        ],
+        "unique_id": "NEKGBEXL"
+      }
+    ],
+    "arcs": [
+      {
+        "x": -15,
+        "y": 0,
+        "radius": 5,
+        "start_angle": 0,
+        "end_angle": 180,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x": -5,
+        "y": 0,
+        "radius": 5,
+        "start_angle": 0,
+        "end_angle": 180,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "radius": 5,
+        "start_angle": 0,
+        "end_angle": 180,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x": 15,
+        "y": 0,
+        "radius": 5,
+        "start_angle": 0,
+        "end_angle": 180,
+        "line_width": 1,
+        "color": 128
+      }
+    ]
+  },
+  {
+    "name": "MM204F1K00TKRTR3K0",
+    "description": "Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204; 1kOhm1%,0.25W@70C; normal Type3 operation supported. 500V/1kV system surge withstand NOT established.",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "MM204F1K00TKRTR3K0"
+      ],
+      [
+        "ComponentDescription",
+        "Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204; 1kOhm1%,0.25W@70C; normal Type3 operation supported. 500V/1kV system surge withstand NOT established."
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 15,
+        "x": -15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 15,
+        "x": 15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Firstohm",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "YQKXVABT",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Firstohm"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "YQKXVABT"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "MM204F1K00TKRTR3K0",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "LDVHCRCM",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "MM204F1K00TKRTR3K0"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "LDVHCRCM"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "QZZOAWFK",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "QZZOAWFK"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_CANDIDATE",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "POSQVMCY",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_CANDIDATE"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "POSQVMCY"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "1kOhm1%,0.25W@70C; normal Type3 operation supported. 500V/1kV system surge withstand NOT established.",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "DJORAVYU",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "1kOhm1%,0.25W@70C; normal Type3 operation supported. 500V/1kV system surge withstand NOT established."
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "DJORAVYU"
+          ]
+        ]
+      }
+    ],
+    "designator": "R?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "FTYQDIOD",
+    "footprints": [
+      {
+        "name": "GW_MM204_FIRSTOHM",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "10"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_MM204_FIRSTOHM"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "PIQIESPX"
+          ]
+        ],
+        "unique_id": "PIQIESPX"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -15,
+        "y1": -6,
+        "x2": 15,
+        "y2": 6,
+        "filled": false,
+        "line_width": 1,
+        "line_color": 128
+      }
+    ]
+  },
+  {
+    "name": "RC0603FR-0710KL",
+    "description": "Existing exact Yageo RC0603FR-0710KL sheet p1; AN5419 boot example; TI SLLSF78B section10.1; 10kOhm1%0.1W@70C; replaces unqualified FOJAN identity. Shared professor lands remain CAD_CANDIDATE, not qualified manufacturer lands.",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "RC0603FR-0710KL"
+      ],
+      [
+        "ComponentDescription",
+        "Existing exact Yageo RC0603FR-0710KL sheet p1; AN5419 boot example; TI SLLSF78B section10.1; 10kOhm1%0.1W@70C; replaces unqualified FOJAN identity. Shared professor lands remain CAD_CANDIDATE, not qualified manufacturer lands."
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 15,
+        "x": -15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 15,
+        "x": 15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Yageo",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "XZGKHLCM",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Yageo"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "XZGKHLCM"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "RC0603FR-0710KL",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "ZGWNBFPZ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "RC0603FR-0710KL"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "ZGWNBFPZ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Existing exact Yageo RC0603FR-0710KL sheet p1; AN5419 boot example; TI SLLSF78B section10.1",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "RKSUORAV",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Existing exact Yageo RC0603FR-0710KL sheet p1; AN5419 boot example; TI SLLSF78B section10.1"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "RKSUORAV"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_CANDIDATE",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "MQJWGLDL",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_CANDIDATE"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "MQJWGLDL"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "10kOhm1%0.1W@70C; replaces unqualified FOJAN identity. Shared professor lands remain CAD_CANDIDATE, not qualified manufacturer lands.",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "JSXVANIQ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "10kOhm1%0.1W@70C; replaces unqualified FOJAN identity. Shared professor lands remain CAD_CANDIDATE, not qualified manufacturer lands."
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "JSXVANIQ"
+          ]
+        ]
+      }
+    ],
+    "designator": "R?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "CTLZJLGL",
+    "footprints": [
+      {
+        "name": "GW_CAND_0603_res",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "10"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_CAND_0603_res"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "EUSPXYEO"
+          ]
+        ],
+        "unique_id": "EUSPXYEO"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -15,
+        "y1": -6,
+        "x2": 15,
+        "y2": 6,
+        "filled": false,
+        "line_width": 1,
+        "line_color": 128
+      }
+    ]
+  },
+  {
+    "name": "SS3P6L-M3_86A",
+    "description": "User-approved series reverse diode:manufacturer1/2 anodes,K large cathode. Same model also reserved DNP output clamp; do not populateSOUT withoutVF review. No hot reverse while charged.",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 3,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "SS3P6L-M3_86A"
+      ],
+      [
+        "ComponentDescription",
+        "User-approved series reverse diode:manufacturer1/2 anodes,K large cathode. Same model also reserved DNP output clamp; do not populateSOUT withoutVF review. No hot reverse while charged."
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "3"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -70,
+        "y": 20,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "ANODE1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -70,
+        "y": -20,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "ANODE2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 70,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "CATHODE",
+        "designator": "K",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Vishay",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "BHZDZDRF",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Vishay"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "BHZDZDRF"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "SS3P6L-M3/86A",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "HFLQXNLJ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "SS3P6L-M3/86A"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "HFLQXNLJ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "CEYIXAYN",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "CEYIXAYN"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "sources/SS3P6L_88987.pdf",
+        "name": "Datasheet",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "VXCXQUMS",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "sources/SS3P6L_88987.pdf"
+          ],
+          [
+            "Name",
+            "Datasheet"
+          ],
+          [
+            "UniqueID",
+            "VXCXQUMS"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_VERIFIED",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "BWLPWXHE",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "8"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_VERIFIED"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "BWLPWXHE"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROTOTYPE_APPROVED",
+        "name": "Electrical Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "FPVXUTJI",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "9"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROTOTYPE_APPROVED"
+          ],
+          [
+            "Name",
+            "Electrical Approval"
+          ],
+          [
+            "UniqueID",
+            "FPVXUTJI"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "User-approved series reverse diode:manufacturer1/2 anodes,K large cathode. Same model also reserved DNP output clamp; do not populateSOUT withoutVF review. No hot reverse while charged.",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "FNPVIZTW",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "10"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "User-approved series reverse diode:manufacturer1/2 anodes,K large cathode. Same model also reserved DNP output clamp; do not populateSOUT withoutVF review. No hot reverse while charged."
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "FNPVIZTW"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROTOTYPE_APPROVED",
+        "name": "Design Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "UNWDBXTZ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "11"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROTOTYPE_APPROVED"
+          ],
+          [
+            "Name",
+            "Design Approval"
+          ],
+          [
+            "UniqueID",
+            "UNWDBXTZ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "NOT_TESTED",
+        "name": "Electrical Test",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "GDLUILOI",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "12"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "NOT_TESTED"
+          ],
+          [
+            "Name",
+            "Electrical Test"
+          ],
+          [
+            "UniqueID",
+            "GDLUILOI"
+          ]
+        ]
+      }
+    ],
+    "designator": "D?",
+    "designator_x": -15,
+    "designator_y": 35,
+    "designator_unique_id": "AAQCIPHU",
+    "footprints": [
+      {
+        "name": "GW_SS3P6L_VISHAY_88987",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "13"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_SS3P6L_VISHAY_88987"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "QHUOINCB"
+          ]
+        ],
+        "unique_id": "QHUOINCB"
+      }
+    ],
+    "lines": [
+      {
+        "x1": -70,
+        "y1": 20,
+        "x2": -25,
+        "y2": 20,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": -70,
+        "y1": -20,
+        "x2": -25,
+        "y2": -20,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": -25,
+        "y1": 20,
+        "x2": -25,
+        "y2": -20,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": -25,
+        "y1": 0,
+        "x2": -12,
+        "y2": 0,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 10,
+        "y1": -12,
+        "x2": 10,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 10,
+        "y1": 12,
+        "x2": 16,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 16,
+        "y1": 12,
+        "x2": 16,
+        "y2": 7,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 10,
+        "y1": -12,
+        "x2": 4,
+        "y2": -12,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 4,
+        "y1": -12,
+        "x2": 4,
+        "y2": -7,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 10,
+        "y1": 0,
+        "x2": 70,
+        "y2": 0,
+        "line_width": 1,
+        "color": 128
+      }
+    ],
+    "polygons": [
+      {
+        "points": [
+          {
+            "x": -12,
+            "y": -12
+          },
+          {
+            "x": -12,
+            "y": 12
+          },
+          {
+            "x": 10,
+            "y": 0
+          }
+        ],
+        "filled": false,
+        "line_color": 128,
+        "line_width": 1
+      }
+    ]
+  },
+  {
+    "name": "0451002.MRL",
+    "description": "User-approved2A125VDC fuse; manufacturer dimensioned native footprint linked. Nonpolar terminals project1/2; supervised current-limited lab source. Not electrically tested.",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "0451002.MRL"
+      ],
+      [
+        "ComponentDescription",
+        "User-approved2A125VDC fuse; manufacturer dimensioned native footprint linked. Nonpolar terminals project1/2; supervised current-limited lab source. Not electrically tested."
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 15,
+        "x": -15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "END1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 15,
+        "x": 15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "END2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Littelfuse",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "KVLVXPPQ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Littelfuse"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "KVLVXPPQ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "0451002.MRL",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "LFONAXRR",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "0451002.MRL"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "LFONAXRR"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "VTEMXOJB",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "VTEMXOJB"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+        "name": "Datasheet",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "DRKMXIBX",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Name",
+            "Datasheet"
+          ],
+          [
+            "UniqueID",
+            "DRKMXIBX"
+          ],
+          [
+            "Text",
+            "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_VERIFIED",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "UMUNLNIY",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_VERIFIED"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "UMUNLNIY"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROTOTYPE_APPROVED",
+        "name": "Electrical Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "LAKHOQZY",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "8"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROTOTYPE_APPROVED"
+          ],
+          [
+            "Name",
+            "Electrical Approval"
+          ],
+          [
+            "UniqueID",
+            "LAKHOQZY"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "User-approved2A125VDC fuse; manufacturer dimensioned native footprint linked. Nonpolar terminals project1/2; supervised current-limited lab source. Not electrically tested.",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "PBPDYJIT",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "9"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "User-approved2A125VDC fuse; manufacturer dimensioned native footprint linked. Nonpolar terminals project1/2; supervised current-limited lab source. Not electrically tested."
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "PBPDYJIT"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROTOTYPE_APPROVED",
+        "name": "Design Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "CIJCSYGL",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "10"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROTOTYPE_APPROVED"
+          ],
+          [
+            "Name",
+            "Design Approval"
+          ],
+          [
+            "UniqueID",
+            "CIJCSYGL"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "NOT_TESTED",
+        "name": "Electrical Test",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "IHOKNOGJ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "11"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "NOT_TESTED"
+          ],
+          [
+            "Name",
+            "Electrical Test"
+          ],
+          [
+            "UniqueID",
+            "IHOKNOGJ"
+          ]
+        ]
+      }
+    ],
+    "designator": "F?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "JXDLVKVG",
+    "footprints": [
+      {
+        "name": "GW_0451_LITTELFUSE",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "14"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_0451_LITTELFUSE"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "EABNHPTN"
+          ]
+        ],
+        "unique_id": "EABNHPTN"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -15,
+        "y1": -6,
+        "x2": 15,
+        "y2": 6,
+        "filled": false,
+        "line_width": 1,
+        "line_color": 128
+      }
+    ],
+    "lines": [
+      {
+        "x1": -15,
+        "y1": 0,
+        "x2": 15,
+        "y2": 0,
+        "line_width": 1,
+        "color": 128
+      }
+    ]
+  },
+  {
+    "name": "RC0603FR-0762KL",
+    "description": "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets; 62.0kOhm1%0.1W75V; ",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "RC0603FR-0762KL"
+      ],
+      [
+        "ComponentDescription",
+        "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets; 62.0kOhm1%0.1W75V; "
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 15,
+        "x": -15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 15,
+        "x": 15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Yageo",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "ARUAMNVL",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Yageo"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "ARUAMNVL"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "RC0603FR-0762KL",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "NLEEEIHP",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "RC0603FR-0762KL"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "NLEEEIHP"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "62.0kOhm1%0.1W75V",
+        "name": "Value",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "TJHURXSA",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "62.0kOhm1%0.1W75V"
+          ],
+          [
+            "Name",
+            "Value"
+          ],
+          [
+            "UniqueID",
+            "TJHURXSA"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "WTTNXDZW",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "WTTNXDZW"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROTOTYPE_APPROVED",
+        "name": "Design Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "SGZBKSED",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROTOTYPE_APPROVED"
+          ],
+          [
+            "Name",
+            "Design Approval"
+          ],
+          [
+            "UniqueID",
+            "SGZBKSED"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "NOT_TESTED",
+        "name": "Electrical Test",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "UOJKZNJJ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "8"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "NOT_TESTED"
+          ],
+          [
+            "Name",
+            "Electrical Test"
+          ],
+          [
+            "UniqueID",
+            "UOJKZNJJ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_VERIFIED",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "ZFAXAEIU",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "9"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_VERIFIED"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "ZFAXAEIU"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "None",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "TZLHCBFP",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "10"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "None"
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "TZLHCBFP"
+          ]
+        ]
+      }
+    ],
+    "designator": "R?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "FVOOJHSV",
+    "footprints": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "13"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_RC0603_YAGEO_REFLOW"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "CNUXWTYL"
+          ]
+        ],
+        "unique_id": "CNUXWTYL"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -15,
+        "y1": -6,
+        "x2": 15,
+        "y2": 6,
+        "filled": false,
+        "line_width": 1,
+        "line_color": 128
+      }
+    ]
+  },
+  {
+    "name": "RC0603FR-0715KL",
+    "description": "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets; 15.0kOhm1%0.1W75V; ",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "RC0603FR-0715KL"
+      ],
+      [
+        "ComponentDescription",
+        "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets; 15.0kOhm1%0.1W75V; "
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 15,
+        "x": -15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 15,
+        "x": 15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Yageo",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "KTFTSUVS",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Yageo"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "KTFTSUVS"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "RC0603FR-0715KL",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "OTKIUJLF",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "RC0603FR-0715KL"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "OTKIUJLF"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "15.0kOhm1%0.1W75V",
+        "name": "Value",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "KUSFMDSY",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "15.0kOhm1%0.1W75V"
+          ],
+          [
+            "Name",
+            "Value"
+          ],
+          [
+            "UniqueID",
+            "KUSFMDSY"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "DFYOQREV",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "DFYOQREV"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROTOTYPE_APPROVED",
+        "name": "Design Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "RYGIBSVM",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROTOTYPE_APPROVED"
+          ],
+          [
+            "Name",
+            "Design Approval"
+          ],
+          [
+            "UniqueID",
+            "RYGIBSVM"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "NOT_TESTED",
+        "name": "Electrical Test",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "QUINLJPB",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "8"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "NOT_TESTED"
+          ],
+          [
+            "Name",
+            "Electrical Test"
+          ],
+          [
+            "UniqueID",
+            "QUINLJPB"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_VERIFIED",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "FLUMIGEC",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "9"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_VERIFIED"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "FLUMIGEC"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "None",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "CSXZLNQN",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "10"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "None"
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "CSXZLNQN"
+          ]
+        ]
+      }
+    ],
+    "designator": "R?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "ZFYWODHK",
+    "footprints": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "13"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_RC0603_YAGEO_REFLOW"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "FJYBFWXW"
+          ]
+        ],
+        "unique_id": "FJYBFWXW"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -15,
+        "y1": -6,
+        "x2": 15,
+        "y2": 6,
+        "filled": false,
+        "line_width": 1,
+        "line_color": 128
+      }
+    ]
+  },
+  {
+    "name": "C5750X7R2A475K230KA",
+    "description": "TDK C5750X7R2A475K230KA exact2014web-derived PDF p1 lands,p2 DCbias; current official product page same PA/PB/PC; 4.7uF10%100VX7R; ",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "C5750X7R2A475K230KA"
+      ],
+      [
+        "ComponentDescription",
+        "TDK C5750X7R2A475K230KA exact2014web-derived PDF p1 lands,p2 DCbias; current official product page same PA/PB/PC; 4.7uF10%100VX7R; "
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 25,
+        "x": -5,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 25,
+        "x": 5,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "TDK",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "WTIRIBIT",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "TDK"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "WTIRIBIT"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "C5750X7R2A475K230KA",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "HPSVTHFG",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "C5750X7R2A475K230KA"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "HPSVTHFG"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "4.7uF10%100VX7R",
+        "name": "Value",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "CCAVAROI",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "4.7uF10%100VX7R"
+          ],
+          [
+            "Name",
+            "Value"
+          ],
+          [
+            "UniqueID",
+            "CCAVAROI"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "TDK C5750X7R2A475K230KA exact2014web-derived PDF p1 lands,p2 DCbias; current official product page same PA/PB/PC",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "VENZBUGL",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "TDK C5750X7R2A475K230KA exact2014web-derived PDF p1 lands,p2 DCbias; current official product page same PA/PB/PC"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "VENZBUGL"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROTOTYPE_APPROVED",
+        "name": "Design Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "DCGUKLEM",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROTOTYPE_APPROVED"
+          ],
+          [
+            "Name",
+            "Design Approval"
+          ],
+          [
+            "UniqueID",
+            "DCGUKLEM"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "NOT_TESTED",
+        "name": "Electrical Test",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "HXJDNUNP",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "8"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "NOT_TESTED"
+          ],
+          [
+            "Name",
+            "Electrical Test"
+          ],
+          [
+            "UniqueID",
+            "HXJDNUNP"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_VERIFIED",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "QWPZQTNG",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "9"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_VERIFIED"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "QWPZQTNG"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "None",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "FPSPQYCF",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "10"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "None"
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "FPSPQYCF"
+          ]
+        ]
+      }
+    ],
+    "designator": "C?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "CBCQBTJV",
+    "footprints": [
+      {
+        "name": "GW_C5750_TDK_REFLOW",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "13"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_C5750_TDK_REFLOW"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "UXXOZZUA"
+          ]
+        ],
+        "unique_id": "UXXOZZUA"
+      }
+    ],
+    "lines": [
+      {
+        "x1": -5,
+        "y1": -12,
+        "x2": -5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 5,
+        "y1": -12,
+        "x2": 5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      }
+    ]
+  },
+  {
+    "name": "C0805C224K1RACTU",
+    "description": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805; 220nF10%100VX7R; ",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "C0805C224K1RACTU"
+      ],
+      [
+        "ComponentDescription",
+        "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805; 220nF10%100VX7R; "
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 25,
+        "x": -5,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 25,
+        "x": 5,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "KEMET",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "RMZWEQBH",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "KEMET"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "RMZWEQBH"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "C0805C224K1RACTU",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "ERHPBMQG",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "C0805C224K1RACTU"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "ERHPBMQG"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "220nF10%100VX7R",
+        "name": "Value",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "GEMTPKNG",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "220nF10%100VX7R"
+          ],
+          [
+            "Name",
+            "Value"
+          ],
+          [
+            "UniqueID",
+            "GEMTPKNG"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "QGYCXUHC",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "QGYCXUHC"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROTOTYPE_APPROVED",
+        "name": "Design Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "VDUOYPHE",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROTOTYPE_APPROVED"
+          ],
+          [
+            "Name",
+            "Design Approval"
+          ],
+          [
+            "UniqueID",
+            "VDUOYPHE"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "NOT_TESTED",
+        "name": "Electrical Test",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "RGJUXTPF",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "8"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "NOT_TESTED"
+          ],
+          [
+            "Name",
+            "Electrical Test"
+          ],
+          [
+            "UniqueID",
+            "RGJUXTPF"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_VERIFIED",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "JRWJIGHB",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "9"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_VERIFIED"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "JRWJIGHB"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "None",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "SANIBAUV",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "10"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "None"
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "SANIBAUV"
+          ]
+        ]
+      }
+    ],
+    "designator": "C?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "SDPCLHGJ",
+    "footprints": [
+      {
+        "name": "GW_0805_KEMET_NOMINAL",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "13"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_0805_KEMET_NOMINAL"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "WXWQCTSZ"
+          ]
+        ],
+        "unique_id": "WXWQCTSZ"
+      }
+    ],
+    "lines": [
+      {
+        "x1": -5,
+        "y1": -12,
+        "x2": -5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 5,
+        "y1": -12,
+        "x2": 5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      }
+    ]
+  },
+  {
+    "name": "C0805C225K5RACTU",
+    "description": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805; 2.2uF10%50VX7R; VCC5V local bypass;2.2uF prototype selection replaces known insufficient1uF part. Assumed>=60% bias retention; verify stableVCC at bring-up.",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "C0805C225K5RACTU"
+      ],
+      [
+        "ComponentDescription",
+        "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805; 2.2uF10%50VX7R; VCC5V local bypass;2.2uF prototype selection replaces known insufficient1uF part. Assumed>=60% bias retention; verify stableVCC at bring-up."
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 25,
+        "x": -5,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 25,
+        "x": 5,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "KEMET",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "VHJVWSEI",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "KEMET"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "VHJVWSEI"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "C0805C225K5RACTU",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "TNMKTFJH",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "C0805C225K5RACTU"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "TNMKTFJH"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "2.2uF10%50VX7R",
+        "name": "Value",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "YOOAWHJZ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "2.2uF10%50VX7R"
+          ],
+          [
+            "Name",
+            "Value"
+          ],
+          [
+            "UniqueID",
+            "YOOAWHJZ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "ZDGKUMIP",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "ZDGKUMIP"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROTOTYPE_APPROVED",
+        "name": "Design Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "XYARSFZB",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROTOTYPE_APPROVED"
+          ],
+          [
+            "Name",
+            "Design Approval"
+          ],
+          [
+            "UniqueID",
+            "XYARSFZB"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "NOT_TESTED",
+        "name": "Electrical Test",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "NWQYZHXU",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "8"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "NOT_TESTED"
+          ],
+          [
+            "Name",
+            "Electrical Test"
+          ],
+          [
+            "UniqueID",
+            "NWQYZHXU"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_VERIFIED",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "CABUULUB",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "9"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_VERIFIED"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "CABUULUB"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "VCC5V local bypass;2.2uF prototype selection replaces known insufficient1uF part. Assumed>=60% bias retention; verify stableVCC at bring-up.",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "UYEIQRNY",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "10"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "VCC5V local bypass;2.2uF prototype selection replaces known insufficient1uF part. Assumed>=60% bias retention; verify stableVCC at bring-up."
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "UYEIQRNY"
+          ]
+        ]
+      }
+    ],
+    "designator": "C?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "QTOFZYCY",
+    "footprints": [
+      {
+        "name": "GW_0805_KEMET_NOMINAL",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "13"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_0805_KEMET_NOMINAL"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "RMMKVRCY"
+          ]
+        ],
+        "unique_id": "RMMKVRCY"
+      }
+    ],
+    "lines": [
+      {
+        "x1": -5,
+        "y1": -12,
+        "x2": -5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 5,
+        "y1": -12,
+        "x2": 5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      }
+    ]
+  },
+  {
+    "name": "C0603C680J5GACTU",
+    "description": "KEMET C0603C680J5GACTU exact manufacturer spec; shared1608 body; KEMET C1027Table3p12 nominal1608 lands; 68pF5%50VC0G; DNP in frozen BOM; dvdt open. Fit only if startup review/measurement requires slower ramp.",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "C0603C680J5GACTU"
+      ],
+      [
+        "ComponentDescription",
+        "KEMET C0603C680J5GACTU exact manufacturer spec; shared1608 body; KEMET C1027Table3p12 nominal1608 lands; 68pF5%50VC0G; DNP in frozen BOM; dvdt open. Fit only if startup review/measurement requires slower ramp."
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 25,
+        "x": -5,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 25,
+        "x": 5,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "KEMET",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "AFIZDOOI",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "KEMET"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "AFIZDOOI"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "C0603C680J5GACTU",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "ELTBFJUF",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "C0603C680J5GACTU"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "ELTBFJUF"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "68pF5%50VC0G",
+        "name": "Value",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "NFXQDMFC",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "68pF5%50VC0G"
+          ],
+          [
+            "Name",
+            "Value"
+          ],
+          [
+            "UniqueID",
+            "NFXQDMFC"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "KEMET C0603C680J5GACTU exact manufacturer spec; shared1608 body; KEMET C1027Table3p12 nominal1608 lands",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "TUNGIUZU",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "KEMET C0603C680J5GACTU exact manufacturer spec; shared1608 body; KEMET C1027Table3p12 nominal1608 lands"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "TUNGIUZU"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROTOTYPE_APPROVED",
+        "name": "Design Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "XXWAFSAY",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROTOTYPE_APPROVED"
+          ],
+          [
+            "Name",
+            "Design Approval"
+          ],
+          [
+            "UniqueID",
+            "XXWAFSAY"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "NOT_TESTED",
+        "name": "Electrical Test",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "RYHEDVUZ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "8"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "NOT_TESTED"
+          ],
+          [
+            "Name",
+            "Electrical Test"
+          ],
+          [
+            "UniqueID",
+            "RYHEDVUZ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_VERIFIED",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "CIXJICXR",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "9"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_VERIFIED"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "CIXJICXR"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "DNP in frozen BOM; dvdt open. Fit only if startup review/measurement requires slower ramp.",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "RMZTLQEO",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "10"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "DNP in frozen BOM; dvdt open. Fit only if startup review/measurement requires slower ramp."
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "RMZTLQEO"
+          ]
+        ]
+      }
+    ],
+    "designator": "C?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "QMZPTXWS",
+    "footprints": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "13"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_0603_KEMET_NOMINAL"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "JQDKNHVJ"
+          ]
+        ],
+        "unique_id": "JQDKNHVJ"
+      }
+    ],
+    "lines": [
+      {
+        "x1": -5,
+        "y1": -12,
+        "x2": -5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 5,
+        "y1": -12,
+        "x2": 5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      }
+    ]
+  },
+  {
+    "name": "C3225X7R1C156M250AB",
+    "description": "TDK official C3225X7R1C156M250AB product page lands PA2.0-2.4 PB1.0-1.2 PC1.9-2.5; TI table10-1 rated45uF example; 15uF20%16VX7R; 3 per buck:45uF rated per TI1MHz example. Prototype load-step/ripple confirmation pending; do not connect to24V input.",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "C3225X7R1C156M250AB"
+      ],
+      [
+        "ComponentDescription",
+        "TDK official C3225X7R1C156M250AB product page lands PA2.0-2.4 PB1.0-1.2 PC1.9-2.5; TI table10-1 rated45uF example; 15uF20%16VX7R; 3 per buck:45uF rated per TI1MHz example. Prototype load-step/ripple confirmation pending; do not connect to24V input."
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 25,
+        "x": -5,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 25,
+        "x": 5,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "TDK",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "TDKVRQFY",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "TDK"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "TDKVRQFY"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "C3225X7R1C156M250AB",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "MRLAQRBF",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "C3225X7R1C156M250AB"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "MRLAQRBF"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "15uF20%16VX7R",
+        "name": "Value",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "YWIDHORZ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "15uF20%16VX7R"
+          ],
+          [
+            "Name",
+            "Value"
+          ],
+          [
+            "UniqueID",
+            "YWIDHORZ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "TDK official C3225X7R1C156M250AB product page lands PA2.0-2.4 PB1.0-1.2 PC1.9-2.5; TI table10-1 rated45uF example",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "QKYISUOL",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "TDK official C3225X7R1C156M250AB product page lands PA2.0-2.4 PB1.0-1.2 PC1.9-2.5; TI table10-1 rated45uF example"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "QKYISUOL"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROTOTYPE_APPROVED",
+        "name": "Design Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "WOBKLDVL",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROTOTYPE_APPROVED"
+          ],
+          [
+            "Name",
+            "Design Approval"
+          ],
+          [
+            "UniqueID",
+            "WOBKLDVL"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "NOT_TESTED",
+        "name": "Electrical Test",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "PFONDOWT",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "8"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "NOT_TESTED"
+          ],
+          [
+            "Name",
+            "Electrical Test"
+          ],
+          [
+            "UniqueID",
+            "PFONDOWT"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_VERIFIED",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "ETXNHLDS",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "9"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_VERIFIED"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "ETXNHLDS"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "3 per buck:45uF rated per TI1MHz example. Prototype load-step/ripple confirmation pending; do not connect to24V input.",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "DSNWCDUS",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "10"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "3 per buck:45uF rated per TI1MHz example. Prototype load-step/ripple confirmation pending; do not connect to24V input."
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "DSNWCDUS"
+          ]
+        ]
+      }
+    ],
+    "designator": "C?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "MELUDQKN",
+    "footprints": [
+      {
+        "name": "GW_C3225_TDK_REFLOW",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "13"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_C3225_TDK_REFLOW"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "SPFTODIU"
+          ]
+        ],
+        "unique_id": "SPFTODIU"
+      }
+    ],
+    "lines": [
+      {
+        "x1": -5,
+        "y1": -12,
+        "x2": -5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 5,
+        "y1": -12,
+        "x2": 5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      }
+    ]
+  },
+  {
+    "name": "NIS3071MT4TWG",
+    "description": "Approved prototype,62k current setting,oneCH1,defaultON/auto-retry. EP identity unchanged; explicitDFM groundland2.85x4.58,windowedpaste; original manufacturer pattern retained alternate.",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 17,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "NIS3071MT4TWG"
+      ],
+      [
+        "ComponentDescription",
+        "Approved prototype,62k current setting,oneCH1,defaultON/auto-retry. EP identity unchanged; explicitDFM groundland2.85x4.58,windowedpaste; original manufacturer pattern retained alternate."
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "17"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "rectangles": [
+      {
+        "owner_part_id": 1,
+        "x1": -80,
+        "y1": -10,
+        "x2": 80,
+        "y2": 180,
+        "line_width": 1,
+        "line_color": 128,
+        "fill_color": 11599871,
+        "filled": true,
+        "transparent": false,
+        "line_style": 0,
+        "unique_id": "WVNAIEGI",
+        "raw_params": [
+          [
+            "RECORD",
+            "14"
+          ],
+          [
+            "IsNotAccesible",
+            "T"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Location.X",
+            "-80"
+          ],
+          [
+            "Location.Y",
+            "-10"
+          ],
+          [
+            "Corner.X",
+            "80"
+          ],
+          [
+            "Corner.Y",
+            "180"
+          ],
+          [
+            "LineWidth",
+            "1"
+          ],
+          [
+            "Color",
+            "128"
+          ],
+          [
+            "AreaColor",
+            "11599871"
+          ],
+          [
+            "IsSolid",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "WVNAIEGI"
+          ]
+        ]
+      }
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 160,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "OUT1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 140,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "IN1",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 120,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "IN2",
+        "designator": "3",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 100,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "OUT2",
+        "designator": "4",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "open_collector",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 80,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "FAULT_N",
+        "designator": "5",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 60,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "dvdt",
+        "designator": "6",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 40,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "ILIM",
+        "designator": "7",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 20,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "GND",
+        "designator": "8",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "OUT4",
+        "designator": "9",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 160,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "IN4",
+        "designator": "10",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 140,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "IN3",
+        "designator": "11",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 120,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "OUT3",
+        "designator": "12",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "input",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 100,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "EN4",
+        "designator": "13",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "input",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 80,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "EN3",
+        "designator": "14",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "input",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 60,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "EN2",
+        "designator": "15",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "input",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 40,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "EN1",
+        "designator": "16",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 20,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "GND_PAD",
+        "designator": "EP",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "onsemi",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "MDRHQFNS",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "18"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "onsemi"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "MDRHQFNS"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "NIS3071MT4TWG",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "HBNGDWGX",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "19"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "NIS3071MT4TWG"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "HBNGDWGX"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "IQGQYNNG",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "20"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "IQGQYNNG"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "sources/input_protection/NIS3071-D.PDF",
+        "name": "Datasheet",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "UZSFQLEL",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "21"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "sources/input_protection/NIS3071-D.PDF"
+          ],
+          [
+            "Name",
+            "Datasheet"
+          ],
+          [
+            "UniqueID",
+            "UZSFQLEL"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_VERIFIED",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "JJRDHKST",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "22"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_VERIFIED"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "JJRDHKST"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "SUPERSEDED_BY_TPS26620DRCR",
+        "name": "Electrical Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "AKRQQVVP"
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Approved prototype,62k current setting,oneCH1,defaultON/auto-retry. EP identity unchanged; explicitDFM groundland2.85x4.58,windowedpaste; original manufacturer pattern retained alternate.",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "QIHRSEOX",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "24"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Approved prototype,62k current setting,oneCH1,defaultON/auto-retry. EP identity unchanged; explicitDFM groundland2.85x4.58,windowedpaste; original manufacturer pattern retained alternate."
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "QIHRSEOX"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "SUPERSEDED_BY_TPS26620DRCR",
+        "name": "Design Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "VZQJUXBU"
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "NOT_TESTED",
+        "name": "Electrical Test",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "VETQQNDN",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "26"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "NOT_TESTED"
+          ],
+          [
+            "Name",
+            "Electrical Test"
+          ],
+          [
+            "UniqueID",
+            "VETQQNDN"
+          ]
+        ]
+      },
+      {
+        "name": "Revision Use",
+        "value": "HISTORICAL_RESOURCE_ONLY; no Academic Rev1 placement",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "designator": "U?",
+    "designator_x": -5,
+    "designator_y": 5,
+    "designator_unique_id": "FSTNHSPH",
+    "footprints": [
+      {
+        "name": "GW_NIS3071_510CM_ONSEMI",
+        "is_current": false,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "27"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_NIS3071_510CM_ONSEMI"
+          ],
+          [
+            "IsCurrent",
+            "F"
+          ],
+          [
+            "UniqueID",
+            "BIPTTKND"
+          ]
+        ],
+        "unique_id": "BIPTTKND"
+      },
+      {
+        "name": "GW_NIS3071_510CM_PROTO",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "29"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_NIS3071_510CM_PROTO"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "MJBDDSMF"
+          ]
+        ],
+        "unique_id": "MJBDDSMF"
+      }
+    ],
+    "primitive_order": [
+      "rectangle",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter"
+    ]
+  }
+]

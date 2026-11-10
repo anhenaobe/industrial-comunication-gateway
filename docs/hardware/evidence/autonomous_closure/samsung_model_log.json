@@ -1,0 +1,46 @@
+[
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_CL10A105KB8NNNC_c3932faa",
+    "new_name": "GW_CL10A105KB8NNNC_c3932faa",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0603_cap' -> 'GW_SAMSUNG_CL10_1608_REFLOW'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_CL10A105KB8NNNC_c3932faa'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_162337_672973.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_CL21A106KAYNNNE_c6e24382",
+    "new_name": "GW_CL21A106KAYNNNE_c6e24382",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0805_cap' -> 'GW_SAMSUNG_CL21_2012_REFLOW'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_CL21A106KAYNNNE_c6e24382'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_162358_116988.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  }
+]

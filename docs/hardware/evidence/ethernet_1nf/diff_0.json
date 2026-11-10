@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "filepath_a": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\backups\\ethernet1nf_20261107T211524Z\\Gateway_Academic.SchLib",
+  "filepath_b": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+  "file_type": "SchLib",
+  "added": [
+    "C1206C102KGRACAUTO"
+  ],
+  "removed": [],
+  "modified": [],
+  "summary": {
+    "added_count": 1,
+    "removed_count": 0,
+    "modified_count": 0,
+    "unchanged_count": 65,
+    "components_in_a": 65,
+    "components_in_b": 66
+  }
+}

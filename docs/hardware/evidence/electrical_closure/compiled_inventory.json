@@ -1,0 +1,711 @@
+{
+  "SchLib": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\": \"success\", \"filepath\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\validation\\\\closure_20261107\\\\decoded_final\\\\Gateway_Academic.SchLib\", \"offset\": 0, \"returned_count\": 46, \"total_count\": 46, \"has_more\": false, \"file_type\": \"SchLib\", \"include_metadata\": true, \"components\": [{\"name\": \"STM32H723VET6\", \"description\": \"STM32H723VET6; CAD_CANDIDATE; GPIOs use bidirectional ERC type; oscillator pins have dedicated types. VCAP power pins are LDO outputs, never connect to VDD.\", \"designator\": \"U?\", \"part_count\": 1, \"pin_count\": 100, \"footprint_count\": 1}, {\"name\": \"DP83826IRHBR\", \"description\": \"DP83826IRHBR; CAD_CANDIDATE; Multi-function strap pins conservatively bidirectional. Mode not frozen. EP33 must be soldered to ground; thermal vias are board-level optional, filled/plugged/tented if under paste.\", \"designator\": \"U?\", \"part_count\": 1, \"pin_count\": 33, \"footprint_count\": 1}, {\"name\": \"LMR36015FBRNXR\", \"description\": \"LMR36015FBRNXR; CAD_CANDIDATE; CAD_CANDIDATE: confirm delivered RNX revision A/B. NC3 is externally connected to SW per TI. RNX12 is SW, not a ground exposed pad. Two footprint variants retained.\", \"designator\": \"U?\", \"part_count\": 1, \"pin_count\": 12, \"footprint_count\": 2}, {\"name\": \"THVD1420DR\", \"description\": \"THVD1420DR; CAD_CANDIDATE; \", \"designator\": \"U?\", \"part_count\": 1, \"pin_count\": 8, \"footprint_count\": 1}, {\"name\": \"ATA6561-GAQW\", \"description\": \"ATA6561-GAQW; CAD_CANDIDATE; \", \"designator\": \"U?\", \"part_count\": 1, \"pin_count\": 8, \"footprint_count\": 1}, {\"name\": \"ISO1212DBQR\", \"description\": \"ISO1212DBQR; CAD_CANDIDATE; SUB12 and SUB13 must remain separate floating nets. TI recommends an individual 2x2mm floating copper island for each; these board-level islands are NOT encoded in this package footprint. Never join to either FGND, GND1 or each \", \"designator\": \"U?\", \"part_count\": 1, \"pin_count\": 16, \"footprint_count\": 1}, {\"name\": \"SN74LVC2T45DCTR\", \"description\": \"SN74LVC2T45DCTR; CAD_CANDIDATE; Electrical candidate only; no OE pin. VOH at BSP75N input load remains open.\", \"designator\": \"U?\", \"part_count\": 1, \"pin_count\": 8, \"footprint_count\": 1}, {\"name\": \"BSP75NTA\", \"description\": \"BSP75NTA; CAD_BLOCKED; CAD_BLOCKED: terminal identifiers are role names, not manufacturer numbers. Tab=Source, isolated from Drain. Need exact numbered Type DN drawing/model before any placement or footprint binding.\", \"designator\": \"U?\", \"part_count\": 1, \"pin_count\": 4, \"footprint_count\": 0}, {\"name\": \"GW_C0603C104K5RACTU_dc5e12a5\", \"description\": \"C0603C104K5RACTU; 100 nF; 50 V; X7R; -55..125 C; CAD_CANDIDATE\", \"designator\": \"C?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_C0805C475K4RACTU_82374e08\", \"description\": \"C0805C475K4RACTU; 4.7 uF; 16 V; X7R; CAD_CANDIDATE\", \"designator\": \"C?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_CL10A105KB8NNNC_c3932faa\", \"description\": \"CL10A105KB8NNNC; 1 uF; 50 V; X5R; -55..85 C; CAD_CANDIDATE\", \"designator\": \"C?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_C0603C225K8RACTU_46503424\", \"description\": \"C0603C225K8RACTU; 2.2 uF; 10 V; X7R; ESR <100 mOhm; CAD_CANDIDATE\", \"designator\": \"C?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_FRC0603J103TS_7289f91d\", \"description\": \"FRC0603J103TS; 10 kOhm; >= 3.3 V; tension de trabajo por verificar; CAD_CANDIDATE\", \"designator\": \"R?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_H_Male_6x1_TH_100mil_c0450d1e\", \"description\": \"TBD; 6 posiciones; TBD; CAD_CANDIDATE\", \"designator\": \"J?\", \"part_count\": 1, \"pin_count\": 6, \"footprint_count\": 1}, {\"name\": \"GW_Sw_PUSH_4.5x4.5x5.0xmm_0f078dd9\", \"description\": \"TBD; SPST-NO; TBD; CAD_CANDIDATE\", \"designator\": \"SW?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 0}, {\"name\": \"GW_H_Male_2x1_TH_100mil_f89d9046\", \"description\": \"TBD; 2 posiciones; TBD; CAD_CANDIDATE\", \"designator\": \"J?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_C0603C103K1RACTU_97f3ee33\", \"description\": \"C0603C103K1RACTU; 10 nF; 100 V; X7R; -55..125 C; CAD_CANDIDATE\", \"designator\": \"C?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_CL21A106KAYNNNE_c6e24382\", \"description\": \"CL21A106KAYNNNE; 10 uF; 25 V; X5R; -55..85 C; CAD_CANDIDATE\", \"designator\": \"C?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_C0603C202J5GACTU_fa733a70\", \"description\": \"C0603C202J5GACTU; 2 nF; 50 V; C0G; CAD_CANDIDATE\", \"designator\": \"C?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_RC0603FR-076K49L_f42a9329\", \"description\": \"RC0603FR-076K49L; 6.49 kOhm; 75 V max; limite sqrt(P*R); CAD_CANDIDATE\", \"designator\": \"R?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_RC0603FR-072K49L_b905c5f0\", \"description\": \"RC0603FR-072K49L; 2.49 kOhm; 75 V max; limite sqrt(P*R); CAD_CANDIDATE\", \"designator\": \"R?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_HCB1608KF-600T20_c68e3ad6\", \"description\": \"HCB1608KF-600T20; 60 Ohm @100 MHz candidato; 2 A; DCR 100 mOhm segun CAD; CAD_CANDIDATE\", \"designator\": \"FB?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_XAL4030-682MEC_71dfd711\", \"description\": \"XAL4030-682MEC; 6.8 uH; Isat25C 3.6 A; Irms20C 3.0 A; CAD_CANDIDATE\", \"designator\": \"L?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 0}, {\"name\": \"GW_C5750X7R2A475K230KA_5f18f946\", \"description\": \"C5750X7R2A475K230KA; 4.7 uF por unidad; Ceff total >=4.7 uF objetivo conservador; 100 V; X7R; CAD_CANDIDATE\", \"designator\": \"C?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 0}, {\"name\": \"GW_C0805C224K1RACTU_e16e52b8\", \"description\": \"C0805C224K1RACTU; 220 nF; 100 V; X7R; CAD_CANDIDATE\", \"designator\": \"C?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_C3225X7R1C156M250AB_bb412b42\", \"description\": \"C3225X7R1C156M250AB; 15 uF por unidad; 45 uF nominal banco; 16 V; X7R; CAD_CANDIDATE\", \"designator\": \"C?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 0}, {\"name\": \"GW_RC0603FR-07100KL_ac663db8\", \"description\": \"RC0603FR-07100KL; 100 kOhm; 75 V max; limite sqrt(P*R); CAD_CANDIDATE\", \"designator\": \"R?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_RC0603FR-0743K2L_a8308c0c\", \"description\": \"RC0603FR-0743K2L; 43.2 kOhm; 75 V max; limite sqrt(P*R); CAD_CANDIDATE\", \"designator\": \"R?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_C0603C200J5GACTU_c75b007a\", \"description\": \"C0603C200J5GACTU; 20 pF; 50 V; C0G; CAD_CANDIDATE\", \"designator\": \"C?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_XAL4040-103MEC_b36cb917\", \"description\": \"XAL4040-103MEC; 10 uH; Isat25C 3.0 A; Irms20C 2.2 A; CAD_CANDIDATE\", \"designator\": \"L?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 0}, {\"name\": \"GW_RC0603FR-0724K9L_10698e9e\", \"description\": \"RC0603FR-0724K9L; 24.9 kOhm; 75 V max; limite sqrt(P*R); CAD_CANDIDATE\", \"designator\": \"R?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_JL126-50002G01_16238e52\", \"description\": \"JL126-50002G01; 2 polos + politica PE; >=30 V continuo mas transitorios; corriente TBD; CAD_CANDIDATE\", \"designator\": \"J?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_CRCW0603010RJNEAHP_c8eb51d2\", \"description\": \"CRCW0603010RJNEAHP; 10 Ohm; Pulse-proof segun ficha exacta; CAD_CANDIDATE\", \"designator\": \"R?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_MX126-5.0-03P-GN01-Cu-S-A_d57a488f\", \"description\": \"MX126-5.0-03P-GN01-Cu-S-A; 3 polos; TBD; CAD_CANDIDATE\", \"designator\": \"J?\", \"part_count\": 1, \"pin_count\": 3, \"footprint_count\": 1}, {\"name\": \"GW_JL126-50002G01_ddbad43f\", \"description\": \"JL126-50002G01; 2 polos por canal; >=30 V y0.5 A/canal mas fallas; CAD_CANDIDATE\", \"designator\": \"J?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_RC0603FR-07562RL_a6fad8df\", \"description\": \"RC0603FR-07562RL; 562 Ohm; 75 V max; limite sqrt(P*R); CAD_CANDIDATE\", \"designator\": \"R?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"GW_MX126-5.0-03P-GN01-Cu-S-A_8a7ef64c\", \"description\": \"MX126-5.0-03P-GN01-Cu-S-A; 3 polos si COM comun; TBD; CAD_CANDIDATE\", \"designator\": \"J?\", \"part_count\": 1, \"pin_count\": 3, \"footprint_count\": 1}, {\"name\": \"KC2016Z25.0000C15XXK\", \"description\": \"Kyocera TNY1T-H1-DEX01-11 17-Jul-2026 pp4,6 table2 fig4; Two independent oscillators proposed; 10nF per supply. Tie1 to3V3. Load<=15pF and PHY phase-noise qualification pending.\", \"designator\": \"Y?\", \"part_count\": 1, \"pin_count\": 4, \"footprint_count\": 1}, {\"name\": \"HX1188FNL\", \"description\": \"Pulse HX1188FNL revB 30-May-2014 sheets2-3 PS-2005.002-D; Use exact winding map; NC4,5,12,13 remain unconnected. FNLT is packaging variant; selected MPN FNL.\", \"designator\": \"T?\", \"part_count\": 1, \"pin_count\": 16, \"footprint_count\": 1}, {\"name\": \"XAL4030-682MEC\", \"description\": \"Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.\", \"designator\": \"L?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"XAL4040-103MEC\", \"description\": \"Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.\", \"designator\": \"L?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"CDSOT23-SM712\", \"description\": \"Bourns CDSOT23-SM712 saved2026-11-07 pp1-2 pin diagram and Recommended Footprint; CAD mapping supported; no transferred 1kV surge rating for THVD1420. Populate only after protection qualification.\", \"designator\": \"D?\", \"part_count\": 1, \"pin_count\": 3, \"footprint_count\": 1}, {\"name\": \"TPD4E05U06DQAR\", \"description\": \"TI SLVSBO7O table4-2 p4; DQA0010A 4220328/A board/stencil pp29-30; PHY-side only, per DP83826EVM sheet3. GND3/8 to logic GND. NC6/7/9/10 may be pass-through pads; preserve isolation.\", \"designator\": \"D?\", \"part_count\": 1, \"pin_count\": 10, \"footprint_count\": 1}, {\"name\": \"SS-7188S-A-NF\", \"description\": \"Cinch/Stewart CT710001 revB0 10-Jul-2023 component-side recommended hole layout; Numbered contacts per component-side drawing. S1/S2 are project labels for unnumbered shield tabs; MP1/2 are non-electrical mounting holes. Candidate copper lands; sourcing risk separate.\", \"designator\": \"J?\", \"part_count\": 1, \"pin_count\": 10, \"footprint_count\": 1}, {\"name\": \"MM204F1K00TKRTR3K0\", \"description\": \"Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204; 1kOhm1%,0.25W@70C; normal Type3 operation supported. 500V/1kV system surge withstand NOT established.\", \"designator\": \"R?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}, {\"name\": \"RC0603FR-0710KL\", \"description\": \"Existing exact Yageo RC0603FR-0710KL sheet p1; AN5419 boot example; TI SLLSF78B section10.1; 10kOhm1%0.1W@70C; replaces unqualified FOJAN identity. Shared professor lands remain CAD_CANDIDATE, not qualified manufacturer lands.\", \"designator\": \"R?\", \"part_count\": 1, \"pin_count\": 2, \"footprint_count\": 1}]}"
+      }
+    ],
+    "structuredContent": {
+      "status": "success",
+      "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\validation\\closure_20261107\\decoded_final\\Gateway_Academic.SchLib",
+      "offset": 0,
+      "returned_count": 46,
+      "total_count": 46,
+      "has_more": false,
+      "file_type": "SchLib",
+      "include_metadata": true,
+      "components": [
+        {
+          "name": "STM32H723VET6",
+          "description": "STM32H723VET6; CAD_CANDIDATE; GPIOs use bidirectional ERC type; oscillator pins have dedicated types. VCAP power pins are LDO outputs, never connect to VDD.",
+          "designator": "U?",
+          "part_count": 1,
+          "pin_count": 100,
+          "footprint_count": 1
+        },
+        {
+          "name": "DP83826IRHBR",
+          "description": "DP83826IRHBR; CAD_CANDIDATE; Multi-function strap pins conservatively bidirectional. Mode not frozen. EP33 must be soldered to ground; thermal vias are board-level optional, filled/plugged/tented if under paste.",
+          "designator": "U?",
+          "part_count": 1,
+          "pin_count": 33,
+          "footprint_count": 1
+        },
+        {
+          "name": "LMR36015FBRNXR",
+          "description": "LMR36015FBRNXR; CAD_CANDIDATE; CAD_CANDIDATE: confirm delivered RNX revision A/B. NC3 is externally connected to SW per TI. RNX12 is SW, not a ground exposed pad. Two footprint variants retained.",
+          "designator": "U?",
+          "part_count": 1,
+          "pin_count": 12,
+          "footprint_count": 2
+        },
+        {
+          "name": "THVD1420DR",
+          "description": "THVD1420DR; CAD_CANDIDATE; ",
+          "designator": "U?",
+          "part_count": 1,
+          "pin_count": 8,
+          "footprint_count": 1
+        },
+        {
+          "name": "ATA6561-GAQW",
+          "description": "ATA6561-GAQW; CAD_CANDIDATE; ",
+          "designator": "U?",
+          "part_count": 1,
+          "pin_count": 8,
+          "footprint_count": 1
+        },
+        {
+          "name": "ISO1212DBQR",
+          "description": "ISO1212DBQR; CAD_CANDIDATE; SUB12 and SUB13 must remain separate floating nets. TI recommends an individual 2x2mm floating copper island for each; these board-level islands are NOT encoded in this package footprint. Never join to either FGND, GND1 or each ",
+          "designator": "U?",
+          "part_count": 1,
+          "pin_count": 16,
+          "footprint_count": 1
+        },
+        {
+          "name": "SN74LVC2T45DCTR",
+          "description": "SN74LVC2T45DCTR; CAD_CANDIDATE; Electrical candidate only; no OE pin. VOH at BSP75N input load remains open.",
+          "designator": "U?",
+          "part_count": 1,
+          "pin_count": 8,
+          "footprint_count": 1
+        },
+        {
+          "name": "BSP75NTA",
+          "description": "BSP75NTA; CAD_BLOCKED; CAD_BLOCKED: terminal identifiers are role names, not manufacturer numbers. Tab=Source, isolated from Drain. Need exact numbered Type DN drawing/model before any placement or footprint binding.",
+          "designator": "U?",
+          "part_count": 1,
+          "pin_count": 4,
+          "footprint_count": 0
+        },
+        {
+          "name": "GW_C0603C104K5RACTU_dc5e12a5",
+          "description": "C0603C104K5RACTU; 100 nF; 50 V; X7R; -55..125 C; CAD_CANDIDATE",
+          "designator": "C?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_C0805C475K4RACTU_82374e08",
+          "description": "C0805C475K4RACTU; 4.7 uF; 16 V; X7R; CAD_CANDIDATE",
+          "designator": "C?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_CL10A105KB8NNNC_c3932faa",
+          "description": "CL10A105KB8NNNC; 1 uF; 50 V; X5R; -55..85 C; CAD_CANDIDATE",
+          "designator": "C?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_C0603C225K8RACTU_46503424",
+          "description": "C0603C225K8RACTU; 2.2 uF; 10 V; X7R; ESR <100 mOhm; CAD_CANDIDATE",
+          "designator": "C?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_FRC0603J103TS_7289f91d",
+          "description": "FRC0603J103TS; 10 kOhm; >= 3.3 V; tension de trabajo por verificar; CAD_CANDIDATE",
+          "designator": "R?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_H_Male_6x1_TH_100mil_c0450d1e",
+          "description": "TBD; 6 posiciones; TBD; CAD_CANDIDATE",
+          "designator": "J?",
+          "part_count": 1,
+          "pin_count": 6,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_Sw_PUSH_4.5x4.5x5.0xmm_0f078dd9",
+          "description": "TBD; SPST-NO; TBD; CAD_CANDIDATE",
+          "designator": "SW?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 0
+        },
+        {
+          "name": "GW_H_Male_2x1_TH_100mil_f89d9046",
+          "description": "TBD; 2 posiciones; TBD; CAD_CANDIDATE",
+          "designator": "J?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_C0603C103K1RACTU_97f3ee33",
+          "description": "C0603C103K1RACTU; 10 nF; 100 V; X7R; -55..125 C; CAD_CANDIDATE",
+          "designator": "C?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_CL21A106KAYNNNE_c6e24382",
+          "description": "CL21A106KAYNNNE; 10 uF; 25 V; X5R; -55..85 C; CAD_CANDIDATE",
+          "designator": "C?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_C0603C202J5GACTU_fa733a70",
+          "description": "C0603C202J5GACTU; 2 nF; 50 V; C0G; CAD_CANDIDATE",
+          "designator": "C?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_RC0603FR-076K49L_f42a9329",
+          "description": "RC0603FR-076K49L; 6.49 kOhm; 75 V max; limite sqrt(P*R); CAD_CANDIDATE",
+          "designator": "R?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_RC0603FR-072K49L_b905c5f0",
+          "description": "RC0603FR-072K49L; 2.49 kOhm; 75 V max; limite sqrt(P*R); CAD_CANDIDATE",
+          "designator": "R?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_HCB1608KF-600T20_c68e3ad6",
+          "description": "HCB1608KF-600T20; 60 Ohm @100 MHz candidato; 2 A; DCR 100 mOhm segun CAD; CAD_CANDIDATE",
+          "designator": "FB?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_XAL4030-682MEC_71dfd711",
+          "description": "XAL4030-682MEC; 6.8 uH; Isat25C 3.6 A; Irms20C 3.0 A; CAD_CANDIDATE",
+          "designator": "L?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 0
+        },
+        {
+          "name": "GW_C5750X7R2A475K230KA_5f18f946",
+          "description": "C5750X7R2A475K230KA; 4.7 uF por unidad; Ceff total >=4.7 uF objetivo conservador; 100 V; X7R; CAD_CANDIDATE",
+          "designator": "C?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 0
+        },
+        {
+          "name": "GW_C0805C224K1RACTU_e16e52b8",
+          "description": "C0805C224K1RACTU; 220 nF; 100 V; X7R; CAD_CANDIDATE",
+          "designator": "C?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_C3225X7R1C156M250AB_bb412b42",
+          "description": "C3225X7R1C156M250AB; 15 uF por unidad; 45 uF nominal banco; 16 V; X7R; CAD_CANDIDATE",
+          "designator": "C?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 0
+        },
+        {
+          "name": "GW_RC0603FR-07100KL_ac663db8",
+          "description": "RC0603FR-07100KL; 100 kOhm; 75 V max; limite sqrt(P*R); CAD_CANDIDATE",
+          "designator": "R?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_RC0603FR-0743K2L_a8308c0c",
+          "description": "RC0603FR-0743K2L; 43.2 kOhm; 75 V max; limite sqrt(P*R); CAD_CANDIDATE",
+          "designator": "R?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_C0603C200J5GACTU_c75b007a",
+          "description": "C0603C200J5GACTU; 20 pF; 50 V; C0G; CAD_CANDIDATE",
+          "designator": "C?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_XAL4040-103MEC_b36cb917",
+          "description": "XAL4040-103MEC; 10 uH; Isat25C 3.0 A; Irms20C 2.2 A; CAD_CANDIDATE",
+          "designator": "L?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 0
+        },
+        {
+          "name": "GW_RC0603FR-0724K9L_10698e9e",
+          "description": "RC0603FR-0724K9L; 24.9 kOhm; 75 V max; limite sqrt(P*R); CAD_CANDIDATE",
+          "designator": "R?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_JL126-50002G01_16238e52",
+          "description": "JL126-50002G01; 2 polos + politica PE; >=30 V continuo mas transitorios; corriente TBD; CAD_CANDIDATE",
+          "designator": "J?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_CRCW0603010RJNEAHP_c8eb51d2",
+          "description": "CRCW0603010RJNEAHP; 10 Ohm; Pulse-proof segun ficha exacta; CAD_CANDIDATE",
+          "designator": "R?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_MX126-5.0-03P-GN01-Cu-S-A_d57a488f",
+          "description": "MX126-5.0-03P-GN01-Cu-S-A; 3 polos; TBD; CAD_CANDIDATE",
+          "designator": "J?",
+          "part_count": 1,
+          "pin_count": 3,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_JL126-50002G01_ddbad43f",
+          "description": "JL126-50002G01; 2 polos por canal; >=30 V y0.5 A/canal mas fallas; CAD_CANDIDATE",
+          "designator": "J?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_RC0603FR-07562RL_a6fad8df",
+          "description": "RC0603FR-07562RL; 562 Ohm; 75 V max; limite sqrt(P*R); CAD_CANDIDATE",
+          "designator": "R?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "GW_MX126-5.0-03P-GN01-Cu-S-A_8a7ef64c",
+          "description": "MX126-5.0-03P-GN01-Cu-S-A; 3 polos si COM comun; TBD; CAD_CANDIDATE",
+          "designator": "J?",
+          "part_count": 1,
+          "pin_count": 3,
+          "footprint_count": 1
+        },
+        {
+          "name": "KC2016Z25.0000C15XXK",
+          "description": "Kyocera TNY1T-H1-DEX01-11 17-Jul-2026 pp4,6 table2 fig4; Two independent oscillators proposed; 10nF per supply. Tie1 to3V3. Load<=15pF and PHY phase-noise qualification pending.",
+          "designator": "Y?",
+          "part_count": 1,
+          "pin_count": 4,
+          "footprint_count": 1
+        },
+        {
+          "name": "HX1188FNL",
+          "description": "Pulse HX1188FNL revB 30-May-2014 sheets2-3 PS-2005.002-D; Use exact winding map; NC4,5,12,13 remain unconnected. FNLT is packaging variant; selected MPN FNL.",
+          "designator": "T?",
+          "part_count": 1,
+          "pin_count": 16,
+          "footprint_count": 1
+        },
+        {
+          "name": "XAL4030-682MEC",
+          "description": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.",
+          "designator": "L?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "XAL4040-103MEC",
+          "description": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.",
+          "designator": "L?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "CDSOT23-SM712",
+          "description": "Bourns CDSOT23-SM712 saved2026-11-07 pp1-2 pin diagram and Recommended Footprint; CAD mapping supported; no transferred 1kV surge rating for THVD1420. Populate only after protection qualification.",
+          "designator": "D?",
+          "part_count": 1,
+          "pin_count": 3,
+          "footprint_count": 1
+        },
+        {
+          "name": "TPD4E05U06DQAR",
+          "description": "TI SLVSBO7O table4-2 p4; DQA0010A 4220328/A board/stencil pp29-30; PHY-side only, per DP83826EVM sheet3. GND3/8 to logic GND. NC6/7/9/10 may be pass-through pads; preserve isolation.",
+          "designator": "D?",
+          "part_count": 1,
+          "pin_count": 10,
+          "footprint_count": 1
+        },
+        {
+          "name": "SS-7188S-A-NF",
+          "description": "Cinch/Stewart CT710001 revB0 10-Jul-2023 component-side recommended hole layout; Numbered contacts per component-side drawing. S1/S2 are project labels for unnumbered shield tabs; MP1/2 are non-electrical mounting holes. Candidate copper lands; sourcing risk separate.",
+          "designator": "J?",
+          "part_count": 1,
+          "pin_count": 10,
+          "footprint_count": 1
+        },
+        {
+          "name": "MM204F1K00TKRTR3K0",
+          "description": "Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204; 1kOhm1%,0.25W@70C; normal Type3 operation supported. 500V/1kV system surge withstand NOT established.",
+          "designator": "R?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        },
+        {
+          "name": "RC0603FR-0710KL",
+          "description": "Existing exact Yageo RC0603FR-0710KL sheet p1; AN5419 boot example; TI SLLSF78B section10.1; 10kOhm1%0.1W@70C; replaces unqualified FOJAN identity. Shared professor lands remain CAD_CANDIDATE, not qualified manufacturer lands.",
+          "designator": "R?",
+          "part_count": 1,
+          "pin_count": 2,
+          "footprint_count": 1
+        }
+      ]
+    },
+    "isError": false
+  },
+  "PcbLib": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\": \"success\", \"filepath\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\validation\\\\closure_20261107\\\\decoded_final\\\\Gateway_Academic.PcbLib\", \"offset\": 0, \"returned_count\": 23, \"total_count\": 23, \"has_more\": false, \"file_type\": \"PcbLib\", \"include_metadata\": true, \"components\": [{\"name\": \"GW_LQFP100_ST_1L\", \"description\": \"DS13313 Rev5 fig5, table7 pp57-71, fig65 p218 (PDF p219); Copper matches ST fig65; mask +0.05mm and 1:1 paste are explicit engineering choices, assembly/fab review pending, not manufacturer-qualified mask/stencil.\", \"pad_count\": 100, \"via_count\": 0, \"track_count\": 5, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 1, \"fill_count\": 0, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_RHB0032M_TI\", \"description\": \"SNLS647I table5-1 pp5-6; exposed pad p7; RHB0032M 4223725/A PDF pp111-113; EP33 paste suppressed; four .94mm square paste windows at +/- .57mm (TI 80% example). No automatic thermal-via drill holes.\", \"pad_count\": 33, \"via_count\": 0, \"track_count\": 5, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 1, \"fill_count\": 4, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_RNX0012A_TI\", \"description\": \"SNVSB49D p4; RNX0012A 4222858/A PDF pp44-46 and RNX0012B 4223969/C pp47-49; Confirm actual RNX revision before use. Pin12 SW: no ground tab. Paste12 suppressed, two .25x.812mm windows at y=.2815,1.2935 per drawing; 0.125mm stencil.\", \"pad_count\": 12, \"via_count\": 0, \"track_count\": 5, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 2, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_RNX0012B_TI\", \"description\": \"SNVSB49D p4; RNX0012A 4222858/A PDF pp44-46 and RNX0012B 4223969/C pp47-49; Confirm actual RNX revision before use. Pin12 SW: no ground tab. Paste12 suppressed, two .25x.812mm windows at y=.2815,1.2935 per drawing; 0.125mm stencil.\", \"pad_count\": 12, \"via_count\": 0, \"track_count\": 5, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 1, \"fill_count\": 2, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_SOIC8_1P27_5P4\", \"description\": \"SLLSF78B table4-1 p3; D0008A 4214825/C PDF pp30-32; DS20005991B pin table p3; C04-2057-OA RevE p19; \", \"pad_count\": 8, \"via_count\": 0, \"track_count\": 5, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 1, \"fill_count\": 0, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_DBQ0016A_TI\", \"description\": \"SLLSEY7G table4-2 p4; DBQ0016A 4214846/A PDF pp44-46; \", \"pad_count\": 16, \"via_count\": 0, \"track_count\": 5, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 1, \"fill_count\": 0, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_DCT0008A_TI\", \"description\": \"SCES516N table4-1 p2; DCT0008A 4220784/D PDF pp28-30; \", \"pad_count\": 8, \"via_count\": 0, \"track_count\": 5, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 1, \"fill_count\": 0, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_CAND_0603_cap\", \"description\": \"CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. \", \"pad_count\": 2, \"via_count\": 0, \"track_count\": 2, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 1, \"has_3d_model\": true}, {\"name\": \"GW_CAND_0603_fb\", \"description\": \"CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. \", \"pad_count\": 2, \"via_count\": 0, \"track_count\": 2, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 1, \"has_3d_model\": true}, {\"name\": \"GW_CAND_0603_res\", \"description\": \"CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. 1608 Metric / 20190225 / C-A.Serna.A\", \"pad_count\": 2, \"via_count\": 0, \"track_count\": 2, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 1, \"has_3d_model\": true}, {\"name\": \"GW_CAND_0805_cap\", \"description\": \"CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. \", \"pad_count\": 2, \"via_count\": 0, \"track_count\": 2, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 1, \"has_3d_model\": true}, {\"name\": \"GW_CAND_CON_2x1_TH_5MM\", \"description\": \"CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. \", \"pad_count\": 2, \"via_count\": 0, \"track_count\": 4, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 1, \"has_3d_model\": true}, {\"name\": \"GW_CAND_CON_3x1_TH_5mm\", \"description\": \"CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. \", \"pad_count\": 3, \"via_count\": 0, \"track_count\": 13, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 1, \"has_3d_model\": true}, {\"name\": \"GW_CAND_H_2x1_TH_100mil\", \"description\": \"CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. \", \"pad_count\": 2, \"via_count\": 0, \"track_count\": 6, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 1, \"has_3d_model\": true}, {\"name\": \"GW_CAND_H_6x1_TH_100mil\", \"description\": \"CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. \", \"pad_count\": 6, \"via_count\": 0, \"track_count\": 6, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_KC2016Z_KYOCERA\", \"description\": \"Kyocera TNY1T-H1-DEX01-11 17-Jul-2026 pp4,6 table2 fig4; Top view derived by mirroring numbered bottom view; 1=STANDBY,2=GND,3=OUT,4=VCC; no crystal load pads.\", \"pad_count\": 4, \"via_count\": 0, \"track_count\": 0, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_HX1188FNL_PULSE\", \"description\": \"Pulse HX1188FNL revB 30-May-2014 sheets2-3 PS-2005.002-D; 16 lands; 1.27mm pitch, .762x1.651mm; row centers +/-4.2545mm. No metal-under-transformer keepout encoded: board gate.\", \"pad_count\": 16, \"via_count\": 0, \"track_count\": 0, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_XAL4030_COILCRAFT\", \"description\": \"Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Terminals assigned project1/2 for nonpolar winding; place high dv/dt at stripe/terminal1. Height 3.1mm. Mask/paste DFM pending.\", \"pad_count\": 2, \"via_count\": 0, \"track_count\": 0, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_XAL4040_COILCRAFT\", \"description\": \"Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Terminals assigned project1/2 for nonpolar winding; place high dv/dt at stripe/terminal1. Height 4.1mm. Mask/paste DFM pending.\", \"pad_count\": 2, \"via_count\": 0, \"track_count\": 0, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_SM712_BOURNS\", \"description\": \"Bourns CDSOT23-SM712 saved2026-11-07 pp1-2 pin diagram and Recommended Footprint; Pins1/2 bus;3 reference. +/-7/12V asymmetric clamp. Not a generic SOT23 substitution.\", \"pad_count\": 3, \"via_count\": 0, \"track_count\": 0, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_DQA0010A_TI\", \"description\": \"TI SLVSBO7O table4-2 p4; DQA0010A 4220328/A board/stencil pp29-30; 0.5mm pitch; pad3/8 .565x.4; others .565x.2; rectangular candidate replaces R.05 corners, pending stencil/DFM review.\", \"pad_count\": 10, \"via_count\": 0, \"track_count\": 0, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_SS7188SANF_STEWART\", \"description\": \"Cinch/Stewart CT710001 revB0 10-Jul-2023 component-side recommended hole layout; Holes/positions from drawing; signal1..8=.89drill, shield1.57, mounts3.2NPTH. Copper lands1.5/2.3 are ENGINEERING CANDIDATES; fab annular ring/finished holes/body edge pending.\", \"pad_count\": 12, \"via_count\": 0, \"track_count\": 0, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 0, \"has_3d_model\": false}, {\"name\": \"GW_MM204_FIRSTOHM\", \"description\": \"Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204; Reflow minimum lands1.3x1.6, inner spacing1.6mm; nonpolar numbering project1/2. Pulse qualification separate.\", \"pad_count\": 2, \"via_count\": 0, \"track_count\": 0, \"arc_count\": 0, \"region_count\": 0, \"text_count\": 0, \"fill_count\": 0, \"component_body_count\": 0, \"has_3d_model\": false}]}"
+      }
+    ],
+    "structuredContent": {
+      "status": "success",
+      "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\validation\\closure_20261107\\decoded_final\\Gateway_Academic.PcbLib",
+      "offset": 0,
+      "returned_count": 23,
+      "total_count": 23,
+      "has_more": false,
+      "file_type": "PcbLib",
+      "include_metadata": true,
+      "components": [
+        {
+          "name": "GW_LQFP100_ST_1L",
+          "description": "DS13313 Rev5 fig5, table7 pp57-71, fig65 p218 (PDF p219); Copper matches ST fig65; mask +0.05mm and 1:1 paste are explicit engineering choices, assembly/fab review pending, not manufacturer-qualified mask/stencil.",
+          "pad_count": 100,
+          "via_count": 0,
+          "track_count": 5,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 1,
+          "fill_count": 0,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_RHB0032M_TI",
+          "description": "SNLS647I table5-1 pp5-6; exposed pad p7; RHB0032M 4223725/A PDF pp111-113; EP33 paste suppressed; four .94mm square paste windows at +/- .57mm (TI 80% example). No automatic thermal-via drill holes.",
+          "pad_count": 33,
+          "via_count": 0,
+          "track_count": 5,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 1,
+          "fill_count": 4,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_RNX0012A_TI",
+          "description": "SNVSB49D p4; RNX0012A 4222858/A PDF pp44-46 and RNX0012B 4223969/C pp47-49; Confirm actual RNX revision before use. Pin12 SW: no ground tab. Paste12 suppressed, two .25x.812mm windows at y=.2815,1.2935 per drawing; 0.125mm stencil.",
+          "pad_count": 12,
+          "via_count": 0,
+          "track_count": 5,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 2,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_RNX0012B_TI",
+          "description": "SNVSB49D p4; RNX0012A 4222858/A PDF pp44-46 and RNX0012B 4223969/C pp47-49; Confirm actual RNX revision before use. Pin12 SW: no ground tab. Paste12 suppressed, two .25x.812mm windows at y=.2815,1.2935 per drawing; 0.125mm stencil.",
+          "pad_count": 12,
+          "via_count": 0,
+          "track_count": 5,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 1,
+          "fill_count": 2,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_SOIC8_1P27_5P4",
+          "description": "SLLSF78B table4-1 p3; D0008A 4214825/C PDF pp30-32; DS20005991B pin table p3; C04-2057-OA RevE p19; ",
+          "pad_count": 8,
+          "via_count": 0,
+          "track_count": 5,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 1,
+          "fill_count": 0,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_DBQ0016A_TI",
+          "description": "SLLSEY7G table4-2 p4; DBQ0016A 4214846/A PDF pp44-46; ",
+          "pad_count": 16,
+          "via_count": 0,
+          "track_count": 5,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 1,
+          "fill_count": 0,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_DCT0008A_TI",
+          "description": "SCES516N table4-1 p2; DCT0008A 4220784/D PDF pp28-30; ",
+          "pad_count": 8,
+          "via_count": 0,
+          "track_count": 5,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 1,
+          "fill_count": 0,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_CAND_0603_cap",
+          "description": "CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. ",
+          "pad_count": 2,
+          "via_count": 0,
+          "track_count": 2,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 1,
+          "has_3d_model": true
+        },
+        {
+          "name": "GW_CAND_0603_fb",
+          "description": "CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. ",
+          "pad_count": 2,
+          "via_count": 0,
+          "track_count": 2,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 1,
+          "has_3d_model": true
+        },
+        {
+          "name": "GW_CAND_0603_res",
+          "description": "CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. 1608 Metric / 20190225 / C-A.Serna.A",
+          "pad_count": 2,
+          "via_count": 0,
+          "track_count": 2,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 1,
+          "has_3d_model": true
+        },
+        {
+          "name": "GW_CAND_0805_cap",
+          "description": "CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. ",
+          "pad_count": 2,
+          "via_count": 0,
+          "track_count": 2,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 1,
+          "has_3d_model": true
+        },
+        {
+          "name": "GW_CAND_CON_2x1_TH_5MM",
+          "description": "CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. ",
+          "pad_count": 2,
+          "via_count": 0,
+          "track_count": 4,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 1,
+          "has_3d_model": true
+        },
+        {
+          "name": "GW_CAND_CON_3x1_TH_5mm",
+          "description": "CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. ",
+          "pad_count": 3,
+          "via_count": 0,
+          "track_count": 13,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 1,
+          "has_3d_model": true
+        },
+        {
+          "name": "GW_CAND_H_2x1_TH_100mil",
+          "description": "CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. ",
+          "pad_count": 2,
+          "via_count": 0,
+          "track_count": 6,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 1,
+          "has_3d_model": true
+        },
+        {
+          "name": "GW_CAND_H_6x1_TH_100mil",
+          "description": "CAD_CANDIDATE; professor geometry inspected; exact MPN land/mask/paste unqualified. ",
+          "pad_count": 6,
+          "via_count": 0,
+          "track_count": 6,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_KC2016Z_KYOCERA",
+          "description": "Kyocera TNY1T-H1-DEX01-11 17-Jul-2026 pp4,6 table2 fig4; Top view derived by mirroring numbered bottom view; 1=STANDBY,2=GND,3=OUT,4=VCC; no crystal load pads.",
+          "pad_count": 4,
+          "via_count": 0,
+          "track_count": 0,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_HX1188FNL_PULSE",
+          "description": "Pulse HX1188FNL revB 30-May-2014 sheets2-3 PS-2005.002-D; 16 lands; 1.27mm pitch, .762x1.651mm; row centers +/-4.2545mm. No metal-under-transformer keepout encoded: board gate.",
+          "pad_count": 16,
+          "via_count": 0,
+          "track_count": 0,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_XAL4030_COILCRAFT",
+          "description": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Terminals assigned project1/2 for nonpolar winding; place high dv/dt at stripe/terminal1. Height 3.1mm. Mask/paste DFM pending.",
+          "pad_count": 2,
+          "via_count": 0,
+          "track_count": 0,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_XAL4040_COILCRAFT",
+          "description": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Terminals assigned project1/2 for nonpolar winding; place high dv/dt at stripe/terminal1. Height 4.1mm. Mask/paste DFM pending.",
+          "pad_count": 2,
+          "via_count": 0,
+          "track_count": 0,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_SM712_BOURNS",
+          "description": "Bourns CDSOT23-SM712 saved2026-11-07 pp1-2 pin diagram and Recommended Footprint; Pins1/2 bus;3 reference. +/-7/12V asymmetric clamp. Not a generic SOT23 substitution.",
+          "pad_count": 3,
+          "via_count": 0,
+          "track_count": 0,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_DQA0010A_TI",
+          "description": "TI SLVSBO7O table4-2 p4; DQA0010A 4220328/A board/stencil pp29-30; 0.5mm pitch; pad3/8 .565x.4; others .565x.2; rectangular candidate replaces R.05 corners, pending stencil/DFM review.",
+          "pad_count": 10,
+          "via_count": 0,
+          "track_count": 0,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_SS7188SANF_STEWART",
+          "description": "Cinch/Stewart CT710001 revB0 10-Jul-2023 component-side recommended hole layout; Holes/positions from drawing; signal1..8=.89drill, shield1.57, mounts3.2NPTH. Copper lands1.5/2.3 are ENGINEERING CANDIDATES; fab annular ring/finished holes/body edge pending.",
+          "pad_count": 12,
+          "via_count": 0,
+          "track_count": 0,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 0,
+          "has_3d_model": false
+        },
+        {
+          "name": "GW_MM204_FIRSTOHM",
+          "description": "Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204; Reflow minimum lands1.3x1.6, inner spacing1.6mm; nonpolar numbering project1/2. Pulse qualification separate.",
+          "pad_count": 2,
+          "via_count": 0,
+          "track_count": 0,
+          "arc_count": 0,
+          "region_count": 0,
+          "text_count": 0,
+          "fill_count": 0,
+          "component_body_count": 0,
+          "has_3d_model": false
+        }
+      ]
+    },
+    "isError": false
+  }
+}

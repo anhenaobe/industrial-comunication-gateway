@@ -1,0 +1,33 @@
+﻿block,port,net,function,direction,notes,physical_pin,status,evidence
+Ethernet,PA1,ETH_RMII_REF_CLK,AF11,input,PHY clock topology not closed,23,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Ethernet,PA2,ETH_MDIO,AF11,bidirectional,management bus,24,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Ethernet,PC1,ETH_MDC,AF11,output,management bus,16,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Ethernet,PA7,ETH_RMII_CRS_DV,AF11,input,reserve for RMII,31,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Ethernet,PC4,ETH_RMII_RXD0,AF11,input,reserve for RMII,32,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Ethernet,PC5,ETH_RMII_RXD1,AF11,input,reserve for RMII,33,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Ethernet,PB11,ETH_RMII_TX_EN,AF11,output,excludes USART3_RX on PB11,47,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Ethernet,PB12,ETH_RMII_TXD0,AF11,output,excludes FDCAN2_RX on PB12,51,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Ethernet,PB13,ETH_RMII_TXD1,AF11,output,excludes FDCAN2_TX on PB13,52,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Ethernet,PD12,PHY_RESET_N,GPIO,output,hold reset until supply and clock valid,59,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Ethernet,PD13,PHY_IRQ_N,GPIO,input,optional; pin function depends on PHY mode,60,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+RS485,PD8,RS485_TX,AF7 USART3_TX,output,THVD1420 D pin4,55,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+RS485,PD9,RS485_RX,AF7 USART3_RX,input,THVD1420 R pin1,56,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+RS485,PD10,RS485_DIR,GPIO,output,DE and /RE joined; default low means receive,57,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+CAN,PB8,CAN_RX,AF9 FDCAN1_RX,input,ATA6561 RXD pin4; not FDCAN2,95,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+CAN,PB9,CAN_TX,AF9 FDCAN1_TX,output,ATA6561 TXD pin1,96,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+CAN,PD11,CAN_STBY,GPIO,output,default standby high; pull network not finalized,58,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+DI,PE0,DI1_LOGIC,GPIO,input,ISO1212 OUT1 pin4; no 24V on GPIO,97,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+DI,PE1,DI2_LOGIC,GPIO,input,ISO1212 OUT2 pin5; no 24V on GPIO,98,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+DO,PE2,DO1_CMD,GPIO,output,default OFF; level-stage guarantee still open,1,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+DO,PE3,DO2_CMD,GPIO,output,default OFF; level-stage guarantee still open,2,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Power,PD14,EFUSE_FAULT_N,GPIO,input,optional open-drain pull-up to 3.3V,61,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Power,PD15,PG_3V3,GPIO,input,optional; no 24V on GPIO,62,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Power,PC6,PG_5V,GPIO,input,optional pull-up to 3.3V; USART6_TX excluded,63,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Debug,PA13,SWDIO,SYS,bidirectional,dedicated SWD,72,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Debug,PA14,SWCLK,SYS,input,dedicated SWD,76,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Debug,PB3,SWO,AF0,output,optional; keep until debug connector frozen,89,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Console,PA9,CONSOLE_TX,AF7 USART1_TX,output,3.3V external USB-UART; no on-board bridge required,68,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Console,PA10,CONSOLE_RX,AF7 USART1_RX,input,3.3V external USB-UART,69,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Clock,PH0,HSE_IN,OSC,input,crystal/oscillator selection still open,12,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Clock,PH1,HSE_OUT,OSC,output,crystal/oscillator selection still open,13,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8
+Indicator,PB0,STATUS_LED,GPIO,output,optional; resistor/current not finalized,34,PROPOSED_NOT_ROUTED,DS13313 Rev5 tables7-8

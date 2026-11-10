@@ -1,0 +1,159 @@
+﻿component_role,mpn,pin,pin_name,net_role,source,status,notes
+MCU,STM32H723VET6,11,VDD,3V3,S1 fig5/table7,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,27,VDD,3V3,S1 fig5/table7,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,50,VDD,3V3,S1 fig5/table7,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,75,VDD,3V3,S1 fig5/table7,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,100,VDD,3V3,S1 fig5/table7,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,10,VSS,GND,S1 fig5/table7,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,26,VSS,GND,S1 fig5/table7,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,49,VSS,GND,S1 fig5/table7,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,74,VSS,GND,S1 fig5/table7,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,99,VSS,GND,S1 fig5/table7,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,21,VDDA,3V3_ANALOG,S1 fig5/table7/table14; S2 table2/fig19,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,19,VSSA,GND,S1 fig5/table7/table14; S2 table2/fig19,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,20,VREF+,3V3_ANALOG,S1 fig5/table7/table14; S2 table2/fig19,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,6,VBAT,3V3,S1 fig5/table7/table14; S2 table2/fig19,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,48,VCAP,VCORE_CAP,S1 fig5/table7/table14; S2 table2/fig19,ACCEPTED_FOR_CAPTURE,"VCORE_CAP is internal LDO output, never3V3;2.2uF at each VCAP"
+MCU,STM32H723VET6,73,VCAP,VCORE_CAP,S1 fig5/table7/table14; S2 table2/fig19,ACCEPTED_FOR_CAPTURE,"VCORE_CAP is internal LDO output, never3V3;2.2uF at each VCAP"
+MCU,STM32H723VET6,94,BOOT0,BOOT0,S1 fig5/table7/table14; S2 table2/fig19,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,14,NRST,NRST,S1 fig5/table7/table14; S2 table2/fig19,ACCEPTED_FOR_CAPTURE,
+MCU,STM32H723VET6,12,PH0,MCU_HSE25,S1 table7 LQFP100; selected GPIO reservations,CONDITIONAL_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,13,PH1,NC_HSE_BYPASS,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,72,PA13,SWDIO,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,76,PA14,SWCLK,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,23,PA1,RMII_REF50,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,24,PA2,MDIO,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,16,PC1,MDC,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,31,PA7,RMII_CRS_DV,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,32,PC4,RMII_RXD0,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,33,PC5,RMII_RXD1,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,47,PB11,RMII_TX_EN,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,51,PB12,RMII_TXD0,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,52,PB13,RMII_TXD1,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,55,PD8,RS485_TXD,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,56,PD9,RS485_RXD,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,57,PD10,RS485_DE,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,58,PD11,RS485_nRE,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,81,PD0,CAN_RXD,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,82,PD1,CAN_TXD,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,37,PE7,CAN_STBY,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,1,PE2,DO1_LOGIC,S1 table7 LQFP100; selected GPIO reservations,BLOCKED,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,2,PE3,DO2_LOGIC,S1 table7 LQFP100; selected GPIO reservations,BLOCKED,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,3,PE4,DI1_LOGIC,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,4,PE5,DI2_LOGIC,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+MCU,STM32H723VET6,5,PE6,PHY_nRESET,S1 table7 LQFP100; selected GPIO reservations,ACCEPTED_FOR_CAPTURE,Pin reservation only; AF selection and reset-state firmware must be reviewed. USART3 PD8/9; FDCAN1 PD0/1; Ethernet AF pins.
+OSC_MCU,KC2016Z25.0000C15XXK,1,STANDBY,3V3,"FCLK table2 pp4,6",CONDITIONAL_CAPTURE,10nF VCC-GND; <=15pF output load and PHY phase noise pending
+OSC_MCU,KC2016Z25.0000C15XXK,2,GND,GND,"FCLK table2 pp4,6",CONDITIONAL_CAPTURE,10nF VCC-GND; <=15pF output load and PHY phase noise pending
+OSC_MCU,KC2016Z25.0000C15XXK,3,OUT,MCU_HSE25,"FCLK table2 pp4,6",CONDITIONAL_CAPTURE,10nF VCC-GND; <=15pF output load and PHY phase noise pending
+OSC_MCU,KC2016Z25.0000C15XXK,4,VCC,3V3,"FCLK table2 pp4,6",CONDITIONAL_CAPTURE,10nF VCC-GND; <=15pF output load and PHY phase noise pending
+OSC_PHY,KC2016Z25.0000C15XXK,1,STANDBY,3V3,"FCLK table2 pp4,6",CONDITIONAL_CAPTURE,10nF VCC-GND; <=15pF output load and PHY phase noise pending
+OSC_PHY,KC2016Z25.0000C15XXK,2,GND,GND,"FCLK table2 pp4,6",CONDITIONAL_CAPTURE,10nF VCC-GND; <=15pF output load and PHY phase noise pending
+OSC_PHY,KC2016Z25.0000C15XXK,3,OUT,PHY_XI25,"FCLK table2 pp4,6",CONDITIONAL_CAPTURE,10nF VCC-GND; <=15pF output load and PHY phase noise pending
+OSC_PHY,KC2016Z25.0000C15XXK,4,VCC,3V3,"FCLK table2 pp4,6",CONDITIONAL_CAPTURE,10nF VCC-GND; <=15pF output load and PHY phase noise pending
+PHY,DP83826IRHBR,3,VDDA3V3,3V3,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,17,VDDIO,3V3,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,33,GND_EP,GND,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,2,CEXT,CEXT_2nF,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,10,RBIAS,RBIAS_6K49,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,8,XO,NC_XO,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,9,XI,PHY_XI25,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,7,TD_P,MDI_TXP,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,6,TD_M,MDI_TXN,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,5,RD_P,MDI_RXP,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,4,RD_M,MDI_RXN,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,11,MDIO,MDIO,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,12,MDC,MDC,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,19,RX_CLK,RMII_REF50,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,18,CRS_DV,RMII_CRS_DV,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,16,RX_D0,RMII_RXD0,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,15,RX_D1,RMII_RXD1,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,23,TX_EN,RMII_TX_EN,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,24,TX_D0,RMII_TXD0,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,25,TX_D1,RMII_TXD1,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+PHY,DP83826IRHBR,32,RST_N,PHY_nRESET,"S3 table5-1, section8.3.10; straps defined separately",ACCEPTED_FOR_CAPTURE,
+MAGNETICS,HX1188FNL,1,TD+,MDI_TXP,FETH Pulse revB sheet2; S4 sheet3,ACCEPTED_FOR_CAPTURE,
+MAGNETICS,HX1188FNL,3,TD-,MDI_TXN,FETH Pulse revB sheet2; S4 sheet3,ACCEPTED_FOR_CAPTURE,
+MAGNETICS,HX1188FNL,6,RD+,MDI_RXP,FETH Pulse revB sheet2; S4 sheet3,ACCEPTED_FOR_CAPTURE,
+MAGNETICS,HX1188FNL,8,RD-,MDI_RXN,FETH Pulse revB sheet2; S4 sheet3,ACCEPTED_FOR_CAPTURE,
+MAGNETICS,HX1188FNL,2,TCT,PHY_TX_CT,FETH Pulse revB sheet2; S4 sheet3,ACCEPTED_FOR_CAPTURE,
+MAGNETICS,HX1188FNL,7,RCT,PHY_RX_CT,FETH Pulse revB sheet2; S4 sheet3,ACCEPTED_FOR_CAPTURE,
+MAGNETICS,HX1188FNL,16,TX+,CABLE_TXP,FETH Pulse revB sheet2; S4 sheet3,ACCEPTED_FOR_CAPTURE,
+MAGNETICS,HX1188FNL,14,TX-,CABLE_TXN,FETH Pulse revB sheet2; S4 sheet3,ACCEPTED_FOR_CAPTURE,
+MAGNETICS,HX1188FNL,11,RX+,CABLE_RXP,FETH Pulse revB sheet2; S4 sheet3,ACCEPTED_FOR_CAPTURE,
+MAGNETICS,HX1188FNL,9,RX-,CABLE_RXN,FETH Pulse revB sheet2; S4 sheet3,ACCEPTED_FOR_CAPTURE,
+MAGNETICS,HX1188FNL,15,CMT_TX,CABLE_TX_CT,FETH Pulse revB sheet2; S4 sheet3,ACCEPTED_FOR_CAPTURE,
+MAGNETICS,HX1188FNL,10,CMT_RX,CABLE_RX_CT,FETH Pulse revB sheet2; S4 sheet3,ACCEPTED_FOR_CAPTURE,
+RS485,THVD1420DR,1,R,RS485_RXD,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+RS485,THVD1420DR,2,nRE,RS485_nRE,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+RS485,THVD1420DR,3,DE,RS485_DE,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+RS485,THVD1420DR,4,D,RS485_TXD,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+RS485,THVD1420DR,5,GND,GND,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+RS485,THVD1420DR,6,A,RS485_A,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+RS485,THVD1420DR,7,B,RS485_B,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+RS485,THVD1420DR,8,VCC,3V3,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+CAN,ATA6561-GAQW,1,TXD,CAN_TXD,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+CAN,ATA6561-GAQW,2,GND,GND,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+CAN,ATA6561-GAQW,3,VCC,5V,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+CAN,ATA6561-GAQW,4,RXD,CAN_RXD,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+CAN,ATA6561-GAQW,5,VIO,3V3,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+CAN,ATA6561-GAQW,6,CANL,CANL,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+CAN,ATA6561-GAQW,7,CANH,CANH,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+CAN,ATA6561-GAQW,8,STBY,CAN_STBY,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,1,GND1,GND,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,2,VCC1,3V3,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,3,EN,3V3,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,4,OUT1,DI1_LOGIC,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,5,OUT2,DI2_LOGIC,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,6,NC,NC6,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,7,NC,NC7,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,8,GND1,GND,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,9,FGND2,FIELD_COM,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,10,IN2,DI2_IN,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,11,SENSE2,DI2_SENSE,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,12,SUB2,FLOAT_SUB2,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,13,SUB1,FLOAT_SUB1,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,14,FGND1,FIELD_COM,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,15,IN1,DI1_IN,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+DI,ISO1212DBQR,16,SENSE1,DI1_SENSE,S6 pin table / S8 pin table / S11 table4-2 respectively,ACCEPTED_FOR_CAPTURE,
+BUCK3V3,LMR36015FBRNXR,1,PGND,GND,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 3V3 after correct inductor
+BUCK3V3,LMR36015FBRNXR,2,VIN,VIN_PROT,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 3V3 after correct inductor
+BUCK3V3,LMR36015FBRNXR,3,NC,BUCK3V3_SW,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 3V3 after correct inductor
+BUCK3V3,LMR36015FBRNXR,4,BOOT,BUCK3V3_BOOT,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 3V3 after correct inductor
+BUCK3V3,LMR36015FBRNXR,5,VCC,BUCK3V3_VCC_INTERNAL,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 3V3 after correct inductor
+BUCK3V3,LMR36015FBRNXR,6,AGND,GND,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 3V3 after correct inductor
+BUCK3V3,LMR36015FBRNXR,7,FB,BUCK3V3_FB,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 3V3 after correct inductor
+BUCK3V3,LMR36015FBRNXR,8,PG,NC_BUCK3V3_PG,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 3V3 after correct inductor
+BUCK3V3,LMR36015FBRNXR,9,EN,VIN_PROT,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 3V3 after correct inductor
+BUCK3V3,LMR36015FBRNXR,10,VIN,VIN_PROT,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 3V3 after correct inductor
+BUCK3V3,LMR36015FBRNXR,11,PGND,GND,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 3V3 after correct inductor
+BUCK3V3,LMR36015FBRNXR,12,SW,BUCK3V3_SW,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 3V3 after correct inductor
+BUCK5V,LMR36015FBRNXR,1,PGND,GND,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 5V after correct inductor
+BUCK5V,LMR36015FBRNXR,2,VIN,VIN_PROT,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 5V after correct inductor
+BUCK5V,LMR36015FBRNXR,3,NC,BUCK5V_SW,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 5V after correct inductor
+BUCK5V,LMR36015FBRNXR,4,BOOT,BUCK5V_BOOT,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 5V after correct inductor
+BUCK5V,LMR36015FBRNXR,5,VCC,BUCK5V_VCC_INTERNAL,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 5V after correct inductor
+BUCK5V,LMR36015FBRNXR,6,AGND,GND,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 5V after correct inductor
+BUCK5V,LMR36015FBRNXR,7,FB,BUCK5V_FB,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 5V after correct inductor
+BUCK5V,LMR36015FBRNXR,8,PG,NC_BUCK5V_PG,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 5V after correct inductor
+BUCK5V,LMR36015FBRNXR,9,EN,VIN_PROT,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 5V after correct inductor
+BUCK5V,LMR36015FBRNXR,10,VIN,VIN_PROT,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 5V after correct inductor
+BUCK5V,LMR36015FBRNXR,11,PGND,GND,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 5V after correct inductor
+BUCK5V,LMR36015FBRNXR,12,SW,BUCK5V_SW,S5 pin table/figure10-1; NC3 joins SW12,CONDITIONAL_CAPTURE,CIN/COUT and input coordination unresolved; output rail 5V after correct inductor
+ETH_ESD,TPD4E05U06DQAR,1,D1+,MDI_TXP,FESD table4-2; S4 U13 sheet3,CONDITIONAL_CAPTURE,NC pads are not internally series-connected. EVM pass-through needs continuous external copper joining the same-net pads.
+ETH_ESD,TPD4E05U06DQAR,2,D1-,MDI_TXN,FESD table4-2; S4 U13 sheet3,CONDITIONAL_CAPTURE,NC pads are not internally series-connected. EVM pass-through needs continuous external copper joining the same-net pads.
+ETH_ESD,TPD4E05U06DQAR,3,GND,GND,FESD table4-2; S4 U13 sheet3,CONDITIONAL_CAPTURE,NC pads are not internally series-connected. EVM pass-through needs continuous external copper joining the same-net pads.
+ETH_ESD,TPD4E05U06DQAR,4,D2+,MDI_RXP,FESD table4-2; S4 U13 sheet3,CONDITIONAL_CAPTURE,NC pads are not internally series-connected. EVM pass-through needs continuous external copper joining the same-net pads.
+ETH_ESD,TPD4E05U06DQAR,5,D2-,MDI_RXN,FESD table4-2; S4 U13 sheet3,CONDITIONAL_CAPTURE,NC pads are not internally series-connected. EVM pass-through needs continuous external copper joining the same-net pads.
+ETH_ESD,TPD4E05U06DQAR,6,NC,MDI_RXN,FESD table4-2; S4 U13 sheet3,CONDITIONAL_CAPTURE,NC pads are not internally series-connected. EVM pass-through needs continuous external copper joining the same-net pads.
+ETH_ESD,TPD4E05U06DQAR,7,NC,MDI_RXP,FESD table4-2; S4 U13 sheet3,CONDITIONAL_CAPTURE,NC pads are not internally series-connected. EVM pass-through needs continuous external copper joining the same-net pads.
+ETH_ESD,TPD4E05U06DQAR,8,GND,GND,FESD table4-2; S4 U13 sheet3,CONDITIONAL_CAPTURE,NC pads are not internally series-connected. EVM pass-through needs continuous external copper joining the same-net pads.
+ETH_ESD,TPD4E05U06DQAR,9,NC,MDI_TXN,FESD table4-2; S4 U13 sheet3,CONDITIONAL_CAPTURE,NC pads are not internally series-connected. EVM pass-through needs continuous external copper joining the same-net pads.
+ETH_ESD,TPD4E05U06DQAR,10,NC,MDI_TXP,FESD table4-2; S4 U13 sheet3,CONDITIONAL_CAPTURE,NC pads are not internally series-connected. EVM pass-through needs continuous external copper joining the same-net pads.
+DO_TRANSLATOR,SN74LVC2T45DCTR,1,VCCA,3V3,S9 pin table; DIR=VCCA,BLOCKED,Intended direction only; loaded >=4.5V BSP protection drive is NOT verified
+DO_TRANSLATOR,SN74LVC2T45DCTR,2,A1,DO1_LOGIC,S9 pin table; DIR=VCCA,BLOCKED,Intended direction only; loaded >=4.5V BSP protection drive is NOT verified
+DO_TRANSLATOR,SN74LVC2T45DCTR,3,A2,DO2_LOGIC,S9 pin table; DIR=VCCA,BLOCKED,Intended direction only; loaded >=4.5V BSP protection drive is NOT verified
+DO_TRANSLATOR,SN74LVC2T45DCTR,4,GND,GND,S9 pin table; DIR=VCCA,BLOCKED,Intended direction only; loaded >=4.5V BSP protection drive is NOT verified
+DO_TRANSLATOR,SN74LVC2T45DCTR,5,DIR,3V3,S9 pin table; DIR=VCCA,BLOCKED,Intended direction only; loaded >=4.5V BSP protection drive is NOT verified
+DO_TRANSLATOR,SN74LVC2T45DCTR,6,B2,DO2_DRIVE,S9 pin table; DIR=VCCA,BLOCKED,Intended direction only; loaded >=4.5V BSP protection drive is NOT verified
+DO_TRANSLATOR,SN74LVC2T45DCTR,7,B1,DO1_DRIVE,S9 pin table; DIR=VCCA,BLOCKED,Intended direction only; loaded >=4.5V BSP protection drive is NOT verified
+DO_TRANSLATOR,SN74LVC2T45DCTR,8,VCCB,5V,S9 pin table; DIR=VCCA,BLOCKED,Intended direction only; loaded >=4.5V BSP protection drive is NOT verified

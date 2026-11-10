@@ -1,0 +1,533 @@
+[
+  {
+    "name": "GW_KC2016Z_KYOCERA",
+    "description": "Kyocera TNY1T-H1-DEX01-11 17-Jul-2026 pp4,6 table2 fig4; Top view derived by mirroring numbered bottom view; 1=STANDBY,2=GND,3=OUT,4=VCC; no crystal load pads.",
+    "pads": [
+      {
+        "designator": "1",
+        "x": -0.9,
+        "y": -0.6,
+        "width": 0.6,
+        "height": 0.8,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "2",
+        "x": 0.9,
+        "y": -0.6,
+        "width": 0.6,
+        "height": 0.8,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "3",
+        "x": 0.9,
+        "y": 0.6,
+        "width": 0.6,
+        "height": 0.8,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "4",
+        "x": -0.9,
+        "y": 0.6,
+        "width": 0.6,
+        "height": 0.8,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      }
+    ]
+  },
+  {
+    "name": "GW_HX1188FNL_PULSE",
+    "description": "Pulse HX1188FNL revB 30-May-2014 sheets2-3 PS-2005.002-D; 16 lands; 1.27mm pitch, .762x1.651mm; row centers +/-4.2545mm. No metal-under-transformer keepout encoded: board gate.",
+    "pads": [
+      {
+        "designator": "1",
+        "x": -4.445,
+        "y": -4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "16",
+        "x": -4.445,
+        "y": 4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "2",
+        "x": -3.175,
+        "y": -4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "15",
+        "x": -3.175,
+        "y": 4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "3",
+        "x": -1.905,
+        "y": -4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "14",
+        "x": -1.905,
+        "y": 4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "4",
+        "x": -0.635,
+        "y": -4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "13",
+        "x": -0.635,
+        "y": 4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "5",
+        "x": 0.635,
+        "y": -4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "12",
+        "x": 0.635,
+        "y": 4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "6",
+        "x": 1.905,
+        "y": -4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "11",
+        "x": 1.905,
+        "y": 4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "7",
+        "x": 3.175,
+        "y": -4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "10",
+        "x": 3.175,
+        "y": 4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "8",
+        "x": 4.445,
+        "y": -4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "9",
+        "x": 4.445,
+        "y": 4.2545,
+        "width": 0.7619999999999999,
+        "height": 1.651,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      }
+    ]
+  },
+  {
+    "name": "GW_XAL4030_COILCRAFT",
+    "description": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Terminals assigned project1/2 for nonpolar winding; place high dv/dt at stripe/terminal1. Height 3.1mm. Mask/paste DFM pending.",
+    "pads": [
+      {
+        "designator": "1",
+        "x": -1.1810999999999998,
+        "y": 0,
+        "width": 0.9652,
+        "height": 3.4036,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "2",
+        "x": 1.1810999999999998,
+        "y": 0,
+        "width": 0.9652,
+        "height": 3.4036,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      }
+    ]
+  },
+  {
+    "name": "GW_XAL4040_COILCRAFT",
+    "description": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Terminals assigned project1/2 for nonpolar winding; place high dv/dt at stripe/terminal1. Height 4.1mm. Mask/paste DFM pending.",
+    "pads": [
+      {
+        "designator": "1",
+        "x": -1.1810999999999998,
+        "y": 0,
+        "width": 0.9652,
+        "height": 3.4036,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "2",
+        "x": 1.1810999999999998,
+        "y": 0,
+        "width": 0.9652,
+        "height": 3.4036,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      }
+    ]
+  },
+  {
+    "name": "GW_SM712_BOURNS",
+    "description": "Bourns CDSOT23-SM712 saved2026-11-07 pp1-2 pin diagram and Recommended Footprint; Pins1/2 bus;3 reference. +/-7/12V asymmetric clamp. Not a generic SOT23 substitution.",
+    "pads": [
+      {
+        "designator": "1",
+        "x": -0.95,
+        "y": -1,
+        "width": 0.85,
+        "height": 0.85,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "2",
+        "x": 0.95,
+        "y": -1,
+        "width": 0.85,
+        "height": 0.85,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "3",
+        "x": 0,
+        "y": 1,
+        "width": 0.85,
+        "height": 0.85,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      }
+    ]
+  },
+  {
+    "name": "GW_DQA0010A_TI",
+    "description": "TI SLVSBO7O table4-2 p4; DQA0010A 4220328/A board/stencil pp29-30; 0.5mm pitch; pad3/8 .565x.4; others .565x.2; rectangular candidate replaces R.05 corners, pending stencil/DFM review.",
+    "pads": [
+      {
+        "designator": "1",
+        "x": -0.4175,
+        "y": 1.0,
+        "width": 0.565,
+        "height": 0.2,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "10",
+        "x": 0.4175,
+        "y": 1.0,
+        "width": 0.565,
+        "height": 0.2,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "2",
+        "x": -0.4175,
+        "y": 0.5,
+        "width": 0.565,
+        "height": 0.2,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "9",
+        "x": 0.4175,
+        "y": 0.5,
+        "width": 0.565,
+        "height": 0.2,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "3",
+        "x": -0.4175,
+        "y": 0.0,
+        "width": 0.565,
+        "height": 0.4,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "8",
+        "x": 0.4175,
+        "y": 0.0,
+        "width": 0.565,
+        "height": 0.4,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "4",
+        "x": -0.4175,
+        "y": -0.5,
+        "width": 0.565,
+        "height": 0.2,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "7",
+        "x": 0.4175,
+        "y": -0.5,
+        "width": 0.565,
+        "height": 0.2,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "5",
+        "x": -0.4175,
+        "y": -1.0,
+        "width": 0.565,
+        "height": 0.2,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "6",
+        "x": 0.4175,
+        "y": -1.0,
+        "width": 0.565,
+        "height": 0.2,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      }
+    ]
+  },
+  {
+    "name": "GW_SS7188SANF_STEWART",
+    "description": "Cinch/Stewart CT710001 revB0 10-Jul-2023 component-side recommended hole layout; Holes/positions from drawing; signal1..8=.89drill, shield1.57, mounts3.2NPTH. Copper lands1.5/2.3 are ENGINEERING CANDIDATES; fab annular ring/finished holes/body edge pending.",
+    "pads": [
+      {
+        "designator": "1",
+        "x": 1.27,
+        "y": 6.35,
+        "width": 1.5,
+        "height": 1.5,
+        "hole_size": 0.889,
+        "layer": "Multi-Layer",
+        "shape": "round",
+        "is_plated": true
+      },
+      {
+        "designator": "2",
+        "x": 2.54,
+        "y": 8.89,
+        "width": 1.5,
+        "height": 1.5,
+        "hole_size": 0.889,
+        "layer": "Multi-Layer",
+        "shape": "round",
+        "is_plated": true
+      },
+      {
+        "designator": "3",
+        "x": 3.81,
+        "y": 6.35,
+        "width": 1.5,
+        "height": 1.5,
+        "hole_size": 0.889,
+        "layer": "Multi-Layer",
+        "shape": "round",
+        "is_plated": true
+      },
+      {
+        "designator": "4",
+        "x": 5.08,
+        "y": 8.89,
+        "width": 1.5,
+        "height": 1.5,
+        "hole_size": 0.889,
+        "layer": "Multi-Layer",
+        "shape": "round",
+        "is_plated": true
+      },
+      {
+        "designator": "5",
+        "x": 6.35,
+        "y": 6.35,
+        "width": 1.5,
+        "height": 1.5,
+        "hole_size": 0.889,
+        "layer": "Multi-Layer",
+        "shape": "round",
+        "is_plated": true
+      },
+      {
+        "designator": "6",
+        "x": 7.62,
+        "y": 8.89,
+        "width": 1.5,
+        "height": 1.5,
+        "hole_size": 0.889,
+        "layer": "Multi-Layer",
+        "shape": "round",
+        "is_plated": true
+      },
+      {
+        "designator": "7",
+        "x": 8.89,
+        "y": 6.35,
+        "width": 1.5,
+        "height": 1.5,
+        "hole_size": 0.889,
+        "layer": "Multi-Layer",
+        "shape": "round",
+        "is_plated": true
+      },
+      {
+        "designator": "8",
+        "x": 10.16,
+        "y": 8.89,
+        "width": 1.5,
+        "height": 1.5,
+        "hole_size": 0.889,
+        "layer": "Multi-Layer",
+        "shape": "round",
+        "is_plated": true
+      },
+      {
+        "designator": "S1",
+        "x": -2.032,
+        "y": 3.048,
+        "width": 2.3,
+        "height": 2.3,
+        "hole_size": 1.5748,
+        "layer": "Multi-Layer",
+        "shape": "round",
+        "is_plated": true
+      },
+      {
+        "designator": "S2",
+        "x": 13.462,
+        "y": 3.048,
+        "width": 2.3,
+        "height": 2.3,
+        "hole_size": 1.5748,
+        "layer": "Multi-Layer",
+        "shape": "round",
+        "is_plated": true
+      },
+      {
+        "designator": "MP1",
+        "x": 0,
+        "y": 0,
+        "width": 3.2,
+        "height": 3.2,
+        "hole_size": 3.2,
+        "layer": "Multi-Layer",
+        "shape": "round",
+        "is_plated": false
+      },
+      {
+        "designator": "MP2",
+        "x": 11.43,
+        "y": 0,
+        "width": 3.2,
+        "height": 3.2,
+        "hole_size": 3.2,
+        "layer": "Multi-Layer",
+        "shape": "round",
+        "is_plated": false
+      }
+    ]
+  },
+  {
+    "name": "GW_MM204_FIRSTOHM",
+    "description": "Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204; Reflow minimum lands1.3x1.6, inner spacing1.6mm; nonpolar numbering project1/2. Pulse qualification separate.",
+    "pads": [
+      {
+        "designator": "1",
+        "x": -1.45,
+        "y": 0,
+        "width": 1.3,
+        "height": 1.6,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      },
+      {
+        "designator": "2",
+        "x": 1.45,
+        "y": 0,
+        "width": 1.3,
+        "height": 1.6,
+        "shape": "rectangle",
+        "layer": "Top Layer"
+      }
+    ]
+  }
+]

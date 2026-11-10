@@ -1,0 +1,834 @@
+[
+  {
+    "name": "TDS3311P.C",
+    "designator": "D?",
+    "description": "Semtech TDS3311P Rev2.4 pp2,7-9; official product portal confirms33V orderTDS3311P.C; 33V working;42Vmax specified35A pulse; ",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "GND",
+        "electrical_type": "passive",
+        "x": -70,
+        "y": 40,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "electrical_type": "passive",
+        "x": -70,
+        "y": 20,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "3",
+        "name": "GND",
+        "electrical_type": "passive",
+        "x": -70,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "4",
+        "name": "IN",
+        "electrical_type": "passive",
+        "x": 70,
+        "y": 40,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      },
+      {
+        "designator": "5",
+        "name": "IN",
+        "electrical_type": "passive",
+        "x": 70,
+        "y": 20,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      },
+      {
+        "designator": "6",
+        "name": "IN",
+        "electrical_type": "passive",
+        "x": 70,
+        "y": 0,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -70,
+        "y1": -10,
+        "x2": 70,
+        "y2": 60
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_TDS3311P_SEMTECH",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Semtech",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "TDS3311P.C",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "33V working;42Vmax specified35A pulse",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Semtech TDS3311P Rev2.4 pp2,7-9; official product portal confirms33V orderTDS3311P.C",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "PROTOTYPE_APPROVED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "None",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "RC0603FR-0762KL",
+    "designator": "R?",
+    "description": "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets; 62.0kOhm1%0.1W75V; ",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -70,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 70,
+        "y": 0,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -70,
+        "y1": -10,
+        "x2": 70,
+        "y2": 20
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Yageo",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "RC0603FR-0762KL",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "62.0kOhm1%0.1W75V",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "PROTOTYPE_APPROVED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "None",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "RC0603FR-0715KL",
+    "designator": "R?",
+    "description": "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets; 15.0kOhm1%0.1W75V; ",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -70,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 70,
+        "y": 0,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -70,
+        "y1": -10,
+        "x2": 70,
+        "y2": 20
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Yageo",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "RC0603FR-0715KL",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "15.0kOhm1%0.1W75V",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "PROTOTYPE_APPROVED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "None",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "C5750X7R2A475K230KA",
+    "designator": "C?",
+    "description": "TDK C5750X7R2A475K230KA exact2014web-derived PDF p1 lands,p2 DCbias; current official product page same PA/PB/PC; 4.7uF10%100VX7R; ",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -70,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 70,
+        "y": 0,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -70,
+        "y1": -10,
+        "x2": 70,
+        "y2": 20
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_C5750_TDK_REFLOW",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "TDK",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "C5750X7R2A475K230KA",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "4.7uF10%100VX7R",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "TDK C5750X7R2A475K230KA exact2014web-derived PDF p1 lands,p2 DCbias; current official product page same PA/PB/PC",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "PROTOTYPE_APPROVED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "None",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "C0805C224K1RACTU",
+    "designator": "C?",
+    "description": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805; 220nF10%100VX7R; ",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -70,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 70,
+        "y": 0,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -70,
+        "y1": -10,
+        "x2": 70,
+        "y2": 20
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_0805_KEMET_NOMINAL",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "KEMET",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "C0805C224K1RACTU",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "220nF10%100VX7R",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "PROTOTYPE_APPROVED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "None",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "C0805C225K5RACTU",
+    "designator": "C?",
+    "description": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805; 2.2uF10%50VX7R; VCC5V local bypass;2.2uF prototype selection replaces known insufficient1uF part. Assumed>=60% bias retention; verify stableVCC at bring-up.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -70,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 70,
+        "y": 0,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -70,
+        "y1": -10,
+        "x2": 70,
+        "y2": 20
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_0805_KEMET_NOMINAL",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "KEMET",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "C0805C225K5RACTU",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "2.2uF10%50VX7R",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "PROTOTYPE_APPROVED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "VCC5V local bypass;2.2uF prototype selection replaces known insufficient1uF part. Assumed>=60% bias retention; verify stableVCC at bring-up.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "C0603C680J5GACTU",
+    "designator": "C?",
+    "description": "KEMET C0603C680J5GACTU exact manufacturer spec; shared1608 body; KEMET C1027Table3p12 nominal1608 lands; 68pF5%50VC0G; DNP in frozen BOM; dvdt open. Fit only if startup review/measurement requires slower ramp.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -70,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 70,
+        "y": 0,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -70,
+        "y1": -10,
+        "x2": 70,
+        "y2": 20
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "KEMET",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "C0603C680J5GACTU",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "68pF5%50VC0G",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "KEMET C0603C680J5GACTU exact manufacturer spec; shared1608 body; KEMET C1027Table3p12 nominal1608 lands",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "PROTOTYPE_APPROVED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "DNP in frozen BOM; dvdt open. Fit only if startup review/measurement requires slower ramp.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "C3225X7R1C156M250AB",
+    "designator": "C?",
+    "description": "TDK official C3225X7R1C156M250AB product page lands PA2.0-2.4 PB1.0-1.2 PC1.9-2.5; TI table10-1 rated45uF example; 15uF20%16VX7R; 3 per buck:45uF rated per TI1MHz example. Prototype load-step/ripple confirmation pending; do not connect to24V input.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -70,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "hidden": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 70,
+        "y": 0,
+        "length": 20,
+        "orientation": "right",
+        "hidden": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -70,
+        "y1": -10,
+        "x2": 70,
+        "y2": 20
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_C3225_TDK_REFLOW",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "TDK",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "C3225X7R1C156M250AB",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "15uF20%16VX7R",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "TDK official C3225X7R1C156M250AB product page lands PA2.0-2.4 PB1.0-1.2 PC1.9-2.5; TI table10-1 rated45uF example",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "PROTOTYPE_APPROVED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "3 per buck:45uF rated per TI1MHz example. Prototype load-step/ripple confirmation pending; do not connect to24V input.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  }
+]

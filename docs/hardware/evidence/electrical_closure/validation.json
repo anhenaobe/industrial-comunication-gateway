@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-11-07T05:57:53.754998+00:00",
+  "protected_files": 2782,
+  "unchanged_protected_files": 2779,
+  "intended_changed_native_files": {
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib": {
+      "before": "840659f16036efbcf25c9187c358203cda096e27876e9b6aadae155758710590",
+      "after": "bd537ae6945dee59863f974c567a1581e23eb5872219a6f8cb5e1fecf5744785"
+    },
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib": {
+      "before": "fbc2177642108595aeae944ace2593c761e76ecb712278c816771669f8397e00",
+      "after": "8fa742631dafb542364a4326e4345583046a0be2a16c69df28413030a616d5a2"
+    },
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Project Outputs for Gateway_Academic\\Gateway_Academic.IntLib": {
+      "before": "2bc4ecc4b191c354467e71dc10652edc36261beb1e81001f3ca112d7b9f5fa30",
+      "after": "358fbb2931b64476f4cd528cf62790ce388a69cd66b4a5e30af3139d3360aca4"
+    }
+  },
+  "revA_academic_sheet_board_and_firmware_preserved": true,
+  "original_library_objects_unchanged": true,
+  "authored_symbol_readbacks": 9,
+  "authored_footprint_readbacks": 8,
+  "geometry_tolerance_mm": 2e-05,
+  "compiled_source_byte_identity": true,
+  "compiled_symbol_count": 46,
+  "compiled_footprint_count": 23,
+  "compiler_warnings": [
+    {
+      "message": "Missing Component Models",
+      "source": "Gateway_Academic.SchLib",
+      "severity": "Warning",
+      "suppressed": false
+    },
+    {
+      "message": "Missing Component Models",
+      "source": "Gateway_Academic.SchLib",
+      "severity": "Warning",
+      "suppressed": false
+    },
+    {
+      "message": "Missing Component Models",
+      "source": "Gateway_Academic.SchLib",
+      "severity": "Warning",
+      "suppressed": false
+    },
+    {
+      "message": "Missing Component Models",
+      "source": "Gateway_Academic.SchLib",
+      "severity": "Warning",
+      "suppressed": false
+    },
+    {
+      "message": "Missing Component Models",
+      "source": "Gateway_Academic.SchLib",
+      "severity": "Warning",
+      "suppressed": false
+    },
+    {
+      "message": "Missing Component Models",
+      "source": "Gateway_Academic.SchLib",
+      "severity": "Warning",
+      "suppressed": false
+    }
+  ],
+  "unlinked_retained_symbols": [
+    "BSP75NTA",
+    "GW_Sw_PUSH_4.5x4.5x5.0xmm_0f078dd9",
+    "GW_XAL4030-682MEC_71dfd711",
+    "GW_C5750X7R2A475K230KA_5f18f946",
+    "GW_C3225X7R1C156M250AB_bb412b42",
+    "GW_XAL4040-103MEC_b36cb917"
+  ],
+  "bom_rows": 114,
+  "mapping_rows": 122,
+  "final_bom_rows": 122,
+  "active_specifications": 8,
+  "active_units": 10,
+  "generator_idempotent": true,
+  "git_diff_check_exit_code": 0,
+  "git_diff_check_output": "warning: in the working copy of 'firmware/poc/.gitignore', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'firmware/poc/CMakeLists.txt', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'firmware/poc/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'firmware/poc/prj.conf', LF will be replaced by CRLF the next time Git touches it\n",
+  "native_engine_released": true,
+  "limitations": [
+    "No full schematic, ERC/DRC, routed board, thermal/loop test or industrial compliance test",
+    "BSP numbered map and loaded protection drive blocked; buck effective-capacitance and input fault coordination blocked",
+    "Source-backed CAD candidates still require mask/stencil, courtyard/height and fabrication qualification"
+  ]
+}

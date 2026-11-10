@@ -1,0 +1,14 @@
+[
+  {
+    "file": "hardware\\academic_rev1\\libraries\\sources\\electrical_closure\\Firstohm_MM.pdf",
+    "url": "https://www.alfatec.de/fileadmin/productfiles/datasheets/firstohm_mm.pdf",
+    "sha256": "43e8826f05456ab4933e28d5bad1344686ff3ca193dc42b81fe32eb7127b3015",
+    "bytes": 1232455
+  },
+  {
+    "file": "hardware\\academic_rev1\\libraries\\sources\\electrical_closure\\SOT223-Type-DN.pdf",
+    "url": "https://www.diodes.com/assets/Package-Files/SOT223-Type-DN.pdf",
+    "sha256": "6065c75a81ba507a288efdd96c2b580e5055e97087762f05579581985a31139b",
+    "bytes": 308431
+  }
+]

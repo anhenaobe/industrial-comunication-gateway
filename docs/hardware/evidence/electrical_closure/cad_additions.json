@@ -1,0 +1,152 @@
+[
+  {
+    "asset_id": "KC2016Z25.0000C15XXK",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "MCU_YHSE",
+      "ETH_Y25"
+    ],
+    "mpn": "KC2016Z25.0000C15XXK",
+    "symbol": "KC2016Z25.0000C15XXK",
+    "footprint": "GW_KC2016Z_KYOCERA",
+    "source": "Kyocera TNY1T-H1-DEX01-11 17-Jul-2026 pp4,6 table2 fig4",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Two independent oscillators proposed; 10nF per supply. Tie1 to3V3. Load<=15pF and PHY phase-noise qualification pending.",
+    "package_requirement": "GW_KC2016Z_KYOCERA"
+  },
+  {
+    "asset_id": "HX1188FNL",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "ETH_TMAG"
+    ],
+    "mpn": "HX1188FNL",
+    "symbol": "HX1188FNL",
+    "footprint": "GW_HX1188FNL_PULSE",
+    "source": "Pulse HX1188FNL revB 30-May-2014 sheets2-3 PS-2005.002-D",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Use exact winding map; NC4,5,12,13 remain unconnected. FNLT is packaging variant; selected MPN FNL.",
+    "package_requirement": "GW_HX1188FNL_PULSE"
+  },
+  {
+    "asset_id": "XAL4030-682MEC",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "B3_L"
+    ],
+    "mpn": "XAL4030-682MEC",
+    "symbol": "XAL4030-682MEC",
+    "footprint": "GW_XAL4030_COILCRAFT",
+    "source": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.",
+    "package_requirement": "GW_XAL4030_COILCRAFT"
+  },
+  {
+    "asset_id": "XAL4040-103MEC",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "B5_L"
+    ],
+    "mpn": "XAL4040-103MEC",
+    "symbol": "XAL4040-103MEC",
+    "footprint": "GW_XAL4040_COILCRAFT",
+    "source": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.",
+    "package_requirement": "GW_XAL4040_COILCRAFT"
+  },
+  {
+    "asset_id": "CDSOT23-SM712",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "RS_TVS"
+    ],
+    "mpn": "CDSOT23-SM712",
+    "symbol": "CDSOT23-SM712",
+    "footprint": "GW_SM712_BOURNS",
+    "source": "Bourns CDSOT23-SM712 saved2026-11-07 pp1-2 pin diagram and Recommended Footprint",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "CAD mapping supported; no transferred 1kV surge rating for THVD1420. Populate only after protection qualification.",
+    "package_requirement": "GW_SM712_BOURNS"
+  },
+  {
+    "asset_id": "TPD4E05U06DQAR",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "ETH_DESD"
+    ],
+    "mpn": "TPD4E05U06DQAR",
+    "symbol": "TPD4E05U06DQAR",
+    "footprint": "GW_DQA0010A_TI",
+    "source": "TI SLVSBO7O table4-2 p4; DQA0010A 4220328/A board/stencil pp29-30",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "PHY-side only, per DP83826EVM sheet3. GND3/8 to logic GND. NC6/7/9/10 may be pass-through pads; preserve isolation.",
+    "package_requirement": "GW_DQA0010A_TI"
+  },
+  {
+    "asset_id": "SS-7188S-A-NF",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "ETH_JRJ45"
+    ],
+    "mpn": "SS-7188S-A-NF",
+    "symbol": "SS-7188S-A-NF",
+    "footprint": "GW_SS7188SANF_STEWART",
+    "source": "Cinch/Stewart CT710001 revB0 10-Jul-2023 component-side recommended hole layout",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Numbered contacts per component-side drawing. S1/S2 are project labels for unnumbered shield tabs; MP1/2 are non-electrical mounting holes. Candidate copper lands; sourcing risk separate.",
+    "package_requirement": "GW_SS7188SANF_STEWART"
+  },
+  {
+    "asset_id": "MM204F1K00TKRTR3K0",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "DI_RTHR1",
+      "DI_RTHR2"
+    ],
+    "mpn": "MM204F1K00TKRTR3K0",
+    "symbol": "MM204F1K00TKRTR3K0",
+    "footprint": "GW_MM204_FIRSTOHM",
+    "source": "Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "1kOhm1%,0.25W@70C; normal Type3 operation supported. 500V/1kV system surge withstand NOT established.",
+    "package_requirement": "GW_MM204_FIRSTOHM"
+  },
+  {
+    "asset_id": "RC0603FR-0710KL",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "MCU_RBOOT",
+      "RS_RDE",
+      "RS_RRE",
+      "DO_RPDA",
+      "DO_RPDB"
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "symbol": "RC0603FR-0710KL",
+    "footprint": "GW_CAND_0603_res",
+    "source": "Existing exact Yageo RC0603FR-0710KL sheet p1; AN5419 boot example; TI SLLSF78B section10.1",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "10kOhm1%0.1W@70C; replaces unqualified FOJAN identity. Shared professor lands remain CAD_CANDIDATE, not qualified manufacturer lands.",
+    "package_requirement": "GW_CAND_0603_res"
+  }
+]

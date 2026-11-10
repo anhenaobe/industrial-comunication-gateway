@@ -1,0 +1,2107 @@
+[
+  {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\": \"success\", \"filepath\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\SS3P6L-M386A.SchLib\", \"component_name\": \"SS3P6L-M386A\", \"component\": {\"name\": \"SS3P6L-M386A\", \"description\": \"3A, 60V SMPC SKY RECT.\", \"part_count\": 1, \"current_part_id\": 1, \"display_mode_count\": 1, \"part_id_locked\": true, \"source_library_name\": \"*\", \"target_file_name\": \"*\", \"all_pin_count\": 3, \"header_params\": [[\"RECORD\", \"1\"], [\"LibReference\", \"SS3P6L-M386A\"], [\"ComponentDescription\", \"3A, 60V SMPC SKY RECT.\"], [\"PartCount\", \"2\"], [\"DisplayModeCount\", \"1\"], [\"IndexInSheet\", \"-1\"], [\"OwnerPartId\", \"-1\"], [\"CurrentPartId\", \"1\"], [\"LibraryPath\", \"*\"], [\"SourceLibraryName\", \"*\"], [\"SheetPartFileName\", \"*\"], [\"TargetFileName\", \"*\"], [\"UniqueID\", \"DDJJASVI\"], [\"AreaColor\", \"11599871\"], [\"Color\", \"128\"], [\"PartIDLocked\", \"T\"], [\"AllPinCount\", \"3\"]], \"parameters\": [{\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"justification\": 4, \"color\": 8388608, \"font_id\": 2, \"hidden\": true, \"value\": \"Copyright (C) 2025 Ultra Librarian. All rights reserved.\", \"name\": \"Copyright\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"RMDPQUBX\", \"raw_params\": [[\"RECORD\", \"41\"], [\"OwnerPartId\", \"1\"], [\"Justification\", \"4\"], [\"FontID\", \"2\"], [\"IsHidden\", \"T\"], [\"Text\", \"Copyright (C) 2025 Ultra Librarian. All rights reserved.\"], [\"Name\", \"Copyright\"], [\"UniqueID\", \"RMDPQUBX\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"justification\": 4, \"color\": 8388608, \"font_id\": 2, \"hidden\": true, \"value\": \"Vishay\", \"name\": \"Manufacturer_Name\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"KJOGJQSM\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"1\"], [\"OwnerPartId\", \"1\"], [\"Justification\", \"4\"], [\"FontID\", \"2\"], [\"IsHidden\", \"T\"], [\"Text\", \"Vishay\"], [\"Name\", \"Manufacturer_Name\"], [\"UniqueID\", \"KJOGJQSM\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"justification\": 4, \"color\": 8388608, \"font_id\": 2, \"hidden\": true, \"value\": \"SS3P6L-M3/86A\", \"name\": \"Manufacturer_Part_Number\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"VGIUHRSI\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"2\"], [\"OwnerPartId\", \"1\"], [\"Justification\", \"4\"], [\"FontID\", \"2\"], [\"IsHidden\", \"T\"], [\"Text\", \"SS3P6L-M3/86A\"], [\"Name\", \"Manufacturer_Part_Number\"], [\"UniqueID\", \"VGIUHRSI\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"justification\": 4, \"color\": 8388608, \"font_id\": 2, \"hidden\": true, \"value\": \"3A, 60V SMPC SKY RECT.\", \"name\": \"Description\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"ICRFVMKG\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"3\"], [\"OwnerPartId\", \"1\"], [\"Justification\", \"4\"], [\"FontID\", \"2\"], [\"IsHidden\", \"T\"], [\"Text\", \"3A, 60V SMPC SKY RECT.\"], [\"Name\", \"Description\"], [\"UniqueID\", \"ICRFVMKG\"]]}, {\"owner_part_id\": 1, \"x\": 65.0, \"y\": 155.0, \"justification\": 4, \"color\": 8388608, \"font_id\": 3, \"hidden\": true, \"value\": \"RefDes\", \"name\": \"RefDes\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"LHFUYHKY\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"4\"], [\"OwnerPartId\", \"1\"], [\"Location.X\", \"65\"], [\"Location.Y\", \"155\"], [\"Justification\", \"4\"], [\"FontID\", \"3\"], [\"IsHidden\", \"T\"], [\"Text\", \"RefDes\"], [\"Name\", \"RefDes\"], [\"UniqueID\", \"LHFUYHKY\"]]}, {\"owner_part_id\": 1, \"x\": 65.0, \"y\": 145.0, \"justification\": 4, \"color\": 8388608, \"font_id\": 3, \"hidden\": true, \"value\": \"Type\", \"name\": \"Type\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"NFHFEHBR\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"5\"], [\"OwnerPartId\", \"1\"], [\"Location.X\", \"65\"], [\"Location.Y\", \"145\"], [\"Justification\", \"4\"], [\"FontID\", \"3\"], [\"IsHidden\", \"T\"], [\"Text\", \"Type\"], [\"Name\", \"Type\"], [\"UniqueID\", \"NFHFEHBR\"]]}, {\"owner_part_id\": -1, \"x\": -5.0, \"y\": -15.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": false, \"value\": \"SS3P6L-M3/86A\", \"name\": \"Comment\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"ZHUCKYON\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"-1\"], [\"OwnerPartId\", \"-1\"], [\"Location.X\", \"-5\"], [\"Location.Y\", \"-15\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"Text\", \"SS3P6L-M3/86A\"], [\"Name\", \"Comment\"], [\"UniqueID\", \"ZHUCKYON\"]]}], \"pins\": [{\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"passive\", \"orientation\": \"down\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": true, \"graphically_locked\": false, \"length\": 30, \"x\": 0, \"y\": 30, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"Anode\", \"designator\": \"1\", \"swap_id_group\": \"0\", \"part_and_sequence\": \"0|&|1\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"passive\", \"orientation\": \"up\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": true, \"graphically_locked\": false, \"length\": 30, \"x\": 50, \"y\": 100, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"CATHODE\", \"designator\": \"2\", \"swap_id_group\": \"0\", \"part_and_sequence\": \"0|&|2\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"passive\", \"orientation\": \"down\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": true, \"graphically_locked\": false, \"length\": 30, \"x\": 100, \"y\": 30, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"Anode\", \"designator\": \"3\", \"swap_id_group\": \"0\", \"part_and_sequence\": \"0|&|3\"}], \"lines\": [{\"owner_part_id\": 1, \"is_not_accessible\": true, \"x1\": 100.0, \"y1\": 65.0, \"x2\": 100.0, \"y2\": 30.0, \"line_width\": 1, \"line_style\": 0, \"color\": 128, \"unique_id\": \"FNAFHAUZ\", \"raw_params\": [[\"RECORD\", \"13\"], [\"IsNotAccesible\", \"T\"], [\"IndexInSheet\", \"9\"], [\"OwnerPartId\", \"1\"], [\"Location.X\", \"100\"], [\"Location.Y\", \"65\"], [\"Corner.X\", \"100\"], [\"Corner.Y\", \"30\"], [\"LineWidth\", \"1\"], [\"UniqueID\", \"FNAFHAUZ\"]]}, {\"owner_part_id\": 1, \"is_not_accessible\": true, \"x1\": 0.0, \"y1\": 65.0, \"x2\": 100.0, \"y2\": 65.0, \"line_width\": 1, \"line_style\": 0, \"color\": 128, \"unique_id\": \"PUFXMXJC\", \"raw_params\": [[\"RECORD\", \"13\"], [\"IsNotAccesible\", \"T\"], [\"IndexInSheet\", \"10\"], [\"OwnerPartId\", \"1\"], [\"Location.Y\", \"65\"], [\"Corner.X\", \"100\"], [\"Corner.Y\", \"65\"], [\"LineWidth\", \"1\"], [\"UniqueID\", \"PUFXMXJC\"]]}, {\"owner_part_id\": 1, \"is_not_accessible\": true, \"x1\": 50.0, \"y1\": 65.0, \"x2\": 50.0, \"y2\": 100.0, \"line_width\": 1, \"line_style\": 0, \"color\": 128, \"unique_id\": \"XZUDMEUM\", \"raw_params\": [[\"RECORD\", \"13\"], [\"IsNotAccesible\", \"T\"], [\"IndexInSheet\", \"11\"], [\"OwnerPartId\", \"1\"], [\"Location.X\", \"50\"], [\"Location.Y\", \"65\"], [\"Corner.X\", \"50\"], [\"Corner.Y\", \"100\"], [\"LineWidth\", \"1\"], [\"UniqueID\", \"XZUDMEUM\"]]}, {\"owner_part_id\": 1, \"is_not_accessible\": true, \"x1\": 55.0, \"y1\": 75.0, \"x2\": 45.0, \"y2\": 75.0, \"line_width\": 1, \"line_style\": 0, \"color\": 128, \"unique_id\": \"CQKCLEMZ\", \"raw_params\": [[\"RECORD\", \"13\"], [\"IsNotAccesible\", \"T\"], [\"IndexInSheet\", \"12\"], [\"OwnerPartId\", \"1\"], [\"Location.X\", \"55\"], [\"Location.Y\", \"75\"], [\"Corner.X\", \"45\"], [\"Corner.Y\", \"75\"], [\"LineWidth\", \"1\"], [\"UniqueID\", \"CQKCLEMZ\"]]}, {\"owner_part_id\": 1, \"is_not_accessible\": true, \"x1\": 55.0, \"y1\": 85.0, \"x2\": 45.0, \"y2\": 85.0, \"line_width\": 1, \"line_style\": 0, \"color\": 128, \"unique_id\": \"OTHBIKII\", \"raw_params\": [[\"RECORD\", \"13\"], [\"IsNotAccesible\", \"T\"], [\"IndexInSheet\", \"13\"], [\"OwnerPartId\", \"1\"], [\"Location.X\", \"55\"], [\"Location.Y\", \"85\"], [\"Corner.X\", \"45\"], [\"Corner.Y\", \"85\"], [\"LineWidth\", \"1\"], [\"UniqueID\", \"OTHBIKII\"]]}, {\"owner_part_id\": 1, \"is_not_accessible\": true, \"x1\": 50.0, \"y1\": 85.0, \"x2\": 45.0, \"y2\": 75.0, \"line_width\": 1, \"line_style\": 0, \"color\": 128, \"unique_id\": \"AWOZLEGA\", \"raw_params\": [[\"RECORD\", \"13\"], [\"IsNotAccesible\", \"T\"], [\"IndexInSheet\", \"14\"], [\"OwnerPartId\", \"1\"], [\"Location.X\", \"50\"], [\"Location.Y\", \"85\"], [\"Corner.X\", \"45\"], [\"Corner.Y\", \"75\"], [\"LineWidth\", \"1\"], [\"UniqueID\", \"AWOZLEGA\"]]}, {\"owner_part_id\": 1, \"is_not_accessible\": true, \"x1\": 55.0, \"y1\": 75.0, \"x2\": 50.0, \"y2\": 85.0, \"line_width\": 1, \"line_style\": 0, \"color\": 128, \"unique_id\": \"OEUWGBXA\", \"raw_params\": [[\"RECORD\", \"13\"], [\"IsNotAccesible\", \"T\"], [\"IndexInSheet\", \"15\"], [\"OwnerPartId\", \"1\"], [\"Location.X\", \"55\"], [\"Location.Y\", \"75\"], [\"Corner.X\", \"50\"], [\"Corner.Y\", \"85\"], [\"LineWidth\", \"1\"], [\"UniqueID\", \"OEUWGBXA\"]]}, {\"owner_part_id\": 1, \"is_not_accessible\": true, \"x1\": 0.0, \"y1\": 65.0, \"x2\": 0.0, \"y2\": 25.0, \"line_width\": 1, \"line_style\": 0, \"color\": 128, \"unique_id\": \"TODRPSOL\", \"raw_params\": [[\"RECORD\", \"13\"], [\"IsNotAccesible\", \"T\"], [\"IndexInSheet\", \"16\"], [\"OwnerPartId\", \"1\"], [\"Location.Y\", \"65\"], [\"Corner.Y\", \"25\"], [\"LineWidth\", \"1\"], [\"UniqueID\", \"TODRPSOL\"]]}], \"polygons\": [{\"owner_part_id\": 1, \"is_not_accessible\": true, \"line_width\": 1, \"line_color\": 128, \"fill_color\": 12632256, \"filled\": true, \"transparent\": false, \"line_style\": 0, \"unique_id\": \"HGITQITM\", \"points\": [{\"x\": 50.0, \"y\": 85.0}, {\"x\": 45.0, \"y\": 75.0}, {\"x\": 55.0, \"y\": 75.0}], \"raw_params\": [[\"RECORD\", \"7\"], [\"IsNotAccesible\", \"T\"], [\"IndexInSheet\", \"17\"], [\"OwnerPartId\", \"1\"], [\"AreaColor\", \"12632256\"], [\"IsSolid\", \"T\"], [\"LocationCount\", \"3\"], [\"X1\", \"50\"], [\"Y1\", \"85\"], [\"X2\", \"45\"], [\"Y2\", \"75\"], [\"X3\", \"55\"], [\"Y3\", \"75\"], [\"UniqueID\", \"HGITQITM\"]]}], \"designator\": \"U?\", \"designator_x\": -5.0, \"designator_y\": 5.0, \"designator_unique_id\": \"TVHNDVBX\", \"footprints\": [{\"name\": \"SS3P6L-M386A_VIS\", \"is_current\": false, \"raw_params\": [[\"RECORD\", \"45\"], [\"OwnerIndex\", \"21\"], [\"IndexInSheet\", \"-1\"], [\"ModelName\", \"SS3P6L-M386A_VIS\"], [\"ModelType\", \"PCBLIB\"], [\"DatafileCount\", \"1\"], [\"ModelDatafileEntity0\", \"SS3P6L-M386A_VIS\"], [\"ModelDatafileKind0\", \"PCBLIB\"], [\"UniqueID\", \"NVXJZYFA\"]], \"unique_id\": \"NVXJZYFA\"}], \"primitive_order\": [\"parameter\", \"parameter\", \"parameter\", \"parameter\", \"parameter\", \"parameter\", \"pin\", \"pin\", \"pin\", \"line\", \"line\", \"line\", \"line\", \"line\", \"line\", \"line\", \"line\", \"polygon\", \"parameter\"]}, \"type\": \"SchLib\", \"units\": \"schematic units (10 = 1 grid)\", \"message\": \"Retrieved symbol 'SS3P6L-M386A' from 'C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\SS3P6L-M386A.SchLib'\"}"
+      }
+    ],
+    "structuredContent": {
+      "status": "success",
+      "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\SS3P6L-M386A.SchLib",
+      "component_name": "SS3P6L-M386A",
+      "component": {
+        "name": "SS3P6L-M386A",
+        "description": "3A, 60V SMPC SKY RECT.",
+        "part_count": 1,
+        "current_part_id": 1,
+        "display_mode_count": 1,
+        "part_id_locked": true,
+        "source_library_name": "*",
+        "target_file_name": "*",
+        "all_pin_count": 3,
+        "header_params": [
+          [
+            "RECORD",
+            "1"
+          ],
+          [
+            "LibReference",
+            "SS3P6L-M386A"
+          ],
+          [
+            "ComponentDescription",
+            "3A, 60V SMPC SKY RECT."
+          ],
+          [
+            "PartCount",
+            "2"
+          ],
+          [
+            "DisplayModeCount",
+            "1"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "OwnerPartId",
+            "-1"
+          ],
+          [
+            "CurrentPartId",
+            "1"
+          ],
+          [
+            "LibraryPath",
+            "*"
+          ],
+          [
+            "SourceLibraryName",
+            "*"
+          ],
+          [
+            "SheetPartFileName",
+            "*"
+          ],
+          [
+            "TargetFileName",
+            "*"
+          ],
+          [
+            "UniqueID",
+            "DDJJASVI"
+          ],
+          [
+            "AreaColor",
+            "11599871"
+          ],
+          [
+            "Color",
+            "128"
+          ],
+          [
+            "PartIDLocked",
+            "T"
+          ],
+          [
+            "AllPinCount",
+            "3"
+          ]
+        ],
+        "parameters": [
+          {
+            "owner_part_id": 1,
+            "x": 0,
+            "y": 0,
+            "justification": 4,
+            "color": 8388608,
+            "font_id": 2,
+            "hidden": true,
+            "value": "Copyright (C) 2025 Ultra Librarian. All rights reserved.",
+            "name": "Copyright",
+            "read_only_state": 0,
+            "param_type": 0,
+            "unique_id": "RMDPQUBX",
+            "raw_params": [
+              [
+                "RECORD",
+                "41"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Justification",
+                "4"
+              ],
+              [
+                "FontID",
+                "2"
+              ],
+              [
+                "IsHidden",
+                "T"
+              ],
+              [
+                "Text",
+                "Copyright (C) 2025 Ultra Librarian. All rights reserved."
+              ],
+              [
+                "Name",
+                "Copyright"
+              ],
+              [
+                "UniqueID",
+                "RMDPQUBX"
+              ]
+            ]
+          },
+          {
+            "owner_part_id": 1,
+            "x": 0,
+            "y": 0,
+            "justification": 4,
+            "color": 8388608,
+            "font_id": 2,
+            "hidden": true,
+            "value": "Vishay",
+            "name": "Manufacturer_Name",
+            "read_only_state": 0,
+            "param_type": 0,
+            "unique_id": "KJOGJQSM",
+            "raw_params": [
+              [
+                "RECORD",
+                "41"
+              ],
+              [
+                "IndexInSheet",
+                "1"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Justification",
+                "4"
+              ],
+              [
+                "FontID",
+                "2"
+              ],
+              [
+                "IsHidden",
+                "T"
+              ],
+              [
+                "Text",
+                "Vishay"
+              ],
+              [
+                "Name",
+                "Manufacturer_Name"
+              ],
+              [
+                "UniqueID",
+                "KJOGJQSM"
+              ]
+            ]
+          },
+          {
+            "owner_part_id": 1,
+            "x": 0,
+            "y": 0,
+            "justification": 4,
+            "color": 8388608,
+            "font_id": 2,
+            "hidden": true,
+            "value": "SS3P6L-M3/86A",
+            "name": "Manufacturer_Part_Number",
+            "read_only_state": 0,
+            "param_type": 0,
+            "unique_id": "VGIUHRSI",
+            "raw_params": [
+              [
+                "RECORD",
+                "41"
+              ],
+              [
+                "IndexInSheet",
+                "2"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Justification",
+                "4"
+              ],
+              [
+                "FontID",
+                "2"
+              ],
+              [
+                "IsHidden",
+                "T"
+              ],
+              [
+                "Text",
+                "SS3P6L-M3/86A"
+              ],
+              [
+                "Name",
+                "Manufacturer_Part_Number"
+              ],
+              [
+                "UniqueID",
+                "VGIUHRSI"
+              ]
+            ]
+          },
+          {
+            "owner_part_id": 1,
+            "x": 0,
+            "y": 0,
+            "justification": 4,
+            "color": 8388608,
+            "font_id": 2,
+            "hidden": true,
+            "value": "3A, 60V SMPC SKY RECT.",
+            "name": "Description",
+            "read_only_state": 0,
+            "param_type": 0,
+            "unique_id": "ICRFVMKG",
+            "raw_params": [
+              [
+                "RECORD",
+                "41"
+              ],
+              [
+                "IndexInSheet",
+                "3"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Justification",
+                "4"
+              ],
+              [
+                "FontID",
+                "2"
+              ],
+              [
+                "IsHidden",
+                "T"
+              ],
+              [
+                "Text",
+                "3A, 60V SMPC SKY RECT."
+              ],
+              [
+                "Name",
+                "Description"
+              ],
+              [
+                "UniqueID",
+                "ICRFVMKG"
+              ]
+            ]
+          },
+          {
+            "owner_part_id": 1,
+            "x": 65,
+            "y": 155,
+            "justification": 4,
+            "color": 8388608,
+            "font_id": 3,
+            "hidden": true,
+            "value": "RefDes",
+            "name": "RefDes",
+            "read_only_state": 0,
+            "param_type": 0,
+            "unique_id": "LHFUYHKY",
+            "raw_params": [
+              [
+                "RECORD",
+                "41"
+              ],
+              [
+                "IndexInSheet",
+                "4"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Location.X",
+                "65"
+              ],
+              [
+                "Location.Y",
+                "155"
+              ],
+              [
+                "Justification",
+                "4"
+              ],
+              [
+                "FontID",
+                "3"
+              ],
+              [
+                "IsHidden",
+                "T"
+              ],
+              [
+                "Text",
+                "RefDes"
+              ],
+              [
+                "Name",
+                "RefDes"
+              ],
+              [
+                "UniqueID",
+                "LHFUYHKY"
+              ]
+            ]
+          },
+          {
+            "owner_part_id": 1,
+            "x": 65,
+            "y": 145,
+            "justification": 4,
+            "color": 8388608,
+            "font_id": 3,
+            "hidden": true,
+            "value": "Type",
+            "name": "Type",
+            "read_only_state": 0,
+            "param_type": 0,
+            "unique_id": "NFHFEHBR",
+            "raw_params": [
+              [
+                "RECORD",
+                "41"
+              ],
+              [
+                "IndexInSheet",
+                "5"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Location.X",
+                "65"
+              ],
+              [
+                "Location.Y",
+                "145"
+              ],
+              [
+                "Justification",
+                "4"
+              ],
+              [
+                "FontID",
+                "3"
+              ],
+              [
+                "IsHidden",
+                "T"
+              ],
+              [
+                "Text",
+                "Type"
+              ],
+              [
+                "Name",
+                "Type"
+              ],
+              [
+                "UniqueID",
+                "NFHFEHBR"
+              ]
+            ]
+          },
+          {
+            "owner_part_id": -1,
+            "x": -5,
+            "y": -15,
+            "color": 8388608,
+            "font_id": 1,
+            "hidden": false,
+            "value": "SS3P6L-M3/86A",
+            "name": "Comment",
+            "read_only_state": 0,
+            "param_type": 0,
+            "unique_id": "ZHUCKYON",
+            "raw_params": [
+              [
+                "RECORD",
+                "41"
+              ],
+              [
+                "IndexInSheet",
+                "-1"
+              ],
+              [
+                "OwnerPartId",
+                "-1"
+              ],
+              [
+                "Location.X",
+                "-5"
+              ],
+              [
+                "Location.Y",
+                "-15"
+              ],
+              [
+                "Color",
+                "8388608"
+              ],
+              [
+                "FontID",
+                "1"
+              ],
+              [
+                "Text",
+                "SS3P6L-M3/86A"
+              ],
+              [
+                "Name",
+                "Comment"
+              ],
+              [
+                "UniqueID",
+                "ZHUCKYON"
+              ]
+            ]
+          }
+        ],
+        "pins": [
+          {
+            "owner_part_id": 1,
+            "owner_part_display_mode": 0,
+            "formal_type": 1,
+            "electrical_type": "passive",
+            "orientation": "down",
+            "hidden": false,
+            "show_name": true,
+            "show_designator": true,
+            "is_not_accessible": true,
+            "graphically_locked": false,
+            "length": 30,
+            "x": 0,
+            "y": 30,
+            "colour": 0,
+            "symbol_inner_edge": "none",
+            "symbol_outer_edge": "none",
+            "symbol_inside": "none",
+            "symbol_outside": "none",
+            "name": "Anode",
+            "designator": "1",
+            "swap_id_group": "0",
+            "part_and_sequence": "0|&|1"
+          },
+          {
+            "owner_part_id": 1,
+            "owner_part_display_mode": 0,
+            "formal_type": 1,
+            "electrical_type": "passive",
+            "orientation": "up",
+            "hidden": false,
+            "show_name": true,
+            "show_designator": true,
+            "is_not_accessible": true,
+            "graphically_locked": false,
+            "length": 30,
+            "x": 50,
+            "y": 100,
+            "colour": 0,
+            "symbol_inner_edge": "none",
+            "symbol_outer_edge": "none",
+            "symbol_inside": "none",
+            "symbol_outside": "none",
+            "name": "CATHODE",
+            "designator": "2",
+            "swap_id_group": "0",
+            "part_and_sequence": "0|&|2"
+          },
+          {
+            "owner_part_id": 1,
+            "owner_part_display_mode": 0,
+            "formal_type": 1,
+            "electrical_type": "passive",
+            "orientation": "down",
+            "hidden": false,
+            "show_name": true,
+            "show_designator": true,
+            "is_not_accessible": true,
+            "graphically_locked": false,
+            "length": 30,
+            "x": 100,
+            "y": 30,
+            "colour": 0,
+            "symbol_inner_edge": "none",
+            "symbol_outer_edge": "none",
+            "symbol_inside": "none",
+            "symbol_outside": "none",
+            "name": "Anode",
+            "designator": "3",
+            "swap_id_group": "0",
+            "part_and_sequence": "0|&|3"
+          }
+        ],
+        "lines": [
+          {
+            "owner_part_id": 1,
+            "is_not_accessible": true,
+            "x1": 100,
+            "y1": 65,
+            "x2": 100,
+            "y2": 30,
+            "line_width": 1,
+            "line_style": 0,
+            "color": 128,
+            "unique_id": "FNAFHAUZ",
+            "raw_params": [
+              [
+                "RECORD",
+                "13"
+              ],
+              [
+                "IsNotAccesible",
+                "T"
+              ],
+              [
+                "IndexInSheet",
+                "9"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Location.X",
+                "100"
+              ],
+              [
+                "Location.Y",
+                "65"
+              ],
+              [
+                "Corner.X",
+                "100"
+              ],
+              [
+                "Corner.Y",
+                "30"
+              ],
+              [
+                "LineWidth",
+                "1"
+              ],
+              [
+                "UniqueID",
+                "FNAFHAUZ"
+              ]
+            ]
+          },
+          {
+            "owner_part_id": 1,
+            "is_not_accessible": true,
+            "x1": 0,
+            "y1": 65,
+            "x2": 100,
+            "y2": 65,
+            "line_width": 1,
+            "line_style": 0,
+            "color": 128,
+            "unique_id": "PUFXMXJC",
+            "raw_params": [
+              [
+                "RECORD",
+                "13"
+              ],
+              [
+                "IsNotAccesible",
+                "T"
+              ],
+              [
+                "IndexInSheet",
+                "10"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Location.Y",
+                "65"
+              ],
+              [
+                "Corner.X",
+                "100"
+              ],
+              [
+                "Corner.Y",
+                "65"
+              ],
+              [
+                "LineWidth",
+                "1"
+              ],
+              [
+                "UniqueID",
+                "PUFXMXJC"
+              ]
+            ]
+          },
+          {
+            "owner_part_id": 1,
+            "is_not_accessible": true,
+            "x1": 50,
+            "y1": 65,
+            "x2": 50,
+            "y2": 100,
+            "line_width": 1,
+            "line_style": 0,
+            "color": 128,
+            "unique_id": "XZUDMEUM",
+            "raw_params": [
+              [
+                "RECORD",
+                "13"
+              ],
+              [
+                "IsNotAccesible",
+                "T"
+              ],
+              [
+                "IndexInSheet",
+                "11"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Location.X",
+                "50"
+              ],
+              [
+                "Location.Y",
+                "65"
+              ],
+              [
+                "Corner.X",
+                "50"
+              ],
+              [
+                "Corner.Y",
+                "100"
+              ],
+              [
+                "LineWidth",
+                "1"
+              ],
+              [
+                "UniqueID",
+                "XZUDMEUM"
+              ]
+            ]
+          },
+          {
+            "owner_part_id": 1,
+            "is_not_accessible": true,
+            "x1": 55,
+            "y1": 75,
+            "x2": 45,
+            "y2": 75,
+            "line_width": 1,
+            "line_style": 0,
+            "color": 128,
+            "unique_id": "CQKCLEMZ",
+            "raw_params": [
+              [
+                "RECORD",
+                "13"
+              ],
+              [
+                "IsNotAccesible",
+                "T"
+              ],
+              [
+                "IndexInSheet",
+                "12"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Location.X",
+                "55"
+              ],
+              [
+                "Location.Y",
+                "75"
+              ],
+              [
+                "Corner.X",
+                "45"
+              ],
+              [
+                "Corner.Y",
+                "75"
+              ],
+              [
+                "LineWidth",
+                "1"
+              ],
+              [
+                "UniqueID",
+                "CQKCLEMZ"
+              ]
+            ]
+          },
+          {
+            "owner_part_id": 1,
+            "is_not_accessible": true,
+            "x1": 55,
+            "y1": 85,
+            "x2": 45,
+            "y2": 85,
+            "line_width": 1,
+            "line_style": 0,
+            "color": 128,
+            "unique_id": "OTHBIKII",
+            "raw_params": [
+              [
+                "RECORD",
+                "13"
+              ],
+              [
+                "IsNotAccesible",
+                "T"
+              ],
+              [
+                "IndexInSheet",
+                "13"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Location.X",
+                "55"
+              ],
+              [
+                "Location.Y",
+                "85"
+              ],
+              [
+                "Corner.X",
+                "45"
+              ],
+              [
+                "Corner.Y",
+                "85"
+              ],
+              [
+                "LineWidth",
+                "1"
+              ],
+              [
+                "UniqueID",
+                "OTHBIKII"
+              ]
+            ]
+          },
+          {
+            "owner_part_id": 1,
+            "is_not_accessible": true,
+            "x1": 50,
+            "y1": 85,
+            "x2": 45,
+            "y2": 75,
+            "line_width": 1,
+            "line_style": 0,
+            "color": 128,
+            "unique_id": "AWOZLEGA",
+            "raw_params": [
+              [
+                "RECORD",
+                "13"
+              ],
+              [
+                "IsNotAccesible",
+                "T"
+              ],
+              [
+                "IndexInSheet",
+                "14"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Location.X",
+                "50"
+              ],
+              [
+                "Location.Y",
+                "85"
+              ],
+              [
+                "Corner.X",
+                "45"
+              ],
+              [
+                "Corner.Y",
+                "75"
+              ],
+              [
+                "LineWidth",
+                "1"
+              ],
+              [
+                "UniqueID",
+                "AWOZLEGA"
+              ]
+            ]
+          },
+          {
+            "owner_part_id": 1,
+            "is_not_accessible": true,
+            "x1": 55,
+            "y1": 75,
+            "x2": 50,
+            "y2": 85,
+            "line_width": 1,
+            "line_style": 0,
+            "color": 128,
+            "unique_id": "OEUWGBXA",
+            "raw_params": [
+              [
+                "RECORD",
+                "13"
+              ],
+              [
+                "IsNotAccesible",
+                "T"
+              ],
+              [
+                "IndexInSheet",
+                "15"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Location.X",
+                "55"
+              ],
+              [
+                "Location.Y",
+                "75"
+              ],
+              [
+                "Corner.X",
+                "50"
+              ],
+              [
+                "Corner.Y",
+                "85"
+              ],
+              [
+                "LineWidth",
+                "1"
+              ],
+              [
+                "UniqueID",
+                "OEUWGBXA"
+              ]
+            ]
+          },
+          {
+            "owner_part_id": 1,
+            "is_not_accessible": true,
+            "x1": 0,
+            "y1": 65,
+            "x2": 0,
+            "y2": 25,
+            "line_width": 1,
+            "line_style": 0,
+            "color": 128,
+            "unique_id": "TODRPSOL",
+            "raw_params": [
+              [
+                "RECORD",
+                "13"
+              ],
+              [
+                "IsNotAccesible",
+                "T"
+              ],
+              [
+                "IndexInSheet",
+                "16"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "Location.Y",
+                "65"
+              ],
+              [
+                "Corner.Y",
+                "25"
+              ],
+              [
+                "LineWidth",
+                "1"
+              ],
+              [
+                "UniqueID",
+                "TODRPSOL"
+              ]
+            ]
+          }
+        ],
+        "polygons": [
+          {
+            "owner_part_id": 1,
+            "is_not_accessible": true,
+            "line_width": 1,
+            "line_color": 128,
+            "fill_color": 12632256,
+            "filled": true,
+            "transparent": false,
+            "line_style": 0,
+            "unique_id": "HGITQITM",
+            "points": [
+              {
+                "x": 50,
+                "y": 85
+              },
+              {
+                "x": 45,
+                "y": 75
+              },
+              {
+                "x": 55,
+                "y": 75
+              }
+            ],
+            "raw_params": [
+              [
+                "RECORD",
+                "7"
+              ],
+              [
+                "IsNotAccesible",
+                "T"
+              ],
+              [
+                "IndexInSheet",
+                "17"
+              ],
+              [
+                "OwnerPartId",
+                "1"
+              ],
+              [
+                "AreaColor",
+                "12632256"
+              ],
+              [
+                "IsSolid",
+                "T"
+              ],
+              [
+                "LocationCount",
+                "3"
+              ],
+              [
+                "X1",
+                "50"
+              ],
+              [
+                "Y1",
+                "85"
+              ],
+              [
+                "X2",
+                "45"
+              ],
+              [
+                "Y2",
+                "75"
+              ],
+              [
+                "X3",
+                "55"
+              ],
+              [
+                "Y3",
+                "75"
+              ],
+              [
+                "UniqueID",
+                "HGITQITM"
+              ]
+            ]
+          }
+        ],
+        "designator": "U?",
+        "designator_x": -5,
+        "designator_y": 5,
+        "designator_unique_id": "TVHNDVBX",
+        "footprints": [
+          {
+            "name": "SS3P6L-M386A_VIS",
+            "is_current": false,
+            "raw_params": [
+              [
+                "RECORD",
+                "45"
+              ],
+              [
+                "OwnerIndex",
+                "21"
+              ],
+              [
+                "IndexInSheet",
+                "-1"
+              ],
+              [
+                "ModelName",
+                "SS3P6L-M386A_VIS"
+              ],
+              [
+                "ModelType",
+                "PCBLIB"
+              ],
+              [
+                "DatafileCount",
+                "1"
+              ],
+              [
+                "ModelDatafileEntity0",
+                "SS3P6L-M386A_VIS"
+              ],
+              [
+                "ModelDatafileKind0",
+                "PCBLIB"
+              ],
+              [
+                "UniqueID",
+                "NVXJZYFA"
+              ]
+            ],
+            "unique_id": "NVXJZYFA"
+          }
+        ],
+        "primitive_order": [
+          "parameter",
+          "parameter",
+          "parameter",
+          "parameter",
+          "parameter",
+          "parameter",
+          "pin",
+          "pin",
+          "pin",
+          "line",
+          "line",
+          "line",
+          "line",
+          "line",
+          "line",
+          "line",
+          "line",
+          "polygon",
+          "parameter"
+        ]
+      },
+      "type": "SchLib",
+      "units": "schematic units (10 = 1 grid)",
+      "message": "Retrieved symbol 'SS3P6L-M386A' from 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\SS3P6L-M386A.SchLib'"
+    },
+    "isError": false
+  },
+  {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\": \"success\", \"filepath\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\SS3P6L-M386A.PcbLib\", \"component_name\": \"SS3P6L-M386A_VIS\", \"component\": {\"name\": \"SS3P6L-M386A_VIS\", \"pads\": [{\"layer\": \"Top Layer\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"flags\": \"LOCKED\", \"designator\": \"1\", \"x\": 0.0, \"y\": 1.5494, \"width\": 4.2672, \"height\": 4.6482, \"relief_conductor_width\": 0.254, \"relief_air_gap\": 0.254, \"power_plane_relief_expansion\": 0.508, \"power_plane_clearance\": 0.508, \"shape\": \"rectangle\", \"rotation\": 90.0, \"is_plated\": true, \"stack_mode\": \"simple\", \"power_plane_connect_style\": \"relief\", \"relief_entries\": 4, \"paste_mask_expansion_mode\": \"manual\", \"solder_mask_expansion_mode\": \"manual\", \"solder_mask_expansion_from_hole_edge\": false, \"hole_slot_length\": 0.0, \"hole_rotation\": 0.0, \"raw_tail\": \"AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA\", \"identity_guid\": \"{00000000-0000-0000-0000-000000000000}\", \"identity_guid_b\": \"{00000000-0000-0000-0000-000000000000}\", \"guid\": \"{7FC22F50-B563-4E7C-BC18-892FF249DA68}\", \"unique_id\": \"\"}, {\"layer\": \"Top Layer\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"flags\": \"LOCKED\", \"designator\": \"2\", \"x\": -1.0668, \"y\": -2.8067, \"width\": 1.4478, \"height\": 1.3462, \"relief_conductor_width\": 0.254, \"relief_air_gap\": 0.254, \"power_plane_relief_expansion\": 0.508, \"power_plane_clearance\": 0.508, \"shape\": \"rectangle\", \"rotation\": 90.0, \"is_plated\": true, \"stack_mode\": \"simple\", \"power_plane_connect_style\": \"relief\", \"relief_entries\": 4, \"paste_mask_expansion_mode\": \"manual\", \"solder_mask_expansion_mode\": \"manual\", \"solder_mask_expansion_from_hole_edge\": false, \"hole_slot_length\": 0.0, \"hole_rotation\": 0.0, \"raw_tail\": \"AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA\", \"identity_guid\": \"{00000000-0000-0000-0000-000000000000}\", \"identity_guid_b\": \"{00000000-0000-0000-0000-000000000000}\", \"guid\": \"{DC4327FE-D266-48BC-A07B-8B331B48BC0E}\", \"unique_id\": \"\"}, {\"layer\": \"Top Layer\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"flags\": \"LOCKED\", \"designator\": \"3\", \"x\": 1.0668, \"y\": -2.8067, \"width\": 1.4478, \"height\": 1.3462, \"relief_conductor_width\": 0.254, \"relief_air_gap\": 0.254, \"power_plane_relief_expansion\": 0.508, \"power_plane_clearance\": 0.508, \"shape\": \"rectangle\", \"rotation\": 90.0, \"is_plated\": true, \"stack_mode\": \"simple\", \"power_plane_connect_style\": \"relief\", \"relief_entries\": 4, \"paste_mask_expansion_mode\": \"manual\", \"solder_mask_expansion_mode\": \"manual\", \"solder_mask_expansion_from_hole_edge\": false, \"hole_slot_length\": 0.0, \"hole_rotation\": 0.0, \"raw_tail\": \"AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA\", \"identity_guid\": \"{00000000-0000-0000-0000-000000000000}\", \"identity_guid_b\": \"{00000000-0000-0000-0000-000000000000}\", \"guid\": \"{91C463D7-B127-43B8-88A7-019EC7E1C6FD}\", \"unique_id\": \"\"}], \"vias\": [], \"tracks\": [{\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": -2.4003, \"y1\": -3.302, \"x2\": -2.4003, \"y2\": 3.302, \"width\": 0.1524, \"guid\": \"{AACF0488-3D92-4A1B-B029-CD61C211D490}\"}, {\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": -2.4003, \"y1\": 3.302, \"x2\": -2.5527, \"y2\": 3.302, \"width\": 0.1524, \"guid\": \"{DD3EF0FF-17E1-4C75-BCB3-D728408BC8B8}\"}, {\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 2.4003, \"y1\": 3.302, \"x2\": 2.5527, \"y2\": 3.302, \"width\": 0.1524, \"guid\": \"{80E3BA9E-6AC4-43DF-BAFF-6D2D1DBFBEC3}\"}, {\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": -2.5527, \"y1\": 3.937, \"x2\": 2.5527, \"y2\": 3.937, \"width\": 0.1524, \"guid\": \"{6EAB2BCF-B317-44CD-B64D-EE45108CFA09}\"}, {\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": -2.0447, \"y1\": -3.7846, \"x2\": 2.0447, \"y2\": -3.7846, \"width\": 0.1524, \"guid\": \"{89883224-57E9-4945-A46B-F3103FDA35E5}\"}, {\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": -2.5527, \"y1\": 3.937, \"x2\": -2.5527, \"y2\": 3.302, \"width\": 0.1524, \"guid\": \"{C28C9D3B-25B7-47FC-8995-61DB8EEFCFC7}\"}, {\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": -2.0447, \"y1\": -3.302, \"x2\": -2.0447, \"y2\": -3.7846, \"width\": 0.1524, \"guid\": \"{01ACDC14-35BB-4319-9B4A-FCBDE2337E5D}\"}, {\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 2.5527, \"y1\": 3.937, \"x2\": 2.5527, \"y2\": 3.302, \"width\": 0.1524, \"guid\": \"{EF19DE19-6E68-4404-8CCB-C6F98A787316}\"}, {\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 2.0447, \"y1\": -3.302, \"x2\": 2.0447, \"y2\": -3.7846, \"width\": 0.1524, \"guid\": \"{E671064A-78B6-4EEF-90AB-2C75BFA8110E}\"}, {\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 2.4003, \"y1\": 3.302, \"x2\": 2.4003, \"y2\": -3.302, \"width\": 0.1524, \"guid\": \"{6D49D3DC-02F7-40FD-810B-E1A10FB3540A}\"}, {\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 2.4003, \"y1\": -3.302, \"x2\": 2.0447, \"y2\": -3.302, \"width\": 0.1524, \"guid\": \"{8777F128-EDF7-4339-A039-FA7E04D327CE}\"}, {\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": -2.0447, \"y1\": -3.302, \"x2\": -2.4003, \"y2\": -3.302, \"width\": 0.1524, \"guid\": \"{C6D196C6-93C8-458B-81EB-48D27F627D9B}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 4.826, \"x2\": 0.0, \"y2\": 6.096, \"width\": 0.1524, \"guid\": \"{439CC256-6D22-485E-9800-F04D3AA1D8E1}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.635, \"y1\": 5.842, \"x2\": -0.635, \"y2\": 5.842, \"width\": 0.1524, \"guid\": \"{389BD4C8-5251-459F-95C2-BB3CFB04C706}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": 0.635, \"y2\": 5.08, \"width\": 0.1524, \"guid\": \"{A3A537A3-DE5F-4914-9246-BE99FBA5D5B8}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": 0.508, \"y2\": 5.08, \"width\": 0.1524, \"guid\": \"{A32A1DA7-06CF-41CB-B2C4-485003FA9B30}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": 0.381, \"y2\": 5.08, \"width\": 0.1524, \"guid\": \"{5C0F1AD4-05C0-4106-9286-812415DD4C6F}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": 0.254, \"y2\": 5.08, \"width\": 0.1524, \"guid\": \"{CD3D5C92-8B32-4750-9EFF-EE64059791F2}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": 0.127, \"y2\": 5.08, \"width\": 0.1524, \"guid\": \"{54F27DF7-C3D7-4EB2-A193-3A3400CBD8EF}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": -0.635, \"y2\": 5.08, \"width\": 0.1524, \"guid\": \"{1B8EDCCC-12F5-4574-A27F-A2452ED0535B}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": -0.508, \"y2\": 5.08, \"width\": 0.1524, \"guid\": \"{25725E0D-448B-47F7-8DB2-BCC7D006747D}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": -0.381, \"y2\": 5.08, \"width\": 0.1524, \"guid\": \"{0890E108-B9AB-4C93-BEE3-DA25A8558E09}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": -0.254, \"y2\": 5.08, \"width\": 0.1524, \"guid\": \"{6BA827E8-627A-4593-A60B-BD95F494000E}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": -0.127, \"y2\": 5.08, \"width\": 0.1524, \"guid\": \"{4F4A8A54-697A-4B52-AF1A-17FC7C832739}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.635, \"y1\": 5.08, \"x2\": -0.635, \"y2\": 5.08, \"width\": 0.1524, \"guid\": \"{8391756E-D08A-433F-824C-90043CFFD329}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 2.2733, \"y1\": -3.175, \"x2\": 2.2733, \"y2\": -0.91694, \"width\": 0.1524, \"guid\": \"{7133C8CD-BCB2-4803-A9A4-DF2AB8D898C0}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": -2.2733, \"y1\": -0.91694, \"x2\": -2.2733, \"y2\": -3.175, \"width\": 0.1524, \"guid\": \"{0A93CAC7-729D-4D60-BCDD-FBD51D10E194}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 4.826, \"x2\": 0.0, \"y2\": 6.096, \"width\": 0.0254, \"guid\": \"{032AAE4C-E577-40FB-A84F-E183A4468897}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.635, \"y1\": 5.842, \"x2\": -0.635, \"y2\": 5.842, \"width\": 0.0254, \"guid\": \"{C914338F-BC9D-4883-A2AF-C39424340883}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": 0.635, \"y2\": 5.08, \"width\": 0.0254, \"guid\": \"{727E5D3C-0605-47CA-BB1A-8FBF47E0AEC4}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": 0.508, \"y2\": 5.08, \"width\": 0.0254, \"guid\": \"{7BF4A891-93BD-43B6-B273-EEF82617A7BC}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": 0.381, \"y2\": 5.08, \"width\": 0.0254, \"guid\": \"{84DEE413-9DB3-41B4-BD1E-A88641B8AE66}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": 0.254, \"y2\": 5.08, \"width\": 0.0254, \"guid\": \"{42D4FDD3-9606-4296-AC2B-310D1FDAED58}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": 0.127, \"y2\": 5.08, \"width\": 0.0254, \"guid\": \"{82A262D2-57F8-44C6-A285-4CFAF59808B3}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": -0.635, \"y2\": 5.08, \"width\": 0.0254, \"guid\": \"{637EF889-B20C-42D3-BD50-F7C1C1A55E47}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": -0.508, \"y2\": 5.08, \"width\": 0.0254, \"guid\": \"{A50A6A00-05BF-4CBA-B619-B12846CAA0B4}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": -0.381, \"y2\": 5.08, \"width\": 0.0254, \"guid\": \"{B08C6883-D79C-4AD8-B685-1A598F26A589}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": -0.254, \"y2\": 5.08, \"width\": 0.0254, \"guid\": \"{4CF78744-1AA7-4517-A32A-267BE18846BF}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.0, \"y1\": 5.842, \"x2\": -0.127, \"y2\": 5.08, \"width\": 0.0254, \"guid\": \"{025A1528-887C-455C-864B-1A782170A74B}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 0.635, \"y1\": 5.08, \"x2\": -0.635, \"y2\": 5.08, \"width\": 0.0254, \"guid\": \"{EDFA1788-BC60-48CA-9832-087DACD18F90}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": -2.1463, \"y1\": -3.048, \"x2\": 2.1463, \"y2\": -3.048, \"width\": 0.0254, \"guid\": \"{6C384D66-782E-4BB6-B927-B64D34AAFCD2}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 2.1463, \"y1\": -3.048, \"x2\": 2.1463, \"y2\": 3.048, \"width\": 0.0254, \"guid\": \"{B8496BAA-D4A3-4DB3-BD60-12691E41E658}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": 2.1463, \"y1\": 3.048, \"x2\": -2.1463, \"y2\": 3.048, \"width\": 0.0254, \"guid\": \"{9512BA08-B867-4E02-9903-1D97E2139411}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x1\": -2.1463, \"y1\": 3.048, \"x2\": -2.1463, \"y2\": -3.048, \"width\": 0.0254, \"guid\": \"{8A1E47F3-BF70-45AD-BCD9-4365F9FEAEDE}\"}], \"arcs\": [], \"fills\": [], \"text\": [{\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x\": -1.905, \"y\": -0.635, \"height\": 1.27, \"rotation\": 0.0, \"stroke_width\": 0.0762, \"text\": \"RefDes\", \"font_name\": \"Arial\", \"kind\": \"stroke\", \"justification\": \"bottom_left\", \"raw_geometry\": \"IQwA/////////////1CO9P9wL/z/IKEHAAEAAAAAAAAAAAAAMHUAAAAAAAAAAEEAcgBpAGEAbAAAAFNVQlBPTFlJTkRFWD0tMXxVTklPTklOREVYPTB8QVJDUkVTT0xVVElPTj0wLjVtaWx8SVMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAACgN6AAIAsgAEANAwBADQMAAAAAAAABAQBBAHIAaQBhAGwAAAAAAAAAgE8ywQAAAACQySnBAAAAAIBPMkEAAAAAkMkpQQAAAACATzJBAAAAAJCrLsEAAAAAAQYAAwEAAAAAAIAAAACAAAAAAFCO9P9wL/z/\", \"guid\": \"{A1ADAC27-93C9-4DB1-B01D-8ABC035E5D95}\"}, {\"layer\": \"Mechanical 13\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x\": -2.2225, \"y\": -0.635, \"height\": 1.27, \"rotation\": 0.0, \"stroke_width\": 0.0762, \"text\": \"RefDes2\", \"font_name\": \"Arial\", \"kind\": \"stroke\", \"justification\": \"bottom_left\", \"raw_geometry\": \"RQwA/////////////wim8v9wL/z/IKEHAAEAAAAAAAAAAAAAMHUAAAAAAAAAAEEAcgBpAGEAbAAAAFNVQlBPTFlJTkRFWD0tMXxVTklPTklOREVYPTB8QVJDUkVTT0xVVElPTj0wLjVtaWx8SVMAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAwAAAACgN6AAIAsgAEANAwBADQMAAAAAAAABAQBBAHIAaQBhAGwAAAAAAAAAgE8ywQAAAACQySnBAAAAAIBPMkEAAAAAkMkpQQAAAACATzJBAAAAAJCrLsEAAAAAAQ0AAgEAAAAAAIAAAACAAAAAAAim8v9wL/z/\", \"guid\": \"{DCC8E09D-CDD8-4E97-88F7-17622AA87903}\"}, {\"layer\": \"Top Overlay\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"x\": -2.2225, \"y\": -0.635, \"height\": 1.27, \"rotation\": 0.0, \"stroke_width\": 0.0762, \"text\": \"REFDES\", \"font_name\": \"Arial\", \"kind\": \"stroke\", \"justification\": \"bottom_left\", \"raw_geometry\": \"IQwA/////////////wim8v9wL/z/IKEHAAEAAAAAAAAAAAAAMHUAAAAAAAAAAEEAcgBpAGEAbAAAAFNVQlBPTFlJTkRFWD0tMXxVTklPTklOREVYPTB8QVJDUkVTT0xVVElPTj0wLjVtaWx8SVMAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAwAAAACgN6AAIAsgAEANAwBADQMAAAAAAAABAQBBAHIAaQBhAGwAAAAAAAAAgE8ywQAAAACQySnBAAAAAIBPMkEAAAAAkMkpQQAAAACATzJBAAAAAJCrLsEAAAAAAQYAAwEAAAAAAIAAAACAAAAAAAim8v9wL/z/\", \"guid\": \"{309B5B3D-D43D-4076-A10B-1E69919BDA63}\"}], \"regions\": [{\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"sub_poly_index\": -1, \"union_index\": 0, \"arc_resolution\": 0.0127, \"is_shape_based\": false, \"cavity_height\": 0.0, \"param_key_order\": [\"V7_LAYER\", \"NAME\", \"KIND\", \"SUBPOLYINDEX\", \"UNIONINDEX\", \"ARCRESOLUTION\", \"ISSHAPEBASED\", \"CAVITYHEIGHT\"], \"kind\": \"copper\", \"vertices\": [{\"x\": -2.0447, \"y\": -3.302}, {\"x\": -2.4003, \"y\": -3.302}, {\"x\": -2.4003, \"y\": 3.302}, {\"x\": -2.5527, \"y\": 3.302}, {\"x\": -2.5527, \"y\": 3.937}, {\"x\": 2.5527, \"y\": 3.937}, {\"x\": 2.5527, \"y\": 3.302}, {\"x\": 2.4003, \"y\": 3.302}, {\"x\": 2.4003, \"y\": -3.302}, {\"x\": 2.0447, \"y\": -3.302}, {\"x\": 2.0447, \"y\": -3.7846}, {\"x\": -2.0447, \"y\": -3.7846}], \"name\": \" \", \"guid\": \"{90067D2B-06F8-4314-98A6-0A132B827289}\"}, {\"layer\": \"Mechanical 15\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"sub_poly_index\": -1, \"union_index\": 0, \"arc_resolution\": 0.0127, \"is_shape_based\": false, \"cavity_height\": 0.0, \"param_key_order\": [\"V7_LAYER\", \"NAME\", \"KIND\", \"SUBPOLYINDEX\", \"UNIONINDEX\", \"ARCRESOLUTION\", \"ISSHAPEBASED\", \"CAVITYHEIGHT\"], \"kind\": \"copper\", \"vertices\": [{\"x\": 2.1463, \"y\": -3.048}, {\"x\": -2.1463, \"y\": -3.048}, {\"x\": -2.1463, \"y\": 3.048}, {\"x\": 2.1463, \"y\": 3.048}], \"name\": \" \", \"guid\": \"{83C932AC-3ED9-488D-90A3-004448E19F7C}\"}], \"component_bodies\": [{\"layer\": \"Mechanical 1\", \"net_index\": 65535, \"polygon_index\": 65535, \"component_index\": -1, \"sub_poly_index\": -1, \"union_index\": 0, \"is_shape_based\": false, \"cavity_height\": 0.0, \"param_key_order\": [\"V7_LAYER\", \"NAME\", \"KIND\", \"SUBPOLYINDEX\", \"UNIONINDEX\", \"ARCRESOLUTION\", \"ISSHAPEBASED\", \"CAVITYHEIGHT\", \"STANDOFFHEIGHT\", \"OVERALLHEIGHT\", \"BODYPROJECTION\", \"ARCRESOLUTION\", \"BODYCOLOR3D\", \"BODYOPACITY3D\", \"IDENTIFIER\", \"TEXTURE\", \"TEXTURECENTERX\", \"TEXTURECENTERY\", \"TEXTURESIZEX\", \"TEXTURESIZEY\", \"TEXTUREROTATION\", \"MODELID\", \"MODEL.CHECKSUM\", \"MODEL.EMBED\", \"MODEL.NAME\", \"MODEL.2D.X\", \"MODEL.2D.Y\", \"MODEL.2D.ROTATION\", \"MODEL.3D.ROTX\", \"MODEL.3D.ROTY\", \"MODEL.3D.ROTZ\", \"MODEL.3D.DZ\", \"MODEL.MODELTYPE\", \"MODEL.MODELSOURCE\"], \"kind\": 0, \"outline\": [{\"x\": -2.299, \"y\": -3.327001}, {\"x\": 2.299, \"y\": -3.327001}, {\"x\": 2.299, \"y\": 3.327001}, {\"x\": -2.299, \"y\": 3.327001}], \"name\": \" \", \"standoff_height\": 0.0, \"overall_height\": 1.247, \"body_projection\": 0, \"body_color_3d\": 8421504, \"body_opacity_3d\": 1.0, \"model_id\": \"{29F54F0D-D93E-4204-9601-D7B8A02E88AE}\", \"model_name\": \"SS3P6L-M386A_VIS.step\", \"embedded\": true, \"model_checksum\": 3116210047, \"rotation_x\": 0.0, \"rotation_y\": 0.0, \"rotation_z\": 0.0, \"z_offset\": 0.0, \"model_2d_rotation\": 0.0, \"model_2d_x\": 0.0, \"model_2d_y\": 0.0, \"texture_center_x\": \"0mil\", \"texture_center_y\": \"0mil\", \"texture_size_x\": \"0mil\", \"texture_size_y\": \"0mil\", \"texture_rotation\": \" 0.00000000000000E+0000\", \"guid\": \"{A944AFDC-37FF-4016-8A3B-A21843B6B89F}\"}], \"primitive_order\": [\"pad\", \"pad\", \"pad\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"region\", \"region\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"text\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"track\", \"text\", \"text\", \"component_body\"], \"description\": \"\", \"model_3d\": {\"filepath\": \"SS3P6L-M386A_VIS.step\", \"rotation\": 0.0, \"x_offset\": 0.0, \"y_offset\": 0.0, \"z_offset\": 0.0}}, \"type\": \"PcbLib\", \"units\": \"mm\", \"message\": \"Retrieved footprint 'SS3P6L-M386A_VIS' from 'C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\SS3P6L-M386A.PcbLib'\"}"
+      }
+    ],
+    "structuredContent": {
+      "status": "success",
+      "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\SS3P6L-M386A.PcbLib",
+      "component_name": "SS3P6L-M386A_VIS",
+      "component": {
+        "name": "SS3P6L-M386A_VIS",
+        "pads": [
+          {
+            "layer": "Top Layer",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "flags": "LOCKED",
+            "designator": "1",
+            "x": 0,
+            "y": 1.5494,
+            "width": 4.2672,
+            "height": 4.6482,
+            "relief_conductor_width": 0.254,
+            "relief_air_gap": 0.254,
+            "power_plane_relief_expansion": 0.508,
+            "power_plane_clearance": 0.508,
+            "shape": "rectangle",
+            "rotation": 90,
+            "is_plated": true,
+            "stack_mode": "simple",
+            "power_plane_connect_style": "relief",
+            "relief_entries": 4,
+            "paste_mask_expansion_mode": "manual",
+            "solder_mask_expansion_mode": "manual",
+            "solder_mask_expansion_from_hole_edge": false,
+            "hole_slot_length": 0,
+            "hole_rotation": 0,
+            "raw_tail": "AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA",
+            "identity_guid": "{00000000-0000-0000-0000-000000000000}",
+            "identity_guid_b": "{00000000-0000-0000-0000-000000000000}",
+            "guid": "{7FC22F50-B563-4E7C-BC18-892FF249DA68}",
+            "unique_id": ""
+          },
+          {
+            "layer": "Top Layer",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "flags": "LOCKED",
+            "designator": "2",
+            "x": -1.0668,
+            "y": -2.8067,
+            "width": 1.4478,
+            "height": 1.3462,
+            "relief_conductor_width": 0.254,
+            "relief_air_gap": 0.254,
+            "power_plane_relief_expansion": 0.508,
+            "power_plane_clearance": 0.508,
+            "shape": "rectangle",
+            "rotation": 90,
+            "is_plated": true,
+            "stack_mode": "simple",
+            "power_plane_connect_style": "relief",
+            "relief_entries": 4,
+            "paste_mask_expansion_mode": "manual",
+            "solder_mask_expansion_mode": "manual",
+            "solder_mask_expansion_from_hole_edge": false,
+            "hole_slot_length": 0,
+            "hole_rotation": 0,
+            "raw_tail": "AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA",
+            "identity_guid": "{00000000-0000-0000-0000-000000000000}",
+            "identity_guid_b": "{00000000-0000-0000-0000-000000000000}",
+            "guid": "{DC4327FE-D266-48BC-A07B-8B331B48BC0E}",
+            "unique_id": ""
+          },
+          {
+            "layer": "Top Layer",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "flags": "LOCKED",
+            "designator": "3",
+            "x": 1.0668,
+            "y": -2.8067,
+            "width": 1.4478,
+            "height": 1.3462,
+            "relief_conductor_width": 0.254,
+            "relief_air_gap": 0.254,
+            "power_plane_relief_expansion": 0.508,
+            "power_plane_clearance": 0.508,
+            "shape": "rectangle",
+            "rotation": 90,
+            "is_plated": true,
+            "stack_mode": "simple",
+            "power_plane_connect_style": "relief",
+            "relief_entries": 4,
+            "paste_mask_expansion_mode": "manual",
+            "solder_mask_expansion_mode": "manual",
+            "solder_mask_expansion_from_hole_edge": false,
+            "hole_slot_length": 0,
+            "hole_rotation": 0,
+            "raw_tail": "AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA",
+            "identity_guid": "{00000000-0000-0000-0000-000000000000}",
+            "identity_guid_b": "{00000000-0000-0000-0000-000000000000}",
+            "guid": "{91C463D7-B127-43B8-88A7-019EC7E1C6FD}",
+            "unique_id": ""
+          }
+        ],
+        "vias": [],
+        "tracks": [
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": -2.4003,
+            "y1": -3.302,
+            "x2": -2.4003,
+            "y2": 3.302,
+            "width": 0.1524,
+            "guid": "{AACF0488-3D92-4A1B-B029-CD61C211D490}"
+          },
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": -2.4003,
+            "y1": 3.302,
+            "x2": -2.5527,
+            "y2": 3.302,
+            "width": 0.1524,
+            "guid": "{DD3EF0FF-17E1-4C75-BCB3-D728408BC8B8}"
+          },
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 2.4003,
+            "y1": 3.302,
+            "x2": 2.5527,
+            "y2": 3.302,
+            "width": 0.1524,
+            "guid": "{80E3BA9E-6AC4-43DF-BAFF-6D2D1DBFBEC3}"
+          },
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": -2.5527,
+            "y1": 3.937,
+            "x2": 2.5527,
+            "y2": 3.937,
+            "width": 0.1524,
+            "guid": "{6EAB2BCF-B317-44CD-B64D-EE45108CFA09}"
+          },
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": -2.0447,
+            "y1": -3.7846,
+            "x2": 2.0447,
+            "y2": -3.7846,
+            "width": 0.1524,
+            "guid": "{89883224-57E9-4945-A46B-F3103FDA35E5}"
+          },
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": -2.5527,
+            "y1": 3.937,
+            "x2": -2.5527,
+            "y2": 3.302,
+            "width": 0.1524,
+            "guid": "{C28C9D3B-25B7-47FC-8995-61DB8EEFCFC7}"
+          },
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": -2.0447,
+            "y1": -3.302,
+            "x2": -2.0447,
+            "y2": -3.7846,
+            "width": 0.1524,
+            "guid": "{01ACDC14-35BB-4319-9B4A-FCBDE2337E5D}"
+          },
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 2.5527,
+            "y1": 3.937,
+            "x2": 2.5527,
+            "y2": 3.302,
+            "width": 0.1524,
+            "guid": "{EF19DE19-6E68-4404-8CCB-C6F98A787316}"
+          },
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 2.0447,
+            "y1": -3.302,
+            "x2": 2.0447,
+            "y2": -3.7846,
+            "width": 0.1524,
+            "guid": "{E671064A-78B6-4EEF-90AB-2C75BFA8110E}"
+          },
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 2.4003,
+            "y1": 3.302,
+            "x2": 2.4003,
+            "y2": -3.302,
+            "width": 0.1524,
+            "guid": "{6D49D3DC-02F7-40FD-810B-E1A10FB3540A}"
+          },
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 2.4003,
+            "y1": -3.302,
+            "x2": 2.0447,
+            "y2": -3.302,
+            "width": 0.1524,
+            "guid": "{8777F128-EDF7-4339-A039-FA7E04D327CE}"
+          },
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": -2.0447,
+            "y1": -3.302,
+            "x2": -2.4003,
+            "y2": -3.302,
+            "width": 0.1524,
+            "guid": "{C6D196C6-93C8-458B-81EB-48D27F627D9B}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 4.826,
+            "x2": 0,
+            "y2": 6.096,
+            "width": 0.1524,
+            "guid": "{439CC256-6D22-485E-9800-F04D3AA1D8E1}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0.635,
+            "y1": 5.842,
+            "x2": -0.635,
+            "y2": 5.842,
+            "width": 0.1524,
+            "guid": "{389BD4C8-5251-459F-95C2-BB3CFB04C706}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": 0.635,
+            "y2": 5.08,
+            "width": 0.1524,
+            "guid": "{A3A537A3-DE5F-4914-9246-BE99FBA5D5B8}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": 0.508,
+            "y2": 5.08,
+            "width": 0.1524,
+            "guid": "{A32A1DA7-06CF-41CB-B2C4-485003FA9B30}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": 0.381,
+            "y2": 5.08,
+            "width": 0.1524,
+            "guid": "{5C0F1AD4-05C0-4106-9286-812415DD4C6F}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": 0.254,
+            "y2": 5.08,
+            "width": 0.1524,
+            "guid": "{CD3D5C92-8B32-4750-9EFF-EE64059791F2}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": 0.127,
+            "y2": 5.08,
+            "width": 0.1524,
+            "guid": "{54F27DF7-C3D7-4EB2-A193-3A3400CBD8EF}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": -0.635,
+            "y2": 5.08,
+            "width": 0.1524,
+            "guid": "{1B8EDCCC-12F5-4574-A27F-A2452ED0535B}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": -0.508,
+            "y2": 5.08,
+            "width": 0.1524,
+            "guid": "{25725E0D-448B-47F7-8DB2-BCC7D006747D}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": -0.381,
+            "y2": 5.08,
+            "width": 0.1524,
+            "guid": "{0890E108-B9AB-4C93-BEE3-DA25A8558E09}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": -0.254,
+            "y2": 5.08,
+            "width": 0.1524,
+            "guid": "{6BA827E8-627A-4593-A60B-BD95F494000E}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": -0.127,
+            "y2": 5.08,
+            "width": 0.1524,
+            "guid": "{4F4A8A54-697A-4B52-AF1A-17FC7C832739}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0.635,
+            "y1": 5.08,
+            "x2": -0.635,
+            "y2": 5.08,
+            "width": 0.1524,
+            "guid": "{8391756E-D08A-433F-824C-90043CFFD329}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 2.2733,
+            "y1": -3.175,
+            "x2": 2.2733,
+            "y2": -0.91694,
+            "width": 0.1524,
+            "guid": "{7133C8CD-BCB2-4803-A9A4-DF2AB8D898C0}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": -2.2733,
+            "y1": -0.91694,
+            "x2": -2.2733,
+            "y2": -3.175,
+            "width": 0.1524,
+            "guid": "{0A93CAC7-729D-4D60-BCDD-FBD51D10E194}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 4.826,
+            "x2": 0,
+            "y2": 6.096,
+            "width": 0.0254,
+            "guid": "{032AAE4C-E577-40FB-A84F-E183A4468897}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0.635,
+            "y1": 5.842,
+            "x2": -0.635,
+            "y2": 5.842,
+            "width": 0.0254,
+            "guid": "{C914338F-BC9D-4883-A2AF-C39424340883}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": 0.635,
+            "y2": 5.08,
+            "width": 0.0254,
+            "guid": "{727E5D3C-0605-47CA-BB1A-8FBF47E0AEC4}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": 0.508,
+            "y2": 5.08,
+            "width": 0.0254,
+            "guid": "{7BF4A891-93BD-43B6-B273-EEF82617A7BC}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": 0.381,
+            "y2": 5.08,
+            "width": 0.0254,
+            "guid": "{84DEE413-9DB3-41B4-BD1E-A88641B8AE66}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": 0.254,
+            "y2": 5.08,
+            "width": 0.0254,
+            "guid": "{42D4FDD3-9606-4296-AC2B-310D1FDAED58}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": 0.127,
+            "y2": 5.08,
+            "width": 0.0254,
+            "guid": "{82A262D2-57F8-44C6-A285-4CFAF59808B3}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": -0.635,
+            "y2": 5.08,
+            "width": 0.0254,
+            "guid": "{637EF889-B20C-42D3-BD50-F7C1C1A55E47}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": -0.508,
+            "y2": 5.08,
+            "width": 0.0254,
+            "guid": "{A50A6A00-05BF-4CBA-B619-B12846CAA0B4}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": -0.381,
+            "y2": 5.08,
+            "width": 0.0254,
+            "guid": "{B08C6883-D79C-4AD8-B685-1A598F26A589}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": -0.254,
+            "y2": 5.08,
+            "width": 0.0254,
+            "guid": "{4CF78744-1AA7-4517-A32A-267BE18846BF}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0,
+            "y1": 5.842,
+            "x2": -0.127,
+            "y2": 5.08,
+            "width": 0.0254,
+            "guid": "{025A1528-887C-455C-864B-1A782170A74B}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 0.635,
+            "y1": 5.08,
+            "x2": -0.635,
+            "y2": 5.08,
+            "width": 0.0254,
+            "guid": "{EDFA1788-BC60-48CA-9832-087DACD18F90}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": -2.1463,
+            "y1": -3.048,
+            "x2": 2.1463,
+            "y2": -3.048,
+            "width": 0.0254,
+            "guid": "{6C384D66-782E-4BB6-B927-B64D34AAFCD2}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 2.1463,
+            "y1": -3.048,
+            "x2": 2.1463,
+            "y2": 3.048,
+            "width": 0.0254,
+            "guid": "{B8496BAA-D4A3-4DB3-BD60-12691E41E658}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": 2.1463,
+            "y1": 3.048,
+            "x2": -2.1463,
+            "y2": 3.048,
+            "width": 0.0254,
+            "guid": "{9512BA08-B867-4E02-9903-1D97E2139411}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x1": -2.1463,
+            "y1": 3.048,
+            "x2": -2.1463,
+            "y2": -3.048,
+            "width": 0.0254,
+            "guid": "{8A1E47F3-BF70-45AD-BCD9-4365F9FEAEDE}"
+          }
+        ],
+        "arcs": [],
+        "fills": [],
+        "text": [
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x": -1.905,
+            "y": -0.635,
+            "height": 1.27,
+            "rotation": 0,
+            "stroke_width": 0.0762,
+            "text": "RefDes",
+            "font_name": "Arial",
+            "kind": "stroke",
+            "justification": "bottom_left",
+            "raw_geometry": "IQwA/////////////1CO9P9wL/z/IKEHAAEAAAAAAAAAAAAAMHUAAAAAAAAAAEEAcgBpAGEAbAAAAFNVQlBPTFlJTkRFWD0tMXxVTklPTklOREVYPTB8QVJDUkVTT0xVVElPTj0wLjVtaWx8SVMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAACgN6AAIAsgAEANAwBADQMAAAAAAAABAQBBAHIAaQBhAGwAAAAAAAAAgE8ywQAAAACQySnBAAAAAIBPMkEAAAAAkMkpQQAAAACATzJBAAAAAJCrLsEAAAAAAQYAAwEAAAAAAIAAAACAAAAAAFCO9P9wL/z/",
+            "guid": "{A1ADAC27-93C9-4DB1-B01D-8ABC035E5D95}"
+          },
+          {
+            "layer": "Mechanical 13",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x": -2.2225,
+            "y": -0.635,
+            "height": 1.27,
+            "rotation": 0,
+            "stroke_width": 0.0762,
+            "text": "RefDes2",
+            "font_name": "Arial",
+            "kind": "stroke",
+            "justification": "bottom_left",
+            "raw_geometry": "RQwA/////////////wim8v9wL/z/IKEHAAEAAAAAAAAAAAAAMHUAAAAAAAAAAEEAcgBpAGEAbAAAAFNVQlBPTFlJTkRFWD0tMXxVTklPTklOREVYPTB8QVJDUkVTT0xVVElPTj0wLjVtaWx8SVMAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAwAAAACgN6AAIAsgAEANAwBADQMAAAAAAAABAQBBAHIAaQBhAGwAAAAAAAAAgE8ywQAAAACQySnBAAAAAIBPMkEAAAAAkMkpQQAAAACATzJBAAAAAJCrLsEAAAAAAQ0AAgEAAAAAAIAAAACAAAAAAAim8v9wL/z/",
+            "guid": "{DCC8E09D-CDD8-4E97-88F7-17622AA87903}"
+          },
+          {
+            "layer": "Top Overlay",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "x": -2.2225,
+            "y": -0.635,
+            "height": 1.27,
+            "rotation": 0,
+            "stroke_width": 0.0762,
+            "text": "REFDES",
+            "font_name": "Arial",
+            "kind": "stroke",
+            "justification": "bottom_left",
+            "raw_geometry": "IQwA/////////////wim8v9wL/z/IKEHAAEAAAAAAAAAAAAAMHUAAAAAAAAAAEEAcgBpAGEAbAAAAFNVQlBPTFlJTkRFWD0tMXxVTklPTklOREVYPTB8QVJDUkVTT0xVVElPTj0wLjVtaWx8SVMAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAwAAAACgN6AAIAsgAEANAwBADQMAAAAAAAABAQBBAHIAaQBhAGwAAAAAAAAAgE8ywQAAAACQySnBAAAAAIBPMkEAAAAAkMkpQQAAAACATzJBAAAAAJCrLsEAAAAAAQYAAwEAAAAAAIAAAACAAAAAAAim8v9wL/z/",
+            "guid": "{309B5B3D-D43D-4076-A10B-1E69919BDA63}"
+          }
+        ],
+        "regions": [
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "sub_poly_index": -1,
+            "union_index": 0,
+            "arc_resolution": 0.0127,
+            "is_shape_based": false,
+            "cavity_height": 0,
+            "param_key_order": [
+              "V7_LAYER",
+              "NAME",
+              "KIND",
+              "SUBPOLYINDEX",
+              "UNIONINDEX",
+              "ARCRESOLUTION",
+              "ISSHAPEBASED",
+              "CAVITYHEIGHT"
+            ],
+            "kind": "copper",
+            "vertices": [
+              {
+                "x": -2.0447,
+                "y": -3.302
+              },
+              {
+                "x": -2.4003,
+                "y": -3.302
+              },
+              {
+                "x": -2.4003,
+                "y": 3.302
+              },
+              {
+                "x": -2.5527,
+                "y": 3.302
+              },
+              {
+                "x": -2.5527,
+                "y": 3.937
+              },
+              {
+                "x": 2.5527,
+                "y": 3.937
+              },
+              {
+                "x": 2.5527,
+                "y": 3.302
+              },
+              {
+                "x": 2.4003,
+                "y": 3.302
+              },
+              {
+                "x": 2.4003,
+                "y": -3.302
+              },
+              {
+                "x": 2.0447,
+                "y": -3.302
+              },
+              {
+                "x": 2.0447,
+                "y": -3.7846
+              },
+              {
+                "x": -2.0447,
+                "y": -3.7846
+              }
+            ],
+            "name": " ",
+            "guid": "{90067D2B-06F8-4314-98A6-0A132B827289}"
+          },
+          {
+            "layer": "Mechanical 15",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "sub_poly_index": -1,
+            "union_index": 0,
+            "arc_resolution": 0.0127,
+            "is_shape_based": false,
+            "cavity_height": 0,
+            "param_key_order": [
+              "V7_LAYER",
+              "NAME",
+              "KIND",
+              "SUBPOLYINDEX",
+              "UNIONINDEX",
+              "ARCRESOLUTION",
+              "ISSHAPEBASED",
+              "CAVITYHEIGHT"
+            ],
+            "kind": "copper",
+            "vertices": [
+              {
+                "x": 2.1463,
+                "y": -3.048
+              },
+              {
+                "x": -2.1463,
+                "y": -3.048
+              },
+              {
+                "x": -2.1463,
+                "y": 3.048
+              },
+              {
+                "x": 2.1463,
+                "y": 3.048
+              }
+            ],
+            "name": " ",
+            "guid": "{83C932AC-3ED9-488D-90A3-004448E19F7C}"
+          }
+        ],
+        "component_bodies": [
+          {
+            "layer": "Mechanical 1",
+            "net_index": 65535,
+            "polygon_index": 65535,
+            "component_index": -1,
+            "sub_poly_index": -1,
+            "union_index": 0,
+            "is_shape_based": false,
+            "cavity_height": 0,
+            "param_key_order": [
+              "V7_LAYER",
+              "NAME",
+              "KIND",
+              "SUBPOLYINDEX",
+              "UNIONINDEX",
+              "ARCRESOLUTION",
+              "ISSHAPEBASED",
+              "CAVITYHEIGHT",
+              "STANDOFFHEIGHT",
+              "OVERALLHEIGHT",
+              "BODYPROJECTION",
+              "ARCRESOLUTION",
+              "BODYCOLOR3D",
+              "BODYOPACITY3D",
+              "IDENTIFIER",
+              "TEXTURE",
+              "TEXTURECENTERX",
+              "TEXTURECENTERY",
+              "TEXTURESIZEX",
+              "TEXTURESIZEY",
+              "TEXTUREROTATION",
+              "MODELID",
+              "MODEL.CHECKSUM",
+              "MODEL.EMBED",
+              "MODEL.NAME",
+              "MODEL.2D.X",
+              "MODEL.2D.Y",
+              "MODEL.2D.ROTATION",
+              "MODEL.3D.ROTX",
+              "MODEL.3D.ROTY",
+              "MODEL.3D.ROTZ",
+              "MODEL.3D.DZ",
+              "MODEL.MODELTYPE",
+              "MODEL.MODELSOURCE"
+            ],
+            "kind": 0,
+            "outline": [
+              {
+                "x": -2.299,
+                "y": -3.327001
+              },
+              {
+                "x": 2.299,
+                "y": -3.327001
+              },
+              {
+                "x": 2.299,
+                "y": 3.327001
+              },
+              {
+                "x": -2.299,
+                "y": 3.327001
+              }
+            ],
+            "name": " ",
+            "standoff_height": 0,
+            "overall_height": 1.247,
+            "body_projection": 0,
+            "body_color_3d": 8421504,
+            "body_opacity_3d": 1,
+            "model_id": "{29F54F0D-D93E-4204-9601-D7B8A02E88AE}",
+            "model_name": "SS3P6L-M386A_VIS.step",
+            "embedded": true,
+            "model_checksum": 3116210047,
+            "rotation_x": 0,
+            "rotation_y": 0,
+            "rotation_z": 0,
+            "z_offset": 0,
+            "model_2d_rotation": 0,
+            "model_2d_x": 0,
+            "model_2d_y": 0,
+            "texture_center_x": "0mil",
+            "texture_center_y": "0mil",
+            "texture_size_x": "0mil",
+            "texture_size_y": "0mil",
+            "texture_rotation": " 0.00000000000000E+0000",
+            "guid": "{A944AFDC-37FF-4016-8A3B-A21843B6B89F}"
+          }
+        ],
+        "primitive_order": [
+          "pad",
+          "pad",
+          "pad",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "region",
+          "region",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "text",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "track",
+          "text",
+          "text",
+          "component_body"
+        ],
+        "description": "",
+        "model_3d": {
+          "filepath": "SS3P6L-M386A_VIS.step",
+          "rotation": 0,
+          "x_offset": 0,
+          "y_offset": 0,
+          "z_offset": 0
+        }
+      },
+      "type": "PcbLib",
+      "units": "mm",
+      "message": "Retrieved footprint 'SS3P6L-M386A_VIS' from 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\SS3P6L-M386A.PcbLib'"
+    },
+    "isError": false
+  }
+]

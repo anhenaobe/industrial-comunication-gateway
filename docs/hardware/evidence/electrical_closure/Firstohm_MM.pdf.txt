@@ -1,0 +1,205 @@
+=== PDF PAGE 1 ===
+          MM
+                   Metal Film MELF Resistor
+                         ilityility               eliabeliab                             vationvation       ••RR                    InnoInno          litylity                  viavia    uaua         nn  QQ         DowDow            st-st-     CoCo
+                                                          Specifications Per
+                                                                                                                        • IEC 60115-1        • EN140401-803
+                                D2
+                                                        Features
+                                                                                                                        • SMD enabled structure
+                                                                                                                        • Excellent solderability terminationMM                        B                                                                                      • Excellent in heat dissipation than chip resistor
+                                            L                               D1                              • Stronger mechanical structure to endure vibration
+                                                                              and thermal shock
+                                                                                                                        • Products meet RoHS requirements and do not contain
+                                                                                      substances of very high concern identified by European
+                                                                                      Chemicals Agency
+        DIMENSIONS
+                             Body Length      Cap Diameter     Body Diameter      Soldering Spot       Net Weight                  Type                                                 (L, mm)             (D1, mm)             (D2, mm)               (B, mm)          Per 1000 pcs
+                MM16               3.52 ± 0.15              1.35 ± 0.1           D1+0.02/ -0.15              0.6 Min.              17 grams
+                MM204               3.52 ± 0.15              1.35 ± 0.1           D1+0.02/ -0.15              0.6 Min.              17 grams
+                MM207               5.90 ± 0.20              2.20 ± 0.1            D1+0.02/ -0.2              1.0 Min.              66 grams
+                MM52               5.90 ± 0.20              2.20 ± 0.1            D1+0.02/ -0.2              1.0 Min.              66 grams
+
+        GENERAL SPECIFICATIONS
+                        Power     Maximum    Maximum                                                         Available                                                         Minimum     Maximum      Resistance              Type        Rating       Working      Overload                                                   Resistance                                                                    Resistance     Resistance      Tolerance                            At 70°C        Voltage        Voltage                                                       Values
+                                                                                        ±1%             E-96
+             MM16         1/6W           200V           400V             0, 0.51Ω         10MΩ
+                                                                                                      ±2%, ±5%         E-48/E-24
+                                                                                        ±1%             E-96
+             MM204         1/4W           200V           400V             0, 0.51Ω         10MΩ
+                                                                                                      ±2%, ±5%         E-48/E-24
+                                                                                        ±1%             E-96
+             MM207         1/3W           300V           500V             0, 0.51Ω         10MΩ
+                                                                                                      ±2%, ±5%         E-48/E-24
+                                                                                        ±1%             E-96
+             MM52         1/2W           300V           500V             0, 0.51Ω         10MΩ
+                                                                                                      ±2%, ±5%         E-48/E-24
+                                                                                 For zero-ohm jumper, please see ZMM series. For 1m~510mΩ please see CSM series.
+                                                                                                                     Special sizes and specifications available on request.
+         PART NUMBER
+         Example: MM204F162RTKRTR3K0
+            MM204              F               162R              TKR               TR3K0
+
+                   Type                 Tolerance*              Resistance                 TCR*                   Packaging
+                                 Z (Jumper)              162Ω                 50ppm
+                                     F (1%)            4-character code          3-character code          5-character code
+                            G (2%)                containing -                                 TR = Tape Reel
+                                         J (5%)           3 significant digits          TKP = ± 15ppm                                                                                                                              (pieces per reel)                                                       1 letter multiplier          TKQ = ± 25ppm                                                                                       MM16/MM204                                                                       TKR = ± 50ppm                                                                                                  3K0 = 3,000                                      OHM MULTIPLIER         TKS = ± 100ppm                                                                                                  6K0 = 6,000**                                                R = 1                                                                                                              3                                     10K = 10,000**                                                 K = 10                                                                                                              6                                 MM207/MM52                                     M = 10                                                                                                              9                                      2K0 = 2,000                                           G = 10                                                                                                  6K0 = 6,000**
+                                                                                                 10K = 10,000**
+
+              * Listed values may not be applicable across product types or to all resistance values. Please check with us before placing order. **upon request
+
+   75   www.firstohm.com.twqrc@firstohm.com.tw                                                                                                                         Revision: 08-March-202323
+=== PDF PAGE 2 ===
+         MM
+                 Metal Film MELF Resistor
+                 ilityility          eliabeliab                       vationvation    ••RR               InnoInno    litylity             viavia uaua      nnQQ     DowDow      st-st-  CoCo
+
+
+     TECHNICAL SUMMARY
+                       Characteristics                                      Ranges & Limits
+       Operating Temperature Range, °C                   -55 ~ +125
+                                               ±1%, ±2%                            ±15, ±25, ±50, ±100       Temperature Coefficient, PPM / °C*
+                                        ±5%                              ±100                                             MM16, MM204                      200           MM
+         Dielectric Withstanding Voltage, VAC or DC
+                                              MM207, MM52                      500
+        Insulation Resistance, MΩ                         >104
+        Tin Whisker (JESD201 Temperature Cycling &                                                <5       High Temp. / Humidity Storage), μm
+         Failure Rate in Time, pcs / 109 device hours         <1
+       * Not applicable to all resistance values. Please check with us regarding the PPM of specific resistance value(s).
+
+
+     POWER DERATING CURVE
+
+                               100%
+
+                                80%
+                                       RATED LOAD  60%40%
+
+                                20%
+
+                               0%
+                                        30      40       50      60      70     80       90     100     110     120     130
+                                    AMBIENT TEMPERATURE (oC)
+
+
+      SINGLE SURGE PERFORMANCE             SURGE POWER DERATING CURVE
+
+          100                                                                                                      1
+
+
+                                                                                                                                          0.9
+
+                                                                                                                                          0.8
+
+                     M M -16, M M -204        M M -207, M M -52                                               0.7
+           10        (watt)                                                                                                                                 0.6
+       Power                                                                                                                                                                                                 Psurge   0.5
+
+                                                                                                                                          0.4     Peak      1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Papplicable-Prated
+                                                                                                                                          0.3
+
+                                                                                                                                          0.2
+
+                                                                                                                                          0.1
+
+             0.1                                                                                                      0
+          0.00001s     0.0001s       0.001s        0.01s         0.1s           1s                                  0.0001          0.001         0.01             0.1             1             10
+                    1 0 u s            1 0 0 u s               1 m s               1 0 m s              1 0 0 m s               1 s                                                  Surge Duration
+                                 Surge Duration                                                                         Surge OFF time
+     Notes:
+        • SINGLE SURGE PERFORMANCE graph is good for NON REPETITIVE applications operating in an ambient temperature of 70°C or less.
+       For temperatures above 70°C, the graph power must be derated further linearly down to zero at 125°C.
+
+        • To determine applicable surge power in continuous-surge applications:
+       1. Identify allowable duration and peak power Psurge of single surge;
+       2. Determine ratio of surge duration/surge OFF time in application;
+       3. Calculate Papplicable backwardly according to Y-axis of SURGE POWER DERATING CURVE.
+
+
+                                                                                                                                  www.firstohm.com.tw
+     Revision: 08-March-202323                                                                                                            qrc@firstohm.com.tw  76
+=== PDF PAGE 3 ===
+          MM
+                   Metal Film MELF Resistor
+                         ilityility               eliabeliab                             vationvation       ••RR                    InnoInno          litylity                  viavia    uaua         nn  QQ         DowDow            st-st-     CoCo
+
+
+        PERFORMANCE SPECIFICATIONS
+                Characteristics                                 Test Conditions                                         Limits
+                                                                                                   0.51Ω to 332KΩ    ±0.25%                               IEC 60115-1 4.13               Short Time Overload
+                                5 seconds 2.5x rated voltage (not over max. overload voltage)                >332KΩ          ±0.5%MM                         IEC 60115-1 4.25.1                                                  0.51Ω to 332KΩ    ±0.75%
+                 Load Life        Rated load (not over max. working voltage) 1,000 hours with 1.5 hours ON,
+                                      0.5 hour OFF, at (70±2)°C                                         >332KΩ        ±1%
+                               IEC 60115-1 4.24                                                    0.51Ω to 332KΩ   ±1%
+            Load Life In Humidity   56 days rated load (not over max. working voltage) at (40±2)°C and (93±3)%
+                                               relative humidity                                                >332KΩ        ±2%
+
+                                                                                                   0.51Ω to <100KΩ  ±1%
+                               IEC 60115-1 4.37            Load Life In Humidity
+                                   1,000 hours at 85°C and 85% relative humidity with 0.1x rated voltage          100KΩ to 332KΩ   ±2.5%                (accelerated mode)                                           (not over 100V)
+                                                                                        >332KΩ          ±3.5%
+
+                               IEC 60115-1 4.39                  Periodic Electric                                      3.9x rated voltage (not over max. overload voltage) with 0.1s ON, 2.5s OFF for             ±0.5%                   Overload                                   1,000 cycles
+
+                               IEC 60115-1 4.18.2                  Resistance To                                     Dip the resistor into a solder bath measured (260±5)°C and hold it for a 10±1              ±0.5%                  Soldering Heat                                  seconds
+                               IEC 60115-1 4.25.3                                                    85°C        ±0.5%              Thermal Endurance
+                                   1,000 hours without load                                                125°C       ±1%
+                               IEC 60115-1 4.19                                                    5 cycles      ±0.25%                Thermal Shock
+                                  -55°C 30minutes, +125°C 30minutes                                        1,000 cycles     ±0.75%
+                               IEC 60115-1 4.27
+                                                  • 5 pulses of 1.2/50μs at 10x rated voltage (not over 400V for MM16 & MM204;            ±0.5%                  Single pulse high                                       not over 500V for MM207 & MM52) with interval of 12 sec.                  voltage overload                                                  • 10 pulses of 10/700μs at 10x rated voltage (not over 400V for MM16 & MM204;           ±0.5%
+                                       not over 500V for MM207 & MM52) with interval of 60 sec.
+                               IEC 60115-1 4.38
+                Electrostatic discharge   3 positive & 3 negative discharges with 2KV for MM16 & MM204 or 4KV for                                                                                                      ±0.5%            (Human body model)   MM207 & MM52 (For continuous surge application please see Surge Performance
+                                      paragraph)
+                               IEC 60115-1 4.23
+                                      4.23.2 - dry heat: 16 hours 125°C
+                                      4.23.3 - damp heat: 24 hours 55°C with 95% relative humidity
+                    Climatic test        4.23.4 - cold: 2 hours -55°C                                                  ±1.0%
+                                      4.23.5 - negative air pressure: 2 hour 8.5KPa at (25±10)°C
+                                      4.23.6 - damp heat cyclic: 5 days 55°C with 95% relative humidity
+                                      4.23.7 - DC load: rated voltage at -55°C and 125°C each 1 Min.
+                               IEC 60115-1 4.17.2                      Solderability                                                               95% min.coverage                                      Solder area covered after (235±3)°C/(2±0.2) seconds with flux applied
+                               IEC 60115-1 4.22
+                       Vibration          Six hours in each parallel and axial direction with a simple harmonic motion               ±0.25%
+                                      having an amplitude of 1.52mm and 10 to 2,000 Hz.
+                               IEC 60115-1 4.33                 Bending test                                                                              ±0.25%                                      Pressing depth 2mm, 3 times
+                               IEC 60115-1 4.35                    Flammability                                                                  No burning after 30s                                   Needle flame test 10s
+
+   77   www.firstohm.com.twqrc@firstohm.com.tw                                                                                                                         Revision: 08-March-202323
+=== PDF PAGE 4 ===
+         MM
+                 Metal Film MELF Resistor
+                 ilityility          eliabeliab                       vationvation    ••RR               InnoInno    litylity             viavia uaua      nnQQ     DowDow      st-st-  CoCo
+
+
+     SUGGESTED PAD LAYOUT
+
+                                       MM
+
+
+
+
+
+                                                       Pad Length        Pad Spacing         Pad Width              Type                   Soldering Mode                                                                                       (L, mm, Min.)                 (P, mm)            (W, mm, Min.)
+            MM16                           Reflow                             1.3                    1.6 ± 0.1                    1.6
+            MM204                       Wave                             1.5                    1.5 ± 0.1                    1.8
+            MM207                           Reflow                             2.0                    3.0 ± 0.1                    3.0
+            MM52                       Wave                             2.5                    3.0 ± 0.1                    3.0
+
+                                                                                           For better heat dissipation / lower heat resistance, increase W & L.
+
+
+
+
+
+     COVER TAPE PEELING SPECIFICATION
+    Recommended peeling force: 50±5gf
+
+
+
+
+
+                                                                                                                                  www.firstohm.com.tw
+     Revision: 08-March-202323                                                                                                            qrc@firstohm.com.tw  78

@@ -1,0 +1,41 @@
+{
+  "SchLib": {
+    "status": "valid",
+    "error_count": 0,
+    "warning_count": 0,
+    "issues": [],
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "component_count": 76
+  },
+  "PcbLib": {
+    "status": "warnings",
+    "error_count": 0,
+    "warning_count": 4,
+    "issues": [
+      {
+        "component": "GW_DRC0010J_TI_TPS2662_EP11",
+        "issue": "Pads '11' and '11A' overlap",
+        "severity": "warning"
+      },
+      {
+        "component": "GW_DRC0010J_TI_TPS2662_EP11",
+        "issue": "Pads '11' and '11B' overlap",
+        "severity": "warning"
+      },
+      {
+        "component": "GW_DRC0010J_TI_TPS2662_EP11",
+        "issue": "Pads '11' and '11C' overlap",
+        "severity": "warning"
+      },
+      {
+        "component": "GW_DRC0010J_TI_TPS2662_EP11",
+        "issue": "Pads '11' and '11D' overlap",
+        "severity": "warning"
+      }
+    ],
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "file_type": "PcbLib",
+    "component_count": 46
+  }
+}

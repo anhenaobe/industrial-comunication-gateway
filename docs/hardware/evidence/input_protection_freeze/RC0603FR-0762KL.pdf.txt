@@ -1,0 +1,63 @@
+RC0603FR-0762KL
+Aliases (RC0603FR0762KL)
+YAGEO, RC, Thick Film, SMD Chip, 62 kOhms, 1%, 0603 / 1608
+B1
+L
+W
+B2
+T
+Click here for the 3D model.
+General Information
+S​u​p​p​l​i​e​r
+Y​A​G​E​O
+S​e​r​i​e​s
+R​C
+S​t​y​l​e
+SMD Chip
+D​e​s​c​r​i​p​t​i​o​n
+Standard Thick Film Chip 
+Resistors
+R​o​H​S
+Y​e​s
+T​e​r​m​i​n​a​t​i​o​n
+T​i​n
+Shelf Life
+104  Weeks
+Case Code  (EIA / mm)
+0603 / 1608
+D​i​m​e​n​s​i​o​n​s
+L
+1.6mm +/-0.1mm
+W
+0.8mm +/-0.1mm
+T
+0.45mm +/-0.1mm
+B​1
+0.25mm +/-0.15mm
+B​2
+0.25mm +/-0.15mm
+S​p​e​c​i​f​i​c​a​t​i​o​n​s
+R​e​s​i​s​t​a​n​c​e
+62 kOhms
+Resistance Tolerance
+1​%
+P​o​w​e​r
+0.1 W (70C)
+Temp. Coefficient
+-/+100 ppm/C
+Temperature Range
+-​5​5​/​+​1​5​5​°​C
+Voltage DC
+75 V (Max Continuous Voltage at 
+Full Rated Power), 150 Max Over 
+Voltage, 150 Dielectric 
+Withstanding Voltage
+Packaging Specifications
+P​a​c​k​a​g​i​n​g
+T&R, 178mm
+Statements of suitability for certain applications are based on our knowledge of typical operating conditions for such applications, but are not intended to constitute - and 
+we specifically disclaim - any warranty concerning suitability for a specific customer application or use. This Information is intended for use only by customers who have the 
+requisite experience and capability to determine the correct products for their application. Any technical advice inferred from this Information or otherwise provided by us 
+with reference to the use of our products is given gratis, and we assume no obligation or liability for the advice given or results obtained.
+Generated 11/07/2026
+©︎ 2006 - 2026 YAGEO

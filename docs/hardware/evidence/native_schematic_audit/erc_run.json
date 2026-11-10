@@ -1,0 +1,13 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"success\": true,\n  \"message\": \"ERC completed on project\"\n}"
+    }
+  ],
+  "structuredContent": {
+    "success": true,
+    "message": "ERC completed on project"
+  },
+  "isError": false
+}

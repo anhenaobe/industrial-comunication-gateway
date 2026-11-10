@@ -1,0 +1,675 @@
+{
+  "name": "GW_DQA0010A_TI",
+  "pads": [
+    {
+      "layer": "Top Layer",
+      "net_index": 65535,
+      "polygon_index": 65535,
+      "component_index": -1,
+      "designator": "1",
+      "x": -0.4175,
+      "y": 1.000001,
+      "width": 0.565,
+      "height": 0.2,
+      "relief_conductor_width": 0.254,
+      "relief_air_gap": 0.254,
+      "power_plane_relief_expansion": 0.508,
+      "power_plane_clearance": 0.508,
+      "solder_mask_expansion": 0.05,
+      "shape": "rounded_rectangle",
+      "rotation": 0,
+      "is_plated": true,
+      "stack_mode": "simple",
+      "power_plane_connect_style": "relief",
+      "relief_entries": 4,
+      "paste_mask_expansion_mode": "manual",
+      "solder_mask_expansion_mode": "manual",
+      "solder_mask_expansion_from_hole_edge": false,
+      "hole_slot_length": 0,
+      "hole_rotation": 0,
+      "raw_tail": "AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAADlTAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAQJwAAAB2snVEILjXQJAOYVMU7oF1U6bZlwTmLkm3pNQT72eRCAAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA",
+      "identity_guid": "{4475B276-B820-40D7-900E-615314EE8175}",
+      "identity_guid_b": "{97D9A653-E604-492E-B7A4-D413EF679108}",
+      "corner_radius_percent": 50
+    },
+    {
+      "layer": "Top Layer",
+      "net_index": 65535,
+      "polygon_index": 65535,
+      "component_index": -1,
+      "designator": "10",
+      "x": 0.4175,
+      "y": 1.000001,
+      "width": 0.565,
+      "height": 0.2,
+      "relief_conductor_width": 0.254,
+      "relief_air_gap": 0.254,
+      "power_plane_relief_expansion": 0.508,
+      "power_plane_clearance": 0.508,
+      "solder_mask_expansion": 0.05,
+      "shape": "rounded_rectangle",
+      "rotation": 0,
+      "is_plated": true,
+      "stack_mode": "simple",
+      "power_plane_connect_style": "relief",
+      "relief_entries": 4,
+      "paste_mask_expansion_mode": "manual",
+      "solder_mask_expansion_mode": "manual",
+      "solder_mask_expansion_from_hole_edge": false,
+      "hole_slot_length": 0,
+      "hole_rotation": 0,
+      "raw_tail": "AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAADlTAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAQJwAAADlGXduYGWzRKwicdCiaUnhJa1SjzOOckOCGmG/BaMcFQAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA",
+      "identity_guid": "{6E7719E5-6560-44B3-AC22-71D0A26949E1}",
+      "identity_guid_b": "{8F52AD25-8E33-4372-821A-61BF05A31C15}",
+      "corner_radius_percent": 50
+    },
+    {
+      "layer": "Top Layer",
+      "net_index": 65535,
+      "polygon_index": 65535,
+      "component_index": -1,
+      "designator": "2",
+      "x": -0.4175,
+      "y": 0.499999,
+      "width": 0.565,
+      "height": 0.2,
+      "relief_conductor_width": 0.254,
+      "relief_air_gap": 0.254,
+      "power_plane_relief_expansion": 0.508,
+      "power_plane_clearance": 0.508,
+      "solder_mask_expansion": 0.05,
+      "shape": "rounded_rectangle",
+      "rotation": 0,
+      "is_plated": true,
+      "stack_mode": "simple",
+      "power_plane_connect_style": "relief",
+      "relief_entries": 4,
+      "paste_mask_expansion_mode": "manual",
+      "solder_mask_expansion_mode": "manual",
+      "solder_mask_expansion_from_hole_edge": false,
+      "hole_slot_length": 0,
+      "hole_rotation": 0,
+      "raw_tail": "AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAADlTAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAQJwAAADLt625IJRFRZyg1zicbjfbSRwn/UpKnE2/Cja+UIikpAAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA",
+      "identity_guid": "{B9ADB7CB-9420-4545-9CA0-D7389C6E37DB}",
+      "identity_guid_b": "{FD271C49-4A4A-4D9C-BF0A-36BE5088A4A4}",
+      "corner_radius_percent": 50
+    },
+    {
+      "layer": "Top Layer",
+      "net_index": 65535,
+      "polygon_index": 65535,
+      "component_index": -1,
+      "designator": "9",
+      "x": 0.4175,
+      "y": 0.499999,
+      "width": 0.565,
+      "height": 0.2,
+      "relief_conductor_width": 0.254,
+      "relief_air_gap": 0.254,
+      "power_plane_relief_expansion": 0.508,
+      "power_plane_clearance": 0.508,
+      "solder_mask_expansion": 0.05,
+      "shape": "rounded_rectangle",
+      "rotation": 0,
+      "is_plated": true,
+      "stack_mode": "simple",
+      "power_plane_connect_style": "relief",
+      "relief_entries": 4,
+      "paste_mask_expansion_mode": "manual",
+      "solder_mask_expansion_mode": "manual",
+      "solder_mask_expansion_from_hole_edge": false,
+      "hole_slot_length": 0,
+      "hole_rotation": 0,
+      "raw_tail": "AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAADlTAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAQJwAAAB3JnZfKEP8TpzvdUciWYFhi2vdY9mhlU61KKIObNuSSgAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA",
+      "identity_guid": "{5F762677-4328-4EFC-9CEF-754722598161}",
+      "identity_guid_b": "{63DD6B8B-A1D9-4E95-B528-A20E6CDB924A}",
+      "corner_radius_percent": 50
+    },
+    {
+      "layer": "Top Layer",
+      "net_index": 65535,
+      "polygon_index": 65535,
+      "component_index": -1,
+      "designator": "3",
+      "x": -0.4175,
+      "y": 0,
+      "width": 0.565,
+      "height": 0.399999,
+      "relief_conductor_width": 0.254,
+      "relief_air_gap": 0.254,
+      "power_plane_relief_expansion": 0.508,
+      "power_plane_clearance": 0.508,
+      "paste_mask_expansion": -1.000001,
+      "solder_mask_expansion": 0.05,
+      "shape": "rounded_rectangle",
+      "rotation": 0,
+      "is_plated": true,
+      "stack_mode": "simple",
+      "power_plane_connect_style": "relief",
+      "relief_entries": 4,
+      "paste_mask_expansion_mode": "manual",
+      "solder_mask_expansion_mode": "manual",
+      "solder_mask_expansion_from_hole_edge": false,
+      "hole_slot_length": 0,
+      "hole_rotation": 0,
+      "raw_tail": "AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DABv++f/lTAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAQJwAAAAx5Fxx59k7Q5nSAIsjPA+/ZF/FIfTkbUa9AweqJzYbywAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA",
+      "identity_guid": "{715CE431-D9E7-433B-99D2-008B233C0FBF}",
+      "identity_guid_b": "{21C55F64-E4F4-466D-BD03-07AA27361BCB}",
+      "corner_radius_percent": 25
+    },
+    {
+      "layer": "Top Layer",
+      "net_index": 65535,
+      "polygon_index": 65535,
+      "component_index": -1,
+      "designator": "8",
+      "x": 0.4175,
+      "y": 0,
+      "width": 0.565,
+      "height": 0.399999,
+      "relief_conductor_width": 0.254,
+      "relief_air_gap": 0.254,
+      "power_plane_relief_expansion": 0.508,
+      "power_plane_clearance": 0.508,
+      "paste_mask_expansion": -1.000001,
+      "solder_mask_expansion": 0.05,
+      "shape": "rounded_rectangle",
+      "rotation": 0,
+      "is_plated": true,
+      "stack_mode": "simple",
+      "power_plane_connect_style": "relief",
+      "relief_entries": 4,
+      "paste_mask_expansion_mode": "manual",
+      "solder_mask_expansion_mode": "manual",
+      "solder_mask_expansion_from_hole_edge": false,
+      "hole_slot_length": 0,
+      "hole_rotation": 0,
+      "raw_tail": "AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DABv++f/lTAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAQJwAAAA9gjvURZdnTozo5+Oukk0rM40nuDIVPUOXdtQ9I9LMsgAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA",
+      "identity_guid": "{D43B823D-9745-4E67-8CE8-E7E3AE924D2B}",
+      "identity_guid_b": "{B8278D33-1532-433D-9776-D43D23D2CCB2}",
+      "corner_radius_percent": 25
+    },
+    {
+      "layer": "Top Layer",
+      "net_index": 65535,
+      "polygon_index": 65535,
+      "component_index": -1,
+      "designator": "4",
+      "x": -0.4175,
+      "y": -0.499999,
+      "width": 0.565,
+      "height": 0.2,
+      "relief_conductor_width": 0.254,
+      "relief_air_gap": 0.254,
+      "power_plane_relief_expansion": 0.508,
+      "power_plane_clearance": 0.508,
+      "solder_mask_expansion": 0.05,
+      "shape": "rounded_rectangle",
+      "rotation": 0,
+      "is_plated": true,
+      "stack_mode": "simple",
+      "power_plane_connect_style": "relief",
+      "relief_entries": 4,
+      "paste_mask_expansion_mode": "manual",
+      "solder_mask_expansion_mode": "manual",
+      "solder_mask_expansion_from_hole_edge": false,
+      "hole_slot_length": 0,
+      "hole_rotation": 0,
+      "raw_tail": "AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAADlTAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAQJwAAACQEY8LAoqTQ54J/2mldIoMnDgTwPAHM0K0WpgtVLqtUgAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA",
+      "identity_guid": "{0B8F1190-8A02-4393-9E09-FF69A5748A0C}",
+      "identity_guid_b": "{C013389C-07F0-4233-B45A-982D54BAAD52}",
+      "corner_radius_percent": 50
+    },
+    {
+      "layer": "Top Layer",
+      "net_index": 65535,
+      "polygon_index": 65535,
+      "component_index": -1,
+      "designator": "7",
+      "x": 0.4175,
+      "y": -0.499999,
+      "width": 0.565,
+      "height": 0.2,
+      "relief_conductor_width": 0.254,
+      "relief_air_gap": 0.254,
+      "power_plane_relief_expansion": 0.508,
+      "power_plane_clearance": 0.508,
+      "solder_mask_expansion": 0.05,
+      "shape": "rounded_rectangle",
+      "rotation": 0,
+      "is_plated": true,
+      "stack_mode": "simple",
+      "power_plane_connect_style": "relief",
+      "relief_entries": 4,
+      "paste_mask_expansion_mode": "manual",
+      "solder_mask_expansion_mode": "manual",
+      "solder_mask_expansion_from_hole_edge": false,
+      "hole_slot_length": 0,
+      "hole_rotation": 0,
+      "raw_tail": "AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAADlTAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAQJwAAADTtdwRX1aHQ5Tddu/wV0Bxk+KlMtl2l0yW+VejXLht6AAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA",
+      "identity_guid": "{11DCB5D3-565F-4387-94DD-76EFF0574071}",
+      "identity_guid_b": "{32A5E293-76D9-4C97-96F9-57A35CB86DE8}",
+      "corner_radius_percent": 50
+    },
+    {
+      "layer": "Top Layer",
+      "net_index": 65535,
+      "polygon_index": 65535,
+      "component_index": -1,
+      "designator": "5",
+      "x": -0.4175,
+      "y": -1.000001,
+      "width": 0.565,
+      "height": 0.2,
+      "relief_conductor_width": 0.254,
+      "relief_air_gap": 0.254,
+      "power_plane_relief_expansion": 0.508,
+      "power_plane_clearance": 0.508,
+      "solder_mask_expansion": 0.05,
+      "shape": "rounded_rectangle",
+      "rotation": 0,
+      "is_plated": true,
+      "stack_mode": "simple",
+      "power_plane_connect_style": "relief",
+      "relief_entries": 4,
+      "paste_mask_expansion_mode": "manual",
+      "solder_mask_expansion_mode": "manual",
+      "solder_mask_expansion_from_hole_edge": false,
+      "hole_slot_length": 0,
+      "hole_rotation": 0,
+      "raw_tail": "AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAADlTAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAQJwAAAC6u/bsnKVpRqahwdMZj/GCKXlAeI4WmUGIdz5wtnFgsAAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA",
+      "identity_guid": "{ECF6BBBA-A59C-4669-A6A1-C1D3198FF182}",
+      "identity_guid_b": "{78407929-168E-4199-8877-3E70B67160B0}",
+      "corner_radius_percent": 50
+    },
+    {
+      "layer": "Top Layer",
+      "net_index": 65535,
+      "polygon_index": 65535,
+      "component_index": -1,
+      "designator": "6",
+      "x": 0.4175,
+      "y": -1.000001,
+      "width": 0.565,
+      "height": 0.2,
+      "relief_conductor_width": 0.254,
+      "relief_air_gap": 0.254,
+      "power_plane_relief_expansion": 0.508,
+      "power_plane_clearance": 0.508,
+      "solder_mask_expansion": 0.05,
+      "shape": "rounded_rectangle",
+      "rotation": 0,
+      "is_plated": true,
+      "stack_mode": "simple",
+      "power_plane_connect_style": "relief",
+      "relief_entries": 4,
+      "paste_mask_expansion_mode": "manual",
+      "solder_mask_expansion_mode": "manual",
+      "solder_mask_expansion_from_hole_edge": false,
+      "hole_slot_length": 0,
+      "hole_rotation": 0,
+      "raw_tail": "AAAAAAAAAKCGAQAEAKCGAQBADQMAQA0DAAAAAADlTAAAAAAAAAAAAAICAAAAAAAAAAAAAAABAAABAAAAQJwAAABrWQemclIKQpBzE/kD6wWuEjqSvN4QA0uhw4+Khp4GSQAAAAD///9/////fwABGgAAAAAAAAAAAAAAAQMAAAAAAAAAAAAAAAAAAAAA",
+      "identity_guid": "{A607596B-5272-420A-9073-13F903EB05AE}",
+      "identity_guid_b": "{BC923A12-10DE-4B03-A1C3-8F8A869E0649}",
+      "corner_radius_percent": 50
+    }
+  ],
+  "vias": [],
+  "tracks": [],
+  "arcs": [],
+  "fills": [],
+  "text": [],
+  "regions": [
+    {
+      "layer": "Top Paste",
+      "net_index": 65535,
+      "polygon_index": 65535,
+      "component_index": -1,
+      "sub_poly_index": -1,
+      "union_index": 0,
+      "arc_resolution": 0,
+      "is_shape_based": false,
+      "cavity_height": 0,
+      "param_key_order": [
+        "V7_LAYER",
+        "NAME",
+        "KIND",
+        "SUBPOLYINDEX",
+        "UNIONINDEX",
+        "ARCRESOLUTION",
+        "ISSHAPEBASED",
+        "CAVITYHEIGHT"
+      ],
+      "kind": "copper",
+      "vertices": [
+        {
+          "x": -0.135001,
+          "y": 0.13
+        },
+        {
+          "x": -0.135961,
+          "y": 0.139753
+        },
+        {
+          "x": -0.138806,
+          "y": 0.149134
+        },
+        {
+          "x": -0.143426,
+          "y": 0.15778
+        },
+        {
+          "x": -0.149644,
+          "y": 0.165357
+        },
+        {
+          "x": -0.157221,
+          "y": 0.171574
+        },
+        {
+          "x": -0.165867,
+          "y": 0.176195
+        },
+        {
+          "x": -0.175245,
+          "y": 0.17904
+        },
+        {
+          "x": -0.185001,
+          "y": 0.18
+        },
+        {
+          "x": -0.650001,
+          "y": 0.18
+        },
+        {
+          "x": -0.659755,
+          "y": 0.17904
+        },
+        {
+          "x": -0.669135,
+          "y": 0.176195
+        },
+        {
+          "x": -0.677779,
+          "y": 0.171574
+        },
+        {
+          "x": -0.685356,
+          "y": 0.165357
+        },
+        {
+          "x": -0.691573,
+          "y": 0.15778
+        },
+        {
+          "x": -0.696194,
+          "y": 0.149134
+        },
+        {
+          "x": -0.699038,
+          "y": 0.139753
+        },
+        {
+          "x": -0.700001,
+          "y": 0.13
+        },
+        {
+          "x": -0.700001,
+          "y": -0.13
+        },
+        {
+          "x": -0.699038,
+          "y": -0.139753
+        },
+        {
+          "x": -0.696194,
+          "y": -0.149134
+        },
+        {
+          "x": -0.691573,
+          "y": -0.15778
+        },
+        {
+          "x": -0.685356,
+          "y": -0.165357
+        },
+        {
+          "x": -0.677779,
+          "y": -0.171574
+        },
+        {
+          "x": -0.669135,
+          "y": -0.176195
+        },
+        {
+          "x": -0.659755,
+          "y": -0.17904
+        },
+        {
+          "x": -0.650001,
+          "y": -0.18
+        },
+        {
+          "x": -0.185001,
+          "y": -0.18
+        },
+        {
+          "x": -0.175245,
+          "y": -0.17904
+        },
+        {
+          "x": -0.165867,
+          "y": -0.176195
+        },
+        {
+          "x": -0.157221,
+          "y": -0.171574
+        },
+        {
+          "x": -0.149644,
+          "y": -0.165357
+        },
+        {
+          "x": -0.143426,
+          "y": -0.15778
+        },
+        {
+          "x": -0.138806,
+          "y": -0.149134
+        },
+        {
+          "x": -0.135961,
+          "y": -0.139753
+        },
+        {
+          "x": -0.135001,
+          "y": -0.13
+        }
+      ]
+    },
+    {
+      "layer": "Top Paste",
+      "net_index": 65535,
+      "polygon_index": 65535,
+      "component_index": -1,
+      "sub_poly_index": -1,
+      "union_index": 0,
+      "arc_resolution": 0,
+      "is_shape_based": false,
+      "cavity_height": 0,
+      "param_key_order": [
+        "V7_LAYER",
+        "NAME",
+        "KIND",
+        "SUBPOLYINDEX",
+        "UNIONINDEX",
+        "ARCRESOLUTION",
+        "ISSHAPEBASED",
+        "CAVITYHEIGHT"
+      ],
+      "kind": "copper",
+      "vertices": [
+        {
+          "x": 0.700001,
+          "y": 0.13
+        },
+        {
+          "x": 0.699038,
+          "y": 0.139753
+        },
+        {
+          "x": 0.696194,
+          "y": 0.149134
+        },
+        {
+          "x": 0.691573,
+          "y": 0.15778
+        },
+        {
+          "x": 0.685356,
+          "y": 0.165357
+        },
+        {
+          "x": 0.677779,
+          "y": 0.171574
+        },
+        {
+          "x": 0.669135,
+          "y": 0.176195
+        },
+        {
+          "x": 0.659755,
+          "y": 0.17904
+        },
+        {
+          "x": 0.650001,
+          "y": 0.18
+        },
+        {
+          "x": 0.185001,
+          "y": 0.18
+        },
+        {
+          "x": 0.175245,
+          "y": 0.17904
+        },
+        {
+          "x": 0.165867,
+          "y": 0.176195
+        },
+        {
+          "x": 0.157221,
+          "y": 0.171574
+        },
+        {
+          "x": 0.149644,
+          "y": 0.165357
+        },
+        {
+          "x": 0.143426,
+          "y": 0.15778
+        },
+        {
+          "x": 0.138806,
+          "y": 0.149134
+        },
+        {
+          "x": 0.135961,
+          "y": 0.139753
+        },
+        {
+          "x": 0.135001,
+          "y": 0.13
+        },
+        {
+          "x": 0.135001,
+          "y": -0.13
+        },
+        {
+          "x": 0.135961,
+          "y": -0.139753
+        },
+        {
+          "x": 0.138806,
+          "y": -0.149134
+        },
+        {
+          "x": 0.143426,
+          "y": -0.15778
+        },
+        {
+          "x": 0.149644,
+          "y": -0.165357
+        },
+        {
+          "x": 0.157221,
+          "y": -0.171574
+        },
+        {
+          "x": 0.165867,
+          "y": -0.176195
+        },
+        {
+          "x": 0.175245,
+          "y": -0.17904
+        },
+        {
+          "x": 0.185001,
+          "y": -0.18
+        },
+        {
+          "x": 0.650001,
+          "y": -0.18
+        },
+        {
+          "x": 0.659755,
+          "y": -0.17904
+        },
+        {
+          "x": 0.669135,
+          "y": -0.176195
+        },
+        {
+          "x": 0.677779,
+          "y": -0.171574
+        },
+        {
+          "x": 0.685356,
+          "y": -0.165357
+        },
+        {
+          "x": 0.691573,
+          "y": -0.15778
+        },
+        {
+          "x": 0.696194,
+          "y": -0.149134
+        },
+        {
+          "x": 0.699038,
+          "y": -0.139753
+        },
+        {
+          "x": 0.700001,
+          "y": -0.13
+        }
+      ]
+    }
+  ],
+  "primitive_order": [
+    "pad",
+    "pad",
+    "pad",
+    "pad",
+    "pad",
+    "pad",
+    "pad",
+    "pad",
+    "pad",
+    "pad",
+    "region",
+    "region"
+  ],
+  "description": "TI SLVSBO7O DQA0010A board/stencil pp29-30;0.565x0.2 leads,3/8=0.565x0.4;pitch0.5,row0.835mm. R0.05typ usingAltiumhalf-side50/25percent,NSMD+.05. GNDpaste0.565x0.36 windows,0.10mm stencil."
+}

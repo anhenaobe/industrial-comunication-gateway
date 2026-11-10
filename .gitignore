@@ -1,3 +1,11 @@
 # Draw.io temporary/editor backup files
 *.drawio.bkp
 **/.$*.bkp
+
+# Altium generated files
+**/History/
+**/__Previews/
+**/Project Logs for */
+**/Project Outputs for */
+*.SchDocPreview
+*.PcbDocPreview

@@ -1,0 +1,43 @@
+{
+  "status": "success",
+  "filepath_a": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\backups\\bsp75n_20261107T231133Z\\Gateway_Academic.SchLib",
+  "filepath_b": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+  "file_type": "SchLib",
+  "added": [],
+  "removed": [],
+  "modified": [
+    {
+      "name": "BSP75NTA",
+      "changes": [
+        {
+          "property": "description",
+          "a": "BSP75NTA; CAD_BLOCKED; CAD_BLOCKED: terminal identifiers are role names, not manufacturer numbers. Tab=Source, isolated from Drain. Need exact numbered Type DN drawing/model before any placement or footprint binding.",
+          "b": "BSP75NTA smart low-side switch; physical terminal positions and Diodes land pattern verified; IN,D,S,S_TAB identifiers; driver VOH acceptance remains pending."
+        },
+        {
+          "property": "footprints",
+          "a": null,
+          "b": [
+            {
+              "name": "GW_BSP75N_SOT223_DN_DIODES",
+              "is_current": true
+            }
+          ]
+        },
+        {
+          "property": "parameters.count",
+          "a": 8,
+          "b": 14
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "added_count": 0,
+    "removed_count": 0,
+    "modified_count": 1,
+    "unchanged_count": 65,
+    "components_in_a": 66,
+    "components_in_b": 66
+  }
+}

@@ -1,0 +1,811 @@
+{
+  "status": "success",
+  "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+  "component_name": "SN74LVC2T45DCTR",
+  "component": {
+    "name": "SN74LVC2T45DCTR",
+    "description": "SN74LVC2T45DCTR; CAD_CANDIDATE; Electrical candidate only; no OE pin. VOH at BSP75N input load remains open.",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 8,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "SN74LVC2T45DCTR"
+      ],
+      [
+        "ComponentDescription",
+        "SN74LVC2T45DCTR; CAD_CANDIDATE; Electrical candidate only; no OE pin. VOH at BSP75N input load remains open."
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "8"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "rectangles": [
+      {
+        "owner_part_id": 1,
+        "x1": -80,
+        "y1": -10,
+        "x2": 80,
+        "y2": 40,
+        "line_width": 1,
+        "line_color": 128,
+        "fill_color": 11599871,
+        "filled": true,
+        "transparent": false,
+        "line_style": 0,
+        "unique_id": "KFXJHLEY",
+        "raw_params": [
+          [
+            "RECORD",
+            "14"
+          ],
+          [
+            "IsNotAccesible",
+            "T"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Location.X",
+            "-80"
+          ],
+          [
+            "Location.Y",
+            "-10"
+          ],
+          [
+            "Corner.X",
+            "80"
+          ],
+          [
+            "Corner.Y",
+            "40"
+          ],
+          [
+            "LineWidth",
+            "1"
+          ],
+          [
+            "Color",
+            "128"
+          ],
+          [
+            "AreaColor",
+            "11599871"
+          ],
+          [
+            "IsSolid",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "KFXJHLEY"
+          ]
+        ]
+      }
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 30,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "VCCA",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "bidirectional",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 20,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "A1",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "bidirectional",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 10,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "A2",
+        "designator": "3",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "GND",
+        "designator": "4",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "input",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "DIR",
+        "designator": "5",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "bidirectional",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 10,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "B2",
+        "designator": "6",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "bidirectional",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 20,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "B1",
+        "designator": "7",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 30,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "VCCB",
+        "designator": "8",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Texas Instruments",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "ALDSFHVK",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "9"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Texas Instruments"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "ALDSFHVK"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "SN74LVC2T45DCTR",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "LCLYOKSC",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "10"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "SN74LVC2T45DCTR"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "LCLYOKSC"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "SN74LVC2T45DCTR",
+        "name": "Value",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "GYMEDDEZ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "11"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "SN74LVC2T45DCTR"
+          ],
+          [
+            "Name",
+            "Value"
+          ],
+          [
+            "UniqueID",
+            "GYMEDDEZ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "SN74LVC2T45DCTR",
+        "name": "Comment",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "VIDZDJWK",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "12"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "SN74LVC2T45DCTR"
+          ],
+          [
+            "Name",
+            "Comment"
+          ],
+          [
+            "UniqueID",
+            "VIDZDJWK"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_CANDIDATE",
+        "name": "CAD_Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "OZNAVIRB",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "13"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_CANDIDATE"
+          ],
+          [
+            "Name",
+            "CAD_Status"
+          ],
+          [
+            "UniqueID",
+            "OZNAVIRB"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROVISIONAL",
+        "name": "Electrical_Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "TJCYQMUN",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "14"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROVISIONAL"
+          ],
+          [
+            "Name",
+            "Electrical_Status"
+          ],
+          [
+            "UniqueID",
+            "TJCYQMUN"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "SCES516N table4-1 p2; DCT0008A 4220784/D PDF pp28-30",
+        "name": "CAD_Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "DBWVNWYX",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "15"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "SCES516N table4-1 p2; DCT0008A 4220784/D PDF pp28-30"
+          ],
+          [
+            "Name",
+            "CAD_Source"
+          ],
+          [
+            "UniqueID",
+            "DBWVNWYX"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Electrical candidate only; no OE pin. VOH at BSP75N input load remains open.",
+        "name": "CAD_Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "QRDKNZBK",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "16"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Electrical candidate only; no OE pin. VOH at BSP75N input load remains open."
+          ],
+          [
+            "Name",
+            "CAD_Limitations"
+          ],
+          [
+            "UniqueID",
+            "QRDKNZBK"
+          ]
+        ]
+      }
+    ],
+    "designator": "U?",
+    "designator_x": -80,
+    "designator_y": 50,
+    "designator_unique_id": "YFOYZVTR",
+    "footprints": [
+      {
+        "name": "GW_DCT0008A_TI",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "19"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_DCT0008A_TI"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "VHIRRLBJ"
+          ]
+        ],
+        "unique_id": "VHIRRLBJ"
+      }
+    ],
+    "primitive_order": [
+      "rectangle",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter"
+    ]
+  },
+  "type": "SchLib",
+  "units": "schematic units (10 = 1 grid)",
+  "message": "Retrieved symbol 'SN74LVC2T45DCTR' from 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib'"
+}

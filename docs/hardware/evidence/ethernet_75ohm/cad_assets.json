@@ -1,0 +1,23 @@
+[
+  {
+    "asset_id": "CRCW080575R0FKEA",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "ETH_RBOB"
+    ],
+    "mpn": "CRCW080575R0FKEA",
+    "symbol": "CRCW080575R0FKEA",
+    "footprint": "GW_CRCW0805_VISHAY_20035_REFLOW",
+    "source": "Vishay20035 Rev18-Jun-2018 p3 ordering/p9 body and REFLOW lands; exact C844859 catalog identity2026-11-07",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "package_requirement": "GW_CRCW0805_VISHAY_20035_REFLOW",
+    "limitations": "Nonpolar project1/2 mapping; exact manufacturer reflow copper/body. Mask+.05mm and1:1paste are explicit process selections, not manufacturer prescribed. No hardware/surge/board qualification.",
+    "lcsc_code": "C844859",
+    "datasheet_url": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+    "local_datasheet": "hardware/academic_rev1/libraries/sources/ethernet_75ohm/C844859.pdf",
+    "availability_category": "JLC Extended; C844859; public JSON-LD observed2026-11-07",
+    "stock_status": "Catalog reports in_stock; exact assembly quantity unknown; recheck before order"
+  }
+]

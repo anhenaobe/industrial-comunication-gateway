@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "symbol": "C1206C102KGRACAUTO",
+  "footprint": "GW_C1206_KEMET_C1076_DENSITY_B",
+  "BOM_quantity": 2,
+  "library_counts": [
+    66,
+    37
+  ],
+  "previous_objects_unchanged": [
+    65,
+    36
+  ],
+  "native_compilation": "NOT_RUN; stale IntLib",
+  "native_design_writes_issued": false,
+  "other_library_hashes_preserved": true,
+  "external_native_changes_observed": [],
+  "unrelated_BOM_rows_preserved": true,
+  "electrical_approval_unchanged": true,
+  "termination_topology_preserved": true,
+  "local_links_checked": 22,
+  "git_diff_check": 0,
+  "git_status": " M firmware/poc/.gitignore\n M firmware/poc/CMakeLists.txt\n M firmware/poc/README.md\n M firmware/poc/prj.conf\n?? \"converter_pcb_layout_appli-e (1).pdf\"\n?? docs/hardware/\n?? firmware/poc/.vscode/\n?? firmware/poc/platformio.ini\n?? firmware/poc/zephyr/\n?? hardware/\n?? \"shared_lib (1).IntLib\"\n?? tmp/\n"
+}

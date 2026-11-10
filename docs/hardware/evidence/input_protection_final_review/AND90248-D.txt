@@ -1,0 +1,385 @@
+PAGE 1
+APPLICATION NOTE
+www.onsemi.com
+© Semiconductor Components Industries, LLC,  2023
+September, 2023 − Rev. 0
+1
+Publication Order Number:
+AND90248/D
+NIS(V)3071 eFuse Schematic Guide
+AND90248/D
+Introduction
+The NIS(V)3071 is a multi−channel eFuse capable
+of driving 2.5 A per channel with a wide input operating
+range of 8 – 60 V. Channels can be paralleled to drive higher
+currents or can be operated independently with multiple
+input supplies. This document serves to help guide users
+on selecting the appropriate Rlim and Cdvdt values and any
+supporting peripheral components needed, depending on
+the application requirements.
+Circuit Element
+Name
+Value
+Description
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+Resistor
+Rlim
+See Section 1.1
+Resistor that connects to Ilim pin to set ITH and ICB.
+RFAULT
+15k
+Resistor that connects to Fault pin to pull up to external voltage.
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+Capacitor
+CDVDT1
+See Section 2.1
+Capacitor that connects to DVDT pin to control the slew rate of all outputs.
+CIN1
+See Section 2.2
+Capacitor connected to IN1 pin to filter out noise at input and reduce voltage
+droop during a fault event.
+CIN2
+Capacitor connected to IN1 pin to filter out noise at input and reduce voltage
+droop during a fault event.
+CIN3
+Capacitor connected to IN1 pin to filter out noise at input and reduce voltage
+droop during a fault event.
+CIN4
+Capacitor connected to IN1 pin to filter out noise at input and reduce voltage
+droop during a fault event.
+COUT1
+See Section 2.3
+Capacitor connected to OUT1 pin to help compensate for inductive loads.
+COUT2
+Capacitor connected to OUT2 pin to help compensate for inductive loads.
+COUT3
+Capacitor connected to OUT3 pin to help compensate for inductive loads.
+COUT4
+Capacitor connected to OUT4 pin to help compensate for inductive loads.
+Share Feedback
+Your Opinion Matters
+
+PAGE 2
+AND90248/D
+www.onsemi.com
+2
+Circuit Element
+Description
+Value
+Name
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+Diode
+ZIN1
+<65 V
+Zener Diode that protects IN1 pin from a transient voltage higher than
+the 65 V maximum.
+ZIN2
+Zener Diode that protects IN2 pin from a transient voltage higher than
+the 65 V maximum.
+ZIN3
+Zener Diode that protects IN3 pin from a transient voltage higher than
+the 65 V maximum.
+ZIN4
+Zener Diode that protects IN4 pin from a transient voltage higher than
+the 65 V maximum.
+SOUT1
+See Section 3.2
+Schottky Diode that protects OUT1 pin from falling lower than −0.3 V 
+in the case of an inductive short to ground event.
+SOUT2
+Schottky Diode that protects OUT1 pin from falling lower than −0.3 V 
+in the case of an inductive short to ground event.
+SOUT3
+Schottky Diode that protects OUT1 pin from falling lower than −0.3 V 
+in the case of an inductive short to ground event.
+SOUT4
+Schottky Diode that protects OUT1 pin from falling lower than −0.3 V 
+in the case of an inductive short to ground event.
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁÁ
+Power Rails
+Vin1
+−0.3 V – 60 V
+Input voltage that connects to IN1 pin and will be seen on OUT1 pin
+when device is on.
+Vin2
+Input voltage that connects to IN2 pin and will be seen on OUT2 pin
+when device is on.
+Vin3
+Input voltage that connects to IN3 pin and will be seen on OUT3 pin
+when device is on.
+Vin4
+Input voltage that connects to IN4 pin and will be seen on OUT4 pin
+when device is on.
+Logic Pull−Up
+Rail
+1.8 V, 3.3 V, 5 V
+Voltage Rail that pulls Fault pin high
+Section 1: Resistors
+1.1 RLim: The current limiting resistor should be
+connected between the ILim pin (pin 7) and ground.
+The purpose of this resistor is to set the current limit value
+for ITH and ICB, which when tripped will cause the output
+to be disconnected from the input. Look at Figure 5 and 6
+in the data sheet to choose the correct resistor value
+for the application.
+Ex. Set ITH to 2 A
+RLim starting value 30k
+ICB, as can be seen on the figure, will always be twice
+the value of ITH.
+Figure 6. Junction Temperature vs. ITH & ICB
+Figure 5. Current Limit Setting vs. RLIM
+ITH
+RLIM, (k)
+ITH AND ICB, (A)
+0
+2
+4
+6
+8
+10
+12
+14
+0
+10
+20
+30
+40
+50
+60
+ICB
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+−40
+−20
+0
+20
+40
+60
+80
+100
+120
+TJ, JUNCTION TEMPERATURE (°C)
+ICB AND ITH, (A)
+ICB @ RLIM 15 k
+ITH @ RLIM 15 k
+ICB @ RLIM 30 k
+ITH @ RLIM 30 k
+ICB @ RLIM 62 k
+ITH @ RLIM 62 k
+Max load current
+per channel 2.5 A
+1.2 RFAULT: This resistor is connected between
+the Fault pin (pin 5) and Logic Pull−Up Rail. Choose this
+to be 15k to limit the current below the Output Sink Current
+max for the Fault pin.
+Share Feedback
+Your Opinion Matters
+
+PAGE 3
+AND90248/D
+www.onsemi.com
+3
+Section 2: Capacitors
+2.1 CDVDT: This capacitor is connected between the
+DVDT pin (pin 6) and ground. The purpose of the capacitor
+is to increase the Turn−on Time of the output. There are
+3 important metrics to consider when choosing the DVDT
+capacitor: typical junction temperature, output voltage, and
+desired Turn on Time. Look at Figures 7−9 in the datasheet
+to choose the appropriate capacitor for the application.
+Ex. 25°C Junction Temperature, 24 V Output Voltage, 11 ms Turn on Time
+CDVDT Starting Value 65 pF
+Capacitance (pF)
+Turn on Time (ms)
+Capacitance (pF)
+Turn on Time (ms)
+0.000
+5.000
+10.000
+15.000
+20.000
+25.000
+30.000
+0
+20
+40
+60
+80
+100
+0.000
+5.000
+10.000
+15.000
+20.000
+25.000
+30.000
+35.000
+0
+20
+40
+60
+80
+100
+Turn on Time vs. dv/dt Pin Capacitance
+@ TJ = −40°C
+Turn on Time vs. dv/dt Pin Capacitance
+@ TJ = 25°C
+Capacitance (pF)
+Turn on Time (ms)
+0.000
+5.000
+10.000
+15.000
+20.000
+25.000
+30.000
+35.000
+40.000
+45.000
+0
+20
+40
+60
+80
+100
+Turn on Time vs. dv/dt Pin Capacitance
+@ TJ = 125°C
+12 V
+24 V
+36 V
+48 V
+12 V
+24 V
+36 V
+48 V
+12 V
+24 V
+36 V
+48 V
+2.2 Input Capacitors: These capacitors are connected
+between the input pins (pin 2, 3, 10, and 11) and ground.
+They are used mainly to filter out any unwanted noise at
+the input but has the added benefit of reducing voltage droop
+at in input during an inrush or fault event at the output.
+Choose a capacitor that is rated for the max system voltage
+and has a capacitance large enough for desired filtering
+applications. Only one filtering capacitor is needed per
+independent rail, meaning that if all inputs are paralleled
+only one capacitor is recommended.
+2.3 Output Capacitors: These capacitors are connected
+between the output pins (pin 1, 4, 9, and 12) and ground.
+They are intended to compensate for any inductive loads that
+are connected to the outputs. Choose a capacitor that is rated
+for the max system voltage and can handle inductive kick
+back during a fault event. Only one capacitor is needed per
+independent output, meaning that if all outputs are
+paralleled only one capacitor is recommended.
+Section 3: Diodes:
+3.1 Input Diodes: These are Zener diodes that have their
+anode connected to ground and their cathode connected to
+the input pins (pin 2, 3, 10, and 11). They are used to protect
+the input from a transient voltage higher than the maximum
+transient voltage of the device. For this reason, it is
+recommended to use a Zener with a voltage equal to or lower
+than 65 V, but higher than the maximum system voltage
+during normal operation. Only one Zener is needed per
+independent rail, meaning that if all inputs are paralleled
+only one Zener is required.
+3.2 Output Diodes: These are Schottky diodes that have
+their anode connected to ground and their cathode connected
+to the output pins (pin 1, 4, 9, and 12). They are used to
+protect the output from falling below minimum output
+voltage of −0.3 V during a inductive short to ground event.
+Only one Schottky is needed per independent output,
+meaning that if all outputs are paralleled only one Schottky
+is required.
+Section 4: Power Rails
+4.1 Input Rails: These are voltage supplies that connect
+directly to the input pins (pin 2, 3, 10, and 11). Each rail
+is independent of the others unless purposefully connected,
+and the input pins can all handle voltages between −0.3 and
+60 V, with each input able to be set to a different voltage.
+When a channel is turned on with its corresponding enable
+pin (pins 16, 15, 14, and 13 respectively), the output will be
+pulled up to the same voltage at the input.
+4.2 Logic Pull−Up Rail: This is a voltage supply that is
+connected to the Fault pin (pin 5) through a pull up resistor.
+This rail is responsible for pulling the fault pin high when
+there is fault detected on any of the outputs. Because this is
+a logic−high signal, it can be set to 1.8 V, 3.3 V, or 5 V
+depending on the desired application. If the fault pin does
+not need to be used, it can be left floating.
+Share Feedback
+Your Opinion Matters
+
+PAGE 4
+AND90248/D
+www.onsemi.com
+4
+onsemi, 
+ , and other names, marks, and brands are registered and/or common law trademarks of Semiconductor Components Industries, LLC dba “onsemi” or its affiliates
+and/or subsidiaries in the United States and/or other countries. onsemi owns the rights to a number of patents, trademarks, copyrights, trade secrets, and other intellectual property.
+A listing of onsemi’s product/patent coverage may be accessed at www.onsemi.com/site/pdf/Patent−Marking.pdf. onsemi reserves the right to make changes at any time to any
+products or information herein, without notice. The information herein is provided “as−is” and onsemi makes no warranty, representation or guarantee regarding the accuracy of the
+information, product features, availability, functionality, or suitability of its products for any particular purpose, nor does onsemi assume any liability arising out of the application or use
+of any product or circuit, and specifically disclaims any and all liability, including without limitation special, consequential or incidental damages. Buyer is responsible for its products
+and applications using onsemi products, including compliance with all laws, regulations and safety requirements or standards, regardless of any support or applications information
+provided by onsemi. “Typical” parameters which may be provided in onsemi data sheets and/or specifications can and do vary in different applications and actual performance may
+vary over time. All operating parameters, including “Typicals” must be validated for each customer application by customer’s technical experts. onsemi does not convey any license
+under any of its intellectual property rights nor the rights of others. onsemi products are not designed, intended, or authorized for use as a critical component in life support systems
+or any FDA Class 3 medical devices or medical devices with a same or similar classification in a foreign jurisdiction or any devices intended for implantation in the human body. Should
+Buyer purchase or use onsemi products for any such unintended or unauthorized application, Buyer shall indemnify and hold onsemi and its officers, employees, subsidiaries, affiliates,
+and distributors harmless against all claims, costs, damages, and expenses, and reasonable attorney fees arising out of, directly or indirectly, any claim of personal injury or death
+associated with such unintended or unauthorized use, even if such claim alleges that onsemi was negligent regarding the design or manufacture of the part. onsemi is an Equal
+Opportunity/Affirmative Action Employer. This literature is subject to all applicable copyright laws and is not for resale in any manner.
+ADDITIONAL INFORMATION
+TECHNICAL PUBLICATIONS:
+Technical Library: www.onsemi.com/design/resources/technical−documentation
+onsemi Website: www.onsemi.com
+ONLINE SUPPORT: www.onsemi.com/support
+For additional information, please contact your local Sales Representative at
+www.onsemi.com/support/sales
+◊

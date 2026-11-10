@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "symbol_count": 37,
+  "footprint_count": 15,
+  "active_specifications": 8,
+  "active_candidate_pairs": 7,
+  "active_unfinished": 1,
+  "mandatory_passive_specifications": 26,
+  "mandatory_symbol_candidates": 19,
+  "mandatory_footprint_candidates": 15,
+  "mandatory_package_requirements": 7,
+  "unresolved_mandatory_requirement_groups": 7,
+  "active_package_requirements": 7,
+  "mandatory_and_active_package_requirements": 14,
+  "covered_package_requirements": 9,
+  "verified_package_requirements": 0,
+  "conditional_passive_specifications": 11,
+  "mandatory_package_requirement_inventory": [
+    "1210",
+    "2220",
+    "GW_CAND_0603_cap",
+    "GW_CAND_0603_res",
+    "GW_CAND_0805_cap",
+    "XAL4030",
+    "XAL4040"
+  ],
+  "asset_categories": {
+    "ACTIVE": 8,
+    "PASSIVE": 22,
+    "AUXILIARY": 7
+  },
+  "preserved_sources": {
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\shared_lib (1).IntLib": "91594ede8aadf6449fff5b44b7443deafeb73cfaf0bc1eb1ff434d8ac1fb6159",
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\CL10B103KA8WPNC.PcbLib": "c9496f975a16591976208cbb517f3227292981eccf8fcac6ddb7468af688f6f4",
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\CL10B103KA8WPNC.SchLib": "9cc386e13ead09c12cc59c5c1ee92310bf323d5aaaffb94520701d273ad59ad9",
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Professor_shared.PcbLib": "f359611c12c5777b634ba5ecbd4cf5e3fa5ce805aa9b3c63db867b173a7fbc97",
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Professor_shared.SchLib": "4224bca2915106499b00128131c8a18d48b1bddc8573ebf9c80952c32e85d620",
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\SS3P6L-M386A.PcbLib": "e793dfcca4a28d5ecb300129b51ac08c52ec590f49989ba222f4624e9b60c6d8",
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\SS3P6L-M386A.SchLib": "4ee1abdea0db1cbf3acd6851413ff0169964a6576cfdf8f4b82c82d5119108a9"
+  },
+  "destination_hashes": {
+    "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib": "fbc2177642108595aeae944ace2593c761e76ecb712278c816771669f8397e00",
+    "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib": "840659f16036efbcf25c9187c358203cda096e27876e9b6aadae155758710590",
+    "hardware\\academic_rev1\\libraries\\Gateway_Academic.LibPkg": "73e70e6a93f8da86b27b99d618250b934dcdde6d262160927f9920ba5ae6631e"
+  },
+  "native_close_reopen": "PENDING",
+  "native_representative_placement": "PENDING",
+  "compiler": "NOT_RUN; native handler failure, then user requested computer released",
+  "intlib_exists": false,
+  "final_schematic_readiness": "Conditional"
+}

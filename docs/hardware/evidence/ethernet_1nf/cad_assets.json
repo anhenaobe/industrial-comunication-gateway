@@ -1,0 +1,23 @@
+[
+  {
+    "asset_id": "C1206C102KGRACAUTO",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "ETH_CBOB"
+    ],
+    "mpn": "C1206C102KGRACAUTO",
+    "symbol": "C1206C102KGRACAUTO",
+    "footprint": "GW_C1206_KEMET_C1076_DENSITY_B",
+    "source": "KEMET C1076_X7R_HV_AUTO_SMD9/10/2019 pp1-2 ordering/rating,p4 body,p10 Table3 densityB1206; C600002 exact catalog identity",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "package_requirement": "GW_C1206_KEMET_C1076_DENSITY_B",
+    "limitations": "Manufacturer densityB reflow geometry; mask+.05/paste1:1 explicit process choices. 2kVDC is not safety-Y certification. No hardware, industrial surge or insulation compliance claim.",
+    "lcsc_code": "C600002",
+    "datasheet_url": "https://yageogroup.com/download/specsheet/C1206C102KGRACAUTO",
+    "local_datasheet": "hardware/academic_rev1/libraries/sources/ethernet_1nf/C600002.pdf",
+    "availability_category": "JLC Extended; C600002; public JSON-LD observed2026-11-07",
+    "stock_status": "Catalog reports in_stock; quantity unknown; recheck assembly stock"
+  }
+]

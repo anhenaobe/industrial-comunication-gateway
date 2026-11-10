@@ -1,0 +1,166 @@
+[
+  {
+    "name": "C1206C102KGRACAUTO",
+    "designator": "C?",
+    "description": "KEMET1nF10%2kVDCX7R1206; Ethernet chassis AC return; no safety-Y or surge claim",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -5,
+        "y": 0,
+        "orientation": "left",
+        "length": 25,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 5,
+        "y": 0,
+        "orientation": "right",
+        "length": 25,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_C1206_KEMET_C1076_DENSITY_B",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "KEMET",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "C1206C102KGRACAUTO",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "1 nF",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Tolerance",
+        "value": "10%",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Voltage Rating",
+        "value": "2000 VDC",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Dielectric",
+        "value": "X7R",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Package",
+        "value": "1206 /3216",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "sources/ethernet_1nf/C600002.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "KEMET C1076_X7R_HV_AUTO_SMD9/10/2019 pp1-2 ordering/rating,p4 body,p10 Table3 densityB1206; C600002 exact catalog identity",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "LCSC Part Number",
+        "value": "C600002",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Approval",
+        "value": "PROVISIONAL_APPLICATION; not safety-Y certified",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Terminal Mapping",
+        "value": "Nonpolar, project1-left/2-right; symbol1->pad1,2->pad2",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Assembly",
+        "value": "JLC Extended observed2026-11-07; quantity unknown; no stock reservation",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "designator_x": -15,
+    "designator_y": 18,
+    "lines": [
+      {
+        "x1": -5,
+        "y1": -12,
+        "x2": -5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 5,
+        "y1": -12,
+        "x2": 5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      }
+    ]
+  }
+]

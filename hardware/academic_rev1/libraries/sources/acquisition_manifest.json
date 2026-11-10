@@ -1,0 +1,51 @@
+[
+  {
+    "file": "DP83826EVM_snlr047.zip",
+    "url": "https://www.ti.com/lit/zip/snlr047",
+    "resolved_url": "https://www.ti.com/lit/df/snlr047/snlr047.zip?ts=1793921894082",
+    "sha256": "7ddfd501ed7e4413c60a510d62de6eb41f06636b5ecb34bf89bf88218f373593",
+    "bytes": 6143207
+  },
+  {
+    "file": "DP83826EVM_snlu262a.pdf",
+    "url": "https://www.ti.com/lit/ug/snlu262a/snlu262a.pdf",
+    "resolved_url": "https://www.ti.com/lit/ug/snlu262a/snlu262a.pdf",
+    "sha256": "1500afd71523db029c092f456b0d56f934f0c911742605cde31f3dfa9a16f940",
+    "bytes": 2034152
+  },
+  {
+    "file": "SS3P6L_88987.pdf",
+    "url": "https://www.vishay.com/doc/?88987=",
+    "resolved_url": "https://www.vishay.com/docs/88987/ss3p6l.pdf",
+    "sha256": "7e8b31517781e0d4295e5e3687a81bd8e5639c069a0ea42a797e3050b6966134",
+    "bytes": 105363
+  },
+  {
+    "file": "ATA656x_EVKit_50002649A.pdf",
+    "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/UserGuides/50002649A.pdf",
+    "resolved_url": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/UserGuides/50002649A.pdf",
+    "sha256": "a42e0e555c332a8de977074233d788900cb4e836eb6c64317714e503bab56426",
+    "bytes": 3095018
+  },
+  {
+    "file": "ISO1212_RSENSE_RC0603FR07562RL.pdf",
+    "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07562RL",
+    "resolved_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07562RL",
+    "sha256": "36c124f4fb97008d1eef3c46254110b60e7b602943734de7aa64acb8e46ad106",
+    "bytes": 56436
+  },
+  {
+    "file": "DI_CIN_C0603C103K1RACTU.pdf",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C103K1RACTU",
+    "resolved_url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C103K1RACTU",
+    "sha256": "30f466e55f71ff7313f0b2181b74338f5cf299e39793941fd1305db82db1f235",
+    "bytes": 291146
+  },
+  {
+    "file": "DP83826EVM_reference_schematic.pdf",
+    "source_archive": "DP83826EVM_snlr047.zip",
+    "source_member": "HSDC077A(001)_Sch.PDF",
+    "sha256": "67701c5fe1d5145f535b740b77b0df5f2044b481ed1a82ee5bc621b705f57bca",
+    "bytes": 6010956
+  }
+]

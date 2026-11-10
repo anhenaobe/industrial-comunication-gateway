@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"status\": \"success\", \"filepath\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.SchLib\", \"file_type\": \"SchLib\", \"dry_run\": false, \"component_name\": \"0451002.MRL\", \"new_name\": \"0451002.MRL\", \"would_rename\": false, \"changes\": [\"parameters[3].value: '*' -> 'https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1'\"], \"message\": \"Updated component '0451002.MRL'\", \"backup\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.SchLib.20261107_103335_543793.bak\", \"validation\": {\"status\": \"valid\", \"error_count\": 0, \"warning_count\": 0, \"issues\": []}}"
+    }
+  ],
+  "structuredContent": {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "0451002.MRL",
+    "new_name": "0451002.MRL",
+    "would_rename": false,
+    "changes": [
+      "parameters[3].value: '*' -> 'https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1'"
+    ],
+    "message": "Updated component '0451002.MRL'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_103335_543793.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  "isError": false
+}

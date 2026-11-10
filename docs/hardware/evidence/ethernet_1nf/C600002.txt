@@ -1,0 +1,1077 @@
+=== PAGE 1 ===
+Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC
+(Automotive Grade)
+
+Overview
+
+The KEMET Automotive Grade High Voltage surface          Whether underhood or in-cabin, these capacitors are
+mount MLCCs in X7R dielectric feature a 125°C              designed to provide reliable performance in mission
+maximum operating temperature and are considered         and safety critical automotive circuits. Stricter testing
+“temperature stable.” The Electronics Industries Alliance       protocol and inspection criteria have been established for
+(EIA) characterizes X7R dielectric as a Class II material.       automotive grade products in recognition of potentially harsh
+Components of this classification are fixed, ceramic          environmental conditions. KEMET automotive grade series
+dielectric capacitors suited for bypass and decoupling        capacitors meet the demanding Automotive Electronics
+applications or for frequency discriminating circuits,           Council's AEC-Q200 qualification requirements.
+where Q and stability of capacitance characteristics
+are not critical. X7R exhibits a predictable change in
+capacitance with respect to time and voltage and boasts a
+minimal change in capacitance with reference to ambient
+temperature. Capacitance change is limited to ±15% from
+−55°C to +125°C.
+
+Available in a variety of case sizes and industry leading
+CV values (capacitance/voltage), these devices exhibit
+low leakage current and low ESR at high frequencies.
+Conventional uses include both snubbers and filters
+in applications such as switching power supplies and
+lighting ballasts. Their exceptional performance at high
+frequencies has made high voltage MLCC's the preferred
+dielectric choice of design engineers worldwide. In                                                                                        Click image above for interactive 3D content
+addition to their use in power supplies, these capacitors                                                                             Open PDF in Adobe Reader for full functionality
+are widely used in industries related to automotive
+(hybrid), telecommunications, medical, military, aerospace,
+semiconductors and test/diagnostic equipment.
+
+Ordering Information
+
+  C     1210     C        154       K        C       R      A         C         AUTO
+         Case Size Specification/  Capacitance  Capacitance Rated Voltage              Failure Rate/                    Packaging/Grade
+ Ceramic                                                                             Dielectric               Termination Finish1
+             (L" x W")     Series      Code (pF)     Tolerance      (VDC)                  Design                             (C-Spec)
+          0603   C = Standard     Two       J = ±5%     C = 500      R = X7R    A = N/A    C = 100% Matte Sn  See "Packaging
+          0805                      significant    K = ±10%    B = 630                                              C-Spec Ordering
+           1206                       digits and   M = ±20%   D = 1,000                                                Options Table"
+           1210                 number of                F = 1,500
+           1808                       zeros.               G = 2,000
+           1812                                       Z = 2,500
+           1825                                 H = 3,000
+          2220
+          2225
+
+1 Additional termination finish options may be available. Contact KEMET for details.
+                                                                                     One world. One KEMET
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019       1
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 2 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Packaging C-Spec Ordering Options Table
+
+                                                   Packaging/Grade            Packaging Type1                                                  Ordering Code (C-Spec)3
+   7" Reel                                                AUTO
+                                              AUTO7411 (EIA 0603 and smaller case sizes)  13" Reel/Unmarked                                             AUTO7210 (EIA 0805 and larger case sizes)
+   7" Reel/Unmarked/2 mm pitch2                                      3190
+  13" Reel/Unmarked/2 mm pitch2                                     3191
+1 Reeling tape options (Paper or Plastic) are dependent on capacitor case size (L" x W") and thickness dimension. See "Chip Thickness/Tape & Reel
+ Packaging Quantities" and "Tape & Reel Packaging Information."
+2 The 2 mm pitch option allows for double the packaging quantity of capacitors on a given reel size. This option is limited to EIA 0603 (1608 metric) case
+ size devices. For more information regarding 2 mm pitch option see "Tape & Reel Packaging Information."
+3 All automotive packaging C-Specs listed exclude the option to laser mark components. Please contact KEMET if you require a laser marked option. For
+ more information see "Capacitor Marking."
+3 For additional information regarding "AUTO" C-Spec options, see "Automotive C-Spec Information."
+
+Benefits
+
+• AEC-Q200 automotive qualified                                   • DC voltage ratings of 500 V, 630 V, 1 KV, 1.5 KV, 2 KV,
+• −55°C to +125°C operating temperature range                2.5 KV, and 3 KV
+• Industry-leading CV values                                        • Capacitance offerings ranging from 10 pF to 560 nF
+• Exceptional performance at high frequencies                   • Available capacitance tolerances of ±5%, ±10%, and ±20%
+• Lead (Pb)-free, RoHS and REACH compliant                    • Low ESR and ESL
+• EIA 0603, 0805, 1206, 1210, 1808, 1812, 1825, 2220,           • Non-polar device, minimizing installation concerns
+  and 2225 case sizes                                               • 100% pure matte tin-plated termination finish allowing for
+                                                                 excellent solderability
+
+Applications
+
+Typical applications include switch mode power supplies (input filters, resonators, tank circuits, snubber circuits, output
+filters), high voltage coupling and DC blocking, lighting ballasts, voltage multiplier circuits, DC/DC converters and coupling
+capacitors in Ćuk converters. Markets include power supply, LCD fluorescent backlight ballasts, HID lighting, telecom
+equipment, industrial and medical equipment/control, LAN/WAN interface, analog and digital modems, and automotive
+(electric and hybrid vehicles, charging stations and lighting applications).
+
+Application Note
+
+X7R dielectric is not recommended for AC line filtering or pulse applications. These capacitors and/or the assembled circuit
+board containing these capacitors may require a protective surface coating to prevent external surface arcing.
+
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019       2
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 3 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Automotive C-Spec Information
+
+KEMET automotive grade products meet or exceed the requirements outlined by the Automotive Electronics Council.
+Details regarding test methods and conditions are referenced in document AEC–Q200, Stress Test Qualification for Passive
+Components. These products are supported by a Product Change Notifi cation (PCN) and Production Part Approval Process
+warrant (PPAP).
+
+Automotive products offered through our distribution channel have been assigned an inclusive ordering code C-Spec, “AUTO.”
+This C-Spec was developed in order to better serve small and medium-sized companies that prefer an automotive grade
+component without the requirement to submit a customer Source Controlled Drawing (SCD) or specification for review by a
+KEMET engineering specialist. This C-Spec is therefore not intended for use by KEMET OEM automotive customers and are
+not granted the same “privileges” as other automotive C-Specs. Customer PCN approval and PPAP request levels are limited
+(see details below.)
+
+Product Change Notifi cation (PCN)
+The KEMET product change notifi cation system is used to communicate primarily the following types of changes:
+  • Product/process changes that affect product form, fi t, function, and/or reliability
+  • Changes in manufacturing site
+  • Product obsolescence
+
+ KEMET Automotive          Customer Notifi cation Due To:            Days Prior To
+      C-Spec                                                       Implementation                            Process/Product change         Obsolescence*
+   KEMET assigned1     Yes (with approval and sign off)           Yes             180 days minimum
+        AUTO              Yes (without approval)               Yes             90 days minimum
+1 KEMET assigned C-Specs require the submittal of a customer SCD or customer specifi cation for review. For additional information contact KEMET.
+
+Production Part Approval Process (PPAP)
+The purpose of the Production Part Approval Process is:
+  • To ensure that supplier can meet the manufacturability and quality requirements for the purchased parts.
+  • To provide the evidence that all customer engineering design records and specifi cation requirements are properly
+  understood and fulfi lled by the manufacturing organization.
+  • To demonstrate that the established manufacturing process has the potential to produce the part.
+
+ KEMET Automotive           PPAP (Product Part Approval Process) Level
+      C-Spec                             1              2              3              4              5
+    KEMET assigned1         ●           ●           ●           ●           ●
+        AUTO                                     ○
+1 KEMET assigned C-Specs require the submittal of a customer SCD or customer specifi cation for review. For additional information contact KEMET.
+
+● Part number specifi c PPAP available
+○ Product family PPAP only
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019       3
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 4 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Dimensions – Millimeters (Inches)
+
+
+        W              L
+
+
+    T                             B
+
+
+
+             S
+
+
+                                                                         S   EIA Size     Metric Size        L       W                     B                     Mounting                                              T Thickness                 Separation    Code        Code        Length        Width                   Bandwidth                 Technique                                                                       Minimum
+                                      1.60 (0.063)      0.80 (0.032)                       0.35 (0.014)     0603           1608                                                                               0.70 (0.028)                                      ±0.15 (0.006)     ±0.15 (0.006)                       ±0.15 (0.006)
+                                     2.00 (0.079)      1.25 (0.049)                        0.50 (0.02)                       Solder wave or      0805           2012                                                                               0.75 (0.030)                                    ±0.20 (0.008)     ±0.20 (0.008)                     ±0.25 (0.010)                      Solder reflow
+                                     3.20 (0.126)      1.60 (0.063)                        0.50 (0.02)      1206           3216                                    ±0.20 (0.008)     ±0.20 (0.008)                     ±0.25 (0.010)
+                                     3.20 (0.126)      2.50 (0.098)                        0.50 (0.02)      1210           3225                                    ±0.20 (0.008)     ±0.20 (0.008)                     ±0.25 (0.010)
+                                      4.70 (0.185)      2.00 (0.079)    See Table 2 for     0.60 (0.024)      1808           4520                                    ±0.50 (0.020)     ±0.20 (0.008)      Thickness      ±0.35 (0.014)
+                                     4.50 (0.177)      3.20 (0.126)                       0.60 (0.024)      1812           4532                                                                     N/A                                    ±0.30 (0.012)     ±0.30 (0.012)                     ±0.35 (0.014)                      Solder reflow
+                                     4.50 (0.177)      6.40 (0.252)                       0.60 (0.024)                            only      1825           4564                                    ±0.30 (0.012)     ±0.40 (0.016)                     ±0.35 (0.014)
+                                      5.70 (0.224)      5.00 (0.197)                       0.60 (0.024)     2220           5650                                    ±0.40 (0.016)     ±0.40 (0.016)                     ±0.35 (0.014)
+                                     5.60 (0.220)      6.40 (0.248)                       0.60 (0.024)     2225           5664                                    ±0.40 (0.016)     ±0.40 (0.016)                     ±0.35 (0.014)
+
+
+Qualification/Certification
+
+Automotive grade products meet or exceed the requirements outlined by the Automotive Electronics Council. Details
+regarding test methods and conditions are referenced in document AEC–Q200, Stress Test Qualification for Passive
+Components. For additional information regarding the Automotive Electronics Council and AEC–Q200, please visit their
+website at www.aecouncil.com.
+
+
+Environmental Compliance
+
+Lead (Pb)-free, RoHS, and REACH compliant without exemptions.
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019       4
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 5 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Electrical Parameters/Characteristics
+
+                        Item                                          Parameters/Characteristics
+                                     Operating Temperature Range    −55°C to +125°C
+                            Capacitance Change with Reference to                                                            ±15%                                +25°C and 0 Vdc Applied (TCC)
+           1Aging Rate (Maximum % Capacitance Loss/Decade Hour)    3.0%
+                                                         150% of rated voltage for voltage rating of < 1,000 V
+                                 2Dielectric Withstanding Voltage (DWV)    120% of rated voltage for voltage rating of ≥ 1,000 V
+                                                                            (5 ±1 seconds and charge/discharge not exceeding 50 mA)
+                       3Dissipation Factor (DF) Maximum Limit at 25°C    2.5%
+                                                             See Insulation Resistance Limit Table                     4Insulation Resistance (IR) Minimum Limit at 25°C
+                                                                  (500 VDC applied for 120 ±5 seconds at 25°C)
+1 Regarding aging rate: Capacitance measurements (including tolerance) are indexed to a referee time of 1,000 hours.
+2 DWV is the voltage a capacitor can withstand (survive) for a short period of time. It exceeds the nominal and continuous working voltage of the
+ capacitor.
+3 Capacitance and dissipation factor (DF) measured under the following conditions:
+    1 kHz ±50 Hz and 1.0 ±0.2 Vrms if capacitance ≤ 10 µF
+    12 0Hz ±10 Hz and 0.5 ±0.1 Vrms if capacitance > 10 µF
+4 To obtain IR limit, divide MΩ-µF value by the capacitance and compare to GΩ limit. Select the lower of the two limits.
+Note: When measuring capacitance it is important to ensure the set voltage level is held constant. The HP4284 & Agilent E4980 have a feature known as
+Automatic Level Control (ALC). The ALC feature should be switched to "ON."
+
+
+Post Environmental Limits
+
+            High Temperature Life, Biased Humidity, Moisture Resistance
+                    Rated DC      Capacitance   Dissipation Factor   Capacitance       Insulation     Dielectric                      Voltage          Value       (Maximum %)          Shift         Resistance
+                      > 25                                3.0
+                                                                       10% of Initial     X7R           16/25                All               5.0           ±20%                                                                                                                limit
+                       < 16                                   7.5
+
+
+Insulation Resistance Limit Table (X7R Dielectric)
+
+                               1,000 Megohm              100 Megohm     EIA Case Size                            Microfarads or 100 GΩ         Microfarads or 10 GΩ
+          0603                         N/A                                        All
+           0805                         < 0.0039 µF                        ≥ .0039 µF
+           1206                          < 0.012 µF                         ≥ 0.012 µF
+           1210                          < 0.033 µF                         ≥ 0.033 µF
+           1808                          < 0.018 µF                         ≥ 0.018 µF
+           1812                          < 0.027 µF                         ≥ 0.027 µF
+           1825                          < 0.120 µF                         ≥ 0.120 µF
+          2220                          < 0.150 µF                         ≥ 0.150 µF
+          2225                          < 0.180 µF                         ≥ 0.180 µF
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019       5
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 6 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Table 1A – Capacitance Range/Selection Waterfall (0603 – 1812 Case Sizes)
+
+             Case Size/                     C0603C C0805C    C1206C      C1210C         C1808C           C1812C                 Series
+        Cap    Voltage Code   C   B   D   C   B   D   C   B   D   F  G   C   B   D   F  G   C   B   D   F   G   Z  H   C   B   D   F   G   Z  H  Cap       Code   Rated Voltage                                        500 630  1000  500 630  1000  500 630  1000  1500  2000  500 630  1000  1500  2000  500 630  1000  1500  2000  2500  3000  500 630  1000  1500  2000  2500  3000                         (VDC)
+                       Capacitance                                                Product Availability and Chip Thickness Codes - See Table 2 for Chip Thickness Dimensions                         Tolerance
+    10 pF      100     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    11 pF      110     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    12 pF      120     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    13 pF      130     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    15 pF      150     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    16 pF      160     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    18 pF      180     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    20 pF      200     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    22 pF      220     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    24 pF      240     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    27 pF      270     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    30 pF      300     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    33 pF      330     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+   36 pF      360     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+   39 pF      390     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+   43 pF      430     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    47 pF      470     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    51 pF      510     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    56 pF      560     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    62 pF      620     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    68 pF      680     J    K   M            DG DG DG  ED  ED  ED  ED  ED FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    75 pF      750     J    K   M            DG DG DG  ED  ED  ED  ED  EF FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    82 pF      820     J    K   M            DG DG DG  ED  ED  ED  ED  EF FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB  GB GB GB GB GB GB GB
+    91 pF      910     J    K   M            DG DG DG  ED  ED  ED  ED  EF FM FM FM FM FM  LB  LB  LB  LB  LB  LB  LB GD GD GD GD GD GD GD
+   100 pF     101     J    K   M            DG DG DG  ED  ED  ED  ED  EF FM FM FM FM FM  LB  LB  LB  LB  LB  LC  LB GD GD GD GD GD GD GD
+   110 pF      111     J    K   M            DG DG DG  ED  ED  ED  ED  EG FM FM FM FM FM  LB  LB  LB  LB  LB  LC  LB GD GD GD GD GD GD GD
+   120 pF     121     J    K   M            DG DG DG  ED  ED  ED  ED  EG FM FM FM FM FM LA  LA  LA  LA  LB  LC  LB GD GD GD GD GD GD GD
+   130 pF     131     J    K   M            DG DG DG  ED  ED  ED  ED  EG  FG  FG  FG FM FM LA  LA  LA  LA  LB  LC  LB GD GD GD GD GD GD GD
+   150 pF     151     J    K   M            DG DG DG  ED  ED  ED  EF  EG  FG  FG  FG FM FM LA  LA  LA  LA  LB  LC  LB GD GD GD GD GD GD GK
+   180 pF     181     J    K   M            DG DG DG  ED  ED  ED  EF  EG  FG  FG  FG FM FM LA  LA  LA  LA  LC  LC  LB GD GD GD GD GD GD GK
+   220 pF     221     J    K   M            DG DG DG  ED  ED  ED  EG  EG  FG  FG  FG FM FM LA  LA  LA  LA  LC  LC  LB  GB GB GB GB GB GD GB
+   270 pF     271     J    K   M            DG DG DG  ED  ED  ED  EG  EG  FG  FG  FG  FK  FK  LA  LA  LA  LB  LC  LC  LC  GB GB GB GB GB GH GB
+   330 pF     331     J    K   M            DG DG DG  ED  ED  EF  EG  EG  FG  FG  FG  FK  FK  LA  LA  LA  LB  LC  LC  LC  GB GB GB GB GB GH GB
+   390 pF     391     J    K   M            DG DG DG  ED  ED  EF  EG  EG  FG  FG  FG  FK  FS  LA  LA  LA  LB  LB  LB  LC  GB GB GB GB GD GK GH
+   470 pF     471     J    K   M            DG DG DG  ED  ED  EG  EF  EG  FG FM FM  FS  FS  LA  LB  LB  LC  LB  LB  LC  GB GB GB GB GD GK GH
+   560 pF     561     J    K   M            DG DG DG  ED  ED  EG  EF  EG  FG FM FM  FS  FL  LA  LB  LB  LC  LB  LB  LC  GB GB GB GD GH GH GK
+   680 pF     681     J    K   M            DG DG DG  ED  ED  EG  EF  EG  FG FM FM  FS  FL  LB  LB  LB  LA  LB  LC  LC  GB GB GB GD GH GH GK
+   820 pF     821     J    K   M            DG DG DG  ED  ED  ED  EF  EG  FG FM FM  FL  FL  LB  LB  LB  LA  LB  LC  LC  GB GB GB GD GH GH GK
+   1,000 pF     102     J    K   M  CG CG CG DG DG DG  ED  ED  ED  EF  EG FM FM FM  FL  FL  LB  LB  LB  LA  LB  LC  LC  GB GB GB GB GH GH GK
+   1,200 pF     122     J    K   M  CG CG     DG DG DG  ED  ED  ED  EG  EG FM  FK  FK  FL FM  LC  LC  LC  LB  LC  LA     GB GB GB GB GH GK GK
+   1,500 pF     152     J    K   M  CG CG     DG DG DG  ED  ED  ED  EG  EG  FK  FS  FS  FL FM  LC  LC  LC  LB  LC  LB     GB GB GB GB GH GK
+   1,800 pF     182     J    K   M  CG        DG DG DG  ED  ED  ED  EG  EG  FK  FS  FS  FL FM  LC  LC  LC  LB  LC  LC     GB GD GD GB GH GK
+  2,200 pF    222     J    K   M  CG        DG DG DG  ED  ED  ED  EG  EG  FK  FL  FL  FL FM  LC  LA  LA  LB  LC  LC     GB GH GH GB GH GK
+   2,700 pF    272     J    K   M  CG        DG DG DG  ED  ED  ED  EG      FS  FL  FL  FL FM  LC  LA  LA  LB  LC        GB GB GB GH GK GM
+  3,300 pF    332     J    K   M  CG        DG DG DG  ED  ED  ED  EG      FS  FL  FL  FL FM LA  LA  LA  LB  LA        GB GB GB GH GK GM
+   3,900 pF    392     J    K   M  CG        DG DG DG  ED  ED  ED  EG      FL  FL  FL  FL  FK  LA  LA  LA  LB  LB        GB GB GB GH GM GO
+   4,700 pF    472     J    K   M            DG DG DG  ED  ED  ED  EG      FL  FL  FL  FL  FK  LA  LA  LA  LB  LC        GH GH GH GH GH GO
+   5,600 pF    562     J    K   M            DG DG     ED  EF  EF  EF      FL  FL  FL FM  FK  LA  LB  LB  LC           GH GH GH GK GK
+   6,800 pF    682     J    K   M            DG DG      EF  EF  EF  EF      FL  FL  FL FM  FS  LA  LB  LB  LC           GH GH GH GK GM
+   8,200 pF    822     J    K   M            DG DG      EF  EG  EG  EF      FL  FL  FL  FK     LA  LB  LB  LC           GH GH GH GK GM
+  10,000 pF    103     J    K   M            DG DG      EF  EG  EG  EG      FL  FL  FL  FK     LA  LB  LB  LC           GH GH GH GK GO
+  12,000 pF    123     J    K   M            DG DG     EG  EJ  EJ          FL  FL  FL  FK     LA  LC  LC  LB            GB GK GK GK
+                       Rated Voltage                                        500 630  1000  500 630  1000  500 630  1000  1500  2000  500 630  1000  1500  2000  500 630  1000  1500  2000  2500  3000  500 630  1000  1500  2000  2500  3000                         (VDC)
+           Cap   Cap               Voltage Code   C   B   D   C   B   D   C   B   D   F  G   C   B   D   F  G   C   B   D   F   G   Z  H   C   B   D   F   G   Z  H           Code
+                   Case Size/                              C0603C    C0805C       C1206C           C1210C              C1808C                 C1812C                        Series
+KEMET reserves the right to substitute product with an improved temperature characteristic, tighter capacitance tolerance and/or higher voltage
+capability within the same form factor (configuration and dimensions).
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019       6
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 7 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Table 1A – Capacitance Range/Selection Waterfall (0603 – 1812 Case Sizes) cont'd
+
+             Case Size/                     C0603C C0805C    C1206C      C1210C         C1808C           C1812C                 Series
+        Cap    Voltage Code   C   B   D   C   B   D   C   B   D   F  G   C   B   D   F  G   C   B   D   F   G   Z  H   C   B   D   F   G   Z  H  Cap       Code   Rated Voltage                                        500 630  1000  500 630  1000  500 630  1000  1500  2000  500 630  1000  1500  2000  500 630  1000  1500  2000  2500  3000  500 630  1000  1500  2000  2500  3000                         (VDC)
+                       Capacitance                                                Product Availability and Chip Thickness Codes - See Table 2 for Chip Thickness Dimensions                         Tolerance
+  15,000 pF    153     J    K   M            DG         EG  EJ  EJ          FL  FL  FL  FL     LA  LC  LC  LC            GB GK GK GH
+  18,000 pF    183     J    K   M            DG          EJ  EJ  EJ          FL  FL  FL FM     LA  LE  LE               GB GK GK GM
+  22,000 pF    223     J    K   M            DG          EJ  EJ  EJ          FL FM FM FM     LA  LE  LE               GB GK GK GM
+  27,000 pF    273     J    K   M                          EJ  EJ           FM  FK  FK  FK     LA  LA  LA              GH GB GB GO
+  33,000 pF    333     J    K   M                          EJ  EJ           FM FG  FH  FS      LC  LA  LA              GH GB GB GO
+  39,000 pF    393     J    K   M                          EJ                 FK  FG  FH  FS      LC  LA  LA              GH GB GB
+  47,000 pF    473     J    K   M                          EJ                 FK  FH  FK         LC  LA  LB              GH GB GC
+  56,000 pF    563     J    K   M                          EJ                FG  FH  FK         LC  LA  LB              GH GB  GE
+  68,000 pF    683     J    K   M                          EJ                FG  FK  FS         LA  LA  LC                GE  GE  GE
+  82,000 pF    823     J    K   M                                         FH  FK            LA  LC                   GB  GE GK
+   0.10 µF     104     J    K   M                                            FK  FS            LA  LC                   GB GH GJ
+   0.12 µF     124     J    K   M                                            FK                LA                       GE GK
+   0.15 µF     154     J    K   M                                            FK                 LB                       GE GN
+   0.18 µF     184     J    K   M                                                                                      GF
+   0.22 µF     224     J    K   M                                                                                     GJ
+   0.27 µF     274     J    K   M                                                                                       GL
+   0.33 µF     334     J    K   M                                                                                   GS
+                      Rated Voltage                                        500 630  1000  500 630  1000  500 630  1000  1500  2000  500 630  1000  1500  2000  500 630  1000  1500  2000  2500  3000  500 630  1000  1500  2000  2500  3000                         (VDC)
+           Cap   Cap               Voltage Code   C   B   D   C   B   D   C   B   D   F  G   C   B   D   F  G   C   B   D   F   G   Z  H   C   B   D   F   G   Z  H           Code
+                   Case Size/                              C0603C    C0805C       C1206C           C1210C              C1808C                 C1812C                        Series
+
+Table 1B – Capacitance Range/Selection Waterfall (1825–2225 Case Sizes)
+
+                     Case Size/                                     C1825C               C2220C               C2225C                          Series
+              Cap       Voltage Code     C   B   D    F   G    Z   H   C   B   D    F   G    Z   H   C   B   D    F   G    Z   H Capacitance
+             Code   Rated Voltage (VDC)  500   630    1000    1500    2000    2500    3000   500   630    1000    1500    2000    2500    3000   500   630    1000    1500    2000    2500    3000
+                                    Capacitance                                                      Product Availability and Chip Thickness Codes – See Table 2 for Chip Thickness Dimensions                                      Tolerance
+       100 pF           101      J     K   M   HG  HG  HG  HG  HG  HG  HG   JK   JK   JK   JK   JK   JK   JK   KF   KF   KF   KF   KF   KF   KF
+        110 pF            111       J     K   M   HG  HG  HG  HG  HG  HG  HG   JK   JK   JK   JK   JK   JK   JK   KF   KF   KF   KF   KF   KF   KF
+       120 pF           121      J     K   M   HG  HG  HG  HG  HG  HG  HG   JK   JK   JK   JK   JK   JK   JK   KF   KF   KF   KF   KF   KF   KF
+       130 pF           131      J     K   M   HG  HG  HG  HG  HG  HG  HG   JK   JK   JK   JK   JK   JK   JK   KF   KF   KF   KF   KF   KF   KF
+       150 pF           151      J     K   M   HG  HG  HG  HG  HG  HG  HG   JK   JK   JK   JK   JK   JK   JK   KF   KF   KF   KF   KF   KF   KF
+       180 pF           181      J     K   M   HG  HG  HG  HG  HG  HG  HG   JK   JK   JK   JK   JK   JK   JK   KF   KF   KF   KF   KF   KF   KF
+       220 pF          221      J     K   M   HE  HE  HE  HE  HE  HE  HG   JK   JK   JK   JK   JK   JK   JK   KF   KF   KF   KF   KF   KF   KF
+       270 pF          271      J     K   M   HE  HE  HE  HE  HE  HE  HG   JK   JK   JK   JK   JK   JK   JK   KE   KE   KE   KE   KE   KE   KF
+       330 pF           331      J     K   M                                       JE   JE   JE   JE   JE   JK   JK   KE   KE   KE   KE   KE   KE   KF
+       390 pF           391      J     K   M                                       JE   JE   JE   JE   JE   JK   JK   KE   KE   KE   KE   KE   KE   KF
+       470 pF           471      J     K   M   HG  HG  HG  HG  HG  HG  HG   JE   JE   JE   JE   JE   JK   JK   KF   KF   KF   KF   KE   KE   KF
+       560 pF           561      J     K   M   HG  HG  HG  HG  HG  HG  HG   JK   JK   JK   JK   JK   JK   JK   KF   KF   KF   KF   KE   KE   KF
+       680 pF          681      J     K   M   HG  HG  HG  HG  HG  HG  HG   JE   JE   JE   JK   JK   JK   JK   KF   KF   KF   KF   KE   KF   KF
+       820 pF          821      J     K   M   HG  HG  HG  HG  HG  HG  HG   JE   JE   JE   JK   JK   JK   JK   KE   KE   KE   KF   KE   KF   KF
+                                Rated Voltage (VDC)  500   630    1000    1500    2000    2500    3000   500   630    1000    1500    2000    2500    3000   500   630    1000    1500    2000    2500    3000
+    Capacitance    Cap Code     Voltage Code     C   B   D    F   G    Z   H   C   B   D    F   G    Z   H   C   B   D    F   G    Z   H
+                           Case Size/Series            C1825C                       C2220C                      C2225C
+
+KEMET reserves the right to substitute product with an improved temperature characteristic, tighter capacitance tolerance and/or higher voltage
+capability within the same form factor (configuration and dimensions).
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019       7
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 8 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Table 1B – Capacitance Range/Selection Waterfall (1825 – 2225 Case Sizes) cont'd
+
+                     Case Size/                                     C1825C               C2220C               C2225C                          Series
+              Cap       Voltage Code     C   B   D    F   G    Z   H   C   B   D    F   G    Z   H   C   B   D    F   G    Z   H Capacitance
+             Code   Rated Voltage (VDC)  500   630    1000    1500    2000    2500    3000   500   630    1000    1500    2000    2500    3000   500   630    1000    1500    2000    2500    3000
+                                    Capacitance                                                      Product Availability and Chip Thickness Codes – See Table 2 for Chip Thickness Dimensions                                      Tolerance
+       1,000 pF          102      J     K   M   HG  HG  HG  HG  HG  HG  HG   JE   JK   JK   JK   JK   JK   JK   KE   KE   KE   KF   KE   KF   KF
+       1,200 pF          122      J     K   M   HG  HG  HG  HG  HG  HG  HG   JE   JK   JK   JK   JK   JK   JK   KE   KE   KE   KF   KF   KF   KF
+       1,500 pF          152      J     K   M   HG  HG  HG  HG  HG  HG  HG   JE   JK   JK   JK   JK   JK   JK   KE   KE   KE   KF   KF   KF   KF
+       1,800 pF          182      J     K   M   HE  HE  HE  HE  HE  HG  HG   JE   JK   JK   JK   JK   JK   JK   KE   KE   KE   KF   KF   KF   KF
+       2,200 pF          222      J     K   M   HE  HE  HE  HE  HE  HG  HG   JE   JK   JK   JE   JE   JK   JK   KF   KE   KE   KF   KF   KF   KF
+       2,700 pF          272      J     K   M   HE  HE  HE  HE  HE  HG       JK   JK   JK   JE   JE   JK   JK   KE   KE   KE   KE   KE   KF   KE
+       3,300 pF          332      J     K   M   HE  HE  HE  HE  HE  HG       JK   JK   JK   JE   JE   JK   JE   KE   KE   KE   KE   KE   KF   KE
+       3,900 pF          392      J     K   M   HE  HE  HE  HE  HE  HG       JK   JK   JK   JE   JE   JK   JE   KE   KF   KF   KE   KE   KF   KE
+       4,700 pF          472      J     K   M   HE  HE  HE  HE  HE  HG       JK   JK   JK   JE   JK   JE   JE   KE   KF   KF   KE   KE   KF   KE
+       5,600 pF          562      J     K   M   HE  HE  HE  HE  HE  HG       JK   JK   JK   JE   JK   JE   JE   KE   KF   KF   KE   KE   KF   KE
+       6,800 pF          682      J     K   M   HE  HE  HE  HE  HE  HJ       JK   JE   JE   JE   JK   JE   JE   KE   KF   KF   KE   KF   KE   KE
+       8,200 pF          822      J     K   M   HE  HE  HE  HE  HE  HJ       JK   JE   JE   JE   JK   JK   JK   KF   KE   KE   KE   KF   KF   KF
+      10,000 pF         103      J     K   M   HE  HE  HE  HE  HJ  HK        JE   JE   JE   JE   JL   JL   JL   KF   KE   KE   KE   KF  KH  KH
+      12,000 pF         123      J     K   M   HE  HE  HE  HG  HJ             JE   JK   JK   JK   JL   JL   JL   KE   KE   KE   KE   KF  KH  KH
+      15,000 pF          153      J     K   M   HE  HE  HE  HG  HK             JE   JK   JK   JK   JL   JN  JN   KE   KE   KE   KE   KF   KJ   KJ
+      18,000 pF          183      J     K   M   HE  HE  HE  HG                  JE   JK   JK   JK   JN            KE   KE   KE   KE  KH
+      22,000 pF         223      J     K   M   HE  HG  HG  HG                  JE   JK   JK   JK   JN            KE   KF   KF   KF   KJ
+      27,000 pF         273      J     K   M   HE  HG  HG  HG                  JE   JK   JK   JK                 KE   KF   KF   KF   KJ
+      33,000 pF         333      J     K   M   HE  HG  HG  HE                  JE   JK   JK   JK                 KE   KF   KF   KF
+      39,000 pF         393      J     K   M   HE  HG  HG  HG                  JE   JK   JK   JE                 KE   KF   KF   KF
+       47,000 pF         473      J     K   M   HE  HG  HG  HJ                  JE   JK   JK   JK                 KE   KF   KF   KF
+      56,000 pF         563      J     K   M   HE  HG  HG  HJ                  JE   JE   JE   JL                 KE   KF   KF   KF
+      68,000 pF         683      J     K   M   HG  HJ  HJ  HK                  JE   JK   JK   JL                 KE   KF   KF   KJ
+      82,000 pF         823      J     K   M   HG  HJ  HJ                       JE   JL   JL   JN                 KE   KF   KF   KJ
+        0.10 µF          104      J     K   M   HG  HK  HK                       JE   JN  JN                     KE  KH  KH   KJ
+        0.12 µF           124      J     K   M   HG  HE                            JE   JN  JN                     KE  KH  KH
+        0.15 µF           154      J     K   M   HG  HE                           JK   JE                          KF   KJ   KJ
+        0.18 µF           184      J     K   M   HG  HG                           JK   JE                          KF   KE
+        0.22 µF          224      J     K   M   HG  HJ                           JK   JK                          KF   KF
+        0.27 µF           274      J     K   M   HJ  HJ                           JK   JL                          KF  KH
+        0.33 µF          334      J     K   M   HJ                                  JL   JN                          KF  KH
+        0.39 µF          394      J     K   M   HK                             JN                           KH   KJ
+        0.47 µF           474      J     K   M                                   JN                           KH   KJ
+        0.56 µF          564      J     K   M                                                                      KJ
+        0.56 µF          564      J     K   M
+                                Rated Voltage (VDC)  500   630    1000    1500    2000    2500    3000   500   630    1000    1500    2000    2500    3000   500   630    1000    1500    2000    2500    3000
+    Capacitance    Cap Code     Voltage Code     C   B   D    F   G    Z   H   C   B   D    F   G    Z   H   C   B   D    F   G    Z   H
+                           Case Size/Series            C1825C                       C2220C                      C2225C
+
+KEMET reserves the right to substitute product with an improved temperature characteristic, tighter capacitance tolerance and/or higher voltage
+capability within the same form factor (configuration and dimensions).
+
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019       8
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 9 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Table 2 – Chip Thickness/Tape & Reel Packaging Quantities
+
+ Thickness   Case   Thickness ±      Paper Quantity1          Plastic Quantity
+   Code      Size1   Range (mm)     7" Reel     13" Reel     7" Reel     13" Reel
+    CG       0603      0.80 ± 0.10*        4,000         15,000          0            0
+    DG       0805       1.25 ± 0.15         0            0           2,500         10,000
+     ED        1206       1.00 ± 0.10         0            0           2,500         10,000
+     EF        1206       1.20 ± 0.15         0            0           2,500         10,000
+     EG        1206       1.60 ± 0.15         0            0           2,000         8,000
+     EJ        1206       1.70 ± 0.20         0            0           2,000         8,000
+     FG        1210       1.25 ± 0.15         0            0           2,500         10,000
+      FL        1210       1.40 ± 0.15         0            0           2,000         8,000
+     FH        1210       1.55 ± 0.15         0            0           2,000         8,000
+    FM        1210       1.70 ± 0.20         0            0           2,000         8,000
+     FK        1210       2.10 ± 0.20         0            0           2,000         8,000
+     FS        1210      2.50 ± 0.30         0            0           1,000         4,000
+     LE        1808       1.00 ± 0.10         0            0           2,500         10,000
+     LA        1808       1.40 ± 0.15         0            0           1,000         4,000
+     LB        1808       1.60 ± 0.15         0            0           1,000         4,000
+     LC        1808      2.00 ± 0.15         0            0           1,000         4,000
+     GB        1812       1.00 ± 0.10         0            0           1,000         4,000
+     GC        1812       1.10 ± 0.10          0            0           1,000         4,000
+     GE        1812       1.30 ± 0.10         0            0           1,000         4,000
+    GH        1812       1.40 ± 0.15         0            0           1,000         4,000
+     GF        1812       1.50 ± 0.10         0            0           1,000         4,000
+     GK        1812       1.60 ± 0.20         0            0           1,000         4,000
+     GJ        1812       1.70 ± 0.15         0            0           1,000         4,000
+    GN        1812       1.70 ± 0.20         0            0           1,000         4,000
+     GL        1812       1.90 ± 0.20         0            0           500          2,000
+    GM        1812      2.00 ± 0.20         0            0           500          2,000
+     GS        1812       2.10 ± 0.20         0            0           500          2,000
+    GO        1812      2.50 ± 0.20         0            0           500          2,000
+     HE        1825       1.40 ± 0.15         0            0           1,000         4,000
+    HG        1825      1.60 ± 0.20         0            0           1,000         4,000
+     HJ        1825      2.00 ± 0.20         0            0           500          2,000
+    HK        1825      2.50 ± 0.20         0            0           500          2,000
+     JE       2220      1.40 ± 0.15         0            0           1,000         4,000
+     JK       2220      1.60 ± 0.20         0            0           1,000         4,000
+      JL       2220      2.00 ± 0.20         0            0           500          2,000
+     JN       2220      2.50 ± 0.20         0            0           500          2,000
+     KE       2225      1.40 ± 0.15         0            0           1,000         4,000
+     KF       2225      1.60 ± 0.20         0            0           1,000         4,000
+    KH       2225      2.00 ± 0.20         0            0           500          2,000
+     KJ       2225      2.50 ± 0.20         0            0           500          2,000
+                                                     7" Reel         13" Reel         7" Reel         13" Reel   Thickness      Case       Thickness ±
+     Code          Size1      Range (mm)                                                   Paper Quantity1                   Plastic Quantity
+
+Package quantity based on finished chip thickness specifications.
+1 If ordering using the 2 mm Tape & Reel pitch option, the packaging quantity outlined in the table above will be doubled. This option is limited to EIA
+ 0603 (1608 metric) case size devices. For more information regarding 2 mm pitch option see "Tape & Reel Packaging Information".
+
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019       9
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 10 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Table 3 – Chip Capacitor Land Pattern Design Recommendations per IPC–7351
+
+                          Density Level A:                 Density Level B:                 Density Level C:
+   EIA    Metric                    Maximum (Most)              Median (Nominal)             Minimum (Least)
+   Size     Size                     Land Protrusion (mm)          Land Protrusion (mm)          Land Protrusion (mm)
+  Code    Code
+                   C     Y     X     V1    V2    C     Y     X     V1    V2    C     Y     X     V1    V2
+   0603      1608     0.90    1.15    1.10    4.00    2.10    0.80    0.95    1.00    3.10    1.50    0.60    0.75    0.90    2.40    1.20
+
+   0805      2012     1.00    1.35    1.55    4.40    2.60    0.90    1.15    1.45    3.50    2.00    0.75    1.50    1.35    2.80    1.70
+
+   1206      3216     1.60    1.35    1.90    5.60    2.90    1.50    1.15    1.80    4.70    2.30    1.40    0.95    1.70    4.00    2.00
+
+   1210     3225     1.60    1.35    2.80    5.65    3.80    1.50    1.15    2.70    4.70    3.20    1.40    0.95    2.60    4.00    2.90
+
+   1808     4520     2.30    1.75    2.30    7.40    3.30    2.20    1.55    2.20    6.50    2.70    2.10    1.35    2.10    5.80    2.40
+
+   1812     4532     2.15    1.60    3.60    6.90    4.60    2.05    1.40    3.50    6.00    4.00    1.95    1.20    3.40    5.30    3.70
+
+   1825     4564     2.15    1.60    6.90    6.90    7.90    2.05    1.40    6.80    6.00    7.30    1.95    1.20    6.70    5.30    7.00
+
+   2220     5650     2.75    1.70    5.50    8.20    6.50    2.65    1.50    5.40    7.30    5.90    2.55    1.30    5.30    6.60    5.60
+
+   2225     5664     2.70    1.70    6.90    8.10    7.90    2.60    1.50    6.80    7.20    7.30    2.50    1.30    6.70    6.50    7.00
+
+Density Level A: For low-density product applications. Recommended for wave solder applications and provides a wider process window for reflow
+solder processes. KEMET only recommends wave soldering of EIA 0603, 0805 and 1206 case sizes.
+Density Level B: For products with a moderate level of component density. Provides a robust solder attachment condition for reflow solder processes.
+Density Level C: For high component density product applications. Before adapting the minimum land pattern variations the user should perform
+qualification testing based on the conditions outlined in IPC Standard 7351 (IPC–7351).
+
+Image below based on Density Level B for an EIA 1210 case size.
+
+                    V1
+          Y                          Y
+
+
+
+
+              X          X             V2
+
+
+
+
+              C          C
+                         Grid Placement Courtyard
+
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019      10
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 11 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Soldering Process
+
+Recommended Soldering Technique:
+  • Solder wave or solder reflow for EIA case sizes 0603, 0805 and 1206
+  • All other EIA case sizes are limited to solder reflow only
+
+Recommended Reflow Soldering Profile:
+The KEMET families of surface mount multilayer ceramic capacitors (SMD MLCCs) are compatible with wave (single or dual),
+convection, IR or vapor phase reflow techniques. Preheating of these components is recommended to avoid extreme thermal
+stress. The KEMET recommended profile conditions for convection and IR reflow reflect the profile conditions of the
+IPC/J-STD-020 standard for moisture sensitivity testing. These devices can safely withstand a maximum of three reflow
+passes at these conditions.
+
+                               Termination Finish                                                                                        TP      Profile Feature                                                          Maximum Ramp-up Rate = 3°C/second                 tP
+                              SnPb         100% Matte Sn                 Maximum Ramp-down Rate = 6°C/second
+                                                                                              TL       Preheat/Soak                                                                                                                                                                    tL
+ Temperature Minimum (TSmin)       100°C             150°C                     Tsmax
+ Temperature Maximum (TSmax)       150°C             200°C
+                                                                                                               Tsmin  Time (tS) from TSmin to TSmax   60 – 120 seconds   60 – 120 seconds                      Temperature                                    ts
+                               3°C/second        3°C/second
+   Ramp-Up Rate (TL to TP)                          maximum         maximum
+                                                                           25                                                                                               25°C to Peak  Liquidous Temperature (TL)        183°C             217°C
+                                                                                        Time
+  Time Above Liquidous (tL)    60 – 150 seconds   60 – 150 seconds
+    Peak Temperature (TP)          235°C             260°C
+ Time Within 5°C of Maximum     20 seconds        30 seconds
+    Peak Temperature (tP)        maximum         maximum
+                               6°C/second         6°C/second
+  Ramp-Down Rate (TP to TL)                          maximum         maximum
+     Time 25°C to Peak          6 minutes          8 minutes
+        Temperature           maximum         maximum
+Note: All temperatures refer to the center of the package, measured on the
+capacitor body surface that is facing up during assembly reflow.
+
+
+Storage and Handling
+
+Ceramic chip capacitors should be stored in normal working environments. While the chips themselves are quite robust in
+other environments, solderability will be degraded by exposure to high temperatures, high humidity, corrosive atmospheres,
+and long term storage. In addition, packaging materials will be degraded by high temperature – reels may soften or warp
+and tape peel force may increase. KEMET recommends that maximum storage temperature not exceed 40ºC and maximum
+storage humidity not exceed 70% relative humidity. Temperature fluctuations should be minimized to avoid condensation on
+the parts and atmospheres should be free of chlorine and sulfur bearing compounds. For optimized solderability chip stock
+should be used promptly, preferably within 1.5 years of receipt.
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019      11
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 12 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Construction
+
+                                                                               Detailed Cross Section
+                                                                                                                                  Dielectric Material
+                                                                                                                          (BaTiO3)
+
+                          Barrier Layer                  Dielectric
+                               (Ni)                 Material (BaTiO3)
+         Termination
+             Finish             End Termination/
+      (100% Matte Sn)          External Electrode
+                                       (Cu)
+
+                                                                                    Inner Electrodes
+                                                                                                 (Ni)
+
+                                                                                    End Termination/
+                                                                                                       External Electrode
+                                                                                                        (Cu)                                                                                                                               Barrier Layer
+                                                                                                                                      (Ni)
+
+                                                                                                                        Termination
+                                                                                                                                     Finish
+                                                                                                       (100% Matte Sn)
+                                      Inner Electrodes
+                                               (Ni)
+
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019      12
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 13 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Capacitor Marking (Optional):
+
+These surface mount multilayer ceramic capacitors are          Marking appears in legible contrast. Illustrated below
+normally supplied unmarked. If required, they can be                is an example of an MLCC with laser marking of “KA8”,
+marked as an extra cost option. Marking is available            which designates a KEMET device with rated capacitance
+on most KEMET devices, but must be requested using            of 100 µF. Orientation of marking is vendor optional.
+the correct ordering code identifi er(s). If this option is
+requested, two sides of the ceramic body will be laser
+marked with a “K” to identify KEMET, followed by two
+characters (per EIA–198 - see table below) to identify the
+capacitance value. EIA 0603 case size devices are limited                                                        2-Digit                                           KEMETto the “K” character only.                                                                      Capacitance                                                              ID                                                                                  Code
+Laser marking option is not available on:
+• C0G, ultra stable X8R and Y5V dielectric devices.
+• EIA 0402 case size devices.
+• EIA 0603 case size devices with fl exible termination
+  option.
+• KPS commercial and automotive grade stacked
+  devices.
+• X7R dielectric products in capacitance values outlined
+  below.
+
+   EIA Case Size    Metric Size Code     Capacitance
+        0603                1608                ≤ 170 pF
+        0805                2012                ≤ 150 pF
+        1206                3216                ≤ 910 pF
+         1210                3225               ≤ 2,000 pF
+        1808                4520               ≤ 3,900 pF
+         1812                4532               ≤ 6,700 pF
+        1825               4564               ≤ 0.018 µF
+        2220                5650               ≤ 0.027 µF
+        2225               5664               ≤ 0.033 µF
+
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019      13
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 14 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Capacitor Marking (Optional) cont.
+
+               Capacitance (pF) For Various Alpha/Numeral Identifi ers
+                                      Numeral  Alpha              9      0      1      2      3      4      5       6        7         8
+ Character                                     Capacitance (pF)
+      A           0.10       1.0       10       100      1,000    10,000   100,000   1,000,000   10,000,000    100,000,000
+      B           0.11        1.1       11       110      1,100     11,000   110,000   1,100,000   11,000,000    110,000,000
+      C           0.12       1.2       12       120      1,200    12,000   120,000   1,200,000   12,000,000    120,000,000
+      D           0.13       1.3       13       130      1,300    13,000   130,000   1,300,000   13,000,000    130,000,000
+       E           0.15       1.5       15       150      1,500    15,000   150,000   1,500,000   15,000,000    150,000,000
+       F           0.16       1.6       16       160      1,600    16,000   160,000   1,600,000   16,000,000    160,000,000
+     G           0.18       1.8       18       180      1,800    18,000   180,000   1,800,000   18,000,000    180,000,000
+     H          0.20       2.0       20      200      2,000    20,000   200,000  2,000,000   20,000,000    200,000,000
+       J          0.22       2.2      22      220      2,200    22,000   220,000  2,200,000   22,000,000    220,000,000
+      K          0.24       2.4       24      240     2,400    24,000   240,000  2,400,000   24,000,000    240,000,000
+       L          0.27       2.7       27      270      2,700    27,000   270,000  2,700,000   27,000,000    270,000,000
+    M          0.30       3.0       30      300      3,000    30,000   300,000  3,000,000   30,000,000    300,000,000
+     N          0.33       3.3       33      330      3,300    33,000   330,000  3,300,000   33,000,000    330,000,000
+      P          0.36       3.6       36      360      3,600    36,000   360,000  3,600,000   36,000,000    360,000,000
+     Q          0.39       3.9       39      390      3,900    39,000   390,000  3,900,000   39,000,000    390,000,000
+      R          0.43       4.3      43      430      4,300    43,000   430,000  4,300,000   43,000,000    430,000,000
+      S          0.47       4.7       47      470      4,700    47,000   470,000  4,700,000   47,000,000    470,000,000
+      T          0.51       5.1       51       510      5,100    51,000   510,000   5,100,000   51,000,000    510,000,000
+      U          0.56       5.6       56      560      5,600    56,000   560,000  5,600,000   56,000,000    560,000,000
+      V          0.62       6.2       62      620      6,200    62,000   620,000  6,200,000   62,000,000    620,000,000
+    W          0.68       6.8       68      680      6,800    68,000   680,000  6,800,000   68,000,000    680,000,000
+      X          0.75        7.5       75      750      7,500    75,000   750,000   7,500,000   75,000,000    750,000,000
+      Y          0.82       8.2       82      820      8,200    82,000   820,000  8,200,000   82,000,000    820,000,000
+      Z          0.91        9.1       91       910      9,100    91,000   910,000   9,100,000   91,000,000    910,000,000
+       a          0.25       2.5       25      250      2,500    25,000   250,000  2,500,000   25,000,000    250,000,000
+       b          0.35       3.5       35      350      3,500    35,000   350,000  3,500,000   35,000,000    350,000,000
+       d          0.40       4.0      40      400      4,000    40,000   400,000  4,000,000   40,000,000    400,000,000
+       e          0.45       4.5       45      450      4,500    45,000   450,000  4,500,000   45,000,000    450,000,000
+           f          0.50       5.0       50      500      5,000    50,000   500,000  5,000,000   50,000,000    500,000,000
+    m          0.60       6.0       60      600      6,000    60,000   600,000  6,000,000   60,000,000    600,000,000
+       n          0.70        7.0       70      700      7,000    70,000   700,000   7,000,000   70,000,000    700,000,000
+           t          0.80       8.0       80      800      8,000    80,000   800,000  8,000,000   80,000,000    800,000,000
+        y          0.90       9.0       90      900      9,000    90,000   900,000  9,000,000   90,000,000    900,000,000
+
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019      14
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 15 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Tape & Reel Packaging Information
+
+KEMET offers multilayer ceramic chip capacitors packaged in 8, 12 and 16 mm tape on 7" and 13" reels in accordance with
+EIA Standard 481. This packaging system is compatible with all tape-fed automatic pick and place systems. See Table 2 for
+details on reeling quantities for commercial chips.
+
+
+
+                                     Bar code label
+
+                                                       Anti-static reel
+                                                                               ®                   Embossed plastic* or
+                                                                                         Chip and KPS orientation in pocket                         KEMET                      punched paper carrier.                                                                                           (except 1825 commercial, and 1825 and 2225 Military)
+
+
+
+
+
+                                                     Sprocket holes
+
+                                                                      Embossment or punched cavity
+
+                                         8 mm, 12 mm                                                                                                              Anti-static cover tape                                                   or 16 mm carrier tape   180 mm (7.00")                                                                                (0.10 mm (0.004") maximum thickness)
+          or
+  330 mm (13.00")                           *EIA 01005, 0201, 0402 and 0603 case sizes available on punched paper carrier only.
+
+Table 5 – Carrier Tape Configuration, Embossed Plastic & Punched Paper (mm)
+
+                                                New 2 mm Pitch Reel Options*                    Embossed Plastic  Punched Paper              Tape
+                                                             Packaging EIA Case Size   Size     7" Reel   13" Reel   7" Reel   13" Reel
+                                                               Ordering Code      Packaging Type/Options               (W)*                                  Pitch (P1)*           Pitch (P1)*                                                                  (C-Spec)
+  01005 – 0402      8                          2        2                  C-3190         Automotive grade 7" reel unmarked
+      0603          8                            2/4       2/4                 C-3191         Automotive grade 13" reel unmarked
+                                                                             C-7081         Commercial grade 7" reel unmarked
+      0805          8        4        4        4        4
+                                                                             C-7082         Commercial grade 13" reel unmarked
+   1206 – 1210       8        4        4        4        4                                                                              * 2 mm pitch reel only available for 0603 EIA case size.
+   1805 – 1808       12        4        4                              2 mm pitch reel for 0805 EIA case size under development.
+     ≥ 1812         12        8        8                            Benefits of Changing from 4 mm to 2 mm Pitching Spacing
+    KPS 1210        12        8        8                                  • Lower placement costs.
+    KPS 1812                                                                  • Double the parts on each reel results in fewer reel                   16       12       12
+    and 2220                                                 changes and increased eﬃ ciency.
+    Array 0612       8        4        4                                  • Fewer reels result in lower packaging, shipping and
+*Refer to Figures 1 and 2 for W and P1 carrier tape reference locations.            storage costs, reducing waste.
+*Refer to Tables 6 and 7 for tolerance specifi cations.
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019      15
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 16 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Figure 1 – Embossed (Plastic) Carrier Tape Dimensions
+
+              T                                             P2
+                  T2                           ØD0                P0     tolerance(10 pitchesoncumulativetape ±0.2 mm)        E1
+
+
+                                                                             A0
+                                                                                       F
+                 K0                                                 W
+    B1                                                                                    B0              E2
+
+
+        S1                                                            P1
+                  T1                 Center Lines of Cavity                                      Embossment
+                                                                      ØD1        For cavity size,
+                   Cover Tape                                                                   see Note 1 Table 4
+             B1 is for tape feeder reference only,
+              including draft concentric about B0.           User Direction of Unreeling
+
+Table 6 – Embossed (Plastic) Carrier Tape Dimensions
+Metric will govern
+
+                                  Constant Dimensions — Millimeters (Inches)
+                                 D1 Minimum                                      R Reference S1 Minimum     T           T1 Tape Size          D0                                E1             P0             P2                                Note 1                                               Note 2      Note 3   Maximum  Maximum
+                                        1.0                                                      25.0   8 mm                                     (0.039)                                                       (0.984)
+                1.5 +0.10/−0.0                    1.75 ±0.10      4.0 ±0.10       2.0 ±0.05                  0.600      0.600       0.100   12 mm            (0.059 +0.004/−0.0)       1.5      (0.069 ±0.004)  (0.157 ±0.004)  (0.079 ±0.002)     30        (0.024)      (0.024)     (0.004)
+                                     (0.059)                                                           (1.181)
+   16 mm
+
+                                      Variable Dimensions — Millimeters (Inches)
+                                  B1 Maximum        E2                                            T2      W Tape Size         Pitch                                       F              P1                                          A0,B0 & K0                                Note 4      Minimum                           Maximum  Maximum
+                                    4.35          6.25         3.5 ±0.05       4.0 ±0.10        2.5          8.3   8 mm       Single (4 mm)                                       (0.171)        (0.246)     (0.138 ±0.002)  (0.157 ±0.004)    (0.098)      (0.327)
+                Single (4 mm)         8.2          10.25        5.5 ±0.05       8.0 ±0.10         4.6         12.3   12 mm                                                                                                        Note 5           and double (8 mm)     (0.323)        (0.404)     (0.217 ±0.002)  (0.315 ±0.004)    (0.181)      (0.484)
+                                      12.1          14.25         7.5 ±0.05      12.0 ±0.10        4.6         16.3   16 mm       Triple (12 mm)                                      (0.476)         (0.561)     (0.138 ±0.002)  (0.157 ±0.004)     (0.181)      (0.642)
+1. The embossment hole location shall be measured from the sprocket hole controlling the location of the embossment. Dimensions of the embossment
+   location and the hole location shall be applied independently of each other.
+2. The tape with or without components shall pass around R without damage (see Figure 6.)
+3. If S1 < 1.0 mm, there may not be enough area for a cover tape to be properly applied (see EIA Standard 481, paragraph 4.3, section b.)
+4. B1 dimension is a reference dimension for tape feeder clearance only.
+5. The cavity defi ned by A0, B0 and K0 shall surround the component with suﬃ cient clearance that:
+           (a) the component does not protrude above the top surface of the carrier tape.
+           (b) the component can be removed from the cavity in a vertical direction without mechanical restriction, after the top cover tape has been
+         removed.
+            (c) rotation of the component is limited to 20° maximum for 8 and 12 mm tapes and 10° maximum for 16 mm tapes (see Figure 3.)
+           (d) lateral movement of the component is restricted to 0.5 mm maximum for 8 and 12 mm wide tape and to 1.0 mm maximum for 16 mm tape
+          (see Figure 4.)
+            (e) for KPS product, A0 and B0 are measured on a plane 0.3 mm above the bottom of the pocket.
+             (f) see addendum in EIA Standard 481 for standards relating to more precise taping requirements.
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019      16
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 17 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Figure 2 – Punched (Paper) Carrier Tape Dimensions
+
+
+                       T
+                                              ØDo            Po     tolerance(10 pitchesoncumulativetape ±0.2 mm)        E1
+
+
+                                                                                        A0
+                                                                                                 F
+                                                                   W
+   Bottom Cover Tape                                                               B0                                  E2
+
+
+
+                                                                                 P1                  G                     T1                                                                                                                   Cavity Size,
+                              T1
+                         Top                               Cover Tape        Center Lines of Cavity                                 SeeNote 1, Table 7
+                                                                                                         Bottom Cover Tape
+
+
+                                                         User Direction of Unreeling
+
+Table 7 – Punched (Paper) Carrier Tape Dimensions
+Metric will govern
+
+                                  Constant Dimensions — Millimeters (Inches)
+                                                                                                     R Reference
+   Tape Size             D0                    E1                P0               P2           T1 Maximum   G Minimum       Note 2
+                                                                                                      0.10                      1.5 +0.10 -0.0          1.75 ±0.10         4.0 ±0.10         2.0 ±0.05                         0.75           25    8 mm                                                                                         (0.004)                  (0.059 +0.004 -0.0)     (0.069 ±0.004)    (0.157 ±0.004)    (0.079 ±0.002)                       (0.030)          (0.984)                                                                        maximum
+                                      Variable Dimensions — Millimeters (Inches)
+   Tape Size             Pitch           E2 Minimum          F                P1         T Maximum  W Maximum        A0 B0
+                                                                                2.0 ±0.05                          8.3    8 mm           Half (2 mm)                                            6.25            3.5 ±0.05       (0.079 ±0.002)          1.1          (0.327)                                                                                                                  Note 1                                              (0.246)        (0.138 ±0.002)       4.0 ±0.10          (0.098)          8.3    8 mm           Single (4 mm)                                                                                (0.157 ±0.004)                      (0.327)
+
+1. The cavity defi ned by A0, B0 and T shall surround the component with suﬃ cient clearance that:
+           a) the component does not protrude beyond either surface of the carrier tape.
+          b) the component can be removed from the cavity in a vertical direction without mechanical restriction, after the top cover tape has been
+         removed.
+           c) rotation of the component is limited to 20° maximum (see Figure 3.)
+          d) lateral movement of the component is restricted to 0.5 mm maximum (see Figure 4.)
+           e) see addendum in EIA Standard 481 for standards relating to more precise taping requirements.
+2. The tape with or without components shall pass around R without damage (see Figure 6.)
+
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019      17
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 18 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Packaging Information Performance Notes
+
+1. Cover Tape Break Force: 1.0 kg minimum.
+2. Cover Tape Peel Strength: The total peel strength of the cover tape from the carrier tape shall be:
+
+     Tape Width                Peel Strength
+         8 mm                   0.1 to 1.0 newton (10 to 100 gf)
+
+      12 and 16 mm               0.1 to 1.3 newton (10 to 130 gf)
+
+The direction of the pull shall be opposite the direction of the carrier tape travel. The pull angle of the carrier tape shall be
+165° to 180° from the plane of the carrier tape. During peeling, the carrier and/or cover tape shall be pulled at a velocity of
+300 ±10 mm/minute.
+3. Labeling: Bar code labeling (standard or custom) shall be on the side of the reel opposite the sprocket holes. Refer to EIA
+Standards 556 and 624.
+
+Figure 3 – Maximum Component Rotation
+
+
+                     °
+                T
+               Maximum Component Rotation                  Maximum Component Rotation
+                          Top View                                         Side View
+                            Typical Pocket Centerline
+                     Tape      Maximum                             °
+                       Width (mm)  Rotation (  T)°                     s
+                         8,12        20  Bo                                                             Tape      Maximum                     16 – 200     10
+                                                                       Width (mm)  Rotation (  S)°
+                                                                             8,12        20
+                          Typical Component Centerline                    16 – 56     10
+                                                                  72 – 200     5         Ao
+
+Figure 4 – Maximum Lateral Movement          Figure 5 – Bending Radius
+
+  8 mm & 12 mm Tape                16 mm Tape                                  Embossed                 Punched
+                                                                                                                               Carrier                         Carrier
+                   0.5 mm maximum                         1.0 mm maximum
+                     0.5 mm maximum                         1.0 mm maximum
+
+
+
+                                                                                                                        Bending           R                                                                                                              R                                                                                                                            Radius
+
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019      18
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 19 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Figure 6 – Reel Dimensions
+
+
+                Full Radius,                                                                                            (Includes                                                      Access Hole at                 W3
+              See Note                                                                   Slot Location                                  flange distortion
+                                                         (Ø 40 mm minimum)                             at outer edge)
+
+
+
+                                                                                                     (Measured at hub)                                                         W2
+
+  A      D  (See Note)                                   N
+                                      C
+                                                                          (Arbor hole                                                                                                    (Measured at hub)                                                        W1                                                                         diameter)
+                                                                                              If present,
+                                                              tape slot in core
+                                                                        for tape start:
+                                                                2.5 mm minimum width x
+                   B  (see Note)              10.0 mm minimum depth
+     Note: Drive spokes optional; if used, dimensions B and D shall apply.
+
+Table 8 – Reel Dimensions
+Metric will govern
+
+                                  Constant Dimensions — Millimeters (Inches)
+      Tape Size                 A                   B Minimum                 C                 D Minimum
+        8 mm                  178 ±0.20
+                                (7.008 ±0.008)                                                                        1.5                    13.0 +0.5/−0.2                   20.2       12 mm                        or                                                                     (0.059)               (0.521 +0.02/−0.008)                (0.795)                             330 ±0.20
+       16 mm                 (13.000 ±0.008)
+                                      Variable Dimensions — Millimeters (Inches)
+      Tape Size            N Minimum                   W1                 W2 Maximum                 W3
+                                                                 8.4 +1.5/−0.0                    14.4        8 mm                                                            (0.331 +0.059/−0.0)                (0.567)
+                                50                      12.4 +2.0/−0.0                    18.4                Shall accommodate tape       12 mm                                      (1.969)                  (0.488 +0.078/−0.0)                (0.724)            width without interference
+                                                              16.4 +2.0/−0.0                   22.4       16 mm                                                           (0.646 +0.078/−0.0)                (0.882)
+
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019      19
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 20 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+Figure 7 – Tape Leader & Trailer Dimensions
+
+             Embossed Carrier
+
+              Punched Carrier               Carrier Tape
+              8 mm & 12 mm only                                        Round Sprocket Holes           END                                                  START
+                                                                                  Top Cover Tape
+
+
+
+                                                                                         Elongated Sprocket Holes
+                                                                                           (32 mm tape and wider)
+
+
+                                                           100 mm
+                                                    minimum leader
+                               Trailer                                       Components         400 mm minimum                  160 mm minimum
+
+              Top Cover Tape
+
+
+Figure 8 – Maximum Camber
+
+                          Elongated Sprocket Holes                  Carrier Tape                           (32 mm & wider tapes)
+                                                                    Round Sprocket Holes
+
+
+
+
+                                     1 mm maximum, either direction
+
+                                            Straight Edge
+
+                                    250 mm
+
+
+
+
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019      20
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com
+=== PAGE 21 ===
+Surface Mount Multilayer Ceramic Chip Capacitors, (SMD MLCCs)
+High Voltage X7R Dielectric, 500 – 3,000 VDC (Automotive Grade)
+
+KEMET Electronics Corporation Sales Oﬃces
+
+For a complete list of our global sales oﬃ ces, please visit www.kemet.com/sales.
+
+
+Disclaimer
+
+All product specifi cations, statements, information and data (collectively, the “Information”) in this datasheet are subject to change. The customer is responsible for
+checking and verifying the extent to which the Information contained in this publication is applicable to an order at the time the order is placed. All Information given
+herein is believed to be accurate and reliable, but it is presented without guarantee, warranty, or responsibility of any kind, expressed or implied.
+
+Statements of suitability for certain applications are based on KEMET Electronics Corporation’s (“KEMET”) knowledge of typical operating conditions for such
+applications, but are not intended to constitute – and KEMET specifi cally disclaims – any warranty concerning suitability for a specifi c customer application or use.
+The Information is intended for use only by customers who have the requisite experience and capability to determine the correct products for their application. Any
+technical advice inferred from this Information or otherwise provided by KEMET with reference to the use of KEMET’s products is given gratis, and KEMET assumes
+no obligation or liability for the advice given or results obtained.
+
+Although KEMET designs and manufactures its products to the most stringent quality and safety standards, given the current state of the art, isolated component
+failures may still occur. Accordingly, customer applications which require a high degree of reliability or safety should employ suitable designs or other safeguards
+(such as installation of protective circuitry or redundancies) in order to ensure that the failure of an electrical component does not result in a risk of personal injury
+or property damage.
+
+Although all product–related warnings, cautions and notes must be observed, the customer should not assume that all safety measures are indicted or that other
+measures may not be required.
+
+
+
+
+
+ KEMET is a registered trademark of KEMET Electronics Corporation.
+
+© KEMET Electronics Corporation • KEMET Tower • One East Broward Boulevard                  C1076_X7R_HV_AUTO_SMD • 9/10/2019      21
+Fort Lauderdale, FL 33301 USA • 954-766-2800 • www.kemet.com

@@ -1,0 +1,32 @@
+[
+  {
+    "path": "hardware\\academic_rev1\\Ethernet.SchDoc",
+    "backup": "hardware\\academic_rev1\\backups\\native_schematic_audit_20261107\\Ethernet.SchDoc",
+    "sha256": "2759b57670782bdde944c303a7cdb0eadf29aa39c0eef88cc4ff57159e04f8e4"
+  },
+  {
+    "path": "hardware\\academic_rev1\\Field_IO.SchDoc",
+    "backup": "hardware\\academic_rev1\\backups\\native_schematic_audit_20261107\\Field_IO.SchDoc",
+    "sha256": "619c86f1f7dda4514ff139d79719ad06cf4ff6d78fbcad7a5cdc4cf240b38ac2"
+  },
+  {
+    "path": "hardware\\academic_rev1\\Industrial_Gateway_Academic.PrjPcb",
+    "backup": "hardware\\academic_rev1\\backups\\native_schematic_audit_20261107\\Industrial_Gateway_Academic.PrjPcb",
+    "sha256": "e4751c13954178bf743c08814dafd7df74fd9f47eec0cbf161906b82fb075d73"
+  },
+  {
+    "path": "hardware\\academic_rev1\\MCU.SchDoc",
+    "backup": "hardware\\academic_rev1\\backups\\native_schematic_audit_20261107\\MCU.SchDoc",
+    "sha256": "1c8b8a43a4a6b557225b3208862b8bc7218c37105156ec39e05d426278b457a7"
+  },
+  {
+    "path": "hardware\\academic_rev1\\Power.SchDoc",
+    "backup": "hardware\\academic_rev1\\backups\\native_schematic_audit_20261107\\Power.SchDoc",
+    "sha256": "98d4800724b3bfdf0bb93d7d7528b3a2f0e4888ebea9c1607ccf234c4a2f5e44"
+  },
+  {
+    "path": "hardware\\academic_rev1\\TopLevel.SchDoc",
+    "backup": "hardware\\academic_rev1\\backups\\native_schematic_audit_20261107\\TopLevel.SchDoc",
+    "sha256": "d1509a5aaa332bc85966cabc8702181994dbede7c99d34e83f018dadc7e3a9ea"
+  }
+]

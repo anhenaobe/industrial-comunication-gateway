@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "protected_files_unchanged": 34,
+  "protected_files_changed": [],
+  "native_library_counts": {
+    "symbols": 50,
+    "footprints": 26
+  },
+  "new_native_objects": 0,
+  "local_links_checked": 29,
+  "git_diff_check": "PASS",
+  "source_pdf_hashes": {
+    "hardware/academic_rev1/libraries/sources/input_protection/NIS3071-D.PDF": "834d85c1831703cc5c7424a386e4c452f6d0f8967fb1e1ad811470699947db69",
+    "hardware/academic_rev1/libraries/sources/input_protection/AND90248-D.pdf": "2ba8e74f55304881f9576ea4c9a71bf2b2271c21e28c226b588314ae1070e2ba",
+    "hardware/academic_rev1/libraries/sources/input_protection/TDS3011P.pdf": "09bd22042ddc490ab66c08b27568018bf9eed54b52cc15c61be0168e144178b7",
+    "hardware/academic_rev1/libraries/sources/SS3P6L_88987.pdf": "7e8b31517781e0d4295e5e3687a81bd8e5639c069a0ea42a797e3050b6966134"
+  },
+  "SCHEMATIC_READY": "CONDITIONAL_CONNECTIONS_ONLY",
+  "ELECTRICALLY_APPROVED": false
+}

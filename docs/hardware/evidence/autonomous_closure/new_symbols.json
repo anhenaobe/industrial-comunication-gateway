@@ -1,0 +1,1480 @@
+[
+  {
+    "name": "MMBT3904-7-F",
+    "description": "Diodes DS30036 Rev27-2 March2025 p1 top view/order, p3 electrical, p6 suggested lands; conventional NPN symbol; used in5V BSP input driver,NOT24V load path",
+    "designator": "Q?",
+    "designator_x": -20,
+    "designator_y": 40,
+    "pins": [
+      {
+        "designator": "B",
+        "name": "B",
+        "x": -20,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "input",
+        "show_name": true,
+        "show_designator": false
+      },
+      {
+        "designator": "E",
+        "name": "E",
+        "x": 20,
+        "y": -20,
+        "length": 20,
+        "orientation": "right",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      },
+      {
+        "designator": "C",
+        "name": "C",
+        "x": 20,
+        "y": 20,
+        "length": 20,
+        "orientation": "right",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      }
+    ],
+    "lines": [
+      {
+        "x1": -20,
+        "y1": 0,
+        "x2": -5,
+        "y2": 0,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": -5,
+        "y1": -15,
+        "x2": -5,
+        "y2": 15,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": -5,
+        "y1": 8,
+        "x2": 20,
+        "y2": 20,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": -5,
+        "y1": -8,
+        "x2": 20,
+        "y2": -20,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 12,
+        "y1": -13,
+        "x2": 18,
+        "y2": -19,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 18,
+        "y1": -19,
+        "x2": 11,
+        "y2": -19,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 18,
+        "y1": -19,
+        "x2": 16,
+        "y2": -12,
+        "line_width": 1,
+        "color": 128
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Diodes Incorporated",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "MMBT3904-7-F",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "NPN 40V200mA",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Diodes DS30036 Rev27-2 March2025 p1 top view/order, p3 electrical, p6 suggested lands",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Status",
+        "value": "DERIVED_PENDING_REVIEW",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "sources/autonomous_closure/MMBT3904.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Terminal Mapping",
+        "value": "Top view tab/lead above C/D; lower-left B/G; lower-right E/S; manufacturer functional IDs, no guessed numbers",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_MMBT3904_BEC_DIODES",
+        "is_current": true
+      }
+    ]
+  },
+  {
+    "name": "DMP2035U-7",
+    "description": "Diodes DS31830 Rev11-2 June2025 p1 top view/order,p2 electrical,p6 suggested lands; conventional PMOS symbol; used in5V BSP input driver,NOT24V load path",
+    "designator": "Q?",
+    "designator_x": -20,
+    "designator_y": 40,
+    "pins": [
+      {
+        "designator": "G",
+        "name": "G",
+        "x": -20,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "input",
+        "show_name": true,
+        "show_designator": false
+      },
+      {
+        "designator": "S",
+        "name": "S",
+        "x": 20,
+        "y": 20,
+        "length": 20,
+        "orientation": "right",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      },
+      {
+        "designator": "D",
+        "name": "D",
+        "x": 20,
+        "y": -20,
+        "length": 20,
+        "orientation": "right",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      }
+    ],
+    "lines": [
+      {
+        "x1": -20,
+        "y1": 0,
+        "x2": -10,
+        "y2": 0,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": -10,
+        "y1": -14,
+        "x2": -10,
+        "y2": 14,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 0,
+        "y1": -15,
+        "x2": 0,
+        "y2": -7,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 0,
+        "y1": -4,
+        "x2": 0,
+        "y2": 4,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 0,
+        "y1": 7,
+        "x2": 0,
+        "y2": 15,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 0,
+        "y1": 15,
+        "x2": 12,
+        "y2": 15,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 12,
+        "y1": 15,
+        "x2": 12,
+        "y2": 20,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 12,
+        "y1": 20,
+        "x2": 20,
+        "y2": 20,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 0,
+        "y1": -15,
+        "x2": 12,
+        "y2": -15,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 12,
+        "y1": -15,
+        "x2": 12,
+        "y2": -20,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 12,
+        "y1": -20,
+        "x2": 20,
+        "y2": -20,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 0,
+        "y1": 0,
+        "x2": 10,
+        "y2": 0,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 0,
+        "y1": 0,
+        "x2": 5,
+        "y2": 3,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 0,
+        "y1": 0,
+        "x2": 5,
+        "y2": -3,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 10,
+        "y1": 0,
+        "x2": 12,
+        "y2": 20,
+        "line_width": 1,
+        "color": 128
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Diodes Incorporated",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "DMP2035U-7",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "PMOS20V;VGS\u00b110V",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Diodes DS31830 Rev11-2 June2025 p1 top view/order,p2 electrical,p6 suggested lands",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Status",
+        "value": "DERIVED_PENDING_REVIEW",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "sources/autonomous_closure/DMP2035U.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Terminal Mapping",
+        "value": "Top view tab/lead above C/D; lower-left B/G; lower-right E/S; manufacturer functional IDs, no guessed numbers",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_DMP2035U_GSD_DIODES",
+        "is_current": true
+      }
+    ]
+  },
+  {
+    "name": "TB002-500-02BE",
+    "description": "Same Sky TB002-500 Rev1.04 09/12/2024 p1 order key,p2 PCB layout; project contact1left in PCBtopview with wire entry facing-Y;not manufacturer polarity",
+    "designator": "J?",
+    "designator_x": -30,
+    "designator_y": 40,
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "x": -30,
+        "y": 20,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "x": -30,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -30,
+        "y1": -10,
+        "x2": 20,
+        "y2": 30
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Same Sky (formerly CUI Devices)",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "TB002-500-02BE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "2-pole5mm terminal block",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Same Sky TB002-500 Rev1.04 09/12/2024 p1 order key,p2 PCB layout",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Status",
+        "value": "DERIVED_PENDING_REVIEW",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "sources/autonomous_closure/tb002-500.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Physical Mapping",
+        "value": "Project-defined1left then+X in PCBtopview; wire-entryfront-Y. Confirm wire polarity against silk before bringup.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_TB002_500_2P_SAMESKY",
+        "is_current": true
+      }
+    ]
+  },
+  {
+    "name": "TB002-500-03BE",
+    "description": "Same Sky TB002-500 Rev1.04 09/12/2024 p1 order key,p2 PCB layout; project contact1left in PCBtopview with wire entry facing-Y;not manufacturer polarity",
+    "designator": "J?",
+    "designator_x": -30,
+    "designator_y": 60,
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "x": -30,
+        "y": 40,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "x": -30,
+        "y": 20,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      },
+      {
+        "designator": "3",
+        "name": "3",
+        "x": -30,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -30,
+        "y1": -10,
+        "x2": 20,
+        "y2": 50
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Same Sky (formerly CUI Devices)",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "TB002-500-03BE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "3-pole5mm terminal block",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Same Sky TB002-500 Rev1.04 09/12/2024 p1 order key,p2 PCB layout",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Status",
+        "value": "DERIVED_PENDING_REVIEW",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "sources/autonomous_closure/tb002-500.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Physical Mapping",
+        "value": "Project-defined1left then+X in PCBtopview; wire-entryfront-Y. Confirm wire polarity against silk before bringup.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_TB002_500_3P_SAMESKY",
+        "is_current": true
+      }
+    ]
+  },
+  {
+    "name": "61300211121",
+    "description": "Wurth 61300211121 official datasheet p1 dimensions/recommended hole pattern;1.10mm holes2.54pitch;project orientationpin1lefttopview,sequence+X",
+    "designator": "J?",
+    "designator_x": -30,
+    "designator_y": 40,
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "x": -30,
+        "y": 20,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "x": -30,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -30,
+        "y1": -10,
+        "x2": 20,
+        "y2": 30
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Wurth Elektronik",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "61300211121",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "2x1 2.54mm straight male header",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Wurth 61300211121 official datasheet p1 dimensions/recommended hole pattern;1.10mm holes2.54pitch",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Status",
+        "value": "DERIVED_PENDING_REVIEW",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet URL",
+        "value": "https://www.we-online.com/components/products/datasheet/61300211121.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_WRPHD_2X1_254_WURTH",
+        "is_current": true
+      }
+    ]
+  },
+  {
+    "name": "61300611121",
+    "description": "Wurth 61300611121 official datasheet p1 dimensions/recommended hole pattern;1.10mm holes2.54pitch;project orientationpin1lefttopview,sequence+X",
+    "designator": "J?",
+    "designator_x": -30,
+    "designator_y": 120,
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "x": -30,
+        "y": 100,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "x": -30,
+        "y": 80,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      },
+      {
+        "designator": "3",
+        "name": "3",
+        "x": -30,
+        "y": 60,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      },
+      {
+        "designator": "4",
+        "name": "4",
+        "x": -30,
+        "y": 40,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      },
+      {
+        "designator": "5",
+        "name": "5",
+        "x": -30,
+        "y": 20,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      },
+      {
+        "designator": "6",
+        "name": "6",
+        "x": -30,
+        "y": 0,
+        "length": 20,
+        "orientation": "left",
+        "electrical_type": "passive",
+        "show_name": true,
+        "show_designator": false
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -30,
+        "y1": -10,
+        "x2": 20,
+        "y2": 110
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Wurth Elektronik",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "61300611121",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "6x1 2.54mm straight male header",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Wurth 61300611121 official datasheet p1 dimensions/recommended hole pattern;1.10mm holes2.54pitch",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Status",
+        "value": "DERIVED_PENDING_REVIEW",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet URL",
+        "value": "https://www.we-online.com/components/products/datasheet/61300611121.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_WRPHD_6X1_254_WURTH",
+        "is_current": true
+      }
+    ]
+  },
+  {
+    "name": "RC0603FR-074K7L",
+    "description": "RC0603FR-074K7L;1%0.1W75V0603; manufacturer RCseries ordering;Yageo mounting13Feb2018V10p4",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 8,
+        "x": -15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 8,
+        "x": 15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "lines": [
+      {
+        "owner_part_id": 1,
+        "is_not_accessible": true,
+        "x1": -15,
+        "y1": 0,
+        "x2": -6,
+        "y2": 0,
+        "line_width": 1,
+        "line_style": 0,
+        "color": 128
+      },
+      {
+        "owner_part_id": 1,
+        "is_not_accessible": true,
+        "x1": 6,
+        "y1": 0,
+        "x2": 15,
+        "y2": 0,
+        "line_width": 1,
+        "line_style": 0,
+        "color": 128
+      }
+    ],
+    "polylines": [
+      {
+        "owner_part_id": 1,
+        "is_not_accessible": true,
+        "line_width": 1,
+        "line_style": 0,
+        "color": 128,
+        "start_line_shape": 0,
+        "end_line_shape": 0,
+        "line_shape_size": 0,
+        "transparent": false,
+        "points": [
+          {
+            "x": -6,
+            "y": 0
+          },
+          {
+            "x": -5,
+            "y": 3
+          },
+          {
+            "x": -3,
+            "y": -3
+          },
+          {
+            "x": -1,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": -3
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": -3
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Yageo",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "RC0603FR-074K7L",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "4.7 kOhm",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Yageo RC0603 series order coding; Mounting13Feb2018V10 p4 Fig4/Table1",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Status",
+        "value": "DERIVED_PENDING_REVIEW;ORDER_CODE_FAMILY_SUPPORTED;EXACT_NOMINAL_SHEET_PENDING",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Tolerance",
+        "value": "1%",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Voltage Rating",
+        "value": "75V or sqrt(P*R),whichever lower",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Power Rating",
+        "value": "0.1W at70C",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Package",
+        "value": "0603",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "designator": "R?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "footprints": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "is_current": true
+      }
+    ]
+  },
+  {
+    "name": "RC0603FR-07100RL",
+    "description": "RC0603FR-07100RL;1%0.1W75V0603; manufacturer RCseries ordering;Yageo mounting13Feb2018V10p4",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 8,
+        "x": -15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 8,
+        "x": 15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "lines": [
+      {
+        "owner_part_id": 1,
+        "is_not_accessible": true,
+        "x1": -15,
+        "y1": 0,
+        "x2": -6,
+        "y2": 0,
+        "line_width": 1,
+        "line_style": 0,
+        "color": 128
+      },
+      {
+        "owner_part_id": 1,
+        "is_not_accessible": true,
+        "x1": 6,
+        "y1": 0,
+        "x2": 15,
+        "y2": 0,
+        "line_width": 1,
+        "line_style": 0,
+        "color": 128
+      }
+    ],
+    "polylines": [
+      {
+        "owner_part_id": 1,
+        "is_not_accessible": true,
+        "line_width": 1,
+        "line_style": 0,
+        "color": 128,
+        "start_line_shape": 0,
+        "end_line_shape": 0,
+        "line_shape_size": 0,
+        "transparent": false,
+        "points": [
+          {
+            "x": -6,
+            "y": 0
+          },
+          {
+            "x": -5,
+            "y": 3
+          },
+          {
+            "x": -3,
+            "y": -3
+          },
+          {
+            "x": -1,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": -3
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": -3
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Yageo",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "RC0603FR-07100RL",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "100 Ohm",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Yageo RC0603 series order coding; Mounting13Feb2018V10 p4 Fig4/Table1",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Status",
+        "value": "DERIVED_PENDING_REVIEW;ORDER_CODE_FAMILY_SUPPORTED;EXACT_NOMINAL_SHEET_PENDING",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Tolerance",
+        "value": "1%",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Voltage Rating",
+        "value": "75V or sqrt(P*R),whichever lower",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Power Rating",
+        "value": "0.1W at70C",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Package",
+        "value": "0603",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "designator": "R?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "footprints": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "is_current": true
+      }
+    ]
+  },
+  {
+    "name": "CRCW1206120RFKEA",
+    "description": "Vishay D/CRCW e3 family20035;120ohm1%0.25W1206; optional bus-end termination,open-default jumper.",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 8,
+        "x": -15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 8,
+        "x": 15,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "lines": [
+      {
+        "owner_part_id": 1,
+        "is_not_accessible": true,
+        "x1": -15,
+        "y1": 0,
+        "x2": -6,
+        "y2": 0,
+        "line_width": 1,
+        "line_style": 0,
+        "color": 128
+      },
+      {
+        "owner_part_id": 1,
+        "is_not_accessible": true,
+        "x1": 6,
+        "y1": 0,
+        "x2": 15,
+        "y2": 0,
+        "line_width": 1,
+        "line_style": 0,
+        "color": 128
+      }
+    ],
+    "polylines": [
+      {
+        "owner_part_id": 1,
+        "is_not_accessible": true,
+        "line_width": 1,
+        "line_style": 0,
+        "color": 128,
+        "start_line_shape": 0,
+        "end_line_shape": 0,
+        "line_shape_size": 0,
+        "transparent": false,
+        "points": [
+          {
+            "x": -6,
+            "y": 0
+          },
+          {
+            "x": -5,
+            "y": 3
+          },
+          {
+            "x": -3,
+            "y": -3
+          },
+          {
+            "x": -1,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": -3
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": -3
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Vishay",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "CRCW1206120RFKEA",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "120 Ohm",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Vishay20035 family ordering/power;18Jun2018p9 REFLOW1206 lands",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Status",
+        "value": "DERIVED_PENDING_REVIEW;END_NODE_ONLY;STOCK_UNVERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Tolerance",
+        "value": "1%",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Power Rating",
+        "value": "0.25W at70C",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Package",
+        "value": "1206",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "sources/ethernet_75ohm/C844859.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "designator": "R?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "footprints": [
+      {
+        "name": "GW_CRCW1206_VISHAY_20035_REFLOW",
+        "is_current": true
+      }
+    ]
+  }
+]

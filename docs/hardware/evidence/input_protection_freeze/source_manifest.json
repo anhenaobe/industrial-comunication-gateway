@@ -1,0 +1,50 @@
+[
+  {
+    "local": "hardware\\academic_rev1\\libraries\\sources\\academic_freeze\\fuse_manufacturer_drawing.pdf",
+    "url": "https://media.digikey.com/pdf/Data%20Sheets/Littelfuse%20PDFs/451_453SERIES.pdf",
+    "sha256": "bdfc5532113e5df5ca3a469553b64c8903751c5d3ea2a3a382262f6093b9fd14",
+    "provenance": "Manufacturer-authored document; retrieval host recorded, not a third-party CAD model."
+  },
+  {
+    "local": "hardware\\academic_rev1\\libraries\\sources\\academic_freeze\\TDK_exact.pdf",
+    "url": "https://datasheet.octopart.com/C5750X7R2A475K-TDK-datasheet-37185778.pdf",
+    "sha256": "d2a9f8742c747cae334170c9c40effacb68b9481c9190efa47710ed12bf7e7fa",
+    "provenance": "Manufacturer-authored document; retrieval host recorded, not a third-party CAD model."
+  },
+  {
+    "local": "hardware\\academic_rev1\\libraries\\sources\\academic_freeze\\YAGEO_mount.pdf",
+    "url": "https://sigma.octopart.com/138820526/technical_drawing/Yageo-AT0603FRE074K7L.pdf",
+    "sha256": "591634ace247f61e9c6a263ca1ac98d7672fc163f5e87334c3460956f5c68b7b",
+    "provenance": "Manufacturer-authored document; retrieval host recorded, not a third-party CAD model."
+  },
+  {
+    "local": "hardware\\academic_rev1\\libraries\\sources\\academic_freeze\\KEMET_family.pdf",
+    "url": "https://datasheet.lcsc.com/datasheet/pdf/da640179b8b977b6a47e045528de98bb.pdf?productCode=C21380065",
+    "sha256": "be48fc0c83449dc7ac0d70b22e5ba819c64cb3f5fc428eefb8252a089a9dd2fa",
+    "provenance": "Manufacturer-authored document; retrieval host recorded, not a third-party CAD model."
+  },
+  {
+    "local": "hardware\\academic_rev1\\libraries\\sources\\academic_freeze\\RC0603FR-0762KL.pdf",
+    "url": "https://yageogroup.com/download/specsheet/RC0603FR-0762KL",
+    "sha256": "0d7bf6419f9fd2d9809abde9f9bdc77e51afe4802da34d16b25069bfd5885c63",
+    "provenance": "Manufacturer-authored document; retrieval host recorded, not a third-party CAD model."
+  },
+  {
+    "local": "hardware\\academic_rev1\\libraries\\sources\\academic_freeze\\RC0603FR-0715KL.pdf",
+    "url": "https://yageogroup.com/download/specsheet/RC0603FR-0715KL",
+    "sha256": "117c03241dc1f6f5ff1b72d01eaaffc985a33593e6c2ebd0c6c476bae562441a",
+    "provenance": "Manufacturer-authored document; retrieval host recorded, not a third-party CAD model."
+  },
+  {
+    "local": "hardware\\academic_rev1\\libraries\\sources\\academic_freeze\\C0805C225K5RACTU.pdf",
+    "url": "https://yageogroup.com/download/specsheet/C0805C225K5RACTU",
+    "sha256": "0bec1e1f7878cb30dad1739a50e74453cd03b55021df26570c950b4b15f3e1e5",
+    "provenance": "Manufacturer-authored document; retrieval host recorded, not a third-party CAD model."
+  },
+  {
+    "local": "hardware\\academic_rev1\\libraries\\sources\\academic_freeze\\C0603C680J5GACTU.pdf",
+    "url": "https://docs.rs-online.com/cdb0/0900766b816ffe5b.pdf",
+    "sha256": "974d82089f593a8c7557d6d294197b0204f38f7babee0350a0b66902f1036139",
+    "provenance": "Manufacturer-authored document; retrieval host recorded, not a third-party CAD model."
+  }
+]

@@ -1,0 +1,657 @@
+=== PDF PAGE 1 ===
+                                                        Share Feedback      DATA SHEET
+                                                                          Your Opinion Matters    www.onsemi.com
+
+eFuse, 4 Channel,
+60 V, 2.5 A
+
+NIS3071                                                         WQFN16, 6x5                                                                   CASE 510CM
+  The NIS3071 is a 4−channel, 60 V, 2.5 A per channel eFuse which
+protects downstream loads from output  shorts, overloads and
+overcurrent events. Each channel is in a high−side configuration, and            MARKING DIAGRAMS
+is independently controlled by its corresponding enable pins. The
+NIS3071 communicates status via a common active−low fault pin.
+This eFuse features an internal soft start delay, trip time control, and an                   XXXXXXXX
+                                                                       XXXXXXXX
+adjustable current limit setting common to all channels. The NIV3071                                                               AWLYYWW
+is an automotive−grade, AEC−Q100 qualified, pin−to−pin equivalent
+of the NIS3071.
+                                                                 XXXX = Specific Device Code
+Features                                                          A    = Assembly Location
+• 4 Independent Channels with 2.5 A Current Capability Each                WL   = Wafer Lot
+                                                                 YY   = Year
+• Power Device Thermally Protected for Each Channel                WW  = Work Week
+• No External Current Shunt Required
+• Active−High Digital Enable Pin
+• Open−Drain Common Fault Pin                                           PIN CONNECTIONS
+• Adjustable Overcurrent Limit for All Channels
+• Adjustable Turn−on Time Control                                                                           EN1     EN2     EN3     EN4
+• These Devices are Pb−Free and are RoHS Compliant
+
+Typical Applications                                                    VOUT1                    VOUT3
+• Power Distribution Box
+• Load/Harness Protection                                                         VIN1                          VIN3
+• General Purpose High−Side Load Switch                                    GND
+• Power Amplifier Protection                                                      VIN2                          VIN4
+• Motor Drive Protection
+• Telecomm Equipment                                                 VOUT2                    VOUT4
+• 8 V to 60 V Industrial
+
+                                                                                                                                                                                    dvdt      ILIM     GND                                                                                                                                                                                                                    FAULT
+
+
+
+
+                                                        ORDERING INFORMATION
+                                                                         See detailed ordering and shipping information on page 11 of
+                                                                                                                this data sheet.
+
+
+
+
+
+ © Semiconductor Components Industries, LLC, 2021                      1                                         Publication Order Number:
+ April, 2026 − Rev. 3                                                                                      NIS3071/D
+=== PDF PAGE 2 ===
+                                  NIS3071
+
+
+ Table 1. PIN FUNCTION DESCRIPTION
+    Pin          Function                                              Description
+
+     1          OUT1         Output voltage for channel 1
+
+     2              IN1           Input voltage for channel 1
+
+     3              IN2           Input voltage for channel 2
+
+     4          OUT2         Output voltage for channel 2
+
+                                      Active Low Open−Drain FAULT pin (Pull up to 5 V, 3.3 V or 1.8 V external logic supply with 15 k
+     5           FAULT           resistor)
+
+     6               dvdt         Turn−on Time/inrush current control (connect capacitor to ground to control output slew rate)
+
+     7              ILIM         Connect RLIM resistor to GND to set current limit for all channels
+     8         GND         Ground
+
+     9          OUT4         Output voltage for channel 4
+
+    10             IN4           Input voltage for channel 4
+
+     11             IN3           Input voltage for channel 3
+
+    12          OUT3         Output voltage for channel 3
+
+    13          EN4         Channel 4 Enable, Active High, Internal Pull−up
+
+    14          EN3         Channel 3 Enable, Active High, Internal Pull−up
+
+    15          EN2         Channel 2 Enable, Active High, Internal Pull−up
+
+    16          EN1         Channel 1 Enable, Active High, Internal Pull−up
+
+   PAD        GND         Ground
+
+
+ Table 2. ABSOLUTE MAXIMUM RATINGS AND THERMAL RATINGS
+                              Rating                               Symbol           Value              Unit
+
+ IN1,2,3,4 Pins Input Voltage, operating, steady−state                              VIN(Max)          −0.3 to 60          V
+  (VINx, VOUTx to GND, Note 1)
+ Absolute Maximum Transient voltage on IN1,2,3,4 pins (Note 2)                     VIN(Tran)            65            V
+ Maximum DC voltage on EN pin                                              VEN(Max)          −0.3 to 6          V
+ Thermal Resistance, Junction−to−Air                                              JA                           °C/W
+  JEDEC JESD51−5                                                                            32.1
+  JEDEC JESD51−7                                                                            56.8
+    0.5 in2 copper (Note 3)                                                                         24.0
+
+ Thermal Resistance, Junction−to−Lead                                                 JL                0.5            °C/W
+ Operating Junction Temperature Range (Note 4)                                 TJ           −40 to 150           °C
+ Non−operating Junction Temperature Range                                    TJ           −50 to 155           °C
+ Lead Temperature, Soldering (10 sec)                                        TL              260              °C
+ ESD Human Body Model ANSI/ESDA/JEDEC JS−001 Class 2              ESDHBM              2.0             kV
+ ESD Charged Device Model AEC Standard Q100−01 (JESD22−C101E)       ESDCDM              1.0             kV
+Stresses exceeding those listed in the Maximum Ratings table may damage the device. If any of these limits are exceeded, device functionality
+should not be assumed, damage may occur and reliability may be affected.
+1. Negative voltage will not damage device provided that the power dissipation is limited to the rated allowable power for the package.
+2. Transient Voltage pulse duration ≤ 100  s.
+3. Based on thermal models using the NIS3071 EVB.
+4. Thermal limit is set above the maximum thermal rating. It is not recommended to operate this device at temperatures greater than maximum
+   ratings for extended periods of time.
+
+
+
+
+
+                                      www.onsemi.com                        Share Feedback
+                                                       2                                        Your Opinion Matters
+=== PDF PAGE 3 ===
+                                  NIS3071
+
+
+ Table 3. ELECTRICAL CHARACTERISTICS
+ (Unless otherwise noted: VIN = 48 V, CIN = 100  F, COUT = 100  F, dV/dt pin open, RLIM = 20 k   , TA = 25 °C)
+                              Characteristics                           Symbol     Min     Typ    Max     Unit
+
+ POWER FET
+ ON Resistance per channel, TJ = 25 °C                                       RDS(ON)              80      92
+                                                                      m
+ ON Resistance per channel, TJ = 150 °C                                      RDS(ON)              135     155
+ Continuous Current per channel (TA = 100 °C, single channel)                           ID(Cont)                  2.5*            A
+ Off State Leakage per channel (VIN = 48 V, VEN = 0 V)                               IOFF                   1.0            A
+ THERMAL LATCH
+ Shutdown Temperature                                                 TSD               175              °C
+ Thermal Hysteresis (Decrease in die temperature for turn on)                         THyst               27              °C
+ OVERCURRENT PROTECTION
+ Minimum Settable Current Limit (RLIM = 130 k  ) MTW3, MTW4 versions              ITH(Min)                 0.5            A
+ Minimum Settable Current Limit (RLIM = 300 k  ) MTW5, MTW6 versions              ITH(Min)                 0.2            A
+ Maximum Settable Current Limit (RLIM = 62 k  ) MTW5, MTW6 versions              ITH(Max)                 1.0            A
+ Threshold Current Level (RLIM = 30 k  )                                               ITH          1.9       2.0       2.1     A
+  Circuit Breaker Current Level                                                       ICB               2 x ITH           A
+  Circuit Breaker Response Time                                                     tCB                 6                 s
+ Overcurrent Trip Timer                                                                   tTRIP         1.5                  ms
+ UNDERVOLTAGE LOCKOUT
+ Undervoltage Lockout Level Rising                                       VUVLO        5.0       6.0       7.0     V
+ Undervoltage Lockout Hysteresis                                           UVLOhyst                0.3            V
+ Undervoltage Lockout Response Time                                           tUVLO                  5.0      10        s
+ (Time from Vin reaching UVLO to enabling/disabling)
+
+ TURN−ON TIME
+ Output On Delay Time (CIN = 100  F, COUT = none, VIN = 48 V) (Note 5)              tDLY(On)              350                s
+ Turn−On Time (CIN = 100  F, COUT = none, VIN = 48 V, Cdvdt = none) (Note 5)      tRAMP(On)                1.5           ms
+ LOGIC INPUT/OUTPUT
+ LOW Level Input; EN                                                                  VIL                             0.4     V
+ HIGH Level Input; EN                                                           VIH         1.2                   V
+ LOW Level Output; FAULT, 0.5 mA                                        VOL                            0.3     V
+ Output Sink Current; FAULT                                                          IOL                             0.5    mA
+ EN Sink Ground Current; EN (VIN = 48, ENx = 0 V)                                        IEN(sink)               3             A
+ EN Pull−up Current (EN = 5 V)                                                              IEN(pull−up)                      1      A
+ TOTAL DEVICE CURRENT
+ Off State Bias Current (All channels Off)                                                           Ibias(Off)              85      175     A
+ On State Bias Current (All channels On, No Load)                                          Ibias(On)              850     1200     A
+ On State Bias Current (All channels On, 2.5 A load per channel)                      Ibias(On,Max)               5.0          mA
+Product parametric performance is indicated in the Electrical Characteristics for the listed test conditions, unless otherwise noted. Product
+performance may not be indicated by the Electrical Characteristics if operated under different conditions.
+* Application is to have R JA ≤ 14 °C/W when driving 2.5 A on each channel.
+5. 1 A load connected to output.
+
+
+
+
+
+                                      www.onsemi.com                        Share Feedback
+                                                       3                                        Your Opinion Matters
+=== PDF PAGE 4 ===
+                     NIS3071
+
+
+                           Current Limit
+IN1                                     OUT1
+                                      Thermal    Soft-
+               Charge Pump
+                                   Shutdown   Start
+
+                           Current Limit
+IN2                                     OUT2
+                                      Thermal    Soft-
+               Charge Pump
+                                   Shutdown   Start
+
+                          Current Limit
+IN3                                      OUT3
+               Charge Pump             Thermal    Soft-
+                                   Shutdown   Start
+                          Current Limit
+IN4                                      OUT4
+                                      Thermal    Soft-
+               Charge Pump
+                                   Shutdown   Start
+
+
+                                  Control
+
+
+                                   GND                                                                  ILIM dvdt                EN1EN2 EN3 EN4                                                   FAULT
+
+
+                        Figure 1. Block Diagram
+
+
+
+
+
+         NIS3071                                                                                   NIS3071
+
+
+
+
+
+         NIS3071                                                                                   NIS3071
+
+
+                    Figure 2. Application Diagrams
+
+
+
+
+
+                       www.onsemi.com                        Share Feedback
+                                   4                                        Your Opinion Matters
+=== PDF PAGE 5 ===
+                                  NIS3071
+
+                            APPLICATIONS INFORMATION
+
+Basic Operation                                           a Figures 9, 10 and 11. It is recommended to use a ceramic
+  The NIS3071  is an eFuse with four self−protected      or other low leakage capacitor.
+channels in a high−side configuration. It contains circuits to
+monitor the output current and die temperature for each     Enable
+                                                    The active high Enable pins provides a digital interface tochannel independently.
+                                                                control the state of the channels. When ENx pin is pulled low  Once the input voltage is applied to any INx pin, the
+device will apply the input voltage to the load connected to     by external circuitry, the specific channel will be turned off.
+OUTx pin based on the restrictions of the controlling    When ENx  pin  is  driven  high  or  left  floating,  the
+circuits.  It  is also possible to operate this eFuse with     corresponding channel is enabled. In applications with high
+                                                            inductances on the output, it is recommended to pull the ENxcommon inputs and common outputs, thus paralleling the
+                                                              pins high. Protection circuits such as the overcurrent limitchannels for higher total output current. When a channel is
+                                                              function override the function of the enable pin. The EN pinnot in use connect the INx and ENx pins to ground.
+                                                          has an internal high impedance pull−up resistor.  Each channel of the device will remain on as long as the
+temperature of the channel FET does not exceed the 175 °C                                                            Fault
+limit that is programmed into the chip.                                                    The FAULT pin is an open−drain active low pin signaling
+  The overcurrent protection circuit will allow for a load to                                                               the system controller about an overcurrent event on any of
+draw the current for that channel within the allowable                                                               the channels. If a thermal shutdown or overcurrent trip timer
+overcurrent limit defined by ITH and ICB. If the load current                                                           runout event occurs, the FAULT pin will be pulled low. After
+in one channel exceeds limits defined by ITH and ICB it will                                                               the fault is cleared the pin will be floating or pulled up by an
+subsequently turn off, while other channels can continue the                                                                external pull−up resistor. The pin can be left unconnected if
+normal operation.                                                             not used.
+ An internal charge pump provides bias for the gate voltage
+of the internal power FET structures and also for the current
+                                                         Table 4. FAULT PIN TRUTH TABLElimit circuit. The remainder of the control circuitry operates
+between the input voltage at INx pins and ground.                                                    Fault Pin Status
+                                                                       Condition              (With external pull up)
+Overcurrent Protection
+                                                               Thermal Shutdown                   Low
+  The Overcurrent protection circuit monitors the load
+current and allows the load to draw current as long as its level        ICB Overcurrent Event                Low
+is within an allowable overcurrent range defined by ITH and        ITH Overcurrent Event                Low
+ICB. The ITH is the overcurrent limit set by the RLIM resistor,            (t > tTrip)
+and ICB is a circuit breaker level which is 2x of ITH; as long       Normal Operation                       High
+as the load is drawing current not exceeding the ICB level the        Input < UVLO                          High
+FET is on, if the current level exceeds the ICB level the FET
+is turned  off  for  that  specific channel.  If during the                                                    Thermal Protection
+overcurrent mode the internal temperature for the channel                                                    The NIS3071 series device includes an independent
+FET exceeds the threshold level, that specific channel will                                                                    internal temperature sensing circuit for each channel that
+be shut off. Additional device options offer a overcurrent                                                             senses the temperature of the power FETs on the die. If the
+trip timer which starts counting right after the load current                                            FET temperature reaches 175 °C for any of the channels, the
+exceeds the ITH level, once the predetermined amount of     device will shut down that specific channel while other
+time has elapsed the channel will be shut off. Examples of                                                           channels will continue normal operation. The disabled
+a typical operation for such scheme is shown in Figure 4.                                                          channel will be automatically turned on once the channel
+Figure 5 shows typical values of ITH with respect to the    FET temperature has been reduced by 27 °C. (for auto−retry
+RLIM resistor.                                                   version, latched version must be reset) The thermal limit has
+                                                       been set high intentionally, to increase the trip time duringTurn−on Time Control
+                                                          high power transient events.  It is not recommended to  The Turn−on Time circuit brings the output voltage up
+                                                             operate this device above 150 °C in normal operatingunder a linear controlled rate in order to limit peak inrush
+                                                                conditions.current. The default ramp time is approximately 1.5 ms. This
+can be modified by adding an external capacitor at the dvdt                                                          Transient Protection
+pin.                                                                In the event of a short circuit or overcurrent fault, the
+  The diagram showing the typical turn−on time and enable                                                           device will interrupt the flow of current by becoming an
+delay is shown in Figure 3. The value of capacitor connected                                                     open circuit. If there is inductance in the system, specifically
+to dvdt pin defines the tRAMP(On) turn on times as shown in
+
+
+
+                                      www.onsemi.com                        Share Feedback
+                                                       5                                        Your Opinion Matters
+=== PDF PAGE 6 ===
+                                  NIS3071
+
+on the input or output pins of the eFuse, the resulting      output, in such a case a Transient Voltage Suppressor (TVS)
+transients could exceed the datasheet maximum voltage     can placed between the input and ground pins and a Schottky
+ratings. Input inductance will generate a positive voltage     diode can be placed between the output and ground pins to
+spike on the INx pin(s) and output inductance will generate     maintain the datasheet absolute maximum voltage ratings.
+a negative voltage spike on  the OUTx  pin(s). Some      Additionally,  capacitors can be used  to  help  absorb
+applications may require large inductances on the input or      transients as well.
+
+
+
+
+
+                                  Figure 3. Turn On Delay and Turn−on Time
+
+
+
+
+
+                                      www.onsemi.com                        Share Feedback
+                                                       6                                        Your Opinion Matters
+=== PDF PAGE 7 ===
+                                  NIS3071
+
+
+
+
+
+  t1: Current is above ITH (but below ICB); tTRIP counter is started.
+  t2: Current goes below ITH before tTRIP timer expires. tTRIP counter is reset and normal operation continues.
+  t3: Current is above ITH (but below ICB); tTRIP counter is started. Note that the load continues to draw current as long as it is below ICB and device remains
+ below the thermal shutdown temperature (TSD).
+  t4: Device begins shut down due to A) tTRIP timer has expired, OR B) device has reached the thermal shutdown temperature (TSD). FAULT pin is pulled low.
+  t5: Device shuts down in tTSD after t4.
+  t6: Device is restarted when temperature is reduced by 27°C (Auto−Retry version only; Latched version will require manual restart with EN pin).
+  t7: Device output has been shorted (or a severe current overload condition).
+  t8: Device Output current has exceeded ICB. The device is immediately shut down within the ICB shutdown time tCB. FAULT pin is pulled low.
+  t9: Device restarts after auto−retry time is exceeded (Auto−Retry only, Latch version will require a manual restart with EN).
+ Note: dotted line shows device remains off for latched version (until restarted using EN pin).
+                                   Figure 4. Overcurrent Protection Diagram
+
+
+   14                                                    2000
+                                                        1800
+   12
+                                                        1600
+   10                                                    1400(A)                                                                                                       (mA)
+ICB, 8                                                    1200                                                                                          ICB,                                                        1000
+AND  6                                                                             AND  800
+                                                                                                        ICBITH    4                             ICB                             ITH  600
+                                                            400
+    2                                                                                                 ITH       Max load current    ITH                                 200
+         per channel 2.5 A
+    0                                                         0
+     0      10     20     30     40     50     60            50      100      150      200      250     300
+                             RLIM, (k  )                                                           RLIM, (k  )
+          Figure 5. Current Limit Setting vs. RLIM                    Figure 6. Current Limit Setting vs. RLIM
+                  (MT3, MT4 versions)                                     (MT5, MT6 versions)
+
+
+
+
+
+                                       www.onsemi.com                        Share Feedback
+                                                       7                                        Your Opinion Matters
+=== PDF PAGE 8 ===
+                                  NIS3071
+
+     9                                                     2000
+                                  ICB @ RLIM 15 k                            ICB @ RLIM 62 k     8                                                     1800
+     7                                                     1600
+(A)  6                                                                                           (mA) 1400   ICB @ RLIM 100 k
+ITH,  5                                                     1200                                                                                         ITH,                                                          1000                                ITH @ RLIM 62 k                                   ITH @ RLIM 15 k
+AND  4                                                                      ICB @ RLIM 150 k                                  ICB @ RLIM 30 k                  AND  800
+ICB  3                                                                      ICB @ RLIM 200 k           ITH @ RLIM 100 k                                                                   ICB  600                                   ITH @ RLIM 30 k                           ICB @ RLIM 240 k     2                                                           400   ICB @ RLIM 300 k           ITH @ RLIM 150 k                                  ICB @ RLIM 62 k                                                        ITH @ RLIM 200 k
+     1                                                           200
+                                   ITH @ RLIM 62 k                                                                                                            ITH @ RLIM 300 k                                                                                     ITH @ RLIM 240 k     0                                                        0
+    −40   −20    0    20    40    60   80   100   120         −40 −20   0   20   40  60  80  100  120  140 160
+                  TJ, JUNCTION TEMPERATURE (°C)                                   TJ, JUNCTION TEMPERATURE (°C)
+        Figure 7. Junction Temperature vs. ITH & ICB              Figure 8. Junction Temperature vs. ITH & ICB
+                  (MT3, MT4 versions)                                   (MT5, MT6 versions)
+
+
+
+   30                                                         35
+
+                                               VIN 48 V                                                             30                                           VIN 48 V   25
+                                     VIN 36 V
+(ms)                                                                                                      (ms)  25                                 VIN 36 V   20
+                                 VIN 24 V
+                                                             20                           VIN 24 VTIME                                                                                                      TIME
+   15
+                                                             15
+   10
+                                                             10TURN−ON                                            VIN 12 V                                TURN−ON                                                                                                                VIN 12 V
+    5                                                              5
+
+    0                                                          0
+     0        20       40       60       80       100           0       20       40       60       80       100
+                       Cdvdt, CAPACITANCE (pF)                                                 Cdvdt, CAPACITANCE (pF)
+      Figure 9. Turn−on Time vs. Cdvdt Capacitance              Figure 10. Turn−on Time vs. Cdvdt Capacitance
+                        at TJ = −40 C                                                    at TJ = 25 C
+
+
+                              45
+                              40                                          VIN 48 V
+                              35
+                                               (ms)                                    VIN 36 V                              30
+                                               TIME  25                          VIN 24 V
+                              20
+
+                              15                                                                                   TURN−ON                              10                                         VIN 12 V
+
+                               5
+
+                               0
+                                0        20       40       60       80       100
+                                                           Cdvdt, CAPACITANCE (pF)
+                                Figure 11. Turn−on Time vs. Cdvdt Capacitance
+                                                       at TJ = 125 C
+
+
+
+                                       www.onsemi.com                        Share Feedback
+                                                       8                                        Your Opinion Matters
+=== PDF PAGE 9 ===
+                                 NIS3071
+
+
+
+   Ch1: VIN                                                     Ch1: VIN
+   Ch2: VOUT                                                   Ch2: VOUT1
+   Ch3: VEN                                                    Ch3: VEN
+                                                                Ch4: VOUT2
+
+
+
+
+
+ Figure 12. Turning on a Single Output with EN Pin          Figure 13. Turning on a Single Output with the EN
+                                                               Pin While Another Output Pin is On
+
+
+
+  Ch1: VIN                                                      Ch1: VIN
+  Ch2: VOUT                                                    Ch2: VOUT1
+  Ch3: VFAULT                                                  Ch3: VFAULT
+                                                               Ch4: VOUT2
+
+
+
+
+
+Figure 14. Turning on a Single Output with the Input        Figure 15. Turning on a Single Output with the Input
+        Voltage (EN pin pull−up or floated)                Voltage While Another Output is On (EN pin pull−up
+                                                                             or floated)
+
+
+
+
+                                Ch1: VIN                                                     Ch1: VIN
+                                Ch2: VOUT                                                    Ch2: VOUT
+                                Ch3: VEN                                                     Ch3: VEN
+
+
+
+
+
+  Figure 16. Turn On with EN Pin with Cdvdt Open            Figure 17. Turn On with EN Pin with Cdvdt 56 pF
+
+
+
+
+                                     www.onsemi.com                        Share Feedback
+                                                     9                                        Your Opinion Matters
+=== PDF PAGE 10 ===
+                                 NIS3071
+
+
+
+
+                               Ch1: VIN                                                                                            Ch1: VIN                               Ch2: VOUT                                                                                            Ch2: VOUT                               Ch3: IOUT                                                                                            Ch3: IOUT                               Ch4: VFAULT                                                                                            Ch4: VFAULT
+
+
+
+
+
+Figure 18. ITH Overcurrent Event on Latching Device          Figure 19. ITH Overcurrent Event on Auto−retry
+                                                                         Device
+
+
+
+                               Ch1: VIN                                                       Ch1: VIN
+                               Ch2: VOUT                                                     Ch2: VOUT
+                               Ch3: IOUT                                                      Ch3: IOUT
+                               Ch4: VFAULT                                                    Ch4: VFAULT
+
+
+
+
+
+Figure 20. ICB Overcurrent Event on Latching Device          Figure 21. ICB Overcurrent Event on Auto−retry
+                                                                         Device
+
+
+
+                              Ch1: VIN                                                       Ch1: VIN
+                              Ch2: VOUT                                                     Ch2: VOUT
+                              Ch3: IOUT                                                      Ch3: IOUT
+                              Ch4: VFAULT                                                    Ch4: VFAULT
+
+
+
+
+
+ Figure 22. Short Circuit Event on Latching Device         Figure 23. Short Circuit Event on Auto−retry Device
+
+
+
+
+
+                                      www.onsemi.com                        Share Feedback
+                                                     10                                       Your Opinion Matters
+=== PDF PAGE 11 ===
+                                  NIS3071
+
+
+
+
+
+    Ch1: VIN
+    Ch2: VOUT1
+    Ch3: IOUT1                                                    Ch1: VIN
+    Ch4: VOUT2                                                    Ch2: VOUT1
+                                                                 Ch3: IOUT1
+                                                                 Ch4: VOUT2
+
+
+
+
+    Figure 24. ITH Overcurrent Event While Another            Figure 25. ICB Overcurrent Event While Another
+                  Output is On                                         Output is On
+
+
+
+ ORDERING INFORMATION
+        Part Number        Shutdown Version           Package                            Shipping†
+
+ NIS3071MT3TWG                 Latch           WQFN16 5x6 mm                   5000 / Tape & Reel
+                                                          (Pb−Free)
+
+ NIS3071MT4TWG               Auto−R          WQFN16 5x6 mm                   5000 / Tape & Reel
+                                                          (Pb−Free)
+
+ NIS3071MTW3TWG                Latch           WQFN16 5x6 mm                   5000 / Tape & Reel
+                                                          (Pb−Free)
+                                                           (Wettable Flank)
+
+ NIS3071MTW4TWG             Auto−R          WQFN16 5x6 mm                   5000 / Tape & Reel
+                                                          (Pb−Free)
+                                                           (Wettable Flank)
+
+ NIS3071MTW5TWG                Latch           WQFN16 5x6 mm                   5000 / Tape & Reel
+                                                          (Pb−Free)
+                                                           (Wettable Flank)
+
+ NIS3071MTW6TWG             Auto−R          WQFN16 5x6 mm                   5000 / Tape & Reel
+                                                          (Pb−Free)
+                                                           (Wettable Flank)
+
+†  For information on tape and reel specifications, including part orientation and tape sizes, please refer to our Tape and Reel Packaging
+   Specifications Brochure, BRD8011/D.
+
+ REVISION HISTORY
+     Revision                                     Description of Changes                                    Date
+
+       3          Separated out NIV3071 device into new NIV3071/D datasheet.                                     4/9/2026
+*  Please note that this document has been previously updated prior to the inclusion of this revision history table and that the changes tracked
+   only reflect what has occurred on the noted approval dates.
+
+
+
+
+
+                                      www.onsemi.com                        Share Feedback
+                                                         11                                       Your Opinion Matters
+=== PDF PAGE 12 ===
+                                 MECHANICAL CASE OUTLINE
+                                                     PACKAGE DIMENSIONS
+
+
+
+                                WQFN16 5x6, 1.05P
+                                   CASE 510CM
+                                         ISSUE O
+                                                                      DATE 14 JUN 2019
+
+
+
+
+
+             GENERIC
+         MARKING DIAGRAM*
+
+
+
+              XXXXXXXX
+                          XXXX = Specific Device Code              XXXXXXXX                                     *This information is generic. Please refer to
+                          A    = Assembly Location      device data sheet for actual part marking.             AWLYYWW
+                       WL   = Wafer Lot             Pb−Free indicator, “G” or microdot “  ”, may
+                          YY   = Year                     or may not be present. Some products may
+                  WW  = Work Week              not follow the Generic Marking.
+
+
+                                                                                              Electronic versions are uncontrolled except when accessed directly from the Document Repository.
+ DOCUMENT NUMBER:  98AON08122H                      Printed versions are uncontrolled except when stamped “CONTROLLED COPY” in red.
+
+       DESCRIPTION:  WQFN16 5x6, 1.05P                                     PAGE 1 OF 1
+
+
+
+  onsemi and            are trademarks of Semiconductor Components Industries, LLC dba onsemi or its subsidiaries in the United States and/or other countries. onsemi reserves
+  the right to make changes without further notice to any products herein. onsemi makes no warranty, representation or guarantee regarding the suitability of its products for any particular
+  purpose, nor does onsemi assume any liability arising out of the application or use of any product or circuit, and specifically disclaims any and all liability, including without limitation
+  special, consequential or incidental damages. onsemi does not convey any license under its patent rights nor the rights of others.
+
+
+© Semiconductor Components Industries, LLC, 2019                                                               www.onsemi.com
+=== PDF PAGE 13 ===
+  onsemi,                    , and other names, marks, and brands are registered and/or common law trademarks of Semiconductor Components Industries, LLC dba “onsemi” or its affiliates
+   and/or subsidiaries in the United States and/or other countries. onsemi owns the rights to a number of patents, trademarks, copyrights, trade secrets, and other intellectual property.
+  A listing of onsemi’s product/patent coverage may be accessed at www.onsemi.com/site/pdf/Patent−Marking.pdf. onsemi reserves the right to make changes at any time to any
+   products or information herein, without notice. The information herein is provided “as−is” and onsemi makes no warranty, representation or guarantee regarding the accuracy of the
+   information, product features, availability, functionality, or suitability of its products for any particular purpose, nor does onsemi assume any liability arising out of the application or use
+   of any product or circuit, and specifically disclaims any and all liability, including without limitation special, consequential or incidental damages. Buyer is responsible for its products
+  and applications using onsemi products, including compliance with all laws, regulations and safety requirements or standards, regardless of any support or applications information
+   provided by onsemi. “Typical” parameters which may be provided in onsemi data sheets and/or specifications can and do vary in different applications and actual performance may
+   vary over time. All operating parameters, including “Typicals” must be validated for each customer application by customer’s technical experts. onsemi does not convey any license
+  under any of its intellectual property rights nor the rights of others. onsemi products are not designed, intended, or authorized for use as a critical component in life support systems
+   or any FDA Class 3 medical devices or medical devices with a same or similar classification in a foreign jurisdiction or any devices intended for implantation in the human body. Should
+  Buyer purchase or use onsemi products for any such unintended or unauthorized application, Buyer shall indemnify and hold onsemi and its officers, employees, subsidiaries, affiliates,
+  and distributors harmless against all claims, costs, damages, and expenses, and reasonable attorney fees arising out of, directly or indirectly, any claim of personal injury or death
+   associated with such unintended or unauthorized use, even if such claim alleges that onsemi was negligent regarding the design or manufacture of the part. onsemi is an Equal
+   Opportunity/Affirmative Action Employer. This literature is subject to all applicable copyright laws and is not for resale in any manner.
+
+ADDITIONAL INFORMATION
+   TECHNICAL PUBLICATIONS:                                              ONLINE SUPPORT: www.onsemi.com/support
+    Technical Library: www.onsemi.com/design/resources/technical−documentation            For additional information, please contact your local Sales Representative at
+   onsemi Website: www.onsemi.com                                                     www.onsemi.com/support/sales
+
+
+ 

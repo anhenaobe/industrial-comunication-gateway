@@ -1,0 +1,3061 @@
+[
+  {
+    "designator": "U5",
+    "pin": "1",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "3",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "4",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "5",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "6",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "7",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "8",
+    "actual_type": 2,
+    "source_type": "output",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "9",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "10",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "11",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "12",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "13",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "14",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "15",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "16",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "17",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "18",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "19",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "20",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "21",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "22",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "23",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "24",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "25",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "26",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "27",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "28",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "29",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "30",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "31",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "32",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U5",
+    "pin": "33",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R13",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R13",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "Y2",
+    "pin": "1",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "Y2",
+    "pin": "2",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "Y2",
+    "pin": "3",
+    "actual_type": 2,
+    "source_type": "output",
+    "result": "MATCH"
+  },
+  {
+    "designator": "Y2",
+    "pin": "4",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C37",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C37",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C38",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C38",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C39",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C39",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C40",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C40",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C41",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C41",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R15",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R15",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C36",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C36",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C47",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C47",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C48",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C48",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C49",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C49",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C50",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C50",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "3",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "4",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "5",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "6",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "7",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "8",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "9",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "10",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "11",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "12",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "13",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "14",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "15",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "T1",
+    "pin": "16",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C43",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C43",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C42",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C42",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C45",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C45",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C44",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C44",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U6",
+    "pin": "1",
+    "actual_type": 2,
+    "source_type": "output",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U6",
+    "pin": "2",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U6",
+    "pin": "3",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U6",
+    "pin": "4",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U6",
+    "pin": "5",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U6",
+    "pin": "6",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U6",
+    "pin": "7",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U6",
+    "pin": "8",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "J2",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "J2",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "J2",
+    "pin": "3",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "J2",
+    "pin": "4",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "J2",
+    "pin": "5",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "J2",
+    "pin": "6",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "J2",
+    "pin": "7",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "J2",
+    "pin": "8",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "J2",
+    "pin": "S1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "J2",
+    "pin": "S2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R16",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R16",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R18",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R18",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C51",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C51",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R12",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R12",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R14",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R14",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C46",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C46",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R19",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R19",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R17",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R17",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C52",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C52",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U7",
+    "pin": "1",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U7",
+    "pin": "2",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U7",
+    "pin": "3",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U7",
+    "pin": "4",
+    "actual_type": 2,
+    "source_type": "output",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U7",
+    "pin": "5",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U7",
+    "pin": "6",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U7",
+    "pin": "7",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U7",
+    "pin": "8",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C53",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C53",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C54",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C54",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "1",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "2",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "3",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "4",
+    "actual_type": 2,
+    "source_type": "output",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "5",
+    "actual_type": 2,
+    "source_type": "output",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "6",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "7",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "8",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "9",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "10",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "11",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "12",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "13",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "14",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "15",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U8",
+    "pin": "16",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U9",
+    "pin": "1",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U9",
+    "pin": "2",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U9",
+    "pin": "3",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U9",
+    "pin": "4",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U9",
+    "pin": "5",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U9",
+    "pin": "6",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U9",
+    "pin": "7",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U9",
+    "pin": "8",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U10",
+    "pin": "IN",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U10",
+    "pin": "D",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U10",
+    "pin": "S",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U10",
+    "pin": "S_TAB",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U11",
+    "pin": "IN",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U11",
+    "pin": "D",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U11",
+    "pin": "S",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U11",
+    "pin": "S_TAB",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C56",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C56",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R23",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R23",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R22",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R22",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C57",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C57",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R20",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R20",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R21",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R21",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C55",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C55",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C58",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C58",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R24",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R24",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R25",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R25",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C59",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C59",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "1",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "2",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "3",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "4",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "5",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "6",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "7",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "8",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "9",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "10",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "11",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "12",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "13",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "14",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "15",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "16",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "17",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "18",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "19",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "20",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "21",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "22",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "23",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "24",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "25",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "26",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "27",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "28",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "29",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "30",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "31",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "32",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "33",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "34",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "35",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "36",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "37",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "38",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "39",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "40",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "41",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "42",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "43",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "44",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "45",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "46",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "47",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "48",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "49",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "50",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "51",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "52",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "53",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "54",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "55",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "56",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "57",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "58",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "59",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "60",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "61",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "62",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "63",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "64",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "65",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "66",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "67",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "68",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "69",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "70",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "71",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "72",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "73",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "74",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "75",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "76",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "77",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "78",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "79",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "80",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "81",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "82",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "83",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "84",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "85",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "86",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "87",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "88",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "89",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "90",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "91",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "92",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "93",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "94",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "95",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "96",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "97",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "98",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "99",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U4",
+    "pin": "100",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C22",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C22",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C31",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C31",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C32",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C32",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C26",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C26",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C35",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C35",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C27",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C27",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C33",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C33",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C34",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C34",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C30",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C30",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C29",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C29",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C24",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C24",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C23",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C23",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C28",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C28",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R11",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R11",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "SW1",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "SW1",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "Y1",
+    "pin": "1",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "Y1",
+    "pin": "2",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "Y1",
+    "pin": "3",
+    "actual_type": 2,
+    "source_type": "output",
+    "result": "MATCH"
+  },
+  {
+    "designator": "Y1",
+    "pin": "4",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C25",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C25",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U2",
+    "pin": "1",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U2",
+    "pin": "2",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U2",
+    "pin": "3",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U2",
+    "pin": "4",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U2",
+    "pin": "5",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U2",
+    "pin": "6",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U2",
+    "pin": "7",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U2",
+    "pin": "8",
+    "actual_type": 3,
+    "source_type": "open_collector",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U2",
+    "pin": "9",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U2",
+    "pin": "10",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U2",
+    "pin": "11",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U2",
+    "pin": "12",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "L1",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "L1",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C6",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C6",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C4",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C4",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C5",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C5",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R6",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R6",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R5",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R5",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C7",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C7",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C8",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C8",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C9",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C9",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C11",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C11",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C10",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C10",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R7",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R7",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C12",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C12",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "J1",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": null,
+    "result": "UNKNOWN_OR_DIFFERENT"
+  },
+  {
+    "designator": "J1",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": null,
+    "result": "UNKNOWN_OR_DIFFERENT"
+  },
+  {
+    "designator": "L2",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "L2",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U3",
+    "pin": "1",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U3",
+    "pin": "2",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U3",
+    "pin": "3",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U3",
+    "pin": "4",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U3",
+    "pin": "5",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U3",
+    "pin": "6",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U3",
+    "pin": "7",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U3",
+    "pin": "8",
+    "actual_type": 3,
+    "source_type": "open_collector",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U3",
+    "pin": "9",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U3",
+    "pin": "10",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U3",
+    "pin": "11",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U3",
+    "pin": "12",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C15",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C15",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C13",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C13",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C14",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C14",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R9",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R9",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R8",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R8",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C16",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C16",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C17",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C17",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C18",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C18",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C20",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C20",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C19",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C19",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C21",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C21",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R10",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R10",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "F1",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "F1",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "D2",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "D2",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "D2",
+    "pin": "3",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "D2",
+    "pin": "4",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "D2",
+    "pin": "5",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "D2",
+    "pin": "6",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "D1",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "D1",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "D1",
+    "pin": "K",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U1",
+    "pin": "1",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U1",
+    "pin": "2",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U1",
+    "pin": "3",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U1",
+    "pin": "4",
+    "actual_type": 0,
+    "source_type": "input",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U1",
+    "pin": "10",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U1",
+    "pin": "9",
+    "actual_type": 3,
+    "source_type": "open_collector",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U1",
+    "pin": "8",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U1",
+    "pin": "7",
+    "actual_type": 1,
+    "source_type": "bidirectional",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U1",
+    "pin": "5",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U1",
+    "pin": "11",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "U1",
+    "pin": "6",
+    "actual_type": 7,
+    "source_type": "power",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C2",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C2",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C1",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C1",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R1",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R1",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R3",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R3",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C3",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "C3",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R4",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R4",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R2",
+    "pin": "1",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  },
+  {
+    "designator": "R2",
+    "pin": "2",
+    "actual_type": 4,
+    "source_type": "passive",
+    "result": "MATCH"
+  }
+]

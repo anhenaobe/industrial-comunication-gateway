@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=TopLevel.SchDoc|SheetNumber= 
+Record=SheetSymbol|SourceDocument=TopLevel.SchDoc|Designator=S1|SchDesignator=S1|FileName=Power.SchDoc|SheetNumber= |SymbolType=Normal|RawFileName=Power.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TopLevel.SchDoc|Designator=S2|SchDesignator=S2|FileName=MCU.SchDoc|SheetNumber= |SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TopLevel.SchDoc|Designator=S3|SchDesignator=S3|FileName=Ethernet.SchDoc|SheetNumber= |SymbolType=Normal|RawFileName=Ethernet.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TopLevel.SchDoc|Designator=S4|SchDesignator=S4|FileName=Field_IO.SchDoc|SheetNumber= |SymbolType=Normal|RawFileName=Field_IO.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

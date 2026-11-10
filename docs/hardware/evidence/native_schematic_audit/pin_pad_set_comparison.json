@@ -1,0 +1,1503 @@
+[
+  {
+    "designator": "U5",
+    "model": "GW_RHB0032M_TI",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "source_pads": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "designator": "R13",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "Y2",
+    "model": "GW_KC2016Z_KYOCERA",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "source_pads": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "designator": "C37",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C38",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C39",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C40",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C41",
+    "model": "GW_CAND_0805_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "R15",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C36",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C47",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C48",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C49",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C50",
+    "model": "GW_CAND_0805_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "T1",
+    "model": "GW_HX1188FNL_PULSE",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "source_pads": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "designator": "C43",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C42",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C45",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C44",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "U6",
+    "model": "GW_SOIC8_1P27_5P4",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "source_pads": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "designator": "J2",
+    "model": "GW_SS7188SANF_STEWART",
+    "result": "ELECTRICAL_DESIGNATORS_MATCH_EXTRA_MP1_MP2_MECHANICAL",
+    "symbol_pins": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "S1",
+      "S2"
+    ],
+    "source_pads": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "MP1",
+      "MP2",
+      "S1",
+      "S2"
+    ]
+  },
+  {
+    "designator": "R16",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "R18",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C51",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "U7",
+    "model": "GW_SOIC8_1P27_5P4",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "source_pads": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "designator": "C53",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C54",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "U8",
+    "model": "GW_DBQ0016A_TI",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "source_pads": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "designator": "U9",
+    "model": "GW_DCT0008A_TI",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "source_pads": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ]
+  },
+  {
+    "designator": "C56",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "R23",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C57",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "R20",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C55",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C58",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "R24",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "R25",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C59",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "U4",
+    "model": "GW_LQFP100_ST_1L",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "10",
+      "100",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "4",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "5",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "6",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "7",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "8",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "9",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99"
+    ],
+    "source_pads": [
+      "1",
+      "10",
+      "100",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "4",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "5",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "6",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "7",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "8",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "9",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99"
+    ]
+  },
+  {
+    "designator": "C22",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C31",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C32",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C26",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C35",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C27",
+    "model": "GW_CAND_0805_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C33",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C34",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C30",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C29",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C24",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C23",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C28",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "R11",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "Y1",
+    "model": "GW_KC2016Z_KYOCERA",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "source_pads": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "designator": "C25",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "U2",
+    "model": "GW_RNX0012A_TI",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "source_pads": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "designator": "U2",
+    "model": "GW_RNX0012B_TI",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "source_pads": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "designator": "R6",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "R5",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C7",
+    "model": "GW_CAND_0805_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C8",
+    "model": "GW_CAND_0805_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C9",
+    "model": "GW_CAND_0805_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C11",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C10",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "R7",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C12",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "J1",
+    "model": "CUI_TB002-500-02BE",
+    "result": "SOURCE_MISSING_OR_PAD_SET_DIFF",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": []
+  },
+  {
+    "designator": "U3",
+    "model": "GW_RNX0012A_TI",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "source_pads": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "designator": "U3",
+    "model": "GW_RNX0012B_TI",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "source_pads": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "designator": "R9",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "R8",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C16",
+    "model": "GW_CAND_0805_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C17",
+    "model": "GW_CAND_0805_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C18",
+    "model": "GW_CAND_0805_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C20",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C19",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "C21",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "R10",
+    "model": "GW_CAND_0603_res",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "designator": "D2",
+    "model": "GW_TDS3011P_SEMTECH",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "source_pads": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  {
+    "designator": "C3",
+    "model": "GW_CAND_0603_cap",
+    "result": "DESIGNATORS_MATCH_ONLY",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "source_pads": [
+      "1",
+      "2"
+    ]
+  }
+]

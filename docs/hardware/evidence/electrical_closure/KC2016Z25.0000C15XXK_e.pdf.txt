@@ -1,0 +1,474 @@
+=== PDF PAGE 1 ===
+               Specification
+
+                                                       Drawing No.      TNY1T-H1-DEX01-11 [1/8]
+
+                                                           Issued Date.                 17-Jul-26
+
+TO:
+
+
+Note：In case of specification change, KYOCERA Part Number also will be changed.
+
+
+
+      Product Name       Crystal Oscillator
+
+
+     Product Model     　　　　　　　　　　
+
+
+       Frequency       25 MHz
+
+
+ Customer Part Number    ---
+
+
+Customer Specification Number 　　　　　　　　　　
+
+
+ KYOCERA Part Number KC2016Z25.0000C15XXK
+
+Remarks　　RoHS Compliant / MSL 1
+
+
+
+
+Customer Acceptance
+Accept Signature
+                                                          Accept Date
+
+                                                         Department
+
+                                                       Person in charge
+
+
+
+Seller                                                            Manufacturer
+KYOCERA Corporation                            KYOCERA Corporation
+Corporate Electronic Components Group                    Corporate Electronic Components Group
+                                                                         Electronic Devices Division
+Electronic Components Sales Division                                                        Yamagata higashine Plant
+6 Takeda Tobadono-cho, Fushimi-ku, Kyoto                5850, Higashine-koh, Higashine-shi, Yamagata 999-3701 Japan
+612-8501 Japan                                            TEL. No. 0237-43-5611
+TEL. No. 075-604-3500                                     FAX. No. 0237-43-5615
+FAX. No. 075-604-3501
+
+
+Design Department                                                                                                                     Quality
+                                                                                                                            Assurance   Approved by Checked by Issued by
+
+Oscillator Application Engineering Section
+Electronic Devices Division
+
+
+
+
+
+                              KYOCERA Corporation
+=== PDF PAGE 2 ===
+                                                           Drawing No.          TNY1T-H1-DEX01-11 [2/8]
+
+Revision History
+
+Rev. No.                   Description of revise                       Date    Approved by Checked by Issued by
+
+  00   First Edition                                                           17-Jul-26
+
+
+
+
+
+                              KYOCERA Corporation
+=== PDF PAGE 3 ===
+                                                           Drawing No.          TNY1T-H1-DEX01-11 [3/8]
+
+1. Scope
+          This specification shall be defined of the Clock Oscillator for the integrated circuits (ICs).
+2. Customer Part Number
+                     ---
+3. KYOCERA Part Number
+            KC2016Z25.0000C15XXK
+4. Electrical Characteristics
+     4-1. Absolute Maximum Rating
+                         Item               Symbol            Rated Value               Units
+        Power Supply Voltage                VCC                  -0.3 to +4.5            V
+          Input Voltage                             VIN                -0.3 to VCC +0.3           V
+         Storage Temperature                  TSTG               -55 to +150              °C
+              Note:
+                     If the part is used beyond absolute maximum ratings, it may cause internal destruction. The part should be used under the recommended operating conditions
+             the reliability of this part may be damaged if those conditions are exceeded.
+
+     4-2. Recommended Operating Conditions
+                         Item               Symbol    Min     Typ    Max     Units      Remarks
+        Power Supply Voltage                VCC     1.71      3.3      3.63     V
+          Input Voltage                             VIN      0           ---      VCC     V
+         Operating Temperature               TOPR     -40      25     +105     °C
+
+     4-3. Electrical Characteristics
+                         Item               Symbol    Min     Typ    Max     Units       Remarks
+         Output Frequency                   FO          --      25          --    MHz
+        Frequency Tolerance*                       F_tol      -30          --      +30    ppm
+         Current Consumption
+                                                                                   --           --       6.2
+                   (NoLoad/ 1.71≤VCC≤2.25V)
+         Current Consumption
+                                                        ICC          --           --       6.5    mA                    (NoLoad/ 2.25<VCC≤2.8V)
+         Current Consumption
+                                                                                   --           --       7.3
+                    (NoLoad/ 2.8<VCC≤3.63V)
+        Standby Current                               IST          --           --       5     µA
+        Symmetry (Duty Ratio)            SYM     45      50      55    %   @50% Vcc
+         Rise Time/ Fall Time                                           --           --       4              1.71≤VCC≤2.25V
+                                                       Tr/ Tf        --           --       3       ns    2.25<VCC≤2.8V
+             (20% VCC to 80% VCC/ /Loaded)                   --           --       2.5             2.8<VCC≤3.63V
+         Output Voltage-“L”                    VOL         ---          ---   10% VCC   V    IOL=5mA
+         Output Voltage-“H”                   VOH  90% VCC      ---          ---     V    IOH=-5mA
+         Output Load                     CL          ---          ---      15      pF   CMOS
+          Input Voltage-“L”                            VIL          ---          ---   30% VCC   V
+          Input Voltage-“H”                         VIH   70% VCC      ---          ---     V
+         Output Disable Time                                t_dis         ---          ---     200      ns
+         Output Enable Time                           t_ena         ---          ---      5     ms
+                                                                                    @Minimum operating
+          Start-up Time                                         t_sta         ---          ---      5     ms                                                                                                                   voltage to be 0sec
+        1 Sigma Jitter**                            JSigma        ---          ---      12      ps
+        Peak to Peak Jitter**                      JPK-PK        ---          ---      95      ps
+                                                                                  ---          ---      36             Vcc=1.8V
+        Phase Jitter
+                                                                     ---          ---          ---      36      ps    Vcc=2.5V
+        (BW:12kHz to 20MHz)
+                                                                                  ---          ---      36             Vcc=3.3V
+           Note: All electrical characteristics have defined on the maximum loaded and recommended operating conditions.
+          *Over All Conditions:
+           Include initial tolerance, operating temperature range, rated power supply voltage change, load change, aging (10year @+25°C),
+          shock and vibration
+          **Based on Time Interval Analyzer "Wavecrest SIA-3600C”.
+                                                  Table 1
+                              KYOCERA Corporation
+=== PDF PAGE 4 ===
+                                                           Drawing No.          TNY1T-H1-DEX01-11 [4/8]
+
+     4-4. Measurement Condition
+        The reference temperature shall be +25±2ºC. The measurement shall be performed at the temperature
+         range of +5 ºC to +35 ºC unless otherwise the result is doubtful.
+     4-5. Measurement Circuit
+        The electrical characteristics shall be measured by test circuit "Fig. 1". Also jitter shall be measured by test
+            circuit "Fig. 3".
+     4-6. Clock Timing Chart
+        The clock timing chart is "Fig. 2".
+
+                                                                        TestTest PointPoint
+                                    Pad4Pad4              Pad3Pad3
+                  AA
+
+                ++                               OscillatorOscillator
+
+                                    Pad1Pad1             Pad2Pad2
+                PowerPower     VV                              CLCL
+                 SupplySupply
+                                0.01µF0.01µF
+                        --                        E/DE/D ControlControl
+
+
+
+                      Note: CL includes probe and test fixture capacitance
+                            Fig.1 Test Circuits                     Fig.2 Clock Timing Chart (C-MOS Output)
+
+                                                            <Measurement Conditions>
+                                               l Time Interval Analyzer
+                                               ➢ WaveCrest SIA-3600C
+                                               l DTS timer calibration
+                                               ➢ Over 30 minutes warm-up
+                                               ➢ Extend 30 minutes calibration
+                                               l  Jitter histogram conditions (Tail-fit)
+                                               ➢ More than 50,000cyc Hits
+                                               ➢ Bit Error Ratio (BER) –12 (14sigma)
+
+                                                Fig.3 Jitter Test Circuits
+
+
+5. Dimensions and Marking
+
+                        2.02.0                   0.40.4      1.21.2      0.40.4
+                                                             XXXXXX        Serial Code                                                           #3#3           #4#4                          Pad1 Indication
+                                                                                          0.60.6                    K XX A12               MarkingMarking AreaArea
+                                             1.61.6                                    0.40.4
+
+                                                                                                                             Internal Code           Manufacturing Date Code
+                                                                                          0.60.6
+                                                           #2#2        #1#1             　　
+                                                   MaxMax
+                                                   0.80.8
+                     0.240.24                                                                  Plating Ni+Au
+                                                                            Tolerance:+/-0.2 　　　Manufacturing Date Code
+                                                                             Unit:(mm)               1) Year Code (2020: ”W”, 2021:”A”, 2022: ”B” ....)
+                                                                                                             2) Weekly Code
+
+                                                                                                                Year   Code   Year   Code
+
+                                                                                                             2020  W    2031    L
+
+                                                                                                             2021    A    2032  M
+        Pad arrangement                                 Stand-by Function                                  2022   B    2033   N
+    1         Stand-by Function                 Pad1        Pad3 (Output)                              2023   C    2034    P
+    2           Case GND                OPEN              Active                                 2024   D    2035   Q
+    3              Output                         “H” Level            Active                                 2025    E    2036   R
+    4              VCC                              “L” Level    High Z (No-Oscillation)                          2026    F    2037    S
+
+                                                                                                             2027   G    2038    T
+
+                                                                                                             2028   H    2039    V
+
+                                                                                                             2029      J     2040  W
+
+                                                                                                             2030   K    2041    A
+
+                                                                                                                                                                                            It repeats from A in 2041 and
+
+                                                                                                                                           after wards.
+
+                                                                               Table 2
+
+                              KYOCERA Corporation
+=== PDF PAGE 5 ===
+                                                           Drawing No.          TNY1T-H1-DEX01-11 [5/8]
+
+
+
+6. Parts Numbering Guide
+   KC2016Z  25.0000 C 1 5 X XK
+      A       B    C D E F  G
+
+A. Series (SMD Oscillator)                 F: Symmetry (Duty Ratio) and Stand-by Function
+B. Output Frequency                             X: Symmetry: 45% to 55% with Stand-by Function
+C. Output                            G. Suffix for Individual Requirements
+       C: C-MOS                              XK: for Industrial / Aging (10year @+25°C)
+D. Supply Voltage
+         1: 1.8V/ 2.5V/ 3.3V Compatible    Packing (Tape & Reel 2,000pcs/Reel)
+E. Frequency Tolerance*                *Over All Conditions:
+         5: ±30ppm                       Include initial tolerance, operating temperature range, rated power supply voltage
+                                      change, load change, aging (10year @+25°C), shock and vibration
+
+
+
+
+
+7. Environmental Characteristics
+         Items                           Conditions                      Criteria of Acceptance
+                              Soaking:                                               Dipped potion:
+7-1.  Solderability
+                           +245±5°C, 5.0±0.5sec                                 Minimum 95% coverage
+7-2.  Soldering Heat          Reflow soldering:
+                                                                                        Without looseness or crack etc
+     Resistance            Peak +260°C max, 10sec, Twice max
+                               10cycles:
+7-3. Temperature Cycle
+                             -55°C to +125°C (30minuts each/ cycle)
+7-4.  Mechanical            5 times
+     Shock (Pulse)           14,750m/sec2 (1,500G), Duration of pulse 0.5msec
+                                                 (MIL-STD-883D-2002.3 Condition B)
+                          4 times each axis X, Y, Z:
+                          20 to 2,000Hz and 2,000Hz to 20Hz/cycle                    Clause 7-10 shall be satisfied.
+7-5.  Vibration
+                         Peak acceleration 196m/sec2 (20G)
+                                                   (MIL-STD-883D-2007.2 Condition A)
+                          1000 hours:
+7-6. High Temperature
+                             Temperature: +85+5/-3°C
+                          1000 hours:
+7-7. Low Temperature
+                             Temperature: -40+5/-3°C
+                          10 cycles:
+7-8.  Humidity Cycle         Based on 1004 specifications                              Clause 7-1 shall be satisfied.
+                                                               (MIL-STD-883D-1004.7)
+7-9.  Hermeticity 1             Soaking:
+                                                                    No bubbles appeared
+     (Gross leak)            +125°C, 5minutes
+7-10.Hermeticity 2           Measured by Helium Detector Equipment
+                                                                                              5x10-9 Pa m3/sec max
+      (Fine leak)                                   (MIL-STD-883D-1014.10 Condition A1)
+
+After each testing, the parts shall be subjected to standard atmospheric conditions more than 2 hours. After that, the electrical
+characteristics shall be measured. The result of the test shall be satisfied Table 1.
+
+                                              Table 3
+
+
+
+
+
+                              KYOCERA Corporation
+=== PDF PAGE 6 ===
+                                                           Drawing No.          TNY1T-H1-DEX01-11 [6/8]
+
+
+8. Recommended Land pattern and Soldering Guide
+
+                                                                                                            10sec max                                                                                      300   Peak +260 ºC max
+             0.8                                                0.4                                     250                         +255±5 ºC
+                                                                                                                                               (ºC) 200    +150 to +180 ºC            +230 ºC
+
+                                                                                      150
+             0.8                                                                       100                                                                                                                                                                                                                                                                                                                                                                                                          Temperature
+                                                                                        50     90 to 120 sec           30 to 40sec
+                0.6      1.2      0.6
+                                                                            Unit: (mm)               0
+                                                                                          Time (sec)
+Note:                                                                              Available Reflow times: Maximum twice
+            Since the part doesn’t have Bypass Capacitor between Vcc and
+          GND, Please mount high frequency type capacitor 0.01μF to the
+             nearest position of oscillator.
+                    Fig.4 Land pattern                             Fig.5 Reflow profile (Lead Free Available)
+
+
+9. Taping Specifications
+           K                                       P0
+                T                            D0        P2   E                                                      W1W1
+                                                                                             EE
+
+                                                     DD
+                                  F
+                                    W                            CC     AA NN
+                 B0                                                         □P4A33.0
+
+
+
+                               A0                P1          D1
+                                                                              Std.                         W2W2
+                                                                              Unit: (mm)        Max 2,000pcs/Reel              Unit: (mm)
+           Symbol     A 0     B 0    W      F      E                Symbol     A     N    W 1
+             Dimensions      1.9±0.2      2.3±0.2      8.0±0.2     3.5±0.05    1.75±0.1                Dimensions   180 +0/-1.5   60+1/–0    9.0+0.3/-0
+           Symbol     P 1     P 2     P 0     D 0      T                Symbol    W 2     C     D
+             Dimensions      4.0±0.1     2.0±0.05     4.0±0.1     1.5+0.1/-0    0.25±0.1                Dimensions     11.4±1.0    13.0±0.2    21.0±0.8
+           Symbol     K     D 1                                                 Symbol      E
+             Dimensions      0.9±0.1      1.1±0.1                                                         Dimensions      2.0±0.5
+                        Fig.6 Emboss Carrier Tape                      Option
+                                                        Max 15,000pcs/Reel            Unit: (mm)
+                                                                                        Symbol     A     N    W 1
+                                                                                                          Dimensions    330 +0/-2    100+1/–1    9.4+1/-0.5
+                                                                                        Symbol    W 2     C     D
+                                                                                                          Dimensions             -        13.0±0.2    21.0±0.8
+                                                                                        Symbol      E
+                                                                                                          Dimensions      2.0±0.5
+
+                                                                                        Fig.7 Reel
+     9-1. Taping Quantities
+             • The taping of per reel shall be packed 2,000 pcs.
+             • The parts shall be contained continuously in the pocket.
+
+     9-2. Leader and Blank Pockets
+             • The package shall be consisted of leader, blank pockets and loaded pocket as follows “Fig. 8”.
+             • The power of peeling strength between top tape and carrier tape shall be 0.1N(10gf) to 1.0N(100gf) as
+          follows “Fig. 9”.
+
+                                                                              TopTop TapeTape                          CarrierCarrier TapeTape
+                                                                                                       165º165º toto 180º180º
+
+
+
+
+
+            A)  Leader
+            B)  Blank Pocket (40mm to 320mm)
+               A+B: 400mm to 560mm                                                              PullingPulling DirectionDirection
+            C)  Load Pocket
+           D)  Blank Pocket (160mm minimum)
+                     Fig.8 Packing Method                             Fig.9 Peeling Strength
+                              KYOCERA Corporation
+=== PDF PAGE 7 ===
+                                                           Drawing No.          TNY1T-H1-DEX01-11 [7/8]
+
+     9-3. Reel Label
+        The reel label shall be consisted as below. (Based on EIAJ C-3 format)
+                  A)  Customer Part Number          D)  Shipping Date
+                  B)  Lot No.                         E)  Vender Name
+                 C)  Quantities
+
+     9-4. Exterior Package Label
+        The oscillator shall be packed properly to avoid defect in transportation. The exterior package label shall be
+         consisted as below.
+                  A)  Name of Customer              E)  Quantities
+                  B)  P/O No.                         F)  Shipping Date
+                 C)  Customer Part Number         G)  Vender Name
+                 D)  Lot No.
+
+
+10. The agreement of this specifications
+          In case there is any obscure point or doubt concerning the contents of the specification, it shall be settled
+         through consultation of both parties.
+
+11. Quality guarantee
+          In case when Kyocera Corporation rooted failure occurred within 1year after its delivery, substitute product
+             will be arranged based on discussion. Quality guarantee of product after 1year of its delivery is waivered.
+
+
+
+
+12. Remarks on Usages
+
+      A) Storage Conditions
+        The parts shall be stored in temperature range of -5 to +40°C, humidity 40 to 60% RH, and avoid direct
+           sunlight. Then the parts shall be used within 6 months.
+
+      B) Handling Conditions
+         Although the part has protection circuit against static electricity, when excess static electricity is applied, the
+          inside IC may get damaged.
+         Before mounting on the PCB, please make sure the direction of the part is correct. Otherwise the part of
+         temperature will increase. And also the part will have some damages.
+         Please do not use the parts under the unfavorable condition such as beyond specified range in this
+           specification.
+         Please do not use the parts under the condition, in the water or in the salt water also environment of dew or
+         harmful gas.
+        Frequency drift may occur as a result of application of light such as direct sunlight or LED light etc when
+         operating this oscillator.
+         Please use in a design and environment that consider light shielding.
+        Note the frequency drift will not occur if used in a light-shielded environment.
+
+         Please make sure the condition of pick and place following pick up nozzle guideline.
+                    Picking Method:     Case of Head Unit 1.6 x 1.2mm (Inside Diameter)
+        The proper condition of pick and place will be different each equipment. Therefore, please check before
+           testing.
+
+      C) Rework Condition
+         Please do not pick up Head Unit. We can’t guaranty electrical performance and reliability.
+
+      D) Soldering Conditions
+         This product can respond to the general Pb-free reflow profile. The wave soldering cannot be supported.
+
+
+
+
+
+                              KYOCERA Corporation
+=== PDF PAGE 8 ===
+                                                       Drawing No.          TNY1T-H1-DEX01-11 [8/8]
+
+   E) Soldering in Mounting
+       In case of Solder paste and conductive glue contact product lid or product side face exception for product
+      terminal it’s possible to influence product characteristics.
+     Please be careful above contents.
+
+   F) Washing Conditions
+       Ultra sonic cleaning is available. However there is a possibility that Crystal in the part may cause damaged
+     under certain condition. Therefore please test before using.
+       After washing, please dry the parts completely. Otherwise water drops between the parts and PCB may
+     cause migration.
+
+  G) This product can be used for general electronic equipment (information equipment, communication
+      equipment, audiovisual equipment, measuring equipment, home appliances, etc.)Intended to be used.
+     Equipment and systems (traffic equipment, safety equipment, aviation / space control, nuclear power
+       control, life support equipment) that require special quality and reliability and whose failure or malfunction
+    may endanger human life or harm the human body. (Including medical devices, etc.), basic driving functions
+      (running, turning, stopping) and collision safety in traffic equipment, applications related directly or indirectly
+       to collision safety, and applications that are expected to have a significant impact on property, etc. It is not
+      intended to be used.In the unlikely event that this product is used for any of these purposes, we will not be
+       liable for any damages resulting from such use.
+
+
+In case of using this part without above precaution, Kyocera is unable to guarantee the specific characteristics.
+
+
+
+
+
+                            KYOCERA Corporation

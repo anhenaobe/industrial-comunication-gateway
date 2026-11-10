@@ -1,0 +1,10 @@
+{
+  "V5_tolerance_min": 4.86249,
+  "V5_tolerance_max": 5.17365,
+  "IIN_at5V_max_A": 0.0012,
+  "RPDB_min_ohm": 9900,
+  "load_screen_A": 0.0017225909090909089,
+  "droop_budget_V": 0.3624900000000002,
+  "equivalent_source_R_budget_ohm": 210.4330158060006,
+  "limitations": "1.2mA manufacturer limit at5V only, not all-voltage proof. R_budget is engineering target, not guaranteed SN74 output resistance. Source/return drop further reduces margin."
+}

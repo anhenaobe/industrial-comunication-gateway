@@ -1,0 +1,16 @@
+[
+  {
+    "asset_id": "ACTIVE_BSP75NTA",
+    "item_kind": "ACTIVE",
+    "component_ids": [],
+    "mpn": "BSP75NTA",
+    "symbol": "BSP75NTA",
+    "footprint": "GW_BSP75N_SOT223_DN_DIODES",
+    "source": "Diodes DS33016 Rev7-2 Jan2024 p1 Top View Pin Out, p8 Suggested Pad Layout; functional pad identifiers preserve original symbol pins",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "package_requirement": "GW_BSP75N_SOT223_DN_DIODES",
+    "limitations": "Physical positions/Diodes lands verified using IN,D,S,S_TAB pad IDs; no guessed numbers. Driver>=4.5V for overtemperature protection and reset-OFF still need prototype acceptance. No automatic electrical approval."
+  }
+]

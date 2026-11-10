@@ -1,0 +1,421 @@
+=== PDF PAGE 1 ===
+                                       TDS3011P
+                                           Transient Diverting Suppressor
+                                                   1-Line, 30V EOS Protection
+
+PROTECTION PRODUCTS
+Description                               Features
+
+                                                                                          •  High ESD withstand Voltage: +/-30kV (Contact) andTransient Diverting Suppressors(TDS) are designed
+                                                         +/-30kV (Air) per IEC 61000-4-2to provide high energy EOS protection with superior
+                                                                                          •  High peak pulse current capability: 35A (tp = 8/20μs),
+clamping and temperature characteristics when                                                    2kV (tp = 1.2/50μs, RS = 42Ω ) per IEC 61000-4-5
+compared to standard TVS devices. The device uses a            •  High EFT Withstand Voltage: ±4kV (100kHz and 5kHz,
+surge rated FET as the main protection element. During        •  5/50ns) IEC 61000-4-4
+an EOS event, transient voltage increases beyond the            •  Protects one I/O or power line
+rated breakdown voltage of the device. The FET in turn         •  Low ESD and clamping voltage
+switches on and conducts transient current to ground.          •  Working voltage: 30V
+The TDS clamping voltage is nearly constant across the          •  Solid-state technology
+rated peak pulse current range due to the extremely low
+ON Resistance of the FET. Lower clamping voltage at      Mechanical Characteristics
+maximum peak pulse current makes them more suitable
+for protecting today’s sensitive IC’s.                                       •  Package: DFN 1.6mm x 1.6mm x 0.55mm 6-Lead
+                                                                                          •  Pb-free, Halogen Free, RoHS/WEEE Compliant
+                                                                                          •  Molding compound flammability rating: UL 94V-0TDS3011P is designed to protect voltage bus or data
+                                                                                          •  Lead Finish: Lead-freelines with an operating voltage as high as 30V . It is
+                                                                                          •  Marking: Marking code and Date Code
+rated for a high-energy transient current up to 35A (tp =                                                                                          •  Packaging: Tape and Reel
+8/20μs) and may be used to meet the common industrial
+voltage surge standard of +/-2kV per IEC 61000-4-5 (RS =                                           Applications42Ω, CS= 0.5μF).
+
+                                                                                          •  IoT DevicesTDS3011P is in a small DFN 1.6mm x 1.6mm x 0.55mm
+                                                                                          •  Notebook and Tablet PC6- Lead package and represents significant board space
+                                                                                          •  USB PDsavings over traditional SMAJ and SMBJ packaged                                                                                          •  Appliances
+devices.                                                                                          •  VBUS Lines
+                                                                                          •  Solid-State Switches
+                                                                                          •  USB Type-C
+
+Package Dimension (mm)                  Functional Diagram
+
+
+                                                                                                                              Input
+                                                                                                                     (To Protected Bus)
+
+                                     1.60
+                                                                                                          Trigger       Drive Circuit              Shunt
+                                                                                                                     Circuit                                FET
+
+
+
+                                     0.55                                                       Gnd
+
+
+
+TDS3011P                                    www.semtech.com                                               1 of 8
+Final Datasheet        Rev 2.0                                                                                         Semtech
+Revision Date           6/16/2021                                                                                      Proprietary & Confidential
+=== PDF PAGE 2 ===
+Absolute Maximum Rating
+ Rating                                     Symbol     Value              Units
+
+ Peak Pulse Power (tp = 8/20µs)                                   PPK           1400         W
+ Peak Pulse Current (tp = 8/20µs)                                              IPP           35              A
+ ESD per IEC 61000-4-2 (Air)(1)                                       ±30
+                                                                      VESD                             kV ESD per IEC 61000-4-2 (Contact)(1)                                   ±30
+ Operating Temperature                                          TOP            -40 to +125          OC
+ Junction Temperature and Storage Temperature                   TJ and TSTG      -55 to +150          OC
+
+Electrical Characteristics (T=25OC unless otherwise specified)
+
+ TDS3011P
+ Parameter             Symbol  Conditions                         Min.  Typ.  Max.  Units
+
+ Reverse Stand-Off Voltage    VRWM      Line to GND                                        30   V
+ Reverse Breakdown Voltage   VBR               It = 1mA, Line to GND                     34          39   V
+ Forward Voltage              VF                It = 1mA, GND to Line                              0.47        V
+ Reverse Leakage Current         IR         VRWM = 30V, Line to GND                            0.05    1.0  μA
+                                      (2)                      IPP=35A, tp = 1.2/50μs (Voltage), 8/20μs Clamping Voltage            VC                                                   38    40   V                                           (Current) Combination Waveform, RS = 2Ω
+ Dynamic Resistance (2), (3)       RDYN      tp = 8/20μs                                           7.4      mΩ
+ Junction Capacitance          CJ         VR = 30V, f = 1MHz                             170        pF
+
+Notes:
+1) ESD gun return path connected to ESD ground plane.
+2) Parameter guaranteed by design.
+3) Dynamic resistance measured between 1A and 35A.
+
+
+
+
+
+TDS3011P                                    www.semtech.com                                               2 of 8
+Final Datasheet        Rev 2.0                                                                                         Semtech
+Revision Date           6/16/2021                                                                                      Proprietary & Confidential
+=== PDF PAGE 3 ===
+Typical Characteristics
+
+        Clamping Voltage (tp=1.2/50μs, IPP= 24A)                   Clamping Voltage (tp=1.2/50μs, IPP= 35A)
+
+      50                                                       35                 50                                                       40
+                                                        Waveform Parameters:                                                                                    Waveform Parameters:
+                                                                                                                                                                                                                        (Voltage)                                                                                                                                                                                                                                                / 8/20µs                                                                                  (Voltage)                                                                                                  / 8/20µs      45                                                      1.2/50µs                                                                                   45                                                      1.2/50µs(Current)                                                                                                                                                                                               combination                                                                         (Current)                                                                         combination                                                                                                                                                                                      waveform  35                                                                            waveform   30                                                                                                                                                                                            with 2Ωsource                                                                                                                                                                                                 impedance.                                                                   with 2Ωsource                                                                             impedance.
+      40                                                                              IPP = 24A                                    40                                                                              IPP = 35A
+                                                                                                                                           30
+      35                                                       25                 35                                                                     (A)                                                                                            (V)
+  (V)      30                                                                    (A)              30                                                       25                                                               20      25                                                                                                                                                                                               Voltage  25                                                       20    Current    Voltage                                                               15    Current      20                                                                           20                                                                                                                                           15   Surge      15                                               Voltage            10   Surge                            Clamping  15     Clamping                                                    Current                                                                                        10
+      10                                                                           10                                                     Voltage
+                                                               5                                                                              Current       5       5                                                                            5
+
+       0                                                       0                   0                                                       0
+          -10           10           30           50           70                          -10           10           30           50           70
+
+                                Time (µs)                                                                  Time (µs)
+
+    ESD Clamping (+8kV Contact per IEC 61000-4-2)           Clamping Voltage vs. Peak Pulse Current (tp=8/20μs)
+
+                                                                                  45     80
+     70                                  WaveformWaveformWaveformTATATA === 25OC.25OC.25OC. IEC61000-4-2IEC61000-4-2IEC61000-4-2 +8kV.+8kV.+8kV.                               40
+                                             MeasuredMeasuredMeasured withwithwith andandand correctedcorrectedcorrected forforfor 50Ω,50Ω,50Ω, 40dB40dB40dB Attenuator.Attenuator.Attenuator.
+     60                                50Ω50Ω50Ω ScopeScopeScope InputInputInput Impedance,Impedance,Impedance, ≥2GHz≥2GHz≥2GHz BW.BW.BW.                          35
+ (V)                                        ESDESDESD GunGunGun ReturnReturnReturn connectedconnectedconnected tototo GroundGroundGround ReferenceReferenceReference Plane.Plane.Plane.
+     50                                                                                   (V) 30
+     40   Voltage                                                                              25                                                                                                                                                                                                                     Voltage
+     30
+                                                                                  20
+     20   Clamping                                                                                                                                                                                                                                                   Clamping 15     10
+                                                                                  10      0                                                                                                                                                                                        Waveform
+                                                                                                                                                                                                                                Parameters:
+     -10                                                                           5                                                                                                     tdtr == 20µs8µs
+
+     -20                                                                           0
+         -10         10          30          50          70          90                 0             10             20             30             40
+                                 Time (ns)                                                                                                 Peak Pulse Current - IPP (A)
+
+ Clamping Voltage (tp=1.2/50μs, IPP= 35A) vs Temperature         Peak Pulse Current (tp=8x20μs) vs Temperature
+
+        45                                                                           40
+
+
+        40                                                                           35
+
+
+  (V)                                                                                         (A)
+    Voltage    35                                                                                                                                                                                               Current    30
+        30                                                                                                                                        Pulse    25     Clamping                                                                                                                             Peak
+        25                                                                           20
+
+
+        20                                                                           15
+            -50            0            50           100          150                       -50            0            50           100          150
+                                   Temperature (ºC)                                                                         Temperature (ºC)
+
+
+TDS3011P                                    www.semtech.com                                               3 of 8
+Final Datasheet        Rev 2.0                                                                                         Semtech
+Revision Date           6/16/2021                                                                                      Proprietary & Confidential
+=== PDF PAGE 4 ===
+Typical Characteristics
+
+           Reverse Leakage vs. Temperature                      Breakdown Voltage vs. Temperature
+
+
+      1000                                                                                          45
+       900     VR = 30V                                                                                          40
+       800
+                                                                                          35
+       700
+  (nA)                                                                                      30
+       600                                                                                       (V)
+    Current   500                                                                               25                                                                                                                                                                                                                                         Voltage    20
+
+                                                                                          15    Leakage   400300                                                                                                                                                                                                                                                                                                            Breakdown    10
+       200
+                                                                                           5       100
+         0                                                                                0
+            -50            0            50           100          150                         -50            0            50           100          150
+                                                                                                                                 Temperature (ºC)                                   Temperature (ºC)
+
+              Capacitance vs. Temperature                             Capacitance vs. Reverse Voltage
+
+                                                                                 800
+       180
+                                                                                 700       160
+
+       140                                                                       600
+       120                                                                                                         (pF) 500
+  (pF)
+       100
+                                                                                 400
+        80                                                                                                                                                                                                                                                                                                                                          Capacitance 300       Capacitance        60
+                                                                                 200
+        40
+        20                                                                        VR = 30V                   100     TA = 25OC
+                                                                                                    f= 1MHz                                                     f = 1 MHz
+         0                                                                         0
+            -50            0            50           100          150                  0       5       10      15      20      25      30      35
+                                   Temperature (ºC)                                                                          Voltage (V)
+
+ Dynamic Leakage vs. Signal Slew Rate over Temperature
+
+     20
+
+     18
+
+     16
+  (mA) 14
+   Current 12     10
+
+      8   Leakage             -40C
+      6        25C
+                85C   Dynamic  4        125C
+
+      2
+
+      0
+        1        1.5      2        2.5      3        3.5      4        4.5      5
+                                   dV/dT (V/us)
+
+
+TDS3011P                                    www.semtech.com                                               4 of 8
+Final Datasheet        Rev 2.0                                                                                         Semtech
+Revision Date           6/16/2021                                                                                      Proprietary & Confidential
+=== PDF PAGE 5 ===
+Application Information
+
+Description
+                                                                  Figure 2- Pin Configuration and DescriptionTransient Diverting Suppressors(TDS) are designed
+to provide high energy EOS protection with superior
+clamping and temperature characteristics when
+                                                                                      1               6compared to standard TVS devices.
+
+                                                                                       2               5
+This device uses a surge rated FET as the main protection
+element. During an EOS event, transient voltage
+                                                                                      3               4increases beyond the breakdown voltage of the trigger
+circuit. This in turn activates the drive circuit and turns
+on the shunt FET which conducts transient current                                      6-Pin DFN Package (Top View)
+to ground. The TDS has an extremely low dynamic                   Pin Number       Pin name             Description
+resistance and exhibits a nearly constant clamping                                                                                                      1,2,3         GND               Ground
+voltage across the rated peak pulse current range.
+                                                                                                      4,5,6               IN       EOS and ESD Protection Input
+
+               Figure 1- Function Diagram
+
+                                                  Layout Guidelines                                      Input
+                               (To Protected Bus)
+                                                          Figure 3 shows a recommended layout for TDS3011P.
+                                                                       All the I/O pins (Pin 4, 5 and 6) are connected through
+                                                     a single straight trace. All of the I/O pins must be
+            Trigger       Drive Circuit              Shunt          connected for surge performance. Likewise, all GND pins
+             Circuit                                FET                                                                (Pin 1, 2 and 3) must be connected for maximum surge
+                                                           current capability. Ground connection with multiple vias
+                                                                                 is recommended.
+
+                         Gnd
+
+
+
+                                                                    Figure 3- PCB Layout RecommendationPin Configuration
+
+TDS3011P is in a 1.6 x 1.6mm, 6-pin DFN package. The                                                                                          Trace from Connector To
+input or connection to the protected bus is made at pins                                                                                              Protected Circuit
+4, 5, and 6. Ground connection is made at pins 1, 2, and
+3. All pins must be connected for maximum peak pulse                          6     5     4
+current handling capability.
+                                                                                 TDS (Top View)
+
+
+                                                                                  1     2     3
+
+
+                                                                                                 Vias to Ground Plane
+
+
+
+
+TDS3011P                                    www.semtech.com                                               5 of 8
+Final Datasheet        Rev 2.0                                                                                         Semtech
+Revision Date           6/16/2021                                                                                      Proprietary & Confidential
+=== PDF PAGE 6 ===
+Outline Drawing - DFN 1.6mm x 1.6mm x 0.55mm 6-Lead
+
+                                        A        D         B                  DIMENSIONS
+                                                                                      MILLIMETERS                                                                                DIM                                                                                     MIN NOM MAX
+                                                                          A   0.50  0.55  0.60
+                                                                                 A1  0.00  0.02  0.05
+                                                  PIN 1                     E               A2         (0.152)
+                                         INDICATOR                                           b   0.20  0.25  0.30
+                                        (LASER MARK)                                 D   1.55  1.60  1.65
+                                                                          E   1.55  1.60  1.65
+                                                                                         e        0.50 BSC
+                                                                                         L   0.30  0.35  0.40
+                                                A2                           N         6
+                                                                  A1           R   0.07  0.12  0.17
+                                                                                        aaa        0.08
+                                                                                        bbb        0.10                                     A
+                                                                                   SEATING
+                                    aaa C                                     PLANE
+                                                        C
+
+                                                   bxN
+                                             bbb  C A B
+                                                       1   2
+
+                                                                                   E/2
+
+                                   R
+                                                 Pin 1
+                                                                  LxN
+                                          N
+                                                             e
+                                                           D/2
+
+
+                                   NOTES:
+                                                       1.      CONTROLLING DIMENSIONS ARE IN MILLIMETERS (ANGLES IN DEGREES).
+
+
+Land Pattern - DFN 1.6mm x 1.6mm x 0.55mm 6-Lead
+
+
+                                          P
+
+                                                                      DIMENSIONS
+                                                                     DIM  MILLIMETERS
+                                                            C        (1.45)
+                                                       G        0.80
+                                    (C)                          G                        Z          P        0.50
+                                                                 X        0.30
+                                                                 Y        0.65
+                                                                      Z        2.10
+                                                 Y
+
+
+                              X
+
+
+                        NOTES:
+                                      1. CONTROLLING DIMENSIONS ARE IN MILLIMETERS (ANGLES IN DEGREES).
+                                      2. THIS LAND PATTERN IS FOR REFERENCE PURPOSES ONLY.
+                         CONSULT YOUR MANUFACTURING GROUP TO ENSURE YOUR
+                          COMPANY'S MANUFACTURING GUIDELINES ARE MET.
+
+
+
+
+TDS3011P                                    www.semtech.com                                               6 of 8
+Final Datasheet        Rev 2.0                                                                                         Semtech
+Revision Date           6/16/2021                                                                                      Proprietary & Confidential
+=== PDF PAGE 7 ===
+Marking Code
+
+
+        T30
+         XX
+
+
+Notes:
+1. XX: Date Code.
+2. Dot indicates Pin 1 location.
+
+Tape and Reel Specification
+
+
+
+
+
+                                                                                                 XXT30          XXT30
+
+
+
+Ordering Information
+
+ Part Number     VRWM         Qty per Reel  Reel Size
+ TDS3011P.C       30V            3,000           7”
+
+
+
+
+
+TDS3011P                                    www.semtech.com                                               7 of 8
+Final Datasheet        Rev 2.0                                                                                         Semtech
+Revision Date           6/16/2021                                                                                      Proprietary & Confidential
+=== PDF PAGE 8 ===
+Important Notice
+
+Information relating to this product and the application or design described herein is believed to be reliable, however such information is provided
+as a guide only and Semtech assumes no liability for any errors in this document, or for the application or design described herein. Semtech reserves
+the right to make changes to the product or this document at any time without notice. Buyers should obtain the latest relevant information before
+placing orders and should verify that such information is current and complete. Semtech warrants performance of its products to the specifications
+applicable at the time of sale, and all sales are made in accordance with Semtech’s standard terms and conditions of sale.
+
+SEMTECH PRODUCTS ARE NOT DESIGNED, INTENDED, AUTHORIZED OR WARRANTED TO BE SUITABLE FOR USE IN LIFE-SUPPORT APPLICATIONS,
+DEVICES OR SYSTEMS, OR IN NUCLEAR APPLICATIONS IN WHICH THE FAILURE COULD BE REASONABLY EXPECTED TO RESULT IN PERSONAL INJURY,
+LOSS OF LIFE OR SEVERE PROPERTY OR ENVIRONMENTAL DAMAGE. INCLUSION OF SEMTECH PRODUCTS IN SUCH APPLICATIONS IS UNDERSTOOD
+TO BE UNDERTAKEN SOLELY AT THE CUSTOMER’S OWN RISK. Should a customer purchase or use Semtech products for any such unauthorized
+application, the customer shall indemnify and hold Semtech and its officers, employees, subsidiaries, affiliates, and distributors harmless against
+all claims, costs damages and attorney fees which could arise.
+
+The Semtech name and logo are registered trademarks of the Semtech Corporation. All other trademarks and trade names mentioned may be
+marks and names of Semtech or their respective companies. Semtech reserves the right to make changes to, or discontinue any products described
+in this document without further notice. Semtech makes no warranty, representation or guarantee, express or implied, regarding the suitability of
+its products for any particular purpose. All rights reserved.
+
+© Semtech 2021
+
+
+
+
+
+Contact Information
+
+
+                                           Semtech Corporation
+                                      200 Flynn Road, Camarillo, CA 93012
+                                      Phone: (805) 498-2111, Fax: (805) 498-3804
+                                           www.semtech.com
+
+
+
+TDS3011P                                                                                                             8 of 8
+Final Datasheet        Rev 2.0                                                                                         Semtech
+Revision Date           6/16/2021                                                                                      Proprietary & Confidential

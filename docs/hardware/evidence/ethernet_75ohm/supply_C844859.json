@@ -1,0 +1,43 @@
+{
+  "provider": "jlcpcb",
+  "query": "C844859",
+  "status": "ok",
+  "results": [
+    {
+      "provider": "jlcpcb",
+      "mpn": "CRCW080575R0FKEA",
+      "manufacturer": "Vishay Intertech",
+      "vendor": "jlcpcb",
+      "stock_count": null,
+      "stock_status": "in_stock",
+      "price_breaks": [],
+      "currency": "USD",
+      "package": "0805",
+      "datasheet_url": "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8590164810986909697-C844859.pdf",
+      "product_url": "https://jlcpcb.com/partdetail/C844859",
+      "lifecycle": "Unknown",
+      "lifecycle_raw": null,
+      "assembly_class": "extended",
+      "alternatives": [],
+      "pin_compatibility": "unverified",
+      "lcsc_code": "C844859",
+      "price_range": {
+        "low": 0.0134,
+        "high": 0.0126
+      },
+      "evidence": "public_html_jsonld",
+      "dynamic_fields_complete": false
+    }
+  ],
+  "notes": [
+    "Public catalog observation; quantity, tiers and datasheet may require dynamic/approved API access. Recheck before assembly. LCSC stock is separate from JLCPCB assembly inventory."
+  ],
+  "observed_at_utc": "2026-11-07T20:50:42.726948+00:00",
+  "cache": {
+    "hit": false,
+    "age_seconds": 0,
+    "ttl_seconds": 21600
+  },
+  "search_url": "https://jlcpcb.com/partdetail/C844859",
+  "api_access_url": "https://api.jlcpcb.com/"
+}

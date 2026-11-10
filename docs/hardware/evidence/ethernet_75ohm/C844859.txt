@@ -1,0 +1,743 @@
+=== PAGE 1 ===
+                                    D/CRCW e3
+            www.vishay.com                                               Vishay
+
+              Standard Thick Film Chip Resistors
+
+                                      FEATURES
+
+                                                           • Stability at different environmental conditions
+                                                     R/R  1 % (1000 h rated power at 70 °C)
+
+                                                           • 2 mm pitch packaging option for 0603 size
+
+                                                           • AEC-Q200 qualified
+
+                                                           • Material   categorization:   for   definitions   of
+                                                           compliance please see www.vishay.com/doc?99912
+
+                                         APPLICATIONS
+D/CRCW e3 standard thick film chip resistors are the perfect      • Automotive
+choice for most fields of modern electronics where high                                                           • Industrial
+reliability and  stability  are  of  major  concern.  Typical
+                                                           • Telecommunicationapplications include automotive, telecommunications, and
+industrial.
+
+ TECHNICAL SPECIFICATIONS
+
+               D10/CRCW0402 D11/CRCW0603 D12/CRCW0805 D25/CRCW1206 CRCW1210 CRCW1218 CRCW2010 CRCW2512
+ DESCRIPTION
+                       e3            e3            e3            e3          e3        e3        e3        e3
+  Imperial size          0402          0603          0805          1206        1210      1218      2010      2512
+  Metric size code    RR1005M     RR1608M     RR2012M     RR3216M    RR3225M  RR3246M  RR5025M  RR6332M
+                                                                                      1  to
+  Resistance                                                                                         2.2 M;      1  to 10 M;                                       1  to 10 M; jumper (0 )  range                                                                                     jumper        jumper (0 )
+                                                                                                                      (0 )
+  Resistance
+                                                       ± 5 %; ± 1 %  tolerance
+  Temperature
+                                                  ± 200 ppm/K; ± 100 ppm/K
+  coefficient
+  Rated                      0.063 W         0.10 W         0.125 W         0.25 W        0.5 W       1.0 W      0.75 W      1.0 W
+  dissipation, P70 (1)
+  Operating
+  voltage,             50 V          75 V          150 V         200 V        200 V      200 V      400 V      500 V
+  Umax. ACRMS/DC
+  Permissible film
+  temperature,                                                  155 °C
+ F max. (1)
+  Operating
+  temperature                                                   -55 °C to +155 °C
+  range
+  Max. resistance
+  change at P70 for
+  resistance range,
+  |R/R|, after (2):
+          1000 h                                                 1 %
+          8000 h                                                 2 %
+  Permissible
+  voltage
+  against ambient
+  (insulation):
+       1 min, Uins       75 V          100 V         200 V         300 V        300 V      300 V      300 V      300 V
+Notes
+(1) Please refer to “Application Information” below
+(2) Apply to components with stability class 1
+
+APPLICATION INFORMATION
+When the resistor dissipates power, a temperature rise above the ambient temperature occurs, dependent on the thermal
+resistance of the assembled resistor together with the printed circuit board. The rated dissipation applies only if the permitted
+film temperature is not exceeded.
+These resistors do not feature a limited lifetime when operated within the permissible limits. However, resistance value drift
+increasing over operating time may result in exceeding a limit acceptable to the specific application, thereby establishing a
+functional lifetime.
+
+Revision: 18-Jun-2018                                      1                                  Document Number: 20035
+                                     For technical questions, contact: thickfilmchip@vishay.com
+     THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+                 ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+=== PAGE 2 ===
+                                    D/CRCW e3
+            www.vishay.com                                               Vishay
+
+
+ TEMPERATURE COEFFICIENT AND RESISTANCE RANGE
+
+ TYPE / SIZE                TCR            TOLERANCE          RESISTANCE            E-SERIES
+                           ± 200 ppm/K              ± 5 %               1  to 10 M               E24
+ D10/CRCW0402 e3          ± 100 ppm/K              ± 1 %               1  to 10 M               E24; E96
+                           Jumper, Imax. = 1.5 A            20 m                  0                               -
+                           ± 200 ppm/K              ± 5 %               1  to 10 M               E24
+ D11/CRCW0603 e3          ± 100 ppm/K              ± 1 %               1  to 10 M               E24; E96
+                           Jumper, Imax. = 2.0 A            20 m                  0                               -
+                           ± 200 ppm/K              ± 5 %               1  to 10 M               E24
+ D12/CRCW0805 e3          ± 100 ppm/K              ± 1 %               1  to 10 M               E24; E96
+                           Jumper, Imax. = 2.5 A            20 m                  0                               -
+                           ± 200 ppm/K              ± 5 %               1  to 10 M               E24
+ D25/CRCW1206 e3          ± 100 ppm/K              ± 1 %               1  to 10 M               E24; E96
+                           Jumper, Imax. = 3.5 A            20 m                  0                               -
+                           ± 200 ppm/K              ± 5 %               1  to 10 M               E24
+ CRCW1210 e3              ± 100 ppm/K              ± 1 %               1  to 10 M               E24; E96
+                           Jumper, Imax. = 5.0 A            20 m                  0                               -
+                           ± 200 ppm/K              ± 5 %               1  to 2.2 M               E24
+ CRCW1218 e3              ± 100 ppm/K              ± 1 %               1  to 2.2 M               E24; E96
+                           Jumper, Imax. = 7.0 A            20 m                  0                               -
+                           ± 200 ppm/K              ± 5 %               1  to 10 M               E24
+ CRCW2010 e3              ± 100 ppm/K              ± 1 %               1  to 10 M               E24; E96
+                           Jumper, Imax. = 6.0 A            20 m                  0                               -
+                           ± 200 ppm/K              ± 5 %               1  to 10 M               E24
+ CRCW2512 e3              ± 100 ppm/K              ± 1 %               1  to 10 M               E24; E96
+                           Jumper, Imax. = 7.0 A            20 m                  0                               -
+
+Note
+•  The temperature coefficient of resistance (TCR) is not specified for 0  jumpers
+
+
+
+
+
+Revision: 18-Jun-2018                                      2                                  Document Number: 20035
+                                     For technical questions, contact: thickfilmchip@vishay.com
+     THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+                 ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+=== PAGE 3 ===
+                                    D/CRCW e3
+            www.vishay.com                                               Vishay
+
+
+ PACKAGING
+
+ TYPE / SIZE         CODE       QUANTITY       CARRIER TAPE       WIDTH      PITCH    REEL DIAMETER
+
+                   ED = ET7         10 000                                         Ø 180 mm/7"
+ D10/CRCW0402 e3                                                          8 mm        2 mm
+                    EE = EF4         50 000                                         Ø 330 mm/13"
+
+                             EI = ET2          5000                                         Ø 180 mm/7"
+
+                   ED = ET3         10 000                                         Ø 180 mm/7"
+                                                                                        2 mm
+                      EL = ET4         20 000                                        Ø 285 mm/11.25"
+
+ D11/CRCW0603 e3    EE = ET8         50 000                                8 mm              Ø 330 mm/13"
+
+                    EA = ET1         5000                                         Ø 180 mm/7"
+
+                   EB = ET5         10 000                                            4 mm    Ø 285 mm/11.25"
+                   EC = ET6         20 000         Paper tape acc. to                       Ø 330 mm/13"
+                    EA = ET1         5000         IEC 60286-3, Type 1a                       Ø 180 mm/7"
+
+ D12/CRCW0805 e3    EB = ET5         10 000                                8 mm        4 mm    Ø 285 mm/11.25"
+
+                   EC = ET6         20 000                                         Ø 330 mm/13"
+
+                    EA = ET1         5000                                         Ø 180 mm/7"
+
+ D25/CRCW1206 e3    EB = ET5         10 000                                8 mm        4 mm    Ø 285 mm/11.25"
+
+                   EC = ET6         20 000                                         Ø 330 mm/13"
+
+                    EA = ET1         5000                                         Ø 180 mm/7"
+
+ CRCW1210 e3       EB = ET5         10 000                                8 mm        4 mm    Ø 285 mm/11.25"
+
+                   EC = ET6         20 000                                         Ø 330 mm/13"
+
+ CRCW1218 e3       EK = ET9         4000                                12 mm        4 mm     Ø 180 mm/7"
+ CRCW2010 e3        EF = E02         4000             Blister tape acc. to       12 mm        4 mm     Ø 180 mm/7"
+                  EG = E67         2000         IEC 60286-3, Type 2a                   8 mm
+ CRCW2512 e3                                                             12 mm              Ø 180 mm/7"
+                   EH = E82         4000                                             4 mm
+
+
+ PART NUMBER AND PRODUCT DESCRIPTION
+   Part Number: CRCW0603562RFKEA
+   Part Number: CRCW06030000Z0EA
+
+  C    R    C   W     0     6     0     3     5     6     2    R     F    K    E    A
+
+
+
+      TYPE / SIZE           RESISTANCE          TOLERANCE             TCR             PACKAGING
+
+     D10/CRCW0402        R = decimal             F = ± 1 %         K = ± 100 ppm/K             EA, EB,
+     D11/CRCW0603        K = thousand             J = ± 5 %         N = ± 200 ppm/K            EC, ED,
+     D12/CRCW0805       M = million            Z = jumper              0 = jumper                EE, EF,
+     D25/CRCW1206          0000 = jumper                                                         EG, EH,
+      CRCW1210                                                                                                               EI, EK,
+      CRCW1218                                                                          EL
+      CRCW2010
+      CRCW2512
+
+   Product Description: D11/CRCW0603 100 562R 1% ET1 e3
+   Product Description: D11/CRCW0603 0R0 ET1 e3
+
+   D11/CRCW0603          100              562R               1 %              ET1                e3
+
+
+     TYPE / SIZE          TCR          RESISTANCE       TOLERANCE       PACKAGING      LEAD (Pb)-FREE
+   D10/CRCW0402      ± 100 ppm/K        10R = 10            ± 1 %             ET1, ET2,         e3 = pure tin
+   D11/CRCW0603      ± 200 ppm/K       562R = 562           ± 5 %             ET3, ET4,         termination finish
+   D12/CRCW0805                    1M = 1 M                              ET5, ET6,
+   D25/CRCW1206                       0R0 = jumper                              ET8, ET9,
+    CRCW1210                                                                      EF4, E02,
+    CRCW1218                                                                        E67, E82
+    CRCW2010
+    CRCW2512
+
+
+
+
+Revision: 18-Jun-2018                                      3                                  Document Number: 20035
+                                     For technical questions, contact: thickfilmchip@vishay.com
+     THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+                 ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+=== PAGE 4 ===
+                                    D/CRCW e3
+            www.vishay.com                                               Vishay
+
+DESCRIPTION                             MATERIALS
+Production is strictly controlled and follows an extensive set      Vishay  acknowledges  the  following  systems  for  the
+of instructions established for reproducibility. A cermet film       regulation of hazardous substances:
+layer and a glass-over are deposited on a high grade (Al2O3)      • IEC 62474, Material Declaration for Products of and for the
+ceramic substrate with  its prepared  inner contacts. A         Electrotechnical  Industry,  with  the  list  of  declarable
+special laser is used to achieve the target value by smoothly        substances given therein (2)
+fine trimming the  resistive  layer without damaging the      • The  Global  Automotive  Declarable  Substance  List
+ceramics. The resistor elements are covered by a protective       (GADSL) (3)
+coating designed for electrical, mechanical and climatic
+                                                           • The REACH regulation (1907/2006/EC) and the related list
+protection. The terminations receive a final pure tin on nickel                                                                                                (4)                                                                      of substances with very high concern (SVHC)    for its
+plating. 
+                                                              supply chain
+The result of the determined production is verified by an
+                                                     The  products  do  not  contain  any  of  the  bannedextensive testing procedure on 100 % of the individual chip
+                                                          substances as per IEC 62474, GADSL, or the SVHC list,resistors. Only accepted products are  laid directly into
+the tape in accordance with IEC 60286-3 Type 1a and      see www.vishay.com/how/leadfree.
+Type 2a (1).                                          Hence  the  products  fully  comply  with  the  following
+                                                                       directives:
+ASSEMBLY                                              • 2000/53/EC  End-of-Life  Vehicle  Directive  (ELV) and
+The resistors are suitable for processing on automatic SMD       Annex II (ELV II)
+assembly  systems.  They  are  suitable  for  automatic      • 2011/65/EU  Restriction  of  the  Use  of  Hazardous
+soldering using wave, reflow or vapor phase as shown in        Substances    Directive   (RoHS)   with   amendment
+IEC 61760-1 (1).  The  encapsulation  is  resistant  to   all        2015/863/EU
+cleaning  solvents commonly  used  in  the  electronics                                                           • 2012/19/EU Waste Electrical and Electronic Equipment
+industry, including alcohols, esters and aqueous solutions.                                                                       Directive (WEEE)
+The suitability of conformal coatings, potting compounds
+                                                             Vishay pursues the elimination of conflict minerals from its
+and  their processes,   if  applied,  shall be  qualified by
+                                                            supply  chain,  see  the  Conflict  Minerals  Policy  at
+appropriate means to ensure the long-term stability of the
+                                                        www.vishay.com/doc?49037.
+whole system.
+The resistors are RoHS-compliant, the pure  tin plating    APPROVALS
+provides   compatibility   with   lead    (Pb)-free   and
+                                                     The resistors are qualified according to AEC-Q200.
+lead-containing  soldering  processes.   Solderability   is
+                                                   Where applicable, the resistors are tested in accordancespecified for 2 years after production or requalification. The
+                                                                with  EN 140401-802  which   refers   to  EN 60115-1,permitted storage time is 20 years. The immunity of the
+                                           EN 60115-8  and  the  variety  of  environmental  testplating against tin whisker growth has been proven under
+                                                          procedures of the IEC 60068 (1) series.extensive testing.
+
+                                      RELATED PRODUCTS
+
+                                                            For more information about products with better TCR and
+                                                                         tighter tolerance please refer to the “Lead (Pb)-Free Thick
+                                                                     Film,   Rectangular,   Semi-Precision  Chip   Resistors”
+                                                            datasheet (www.vishay.com/doc?20036).
+
+                                                     The D/CRCW with SnPb termination plating is designed for
+                                                                  applications  where   lead   bearing   terminations   are
+                                                          mandatory. For ordering D/CRCW with SnPb terminations
+                                                             please  refer  to  latest  edition  of  datasheet D/CRCW
+                                                           (www.vishay.com/doc?20008).
+
+
+
+
+
+Notes
+(1) The quoted IEC standards are also released as EN standards with the same number and identical contents
+(2) The IEC 62474 list of declarable substances is maintained in a dedicated database, which is available at http://std.iec.ch/iec62474
+(3) The Global Automotive Declarable Substance List (GADSL) is maintained by the American Chemistry Council and available at www.gadsl.org
+(4) The SVHC list is maintained by the European Chemical Agency (ECHA) and available at http://echa.europa.eu/candidate-list-table
+
+Revision: 18-Jun-2018                                      4                                  Document Number: 20035
+                                     For technical questions, contact: thickfilmchip@vishay.com
+     THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+                 ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+=== PAGE 5 ===
+                                    D/CRCW e3
+            www.vishay.com                                               Vishay
+
+FUNCTIONAL PERFORMANCE
+
+Single Pulse
+
+                                                                         Axis Title
+            1000                                                                                                  10000
+            line (W)                                                                                                          2512
+                                                                                                                    1218
+      nd                                                                                                            2010   2 Load    100
+                                                                                                                    1210
+                     Pulse                                                                                                          12060805   1000
+    -     10                                                                                                  0603
+                                                                                                                    0402                     line line      ^Pmax.                                                                                                                                                                                                          1st 2nd
+               1
+                                                                                                                  100
+
+                0.1
+
+
+
+               0.01                                                                                                   10
+               0.000001     0.00001      0.0001        0.001         0.01           0.1          1          10         100
+                                                                                                                                                                                                                                                            ti - Pulse Duration (s)
+                                                                                                           2nd line
+                    Maximum pulse load, single pulse; applicable if P  0 and n < 1000 and Uˆ = Uˆ max.;
+                                           for permissible resistance change equivalent to 8000 h operation
+
+Continuous Pulse
+
+                                                                         Axis Title
+            1000                                                                                                  10000
+            line (W)                                                                                                          2512
+                                                                                                                    1218
+      nd                                                                                                            2010   2 Load    100
+                                                                                                                    1210
+                     Pulse                                                                                                          12060805   1000
+    -     10                                                                                                  0603
+                                                                                                                    0402                     line line      ^Pmax.                                                                                                                                                                                                          1st 2nd
+               1
+                                                                                                                  100
+
+                0.1
+
+
+
+               0.01                                                                                                   10
+               0.000001     0.00001      0.0001        0.001         0.01           0.1          1          10         100
+                                                                                                                                                                                                                                                            ti - Pulse Duration (s)
+                                                                                                           2nd line
+                     Maximum pulse load, continuous pulses; applicable if P  P (amb) and Uˆ = Uˆ max.;
+                                           for permissible resistance change equivalent to 8000 h operation
+
+Pulse Voltage
+
+                                                                          Axis Title
+             2000                                                                                                  10000
+               line (V)             1800   2512
+        nd
+    2    1600                                   Voltage         2010
+             1400
+                         Pulse  1200                                                                                                  1000
+
+     -                                                                                                                                                                                                                                                                              line line
+             1000
+                                                                                                                                                                                                          1st 2nd       ^Umax.              800   1206, 1210, 1218
+                                                                                                                   100
+              600   0805
+
+              400
+                     0603
+              200
+                     0402
+                0                                                                                                   10
+               0.000001       0.00001        0.0001         0.001           0.01             0.1            1            10
+                                                                                                                                                                                                                                                             ti - Pulse Duration (s)
+                                                                                                            2nd line
+                      Maximum pulse voltage, single and continuous pulses; applicable if Pˆ = Pˆ max.;
+                                           for permissible resistance change equivalent to 8000 h operation
+
+Revision: 18-Jun-2018                                      5                                  Document Number: 20035
+                                     For technical questions, contact: thickfilmchip@vishay.com
+     THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+                 ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+=== PAGE 6 ===
+                                    D/CRCW e3
+            www.vishay.com                                               Vishay
+
+Derating
+
+                                                                         Axis Title      70
+              (W)    1.2                                                                                                    CRCW2512, CRCW1218   10000
+                                                                                                                CRCW2010
+               1                                                                                             CRCW1210
+                                                                                                                CRCW1206
+              line                                                                                                       CRCW0805
+                                                                                                                CRCW0603                                                                                                                  1000                                                  Dissipation    0.8                                                                                                                CRCW0402          2nd
+                       Power    0.6                                                                                                                                                                                                                                        line line     -                                                                                                                                                                                        1st 2nd
+     P
+                0.4                                                                                                  100
+
+
+                0.2
+
+
+               0                                                                                                   10
+                            -50                   0                   50                  100                  150
+                                                                                                    ϑamb - Ambient Temperature (°C)
+                                                                                                           2nd line
+
+
+Non-Linearity
+
+                   (dB)  120
+          A3
+             100
+
+
+              80                                       Harmonic                                                                                1206, 2010
+             3rd                                                                        0805              60
+          of
+
+              40                                            0603
+                                                            0402                                                     Attenuation   20
+
+
+               0
+                10             100            1K            10K            100K          1M           10M
+                                                                            R - Resistance Value (Ω)
+
+
+
+Current Noise
+
+
+
+              100
+                           0402                           (μV/V)             0603
+      A1            0805
+
+               10      2010                       Noise             1206
+
+
+
+                1                                Current
+
+
+
+                 0.1
+
+
+
+
+               0.01
+                 100                 1K                  10K                 100K              1M                10M
+
+                                                                                       R - Resistance Value (Ω)
+
+
+
+
+
+Revision: 18-Jun-2018                                      6                                  Document Number: 20035
+                                     For technical questions, contact: thickfilmchip@vishay.com
+     THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+                 ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+=== PAGE 7 ===
+                                    D/CRCW e3
+            www.vishay.com                                               Vishay
+
+TESTS AND REQUIREMENTS
+
+All executed tests are carried out in accordance with the      The testing also covers most of the requirements specified
+following specifications:                                   by EIA/IS-703 and JIS-C-5201-1.
+
+EN 60115-1, generic specification                          The  tests are carried out under standard atmospheric
+EN 60115-8   (successor   of  EN 140400),   sectional       conditions in accordance with IEC 60068-1, 4.3, whereupon
+specification                                                   the following values are applied:
+EN 140401-802, detail specification                            Temperature: 15 °C to 35 °C
+IEC 60068-2-xx, test methods                                    Relative humidity: 25 % to 75 %
+The  parameters  stated  in  the  Test  Procedures  and        Air pressure: 86 kPa to 106 kPa (860 mbar to 1060 mbar).
+Requirements table are based on the required tests and     A climatic category LCT / UCT / 56 is applied, defined by the
+permitted limits of EN 140401-802. The table presents only      lower category temperature  (LCT), the upper category
+the most important tests, for the full test schedule refer to      temperature (UCT), and the duration of exposure in the
+the documents listed above. However, some additional     damp heat, steady state test (56 days). The components are
+tests and  a number  of  improvements  against  those      mounted for testing on boards  in accordance with EN
+minimum requirements have been included.                    60115-8, 2.4.2 unless otherwise specified.
+
+ TEST PROCEDURES AND REQUIREMENTS
+
+                                                                   REQUIREMENTS PERMISSIBLE
+                                                                     CHANGE (R)
+              IEC                             PROCEDURE EN           60082-2 (1)                                                        STABILITY CLASS 1  STABILITY CLASS 2
+  60115-1                          TEST                                  OR BETTER      OR BETTER            TEST
+ CLAUSE
+         METHOD                                     Stability for product types:
+                                                                                          1  to 10 M
+                                                  D/CRCW e3
+
+  4.5                -              Resistance                                 -                     ± 1 %             ± 5 %
+
+                                                          At (20 / -55 / 20) °C and
+  4.8                -       Temperature coefficient                                    ± 100 ppm/K        ± 200 ppm/K
+                                                                 (20 / 155 / 20) °C
+                                      U =  P70 x R or U = Umax.
+                                                      whichever is the less severe;
+                                                                1.5 h on; 0.5 h off  4.25.1            -         Endurance at 70 °C
+                                                      70 °C; 1000 h            ± (1 % R + 0.05 )    ± (2 % R + 0.1 )
+                                                      70 °C; 8000 h            ± (2 % R + 0.1 )    ± (4 % R + 0.1 )
+
+                         Endurance at upper  4.25.3            -                                      155 °C; 1000 h           ± (1 % R + 0.05 )    ± (2 % R + 0.1 )
+                           category temperature
+
+                                                               (40 ± 2) °C; 56 days;
+  4.24       78 (Cab)   Damp heat, steady state                                          ± (1 % R + 0.05 )
+                                                                  (93 ± 3) % RH
+
+                                                            (85 ± 2) °C; (85 ± 5) % RH;
+                  Damp heat, steady state,
+  4.37       67 (Cy)                                     U =  0.1 x P85 x R  100 V;     ± (1 % R + 0.05 )    ± (2 % R + 0.1 )                                accelerated
+                                                         1000 h
+
+  4.23              -           Climatic sequence:
+
+  4.23.2      2 (Bb)            Dry heat                    125 °C; 16 h
+  4.23.3      30 (Db)          Damp             55 °C; 24 h;  90 % RH; 1 cycle
+
+  4.23.4      1 (Ab)             Cold                        -55 °C; 2 h                                                                        ± (1 % R + 0.05 )    ± (2 % R + 0.1 )
+  4.23.5      13 (M)       Low air pressure             8.5 kPa; 2 h; (25 ± 10) °C
+
+                                                      55 °C; 5 days;
+  4.23.6      30 (Db)      Damp heat, cyclic
+                                                > 90 % RH; 5 cycles
+  4.23.7            -          DC load          U =  P70 x R  Umax.; 1 min
+  -           1 (Aa)             Cold                        -55 °C; 2 h            ± (0.25 % R + 0.05 )  ± (0.5 % R + 0.05 )
+                            Rapid change       30 min. at -55 °C and 30 min. at 125 °C           ± (1 % R + 0.05 )
+  4.19       14 (Na)
+                                  of temperature                 1000 cycles                      no visible damage
+
+  4.13              -          Short time overload                                     U = 2.5 x  P70 x R  2 x Umax.;              ± (2 % R + 0.05 )
+                                                    whichever is the less severe; 5 s
+
+                                                                   Severity no. 4:
+                                        U = 10 x  P70 x R                   ± (1 % R + 0.05 )                           Single pulse high voltage
+  4.27              -                                               or U = 2 x Umax.;                                 overload                                                   no visible damage
+                                                      whichever is the less severe;
+                                                  10 pulses 10 μs / 700 μs
+
+
+Revision: 18-Jun-2018                                      7                                  Document Number: 20035
+                                     For technical questions, contact: thickfilmchip@vishay.com
+     THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+                 ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+=== PAGE 8 ===
+                                    D/CRCW e3
+            www.vishay.com                                               Vishay
+
+
+ TEST PROCEDURES AND REQUIREMENTS
+
+                                                                   REQUIREMENTS PERMISSIBLE
+                                                                     CHANGE (R)
+              IEC                             PROCEDURE EN           60082-2 (1)                                                        STABILITY CLASS 1  STABILITY CLASS 2
+  60115-1                          TEST                                  OR BETTER      OR BETTER            TEST
+ CLAUSE
+         METHOD                                     Stability for product types:
+                                                                                          1  to 10 M
+                                                  D/CRCW e3
+                                       U =  15 x P70 x R or
+                                          U = 2 x Umax.;                    ± (1 % R + 0.05 )  4.39              -        Periodic electric overload
+                                                      whichever is the less severe;                no visible damage
+                                                         0.1 s on; 2.5 s off; 1000 cycles
+                                                        IEC 61340-3-1 (1);
+                              Electrostatic discharge
+  4.40              -                              3 positive + 3 negative discharges;            ± (1 % R + 0.05 )
+                        (human body model)
+                                           ESD voltage acc. to size
+
+                                                    Endurance by sweeping;
+                                                     10 Hz to 2000 Hz;                                                                       ± (0.25 % R + 0.05 )  ± (0.5 % R + 0.05 )
+  4.22        6 (Fc)              Vibration                  no resonance;
+                                                  amplitude  1.5 mm or  200 m/s2; 7.5   no visible damage    no visible damage
+                                                            h
+
+                                                           Solder bath method,
+                                                  SnPb40; non-activated flux
+                                                           (235 ± 5) °C; (2 ± 0.2) s
+                                                                         Good tinning ( 95 % covered);
+  4.17       58 (Td)            Solderability                 Solder bath method,                                                                                      no visible damage
+                                                        Sn96.5Ag3Cu0.5;
+                                                              non-activated flux
+                                                           (245 ± 5) °C; (3 ± 0.3) s
+
+                              Resistance to               Soldering bath method;  4.18       58 (Td)                                                       ± (0.25 % R + 0.05 )  ± (0.5 % R + 0.05 )
+                                soldering heat               (260 ± 5) °C; (10 ± 1) s
+
+                       Component solvent                Isopropyl alcohol;
+  4.29       45 (XA)                                                            No visible damage
+                                  resistance                +50 °C; method 2
+
+                                        CRCW0402 an CRCW0603: 9 N
+  4.32       21 (Uu3)       Shear (adhesion)                                          No visible damage
+                                        CRCW0805 to CRCW2512: 45 N
+                                                                                ± (0.25 % R + 0.05 )
+  4.33       21 (Ue1)       Substrate bending            Depth 2 mm; 3 times                   no visible damage,
+                                                                                 no open circuit in bent position
+
+  4.7                -             Voltage proof           U = 1.4 x Uins; 60 s              No flashover or breakdown
+                                 Flammability,                IEC 60695-11-5 (1);
+  4.35              -                                                             No burning after 30 s
+                            needle flame test                   10 s
+
+Note
+(1) The quoted IEC standards are also released as EN standards with the same number and identical contents
+
+
+
+
+
+Revision: 18-Jun-2018                                      8                                  Document Number: 20035
+                                     For technical questions, contact: thickfilmchip@vishay.com
+     THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+                 ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+=== PAGE 9 ===
+                                    D/CRCW e3
+            www.vishay.com                                               Vishay
+
+DIMENSIONS
+
+
+
+
+
+ DIMENSIONS AND MASS
+
+                         L         W           H              T1             T2         MASS
+ TYPE / SIZE
+                       (mm)           (mm)           (mm)           (mm)           (mm)            (mg)
+
+ D10/CRCW0402 e3      1.0 ± 0.05          0.5 ± 0.05         0.35 ± 0.05        0.25 ± 0.05         0.2 ± 0.10           0.65
+
+ D11/CRCW0603 e3  1.55 + 0.10 / - 0.05     0.85 ± 0.10        0.45 ± 0.05         0.3 ± 0.20          0.3 ± 0.20           2
+
+ D12/CRCW0805 e3  2.0 + 0.20 / - 0.10     1.25 ± 0.15        0.45 ± 0.05     0.3 + 0.20 / - 0.10      0.3 ± 0.20            5.5
+
+ D25/CRCW1206 e3  3.2 + 0.10 / - 0.20      1.6 ± 0.15         0.55 ± 0.05        0.45 ± 0.20         0.4 ± 0.20          10
+
+ CRCW1210 e3           3.2 ± 0.20          2.5 ± 0.20         0.55 ± 0.05        0.45 ± 0.20         0.4 ± 0.20          16
+
+ CRCW1218 e3       3.2 + 0.10 / - 0.20      4.6 ± 0.15         0.55 ± 0.05        0.45 ± 0.20         0.4 ± 0.20           29.5
+
+ CRCW2010 e3           5.0 ± 0.15          2.5 ± 0.15          0.6 ± 0.10          0.6 ± 0.20          0.6 ± 0.20           25.5
+
+ CRCW2512 e3           6.3 ± 0.20         3.15 ± 0.15         0.6 ± 0.10          0.6 ± 0.20          0.6 ± 0.20           40.5
+
+
+SOLDER PAD DIMENSIONS
+
+
+
+
+                                             G                  X
+
+
+                                                            Y
+                                                   Z
+
+
+
+ RECOMMENDED SOLDER PAD DIMENSIONS
+
+                          WAVE SOLDERING                       REFLOW SOLDERING
+ TYPE / SIZE         G         Y         X         Z        G         Y         X         Z
+                     (mm)       (mm)       (mm)       (mm)       (mm)       (mm)       (mm)       (mm)
+
+ D10/CRCW0402 e3         -                -                -                -           0.45           0.6           0.6          1.65
+
+ D11/CRCW0603 e3      0.65          1.10          1.25          2.85          0.75          0.75          1.00          2.15
+
+ D12/CRCW0805 e3      0.90          1.30          1.60          3.50          1.00          0.95          1.45          2.90
+
+ D25/CRCW1206 e3      1.40          1.40          1.95          4.20          1.50          1.05          1.80          3.60
+
+ CRCW1210 e3          1.80          1.45          2.95          4.70          1.70          1.10          2.80          4.90
+
+ CRCW1218 e3          1.80          1.30          5.10          4.40          1.90          1.10          4.90          4.10
+
+ CRCW2010 e3          3.40          1.65          2.85          6.90          3.50          1.45          2.80          6.30
+
+ CRCW2512 e3          4.60          1.60          3.65          8.70          4.75          1.45          3.50          7.65
+
+Note
+•  The rated dissipation applies only if the permitted film temperature is not exceeded. Furthermore, a high level of ambient temperature or of
+   power dissipation may raise the temperature of the solder joint, hence special solder alloys or board materials may be required to maintain
+   the reliability of the assembly.
+   The given solder pad dimensions reflect the considerations for board design and assembly as outlined e.g. in standards IEC 61188-5-x or
+    in publication IPC-7351. They do not guarantee any supposed thermal properties, particularly as these are also strongly influenced by many
+   other parameters. Still, the given solder pad dimensions will be found adequate for most general applications
+
+
+
+
+
+Revision: 18-Jun-2018                                      9                                  Document Number: 20035
+                                     For technical questions, contact: thickfilmchip@vishay.com
+     THIS DOCUMENT IS SUBJECT TO CHANGE WITHOUT NOTICE. THE PRODUCTS DESCRIBED HEREIN AND THIS DOCUMENT
+                 ARE SUBJECT TO SPECIFIC DISCLAIMERS, SET FORTH AT www.vishay.com/doc?91000
+=== PAGE 10 ===
+                                       Legal Disclaimer Notice
+            www.vishay.com                                               Vishay
+
+                          Disclaimer
+
+
+
+ALL PRODUCT, PRODUCT SPECIFICATIONS AND DATA ARE SUBJECT TO CHANGE WITHOUT NOTICE TO IMPROVE
+RELIABILITY, FUNCTION OR DESIGN OR OTHERWISE.
+
+Vishay Intertechnology, Inc., its affiliates, agents, and employees, and all persons acting on its or their behalf (collectively,
+“Vishay”), disclaim any and all liability for any errors, inaccuracies or incompleteness contained in any datasheet or in any other
+disclosure relating to any product.
+
+Vishay makes no warranty, representation or guarantee regarding the suitability of the products for any particular purpose or
+the continuing production of any product. To the maximum extent permitted by applicable law, Vishay disclaims (i) any and all
+liability arising out of the application or use of any product,  (ii) any and  all liability, including without limitation special,
+consequential or incidental damages, and  (iii) any and all implied warranties, including warranties of fitness for particular
+purpose, non-infringement and merchantability.
+
+Statements regarding the suitability of products for certain types of applications are based on Vishay’s knowledge of
+typical requirements that are often placed on Vishay products in generic applications.  Such statements are not binding
+statements about the suitability of products for a particular application.   It is the customer’s responsibility to validate that a
+particular product with the properties described in the product specification is suitable for use in a particular application.
+Parameters provided in datasheets and / or specifications may vary in different applications and performance may vary over
+time. All operating parameters, including typical parameters, must be validated for each customer application by the customer’s
+technical experts.  Product specifications do not expand or otherwise modify Vishay’s terms and conditions of purchase,
+including but not limited to the warranty expressed therein.
+
+Except as expressly indicated in writing, Vishay products are not designed for use in medical, life-saving, or life-sustaining
+applications or for any other application in which the failure of the Vishay product could result in personal injury or death.
+Customers using or selling Vishay products not expressly indicated for use in such applications do so at their own risk.
+Please contact authorized Vishay personnel to obtain written terms and conditions regarding products designed  for
+such applications.
+
+No license, express or implied, by estoppel or otherwise, to any intellectual property rights is granted by this document
+or by any conduct of Vishay. Product names and markings noted herein may be trademarks of their respective owners.
+
+
+
+
+
+© 2019 VISHAY INTERTECHNOLOGY, INC. ALL RIGHTS RESERVED
+
+Revision: 01-Jan-2019                                      1                                  Document Number: 91000

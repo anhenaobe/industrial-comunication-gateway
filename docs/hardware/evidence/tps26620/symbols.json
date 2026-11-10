@@ -1,0 +1,774 @@
+[
+  {
+    "name": "TPS26620DRCR",
+    "designator": "U?",
+    "description": "Single-channel60V eFuse; TPS26620 latch-off; RTN != system GND; DRC10+EP11",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "IN",
+        "electrical_type": "power",
+        "x": -90,
+        "y": 40,
+        "orientation": "left",
+        "length": 20,
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true
+      },
+      {
+        "designator": "2",
+        "name": "UVLO",
+        "electrical_type": "input",
+        "x": -90,
+        "y": 20,
+        "orientation": "left",
+        "length": 20,
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true
+      },
+      {
+        "designator": "3",
+        "name": "OVP",
+        "electrical_type": "input",
+        "x": -90,
+        "y": 0,
+        "orientation": "left",
+        "length": 20,
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true
+      },
+      {
+        "designator": "4",
+        "name": "SHDN_N",
+        "electrical_type": "input",
+        "x": -90,
+        "y": -20,
+        "orientation": "left",
+        "length": 20,
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true
+      },
+      {
+        "designator": "10",
+        "name": "OUT",
+        "electrical_type": "power",
+        "x": 90,
+        "y": 40,
+        "orientation": "right",
+        "length": 20,
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true
+      },
+      {
+        "designator": "9",
+        "name": "FLT_N",
+        "electrical_type": "open_collector",
+        "x": 90,
+        "y": 20,
+        "orientation": "right",
+        "length": 20,
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true
+      },
+      {
+        "designator": "8",
+        "name": "dVdT",
+        "electrical_type": "bidirectional",
+        "x": 90,
+        "y": 0,
+        "orientation": "right",
+        "length": 20,
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true
+      },
+      {
+        "designator": "7",
+        "name": "ILIM",
+        "electrical_type": "bidirectional",
+        "x": 90,
+        "y": -20,
+        "orientation": "right",
+        "length": 20,
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true
+      },
+      {
+        "designator": "5",
+        "name": "RTN",
+        "electrical_type": "power",
+        "x": -60,
+        "y": -60,
+        "orientation": "down",
+        "length": 20,
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true
+      },
+      {
+        "designator": "11",
+        "name": "RTN_EP",
+        "electrical_type": "power",
+        "x": -20,
+        "y": -60,
+        "orientation": "down",
+        "length": 20,
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true
+      },
+      {
+        "designator": "6",
+        "name": "GND",
+        "electrical_type": "power",
+        "x": 60,
+        "y": -60,
+        "orientation": "down",
+        "length": 20,
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -90,
+        "y1": -60,
+        "x2": 90,
+        "y2": 60
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_DRC0010J_TI_TPS2662",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Texas Instruments",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "TPS26620DRCR",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "https://www.ti.com/lit/ds/symlink/tps2662.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Local Datasheet",
+        "value": "sources/tps26620/tps2662.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "TI TPS2662 SLVSDT4F Dec2021 Table6-1 p4; DRC0010J4218878/B board p44/stencil p45",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_CANDIDATE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "APPROVED_COMPONENT_SELECTION",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Critical Connection",
+        "value": "Pin5 and EP11 to EF_RTN, NEVER directly to system GND pin6",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Fault Response",
+        "value": "TPS26620 latch-off, adjustable overvoltage cutoff; not TPS26621 auto-retry",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "RC0603FR-0713K3L",
+    "designator": "R?",
+    "description": "13.3kOhm1%0.1W75V; Exact Yageo spec; manufacturer Mounting2018p4Fig4/Table1",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -15,
+        "y": 0,
+        "orientation": "left",
+        "length": 15,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 15,
+        "y": 0,
+        "orientation": "right",
+        "length": 15,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Yageo",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "RC0603FR-0713K3L",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "13.3kOhm1%0.1W75V",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Exact Yageo spec; manufacturer Mounting2018p4Fig4/Table1",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "https://yageogroup.com/download/specsheet/RC0603FR-0713K3L",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "PROPOSED_APPLICATION_VALUE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "designator_x": -15,
+    "designator_y": 18,
+    "rectangles": [
+      {
+        "x1": -15,
+        "y1": -6,
+        "x2": 15,
+        "y2": 6,
+        "filled": false,
+        "line_width": 1,
+        "line_color": 128
+      }
+    ]
+  },
+  {
+    "name": "RC0603FR-07768KL",
+    "designator": "R?",
+    "description": "768kOhm1%0.1W75V; Exact Yageo spec; manufacturer Mounting2018p4Fig4/Table1",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -15,
+        "y": 0,
+        "orientation": "left",
+        "length": 15,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 15,
+        "y": 0,
+        "orientation": "right",
+        "length": 15,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Yageo",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "RC0603FR-07768KL",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "768kOhm1%0.1W75V",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Exact Yageo spec; manufacturer Mounting2018p4Fig4/Table1",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "https://yageogroup.com/download/specsheet/RC0603FR-07768KL",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "PROPOSED_APPLICATION_VALUE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "designator_x": -15,
+    "designator_y": 18,
+    "rectangles": [
+      {
+        "x1": -15,
+        "y1": -6,
+        "x2": 15,
+        "y2": 6,
+        "filled": false,
+        "line_width": 1,
+        "line_color": 128
+      }
+    ]
+  },
+  {
+    "name": "RC0603FR-0733K2L",
+    "designator": "R?",
+    "description": "33.2kOhm1%0.1W75V; Exact Yageo spec; manufacturer Mounting2018p4Fig4/Table1",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -15,
+        "y": 0,
+        "orientation": "left",
+        "length": 15,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 15,
+        "y": 0,
+        "orientation": "right",
+        "length": 15,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Yageo",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "RC0603FR-0733K2L",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "33.2kOhm1%0.1W75V",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Exact Yageo spec; manufacturer Mounting2018p4Fig4/Table1",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "https://yageogroup.com/download/specsheet/RC0603FR-0733K2L",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "PROPOSED_APPLICATION_VALUE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "designator_x": -15,
+    "designator_y": 18,
+    "rectangles": [
+      {
+        "x1": -15,
+        "y1": -6,
+        "x2": 15,
+        "y2": 6,
+        "filled": false,
+        "line_width": 1,
+        "line_color": 128
+      }
+    ]
+  },
+  {
+    "name": "RC0603FR-0730K1L",
+    "designator": "R?",
+    "description": "30.1kOhm1%0.1W75V; Exact Yageo spec; manufacturer Mounting2018p4Fig4/Table1",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -15,
+        "y": 0,
+        "orientation": "left",
+        "length": 15,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 15,
+        "y": 0,
+        "orientation": "right",
+        "length": 15,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Yageo",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "RC0603FR-0730K1L",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "30.1kOhm1%0.1W75V",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Exact Yageo spec; manufacturer Mounting2018p4Fig4/Table1",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "https://yageogroup.com/download/specsheet/RC0603FR-0730K1L",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "PROPOSED_APPLICATION_VALUE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "designator_x": -15,
+    "designator_y": 18,
+    "rectangles": [
+      {
+        "x1": -15,
+        "y1": -6,
+        "x2": 15,
+        "y2": 6,
+        "filled": false,
+        "line_width": 1,
+        "line_color": 128
+      }
+    ]
+  },
+  {
+    "name": "C0603C103K1RACTU",
+    "designator": "C?",
+    "description": "10nF10%100VX7R; Exact KEMET DI_CIN spec; KEMET C1027Table3 nominal1608 mechanically compatible reference lands",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -5,
+        "y": 0,
+        "orientation": "left",
+        "length": 25,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 5,
+        "y": 0,
+        "orientation": "right",
+        "length": 25,
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_0603_KEMET_NOMINAL",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "KEMET",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "C0603C103K1RACTU",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Value",
+        "value": "10nF10%100VX7R",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Exact KEMET DI_CIN spec; KEMET C1027Table3 nominal1608 mechanically compatible reference lands",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Datasheet",
+        "value": "sources/DI_CIN_C0603C103K1RACTU.pdf",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Design Approval",
+        "value": "PROPOSED_APPLICATION_VALUE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_VERIFIED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Electrical Test",
+        "value": "NOT_TESTED",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "designator_x": -15,
+    "designator_y": 18,
+    "lines": [
+      {
+        "x1": -5,
+        "y1": -12,
+        "x2": -5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      },
+      {
+        "x1": 5,
+        "y1": -12,
+        "x2": 5,
+        "y2": 12,
+        "line_width": 1,
+        "color": 128
+      }
+    ]
+  }
+]

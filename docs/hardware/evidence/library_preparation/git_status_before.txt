@@ -1,0 +1,11 @@
+ M firmware/poc/.gitignore
+ M firmware/poc/CMakeLists.txt
+ M firmware/poc/README.md
+ M firmware/poc/prj.conf
+?? "converter_pcb_layout_appli-e (1).pdf"
+?? docs/hardware/
+?? firmware/poc/.vscode/
+?? firmware/poc/platformio.ini
+?? firmware/poc/zephyr/
+?? hardware/
+?? "shared_lib (1).IntLib"

@@ -1,0 +1,207 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "label": "validate_SchLib",
+      "result": {
+        "status": "valid",
+        "error_count": 0,
+        "warning_count": 0,
+        "issues": [],
+        "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+        "file_type": "SchLib",
+        "component_count": 58
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "label": "diff_SchLib",
+      "result": {
+        "status": "success",
+        "filepath_a": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\backups\\academic_freeze_20261107T170417Z\\Gateway_Academic.SchLib",
+        "filepath_b": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+        "file_type": "SchLib",
+        "added": [
+          "TDS3311P.C",
+          "RC0603FR-0762KL",
+          "RC0603FR-0715KL",
+          "C5750X7R2A475K230KA",
+          "C0805C224K1RACTU",
+          "C0805C225K5RACTU",
+          "C0603C680J5GACTU",
+          "C3225X7R1C156M250AB"
+        ],
+        "removed": [],
+        "modified": [
+          {
+            "name": "NIS3071MT4TWG",
+            "changes": [
+              {
+                "property": "description",
+                "a": "onsemi NIS3071/D Rev3 Apr2026 table1 p2; CASE510CM 98AON08122H IssueO p12; MT4 Auto-Retry, one channel proposed. EP maps datasheet unnumbered PAD, not invented pin17. Unused IN2/3/4 and EN2/3/4 toGND; OUT2/3/4 unconnected. 43.2k is historical curve-based candidate. EP paste and thermal vias not assembly-qualified.",
+                "b": "Approved prototype,62k current setting,oneCH1,defaultON/auto-retry. EP identity unchanged; explicitDFM groundland2.85x4.58,windowedpaste; original manufacturer pattern retained alternate."
+              },
+              {
+                "property": "footprints.count",
+                "a": 1,
+                "b": 2
+              },
+              {
+                "property": "footprints[0].is_current",
+                "a": true,
+                "b": false
+              },
+              {
+                "property": "parameters.count",
+                "a": 7,
+                "b": 9
+              },
+              {
+                "property": "parameters[4].value",
+                "a": "CAD_CANDIDATE",
+                "b": "CAD_VERIFIED"
+              },
+              {
+                "property": "parameters[5].value",
+                "a": "PROPOSED_FOR_REUSE",
+                "b": "PROTOTYPE_APPROVED"
+              },
+              {
+                "property": "parameters[6].value",
+                "a": "MT4 Auto-Retry, one channel proposed. EP maps datasheet unnumbered PAD, not invented pin17. Unused IN2/3/4 and EN2/3/4 toGND; OUT2/3/4 unconnected. 43.2k is historical curve-based candidate. EP paste and thermal vias not assembly-qualified.",
+                "b": "Approved prototype,62k current setting,oneCH1,defaultON/auto-retry. EP identity unchanged; explicitDFM groundland2.85x4.58,windowedpaste; original manufacturer pattern retained alternate."
+              }
+            ]
+          },
+          {
+            "name": "SS3P6L-M3_86A",
+            "changes": [
+              {
+                "property": "description",
+                "a": "Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands; Exact suffix from existing source parameters. Manufacturer terminalK retained as padK; no inherited provider1/2/3 map. Both anodes connect input; cathode protected rail. Source/cable reverse envelope and hot loss pending.",
+                "b": "User-approved series reverse diode:manufacturer1/2 anodes,K large cathode. Same model also reserved DNP output clamp; do not populateSOUT withoutVF review. No hot reverse while charged."
+              },
+              {
+                "property": "parameters.count",
+                "a": 7,
+                "b": 9
+              },
+              {
+                "property": "parameters[4].value",
+                "a": "CAD_CANDIDATE",
+                "b": "CAD_VERIFIED"
+              },
+              {
+                "property": "parameters[5].value",
+                "a": "PROPOSED_FOR_REUSE",
+                "b": "PROTOTYPE_APPROVED"
+              },
+              {
+                "property": "parameters[6].value",
+                "a": "Exact suffix from existing source parameters. Manufacturer terminalK retained as padK; no inherited provider1/2/3 map. Both anodes connect input; cathode protected rail. Source/cable reverse envelope and hot loss pending.",
+                "b": "User-approved series reverse diode:manufacturer1/2 anodes,K large cathode. Same model also reserved DNP output clamp; do not populateSOUT withoutVF review. No hot reverse while charged."
+              }
+            ]
+          },
+          {
+            "name": "0451002.MRL",
+            "changes": [
+              {
+                "property": "description",
+                "a": "Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering; 2A125VDC fast fuse candidate. End1/2 are project labels for nonpolar terminals. Official PDF download denied403; footprint blocked pending readable recommended pad-layout drawing. Supply fault, derating, inrush and coordination pending.",
+                "b": "User-approved2A125VDC fuse; manufacturer dimensioned native footprint linked. Nonpolar terminals project1/2; supervised current-limited lab source. Not electrically tested."
+              },
+              {
+                "property": "footprints",
+                "a": null,
+                "b": [
+                  {
+                    "name": "GW_0451_LITTELFUSE",
+                    "is_current": true
+                  }
+                ]
+              },
+              {
+                "property": "parameters.count",
+                "a": 7,
+                "b": 9
+              },
+              {
+                "property": "parameters[4].value",
+                "a": "CAD_BLOCKED",
+                "b": "CAD_VERIFIED"
+              },
+              {
+                "property": "parameters[5].value",
+                "a": "PENDING_USER_APPROVAL",
+                "b": "PROTOTYPE_APPROVED"
+              },
+              {
+                "property": "parameters[6].value",
+                "a": "2A125VDC fast fuse candidate. End1/2 are project labels for nonpolar terminals. Official PDF download denied403; footprint blocked pending readable recommended pad-layout drawing. Supply fault, derating, inrush and coordination pending.",
+                "b": "User-approved2A125VDC fuse; manufacturer dimensioned native footprint linked. Nonpolar terminals project1/2; supervised current-limited lab source. Not electrically tested."
+              }
+            ]
+          }
+        ],
+        "summary": {
+          "added_count": 8,
+          "removed_count": 0,
+          "modified_count": 3,
+          "unchanged_count": 47,
+          "components_in_a": 50,
+          "components_in_b": 58
+        }
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "label": "validate_PcbLib",
+      "result": {
+        "status": "valid",
+        "error_count": 0,
+        "warning_count": 0,
+        "issues": [],
+        "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+        "file_type": "PcbLib",
+        "component_count": 34
+      }
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "label": "diff_PcbLib",
+      "result": {
+        "status": "success",
+        "filepath_a": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\backups\\academic_freeze_20261107T170417Z\\Gateway_Academic.PcbLib",
+        "filepath_b": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+        "file_type": "PcbLib",
+        "added": [
+          "GW_TDS3311P_SEMTECH",
+          "GW_0451_LITTELFUSE",
+          "GW_RC0603_YAGEO_REFLOW",
+          "GW_C5750_TDK_REFLOW",
+          "GW_0805_KEMET_NOMINAL",
+          "GW_0603_KEMET_NOMINAL",
+          "GW_C3225_TDK_REFLOW",
+          "GW_NIS3071_510CM_PROTO"
+        ],
+        "removed": [],
+        "modified": [],
+        "summary": {
+          "added_count": 8,
+          "removed_count": 0,
+          "modified_count": 0,
+          "unchanged_count": 26,
+          "components_in_a": 26,
+          "components_in_b": 34
+        }
+      }
+    }
+  }
+]

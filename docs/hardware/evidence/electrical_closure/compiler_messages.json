@@ -1,0 +1,51 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"messages\": [\n    {\n      \"message\": \"Missing Component Models\",\n      \"source\": \"Gateway_Academic.SchLib\",\n      \"severity\": \"Warning\",\n      \"suppressed\": false\n    },\n    {\n      \"message\": \"Missing Component Models\",\n      \"source\": \"Gateway_Academic.SchLib\",\n      \"severity\": \"Warning\",\n      \"suppressed\": false\n    },\n    {\n      \"message\": \"Missing Component Models\",\n      \"source\": \"Gateway_Academic.SchLib\",\n      \"severity\": \"Warning\",\n      \"suppressed\": false\n    },\n    {\n      \"message\": \"Missing Component Models\",\n      \"source\": \"Gateway_Academic.SchLib\",\n      \"severity\": \"Warning\",\n      \"suppressed\": false\n    },\n    {\n      \"message\": \"Missing Component Models\",\n      \"source\": \"Gateway_Academic.SchLib\",\n      \"severity\": \"Warning\",\n      \"suppressed\": false\n    },\n    {\n      \"message\": \"Missing Component Models\",\n      \"source\": \"Gateway_Academic.SchLib\",\n      \"severity\": \"Warning\",\n      \"suppressed\": false\n    }\n  ],\n  \"count\": 6,\n  \"_hint_detach\": \"This MCP server has been holding Altium's scripting engine for over 10 minutes. When your Altium work is done, call detach_from_altium so Altium's own UI commands become responsive again. The user will have to re-launch StartMCPServer in Altium to run more MCP tools afterwards.\"\n}"
+    }
+  ],
+  "structuredContent": {
+    "messages": [
+      {
+        "message": "Missing Component Models",
+        "source": "Gateway_Academic.SchLib",
+        "severity": "Warning",
+        "suppressed": false
+      },
+      {
+        "message": "Missing Component Models",
+        "source": "Gateway_Academic.SchLib",
+        "severity": "Warning",
+        "suppressed": false
+      },
+      {
+        "message": "Missing Component Models",
+        "source": "Gateway_Academic.SchLib",
+        "severity": "Warning",
+        "suppressed": false
+      },
+      {
+        "message": "Missing Component Models",
+        "source": "Gateway_Academic.SchLib",
+        "severity": "Warning",
+        "suppressed": false
+      },
+      {
+        "message": "Missing Component Models",
+        "source": "Gateway_Academic.SchLib",
+        "severity": "Warning",
+        "suppressed": false
+      },
+      {
+        "message": "Missing Component Models",
+        "source": "Gateway_Academic.SchLib",
+        "severity": "Warning",
+        "suppressed": false
+      }
+    ],
+    "count": 6,
+    "_hint_detach": "This MCP server has been holding Altium's scripting engine for over 10 minutes. When your Altium work is done, call detach_from_altium so Altium's own UI commands become responsive again. The user will have to re-launch StartMCPServer in Altium to run more MCP tools afterwards."
+  },
+  "isError": false
+}

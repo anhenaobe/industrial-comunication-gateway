@@ -1,0 +1,42 @@
+[
+  {
+    "filename": "TDS3011P.pdf",
+    "original": "C:\\dev\\7mo\\design\\Datasheets_industrial_gateway\\TDS3011P.pdf",
+    "local": "hardware\\academic_rev1\\libraries\\sources\\input_protection\\TDS3011P.pdf",
+    "sha256": "09bd22042ddc490ab66c08b27568018bf9eed54b52cc15c61be0168e144178b7",
+    "official_url": "https://www.semtech.com/products/circuit-protection/surgeswitch/tds3011p",
+    "reused_existing_project_pdf": false
+  },
+  {
+    "filename": "NIS3071-D.PDF",
+    "original": "C:\\dev\\7mo\\design\\Datasheets_industrial_gateway\\NIS3071-D.PDF",
+    "local": "hardware\\academic_rev1\\libraries\\sources\\input_protection\\NIS3071-D.PDF",
+    "sha256": "834d85c1831703cc5c7424a386e4c452f6d0f8967fb1e1ad811470699947db69",
+    "official_url": "https://www.onsemi.com/pdf/datasheet/nis3071-d.pdf",
+    "reused_existing_project_pdf": false
+  },
+  {
+    "filename": "4414fc.pdf",
+    "original": "C:\\dev\\7mo\\design\\Datasheets_industrial_gateway\\4414fc.pdf",
+    "local": "hardware\\academic_rev1\\libraries\\sources\\input_protection\\4414fc.pdf",
+    "sha256": "bdcfdd62cf937797c714c28b9f5f2d5a78660eabe82cf77c00dabdffc7edbd68",
+    "official_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/4414fc.pdf",
+    "reused_existing_project_pdf": false
+  },
+  {
+    "filename": "DMP6023LSS.pdf",
+    "original": "C:\\dev\\7mo\\design\\Datasheets_industrial_gateway\\DMP6023LSS.pdf",
+    "local": "hardware\\academic_rev1\\libraries\\sources\\input_protection\\DMP6023LSS.pdf",
+    "sha256": "3dc01428a76cd4de4f5149e8218f735f337ab3f1782ece0df56ba2d9fcee95e4",
+    "official_url": "https://www.diodes.com/datasheet/download/DMP6023LSS.pdf",
+    "reused_existing_project_pdf": false
+  },
+  {
+    "filename": "lmr36015.pdf",
+    "original": "C:\\dev\\7mo\\design\\Datasheets_industrial_gateway\\lmr36015.pdf",
+    "local": "hardware\\academic_rev1\\libraries\\sources\\input_protection\\lmr36015.pdf",
+    "sha256": "debff5752da9f7fd226c514909578ce49a46dcea4c98b5e1617d8aa742ce0d67",
+    "official_url": "https://www.ti.com/lit/ds/symlink/lmr36015.pdf",
+    "reused_existing_project_pdf": false
+  }
+]

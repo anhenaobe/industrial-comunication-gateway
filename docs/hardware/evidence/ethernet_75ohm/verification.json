@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "source_inventory": [
+    65,
+    36
+  ],
+  "existing_objects_unchanged": [
+    64,
+    35
+  ],
+  "validation_errors": 0,
+  "validation_warnings": 0,
+  "resistor_positions": 4,
+  "retained_mpn": "CRCW080575R0FKEA",
+  "lcsc_code": "C844859",
+  "native_compilation": "NOT_RUN; existing IntLib stale",
+  "library_files_changed": [
+    "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib"
+  ],
+  "external_native_changes_observed": [
+    "hardware\\academic_rev1\\Ethernet.SchDoc",
+    "hardware\\academic_rev1\\Industrial_Gateway_Academic.PrjPcb",
+    "hardware\\academic_rev1\\MCU.SchDoc",
+    "hardware\\academic_rev1\\Power.SchDoc"
+  ],
+  "schematic_or_project_write_operations_issued": false,
+  "professor_and_other_library_hashes_preserved": true,
+  "unrelated_BOM_rows_preserved": true,
+  "topology_preserved": true,
+  "local_links_checked": 22,
+  "git_diff_check": 0,
+  "git_status": " M firmware/poc/.gitignore\n M firmware/poc/CMakeLists.txt\n M firmware/poc/README.md\n M firmware/poc/prj.conf\n?? \"converter_pcb_layout_appli-e (1).pdf\"\n?? docs/hardware/\n?? firmware/poc/.vscode/\n?? firmware/poc/platformio.ini\n?? firmware/poc/zephyr/\n?? hardware/\n?? \"shared_lib (1).IntLib\"\n?? tmp/\n"
+}

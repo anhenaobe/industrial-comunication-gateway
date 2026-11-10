@@ -1,0 +1,663 @@
+[
+  {
+    "asset_id": "ACTIVE_STM32H723VET6",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_STM32H723VET6"
+    ],
+    "mpn": "STM32H723VET6",
+    "symbol": "STM32H723VET6",
+    "footprint": "GW_LQFP100_ST_1L",
+    "source": "DS13313 Rev5 fig5, table7 pp57-71, fig65 p218 (PDF p219)",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "GPIOs use bidirectional ERC type; oscillator pins have dedicated types. VCAP power pins are LDO outputs, never connect to VDD.",
+    "package_requirement": "GW_LQFP100_ST_1L"
+  },
+  {
+    "asset_id": "ACTIVE_DP83826IRHBR",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_DP83826IRHBR"
+    ],
+    "mpn": "DP83826IRHBR",
+    "symbol": "DP83826IRHBR",
+    "footprint": "GW_RHB0032M_TI",
+    "source": "SNLS647I table5-1 pp5-6; exposed pad p7; RHB0032M 4223725/A PDF pp111-113",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Multi-function strap pins conservatively bidirectional. Mode not frozen. EP33 must be soldered to ground; thermal vias are board-level optional, filled/plugged/tented if under paste.",
+    "package_requirement": "GW_RHB0032M_TI"
+  },
+  {
+    "asset_id": "ACTIVE_LMR36015FBRNXR",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_LMR36015FBRNXR"
+    ],
+    "mpn": "LMR36015FBRNXR",
+    "symbol": "LMR36015FBRNXR",
+    "footprint": "GW_RNX0012A_TI",
+    "source": "SNVSB49D p4; RNX0012A 4222858/A PDF pp44-46 and RNX0012B 4223969/C pp47-49",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "CAD_CANDIDATE: confirm delivered RNX revision A/B. NC3 is externally connected to SW per TI. RNX12 is SW, not a ground exposed pad. Two footprint variants retained.",
+    "package_requirement": "GW_RNX0012A_TI"
+  },
+  {
+    "asset_id": "ACTIVE_THVD1420DR",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_THVD1420DR"
+    ],
+    "mpn": "THVD1420DR",
+    "symbol": "THVD1420DR",
+    "footprint": "GW_SOIC8_1P27_5P4",
+    "source": "SLLSF78B table4-1 p3; D0008A 4214825/C PDF pp30-32",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "",
+    "package_requirement": "GW_SOIC8_1P27_5P4"
+  },
+  {
+    "asset_id": "ACTIVE_ATA6561_GAQW",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_ATA6561_GAQW"
+    ],
+    "mpn": "ATA6561-GAQW",
+    "symbol": "ATA6561-GAQW",
+    "footprint": "GW_SOIC8_1P27_5P4",
+    "source": "DS20005991B pin table p3; C04-2057-OA RevE p19",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "",
+    "package_requirement": "GW_SOIC8_1P27_5P4"
+  },
+  {
+    "asset_id": "ACTIVE_ISO1212DBQR",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_ISO1212DBQR"
+    ],
+    "mpn": "ISO1212DBQR",
+    "symbol": "ISO1212DBQR",
+    "footprint": "GW_DBQ0016A_TI",
+    "source": "SLLSEY7G table4-2 p4; DBQ0016A 4214846/A PDF pp44-46",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "SUB12 and SUB13 must remain separate floating nets. TI recommends an individual 2x2mm floating copper island for each; these board-level islands are NOT encoded in this package footprint. Never join to either FGND, GND1 or each other. NC6/7 unconnected.",
+    "package_requirement": "GW_DBQ0016A_TI"
+  },
+  {
+    "asset_id": "ACTIVE_SN74LVC2T45DCTR",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_SN74LVC2T45DCTR"
+    ],
+    "mpn": "SN74LVC2T45DCTR",
+    "symbol": "SN74LVC2T45DCTR",
+    "footprint": "GW_DCT0008A_TI",
+    "source": "SCES516N table4-1 p2; DCT0008A 4220784/D PDF pp28-30",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Electrical candidate only; no OE pin. VOH at BSP75N input load remains open.",
+    "package_requirement": "GW_DCT0008A_TI"
+  },
+  {
+    "asset_id": "ACTIVE_BSP75NTA",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_BSP75NTA"
+    ],
+    "mpn": "BSP75NTA",
+    "symbol": "BSP75NTA",
+    "footprint": "MISSING",
+    "source": "Diodes DS33016 Rev7-2 pp1,8; terminal numbering absent",
+    "cad_status": "CAD_BLOCKED",
+    "symbol_status": "CAD_BLOCKED",
+    "footprint_status": "CAD_BLOCKED",
+    "limitations": "CAD_BLOCKED: terminal identifiers are role names, not manufacturer numbers. Tab=Source, isolated from Drain. Need exact numbered Type DN drawing/model before any placement or footprint binding.",
+    "package_requirement": "BSP75NTA_SOT223_DN_NUMBERING_BLOCKED"
+  },
+  {
+    "asset_id": "SPEC_dc5e12a5",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "MCU_CVDD1",
+      "MCU_CVDD2",
+      "MCU_CVDD3",
+      "MCU_CVDD4",
+      "MCU_CVDD5",
+      "MCU_CVDDA2",
+      "MCU_CVBAT2",
+      "MCU_CVREF2",
+      "MCU_CNRST",
+      "ETH_CVDDA3V3_HF",
+      "ETH_CVDDIO_HF",
+      "B3_CBOOT",
+      "B5_CBOOT",
+      "RS_CVCC",
+      "CAN_CVCC5",
+      "CAN_CVIO3V3",
+      "DO_CVCCA3V3",
+      "DO_CVCCB5",
+      "DI_CVCC"
+    ],
+    "mpn": "C0603C104K5RACTU",
+    "specification_key": "100 nF|10%|50 V; X7R; -55..125 C|N/A|0603|C0603C104K5RACTU",
+    "symbol": "GW_C0603C104K5RACTU_dc5e12a5",
+    "footprint": "GW_CAND_0603_cap",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S1 fig5/tabla7; S2 tabla2 p7",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_cap"
+  },
+  {
+    "asset_id": "SPEC_82374e08",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "MCU_CBULK"
+    ],
+    "mpn": "C0805C475K4RACTU",
+    "specification_key": "4.7 uF|10%|16 V; X7R|N/A|0805|C0805C475K4RACTU",
+    "symbol": "GW_C0805C475K4RACTU_82374e08",
+    "footprint": "GW_CAND_0805_cap",
+    "source": "Professor_shared.SchLib:Cap_10uF_0805_25V_; S2 tabla2 p7; P3 ficha KEMET p1",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0805_cap"
+  },
+  {
+    "asset_id": "SPEC_c3932faa",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "MCU_CVDDA1",
+      "MCU_CVBAT1",
+      "MCU_CVREF1",
+      "ETH_CVDDA3V3_1U",
+      "ETH_CVDDIO_1U",
+      "B3_CVCC",
+      "B5_CVCC"
+    ],
+    "mpn": "CL10A105KB8NNNC",
+    "specification_key": "1 uF|10%|50 V; X5R; -55..85 C|N/A|0603|CL10A105KB8NNNC",
+    "symbol": "GW_CL10A105KB8NNNC_c3932faa",
+    "footprint": "GW_CAND_0603_cap",
+    "source": "Professor_shared.SchLib:Cap_1uF_0603_50V; S1 fig5; S2 tabla2 pp7-8",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_cap"
+  },
+  {
+    "asset_id": "SPEC_46503424",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "MCU_CVCAP1",
+      "MCU_CVCAP2"
+    ],
+    "mpn": "C0603C225K8RACTU",
+    "specification_key": "2.2 uF|10% candidato; ST permite 20%|10 V; X7R; ESR <100 mOhm|N/A|0603|C0603C225K8RACTU",
+    "symbol": "GW_C0603C225K8RACTU_46503424",
+    "footprint": "GW_CAND_0603_cap",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S1 tabla14 p92; P2 ficha KEMET p1",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_cap"
+  },
+  {
+    "asset_id": "SPEC_7289f91d",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "MCU_RBOOT",
+      "RS_RDE",
+      "RS_RRE",
+      "DO_RPDA",
+      "DO_RPDB"
+    ],
+    "mpn": "FRC0603J103TS",
+    "specification_key": "10 kOhm|5%|>= 3.3 V; tension de trabajo por verificar|0.1 W|0603|FRC0603J103TS",
+    "symbol": "GW_FRC0603J103TS_7289f91d",
+    "footprint": "GW_CAND_0603_res",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S2 seccion5.2 fig19 p30: 10 kOhm ejemplo tipico",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_res"
+  },
+  {
+    "asset_id": "SPEC_c0450d1e",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "MCU_JSWD"
+    ],
+    "mpn": "TBD",
+    "specification_key": "6 posiciones|TBD|TBD|N/A|TBD|TBD",
+    "symbol": "GW_H_Male_6x1_TH_100mil_c0450d1e",
+    "footprint": "GW_CAND_H_6x1_TH_100mil",
+    "source": "Professor_shared.SchLib:H_Male_6x1_TH_100mil; S2 seccion6; propuesta pinout pendiente",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_H_6x1_TH_100mil"
+  },
+  {
+    "asset_id": "SPEC_0f078dd9",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "MCU_SRESET"
+    ],
+    "mpn": "TBD",
+    "specification_key": "SPST-NO|TBD|TBD|N/A|TBD|TBD",
+    "symbol": "GW_Sw_PUSH_4.5x4.5x5.0xmm_0f078dd9",
+    "footprint": "MISSING",
+    "source": "Professor_shared.SchLib:Sw_PUSH_4.5x4.5x5.0xmm; S2 seccion6; propuesta pinout pendiente",
+    "cad_status": "CAD_BLOCKED",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_BLOCKED",
+    "limitations": "Footprint unfinished: paired pads 1/1 and 2/2 in professor source are rejected by official writer duplicate-designator validation. Exact switch MPN/terminal-pairing drawing and native copy verification required. No pad renumbering invented.",
+    "package_requirement": "TBD"
+  },
+  {
+    "asset_id": "SPEC_f89d9046",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "MCU_JBOOT"
+    ],
+    "mpn": "TBD",
+    "specification_key": "2 posiciones|TBD|TBD|N/A|TBD|TBD",
+    "symbol": "GW_H_Male_2x1_TH_100mil_f89d9046",
+    "footprint": "GW_CAND_H_2x1_TH_100mil",
+    "source": "Professor_shared.SchLib:H_Male_2x1_TH_100mil; S2 seccion6; propuesta pinout pendiente",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_H_2x1_TH_100mil"
+  },
+  {
+    "asset_id": "SPEC_97f3ee33",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "ETH_CVDDA3V3_10N",
+      "ETH_CVDDIO_10N",
+      "DI_CIN1",
+      "DI_CIN2"
+    ],
+    "mpn": "C0603C103K1RACTU",
+    "specification_key": "10 nF|10%|100 V; X7R; -55..125 C|N/A|0603|C0603C103K1RACTU",
+    "symbol": "GW_C0603C103K1RACTU_97f3ee33",
+    "footprint": "GW_CAND_0603_cap",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S3 fig9-6 p99",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_cap"
+  },
+  {
+    "asset_id": "SPEC_c6e24382",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "ETH_CVDDA3V3_10U",
+      "ETH_CVDDIO_10U"
+    ],
+    "mpn": "CL21A106KAYNNNE",
+    "specification_key": "10 uF|10%|25 V; X5R; -55..85 C|N/A|0805|CL21A106KAYNNNE",
+    "symbol": "GW_CL21A106KAYNNNE_c6e24382",
+    "footprint": "GW_CAND_0805_cap",
+    "source": "Professor_shared.SchLib:Cap_10uF_0805_25V_; S3 fig9-6 p99; Samsung ficha oficial",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0805_cap"
+  },
+  {
+    "asset_id": "SPEC_fa733a70",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "ETH_CEXT"
+    ],
+    "mpn": "C0603C202J5GACTU",
+    "specification_key": "2 nF|5% seleccion|50 V; C0G|N/A|0603|C0603C202J5GACTU",
+    "symbol": "GW_C0603C202J5GACTU_fa733a70",
+    "footprint": "GW_CAND_0603_cap",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S3 tabla5-1 p5; P4 ficha KEMET p1",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_cap"
+  },
+  {
+    "asset_id": "SPEC_f42a9329",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "ETH_RBIAS"
+    ],
+    "mpn": "RC0603FR-076K49L",
+    "specification_key": "6.49 kOhm|1%|75 V max; limite sqrt(P*R)|0.1 W @70 C|0603|RC0603FR-076K49L",
+    "symbol": "GW_RC0603FR-076K49L_f42a9329",
+    "footprint": "GW_CAND_0603_res",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S3 tabla5-1; P5 ficha Yageo p1",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_res"
+  },
+  {
+    "asset_id": "SPEC_b905c5f0",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "ETH_RRMII"
+    ],
+    "mpn": "RC0603FR-072K49L",
+    "specification_key": "2.49 kOhm|1%|75 V max; limite sqrt(P*R)|0.1 W @70 C|0603|RC0603FR-072K49L",
+    "symbol": "GW_RC0603FR-072K49L_b905c5f0",
+    "footprint": "GW_CAND_0603_res",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S3 tablas8-6/8-7 fig8-13 pp48-49",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_res"
+  },
+  {
+    "asset_id": "SPEC_c68e3ad6",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "ETH_FB"
+    ],
+    "mpn": "HCB1608KF-600T20",
+    "specification_key": "60 Ohm @100 MHz candidato|25%|2 A; DCR 100 mOhm segun CAD|N/A|0603|HCB1608KF-600T20",
+    "symbol": "GW_HCB1608KF-600T20_c68e3ad6",
+    "footprint": "GW_CAND_0603_fb",
+    "source": "Professor_shared.SchLib:FB_60_0603_2A; S3 fig9-6: opcional",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_fb"
+  },
+  {
+    "asset_id": "SPEC_71dfd711",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_L"
+    ],
+    "mpn": "XAL4030-682MEC",
+    "specification_key": "6.8 uH|20%|Isat25C 3.6 A; Irms20C 3.0 A|N/A|XAL4030|XAL4030-682MEC",
+    "symbol": "GW_XAL4030-682MEC_71dfd711",
+    "footprint": "MISSING",
+    "source": "Professor_shared.SchLib:Inductor_10uH_4A_7.2*6.6mm; S5 tabla10-1; ecuaciones4-5; P6 tabla806-1",
+    "cad_status": "CAD_BLOCKED",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_BLOCKED",
+    "limitations": "Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.",
+    "package_requirement": "XAL4030"
+  },
+  {
+    "asset_id": "SPEC_5f18f946",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_CIN",
+      "B5_CIN"
+    ],
+    "mpn": "C5750X7R2A475K230KA",
+    "specification_key": "4.7 uF por unidad; Ceff total >=4.7 uF objetivo conservador|10%|100 V; X7R|N/A|2220|C5750X7R2A475K230KA",
+    "symbol": "GW_C5750X7R2A475K230KA_5f18f946",
+    "footprint": "MISSING",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S5 seccion10.2.1.2.6; P7 TDK ficha oficial",
+    "cad_status": "CAD_BLOCKED",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_BLOCKED",
+    "limitations": "Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.",
+    "package_requirement": "2220"
+  },
+  {
+    "asset_id": "SPEC_e16e52b8",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_CHF",
+      "B5_CHF"
+    ],
+    "mpn": "C0805C224K1RACTU",
+    "specification_key": "220 nF|10%|100 V; X7R|N/A|0805|C0805C224K1RACTU",
+    "symbol": "GW_C0805C224K1RACTU_e16e52b8",
+    "footprint": "GW_CAND_0805_cap",
+    "source": "Professor_shared.SchLib:Cap_10uF_0805_25V_; S5 seccion10.2.1.2.6 p23; ficha KEMET local p1",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0805_cap"
+  },
+  {
+    "asset_id": "SPEC_bb412b42",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_COUT",
+      "B5_COUT"
+    ],
+    "mpn": "C3225X7R1C156M250AB",
+    "specification_key": "15 uF por unidad; 45 uF nominal banco|20%|16 V; X7R|N/A|1210|C3225X7R1C156M250AB",
+    "symbol": "GW_C3225X7R1C156M250AB_bb412b42",
+    "footprint": "MISSING",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S5 tabla10-1: 3x15 uF nominal; P8 TDK ficha oficial",
+    "cad_status": "CAD_BLOCKED",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_BLOCKED",
+    "limitations": "Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.",
+    "package_requirement": "1210"
+  },
+  {
+    "asset_id": "SPEC_ac663db8",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_RFBT",
+      "B5_RFBT"
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "specification_key": "100 kOhm|1%|75 V max; limite sqrt(P*R)|0.1 W @70 C|0603|RC0603FR-07100KL",
+    "symbol": "GW_RC0603FR-07100KL_ac663db8",
+    "footprint": "GW_CAND_0603_res",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S5 tabla10-1 y ecuacion3; ficha Yageo local p1",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_res"
+  },
+  {
+    "asset_id": "SPEC_a8308c0c",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_RFBB"
+    ],
+    "mpn": "RC0603FR-0743K2L",
+    "specification_key": "43.2 kOhm|1%|75 V max; limite sqrt(P*R)|0.1 W @70 C|0603|RC0603FR-0743K2L",
+    "symbol": "GW_RC0603FR-0743K2L_a8308c0c",
+    "footprint": "GW_CAND_0603_res",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S5 tabla10-1 y ecuacion3; ficha Yageo local p1",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_res"
+  },
+  {
+    "asset_id": "SPEC_c75b007a",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_CFF",
+      "B5_CFF"
+    ],
+    "mpn": "C0603C200J5GACTU",
+    "specification_key": "20 pF|5%|50 V; C0G|N/A|0603|C0603C200J5GACTU",
+    "symbol": "GW_C0603C200J5GACTU_c75b007a",
+    "footprint": "GW_CAND_0603_cap",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S5 tabla10-1 y seccion10.2.1.2.9; ficha KEMET p1",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_cap"
+  },
+  {
+    "asset_id": "SPEC_b36cb917",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B5_L"
+    ],
+    "mpn": "XAL4040-103MEC",
+    "specification_key": "10 uH|20%|Isat25C 3.0 A; Irms20C 2.2 A|N/A|XAL4040|XAL4040-103MEC",
+    "symbol": "GW_XAL4040-103MEC_b36cb917",
+    "footprint": "MISSING",
+    "source": "Professor_shared.SchLib:Inductor_10uH_4A_7.2*6.6mm; S5 tabla10-1; ecuaciones4-5; P6 tabla806-1",
+    "cad_status": "CAD_BLOCKED",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_BLOCKED",
+    "limitations": "Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.",
+    "package_requirement": "XAL4040"
+  },
+  {
+    "asset_id": "SPEC_10698e9e",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B5_RFBB"
+    ],
+    "mpn": "RC0603FR-0724K9L",
+    "specification_key": "24.9 kOhm|1%|75 V max; limite sqrt(P*R)|0.1 W @70 C|0603|RC0603FR-0724K9L",
+    "symbol": "GW_RC0603FR-0724K9L_10698e9e",
+    "footprint": "GW_CAND_0603_res",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S5 tabla10-1 y ecuacion3; ficha Yageo local p1",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_res"
+  },
+  {
+    "asset_id": "SPEC_16238e52",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "IN_J"
+    ],
+    "mpn": "JL126-50002G01",
+    "specification_key": "2 polos + politica PE|TBD|>=30 V continuo mas transitorios; corriente TBD|N/A|TBD|JL126-50002G01",
+    "symbol": "GW_JL126-50002G01_16238e52",
+    "footprint": "GW_CAND_CON_2x1_TH_5MM",
+    "source": "Professor_shared.SchLib:Con_2x1_TH_5mm; Alcance usuario; inventario borneras docente",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Professor pads have Y offset 0.127mm: pin1 y=.254, pin2 y=.127. Exact JL126 drawing required; footprint retained as explicitly unverified candidate.",
+    "package_requirement": "GW_CAND_CON_2x1_TH_5MM"
+  },
+  {
+    "asset_id": "SPEC_c8eb51d2",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "RS_RPULSE"
+    ],
+    "mpn": "CRCW0603010RJNEAHP",
+    "specification_key": "10 Ohm|5%|Pulse-proof segun ficha exacta|Pulsos por verificar|0603|CRCW0603010RJNEAHP",
+    "symbol": "GW_CRCW0603010RJNEAHP_c8eb51d2",
+    "footprint": "GW_CAND_0603_res",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S6 fig8-5 tabla8-1 p19",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_res"
+  },
+  {
+    "asset_id": "SPEC_d57a488f",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "RS_J",
+      "CAN_J"
+    ],
+    "mpn": "MX126-5.0-03P-GN01-Cu-S-A",
+    "specification_key": "3 polos|TBD|TBD|N/A|TBD|MX126-5.0-03P-GN01-Cu-S-A",
+    "symbol": "GW_MX126-5.0-03P-GN01-Cu-S-A_d57a488f",
+    "footprint": "GW_CAND_CON_3x1_TH_5mm",
+    "source": "Professor_shared.SchLib:Con_3x1_TH_5mm; S6 red half-duplex; inventario docente",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_CON_3x1_TH_5mm"
+  },
+  {
+    "asset_id": "SPEC_ddbad43f",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "DO_JLOAD"
+    ],
+    "mpn": "JL126-50002G01",
+    "specification_key": "2 polos por canal|TBD|>=30 V y0.5 A/canal mas fallas|N/A|TBD|JL126-50002G01",
+    "symbol": "GW_JL126-50002G01_ddbad43f",
+    "footprint": "GW_CAND_CON_2x1_TH_5MM",
+    "source": "Professor_shared.SchLib:Con_2x1_TH_5mm; S10 low-side; requisitos alcance",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Professor pads have Y offset 0.127mm: pin1 y=.254, pin2 y=.127. Exact JL126 drawing required; footprint retained as explicitly unverified candidate.",
+    "package_requirement": "GW_CAND_CON_2x1_TH_5MM"
+  },
+  {
+    "asset_id": "SPEC_a6fad8df",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "DI_RSENSE1",
+      "DI_RSENSE2"
+    ],
+    "mpn": "RC0603FR-07562RL",
+    "specification_key": "562 Ohm|1%|75 V max; limite sqrt(P*R)|0.1 W @70 C|0603|RC0603FR-07562RL",
+    "symbol": "GW_RC0603FR-07562RL_a6fad8df",
+    "footprint": "GW_CAND_0603_res",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S11 seccion8.2.1.2.1 ecuacion1; ficha Yageo local",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_0603_res"
+  },
+  {
+    "asset_id": "SPEC_8a7ef64c",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "DI_J"
+    ],
+    "mpn": "MX126-5.0-03P-GN01-Cu-S-A",
+    "specification_key": "3 polos si COM comun|TBD|TBD|N/A|TBD|MX126-5.0-03P-GN01-Cu-S-A",
+    "symbol": "GW_MX126-5.0-03P-GN01-Cu-S-A_8a7ef64c",
+    "footprint": "GW_CAND_CON_3x1_TH_5mm",
+    "source": "Professor_shared.SchLib:Con_3x1_TH_5mm; S11 fig8-2",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_CANDIDATE",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+    "package_requirement": "GW_CAND_CON_3x1_TH_5mm"
+  }
+]

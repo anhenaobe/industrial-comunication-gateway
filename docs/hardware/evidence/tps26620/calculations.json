@@ -1,0 +1,47 @@
+{
+  "ilim_A": 0.49894736842105264,
+  "ilim_with_R1pct_A": [
+    0.4940072954663887,
+    0.5039872408293461
+  ],
+  "ilim_datasheet_A": [
+    0.47,
+    0.5,
+    0.52
+  ],
+  "ilim_screen_low_A": 0.4653465346534653,
+  "uv_rise_V": 15.759241706161138,
+  "uv_fall_typ_V": 14.445971563981045,
+  "ov_rise_V": 33.14152823920266,
+  "ov_fall_typ_V": 30.932093023255817,
+  "uv_rise_bounds_V": [
+    15.213090892027587,
+    16.454701996265978
+  ],
+  "ov_rise_bounds_V": [
+    31.967205684023543,
+    34.63148192892379
+  ],
+  "COUT_nom_uF": 19.68,
+  "COUT_max_uF": 21.648,
+  "default_24V_charge_A": 0.7871999999999999,
+  "ramps_ms": {
+    "18": 3.69,
+    "24": 4.92,
+    "30": 6.15
+  },
+  "typ_charge_A": 0.10544307840000001,
+  "fast_charge_A": 0.141231552,
+  "start_bound_A": 0.359231552,
+  "load_W": 2.8099999999999996,
+  "power_typ_W": 0.032798542,
+  "power_screen_W": 0.0521312,
+  "assumptions": [
+    "0.217A conservative nominal load allowance; not a constant-power startup guarantee",
+    "3V3/5V load allocation2.81W, buckeff75%, SS3drop0.6V; TPS RON0.8ohm andIQ0.482mA screening give~0.218A at18V",
+    "No DO drain current through main electronics input; no extra24V bulk beyond two input banks",
+    "Threshold bounds omit leakage; at18V string21.65uA >>20x combined0.2uA max pin leakage",
+    "OV/UV thresholds local to IN/RTN after diode; source cutoff shifted by diode drop",
+    "Table7.5 1.20V thresholds supersede application prose1.19V for calculation"
+  ]
+}

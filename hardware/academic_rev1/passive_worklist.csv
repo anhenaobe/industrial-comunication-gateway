@@ -1,0 +1,40 @@
+﻿block,group,qty_academic,value,requirements,mpn,reuse,evidence,status
+MCU,C_VDD,5,100nF,X7R; suitable effective capacitance at3.3V,TBD,new MPN; reject teacher Y5V as automatic substitute,AN5419 table2; five VDD pins in DS13313,VALUE_REFERENCE_MPN_OPEN
+MCU,C_VDD_BULK,1,4.7uF,ceramic; effective capacitance and voltage rating TBD,TBD,new,AN5419 table2,VALUE_REFERENCE_MPN_OPEN
+MCU,C_VCAP,2,2.2uF,+/-20% effective; ESR<100mOhm; LDO mode,GRM188R71A225KE15D candidate,new; primary datasheet download failed; bias/ESR not qualified,DS13313 table14; Murata exact product reference,CANDIDATE_NOT_FROZEN
+MCU,C_VDDA_1,1,1uF,ceramic,CL10A105KB8NNNC candidate,teacher symbol/footprint present; effective C not qualified,AN5419 table2; library_inventory.csv,VALUE_REFERENCE_MPN_OPEN
+MCU,C_VDDA_2,1,100nF,ceramic,TBD,new,AN5419 table2,VALUE_REFERENCE_MPN_OPEN
+MCU,C_VBAT,2,1uF + 100nF,VBAT tied to3.3V without battery,TBD,"count is two capacitors, not two pairs",AN5419 table2,VALUE_REFERENCE_MPN_OPEN
+MCU,VREF_network,TBD,TBD,VREF+ to analog supply or supported reference; no conflicting VREFBUF,TBD,not frozen,DS13313 + AN5419 table2,OPEN
+MCU,HSE_NRST_BOOT_SWD,TBD,TBD,"clock, CL, reset and BOOT network; debug connector",TBD,not frozen,AN5419; DS13313,OPEN
+Ethernet,R_RBIAS,1,6.49kOhm,1%,CRCW04026K49FKED reference,new exact MPN from EVM,DP83826I pin10; DP83826EVM R48,VALUE_REFERENCE_CAD_OPEN
+Ethernet,decoupling_straps_clock_MDI,TBD,TBD,full exact network must be selected from reference and mode,TBD,reference schematic downloaded; not copied blindly,DP83826I sections8.4/9; EVM main schematic,OPEN
+RS485,C_RS,1,100nF,ceramic near VCC8/GND5,TBD,new X7R MPN,THVD1420 supply recommendations,VALUE_REFERENCE_MPN_OPEN
+RS485,R_RS_TERM,1,120Ohm,select power/derating; jumper at end of bus,TBD,teacher120Ohm0.1W not approved for all conditions,THVD1420 application transmission-line termination,VALUE_REFERENCE_RATING_OPEN
+RS485,R_DIR_PULL,1,TBD,pull-down; DE and /RE default receive,TBD,teacher10k available but leakage/drive check pending,THVD1420 control truth table,OPEN
+RS485,bus_protection_bias,TBD,TBD,external bias only if justified; protection by fault/surge target,TBD,not frozen,THVD1420 fail-safe and transient sections,OPEN
+CAN,C_CAN_VCC,1,100nF,ceramic near VCC3/GND2,TBD,new X7R MPN,Microchip DS50002649A fig4-1,VALUE_REFERENCE_MPN_OPEN
+CAN,C_CAN_VIO,1,100nF,ceramic near VIO5/GND2,TBD,new X7R MPN,Microchip DS50002649A fig4-1,VALUE_REFERENCE_MPN_OPEN
+CAN,C_CAN_BULK,TBD,TBD,"depends on local5V supply; 22uF is reference example, not mandatory",TBD,do not add blindly to buck Cout,Microchip DS50002649A fig4-1 note1,OPEN
+CAN,R_CAN_TERM,1,120Ohm,simple removable termination; power/derating TBD,TBD,no split termination selected,Microchip DS50002649A section3.5,VALUE_REFERENCE_RATING_OPEN
+CAN,control_pulls_and_TVS,TBD,TBD,TXD recessive and STBY high at reset; compatible bus protection,TBD,not frozen,DS20005991B; DS50002649A,OPEN
+DI,R_DI_SENSE,2,562Ohm,1%; 0.1W at70C; 0603,RC0603FR-07562RL,new; manufacturer specsheet downloaded; footprint qualification pending,ISO1212 section8.2.1.2.1; Yageo exact specsheet,VALUE_AND_MPN_REFERENCE_CAD_OPEN
+DI,R_DI_THR,2,1kOhm,MELF >=0.25W with surge/pulse checks,TBD,teacher1k0603_0.1W rejected for this role,ISO1212 section8.2.1.2.1 and table8-1 Type3,VALUE_REFERENCE_PACKAGE_OPEN
+DI,C_DI_IN,2,10nF,100V X7R10%; 0603 candidate,C0603C103K1RACTU,new; exact KEMET specsheet downloaded; pulse/derating and layout open,ISO1212 table8-1 Type3; KEMET specsheet,VALUE_AND_MPN_REFERENCE_CAD_OPEN
+DI,C_DI_VCC1,1,100nF,ceramic on logic side,TBD,new X7R MPN,ISO1212 section8.2.1.1,VALUE_REFERENCE_MPN_OPEN
+DI,PE_filter_optional,TBD,TBD,no PE capacitor until isolation/ground strategy set,TBD,"500pF is maximum effective guidance in referenced surge setup, not automatic BOM",ISO1212 fig8-9,OPEN
+DO,C_TRANSLATOR,2,100nF each,one bypass per VCCA/VCCB,TBD,new X7R MPN,SN74LVC2T45 supply recommendations,VALUE_REFERENCE_MPN_OPEN
+DO,control_pulls_series_load_clamp,TBD,TBD,OFF on reset/power loss; verify VIN>=4.5V for BSP protection,TBD,do not freeze series resistors or inductive-load limits,BSP75N p4; SN74LVC2T45 table5.5,BLOCKED_VOH_AND_LOAD
+Power,D_REVERSE,1,60V3A Schottky candidate,SMPC; thermal and surge coordination required,SS3P6L-M3/86A,CAD copied from neighbor; not verified dimensionally,Vishay88987; single-input proposal,CANDIDATE_NOT_FROZEN
+Power,R_EFUSE_LIM,1,43.2kOhm,E96; tolerance and worst-case trip review pending,TBD,baseline reference retained; not a guaranteed1.4A threshold,master6.4; NIS3071 fig5 MT3/MT4,VALUE_BASELINE_PARTIAL
+Power,EFUSE_caps_dvdt_EN_FAULT,TBD,TBD,"inrush, input/output overshoot, default EN and FAULT",TBD,no C_DVDD pin exists on selectedNIS3071,NIS3071 table1 and application,OPEN
+Buck3V3,L3,1,6.8uH guide,Isat/Irms/DCR/losses not selected,TBD,do not reuse historicalLMR66420 or AR22uH,LMR36015FB table10-1,GUIDE_NOT_FROZEN
+Buck5V,L5,1,10uH guide,Isat/Irms/DCR/losses not selected,TBD,teacher10uH parts not automatically qualified,LMR36015FB table10-1,GUIDE_NOT_FROZEN
+Bucks,C_IN,2 sets,4.7uF +2x220nF per IC guide,check effective C; rated for input/clamp and derating,TBD,no copy of47nF bypass or310nF effective Cin from AR BOM,LMR36015 section10.2.1.2.6,GUIDE_NOT_FROZEN
+Bucks,C_OUT,2 sets,3x15uF per IC guide,"minimum/effective C, ESR and loop by rail",TBD,not an approved common BOM,LMR36015 table10-1,GUIDE_NOT_FROZEN
+Buck3V3,R_FB3,2,100k +43.2kOhm guide,1V feedback reference; tolerances not closed,TBD,not eFuse R_LIM,LMR36015 table10-1,GUIDE_NOT_FROZEN
+Buck5V,R_FB5,2,100k +24.9kOhm guide,1V feedback reference; tolerances not closed,TBD,AR resistors are candidates only,LMR36015 table10-1,GUIDE_NOT_FROZEN
+Bucks,C_FF,2,20pF guide,loop check by rail,TBD,not teacher33pF substitute,LMR36015 table10-1,GUIDE_NOT_FROZEN
+Bucks,C_BOOT,2,100nF >=16V,BOOT-SW,TBD,new; AR10V part not automatically approved,LMR36015 section10.2.1.2.7,VALUE_REFERENCE_MPN_OPEN
+Bucks,C_VCC,2,1uF16V,VCC-GND internal bias only,TBD,teacher1uF50V possible after capacitance qualification,LMR36015 section10.2.1.2.8,VALUE_REFERENCE_MPN_OPEN
+Bucks,EN_PG_input_protection,TBD,TBD,no floatingEN; PG pull-up domain3.3V if used,TBD,supply sequencing and UVLO still open,LMR36015 pin table and application,OPEN

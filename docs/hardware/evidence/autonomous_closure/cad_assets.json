@@ -1,0 +1,739 @@
+[
+  {
+    "asset_id": "CLOSURE_MMBT3904-7-F",
+    "item_kind": "ACTIVE",
+    "component_ids": [],
+    "mpn": "MMBT3904-7-F",
+    "symbol": "MMBT3904-7-F",
+    "footprint": "GW_MMBT3904_BEC_DIODES",
+    "source": "Diodes DS30036 Rev27-2 March2025 p1 top view/order, p3 electrical, p6 suggested lands",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "package_requirement": "GW_MMBT3904_BEC_DIODES",
+    "limitations": "Manufacturer geometry/functional terminal positions verified; native placement/transfer not performed. Process expansions are stated prototype choices."
+  },
+  {
+    "asset_id": "CLOSURE_DMP2035U-7",
+    "item_kind": "ACTIVE",
+    "component_ids": [],
+    "mpn": "DMP2035U-7",
+    "symbol": "DMP2035U-7",
+    "footprint": "GW_DMP2035U_GSD_DIODES",
+    "source": "Diodes DS31830 Rev11-2 June2025 p1 top view/order,p2 electrical,p6 suggested lands",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "package_requirement": "GW_DMP2035U_GSD_DIODES",
+    "limitations": "Manufacturer geometry/functional terminal positions verified; native placement/transfer not performed. Process expansions are stated prototype choices."
+  },
+  {
+    "asset_id": "CLOSURE_TB002-500-02BE",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "IN_J",
+      "DO_JLOAD",
+      "DO_JSUPPLY"
+    ],
+    "mpn": "TB002-500-02BE",
+    "symbol": "TB002-500-02BE",
+    "footprint": "GW_TB002_500_2P_SAMESKY",
+    "source": "Same Sky TB002-500 Rev1.04 09/12/2024 p1 order key,p2 PCB layout",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "package_requirement": "GW_TB002_500_2P_SAMESKY",
+    "limitations": "Manufacturer geometry/functional terminal positions verified; native placement/transfer not performed. Process expansions are stated prototype choices."
+  },
+  {
+    "asset_id": "CLOSURE_TB002-500-03BE",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "RS_J",
+      "CAN_J",
+      "DI_J"
+    ],
+    "mpn": "TB002-500-03BE",
+    "symbol": "TB002-500-03BE",
+    "footprint": "GW_TB002_500_3P_SAMESKY",
+    "source": "Same Sky TB002-500 Rev1.04 09/12/2024 p1 order key,p2 PCB layout",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "package_requirement": "GW_TB002_500_3P_SAMESKY",
+    "limitations": "Manufacturer geometry/functional terminal positions verified; native placement/transfer not performed. Process expansions are stated prototype choices."
+  },
+  {
+    "asset_id": "CLOSURE_61300211121",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "MCU_JBOOT",
+      "RS_JTERM",
+      "CAN_JTERM"
+    ],
+    "mpn": "61300211121",
+    "symbol": "61300211121",
+    "footprint": "GW_WRPHD_2X1_254_WURTH",
+    "source": "Wurth 61300211121 official datasheet p1 dimensions/recommended hole pattern;1.10mm holes2.54pitch",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "package_requirement": "GW_WRPHD_2X1_254_WURTH",
+    "limitations": "Manufacturer geometry/functional terminal positions verified; native placement/transfer not performed. Process expansions are stated prototype choices."
+  },
+  {
+    "asset_id": "CLOSURE_61300611121",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "MCU_JSWD"
+    ],
+    "mpn": "61300611121",
+    "symbol": "61300611121",
+    "footprint": "GW_WRPHD_6X1_254_WURTH",
+    "source": "Wurth 61300611121 official datasheet p1 dimensions/recommended hole pattern;1.10mm holes2.54pitch",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "package_requirement": "GW_WRPHD_6X1_254_WURTH",
+    "limitations": "Manufacturer geometry/functional terminal positions verified; native placement/transfer not performed. Process expansions are stated prototype choices."
+  },
+  {
+    "asset_id": "CLOSURE_RC0603FR-074K7L",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "DO_RBASE",
+      "DO_RGS"
+    ],
+    "mpn": "RC0603FR-074K7L",
+    "symbol": "RC0603FR-074K7L",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "Yageo same-series RC0603 manufacturer land pattern; electrical order code nominal sheet pending",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW",
+    "limitations": "Manufacturer geometry/functional terminal positions verified; native placement/transfer not performed. Process expansions are stated prototype choices."
+  },
+  {
+    "asset_id": "CLOSURE_RC0603FR-07100RL",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "DO_RGATE"
+    ],
+    "mpn": "RC0603FR-07100RL",
+    "symbol": "RC0603FR-07100RL",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "Yageo same-series RC0603 manufacturer land pattern; electrical order code nominal sheet pending",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW",
+    "limitations": "Manufacturer geometry/functional terminal positions verified; native placement/transfer not performed. Process expansions are stated prototype choices."
+  },
+  {
+    "asset_id": "CLOSURE_CRCW1206120RFKEA",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "RS_RT",
+      "CAN_RT"
+    ],
+    "mpn": "CRCW1206120RFKEA",
+    "symbol": "CRCW1206120RFKEA",
+    "footprint": "GW_CRCW1206_VISHAY_20035_REFLOW",
+    "source": "Vishay20035p9 family1206 reflow;120R1% order code;0.25W at70C;stock notverified",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "package_requirement": "GW_CRCW1206_VISHAY_20035_REFLOW",
+    "limitations": "Manufacturer geometry/functional terminal positions verified; native placement/transfer not performed. Process expansions are stated prototype choices."
+  },
+  {
+    "asset_id": "SPEC_dc5e12a5",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "MCU_CVDD1",
+      "MCU_CVDD2",
+      "MCU_CVDD3",
+      "MCU_CVDD4",
+      "MCU_CVDD5",
+      "MCU_CVDDA2",
+      "MCU_CVBAT2",
+      "MCU_CVREF2",
+      "MCU_CNRST",
+      "ETH_CVDDA3V3_HF",
+      "ETH_CVDDIO_HF",
+      "B3_CBOOT",
+      "B5_CBOOT",
+      "RS_CVCC",
+      "CAN_CVCC5",
+      "CAN_CVIO3V3",
+      "DO_CVCCA3V3",
+      "DO_CVCCB5",
+      "DI_CVCC"
+    ],
+    "mpn": "C0603C104K5RACTU",
+    "specification_key": "100 nF|10%|50 V; X7R; -55..125 C|N/A|0603|C0603C104K5RACTU",
+    "symbol": "GW_C0603C104K5RACTU_dc5e12a5",
+    "footprint": "GW_0603_KEMET_NOMINAL",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S1 fig5/tabla7; S2 tabla2 p7",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_0603_KEMET_NOMINAL"
+  },
+  {
+    "asset_id": "SPEC_82374e08",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "MCU_CBULK"
+    ],
+    "mpn": "C0805C475K4RACTU",
+    "specification_key": "4.7 uF|10%|16 V; X7R|N/A|0805|C0805C475K4RACTU",
+    "symbol": "GW_C0805C475K4RACTU_82374e08",
+    "footprint": "GW_0805_KEMET_NOMINAL",
+    "source": "Professor_shared.SchLib:Cap_10uF_0805_25V_; S2 tabla2 p7; P3 ficha KEMET p1",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_0805_KEMET_NOMINAL"
+  },
+  {
+    "asset_id": "SPEC_c3932faa",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "MCU_CVDDA1",
+      "MCU_CVBAT1",
+      "MCU_CVREF1",
+      "ETH_CVDDA3V3_1U",
+      "ETH_CVDDIO_1U",
+      "B3_CVCC",
+      "B5_CVCC"
+    ],
+    "mpn": "CL10A105KB8NNNC",
+    "specification_key": "1 uF|10%|50 V; X5R; -55..85 C|N/A|0603|CL10A105KB8NNNC",
+    "symbol": "GW_CL10A105KB8NNNC_c3932faa",
+    "footprint": "GW_SAMSUNG_CL10_1608_REFLOW",
+    "source": "Samsung officialMLCC_2401 catalogp159 reflowranges;exactproductHTML L/W/Ttolerance:CL10+/-0.10,CL21+/-0.20mm. Midpointlands areexplicitprototypechoices.",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Manufacturerlandrangesverifiedforcorrectbodytolerancerow;selectedmidpointgeometry,mask+.05,paste1:1prototypechoices. X5R+85C andDCbias/applicationassumptionsunchanged. NativeinstanceECOpending.",
+    "package_requirement": "GW_SAMSUNG_CL10_1608_REFLOW"
+  },
+  {
+    "asset_id": "SPEC_46503424",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "MCU_CVCAP1",
+      "MCU_CVCAP2"
+    ],
+    "mpn": "C0603C225K8RACTU",
+    "specification_key": "2.2 uF|10% candidato; ST permite 20%|10 V; X7R; ESR <100 mOhm|N/A|0603|C0603C225K8RACTU",
+    "symbol": "GW_C0603C225K8RACTU_46503424",
+    "footprint": "GW_0603_KEMET_NOMINAL",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S1 tabla14 p92; P2 ficha KEMET p1",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_0603_KEMET_NOMINAL"
+  },
+  {
+    "asset_id": "SPEC_97f3ee33",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "ETH_CVDDA3V3_10N",
+      "ETH_CVDDIO_10N",
+      "DI_CIN1",
+      "DI_CIN2"
+    ],
+    "mpn": "C0603C103K1RACTU",
+    "specification_key": "10 nF|10%|100 V; X7R; -55..125 C|N/A|0603|C0603C103K1RACTU",
+    "symbol": "GW_C0603C103K1RACTU_97f3ee33",
+    "footprint": "GW_0603_KEMET_NOMINAL",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S3 fig9-6 p99",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_0603_KEMET_NOMINAL"
+  },
+  {
+    "asset_id": "SPEC_c6e24382",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "ETH_CVDDA3V3_10U",
+      "ETH_CVDDIO_10U"
+    ],
+    "mpn": "CL21A106KAYNNNE",
+    "specification_key": "10 uF|10%|25 V; X5R; -55..85 C|N/A|0805|CL21A106KAYNNNE",
+    "symbol": "GW_CL21A106KAYNNNE_c6e24382",
+    "footprint": "GW_SAMSUNG_CL21_2012_REFLOW",
+    "source": "Samsung officialMLCC_2401 catalogp159 reflowranges;exactproductHTML L/W/Ttolerance:CL10+/-0.10,CL21+/-0.20mm. Midpointlands areexplicitprototypechoices.",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Manufacturerlandrangesverifiedforcorrectbodytolerancerow;selectedmidpointgeometry,mask+.05,paste1:1prototypechoices. X5R+85C andDCbias/applicationassumptionsunchanged. NativeinstanceECOpending.",
+    "package_requirement": "GW_SAMSUNG_CL21_2012_REFLOW"
+  },
+  {
+    "asset_id": "SPEC_fa733a70",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "ETH_CEXT"
+    ],
+    "mpn": "C0603C202J5GACTU",
+    "specification_key": "2 nF|5% seleccion|50 V; C0G|N/A|0603|C0603C202J5GACTU",
+    "symbol": "GW_C0603C202J5GACTU_fa733a70",
+    "footprint": "GW_0603_KEMET_NOMINAL",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S3 tabla5-1 p5; P4 ficha KEMET p1",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_0603_KEMET_NOMINAL"
+  },
+  {
+    "asset_id": "SPEC_f42a9329",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "ETH_RBIAS"
+    ],
+    "mpn": "RC0603FR-076K49L",
+    "specification_key": "6.49 kOhm|1%|75 V max; limite sqrt(P*R)|0.1 W @70 C|0603|RC0603FR-076K49L",
+    "symbol": "GW_RC0603FR-076K49L_f42a9329",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S3 tabla5-1; P5 ficha Yageo p1",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW"
+  },
+  {
+    "asset_id": "SPEC_b905c5f0",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "ETH_RRMII",
+      "DO_RPDB"
+    ],
+    "mpn": "RC0603FR-072K49L",
+    "specification_key": "2.49 kOhm|1%|75 V max; limite sqrt(P*R)|0.1 W @70 C|0603|RC0603FR-072K49L",
+    "symbol": "GW_RC0603FR-072K49L_b905c5f0",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S3 tablas8-6/8-7 fig8-13 pp48-49",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW"
+  },
+  {
+    "asset_id": "SPEC_71dfd711",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_L"
+    ],
+    "mpn": "XAL4030-682MEC",
+    "specification_key": "6.8 uH|20%|Isat25C 3.6 A; Irms20C 3.0 A|N/A|XAL4030|XAL4030-682MEC",
+    "symbol": "GW_XAL4030-682MEC_71dfd711",
+    "footprint": "GW_XAL4030_COILCRAFT",
+    "source": "Professor_shared.SchLib:Inductor_10uH_4A_7.2*6.6mm; S5 tabla10-1; ecuaciones4-5; P6 tabla806-1",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_XAL4030_COILCRAFT"
+  },
+  {
+    "asset_id": "SPEC_5f18f946",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_CIN",
+      "B5_CIN"
+    ],
+    "mpn": "C5750X7R2A475K230KA",
+    "specification_key": "4.7 uF por unidad; Ceff total >=4.7 uF objetivo conservador|10%|100 V; X7R|N/A|2220|C5750X7R2A475K230KA",
+    "symbol": "GW_C5750X7R2A475K230KA_5f18f946",
+    "footprint": "GW_C5750_TDK_REFLOW",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S5 seccion10.2.1.2.6; P7 TDK ficha oficial",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_C5750_TDK_REFLOW"
+  },
+  {
+    "asset_id": "SPEC_e16e52b8",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_CHF",
+      "B5_CHF"
+    ],
+    "mpn": "C0805C224K1RACTU",
+    "specification_key": "220 nF|10%|100 V; X7R|N/A|0805|C0805C224K1RACTU",
+    "symbol": "GW_C0805C224K1RACTU_e16e52b8",
+    "footprint": "GW_0805_KEMET_NOMINAL",
+    "source": "Professor_shared.SchLib:Cap_10uF_0805_25V_; S5 seccion10.2.1.2.6 p23; ficha KEMET local p1",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_0805_KEMET_NOMINAL"
+  },
+  {
+    "asset_id": "SPEC_bb412b42",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_COUT",
+      "B5_COUT"
+    ],
+    "mpn": "C3225X7R1C156M250AB",
+    "specification_key": "15 uF por unidad; 45 uF nominal banco|20%|16 V; X7R|N/A|1210|C3225X7R1C156M250AB",
+    "symbol": "GW_C3225X7R1C156M250AB_bb412b42",
+    "footprint": "GW_C3225_TDK_REFLOW",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S5 tabla10-1: 3x15 uF nominal; P8 TDK ficha oficial",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_C3225_TDK_REFLOW"
+  },
+  {
+    "asset_id": "SPEC_ac663db8",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_RFBT",
+      "B5_RFBT"
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "specification_key": "100 kOhm|1%|75 V max; limite sqrt(P*R)|0.1 W @70 C|0603|RC0603FR-07100KL",
+    "symbol": "GW_RC0603FR-07100KL_ac663db8",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S5 tabla10-1 y ecuacion3; ficha Yageo local p1",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW"
+  },
+  {
+    "asset_id": "SPEC_a8308c0c",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_RFBB"
+    ],
+    "mpn": "RC0603FR-0743K2L",
+    "specification_key": "43.2 kOhm|1%|75 V max; limite sqrt(P*R)|0.1 W @70 C|0603|RC0603FR-0743K2L",
+    "symbol": "GW_RC0603FR-0743K2L_a8308c0c",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S5 tabla10-1 y ecuacion3; ficha Yageo local p1",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW"
+  },
+  {
+    "asset_id": "SPEC_c75b007a",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_CFF",
+      "B5_CFF"
+    ],
+    "mpn": "C0603C200J5GACTU",
+    "specification_key": "20 pF|5%|50 V; C0G|N/A|0603|C0603C200J5GACTU",
+    "symbol": "GW_C0603C200J5GACTU_c75b007a",
+    "footprint": "GW_0603_KEMET_NOMINAL",
+    "source": "Professor_shared.SchLib:Cap_0.1uF_0603_50V; S5 tabla10-1 y seccion10.2.1.2.9; ficha KEMET p1",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_0603_KEMET_NOMINAL"
+  },
+  {
+    "asset_id": "SPEC_b36cb917",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B5_L"
+    ],
+    "mpn": "XAL4040-103MEC",
+    "specification_key": "10 uH|20%|Isat25C 3.0 A; Irms20C 2.2 A|N/A|XAL4040|XAL4040-103MEC",
+    "symbol": "GW_XAL4040-103MEC_b36cb917",
+    "footprint": "GW_XAL4040_COILCRAFT",
+    "source": "Professor_shared.SchLib:Inductor_10uH_4A_7.2*6.6mm; S5 tabla10-1; ecuaciones4-5; P6 tabla806-1",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_XAL4040_COILCRAFT"
+  },
+  {
+    "asset_id": "SPEC_10698e9e",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B5_RFBB"
+    ],
+    "mpn": "RC0603FR-0724K9L",
+    "specification_key": "24.9 kOhm|1%|75 V max; limite sqrt(P*R)|0.1 W @70 C|0603|RC0603FR-0724K9L",
+    "symbol": "GW_RC0603FR-0724K9L_10698e9e",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S5 tabla10-1 y ecuacion3; ficha Yageo local p1",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW"
+  },
+  {
+    "asset_id": "SPEC_a6fad8df",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "DI_RSENSE1",
+      "DI_RSENSE2"
+    ],
+    "mpn": "RC0603FR-07562RL",
+    "specification_key": "562 Ohm|1%|75 V max; limite sqrt(P*R)|0.1 W @70 C|0603|RC0603FR-07562RL",
+    "symbol": "GW_RC0603FR-07562RL_a6fad8df",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "Professor_shared.SchLib:Res_10k_0603_1/10W; S11 seccion8.2.1.2.1 ecuacion1; ficha Yageo local",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW"
+  },
+  {
+    "asset_id": "RC0603FR-0710KL",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "MCU_RBOOT",
+      "RS_RDE",
+      "RS_RRE",
+      "DO_RPDA",
+      "DO_RPDB"
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "symbol": "RC0603FR-0710KL",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "Existing exact Yageo RC0603FR-0710KL sheet p1; AN5419 boot example; TI SLLSF78B section10.1",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact-MPN/same-manufacturer mounting pattern verified;existing symbol graphics/pins/MPN unchanged. Native instance ECO and assembly review pending.",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW"
+  },
+  {
+    "asset_id": "ACTIVE_LMR36015FBRNXR",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_LMR36015FBRNXR"
+    ],
+    "mpn": "LMR36015FBRNXR",
+    "symbol": "LMR36015FBRNXR",
+    "footprint": "GW_RNX0012A_TI",
+    "source": "SNVSB49D p4; RNX0012A 4222858/A PDF pp44-46 and RNX0012B 4223969/C pp47-49",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "RNX0012A/B pin positions and manufacturer copper/mask/stencil readback verified2026-11-08. Both saved alternatives retained. Pin12SW;3musttieSW. CurrentA uses SMD1/2/10/11/12; B preferredNSMD perTI. Require assembler mask/paste capability and lot package verification.",
+    "package_requirement": "GW_RNX0012A_TI"
+  },
+  {
+    "asset_id": "ACTIVE_STM32H723VET6",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_STM32H723VET6"
+    ],
+    "mpn": "STM32H723VET6",
+    "symbol": "STM32H723VET6",
+    "footprint": "GW_LQFP100_ST_1L",
+    "source": "DS13313 Rev5 fig5, table7 pp57-71, fig65 p218 (PDF p219)",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "ST DS13313Rev5 Fig65 p218/PDF219:100pads,0.5pitch,0.3x1.2lands,16.7outer/14.3inner span;physicalCCW map verified. Mask+.05/paste1:1 prototype choices;nativeECO pending.",
+    "package_requirement": "GW_LQFP100_ST_1L"
+  },
+  {
+    "asset_id": "TPD4E05U06DQAR",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "ETH_DESD"
+    ],
+    "mpn": "TPD4E05U06DQAR",
+    "symbol": "TPD4E05U06DQAR",
+    "footprint": "GW_DQA0010A_TI",
+    "source": "TI SLVSBO7O table4-2 p4; DQA0010A 4220328/A board/stencil pp29-30",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "TI SLVSBO7O DQA0010A pp29-30:rounded landsR0.05 usingAltiumhalf-side50%/25%,NSMD+.05;3/8 paste windows0.565x0.36mm at0.10mm stencil. ExternalNC-pass-through continuity must be implemented natively.",
+    "package_requirement": "GW_DQA0010A_TI"
+  },
+  {
+    "asset_id": "ACTIVE_DP83826IRHBR",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_DP83826IRHBR"
+    ],
+    "mpn": "DP83826IRHBR",
+    "symbol": "DP83826IRHBR",
+    "footprint": "GW_RHB0032M_TI",
+    "source": "TI SNLS647I RHB0032M4223725/A PDF112-113;32lead.6x.25,pitch.5,row4.8,EP33=2.1square,4x.94paste windows",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Manufacturer lands/pin33map verified;R0.05 usesAltium40% ofhalf0.25mm. Fourrectangularpastewindows approximate80percent,laser-corner/process review required. NativeinstanceECO notverified;optionalvias needplugging/tenting/fill treatment.",
+    "package_requirement": "GW_RHB0032M_TI"
+  },
+  {
+    "asset_id": "ACTIVE_THVD1420DR",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_THVD1420DR"
+    ],
+    "mpn": "THVD1420DR",
+    "symbol": "THVD1420DR",
+    "footprint": "GW_SOIC8_1P27_5P4",
+    "source": "TI SLLSF78B D0008A4214825/C PDF31;row5.4,pitch1.27,1.55x.60lands",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact8pinmap andTIlanddimensionsverified. Altium17%half-side givesR0.051mm vs0.05typ. Sharedlanddimensions alsoindependently matchMicrochipOA. NativeECO/assemblyreviewpending.",
+    "package_requirement": "GW_SOIC8_1P27_5P4"
+  },
+  {
+    "asset_id": "ACTIVE_ATA6561_GAQW",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_ATA6561_GAQW"
+    ],
+    "mpn": "ATA6561-GAQW",
+    "symbol": "ATA6561-GAQW",
+    "footprint": "GW_SOIC8_1P27_5P4",
+    "source": "Microchip DS20005991B p19 C04-2057-OARevE recommendedlands:C5.40,E1.27,X.60,Y1.55",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "ExactselectedSOIC8,notVDFN,verifiedagainstMicrochiprecommendedlands. NoEP9. SharedTIfoot hasidenticalpadgeometry;smallroundedcornersareprototypeprocesschoice. NativeECO/assemblyreviewpending.",
+    "package_requirement": "GW_SOIC8_1P27_5P4"
+  },
+  {
+    "asset_id": "ACTIVE_ISO1212DBQR",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_ISO1212DBQR"
+    ],
+    "mpn": "ISO1212DBQR",
+    "symbol": "ISO1212DBQR",
+    "footprint": "GW_DBQ0016A_TI",
+    "source": "TI SLLSEY7G Table4-2p4 andDBQ0016A4214846/APDF45;16lead,pitch.025inch,row5.4mm,lands.063x.016inch",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Manufacturerimperialprimarylands1.6002x.4064mm matchsavedfoot;metricbracketdimensionsarerounded. Mask+.0508mm,smallroundedcornersareprototypechoices. SUB12/13requireseparatefloating2x2mmislands,notgrounds;nativeimplementationpending.",
+    "package_requirement": "GW_DBQ0016A_TI"
+  },
+  {
+    "asset_id": "KC2016Z25.0000C15XXK",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "MCU_YHSE",
+      "ETH_Y25"
+    ],
+    "mpn": "KC2016Z25.0000C15XXK",
+    "symbol": "KC2016Z25.0000C15XXK",
+    "footprint": "GW_KC2016Z_KYOCERA",
+    "source": "KyoceraTNY1T-H1-DEX01-11pp4/6;bottomviewmirroredtoPCBtop;lands.6x.8atx+/-.9,y+/-.6",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exactpin1STANDBY/2GND/3OUT/4VCC,mirrorandlandsverified. Independentoscillatorsretained;totalPCB/inputload<=15pF andPHYphase-noiseperformance remainprototypeclockacceptanceconditions. Noautomaticclocksharing. Body2.0x1.6mm;noverified3D/courtyardclaim.",
+    "package_requirement": "GW_KC2016Z_KYOCERA"
+  },
+  {
+    "asset_id": "HX1188FNL",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "ETH_TMAG"
+    ],
+    "mpn": "HX1188FNL",
+    "symbol": "HX1188FNL",
+    "footprint": "GW_HX1188FNL_PULSE",
+    "source": "PulseRevB30May2014sheet3PS-2005.002-D;pin1lowerleftTOP,16lands.030x.065inch,pitch.050,rowcentres.335inch",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact16padpositionsandsourcepin1orientationverified. Manufacturerinchprimaryused;6.86inner/10.16outerspan. Body12.70x9.09mm plusstatedtolerances mustbeconsideredmanually;noverified3D/courtyardorunder-magneticskeepoutclaim. NativeECOpending.",
+    "package_requirement": "GW_HX1188FNL_PULSE"
+  },
+  {
+    "asset_id": "SS-7188S-A-NF",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "ETH_JRJ45"
+    ],
+    "mpn": "SS-7188S-A-NF",
+    "symbol": "SS-7188S-A-NF",
+    "footprint": "GW_SS7188SANF_STEWART",
+    "source": "Stewart CT710001RevB0component-sidePCBholelayout;signals.035inch,shield.062inch,mount.125-.128inch;pin1lowerstaggeredrow",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "All8numberedholes,2shieldPTH,2mountNPTHandcomponent-sideorientationverified;chosen3.20mmNPHwithin3.175..3.2512drawingrange. Copperannuliareprototypechoices. Checkhousing16.13x21.59mmmax/boardedgeprojectionandTHassemblymanually;no3D/courtyardclaim.",
+    "package_requirement": "GW_SS7188SANF_STEWART"
+  },
+  {
+    "asset_id": "XAL4030-682MEC",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "B3_L"
+    ],
+    "mpn": "XAL4030-682MEC",
+    "symbol": "XAL4030-682MEC",
+    "footprint": "GW_XAL4030_COILCRAFT",
+    "source": "Coilcraft806-4Rev25Feb2026p4;landcentres.093inch,width.038inch,height.134inch",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Savedinchprimarylands.9652x3.4036mm,centres2.3622mmmatchdrawing;metriclabelsarerounded. Nonpolarprojectpin1markedend->SW,pin2->output;4.0mmnominalbody,3.1mmmaxheight. Nativeplacement/thermalacceptancepending.",
+    "package_requirement": "GW_XAL4030_COILCRAFT"
+  },
+  {
+    "asset_id": "XAL4040-103MEC",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "B5_L"
+    ],
+    "mpn": "XAL4040-103MEC",
+    "symbol": "XAL4040-103MEC",
+    "footprint": "GW_XAL4040_COILCRAFT",
+    "source": "Coilcraft806-4Rev25Feb2026p4;samerecommendedlandpatternasXAL4030",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Savedinchprimarylands.9652x3.4036mm,centres2.3622mmmatchdrawing. Nonpolarprojectpin1markedend->SW,pin2->output;4.0mmnominalbody,4.1mmmaxheight. Nativeplacement/thermalacceptancepending.",
+    "package_requirement": "GW_XAL4040_COILCRAFT"
+  },
+  {
+    "asset_id": "MM204F1K00TKRTR3K0",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "DI_RTHR1",
+      "DI_RTHR2"
+    ],
+    "mpn": "MM204F1K00TKRTR3K0",
+    "symbol": "MM204F1K00TKRTR3K0",
+    "footprint": "GW_MM204_FIRSTOHM",
+    "source": "FirstohmMMRev08March2023printedp78/PDF4MM16/MM204REFLOW:L1.3min,W1.6min,innerP1.6+/-.1mm",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Saved1.3x1.6landsatx+/-1.45mmmatchmanufacturerreflowtable. Nonpolar1/2projectmappingverified. NormalDIType3applicationonly;no500V/1kVsurgequalificationinferredfromMELFor0.25W. NativeDIresistornetsmustbecorrected.",
+    "package_requirement": "GW_MM204_FIRSTOHM"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "backup": "hardware\\academic_rev1\\libraries\\backups\\pin_normalization_20261108T023027Z\\Gateway_Academic.SchLib",
+    "sha256": "37a2428cbeb6018c61e0d5c83a59293359b9f71ff2834779eab10ef9c60cab5a"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "backup": "hardware\\academic_rev1\\libraries\\backups\\pin_normalization_20261108T023027Z\\Gateway_Academic.PcbLib",
+    "sha256": "51284c9d735f80f6591e9cebbe74ae49490164e1dd8a8c5a5c2f75d6bb744eb3"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.LibPkg",
+    "backup": "hardware\\academic_rev1\\libraries\\backups\\pin_normalization_20261108T023027Z\\Gateway_Academic.LibPkg",
+    "sha256": "73e70e6a93f8da86b27b99d618250b934dcdde6d262160927f9920ba5ae6631e"
+  }
+]

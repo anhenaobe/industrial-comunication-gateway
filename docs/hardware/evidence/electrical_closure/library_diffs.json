@@ -1,0 +1,85 @@
+{
+  "schlib": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\": \"success\", \"filepath_a\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\backups\\\\closure_20261107T052419Z\\\\Gateway_Academic.SchLib\", \"filepath_b\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.SchLib\", \"file_type\": \"SchLib\", \"added\": [\"KC2016Z25.0000C15XXK\", \"HX1188FNL\", \"XAL4030-682MEC\", \"XAL4040-103MEC\", \"CDSOT23-SM712\", \"TPD4E05U06DQAR\", \"SS-7188S-A-NF\"], \"removed\": [], \"modified\": [], \"summary\": {\"added_count\": 7, \"removed_count\": 0, \"modified_count\": 0, \"unchanged_count\": 37, \"components_in_a\": 37, \"components_in_b\": 44}}"
+      }
+    ],
+    "structuredContent": {
+      "status": "success",
+      "filepath_a": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\backups\\closure_20261107T052419Z\\Gateway_Academic.SchLib",
+      "filepath_b": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+      "file_type": "SchLib",
+      "added": [
+        "KC2016Z25.0000C15XXK",
+        "HX1188FNL",
+        "XAL4030-682MEC",
+        "XAL4040-103MEC",
+        "CDSOT23-SM712",
+        "TPD4E05U06DQAR",
+        "SS-7188S-A-NF"
+      ],
+      "removed": [],
+      "modified": [],
+      "summary": {
+        "added_count": 7,
+        "removed_count": 0,
+        "modified_count": 0,
+        "unchanged_count": 37,
+        "components_in_a": 37,
+        "components_in_b": 44
+      }
+    },
+    "isError": false
+  },
+  "pcblib": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\": \"success\", \"filepath_a\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\backups\\\\closure_20261107T052419Z\\\\Gateway_Academic.PcbLib\", \"filepath_b\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.PcbLib\", \"file_type\": \"PcbLib\", \"added\": [\"GW_KC2016Z_KYOCERA\", \"GW_HX1188FNL_PULSE\", \"GW_XAL4030_COILCRAFT\", \"GW_XAL4040_COILCRAFT\", \"GW_SM712_BOURNS\", \"GW_DQA0010A_TI\", \"GW_SS7188SANF_STEWART\"], \"removed\": [], \"modified\": [], \"summary\": {\"added_count\": 7, \"removed_count\": 0, \"modified_count\": 0, \"unchanged_count\": 15, \"components_in_a\": 15, \"components_in_b\": 22}}"
+      }
+    ],
+    "structuredContent": {
+      "status": "success",
+      "filepath_a": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\backups\\closure_20261107T052419Z\\Gateway_Academic.PcbLib",
+      "filepath_b": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+      "file_type": "PcbLib",
+      "added": [
+        "GW_KC2016Z_KYOCERA",
+        "GW_HX1188FNL_PULSE",
+        "GW_XAL4030_COILCRAFT",
+        "GW_XAL4040_COILCRAFT",
+        "GW_SM712_BOURNS",
+        "GW_DQA0010A_TI",
+        "GW_SS7188SANF_STEWART"
+      ],
+      "removed": [],
+      "modified": [],
+      "summary": {
+        "added_count": 7,
+        "removed_count": 0,
+        "modified_count": 0,
+        "unchanged_count": 15,
+        "components_in_a": 15,
+        "components_in_b": 22
+      }
+    },
+    "isError": false
+  },
+  "detach": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"attached\": false,\n  \"engine_release_confirmed\": true,\n  \"message\": \"Detached from Altium Designer and stopped MCP server\"\n}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "attached": false,
+      "engine_release_confirmed": true,
+      "message": "Detached from Altium Designer and stopped MCP server"
+    },
+    "isError": false
+  }
+}

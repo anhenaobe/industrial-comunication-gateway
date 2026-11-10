@@ -1,0 +1,43 @@
+{
+  "provider": "jlcpcb",
+  "query": "C600002",
+  "status": "ok",
+  "results": [
+    {
+      "provider": "jlcpcb",
+      "mpn": "C1206C102KGRACAUTO",
+      "manufacturer": "KEMET",
+      "vendor": "jlcpcb",
+      "stock_count": null,
+      "stock_status": "in_stock",
+      "price_breaks": [],
+      "currency": "USD",
+      "package": "1206",
+      "datasheet_url": "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8588949830656282624-C600002.pdf",
+      "product_url": "https://jlcpcb.com/partdetail/C600002",
+      "lifecycle": "Unknown",
+      "lifecycle_raw": null,
+      "assembly_class": "extended",
+      "alternatives": [],
+      "pin_compatibility": "unverified",
+      "lcsc_code": "C600002",
+      "price_range": {
+        "low": 0.2033,
+        "high": 0.1137
+      },
+      "evidence": "public_html_jsonld",
+      "dynamic_fields_complete": false
+    }
+  ],
+  "notes": [
+    "Public catalog observation; quantity, tiers and datasheet may require dynamic/approved API access. Recheck before assembly. LCSC stock is separate from JLCPCB assembly inventory."
+  ],
+  "observed_at_utc": "2026-11-07T21:14:48.758691+00:00",
+  "cache": {
+    "hit": false,
+    "age_seconds": 0,
+    "ttl_seconds": 21600
+  },
+  "search_url": "https://jlcpcb.com/partdetail/C600002",
+  "api_access_url": "https://api.jlcpcb.com/"
+}

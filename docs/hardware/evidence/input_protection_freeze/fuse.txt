@@ -1,0 +1,326 @@
+10
+SURFACE MOUNT
+FUSES
+371
+Surface Mount Fuses
+w w w. l i t t e l f u s e . c o m
+Subminiature Surface Mount
+NANO2® FUSE Very Fast-Acting 451/453 Series
+The Nano2 SMF Fuse is a very small, square surface mount fuse that is
+also available in a surface mount holder.
+• RoHS Compliant version now available, use ordering suffix ‘L’
+(see example on data sheet).
+ELECTRICAL CHARACTERISTICS:
+% of Ampere
+Ampere
+Opening
+Rating
+Rating
+Time
+100%
+1/16–15
+4 hours, Minimum
+200%
+1/16–10
+5 seconds, Maximum
+12–15
+20 seconds, Maximum
+AGENCY APPROVALS: Recognized under the Components Program
+of Underwriters Laboratories and Certified by CSA. Approved by METI
+from 1 through 5 amperes.
+AGENCY FILE NUMBERS: UL E10480, CSA LR 29862.
+INTERRUPTING RATINGS:
+1/16 – 8A
+50 amperes at 125 VAC/VDC
+300 amperes at 32 VDC
+10A
+35 amperes at 125 VAC/50 amperes at 125 VDC
+300 amperes at 32 VDC
+12A – 15A 50 amperes at 65 VAC/VDC
+300 amperes at 24 VDC
+ENVIRONMENTAL SPECIFICATIONS:
+Operating Temperature: –55°C to 125°C.
+Shock: MIL-STD-202, Method 213, Test Condition I
+(100 G’s peak for 6 milliseconds).
+Vibration: MIL-STD-202, Method 201 (10–55 Hz).
+Salt Spray: MIL-STD-202, Method 101, Test Condition B.
+Insulation Resistance (After Opening): MIL-STD-202, Method
+302, Test Condition A, (10,000 ohms minimum).
+Resistance to Soldering Heat: MIL-STD-202, 
+Method 210, Test Condition B (10 sec. at 260°C).
+Thermal Shock: MIL-STD-202, Method 107, 
+Test Condition B (–65 to 125°C).
+Moisture Resistance: MIL-STD-202, Method 106, High Humidity 
+(90-98 RH), Heat (65°C).
+100
+10
+1
+0.1
+0.01
+0.001
+1/16A
+1/8A
+1/4A
+3/8A
+1/2A
+3/4A
+1A
+1 1/2A
+2A
+2 1/2A
+3A
+3 1/2A
+4A
+5A
+7A
+10A
+12A
+15A
+0.05 0.1
+1
+10
+100
+1000
+TIME IN SECONDS
+CURRENT IN AMPERES
+Average Time Current Curves
+F
+7 A
+6.86
+(.270")
+3.15
+(.124")
+2.95
+(.116")
+1.96
+(.077")
+2.69
+(.106")
+2.69
+(.106")
+1.45
+(.057")
+6.10
+(.240")
+Recommended pad layout
+Tin-Lead
+Silver
+Nominal
+Nominal
+Plated
+Plated
+Ampere
+Voltage
+Resistance
+Melting I2t
+Catalog #
+Catalog #
+Rating
+Rating
+Cold Ohms
+A2 Sec.
+–
+R451.062
+0.062
+125
+5.50
+0.00019
+–
+R451.080
+0.080
+125
+4.05
+0.00033
+–
+R451.100
+0.100
+125
+3.10
+0.00138
+–
+R451.125
+0.125
+125
+1.70
+0.00286
+R451.160
+0453.160
+0.160
+125
+1.80
+0.00306
+R451.200
+0453.200
+0.200
+125
+1.40
+0.00652
+R451.250
+0453.250
+0.250
+125
+1.05
+0.01126
+R451.315
+0453.315
+0.315
+125
+0.78
+0.0231
+R451.375
+0453.375
+0.375
+125
+0.610
+0.0425
+R451.400
+0453.400
+0.400
+125
+0.560
+0.0484
+R451.500
+0453.500
+0.500
+125
+0.420
+0.0795
+R451.630
+0453.630
+0.630
+125
+0.305
+0.143
+R451.750
+0453.750
+0.750
+125
+0.245
+0.185
+R451.800
+0453.800
+0.800
+125
+0.212
+0.271
+R451 001.
+0453 001.
+1.0
+125
+0.153
+0.459
+R451 1.25
+0453 1.25
+1.25
+125
+0.0780
+0.664
+R451 01.5
+0453 01.5
+1.5
+125
+0.0630
+0.853
+R451 01.6
+0453 01.6
+1.6
+125
+0.0580
+1.060
+R451 002.
+0453 002.
+2.0
+125
+0.0367
+0.530
+R451 02.5
+0453 02.5
+2.5
+125
+0.0286
+1.029
+R451 003.
+0453 003.
+3.0
+125
+0.0227
+1.650
+R451 3.15
+0453 3.15
+3.15
+125
+0.0215
+1.920
+R451 03.5
+0453 03.5
+3.5
+125
+0.0200
+2.469
+R451 004.
+0453 004.
+4
+125
+0.0160
+3.152
+R451 005.
+0453 005.
+5
+125
+0.0125
+5.566
+R451 06.3
+0453 06.3
+6.3
+125
+0.0096
+9.17
+R451 007.
+0453 007.
+7
+125
+0.0090
+10.32
+R451 008.
+0453 008.
+8
+125
+0.0077
+20.23
+R451 010.
+0453 010.
+10
+125
+0.0056
+26.46
+R451 012.
+0453 012.
+12
+65
+0.0049
+47.97
+R451 015.
+0453 015.
+15
+65
+0.0037
+97.82
+PHYSICAL SPECIFICATIONS:
+Materials:
+Body: Ceramic
+Terminations: Tin-Lead Alloy or Silver Plated Caps
+RoHS Compliant Terminations: Gold over Nickel Plated Caps
+Soldering Parameters:
+Wave Solder — 260°C, 10 seconds maximum
+Reflow Solder — 260°C, 30 seconds maximum
+Solderability: MIL-STD-202, Method 208.
+PACKAGING SPECIFICATIONS: 12mm Tape and Reel per 
+EIA-RS481-1 (IEC 286, part3); 1,000 pieces per reel, add packaging 
+suffix, MR; 5,000 per reel, add packaging suffix NR.
+Options: For RoHS Compliant devices add the letter ‘L’ to end of packag-
+ing suffix. Example: R451001.NRL (RoHS Compliant 1A, 5,000 per reel).
+PATENTED
+®
+®
+Refer to pg. 374 for SMF Omni-Blok® Holder, Series 154 000.
+RoHS

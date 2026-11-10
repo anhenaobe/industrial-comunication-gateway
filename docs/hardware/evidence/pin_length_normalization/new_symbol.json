@@ -1,0 +1,158 @@
+{
+  "name": "CC2220X7S100V156MN",
+  "description": "TORCH15uF100V2220 MLCC; C54157533 catalog identity; family PDF does not explicitly cover X7S. Footprint pending exact manufacturer lands.",
+  "designator": "C?",
+  "designator_x": -12,
+  "designator_y": 16,
+  "pins": [
+    {
+      "designator": "1",
+      "name": "1",
+      "x": -5,
+      "y": 0,
+      "length": 8,
+      "orientation": "left",
+      "electrical_type": "passive",
+      "show_name": false,
+      "show_designator": false
+    },
+    {
+      "designator": "2",
+      "name": "2",
+      "x": 5,
+      "y": 0,
+      "length": 8,
+      "orientation": "right",
+      "electrical_type": "passive",
+      "show_name": false,
+      "show_designator": false
+    }
+  ],
+  "lines": [
+    {
+      "x1": -2,
+      "y1": -7,
+      "x2": -2,
+      "y2": 7,
+      "line_width": 1,
+      "color": 128
+    },
+    {
+      "x1": 2,
+      "y1": -7,
+      "x2": 2,
+      "y2": 7,
+      "line_width": 1,
+      "color": 128
+    },
+    {
+      "x1": -5,
+      "y1": 0,
+      "x2": -2,
+      "y2": 0,
+      "line_width": 1,
+      "color": 128
+    },
+    {
+      "x1": 2,
+      "y1": 0,
+      "x2": 5,
+      "y2": 0,
+      "line_width": 1,
+      "color": 128
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Manufacturer",
+      "value": "TORCH",
+      "hidden": true,
+      "x": 0,
+      "y": -16
+    },
+    {
+      "name": "Manufacturer Part Number",
+      "value": "CC2220X7S100V156MN",
+      "hidden": true,
+      "x": 0,
+      "y": -16
+    },
+    {
+      "name": "Value",
+      "value": "15 uF / 100 V",
+      "hidden": false,
+      "x": 0,
+      "y": -16
+    },
+    {
+      "name": "Tolerance",
+      "value": "20% (M ordering code)",
+      "hidden": true,
+      "x": 0,
+      "y": -16
+    },
+    {
+      "name": "Voltage Rating",
+      "value": "100 V",
+      "hidden": true,
+      "x": 0,
+      "y": -16
+    },
+    {
+      "name": "Package",
+      "value": "2220",
+      "hidden": true,
+      "x": 0,
+      "y": -16
+    },
+    {
+      "name": "Dielectric",
+      "value": "X7S per MPN; not explicitly covered in supplied family PDF",
+      "hidden": true,
+      "x": 0,
+      "y": -16
+    },
+    {
+      "name": "LCSC",
+      "value": "C54157533",
+      "hidden": true,
+      "x": 0,
+      "y": -16
+    },
+    {
+      "name": "Datasheet",
+      "value": "sources/cap15uf100v/C54157533.pdf",
+      "hidden": true,
+      "x": 0,
+      "y": -16
+    },
+    {
+      "name": "Catalog URL",
+      "value": "https://www.lcsc.com/product-detail/C54157533.html",
+      "hidden": true,
+      "x": 0,
+      "y": -16
+    },
+    {
+      "name": "CAD Status",
+      "value": "SYMBOL_READY;FOOTPRINT_MISSING",
+      "hidden": true,
+      "x": 0,
+      "y": -16
+    },
+    {
+      "name": "Electrical Status",
+      "value": "PROVISIONAL;NOT_SELECTED_AS_BOM_REPLACEMENT",
+      "hidden": true,
+      "x": 0,
+      "y": -16
+    },
+    {
+      "name": "Limitations",
+      "value": "Family PDF p1 codes156/M/100V and2220body; X7S exact specifications, DCbias/effective capacitance and manufacturer lands unverified. No application approval.",
+      "hidden": true,
+      "x": 0,
+      "y": -16
+    }
+  ]
+}

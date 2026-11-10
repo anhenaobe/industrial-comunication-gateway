@@ -1,0 +1,456 @@
+[
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 1,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_LQFP100_ST_1L",
+        "source": "none",
+        "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123154_484377.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 2,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_RHB0032M_TI",
+        "source": "none",
+        "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123200_398347.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 3,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI",
+      "GW_RNX0012A_TI"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_RNX0012A_TI",
+        "source": "none",
+        "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123206_339739.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 4,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI",
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_RNX0012B_TI",
+        "source": "none",
+        "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123211_596152.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 5,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI",
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI",
+      "GW_SOIC8_1P27_5P4"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_SOIC8_1P27_5P4",
+        "source": "none",
+        "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123217_344970.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 6,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI",
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI",
+      "GW_SOIC8_1P27_5P4",
+      "GW_DBQ0016A_TI"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_DBQ0016A_TI",
+        "source": "none",
+        "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123223_195026.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 7,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI",
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI",
+      "GW_SOIC8_1P27_5P4",
+      "GW_DBQ0016A_TI",
+      "GW_DCT0008A_TI"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_DCT0008A_TI",
+        "source": "none",
+        "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123228_628765.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 8,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI",
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI",
+      "GW_SOIC8_1P27_5P4",
+      "GW_DBQ0016A_TI",
+      "GW_DCT0008A_TI",
+      "GW_CAND_0603_cap"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_CAND_0603_cap",
+        "source": "step-embedded"
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123234_660270.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 9,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI",
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI",
+      "GW_SOIC8_1P27_5P4",
+      "GW_DBQ0016A_TI",
+      "GW_DCT0008A_TI",
+      "GW_CAND_0603_cap",
+      "GW_CAND_0603_fb"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_CAND_0603_fb",
+        "source": "step-embedded"
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123239_992972.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 10,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI",
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI",
+      "GW_SOIC8_1P27_5P4",
+      "GW_DBQ0016A_TI",
+      "GW_DCT0008A_TI",
+      "GW_CAND_0603_cap",
+      "GW_CAND_0603_fb",
+      "GW_CAND_0603_res"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_CAND_0603_res",
+        "source": "step-embedded"
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123246_454547.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 11,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI",
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI",
+      "GW_SOIC8_1P27_5P4",
+      "GW_DBQ0016A_TI",
+      "GW_DCT0008A_TI",
+      "GW_CAND_0603_cap",
+      "GW_CAND_0603_fb",
+      "GW_CAND_0603_res",
+      "GW_CAND_0805_cap"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_CAND_0805_cap",
+        "source": "extruded",
+        "overall_height": 1.000001,
+        "standoff_height": 0,
+        "assumed_height": false
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123252_604292.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 12,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI",
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI",
+      "GW_SOIC8_1P27_5P4",
+      "GW_DBQ0016A_TI",
+      "GW_DCT0008A_TI",
+      "GW_CAND_0603_cap",
+      "GW_CAND_0603_fb",
+      "GW_CAND_0603_res",
+      "GW_CAND_0805_cap",
+      "GW_CAND_CON_2x1_TH_5MM"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_CAND_CON_2x1_TH_5MM",
+        "source": "extruded",
+        "overall_height": 10.2,
+        "standoff_height": 0,
+        "assumed_height": false
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123257_779951.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 13,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI",
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI",
+      "GW_SOIC8_1P27_5P4",
+      "GW_DBQ0016A_TI",
+      "GW_DCT0008A_TI",
+      "GW_CAND_0603_cap",
+      "GW_CAND_0603_fb",
+      "GW_CAND_0603_res",
+      "GW_CAND_0805_cap",
+      "GW_CAND_CON_2x1_TH_5MM",
+      "GW_CAND_CON_3x1_TH_5mm"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_CAND_CON_3x1_TH_5mm",
+        "source": "step-embedded"
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123303_111004.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 14,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI",
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI",
+      "GW_SOIC8_1P27_5P4",
+      "GW_DBQ0016A_TI",
+      "GW_DCT0008A_TI",
+      "GW_CAND_0603_cap",
+      "GW_CAND_0603_fb",
+      "GW_CAND_0603_res",
+      "GW_CAND_0805_cap",
+      "GW_CAND_CON_2x1_TH_5MM",
+      "GW_CAND_CON_3x1_TH_5mm",
+      "GW_CAND_H_2x1_TH_100mil"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_CAND_H_2x1_TH_100mil",
+        "source": "step-embedded"
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123309_706261.bak"
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "footprint_count": 15,
+    "footprint_names": [
+      "GW_LQFP100_ST_1L",
+      "GW_RHB0032M_TI",
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI",
+      "GW_SOIC8_1P27_5P4",
+      "GW_DBQ0016A_TI",
+      "GW_DCT0008A_TI",
+      "GW_CAND_0603_cap",
+      "GW_CAND_0603_fb",
+      "GW_CAND_0603_res",
+      "GW_CAND_0805_cap",
+      "GW_CAND_CON_2x1_TH_5MM",
+      "GW_CAND_CON_3x1_TH_5mm",
+      "GW_CAND_H_2x1_TH_100mil",
+      "GW_CAND_H_6x1_TH_100mil"
+    ],
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "bodies": [
+      {
+        "name": "GW_CAND_H_6x1_TH_100mil",
+        "source": "none",
+        "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+      }
+    ],
+    "warnings": [],
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123315_265915.bak"
+  },
+  {
+    "status": "error",
+    "error": "Library validation failed: Duplicate pad designator '2'; Duplicate pad designator '1'",
+    "tool": "write_pcblib"
+  }
+]

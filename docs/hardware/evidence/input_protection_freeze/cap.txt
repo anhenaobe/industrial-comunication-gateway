@@ -1,0 +1,77 @@
+C0805C224K1RACTU
+Aliases (C0805C224K1RAC7800)
+SMD Comm X7R, Ceramic, 0.22 uF, 10%, 100 VDC, X7R, SMD, MLCC, 
+Temperature Stable, Class II, 0805 / 2012
+Click here for the 3D model.
+General Information
+S​e​r​i​e​s
+SMD Comm X7R
+S​t​y​l​e
+SMD Chip
+D​e​s​c​r​i​p​t​i​o​n
+SMD, MLCC, Temperature 
+Stable, Class II
+F​e​a​t​u​r​e​s
+Temperature Stable, Class II
+R​o​H​S
+Y​e​s
+T​e​r​m​i​n​a​t​i​o​n
+T​i​n
+M​a​r​k​i​n​g
+N​o
+Typical Component Weight
+21 mg
+Shelf Life
+78  Weeks
+M​S​L
+1
+D​i​m​e​n​s​i​o​n​s
+L
+2mm +/-0.2mm
+W
+1.25mm +/-0.2mm
+T
+1.25mm +/-0.15mm
+S
+0.7mm MIN
+B
+0.5mm +/-0.25mm
+Case Code  (EIA / mm)
+0805 / 2012
+S​p​e​c​i​f​i​c​a​t​i​o​n​s
+C​a​p​a​c​i​t​a​n​c​e
+0.22 uF
+Measurement Condition
+1 kHz 1.0Vrms
+T​o​l​e​r​a​n​c​e
+1​0​%
+Voltage DC
+100 VDC
+Dielectric Withstanding Voltage
+250 VDC
+Temperature Range
+-​5​5​/​+​1​2​5​°​C
+Temp. Coefficient
+X​7​R
+Capacitance Change with 
+Reference to +25°C and 0 VDC 
+Applied (TCC)
+15%, 1kHz 1.0Vrms
+Dissipation Factor
+2.5% 1 kHz 1.0Vrms
+Aging Rate
+3% Loss/Decade Hour: Referee 
+Time is 1000 Hours
+Insulation Resistance
+2.2727 GOhms
+Packaging Specifications
+P​a​c​k​a​g​i​n​g
+T&R, 180mm, Plastic Tape
+Packaging Quantity
+2​5​0​0
+Statements of suitability for certain applications are based on our knowledge of typical operating conditions for such applications, but are not intended to constitute - and 
+we specifically disclaim - any warranty concerning suitability for a specific customer application or use. This Information is intended for use only by customers who have the 
+requisite experience and capability to determine the correct products for their application. Any technical advice inferred from this Information or otherwise provided by us 
+with reference to the use of our products is given gratis, and we assume no obligation or liability for the advice given or results obtained.
+Generated 11/05/2026
+©︎ 2006 - 2026 YAGEO

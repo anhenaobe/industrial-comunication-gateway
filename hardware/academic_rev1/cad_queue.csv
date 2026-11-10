@@ -1,0 +1,19 @@
+﻿mpn_or_requirement,qty,package,symbol,footprint,evidence,blocking_notes
+STM32H723VET6,1,LQFP10014x14mm0.5mm,missing,missing,ST CAD resources; DS13313 fig64-65,all100pins now indexed; geometry/import pending
+DP83826IRHBR,1,RHB32_5x5mm_EP,missing,missing,TI UltraLibrarian RHB32; EVM reference downloaded,mode/straps/clock/MDI network not frozen
+THVD1420DR,1,SOIC8_D,missing,missing,TI CAD D8; SLLSF78B,prefer largeSOIC; protect bus
+ATA6561-GAQW,1,SOIC8,missing,missing,Microchip DS20005991B; evaluation guide downloaded,confirm suffix and noVDFN substitution
+ISO1212DBQR,1,SSOP16_DBQ,missing,missing,TI CAD DBQ16; SLLSEY7G,SUB1/SUB2 floating copper islands; notGND
+BSP75NTA,2,SOT223_TypeDN,missing,missing,Diodes DS33016,tab=source; never assume regulatorSOT223 pinout
+SN74LVC2T45DCTR candidate,1,SSOP8_DCT,missing,missing,TI CAD DCT8; SCES516N,VOH guarantee at BSP input load open; noOE pin
+LMR36015FBRNXR proposed,2,RNX12_2x3mm_HotRod,missing,missing,TI CAD RNX12; SNVSB49D,sharedICCAD; two distinctpassiveBOMs still needed
+NIS3071MT4TWG,1,WQFN16_CASE510CM,missing,missing,onsemi NIS3071D Rev3,padGND and unusedchannels must be present
+TDS3011P.C candidate,1,DFN6_1.6x1.6mm,missing,missing,Semtech TDS3011P,singleinput coordination still open
+SS3P6L-M3/86A candidate,1,SMPC_TO277A,local_unverified,local_unverified,libraries/SS3P6L-M386A.*; Vishay88987,PN association checked; pin/pad/thermal qualification pending
+HX1188FNLT reference,1,SMT12.7x9.09mm,missing,missing,DP83826EVM T2; Pulse product finder,not yet selected; pinout and manufacturer sheet pending
+SS-7188S-A-NF reference,1,RJ45_TH,missing,missing,DP83826EVM J17,not yet selected; no invented compatibleMagJack
+ECS-250-12-33Q-JES-TR reference,1,crystal3.2x2.5mm,missing,missing,DP83826EVM XTAL1,CL and clock topology not frozen
+RC0603FR-07562RL,2,0603,missing_exactMPN,generic_present_unverified,Yageo specsheet; Professor_shared.PcbLib0603_res,verify dimensions before binding
+C0603C103K1RACTU,2,0603,missing_exactMPN,generic_present_unverified,KEMET specsheet; Professor_shared.PcbLib0603_cap,not equivalent to copiedCL10B10325V
+RTHR1kMELF>=0.25W,2,MELF_TBD,missing,missing,ISO1212 section8.2.1.2.1,exactMPN and pulse qualification open
+Teacher pasives and headers,perworklist,0603/0805/TH,local_unverified,local_unverified,libraries/Professor_shared.*,CAD presence only; ratings and geometry still require check

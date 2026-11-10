@@ -1,0 +1,25 @@
+{
+  "source_symbol_count": 50,
+  "source_footprint_count": 26,
+  "added_symbols": [
+    "TDS3011P.C",
+    "NIS3071MT4TWG",
+    "SS3P6L-M3_86A",
+    "0451002.MRL"
+  ],
+  "added_footprints": [
+    "GW_TDS3011P_SEMTECH",
+    "GW_NIS3071_510CM_ONSEMI",
+    "GW_SS3P6L_VISHAY_88987"
+  ],
+  "cad_status": "CAD_CANDIDATE",
+  "electrical_status": "PROPOSED_FOR_REUSE",
+  "fuse_status": "PENDING_USER_APPROVAL; symbol only; footprint CAD_BLOCKED",
+  "native_compile": "NOT_ATTEMPTED: user forbids another automation session",
+  "integrated_library_status": "STALE: existing compiled inventory46 symbols23 footprints, additions absent",
+  "unchanged_intlib_sha256": {
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Project Outputs for Gateway_Academic\\Gateway_Academic.IntLib": "0206d61317426ca83bb349a325fd460641938e372c0c9f2b63544ca1aa68d650",
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\validation\\closure_20261107\\Gateway_Academic.IntLib": "8516ac6d45dc146c40c547bb88d518717e055f27b05a04fe0d6869d8f1699f12",
+    "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\backups\\closure_20261107T052419Z\\Gateway_Academic.IntLib": "2bc4ecc4b191c354467e71dc10652edc36261beb1e81001f3ca112d7b9f5fa30"
+  }
+}

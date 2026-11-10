@@ -1,0 +1,103 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"provider\": \"jlcpcb\", \"query\": \"KC2016Z25.0000C15XXK\", \"status\": \"dynamic_catalog_unavailable\", \"results\": [], \"message\": \"Public HTML contains no structured part records. Supply an exact C-code or use approved JLCPCB API access; empty dynamic HTML is not zero stock.\", \"availability\": \"unknown\", \"observed_at_utc\": \"2026-11-07T05:13:49.902147+00:00\", \"search_url\": \"https://jlcpcb.com/parts/componentSearch?searchTxt=KC2016Z25.0000C15XXK\", \"api_access_url\": \"https://api.jlcpcb.com/\"}"
+        }
+      ],
+      "structuredContent": {
+        "provider": "jlcpcb",
+        "query": "KC2016Z25.0000C15XXK",
+        "status": "dynamic_catalog_unavailable",
+        "results": [],
+        "message": "Public HTML contains no structured part records. Supply an exact C-code or use approved JLCPCB API access; empty dynamic HTML is not zero stock.",
+        "availability": "unknown",
+        "observed_at_utc": "2026-11-07T05:13:49.902147+00:00",
+        "search_url": "https://jlcpcb.com/parts/componentSearch?searchTxt=KC2016Z25.0000C15XXK",
+        "api_access_url": "https://api.jlcpcb.com/"
+      },
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"provider\": \"jlcpcb\", \"query\": \"C233005\", \"status\": \"ok\", \"results\": [{\"provider\": \"jlcpcb\", \"mpn\": \"MM204F1K00TKRTR3K0\", \"manufacturer\": \"Firstohm(First Resistor & Condenser)\", \"vendor\": \"jlcpcb\", \"stock_count\": null, \"stock_status\": \"out_of_stock\", \"price_breaks\": [], \"currency\": \"USD\", \"package\": \"MELF\", \"datasheet_url\": null, \"product_url\": \"https://jlcpcb.com/partdetail/C233005\", \"lifecycle\": \"Unknown\", \"lifecycle_raw\": null, \"assembly_class\": \"extended\", \"alternatives\": [], \"pin_compatibility\": \"unverified\", \"lcsc_code\": \"C233005\", \"price_range\": {\"low\": 0.029, \"high\": 0.0146}, \"evidence\": \"public_html_jsonld\", \"dynamic_fields_complete\": false}], \"notes\": [\"Public catalog observation; quantity, tiers and datasheet may require dynamic/approved API access. Recheck before assembly. LCSC stock is separate from JLCPCB assembly inventory.\"], \"observed_at_utc\": \"2026-11-07T05:13:56.829830+00:00\", \"cache\": {\"hit\": false, \"age_seconds\": 0, \"ttl_seconds\": 21600}, \"search_url\": \"https://jlcpcb.com/partdetail/C233005\", \"api_access_url\": \"https://api.jlcpcb.com/\"}"
+        }
+      ],
+      "structuredContent": {
+        "provider": "jlcpcb",
+        "query": "C233005",
+        "status": "ok",
+        "results": [
+          {
+            "provider": "jlcpcb",
+            "mpn": "MM204F1K00TKRTR3K0",
+            "manufacturer": "Firstohm(First Resistor & Condenser)",
+            "vendor": "jlcpcb",
+            "stock_count": null,
+            "stock_status": "out_of_stock",
+            "price_breaks": [],
+            "currency": "USD",
+            "package": "MELF",
+            "datasheet_url": null,
+            "product_url": "https://jlcpcb.com/partdetail/C233005",
+            "lifecycle": "Unknown",
+            "lifecycle_raw": null,
+            "assembly_class": "extended",
+            "alternatives": [],
+            "pin_compatibility": "unverified",
+            "lcsc_code": "C233005",
+            "price_range": {
+              "low": 0.029,
+              "high": 0.0146
+            },
+            "evidence": "public_html_jsonld",
+            "dynamic_fields_complete": false
+          }
+        ],
+        "notes": [
+          "Public catalog observation; quantity, tiers and datasheet may require dynamic/approved API access. Recheck before assembly. LCSC stock is separate from JLCPCB assembly inventory."
+        ],
+        "observed_at_utc": "2026-11-07T05:13:56.829830+00:00",
+        "cache": {
+          "hit": false,
+          "age_seconds": 0,
+          "ttl_seconds": 21600
+        },
+        "search_url": "https://jlcpcb.com/partdetail/C233005",
+        "api_access_url": "https://api.jlcpcb.com/"
+      },
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"provider\": \"jlcpcb\", \"query\": \"C5750X7R2A475K230KA\", \"status\": \"dynamic_catalog_unavailable\", \"results\": [], \"message\": \"Public HTML contains no structured part records. Supply an exact C-code or use approved JLCPCB API access; empty dynamic HTML is not zero stock.\", \"availability\": \"unknown\", \"observed_at_utc\": \"2026-11-07T05:14:00.230815+00:00\", \"search_url\": \"https://jlcpcb.com/parts/componentSearch?searchTxt=C5750X7R2A475K230KA\", \"api_access_url\": \"https://api.jlcpcb.com/\"}"
+        }
+      ],
+      "structuredContent": {
+        "provider": "jlcpcb",
+        "query": "C5750X7R2A475K230KA",
+        "status": "dynamic_catalog_unavailable",
+        "results": [],
+        "message": "Public HTML contains no structured part records. Supply an exact C-code or use approved JLCPCB API access; empty dynamic HTML is not zero stock.",
+        "availability": "unknown",
+        "observed_at_utc": "2026-11-07T05:14:00.230815+00:00",
+        "search_url": "https://jlcpcb.com/parts/componentSearch?searchTxt=C5750X7R2A475K230KA",
+        "api_access_url": "https://api.jlcpcb.com/"
+      },
+      "isError": false
+    }
+  }
+]

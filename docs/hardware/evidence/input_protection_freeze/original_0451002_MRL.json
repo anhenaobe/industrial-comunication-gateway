@@ -1,0 +1,583 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"status\": \"success\", \"filepath\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.SchLib\", \"component_name\": \"0451002.MRL\", \"component\": {\"name\": \"0451002.MRL\", \"description\": \"Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering; 2A125VDC fast fuse candidate. End1/2 are project labels for nonpolar terminals. Official PDF download denied403; footprint blocked pending readable recommended pad-layout drawing. Supply fault, derating, inrush and coordination pending.\", \"part_count\": 1, \"current_part_id\": 1, \"display_mode_count\": 1, \"part_id_locked\": false, \"source_library_name\": \"*\", \"target_file_name\": \"*\", \"all_pin_count\": 2, \"header_params\": [[\"RECORD\", \"1\"], [\"IndexInSheet\", \"-1\"], [\"OwnerPartId\", \"-1\"], [\"LibraryPath\", \"*\"], [\"SheetPartFileName\", \"*\"], [\"AreaColor\", \"11599871\"], [\"Color\", \"128\"], [\"LibReference\", \"0451002.MRL\"], [\"ComponentDescription\", \"Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering; 2A125VDC fast fuse candidate. End1/2 are project labels for nonpolar terminals. Official PDF download denied403; footprint blocked pending readable recommended pad-layout drawing. Supply fault, derating, inrush and coordination pending.\"], [\"PartCount\", \"2\"], [\"DisplayModeCount\", \"1\"], [\"CurrentPartId\", \"1\"], [\"SourceLibraryName\", \"*\"], [\"TargetFileName\", \"*\"], [\"AllPinCount\", \"2\"], [\"PartIDLocked\", \"F\"]], \"rectangles\": [{\"owner_part_id\": 1, \"x1\": -80.0, \"y1\": -10.0, \"x2\": 80.0, \"y2\": 20.0, \"line_width\": 1, \"line_color\": 128, \"fill_color\": 11599871, \"filled\": true, \"transparent\": false, \"line_style\": 0, \"unique_id\": \"DNREPGUW\", \"raw_params\": [[\"RECORD\", \"14\"], [\"IsNotAccesible\", \"T\"], [\"OwnerPartId\", \"1\"], [\"Location.X\", \"-80\"], [\"Location.Y\", \"-10\"], [\"Corner.X\", \"80\"], [\"Corner.Y\", \"20\"], [\"LineWidth\", \"1\"], [\"Color\", \"128\"], [\"AreaColor\", \"11599871\"], [\"IsSolid\", \"T\"], [\"UniqueID\", \"DNREPGUW\"]]}], \"pins\": [{\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"passive\", \"orientation\": \"left\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": -80, \"y\": 0, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"END1\", \"designator\": \"1\", \"part_and_sequence\": \"|&|\"}, {\"owner_part_id\": 1, \"owner_part_display_mode\": 0, \"formal_type\": 1, \"electrical_type\": \"passive\", \"orientation\": \"right\", \"hidden\": false, \"show_name\": true, \"show_designator\": true, \"is_not_accessible\": false, \"graphically_locked\": false, \"length\": 20, \"x\": 80, \"y\": 0, \"colour\": 0, \"symbol_inner_edge\": \"none\", \"symbol_outer_edge\": \"none\", \"symbol_inside\": \"none\", \"symbol_outside\": \"none\", \"name\": \"END2\", \"designator\": \"2\", \"part_and_sequence\": \"|&|\"}], \"parameters\": [{\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"Littelfuse\", \"name\": \"Manufacturer\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"KVLVXPPQ\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"3\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"Littelfuse\"], [\"Name\", \"Manufacturer\"], [\"UniqueID\", \"KVLVXPPQ\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"0451002.MRL\", \"name\": \"Manufacturer Part Number\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"LFONAXRR\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"4\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"0451002.MRL\"], [\"Name\", \"Manufacturer Part Number\"], [\"UniqueID\", \"LFONAXRR\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering\", \"name\": \"Source\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"VTEMXOJB\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"5\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering\"], [\"Name\", \"Source\"], [\"UniqueID\", \"VTEMXOJB\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1\", \"name\": \"Datasheet\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"DRKMXIBX\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"6\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Name\", \"Datasheet\"], [\"UniqueID\", \"DRKMXIBX\"], [\"Text\", \"https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"CAD_BLOCKED\", \"name\": \"CAD Status\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"UMUNLNIY\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"7\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"CAD_BLOCKED\"], [\"Name\", \"CAD Status\"], [\"UniqueID\", \"UMUNLNIY\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"PENDING_USER_APPROVAL\", \"name\": \"Electrical Approval\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"LAKHOQZY\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"8\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"PENDING_USER_APPROVAL\"], [\"Name\", \"Electrical Approval\"], [\"UniqueID\", \"LAKHOQZY\"]]}, {\"owner_part_id\": 1, \"x\": 0.0, \"y\": 0.0, \"color\": 8388608, \"font_id\": 1, \"hidden\": true, \"value\": \"2A125VDC fast fuse candidate. End1/2 are project labels for nonpolar terminals. Official PDF download denied403; footprint blocked pending readable recommended pad-layout drawing. Supply fault, derating, inrush and coordination pending.\", \"name\": \"Limitations\", \"read_only_state\": 0, \"param_type\": 0, \"unique_id\": \"PBPDYJIT\", \"raw_params\": [[\"RECORD\", \"41\"], [\"IndexInSheet\", \"9\"], [\"OwnerPartId\", \"1\"], [\"Color\", \"8388608\"], [\"FontID\", \"1\"], [\"IsHidden\", \"T\"], [\"Text\", \"2A125VDC fast fuse candidate. End1/2 are project labels for nonpolar terminals. Official PDF download denied403; footprint blocked pending readable recommended pad-layout drawing. Supply fault, derating, inrush and coordination pending.\"], [\"Name\", \"Limitations\"], [\"UniqueID\", \"PBPDYJIT\"]]}], \"designator\": \"F?\", \"designator_x\": -5.0, \"designator_y\": 5.0, \"designator_unique_id\": \"JXDLVKVG\", \"primitive_order\": [\"rectangle\", \"pin\", \"pin\", \"parameter\", \"parameter\", \"parameter\", \"parameter\", \"parameter\", \"parameter\", \"parameter\"]}, \"type\": \"SchLib\", \"units\": \"schematic units (10 = 1 grid)\", \"message\": \"Retrieved symbol '0451002.MRL' from 'C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.SchLib'\"}"
+    }
+  ],
+  "structuredContent": {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "component_name": "0451002.MRL",
+    "component": {
+      "name": "0451002.MRL",
+      "description": "Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering; 2A125VDC fast fuse candidate. End1/2 are project labels for nonpolar terminals. Official PDF download denied403; footprint blocked pending readable recommended pad-layout drawing. Supply fault, derating, inrush and coordination pending.",
+      "part_count": 1,
+      "current_part_id": 1,
+      "display_mode_count": 1,
+      "part_id_locked": false,
+      "source_library_name": "*",
+      "target_file_name": "*",
+      "all_pin_count": 2,
+      "header_params": [
+        [
+          "RECORD",
+          "1"
+        ],
+        [
+          "IndexInSheet",
+          "-1"
+        ],
+        [
+          "OwnerPartId",
+          "-1"
+        ],
+        [
+          "LibraryPath",
+          "*"
+        ],
+        [
+          "SheetPartFileName",
+          "*"
+        ],
+        [
+          "AreaColor",
+          "11599871"
+        ],
+        [
+          "Color",
+          "128"
+        ],
+        [
+          "LibReference",
+          "0451002.MRL"
+        ],
+        [
+          "ComponentDescription",
+          "Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering; 2A125VDC fast fuse candidate. End1/2 are project labels for nonpolar terminals. Official PDF download denied403; footprint blocked pending readable recommended pad-layout drawing. Supply fault, derating, inrush and coordination pending."
+        ],
+        [
+          "PartCount",
+          "2"
+        ],
+        [
+          "DisplayModeCount",
+          "1"
+        ],
+        [
+          "CurrentPartId",
+          "1"
+        ],
+        [
+          "SourceLibraryName",
+          "*"
+        ],
+        [
+          "TargetFileName",
+          "*"
+        ],
+        [
+          "AllPinCount",
+          "2"
+        ],
+        [
+          "PartIDLocked",
+          "F"
+        ]
+      ],
+      "rectangles": [
+        {
+          "owner_part_id": 1,
+          "x1": -80,
+          "y1": -10,
+          "x2": 80,
+          "y2": 20,
+          "line_width": 1,
+          "line_color": 128,
+          "fill_color": 11599871,
+          "filled": true,
+          "transparent": false,
+          "line_style": 0,
+          "unique_id": "DNREPGUW",
+          "raw_params": [
+            [
+              "RECORD",
+              "14"
+            ],
+            [
+              "IsNotAccesible",
+              "T"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Location.X",
+              "-80"
+            ],
+            [
+              "Location.Y",
+              "-10"
+            ],
+            [
+              "Corner.X",
+              "80"
+            ],
+            [
+              "Corner.Y",
+              "20"
+            ],
+            [
+              "LineWidth",
+              "1"
+            ],
+            [
+              "Color",
+              "128"
+            ],
+            [
+              "AreaColor",
+              "11599871"
+            ],
+            [
+              "IsSolid",
+              "T"
+            ],
+            [
+              "UniqueID",
+              "DNREPGUW"
+            ]
+          ]
+        }
+      ],
+      "pins": [
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "passive",
+          "orientation": "left",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": -80,
+          "y": 0,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "END1",
+          "designator": "1",
+          "part_and_sequence": "|&|"
+        },
+        {
+          "owner_part_id": 1,
+          "owner_part_display_mode": 0,
+          "formal_type": 1,
+          "electrical_type": "passive",
+          "orientation": "right",
+          "hidden": false,
+          "show_name": true,
+          "show_designator": true,
+          "is_not_accessible": false,
+          "graphically_locked": false,
+          "length": 20,
+          "x": 80,
+          "y": 0,
+          "colour": 0,
+          "symbol_inner_edge": "none",
+          "symbol_outer_edge": "none",
+          "symbol_inside": "none",
+          "symbol_outside": "none",
+          "name": "END2",
+          "designator": "2",
+          "part_and_sequence": "|&|"
+        }
+      ],
+      "parameters": [
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "Littelfuse",
+          "name": "Manufacturer",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "KVLVXPPQ",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "3"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "Littelfuse"
+            ],
+            [
+              "Name",
+              "Manufacturer"
+            ],
+            [
+              "UniqueID",
+              "KVLVXPPQ"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "0451002.MRL",
+          "name": "Manufacturer Part Number",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "LFONAXRR",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "4"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "0451002.MRL"
+            ],
+            [
+              "Name",
+              "Manufacturer Part Number"
+            ],
+            [
+              "UniqueID",
+              "LFONAXRR"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering",
+          "name": "Source",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "VTEMXOJB",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "5"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering"
+            ],
+            [
+              "Name",
+              "Source"
+            ],
+            [
+              "UniqueID",
+              "VTEMXOJB"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+          "name": "Datasheet",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "DRKMXIBX",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "6"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Name",
+              "Datasheet"
+            ],
+            [
+              "UniqueID",
+              "DRKMXIBX"
+            ],
+            [
+              "Text",
+              "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "CAD_BLOCKED",
+          "name": "CAD Status",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "UMUNLNIY",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "7"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "CAD_BLOCKED"
+            ],
+            [
+              "Name",
+              "CAD Status"
+            ],
+            [
+              "UniqueID",
+              "UMUNLNIY"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "PENDING_USER_APPROVAL",
+          "name": "Electrical Approval",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "LAKHOQZY",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "8"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "PENDING_USER_APPROVAL"
+            ],
+            [
+              "Name",
+              "Electrical Approval"
+            ],
+            [
+              "UniqueID",
+              "LAKHOQZY"
+            ]
+          ]
+        },
+        {
+          "owner_part_id": 1,
+          "x": 0,
+          "y": 0,
+          "color": 8388608,
+          "font_id": 1,
+          "hidden": true,
+          "value": "2A125VDC fast fuse candidate. End1/2 are project labels for nonpolar terminals. Official PDF download denied403; footprint blocked pending readable recommended pad-layout drawing. Supply fault, derating, inrush and coordination pending.",
+          "name": "Limitations",
+          "read_only_state": 0,
+          "param_type": 0,
+          "unique_id": "PBPDYJIT",
+          "raw_params": [
+            [
+              "RECORD",
+              "41"
+            ],
+            [
+              "IndexInSheet",
+              "9"
+            ],
+            [
+              "OwnerPartId",
+              "1"
+            ],
+            [
+              "Color",
+              "8388608"
+            ],
+            [
+              "FontID",
+              "1"
+            ],
+            [
+              "IsHidden",
+              "T"
+            ],
+            [
+              "Text",
+              "2A125VDC fast fuse candidate. End1/2 are project labels for nonpolar terminals. Official PDF download denied403; footprint blocked pending readable recommended pad-layout drawing. Supply fault, derating, inrush and coordination pending."
+            ],
+            [
+              "Name",
+              "Limitations"
+            ],
+            [
+              "UniqueID",
+              "PBPDYJIT"
+            ]
+          ]
+        }
+      ],
+      "designator": "F?",
+      "designator_x": -5,
+      "designator_y": 5,
+      "designator_unique_id": "JXDLVKVG",
+      "primitive_order": [
+        "rectangle",
+        "pin",
+        "pin",
+        "parameter",
+        "parameter",
+        "parameter",
+        "parameter",
+        "parameter",
+        "parameter",
+        "parameter"
+      ]
+    },
+    "type": "SchLib",
+    "units": "schematic units (10 = 1 grid)",
+    "message": "Retrieved symbol '0451002.MRL' from 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib'"
+  },
+  "isError": false
+}

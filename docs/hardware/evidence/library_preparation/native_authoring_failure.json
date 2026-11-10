@@ -1,0 +1,68 @@
+{
+  "errorDialog": {
+    "ok": true,
+    "pid": 29360,
+    "recovery_session": {
+      "native_session_id": "20261106121329521-410626343",
+      "pid": 29360,
+      "process_started_at": 1793982387.9400225,
+      "main_hwnd": 9309410,
+      "workspace": "C:\\Users\\justa\\AppData\\Local\\ElectronicsAI\\workspace",
+      "observer_id": "fa7d4d9d0ee81bca8b8ff28621103138"
+    },
+    "recovery_binding_max_age_seconds": 30,
+    "blocked": true,
+    "blocked_without_visible_dialog": false,
+    "dialog_count": 1,
+    "dialogs": [
+      {
+        "title": "Error",
+        "class": "TMessageForm",
+        "kind": "error",
+        "message": [],
+        "buttons": [
+          {
+            "caption": "OK",
+            "class": "TXPBitBtn",
+            "enabled": 1,
+            "visible": 1,
+            "hwnd": 1383790,
+            "recovery_binding": {
+              "native_session_id": "20261106121329521-410626343",
+              "pid": 29360,
+              "process_started_at": 1793982387.9400225,
+              "main_hwnd": 9309410,
+              "workspace": "C:\\Users\\justa\\AppData\\Local\\ElectronicsAI\\workspace",
+              "observer_id": "fa7d4d9d0ee81bca8b8ff28621103138",
+              "dialog_hwnd": 9047756,
+              "dialog_title": "Error",
+              "dialog_class": "TMessageForm",
+              "button_hwnd": 1383790,
+              "button_caption": "OK",
+              "button_class": "TXPBitBtn",
+              "token": "2e4c5271e8d3e5a033c4df0cda17aec2acf3de4e633829ce",
+              "observed_at": "2026-11-06T17:14:13.352072+00:00"
+            }
+          }
+        ],
+        "needs_a_human": true,
+        "has_unreadable_content": true,
+        "hwnd": 9047756,
+        "pid": 29360,
+        "enabled": true,
+        "visible": true,
+        "ocr_text": [
+          "Undeclared identifier: CurrentPartlD",
+          "x"
+        ],
+        "message_source": "ocr",
+        "message_note": "message text was RECOGNISED FROM PIXELS, not read. Altium paints dialog text with controls that own no window handle, so this is the only way to see it. Treat it as a hint: OCR confuses 0 with O and 1 with l, which matters most in part numbers. The title and the button captions are exact and are not from OCR."
+      }
+    ],
+    "needs_a_human": true,
+    "summary": "Altium's main window is disabled. error: 'Error' says 'Undeclared identifier: CurrentPartlD', offering ['OK']",
+    "kinds": [
+      "error"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"operations_processed\": 6,\n  \"operations_skipped\": 0,\n  \"total_matched\": 6,\n  \"results\": [\n    {\n      \"object_type\": \"ePowerObject\",\n      \"filter\": \"Text=SW|Location.X=5600|Location.Y=3300\",\n      \"matched\": 1,\n      \"note\": \"\"\n    },\n    {\n      \"object_type\": \"ePowerObject\",\n      \"filter\": \"Text=SW|Location.X=8300|Location.Y=3600\",\n      \"matched\": 1,\n      \"note\": \"\"\n    },\n    {\n      \"object_type\": \"ePowerObject\",\n      \"filter\": \"Text=Vin|Location.X=8500|Location.Y=5100\",\n      \"matched\": 1,\n      \"note\": \"\"\n    },\n    {\n      \"object_type\": \"ePowerObject\",\n      \"filter\": \"Text=Vin|Location.X=8500|Location.Y=3400\",\n      \"matched\": 1,\n      \"note\": \"\"\n    },\n    {\n      \"object_type\": \"eNetLabel\",\n      \"filter\": \"Text=TX+|Location.X=9600|Location.Y=5000\",\n      \"matched\": 1,\n      \"note\": \"\"\n    },\n    {\n      \"object_type\": \"eNetLabel\",\n      \"filter\": \"Text=SWCLK|Location.X=7200|Location.Y=3500\",\n      \"matched\": 1,\n      \"note\": \"\"\n    }\n  ],\n  \"properties\": {\n    \"unknown_count\": 0,\n    \"unknown\": [],\n    \"failed_count\": 0,\n    \"failed\": [],\n    \"unreadable_count\": 0,\n    \"unreadable\": []\n  }\n}"
+    }
+  ],
+  "structuredContent": {
+    "operations_processed": 6,
+    "operations_skipped": 0,
+    "total_matched": 6,
+    "results": [
+      {
+        "object_type": "ePowerObject",
+        "filter": "Text=SW|Location.X=5600|Location.Y=3300",
+        "matched": 1,
+        "note": ""
+      },
+      {
+        "object_type": "ePowerObject",
+        "filter": "Text=SW|Location.X=8300|Location.Y=3600",
+        "matched": 1,
+        "note": ""
+      },
+      {
+        "object_type": "ePowerObject",
+        "filter": "Text=Vin|Location.X=8500|Location.Y=5100",
+        "matched": 1,
+        "note": ""
+      },
+      {
+        "object_type": "ePowerObject",
+        "filter": "Text=Vin|Location.X=8500|Location.Y=3400",
+        "matched": 1,
+        "note": ""
+      },
+      {
+        "object_type": "eNetLabel",
+        "filter": "Text=TX+|Location.X=9600|Location.Y=5000",
+        "matched": 1,
+        "note": ""
+      },
+      {
+        "object_type": "eNetLabel",
+        "filter": "Text=SWCLK|Location.X=7200|Location.Y=3500",
+        "matched": 1,
+        "note": ""
+      }
+    ],
+    "properties": {
+      "unknown_count": 0,
+      "unknown": [],
+      "failed_count": 0,
+      "failed": [],
+      "unreadable_count": 0,
+      "unreadable": []
+    }
+  },
+  "isError": false
+}

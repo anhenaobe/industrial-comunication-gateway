@@ -1,0 +1,418 @@
+{
+  "date": "2026-11-07",
+  "scope": "USER_APPROVED_ACADEMIC_PROTOTYPE; not tested/certified",
+  "patches": {
+    "IN_FUSE": {
+      "recommended_mpn": "0451002.MRL",
+      "nominal_value": "2 A",
+      "tolerance": "Manufacturer fuse characteristic",
+      "rated_voltage_or_current": "125 VDC",
+      "package": "Littelfuse451 SMD",
+      "quantity": 1,
+      "observations": "User-approved2A backup fuse. Lab current limit0.5A initially; no industrial coordination claim. Manufacturer land pattern saved.",
+      "assembly": "REQUIRED",
+      "item_kind": "AUXILIARY",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "function": "Upstream physical fuse F1"
+    },
+    "IN_REVERSE": {
+      "recommended_mpn": "SS3P6L-M3/86A",
+      "nominal_value": "3 A Schottky",
+      "tolerance": "N/A",
+      "rated_voltage_or_current": "60 V reverse",
+      "package": "SMPC TO-277A",
+      "quantity": 1,
+      "observations": "User-approved series diode. Both anodes1/2 toVIN_FUSED,largeK toVIN_CLAMP. Power off/discharge before changing polarity.",
+      "assembly": "REQUIRED",
+      "item_kind": "AUXILIARY",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "IN_TVS": {
+      "recommended_mpn": "TDS3311P.C",
+      "nominal_value": "33 V working",
+      "tolerance": "Manufacturer table",
+      "rated_voltage_or_current": "42 V maximum specified35A pulse",
+      "package": "DFN6 1.6x1.6",
+      "quantity": 1,
+      "observations": "User-approved replacement for TDS3011P and unreleasedSMBJ33A draft. Pins4/5/6VIN_CLAMP;1/2/3GND. Not continuousOV protection.",
+      "assembly": "REQUIRED",
+      "item_kind": "AUXILIARY",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "IN_BULK": {
+      "recommended_mpn": "C5750X7R2A475K230KA",
+      "nominal_value": "4.7 uF",
+      "tolerance": "10%",
+      "rated_voltage_or_current": "100 V X7R",
+      "package": "2220",
+      "quantity": 1,
+      "observations": "Practical local NIS input bypass,afterD_REV,beforeIN1. No large electrolytic or addedLC filter. Not downstream startup capacitance.",
+      "assembly": "REQUIRED",
+      "item_kind": "PASSIVE",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "function": "NIS local input bypass"
+    },
+    "B3_CIN": {
+      "recommended_mpn": "C5750X7R2A475K230KA",
+      "nominal_value": "4.7 uF",
+      "tolerance": "10%",
+      "rated_voltage_or_current": "100 V X7R",
+      "package": "2220",
+      "quantity": 2,
+      "observations": "Two per regulator. ExactTDK bias graph~3.6uF per part at30V;~6.48uF bank after10% allowance. Prototype confirmation by ripple/startup; no industrial characterization gate.",
+      "assembly": "REQUIRED",
+      "item_kind": "PASSIVE",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "B3_CHF": {
+      "recommended_mpn": "C0805C224K1RACTU",
+      "nominal_value": "220 nF",
+      "tolerance": "10%",
+      "rated_voltage_or_current": "100 V X7R",
+      "package": "0805",
+      "quantity": 2,
+      "observations": "Preserve one220nF at each VIN/PGND pair;exactKemet0805 body and manufacturer nominal lands checked.",
+      "assembly": "REQUIRED",
+      "item_kind": "PASSIVE",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "B3_CVCC": {
+      "recommended_mpn": "C0805C225K5RACTU",
+      "nominal_value": "2.2 uF",
+      "tolerance": "10%",
+      "rated_voltage_or_current": "50 V X7R",
+      "package": "0805",
+      "quantity": 1,
+      "observations": "Replaces prior1uF/50VX5R with known0.656uF effective at5V. Prototype assumption>=60% retention gives>=1.188uF. Verify VCC startup and steady ripple; no externalVCC load exceptPG pull-up.",
+      "assembly": "REQUIRED",
+      "item_kind": "PASSIVE",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "B3_COUT": {
+      "recommended_mpn": "C3225X7R1C156M250AB",
+      "nominal_value": "15 uF",
+      "tolerance": "20%",
+      "rated_voltage_or_current": "16 V X7R",
+      "package": "1210",
+      "quantity": 3,
+      "observations": "Preserves TI1MHz table10-1 RATED45uF example. Output only,never24V rail. Bias/stability confirmed during academic load-step test; manufacturerdimensioned footprint now available.",
+      "assembly": "REQUIRED",
+      "item_kind": "PASSIVE",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "B5_CIN": {
+      "recommended_mpn": "C5750X7R2A475K230KA",
+      "nominal_value": "4.7 uF",
+      "tolerance": "10%",
+      "rated_voltage_or_current": "100 V X7R",
+      "package": "2220",
+      "quantity": 2,
+      "observations": "Two per regulator. ExactTDK bias graph~3.6uF per part at30V;~6.48uF bank after10% allowance. Prototype confirmation by ripple/startup; no industrial characterization gate.",
+      "assembly": "REQUIRED",
+      "item_kind": "PASSIVE",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "B5_CHF": {
+      "recommended_mpn": "C0805C224K1RACTU",
+      "nominal_value": "220 nF",
+      "tolerance": "10%",
+      "rated_voltage_or_current": "100 V X7R",
+      "package": "0805",
+      "quantity": 2,
+      "observations": "Preserve one220nF at each VIN/PGND pair;exactKemet0805 body and manufacturer nominal lands checked.",
+      "assembly": "REQUIRED",
+      "item_kind": "PASSIVE",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "B5_CVCC": {
+      "recommended_mpn": "C0805C225K5RACTU",
+      "nominal_value": "2.2 uF",
+      "tolerance": "10%",
+      "rated_voltage_or_current": "50 V X7R",
+      "package": "0805",
+      "quantity": 1,
+      "observations": "Replaces prior1uF/50VX5R with known0.656uF effective at5V. Prototype assumption>=60% retention gives>=1.188uF. Verify VCC startup and steady ripple; no externalVCC load exceptPG pull-up.",
+      "assembly": "REQUIRED",
+      "item_kind": "PASSIVE",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "B5_COUT": {
+      "recommended_mpn": "C3225X7R1C156M250AB",
+      "nominal_value": "15 uF",
+      "tolerance": "20%",
+      "rated_voltage_or_current": "16 V X7R",
+      "package": "1210",
+      "quantity": 3,
+      "observations": "Preserves TI1MHz table10-1 RATED45uF example. Output only,never24V rail. Bias/stability confirmed during academic load-step test; manufacturerdimensioned footprint now available.",
+      "assembly": "REQUIRED",
+      "item_kind": "PASSIVE",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    }
+  },
+  "new_rows": [
+    {
+      "clone_of": "ETH_RBIAS",
+      "component_id": "IN_RLIM",
+      "subsystem": "Entrada",
+      "main_reference": "NIS3071MT4TWG",
+      "recommended_mpn": "RC0603FR-0762KL",
+      "nominal_value": "62.0 kOhm",
+      "tolerance": "1%",
+      "rated_voltage_or_current": "75 V",
+      "package": "0603",
+      "quantity": 1,
+      "observations": "User-approved RLIM to pin7/GND. Figure7 typicalITH~1A,ICB~2A,not exact guarantees. Historical43.2k superseded ONLY as eFuse setting; buck3V3 feedback43.2k retained.",
+      "assembly": "REQUIRED",
+      "item_kind": "PASSIVE",
+      "power_rating": "0.1 W",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "function": "eFuse current-setting resistor"
+    },
+    {
+      "clone_of": "ETH_RBIAS",
+      "component_id": "IN_RFAULT",
+      "subsystem": "Entrada",
+      "main_reference": "NIS3071MT4TWG",
+      "recommended_mpn": "RC0603FR-0715KL",
+      "nominal_value": "15.0 kOhm",
+      "tolerance": "1%",
+      "rated_voltage_or_current": "75 V",
+      "package": "0603",
+      "quantity": 1,
+      "observations": "Optional MCU status implemented:FAULT5 pull-up to3V3,~0.22mA. Fault activeLOW,notPGOOD. No startup dependency.",
+      "assembly": "REQUIRED",
+      "item_kind": "PASSIVE",
+      "power_rating": "0.1 W",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "function": "FAULT pull-up"
+    },
+    {
+      "clone_of": "ETH_RBIAS",
+      "component_id": "IN_HF",
+      "subsystem": "Entrada",
+      "main_reference": "NIS3071MT4TWG",
+      "recommended_mpn": "C0805C224K1RACTU",
+      "nominal_value": "220 nF",
+      "tolerance": "10%",
+      "rated_voltage_or_current": "100 V X7R",
+      "package": "0805",
+      "quantity": 1,
+      "observations": "Parallel HF bypass at NIS IN1/GND close to pins; reuses buck HF MPN.",
+      "assembly": "REQUIRED",
+      "item_kind": "PASSIVE",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "function": "NIS input high-frequency bypass"
+    },
+    {
+      "clone_of": "ETH_RBIAS",
+      "component_id": "IN_CDVDT",
+      "subsystem": "Entrada",
+      "main_reference": "NIS3071MT4TWG",
+      "recommended_mpn": "C0603C680J5GACTU",
+      "nominal_value": "68 pF option; OPEN by default",
+      "tolerance": "5%",
+      "rated_voltage_or_current": "50 V C0G",
+      "package": "0603",
+      "quantity": 0,
+      "observations": "DNP;pin6 open for default startup. Reserved68pF footprint permits slower ramp if bring-up observes retries. No jumper-to-ground.",
+      "assembly": "DNP",
+      "item_kind": "PASSIVE",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "function": "Optional eFuse slew capacitor"
+    },
+    {
+      "clone_of": "ETH_RBIAS",
+      "component_id": "IN_SOUT",
+      "subsystem": "Entrada",
+      "main_reference": "NIS3071MT4TWG",
+      "recommended_mpn": "SS3P6L-M3/86A",
+      "nominal_value": "DNP negative-output clamp option",
+      "tolerance": "N/A",
+      "rated_voltage_or_current": "60 V reverse",
+      "package": "SMPC TO-277A",
+      "quantity": 0,
+      "observations": "DNP footprint only:anodes1/2GND,K24V_ELEC. No inductive electronics load/long harness assumed. This part is NOT guaranteed-.3V clamp; review before population.",
+      "assembly": "DNP",
+      "item_kind": "AUXILIARY",
+      "power_rating": "N/A",
+      "electrical_value_source": "Approved academic freeze; input_protection_reference section10; manufacturer evidence/input_protection_freeze",
+      "verification_status": "VERIFIED",
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "function": "Reserved output-clamp footprint"
+    }
+  ],
+  "record_fields": {
+    "IN_FUSE": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "IN_REVERSE": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "IN_TVS": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "IN_RLIM": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "IN_RFAULT": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "IN_BULK": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "IN_HF": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "IN_CDVDT": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "IN_SOUT": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "B3_CIN": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "B3_CHF": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "B3_CVCC": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "B3_COUT": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "B5_CIN": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "B5_CHF": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "B5_CVCC": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "B5_COUT": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "ACTIVE_NIS3071MT4TWG": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "ACTIVE_LMR36015FBRNXR": {
+      "design_approval": "PROTOTYPE_APPROVED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    }
+  },
+  "active_patches": {
+    "ACTIVE_NIS3071MT4TWG": {
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "verification_status": "VERIFIED",
+      "selection_status": "PROTOTYPE_APPROVED",
+      "capture_status": "READY_FOR_MANUAL_CAPTURE"
+    },
+    "ACTIVE_LMR36015FBRNXR": {
+      "electrical_status": "ELECTRICAL_VERIFIED",
+      "verification_status": "VERIFIED",
+      "selection_status": "PROTOTYPE_APPROVED",
+      "capture_status": "READY_FOR_MANUAL_CAPTURE"
+    }
+  }
+}

@@ -1,0 +1,310 @@
+[
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_C0603C104K5RACTU_dc5e12a5",
+    "new_name": "GW_C0603C104K5RACTU_dc5e12a5",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0603_cap' -> 'GW_0603_KEMET_NOMINAL'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_C0603C104K5RACTU_dc5e12a5'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153537_737894.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_C0805C475K4RACTU_82374e08",
+    "new_name": "GW_C0805C475K4RACTU_82374e08",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0805_cap' -> 'GW_0805_KEMET_NOMINAL'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_C0805C475K4RACTU_82374e08'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153547_090050.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_C0603C225K8RACTU_46503424",
+    "new_name": "GW_C0603C225K8RACTU_46503424",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0603_cap' -> 'GW_0603_KEMET_NOMINAL'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_C0603C225K8RACTU_46503424'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153557_176008.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_C0603C103K1RACTU_97f3ee33",
+    "new_name": "GW_C0603C103K1RACTU_97f3ee33",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0603_cap' -> 'GW_0603_KEMET_NOMINAL'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_C0603C103K1RACTU_97f3ee33'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153608_497277.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_C0603C202J5GACTU_fa733a70",
+    "new_name": "GW_C0603C202J5GACTU_fa733a70",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0603_cap' -> 'GW_0603_KEMET_NOMINAL'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_C0603C202J5GACTU_fa733a70'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153620_994463.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_RC0603FR-076K49L_f42a9329",
+    "new_name": "GW_RC0603FR-076K49L_f42a9329",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0603_res' -> 'GW_RC0603_YAGEO_REFLOW'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_RC0603FR-076K49L_f42a9329'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153638_266071.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_RC0603FR-072K49L_b905c5f0",
+    "new_name": "GW_RC0603FR-072K49L_b905c5f0",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0603_res' -> 'GW_RC0603_YAGEO_REFLOW'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_RC0603FR-072K49L_b905c5f0'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153656_516284.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_C0805C224K1RACTU_e16e52b8",
+    "new_name": "GW_C0805C224K1RACTU_e16e52b8",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0805_cap' -> 'GW_0805_KEMET_NOMINAL'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_C0805C224K1RACTU_e16e52b8'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153713_027835.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_RC0603FR-07100KL_ac663db8",
+    "new_name": "GW_RC0603FR-07100KL_ac663db8",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0603_res' -> 'GW_RC0603_YAGEO_REFLOW'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_RC0603FR-07100KL_ac663db8'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153730_620235.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_RC0603FR-0743K2L_a8308c0c",
+    "new_name": "GW_RC0603FR-0743K2L_a8308c0c",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0603_res' -> 'GW_RC0603_YAGEO_REFLOW'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_RC0603FR-0743K2L_a8308c0c'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153746_832713.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_C0603C200J5GACTU_c75b007a",
+    "new_name": "GW_C0603C200J5GACTU_c75b007a",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0603_cap' -> 'GW_0603_KEMET_NOMINAL'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_C0603C200J5GACTU_c75b007a'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153804_372754.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_RC0603FR-0724K9L_10698e9e",
+    "new_name": "GW_RC0603FR-0724K9L_10698e9e",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0603_res' -> 'GW_RC0603_YAGEO_REFLOW'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_RC0603FR-0724K9L_10698e9e'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153821_697641.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "GW_RC0603FR-07562RL_a6fad8df",
+    "new_name": "GW_RC0603FR-07562RL_a6fad8df",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0603_res' -> 'GW_RC0603_YAGEO_REFLOW'",
+      "parameters[8].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[11].value: 'Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'GW_RC0603FR-07562RL_a6fad8df'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153838_356225.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "RC0603FR-0710KL",
+    "new_name": "RC0603FR-0710KL",
+    "would_rename": false,
+    "changes": [
+      "footprints[0].name: 'GW_CAND_0603_res' -> 'GW_RC0603_YAGEO_REFLOW'",
+      "parameters[3].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING'",
+      "parameters[4].value: '10kOhm1%0.1W@70C; replaces unqualified FOJAN identity. Shared professor lands remain CAD_CANDIDATE, not qualified manufacturer lands.' -> 'Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.'"
+    ],
+    "message": "Updated component 'RC0603FR-0710KL'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_153855_357756.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "file": "AN5419.pdf",
+    "url": "https://www.st.com/resource/en/application_note/an5419-getting-started-with-stm32h723733-stm32h725735-and-stm32h730-value-line-hardware-development-stmicroelectronics.pdf",
+    "status": "FAILED",
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "C0603C104K5RACTU.pdf",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+    "resolved_url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C104K5RACTU",
+    "bytes": 289466,
+    "sha256": "692884c93b1ca0a876bfa7e89c09745b2cd7a6abf7f02b5b9873d5e33b5308fc",
+    "status": "downloaded_not_CAD_qualified"
+  },
+  {
+    "file": "C0603C225K8RACTU.pdf",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C225K8RACTU",
+    "resolved_url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C225K8RACTU",
+    "bytes": 292467,
+    "sha256": "2332ccfc7b76a47be61666d772961e0b85a09323decc9e8f601a350235fb6bd1",
+    "status": "downloaded_not_CAD_qualified"
+  },
+  {
+    "file": "C0805C475K4RACTU.pdf",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C475K4RACTU",
+    "resolved_url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C475K4RACTU",
+    "bytes": 289443,
+    "sha256": "8543bb8617262b9e9ddd22cf99b9402339d1f4365b531ede3ee1e35ad947e68e",
+    "status": "downloaded_not_CAD_qualified"
+  },
+  {
+    "file": "C1210C475K1RACTU.pdf",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C1210C475K1RACTU",
+    "status": "FAILED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "C0805C224K1RACTU.pdf",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C224K1RACTU",
+    "resolved_url": "https://search.kemet.com/component-documentation/download/specsheet/C0805C224K1RACTU",
+    "bytes": 291307,
+    "sha256": "643c60bf9a146632a1ac7abd0f4681df309285ac22262f24319dc4ffcb2c3e65",
+    "status": "downloaded_not_CAD_qualified"
+  },
+  {
+    "file": "C1210C156K4RACTU.pdf",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C1210C156K4RACTU",
+    "status": "FAILED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "XAL4030.html",
+    "url": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal40xx/",
+    "status": "FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "CL21A106KAYNNN.html",
+    "url": "https://product.samsungsem.com/mlcc/CL21A106KAYNNN.do",
+    "resolved_url": "https://product.samsungsem.com/mlcc/CL21A106KAYNNN.do",
+    "bytes": 169898,
+    "sha256": "d6957a95e5a386aaa517c456c4774fc4e939446ecdadee31c9f07e96abea4fd0",
+    "status": "downloaded_not_CAD_qualified"
+  },
+  {
+    "file": "CL10A105KB8NNN.html",
+    "url": "https://product.samsungsem.com/mlcc/CL10A105KB8NNN.do",
+    "resolved_url": "https://product.samsungsem.com/mlcc/CL10A105KB8NNN.do",
+    "bytes": 176865,
+    "sha256": "325695a97368db94dd5d7c0901b16b9387526c1468418715e3342c7eaac94b58",
+    "status": "downloaded_not_CAD_qualified"
+  }
+]

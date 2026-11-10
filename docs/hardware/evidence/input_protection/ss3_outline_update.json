@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"status\": \"success\", \"filepath\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.PcbLib\", \"file_type\": \"PcbLib\", \"dry_run\": false, \"component_name\": \"GW_SS3P6L_VISHAY_88987\", \"new_name\": \"GW_SS3P6L_VISHAY_88987\", \"would_rename\": false, \"changes\": [\"tracks.count: 4 -> 0\"], \"message\": \"Updated component 'GW_SS3P6L_VISHAY_88987'\", \"backup\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.PcbLib.20261107_103057_751917.bak\", \"validation\": {\"status\": \"valid\", \"error_count\": 0, \"warning_count\": 0, \"issues\": []}}"
+    }
+  ],
+  "structuredContent": {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "file_type": "PcbLib",
+    "dry_run": false,
+    "component_name": "GW_SS3P6L_VISHAY_88987",
+    "new_name": "GW_SS3P6L_VISHAY_88987",
+    "would_rename": false,
+    "changes": [
+      "tracks.count: 4 -> 0"
+    ],
+    "message": "Updated component 'GW_SS3P6L_VISHAY_88987'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261107_103057_751917.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  "isError": false
+}

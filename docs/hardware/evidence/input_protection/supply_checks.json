@@ -1,0 +1,71 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"provider\": \"jlcpcb\", \"query\": \"TDS3011P.C\", \"status\": \"dynamic_catalog_unavailable\", \"results\": [], \"message\": \"Public HTML contains no structured part records. Supply an exact C-code or use approved JLCPCB API access; empty dynamic HTML is not zero stock.\", \"availability\": \"unknown\", \"observed_at_utc\": \"2026-11-07T15:19:28.517361+00:00\", \"search_url\": \"https://jlcpcb.com/parts/componentSearch?searchTxt=TDS3011P.C\", \"api_access_url\": \"https://api.jlcpcb.com/\"}"
+        }
+      ],
+      "structuredContent": {
+        "provider": "jlcpcb",
+        "query": "TDS3011P.C",
+        "status": "dynamic_catalog_unavailable",
+        "results": [],
+        "message": "Public HTML contains no structured part records. Supply an exact C-code or use approved JLCPCB API access; empty dynamic HTML is not zero stock.",
+        "availability": "unknown",
+        "observed_at_utc": "2026-11-07T15:19:28.517361+00:00",
+        "search_url": "https://jlcpcb.com/parts/componentSearch?searchTxt=TDS3011P.C",
+        "api_access_url": "https://api.jlcpcb.com/"
+      },
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"provider\": \"jlcpcb\", \"query\": \"NIS3071MT4TWG\", \"status\": \"dynamic_catalog_unavailable\", \"results\": [], \"message\": \"Public HTML contains no structured part records. Supply an exact C-code or use approved JLCPCB API access; empty dynamic HTML is not zero stock.\", \"availability\": \"unknown\", \"observed_at_utc\": \"2026-11-07T15:19:32.209126+00:00\", \"search_url\": \"https://jlcpcb.com/parts/componentSearch?searchTxt=NIS3071MT4TWG\", \"api_access_url\": \"https://api.jlcpcb.com/\"}"
+        }
+      ],
+      "structuredContent": {
+        "provider": "jlcpcb",
+        "query": "NIS3071MT4TWG",
+        "status": "dynamic_catalog_unavailable",
+        "results": [],
+        "message": "Public HTML contains no structured part records. Supply an exact C-code or use approved JLCPCB API access; empty dynamic HTML is not zero stock.",
+        "availability": "unknown",
+        "observed_at_utc": "2026-11-07T15:19:32.209126+00:00",
+        "search_url": "https://jlcpcb.com/parts/componentSearch?searchTxt=NIS3071MT4TWG",
+        "api_access_url": "https://api.jlcpcb.com/"
+      },
+      "isError": false
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"provider\": \"jlcpcb\", \"query\": \"0451002.MRL\", \"status\": \"dynamic_catalog_unavailable\", \"results\": [], \"message\": \"Public HTML contains no structured part records. Supply an exact C-code or use approved JLCPCB API access; empty dynamic HTML is not zero stock.\", \"availability\": \"unknown\", \"observed_at_utc\": \"2026-11-07T15:19:35.994887+00:00\", \"search_url\": \"https://jlcpcb.com/parts/componentSearch?searchTxt=0451002.MRL\", \"api_access_url\": \"https://api.jlcpcb.com/\"}"
+        }
+      ],
+      "structuredContent": {
+        "provider": "jlcpcb",
+        "query": "0451002.MRL",
+        "status": "dynamic_catalog_unavailable",
+        "results": [],
+        "message": "Public HTML contains no structured part records. Supply an exact C-code or use approved JLCPCB API access; empty dynamic HTML is not zero stock.",
+        "availability": "unknown",
+        "observed_at_utc": "2026-11-07T15:19:35.994887+00:00",
+        "search_url": "https://jlcpcb.com/parts/componentSearch?searchTxt=0451002.MRL",
+        "api_access_url": "https://api.jlcpcb.com/"
+      },
+      "isError": false
+    }
+  }
+]

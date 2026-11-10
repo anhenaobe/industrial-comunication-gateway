@@ -1,0 +1,34 @@
+{
+  "objects": [
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\TopLevel.SchDoc",
+      "FileName": "File Name",
+      "Designator.Text": "Designator",
+      "Location.X": "5000",
+      "Location.Y": "6100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\TopLevel.SchDoc",
+      "FileName": "File Name",
+      "Designator.Text": "Designator",
+      "Location.X": "5000",
+      "Location.Y": "3700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\TopLevel.SchDoc",
+      "FileName": "File Name",
+      "Designator.Text": "Designator",
+      "Location.X": "1600",
+      "Location.Y": "3700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\TopLevel.SchDoc",
+      "FileName": "File Name",
+      "Designator.Text": "Designator",
+      "Location.X": "1600",
+      "Location.Y": "6100"
+    }
+  ],
+  "count": 4,
+  "sheets_processed": 5
+}

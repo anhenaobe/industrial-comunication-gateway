@@ -1,0 +1,393 @@
+=== PAGE 1 ===
+                                                         MMBT3904
+
+                                                40V NPN SMALL-SIGNAL TRANSISTOR IN SOT23
+
+Features                                 Mechanical Data
+
+•   Complementary PNP Type Available (MMBT3906)                   •   Package: SOT23
+•    Ideal for Medium-Power Amplification and Switching                 •   Package Material: Molded Plastic, “Green” Molding Compound.
+•    Totally Lead-Free & Fully RoHS Compliant (Notes 1 & 2)          UL Flammability Classification Rating 94V-0
+•   Halogen and Antimony Free. “Green” Device (Note 3)            •    Moisture Sensitivity: Level 1 per J-STD-020
+•   An automotive-compliant part is available under separate        •    Terminals: Finish – Matte Tin Plated Leads. Solderable per
+     datasheet (MMBT3904Q)                                         MIL-STD-202, Method 208
+                                                                        •    Weight: 0.008 grams (Approximate)
+
+
+                                C
+
+                      SOT23
+
+                         B
+
+
+                                  E
+                                                                                  Top View
+                       Top View                         Device Symbol                       Pinout
+
+
+Ordering Information (Note 4)
+
+                                                                                                       Packing
+   Orderable Part Number      Package        Marking      Reel Size (inches)    Tape Width (mm)
+                                                                                                                Qty.        Carrier
+      MMBT3904-7-F          SOT23         K1N               7                  8              3,000        Reel
+      MMBT3904-13-F         SOT23         K1N              13                  8             10,000       Reel
+
+Notes:     1. No purposely added lead. Fully EU Directive 2002/95/EC (RoHS), 2011/65/EU (RoHS 2) & 2015/863/EU (RoHS 3) compliant.
+             2. See https://www.diodes.com/quality/lead-free/ for more information about Diodes Incorporated’s definitions of Halogen- and Antimony-free, "Green" and
+              Lead-free.
+             3. Halogen- and Antimony-free "Green” products are defined as those which contain <900ppm bromine, <900ppm chlorine (<1500ppm total Br + Cl) and
+           <1000ppm antimony compounds.
+             4. For packaging details, go to our website at https://www.diodes.com/design/support/packaging/diodes-packaging/.
+
+
+Marking Information
+
+
+
+                                               K1N = Product Type Marking Code
+                                        YM = Date Code Marking
+                                             Y or Y or Y = Year (ex: M = 2025)
+                                    M or M = Month (ex: 9 = September)
+
+
+
+Date Code Key
+
+      Year       2003          -      2025     2026     2027     2028     2029     2030     2031     2032     2033     2034
+     Code       P             -     M     N      P      R      S       T      U      V    W      X
+
+    Month       Jan     Feb     Mar     Apr    May     Jun      Jul     Aug     Sep     Oct     Nov     Dec
+     Code         1       2       3       4        5       6       7       8        9     O     N      D
+
+
+
+
+
+MMBT3904                                             1 of 7                                              March 2025
+Document number: DS30036 Rev. 27 - 2                      www.diodes.com                      © 2025 Copyright Diodes Incorporated. All Rights Reserved.
+=== PAGE 2 ===
+                                                         MMBT3904
+
+
+Absolute Maximum Ratings (@TA = +25°C, unless otherwise specified.)
+
+                          Characteristic                         Symbol                 Value                    Unit
+ Collector-Base Voltage                                          VCBO                   60                 V
+ Collector-Emitter Voltage                                        VCEO                   40                 V
+ Emitter-Base Voltage                                            VEBO                    6                 V
+ Collector Current                                                                  IC                    200              mA
+
+
+Thermal Characteristics (@TA = +25°C, unless otherwise specified.)
+
+                          Characteristic                         Symbol                 Value                    Unit
+                                                    (Note 5)                                  310
+ Power Dissipation                                            PD                          mW
+                                                    (Note 6)                                  350
+                                                    (Note 5)                                  403
+ Thermal Resistance, Junction to Ambient                                RθJA                                      °C/W
+                                                    (Note 6)                                  357
+ Thermal Resistance, Junction to Leads               (Note 7)             RθJL                   350                 °C/W
+ Operating and Storage Temperature Range                                  TJ, TSTG                 -55 to +150                °C
+
+
+ESD Ratings (Note 8)
+
+                          Characteristic                         Symbol           Value           Unit     JEDEC Class
+ Electrostatic Discharge - Human Body Model                   ESD HBM            4,000         V           3A
+ Electrostatic Discharge - Machine Model                      ESD MM            400         V          C
+
+Notes:     5. For a device mounted on minimum recommended pad layout 1oz copper that is on a single-sided FR4 PCB; device is measured under still air conditions
+                whilst operating in a steady state.
+             6. Same as Note 5, except the device is mounted on 15mm x 15mm 1oz copper.
+          7 Thermal resistance from junction to solder-point (at the end of the leads).
+             8. Refer to JEDEC specification JESD22-A114 and JESD22-A115.
+
+
+
+
+
+MMBT3904                                             2 of 7                                              March 2025
+Document number: DS30036 Rev. 27 - 2                      www.diodes.com                      © 2025 Copyright Diodes Incorporated. All Rights Reserved.
+=== PAGE 3 ===
+                                                         MMBT3904
+
+
+Thermal Characteristics and Derating Information
+
+
+
+
+               0.4                                             400
+         (W)                                                  350
+               0.3                                             300                                                                                                                                   (°C/W)
+                                                            250
+                                                                          D=0.5
+               0.2                                             200                                Dissipation                                                  150           D=0.1
+                                                                          D=0.2                      Single Pulse               0.1                                                                                                                                                                 Resistance  100
+                                                             50               Power                                                                                     D=0.05
+               0.0                                               0
+               0    25    50    75   100   125   150            100µ  1m  10m 100m   1    10   100   1k         Max                                                                                                                             Thermal
+                     Temperature (°C)                              Pulse Width (s)
+                        FigureDerating1. DeratingCurveCurve             TransientFigure 2. TransientThermalThermalImpedanceImpedance
+
+             10
+                                                                   1
+         (W)                               Single Pulse. Tamb=25°C
+                                                                                             (A)
+
+                                                                              0.1                                 Pw = 10ms
+              1                                                                                                                                                                                                                         CURRENT                        DC                                  Dissipation
+
+                                                                                            Pw = 100ms
+
+                                                                          0.01               Power                                                                                                                                                                                                                                                                                       COLLECTOR
+               0.1                       ,
+            10m   100m     1      10     100     1k IC         Max                                                                      T A = 25蚓25°C
+                         Pulse Width (s)                                     Single Non-repetitive Pulse
+                                                                           DUT mounted onto 1xMRP
+                  FigurePulse3. PowerPulse PowerDissipationDissipation          0.001 0.1FR-4 board     1            10           100
+                                                            V CE, COLLECTOR-EMITTER VOLTAGE (V)
+                                                                                                      Fig. 5 Typical Collector Current
+                                                                Figure 4.vs.TypicalCollector-EmitterCollectorVoltageCurrent vs.
+                                                                           Collector-Emitter Voltage
+
+
+
+
+
+MMBT3904                                             3 of 7                                              March 2025
+Document number: DS30036 Rev. 27 - 2                      www.diodes.com                      © 2025 Copyright Diodes Incorporated. All Rights Reserved.
+=== PAGE 4 ===
+                                                         MMBT3904
+
+
+Electrical Characteristics (@TA = +25°C, unless otherwise specified.)
+
+                       Characteristic                    Symbol     Min     Max       Unit           Test Condition
+ OFF CHARACTERISTICS
+ Collector-Base Breakdown Voltage                       BVCBO      60    ⎯      V      IC = 10μA, IE = 0
+ Collector-Emitter Breakdown Voltage (Note 9)               BVCEO      40    ⎯      V      IC = 10mA, IB = 0
+ Emitter-Base Breakdown Voltage                         BVEBO       6.0    ⎯      V       IE = 10μA, IC = 0
+ Collector Cutoff Current                                           ICEX    ⎯       50       nA    VCE = 30V, VEB(off) = 3.0V
+ Base Cutoff Current                                                      IBL    ⎯       50       nA    VCE = 30V, VEB(off) = 3.0V
+ Emitter Base Cutoff Current                                      IEBO    ⎯       50       nA    VEB = 6V
+ Collector-Base Cutoff Current                                   ICBO    ⎯       50       nA    VCB = 48V
+ ON CHARACTERISTICS (Note 9)
+                                                                 40    ⎯                   IC = 100µA, VCE = 1.0V
+                                                                 70    ⎯                   IC = 1.0mA, VCE = 1.0V
+ DC Current Gain                                             hFE       100      300    ⎯      IC = 10mA, VCE = 1.0V
+                                                                 60    ⎯                   IC = 50mA, VCE = 1.0V
+                                                                 30    ⎯                   IC = 100mA, VCE = 1.0V
+                                    ⎯       0.20                 IC = 10mA, IB = 1.0mA
+ Collector-Emitter Saturation Voltage                                 VCE(sat)                    V
+                                    ⎯       0.30                 IC = 50mA, IB = 5.0mA
+                                                                          0.65      0.85                 IC = 10mA, IB = 1.0mA
+ Base-Emitter Saturation Voltage                                      VBE(sat)                     V                                    ⎯       0.95                 IC = 50mA, IB = 5.0mA
+ SMALL-SIGNAL CHARACTERISTICS
+ Output Capacitance                                          Cobo    ⎯        4.0       pF    VCB = 5.0V, f = 1.0MHz, IE = 0
+ Input Capacitance                                                   Cibo    ⎯        8.0       pF    VEB = 0.5V, f = 1.0MHz, IC = 0
+ Input Impedance                                                      hIE         1.0       10      kΩ
+ Voltage Feedback Ratio                                    hRE        0.5        8.0      x 10-4   VCE = 10V, IC = 1.0mA
+ Small-Signal Current Gain                                    hFE       100      400    ⎯         f = 1.0kHz
+ Output Admittance                                        hOE        1.0       40      µS
+                                                                                       VCE = 20V, IC = 10mA Current Gain-Bandwidth Product                                           fT        300    ⎯     MHz
+                                                                                                                                                                                   f = 100MHz
+                                                                                       VCE = 5.0V, IC = 100μA
+ Noise Figure                                     NF    ⎯        5.0      dB
+                                                                                  RS = 1.0kΩ, f = 1.0kHz
+ SWITCHING CHARACTERISTICS
+ Delay Time                                                                        td     ⎯       35        ns    VCC = 3.0V, IC = 10mA
+ Rise Time                                                                                                 tr     ⎯       35        ns       VBE(off) = - 0.5V, IB1 = 1.0mA
+ Storage Time                                                                          ts     ⎯       200       ns    VCC = 3.0V, IC = 10mA
+ Fall Time                                                                                                           tf     ⎯       50        ns      IB1 = IB2 = 1.0mA
+
+ Note:       9. Measured under pulsed conditions. Pulse width ≤ 300µs. Duty cycle ≤ 2%.
+
+
+
+
+
+MMBT3904                                             4 of 7                                              March 2025
+Document number: DS30036 Rev. 27 - 2                      www.diodes.com                      © 2025 Copyright Diodes Incorporated. All Rights Reserved.
+=== PAGE 5 ===
+                                                         MMBT3904
+
+
+Typical Electrical Characteristics (@TA = +25°C, unless otherwise specified.)
+
+
+       1,000                                                           1
+
+
+
+                                                                                                   (V)
+            GAIN
+        100                                                                                                                                                                                                                                       VOLTAGE
+                                                                                  0.1                    CURRENT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             COLLECTOR-EMITTER      DC                            ,
+
+   ,
+         FE 10                                                                                                                                                  (sat)   h                                                                                                                                                                                                                                                                                                                                          SATURATION                                                                                                                                                                                                                                                                                                          CE(SAT)
+                                V
+
+
+          1                                                                 0.01
+             0.1        1        10       100       1,000                     0.1       1        10        100      1,000
+                                   IC, COLLECTOR CURRENT (mA)                                                                     IC, COLLECTOR CURRENT (mA)
+         FigureFig.5.1 Typical DC Current Gain vs. Collector Current                     FigureFig. 6.2 Typical Collector-Emitter Saturation Voltage
+                                                                                                               vs. Collector Current
+
+        (V) 10                                                         15
+                              IC
+                    VOLTAGE                BI = 10
+                                                                                                                                   (pF) 10
+
+
+          1             T A = -25°C                            SATURATION
+                                                 T A = 125°C
+                                                                      5                                                                                                                                                                                                                                                                                                                                                                       CAPACITANCE
+                                       T A = 75°C                         TA = 25°C                                  BASE-EMITTER
+   ,(sat) 0.1                                                           0                              BE(SAT)    0.1        1         10        100        1,000                                                                                    0.1            1            10           100   V
+                                      IC , COLLECTOR CURRENT (mA)                           V R, REVERSE VOLTAGE (V)
+             FigureFig.7.3 Typical Base-Emitter Saturation Voltage                                                                                   FigureFig.8.4 Typical Capacitance Characteristics
+                                vs. Collector Current
+
+
+
+
+
+MMBT3904                                             5 of 7                                              March 2025
+Document number: DS30036 Rev. 27 - 2                      www.diodes.com                      © 2025 Copyright Diodes Incorporated. All Rights Reserved.
+=== PAGE 6 ===
+                                                         MMBT3904
+
+
+Package Outline Dimensions
+
+Please see http://www.diodes.com/package-outlines.html for the latest version.
+
+                                                SOT23
+
+
+
+                                                                                       All 7°
+                        H
+                                                              GAUGE PLANE                      SOT23
+                                                                                                  0.25                  Dim   Min   Max   Typ
+                                                       J                                  A    0.37   0.51   0.40         K1   K
+                                                                  B    1.20   1.40   1.30
+                                                                  C    2.30   2.50   2.40
+                                                                              a
+                                                                  D    0.89   1.03   0.915
+                           A           M                                                                              F    0.45   0.60   0.535
+                                                         L                      L1            G    1.78   2.05   1.83
+                                                                  H    2.80   3.00   2.90
+                                                                                      J    0.013   0.10   0.05
+                                                                  K    0.890   1.00   0.975
+          C   B                                                             K1   0.903   1.10   1.025
+                                                                              L    0.45   0.61   0.55
+                                                                                 L1    0.25   0.55   0.40
+                                                         M    0.085  0.150  0.110
+                            D                                                       a     0°     8°        --
+                                                                                                                 All Dimensions in mm
+                     F      G
+
+
+
+Suggested Pad Layout
+
+Please see http://www.diodes.com/package-outlines.html for the latest version.
+
+                                                SOT23
+
+                                                                                 Dimensions  Value (in mm)
+                           Y                                          C             2.0
+                                                                        X             0.8
+                                                                              X1            1.35
+                                                                        Y             0.9
+                     Y1                      C                              Y1             2.9
+
+
+
+
+
+                          X           X1
+
+
+
+
+
+MMBT3904                                             6 of 7                                              March 2025
+Document number: DS30036 Rev. 27 - 2                      www.diodes.com                      © 2025 Copyright Diodes Incorporated. All Rights Reserved.
+=== PAGE 7 ===
+                                                         MMBT3904
+
+
+
+
+                                          IMPORTANT NOTICE
+
+ 1.      DIODES INCORPORATED (Diodes) AND ITS SUBSIDIARIES MAKE NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH
+REGARDS TO ANY INFORMATION CONTAINED IN THIS DOCUMENT, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD PARTY INTELLECTUAL PROPERTY
+RIGHTS (AND THEIR EQUIVALENTS UNDER THE LAWS OF ANY JURISDICTION).
+
+ 2.      The Information contained herein is for informational purpose only and is provided only to illustrate the operation of Diodes’ products
+described herein and application examples. Diodes does not assume any liability arising out of the application or use of this document or any product
+described herein. This document is intended for skilled and technically trained engineering customers and users who design with Diodes’ products.
+Diodes’ products may be used to facilitate safety-related applications; however, in all instances customers and users are responsible for (a) selecting
+the appropriate Diodes products for their applications, (b) evaluating the suitability of Diodes’ products for their intended applications, (c) ensuring
+ their applications, which incorporate Diodes’ products, comply the applicable legal and regulatory requirements as well as safety and functional-
+safety related standards, and (d) ensuring they design with appropriate safeguards (including testing, validation, quality control techniques,
+redundancy, malfunction prevention, and appropriate treatment for aging degradation) to minimize the risks associated with their applications.
+
+ 3.       Diodes assumes no liability for any application-related information, support, assistance or feedback that may be provided by Diodes from
+time to time. Any customer or user of this document or products described herein will assume all risks and liabilities associated with such use, and
+ will hold Diodes and all companies whose products are represented herein or on Diodes’ websites, harmless against all damages and liabilities.
+
+ 4.       Products described herein may be covered by one or more United States, international or foreign patents and pending patent applications.
+Product names and markings noted herein may also be covered by one or more United States, international or foreign trademarks and trademark
+applications. Diodes does not convey any license under any of its intellectual property rights or the rights of any third parties (including third parties
+whose products and services may be described in this document or on Diodes’ website) under this document.
+
+ 5.        Diodes’    products    are    provided     subject     to    Diodes’    Standard    Terms    and    Conditions     of    Sale
+(https://www.diodes.com/about/company/terms-and-conditions/terms-and-conditions-of-sales/) or other applicable terms. This document does not
+ alter or expand the applicable warranties provided by Diodes. Diodes does not warrant or accept any liability whatsoever in respect of any products
+purchased through unauthorized sales channel.
+
+ 6.        Diodes’ products and technology may not be used for or incorporated into any products or systems whose manufacture, use or sale is
+prohibited under any applicable laws and regulations. Should customers or users use Diodes’ products in contravention of any applicable laws or
+regulations, or for any unintended or unauthorized application, customers and users will (a) be solely responsible for any damages, losses or
+penalties arising in connection therewith or as a result thereof, and (b) indemnify and hold Diodes and its representatives and agents harmless
+against any and all claims, damages, expenses, and attorney fees arising out of, directly or indirectly, any claim relating to any noncompliance with
+the applicable laws and regulations, as well as any unintended or unauthorized application.
+
+ 7.       While efforts have been made to ensure the information contained in this document is accurate, complete and current, it may contain
+technical inaccuracies, omissions and typographical errors. Diodes does not warrant that information contained in this document is error-free and
+Diodes is under no obligation to update or otherwise correct this information. Notwithstanding the foregoing, Diodes reserves the right to make
+modifications, enhancements, improvements, corrections or other changes without further notice to this document and any product described herein.
+This document is written in English but may be translated into multiple languages for reference. Only the English version of this document is the final
+and determinative format released by Diodes.
+
+ 8.      Any unauthorized copying, modification, distribution, transmission, display or other use of this document (or any portion hereof) is
+prohibited. Diodes assumes no responsibility for any losses incurred by the customers or users or any third parties arising from any such unauthorized
+use.
+
+ 9.        This Notice may be periodically updated with the most recent version available at https://www.diodes.com/about/company/terms-and-
+conditions/important-notice
+
+
+The Diodes logo is a registered trademark of Diodes Incorporated in the United States and other countries.
+ All other trademarks are the property of their respective owners.
+© 2025 Diodes Incorporated. All Rights Reserved.
+
+www.diodes.com
+
+
+
+
+
+MMBT3904                                             7 of 7                                              March 2025
+Document number: DS30036 Rev. 27 - 2                      www.diodes.com                      © 2025 Copyright Diodes Incorporated. All Rights Reserved.

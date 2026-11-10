@@ -1,0 +1,228 @@
+{
+  "objects": [
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Text": "OVP",
+      "Location.X": "9800",
+      "Location.Y": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Text": "OVP",
+      "Location.X": "9300",
+      "Location.Y": "6600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Text": "EF_RTN",
+      "Location.X": "12800",
+      "Location.Y": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Text": "EF_RTN",
+      "Location.X": "10900",
+      "Location.Y": "6600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Text": "EF_RTN",
+      "Location.X": "13200",
+      "Location.Y": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Text": "PH0",
+      "Location.X": "4200",
+      "Location.Y": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Text": "PH0",
+      "Location.X": "10000",
+      "Location.Y": "6400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Text": "SWDIO",
+      "Location.X": "7200",
+      "Location.Y": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Text": "SWCLK",
+      "Location.X": "7200",
+      "Location.Y": "3500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Text": "SWD",
+      "Location.X": "3600",
+      "Location.Y": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "MDI_RXN",
+      "Location.X": "4100",
+      "Location.Y": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "MDI_RXP",
+      "Location.X": "4100",
+      "Location.Y": "7400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "MDI_TXN",
+      "Location.X": "4100",
+      "Location.Y": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "MDI_TXP",
+      "Location.X": "4100",
+      "Location.Y": "7200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "XI",
+      "Location.X": "4100",
+      "Location.Y": "7000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "XI",
+      "Location.X": "6400",
+      "Location.Y": "8700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "MDI_TXP",
+      "Location.X": "8900",
+      "Location.Y": "7700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "MDI_TXN",
+      "Location.X": "8900",
+      "Location.Y": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "MDI_RXP",
+      "Location.X": "8900",
+      "Location.Y": "6700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "MDI_RXN",
+      "Location.X": "8900",
+      "Location.Y": "6300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "TX+",
+      "Location.X": "11100",
+      "Location.Y": "6300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "TX-",
+      "Location.X": "11100",
+      "Location.Y": "6700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "RX+",
+      "Location.X": "11100",
+      "Location.Y": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "RX-",
+      "Location.X": "11100",
+      "Location.Y": "7700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "TX+",
+      "Location.X": "9600",
+      "Location.Y": "5200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "TX+",
+      "Location.X": "9600",
+      "Location.Y": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "RX+",
+      "Location.X": "9600",
+      "Location.Y": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Text": "RX-",
+      "Location.X": "11600",
+      "Location.Y": "5200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Text": "FIELD_COM",
+      "Location.X": "7800",
+      "Location.Y": "4700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Text": "SENSE2",
+      "Location.X": "7300",
+      "Location.Y": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Text": "SENSE2",
+      "Location.X": "7800",
+      "Location.Y": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Text": "SENSE2",
+      "Location.X": "3600",
+      "Location.Y": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Text": "SENSE1",
+      "Location.X": "7300",
+      "Location.Y": "5400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Text": "SENSE1",
+      "Location.X": "7800",
+      "Location.Y": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Text": "SENSE1",
+      "Location.X": "3600",
+      "Location.Y": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Text": "DO2_DRIVE",
+      "Location.X": "7400",
+      "Location.Y": "3800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Text": "DO1_DRIVE",
+      "Location.X": "7400",
+      "Location.Y": "3900"
+    }
+  ],
+  "count": 37,
+  "sheets_processed": 5
+}

@@ -1,0 +1,72 @@
+{
+  "supply_budget": {
+    "i3v3_A": 0.482403,
+    "i5v_A": 0.07240300000000001,
+    "p3v3_W": 1.5919299,
+    "p5v_W": 0.36201500000000003,
+    "note": "Subtract one assigned50mA RS485 and one1.9mA ISO1212 from master; two DO and CAN retained; conversion losses unknown"
+  },
+  "di": {
+    "channels": 2,
+    "Rsense_ohm": 562,
+    "Rthr_ohm": 1000,
+    "Cin_F": 1e-08,
+    "assumed_budget_current_per_channel_A": 0.00275,
+    "Rthr_continuous_power_W": 0.007562499999999999,
+    "Rsense_continuous_power_upper_bound_W": 0.0042501249999999996,
+    "note": "DC screening only; RTHR still MELF>=0.25W per TI surge recommendation; does not validate pulse/EMC"
+  },
+  "bucks": [
+    {
+      "target_V": 3.3,
+      "nominal_L_H": 6.8e-06,
+      "assumed_L_tolerance": 0.2,
+      "assumed_frequency_min_Hz": 850000.0,
+      "assumed_frequency_max_Hz": 1150000.0,
+      "deltaIpp_at_30V_Lmin_fmin_A": 0.6351643598615916,
+      "peak_at_design_load_A": 1.0175821799307958,
+      "valley_at_design_load_A": 0.38241782006920416,
+      "inductor_rms_at_design_load_A": 0.723615561148689,
+      "ideal_on_time_at_30V_fmax_s": 9.565217391304348e-08,
+      "minimum_on_time_reference_s": 8.3e-08,
+      "recommended_Isat_floor_before_temperature_derating_A": 2.8,
+      "feedback_Rtop_ohm": 100000,
+      "feedback_Rbottom_ohm": 43200,
+      "feedback_nominal_V": 3.314814814814815,
+      "feedback_static_min_V": 3.2199422442244225,
+      "feedback_static_max_V": 3.4120024317246536,
+      "note": "Guide values screened; resistor1%/reference1.5% endpoints only; ignores ripple/transients; current-limit table is open-loop tested, not a closed-loop overshoot bound"
+    },
+    {
+      "target_V": 5.0,
+      "nominal_L_H": 1e-05,
+      "assumed_L_tolerance": 0.2,
+      "assumed_frequency_min_Hz": 850000.0,
+      "assumed_frequency_max_Hz": 1150000.0,
+      "deltaIpp_at_30V_Lmin_fmin_A": 0.6127450980392156,
+      "peak_at_design_load_A": 0.40637254901960784,
+      "valley_at_design_load_A": -0.2063725490196078,
+      "inductor_rms_at_design_load_A": 0.20319460195649228,
+      "ideal_on_time_at_30V_fmax_s": 1.4492753623188405e-07,
+      "minimum_on_time_reference_s": 8.3e-08,
+      "recommended_Isat_floor_before_temperature_derating_A": 2.8,
+      "feedback_Rtop_ohm": 100000,
+      "feedback_Rbottom_ohm": 24900,
+      "feedback_nominal_V": 5.016064257028113,
+      "feedback_static_min_V": 4.86249015865442,
+      "feedback_static_max_V": 5.173654821305423,
+      "note": "Guide values screened; resistor1%/reference1.5% endpoints only; ignores ripple/transients; current-limit table is open-loop tested, not a closed-loop overshoot bound"
+    }
+  ],
+  "source": "LMR36015 SNVSB49D sections8.5/8.6/10.2.1.2; master6.7",
+  "not_verified": [
+    "loop stability",
+    "efficiency",
+    "thermal performance",
+    "start-up/inrush",
+    "actual inductor",
+    "effective capacitors",
+    "full DO drive margin",
+    "input surge/continuous OV"
+  ]
+}

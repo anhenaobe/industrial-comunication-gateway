@@ -1,0 +1,13 @@
+{
+  "review_date": "2026-11-07",
+  "documents": [
+    {"name":"NIS3071/D", "revision":"April 2026 Rev3", "local":"hardware/academic_rev1/libraries/sources/input_protection/NIS3071-D.PDF", "official":"https://www.onsemi.com/download/data-sheet/pdf/nis3071-d.pdf", "used":"Tables1-4; figures4,5,7,9-11; ordering p11"},
+    {"name":"AND90248/D", "revision":"September 2023 Rev0", "local":"hardware/academic_rev1/libraries/sources/input_protection/AND90248-D.pdf", "official":"https://www.onsemi.com/download/application-notes/pdf/and90248-d.pdf", "used":"Sections1.1-1.2 p2; sections2.1-2.3 and3.1-3.2 p3; section4.2 polarity wording conflicts with current datasheet"},
+    {"name":"TDS3011P", "revision":"June 2021 Rev2.0", "local":"hardware/academic_rev1/libraries/sources/input_protection/TDS3011P.pdf", "official":"https://www.semtech.com/products/circuit-protection/surgeswitch/tds3011p", "used":"p2 ratings; pp5-6 pins/lands"},
+    {"name":"TDS3311P", "revision":"March 23 2021 Rev2.4 manufacturer-authored PDF", "local":null, "official":"https://www.semtech.com/products/circuit-protection/surgeswitch/tds3311p", "readable_distributor_copy":"https://static6.arrow.com/aropdfconversion/7cbd31023a55764967a21d3a9d33bd70389c578f/tds3311pc.pdf", "used":"p2 electrical table, p7 pin functions, p8 land dimension table, p9 ordering", "limitation":"Official portal advertises Dec2023 release but viewer unavailable. Distributor PDF readable through web tool; local transfer timed out. No local PDF path is claimed."},
+    {"name":"SS3P6L", "revision":"88987 April24 2020", "local":"hardware/academic_rev1/libraries/sources/SS3P6L_88987.pdf", "official":"https://www.vishay.com/en/product/88987/", "used":"pp1-2 pin functions, VF/VR/thermal; p4 lands"},
+    {"name":"451/453", "revision":"December01 2025", "local":null, "official":"https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1", "used":"pp1-3 electrical, opening, derating; p4 ordering", "limitation":"Official web PDF readable; local download403. Fuse footprint remains absent."}
+  ],
+  "native_operations":"Electronics AI libraries__list_components only, two read-only queries. No native session or CAD mutation.",
+  "bom_changes":"None; all newly proposed selections remain in the connection reference only."
+}

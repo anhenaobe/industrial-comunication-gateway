@@ -1,0 +1,72 @@
+[
+  {
+    "filename": "KC2016Z25.0000C15XXK_e.pdf",
+    "url": "https://ele.kyocera.com/assets/products/crystal-device/specification/KC2016Z25.0000C15XXK_e.pdf",
+    "destination": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\sources\\electrical_closure\\KC2016Z25.0000C15XXK_e.pdf",
+    "observed_at_utc": "2026-11-07T05:16:39.564493+00:00",
+    "status": "saved",
+    "bytes": 580230,
+    "sha256": "8b01c7a91cffb661efeda2bd529e86c85f5b6ce469fc0a4e917e1a3e1ab9a11a"
+  },
+  {
+    "filename": "HX1188FNL.pdf",
+    "url": "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/HX1188FNL/doc_part/HX1188FNL.pdf",
+    "destination": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\sources\\electrical_closure\\HX1188FNL.pdf",
+    "observed_at_utc": "2026-11-07T05:16:39.565275+00:00",
+    "status": "saved",
+    "bytes": 770657,
+    "sha256": "2af03c8803fcc21def40eef2f47da212b30721d34f5ced654b69023f3020a1ac"
+  },
+  {
+    "filename": "SS-7188S-A-NF_drawing.pdf",
+    "url": "https://www.cinch.com/media/drawings/products/ethernet-usb/dr-stw-ss-7188s-a-nf-ss-7188s-a-nf-50.pdf",
+    "destination": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\sources\\electrical_closure\\SS-7188S-A-NF_drawing.pdf",
+    "observed_at_utc": "2026-11-07T05:16:39.565622+00:00",
+    "status": "saved",
+    "bytes": 202353,
+    "sha256": "e05917b5199b17c020bec7f3918901dcc921bb7061f5f4b0ed4e3cea3f0c3587"
+  },
+  {
+    "filename": "CDSOT23-SM712.pdf",
+    "url": "https://www.bourns.com/pdfs/CDSOT23-SM712.pdf",
+    "destination": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\sources\\electrical_closure\\CDSOT23-SM712.pdf",
+    "observed_at_utc": "2026-11-07T05:16:39.568239+00:00",
+    "status": "saved",
+    "bytes": 498059,
+    "sha256": "e5bf96ccfb4813e7315c196882558bbaf30e1d6e60392a2f2cef6486b8071ded"
+  },
+  {
+    "filename": "xal4000.pdf",
+    "url": "https://www.coilcraft.com/getmedia/6adcb47d-8b55-416c-976e-1e22e0d2848c/xal4000.pdf",
+    "destination": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\sources\\electrical_closure\\xal4000.pdf",
+    "observed_at_utc": "2026-11-07T05:16:40.436775+00:00",
+    "status": "saved",
+    "bytes": 210340,
+    "sha256": "b26cf975bd56a807173b05665bddd49ed49323400330eb8f6fa63e24ff6d7d15"
+  },
+  {
+    "filename": "C5750X7R2A475K230KA_characteristics.pdf",
+    "url": "https://product.tdk.com/info/en/documents/chara_sheet/c5750x7r2a475k230ka.pdf",
+    "destination": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\sources\\electrical_closure\\C5750X7R2A475K230KA_characteristics.pdf",
+    "observed_at_utc": "2026-11-07T05:16:40.519908+00:00",
+    "status": "BLOCKED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "filename": "C3225X7R1C156M250AB_characteristics.pdf",
+    "url": "https://product.tdk.com/info/en/documents/chara_sheet/c3225x7r1c156m250ab.pdf",
+    "destination": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\sources\\electrical_closure\\C3225X7R1C156M250AB_characteristics.pdf",
+    "observed_at_utc": "2026-11-07T05:16:40.707754+00:00",
+    "status": "BLOCKED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "filename": "tpd4e05u06.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf",
+    "destination": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\sources\\electrical_closure\\tpd4e05u06.pdf",
+    "observed_at_utc": "2026-11-07T05:16:40.821563+00:00",
+    "status": "saved",
+    "bytes": 2801466,
+    "sha256": "c167cf1e72a5473a4d2c59b6a3c0251498701da05b7785919b9ceaae3b3e02c6"
+  }
+]

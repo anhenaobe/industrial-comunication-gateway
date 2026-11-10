@@ -1,0 +1,185 @@
+[
+  {
+    "asset_id": "TDS3311P.C",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "IN_TVS"
+    ],
+    "mpn": "TDS3311P.C",
+    "symbol": "TDS3311P.C",
+    "footprint": "GW_TDS3311P_SEMTECH",
+    "source": "Semtech TDS3311P Rev2.4 pp2,7-9; official product portal confirms33V orderTDS3311P.C",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Pin/pad identity and explicit source dimensions checked. Prototype process choice; not electrically tested.",
+    "package_requirement": "GW_TDS3311P_SEMTECH"
+  },
+  {
+    "asset_id": "0451002.MRL",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "IN_FUSE"
+    ],
+    "mpn": "0451002.MRL",
+    "symbol": "0451002.MRL",
+    "footprint": "GW_0451_LITTELFUSE",
+    "source": "Littelfuse451/453 manufacturer recommended pad layout; saved historical p371; current2025p4 identical dimension list",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Pin/pad identity and explicit source dimensions checked. Prototype process choice; not electrically tested.",
+    "package_requirement": "GW_0451_LITTELFUSE"
+  },
+  {
+    "asset_id": "RC0603FR-0762KL",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "IN_RLIM"
+    ],
+    "mpn": "RC0603FR-0762KL",
+    "symbol": "RC0603FR-0762KL",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Pin/pad identity and explicit source dimensions checked. Prototype process choice; not electrically tested.",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW"
+  },
+  {
+    "asset_id": "RC0603FR-0715KL",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "IN_RFAULT"
+    ],
+    "mpn": "RC0603FR-0715KL",
+    "symbol": "RC0603FR-0715KL",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "Yageo Mounting13-Feb-2018 V10 p4 Fig4/Table1; exact62k/15k manufacturer spec sheets",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Pin/pad identity and explicit source dimensions checked. Prototype process choice; not electrically tested.",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW"
+  },
+  {
+    "asset_id": "C5750X7R2A475K230KA",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_CIN",
+      "B5_CIN",
+      "IN_BULK"
+    ],
+    "mpn": "C5750X7R2A475K230KA",
+    "symbol": "C5750X7R2A475K230KA",
+    "footprint": "GW_C5750_TDK_REFLOW",
+    "source": "TDK C5750X7R2A475K230KA exact2014web-derived PDF p1 lands,p2 DCbias; current official product page same PA/PB/PC",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Pin/pad identity and explicit source dimensions checked. Prototype process choice; not electrically tested.",
+    "package_requirement": "GW_C5750_TDK_REFLOW"
+  },
+  {
+    "asset_id": "C0805C224K1RACTU",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_CHF",
+      "B5_CHF",
+      "IN_HF"
+    ],
+    "mpn": "C0805C224K1RACTU",
+    "symbol": "C0805C224K1RACTU",
+    "footprint": "GW_0805_KEMET_NOMINAL",
+    "source": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Pin/pad identity and explicit source dimensions checked. Prototype process choice; not electrically tested.",
+    "package_requirement": "GW_0805_KEMET_NOMINAL"
+  },
+  {
+    "asset_id": "C0805C225K5RACTU",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_CVCC",
+      "B5_CVCC"
+    ],
+    "mpn": "C0805C225K5RACTU",
+    "symbol": "C0805C225K5RACTU",
+    "footprint": "GW_0805_KEMET_NOMINAL",
+    "source": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "VCC5V local bypass;2.2uF prototype selection replaces known insufficient1uF part. Assumed>=60% bias retention; verify stableVCC at bring-up.",
+    "package_requirement": "GW_0805_KEMET_NOMINAL"
+  },
+  {
+    "asset_id": "C0603C680J5GACTU",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "IN_CDVDT"
+    ],
+    "mpn": "C0603C680J5GACTU",
+    "symbol": "C0603C680J5GACTU",
+    "footprint": "GW_0603_KEMET_NOMINAL",
+    "source": "KEMET C0603C680J5GACTU exact manufacturer spec; shared1608 body; KEMET C1027Table3p12 nominal1608 lands",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "DNP in frozen BOM; dvdt open. Fit only if startup review/measurement requires slower ramp.",
+    "package_requirement": "GW_0603_KEMET_NOMINAL"
+  },
+  {
+    "asset_id": "C3225X7R1C156M250AB",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "B3_COUT",
+      "B5_COUT"
+    ],
+    "mpn": "C3225X7R1C156M250AB",
+    "symbol": "C3225X7R1C156M250AB",
+    "footprint": "GW_C3225_TDK_REFLOW",
+    "source": "TDK official C3225X7R1C156M250AB product page lands PA2.0-2.4 PB1.0-1.2 PC1.9-2.5; TI table10-1 rated45uF example",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "3 per buck:45uF rated per TI1MHz example. Prototype load-step/ripple confirmation pending; do not connect to24V input.",
+    "package_requirement": "GW_C3225_TDK_REFLOW"
+  },
+  {
+    "asset_id": "ACTIVE_NIS3071MT4TWG",
+    "item_kind": "ACTIVE",
+    "component_ids": [
+      "ACTIVE_NIS3071MT4TWG"
+    ],
+    "mpn": "NIS3071MT4TWG",
+    "symbol": "NIS3071MT4TWG",
+    "footprint": "GW_NIS3071_510CM_PROTO",
+    "source": "onsemi Apr2026 table1/CASE510CM; explicit prototypeDFM variant",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Pins1..16 plusEP ground unchanged. EP height reduced to4.58 for.16 clearance; original exact pattern retained alternate. Native compile and functional test pending.",
+    "package_requirement": "GW_NIS3071_510CM_PROTO"
+  },
+  {
+    "asset_id": "SS3P6L-M3/86A",
+    "item_kind": "AUXILIARY",
+    "component_ids": [
+      "IN_REVERSE",
+      "IN_SOUT"
+    ],
+    "mpn": "SS3P6L-M3/86A",
+    "symbol": "SS3P6L-M3_86A",
+    "footprint": "GW_SS3P6L_VISHAY_88987",
+    "source": "Vishay88987pp1,4; corrected1/2anodes andKcathode",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Approved series part. IN_SOUT footprint is DNP; same part not guaranteed to clampOUT above-.3V at all fault currents.",
+    "package_requirement": "GW_SS3P6L_VISHAY_88987"
+  }
+]

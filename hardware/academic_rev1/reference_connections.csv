@@ -1,0 +1,10 @@
+﻿component_group,reference_value,node1,node2,limitations,source
+R_DI1_THR,1kOhm,DI1_FIELD_PLUS,DI1_SENSE_IC,MELF>=0.25W; exactMPN and pulse rating open,ISO1212 fig8-2/table8-1 Type3
+R_DI1_SENSE,562Ohm1%,DI1_SENSE_IC,DI1_IN_IC,RC0603FR-07562RL; CAD mapping still open,ISO1212 fig8-2
+C_DI1_IN,10nF100V_X7R,DI1_SENSE_IC,DI1_FGND,C0603C103K1RACTU candidate; field surge test not performed,ISO1212 fig8-2/table8-1
+R_DI2_THR,1kOhm,DI2_FIELD_PLUS,DI2_SENSE_IC,MELF>=0.25W; exactMPN and pulse rating open,ISO1212 fig8-2/table8-1 Type3
+R_DI2_SENSE,562Ohm1%,DI2_SENSE_IC,DI2_IN_IC,RC0603FR-07562RL; CAD mapping still open,ISO1212 fig8-2
+C_DI2_IN,10nF100V_X7R,DI2_SENSE_IC,DI2_FGND,C0603C103K1RACTU candidate; field surge test not performed,ISO1212 fig8-2/table8-1
+C_DI_LOGIC,100nF,3V3,GND,"place atU_DI pins2/1,8; MPN open",ISO1212 section8.2.1.1
+C_CAN_VIO,100nF,3V3,GND,place atU_CAN pins5/2; MPN open,DS50002649A fig4-1
+C_CAN_VCC,100nF,5V,GND,place atU_CAN pins3/2; MPN open,DS50002649A fig4-1

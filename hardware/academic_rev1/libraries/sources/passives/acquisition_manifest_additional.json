@@ -1,0 +1,84 @@
+[
+  {
+    "file": "XAL40xx.pdf",
+    "url": "https://www.coilcraft.com/getmedia/6adcb47d-8b55-416c-976e-1e22e0d2848c/xal4000.pdf",
+    "status": "FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "TDK_COUT.html",
+    "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C3225X7R1C156M250AB",
+    "status": "FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "TDK_CIN.html",
+    "url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C5750X7R2A475K230KA",
+    "status": "FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "RC0603FR-076K49L.pdf",
+    "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-076K49L",
+    "resolved_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-076K49L",
+    "bytes": 56637,
+    "sha256": "cde134986deda7cc3327c616c292ec8d94894ea8f754c84c57dd33851ac6d352",
+    "status": "downloaded_not_CAD_qualified"
+  },
+  {
+    "file": "RC0603FR-072K49L.pdf",
+    "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-072K49L",
+    "resolved_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-072K49L",
+    "bytes": 56759,
+    "sha256": "6e367c2c60dbd56062e0fb533cb70b76ce8e740f6de93f057b2f8f3619c5f6af",
+    "status": "downloaded_not_CAD_qualified"
+  },
+  {
+    "file": "RC0603FR-07100KL.pdf",
+    "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+    "resolved_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+    "bytes": 56380,
+    "sha256": "61af7a13b8e0a0ecbecf17d675985a00c54824c860aede20cbcc7cb7858fbc27",
+    "status": "downloaded_not_CAD_qualified"
+  },
+  {
+    "file": "RC0603FR-0743K2L.pdf",
+    "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0743K2L",
+    "resolved_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0743K2L",
+    "bytes": 56495,
+    "sha256": "0c3c23c5bfd6153d515b4e629042bddfbef02021d493876d3fcfbd878cfff94b",
+    "status": "downloaded_not_CAD_qualified"
+  },
+  {
+    "file": "RC0603FR-0724K9L.pdf",
+    "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0724K9L",
+    "resolved_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0724K9L",
+    "bytes": 56752,
+    "sha256": "e6c0ef621831304a8813489a3a536fcadec85b9250c1b6b1d0424c2e4913de6c",
+    "status": "downloaded_not_CAD_qualified"
+  },
+  {
+    "file": "RC0603FR-0710KL.pdf",
+    "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL",
+    "resolved_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL",
+    "bytes": 56378,
+    "sha256": "f17d408e67250b1e481dd936c5b78d51da5c8c9c76f15de5faf98a6fa3fb2e38",
+    "status": "downloaded_not_CAD_qualified"
+  },
+  {
+    "file": "C0603C202J5GACTU.pdf",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C202J5GACTU",
+    "resolved_url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C202J5GACTU",
+    "bytes": 240122,
+    "sha256": "d70dfdac91c3447bcc713aa71d144a439538d68c76bbab3bf708c0ca4ec619b0",
+    "status": "downloaded_not_CAD_qualified"
+  },
+  {
+    "file": "C0603C200J5GACTU.pdf",
+    "url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C200J5GACTU",
+    "resolved_url": "https://search.kemet.com/component-documentation/download/specsheet/C0603C200J5GACTU",
+    "bytes": 237337,
+    "sha256": "20e525603eedd00b94d3198a32793f0279e5b14aba9f0f2a15869562c2b62f08",
+    "status": "downloaded_not_CAD_qualified"
+  }
+]

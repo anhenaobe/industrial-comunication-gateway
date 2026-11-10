@@ -1,0 +1,854 @@
+{
+  "objects": [
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "U2",
+      "Comment.Text": "LMR36015FBRNXR",
+      "LibReference": "LMR36015FBRNXR",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "HRMXGOKP"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "L1",
+      "Comment.Text": "6.8 uH",
+      "LibReference": "GW_XAL4030-682MEC_71dfd711",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "OEWBQQXK"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C6",
+      "Comment.Text": "15 uF por unidad; 45 uF nominal banco",
+      "LibReference": "GW_C3225X7R1C156M250AB_bb412b42",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "GYVJIUFB"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C4",
+      "Comment.Text": "15 uF por unidad; 45 uF nominal banco",
+      "LibReference": "GW_C3225X7R1C156M250AB_bb412b42",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "XJRSGURG"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C5",
+      "Comment.Text": "15 uF por unidad; 45 uF nominal banco",
+      "LibReference": "GW_C3225X7R1C156M250AB_bb412b42",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "GXHOBYAR"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R6",
+      "Comment.Text": "100 kOhm",
+      "LibReference": "GW_RC0603FR-07100KL_ac663db8",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "MGEQAODF"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R5",
+      "Comment.Text": "43.2 kOhm",
+      "LibReference": "GW_RC0603FR-0743K2L_a8308c0c",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "ZNCHISZW"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C7",
+      "Comment.Text": "4.7 uF",
+      "LibReference": "GW_C0805C475K4RACTU_82374e08",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "GYUUQLQU"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C8",
+      "Comment.Text": "220 nF",
+      "LibReference": "GW_C0805C224K1RACTU_e16e52b8",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "XAWODNOW"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C9",
+      "Comment.Text": "220 nF",
+      "LibReference": "GW_C0805C224K1RACTU_e16e52b8",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "YFDKQRST"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C11",
+      "Comment.Text": "20 pF",
+      "LibReference": "GW_C0603C200J5GACTU_c75b007a",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "OOFJQOSD"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C10",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "DILWSMQE"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R7",
+      "Comment.Text": "43.2 kOhm",
+      "LibReference": "GW_RC0603FR-0743K2L_a8308c0c",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "WSVQJHSJ"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C12",
+      "Comment.Text": "1 uF",
+      "LibReference": "GW_CL10A105KB8NNNC_c3932faa",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "XVYRRTWF"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "J1",
+      "Comment.Text": "TB002-500-02BE",
+      "LibReference": "TB002-500-02BE",
+      "SourceLibraryName": "buck_boost_pasives.IntLib",
+      "UniqueId": "JQFVLHLV"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "L2",
+      "Comment.Text": "10 uH",
+      "LibReference": "GW_XAL4040-103MEC_b36cb917",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "RKAKPZLP"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "U3",
+      "Comment.Text": "LMR36015FBRNXR",
+      "LibReference": "LMR36015FBRNXR",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "JLMOVQWE"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C15",
+      "Comment.Text": "15 uF por unidad; 45 uF nominal banco",
+      "LibReference": "GW_C3225X7R1C156M250AB_bb412b42",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "RIHZZXDF"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C13",
+      "Comment.Text": "15 uF por unidad; 45 uF nominal banco",
+      "LibReference": "GW_C3225X7R1C156M250AB_bb412b42",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "FMATDAQA"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C14",
+      "Comment.Text": "15 uF por unidad; 45 uF nominal banco",
+      "LibReference": "GW_C3225X7R1C156M250AB_bb412b42",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "WKNAIATP"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R9",
+      "Comment.Text": "100 kOhm",
+      "LibReference": "GW_RC0603FR-07100KL_ac663db8",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "RURNYBAG"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R8",
+      "Comment.Text": "43.2 kOhm",
+      "LibReference": "GW_RC0603FR-0743K2L_a8308c0c",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "SOZIORUM"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C16",
+      "Comment.Text": "4.7 uF",
+      "LibReference": "GW_C0805C475K4RACTU_82374e08",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "HPHEZBGW"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C17",
+      "Comment.Text": "220 nF",
+      "LibReference": "GW_C0805C224K1RACTU_e16e52b8",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "PKDALXIA"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C18",
+      "Comment.Text": "220 nF",
+      "LibReference": "GW_C0805C224K1RACTU_e16e52b8",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "AUPIRNQP"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C20",
+      "Comment.Text": "20 pF",
+      "LibReference": "GW_C0603C200J5GACTU_c75b007a",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "DFJBIELY"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C19",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "CKIXXZPM"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C21",
+      "Comment.Text": "1 uF",
+      "LibReference": "GW_CL10A105KB8NNNC_c3932faa",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "LGYVZFQH"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R10",
+      "Comment.Text": "24.9 kOhm",
+      "LibReference": "GW_RC0603FR-0724K9L_10698e9e",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "NOTQJJBT"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "F1",
+      "Comment.Text": "0451002.MRL",
+      "LibReference": "0451002.MRL",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "MSRHFNGW"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "D2",
+      "Comment.Text": "TDS3011P.C",
+      "LibReference": "TDS3011P.C",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "QOHLCWQO"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "D1",
+      "Comment.Text": "SS3P6L-M3_86A",
+      "LibReference": "SS3P6L-M3_86A",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "IHKGJGCT"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "U1",
+      "Comment.Text": "TPS26620DRCR",
+      "LibReference": "TPS26620DRCR",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "PBWRWDQM"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C2",
+      "Comment.Text": "C5750X7R2A475K230KA",
+      "LibReference": "C5750X7R2A475K230KA",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "UTTETZAT"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C1",
+      "Comment.Text": "C0805C224K1RACTU",
+      "LibReference": "C0805C224K1RACTU",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "RKRKFCMQ"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R1",
+      "Comment.Text": "RC0603FR-07768KL",
+      "LibReference": "RC0603FR-07768KL",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "BLNFQLBZ"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R3",
+      "Comment.Text": "RC0603FR-0733K2L",
+      "LibReference": "RC0603FR-0733K2L",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "ROAOTNFT"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "C3",
+      "Comment.Text": "10 nF",
+      "LibReference": "GW_C0603C103K1RACTU_97f3ee33",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "ZVSXFFNA"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R4",
+      "Comment.Text": "RC0603FR-0730K1L",
+      "LibReference": "RC0603FR-0730K1L",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "DZUIXBLP"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator.Text": "R2",
+      "Comment.Text": "RC0603FR-0713K3L",
+      "LibReference": "RC0603FR-0713K3L",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "OWKWZNDC"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "U4",
+      "Comment.Text": "STM32H723VET6",
+      "LibReference": "STM32H723VET6",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "GRNOZAMD"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C22",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "KQULQVJX"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C31",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "BNBEPVDO"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C32",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "LSWJZRFS"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C26",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "YZKFPFLD"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C35",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "ILZXHJRZ"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C27",
+      "Comment.Text": "4.7 uF",
+      "LibReference": "GW_C0805C475K4RACTU_82374e08",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "YPTBYMJC"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C33",
+      "Comment.Text": "2.2 uF",
+      "LibReference": "GW_C0603C225K8RACTU_46503424",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "JYNLOCNH"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C34",
+      "Comment.Text": "2.2 uF",
+      "LibReference": "GW_C0603C225K8RACTU_46503424",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "RBNTEYAH"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C30",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "GLVNHTQP"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C29",
+      "Comment.Text": "1 uF",
+      "LibReference": "GW_CL10A105KB8NNNC_c3932faa",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "GUCMBGVU"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C24",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "RFWMSFCK"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C23",
+      "Comment.Text": "1 uF",
+      "LibReference": "GW_CL10A105KB8NNNC_c3932faa",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "XCSEVBTV"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C28",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "LGKHVULL"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "R11",
+      "Comment.Text": "10 kOhm",
+      "LibReference": "GW_FRC0603J103TS_7289f91d",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "DEJZJHXW"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "SW1",
+      "Comment.Text": "SPST-NO",
+      "LibReference": "GW_Sw_PUSH_4.5x4.5x5.0xmm_0f078dd9",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "PAWQLFOX"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "Y1",
+      "Comment.Text": "KC2016Z25.0000C15XXK",
+      "LibReference": "KC2016Z25.0000C15XXK",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "RCWUKIAN"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator.Text": "C25",
+      "Comment.Text": "10 nF",
+      "LibReference": "GW_C0603C103K1RACTU_97f3ee33",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "OTVSHVWB"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "U5",
+      "Comment.Text": "DP83826IRHBR",
+      "LibReference": "DP83826IRHBR",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "WCLMUURL"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R13",
+      "Comment.Text": "6.49 kOhm",
+      "LibReference": "GW_RC0603FR-076K49L_f42a9329",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "HECPLJIL"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "Y2",
+      "Comment.Text": "KC2016Z25.0000C15XXK",
+      "LibReference": "KC2016Z25.0000C15XXK",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "FKHSFCWU"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C37",
+      "Comment.Text": "2 nF",
+      "LibReference": "GW_C0603C202J5GACTU_fa733a70",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "TAHHXFNC"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C38",
+      "Comment.Text": "10 nF",
+      "LibReference": "GW_C0603C103K1RACTU_97f3ee33",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "IZIQQNAQ"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C39",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "RQZPEICP"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C40",
+      "Comment.Text": "1 uF",
+      "LibReference": "GW_CL10A105KB8NNNC_c3932faa",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "QFTYFZKS"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C41",
+      "Comment.Text": "10 uF",
+      "LibReference": "GW_CL21A106KAYNNNE_c6e24382",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "EIFZMQEV"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R15",
+      "Comment.Text": "2.49 kOhm",
+      "LibReference": "GW_RC0603FR-072K49L_b905c5f0",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "GOYDQSAU"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C36",
+      "Comment.Text": "10 nF",
+      "LibReference": "GW_C0603C103K1RACTU_97f3ee33",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "KDCUGLRA"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C47",
+      "Comment.Text": "10 nF",
+      "LibReference": "GW_C0603C103K1RACTU_97f3ee33",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "WLLEHORR"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C48",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "BXGPDHAO"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C49",
+      "Comment.Text": "1 uF",
+      "LibReference": "GW_CL10A105KB8NNNC_c3932faa",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "WGKTYEQO"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C50",
+      "Comment.Text": "10 uF",
+      "LibReference": "GW_CL21A106KAYNNNE_c6e24382",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "NJVBYEAV"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "T1",
+      "Comment.Text": "HX1188FNL",
+      "LibReference": "HX1188FNL",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "TZFWBQJG"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C43",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "NJVAAZFJ"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C42",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "XTTHKGIP"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C45",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "IYTKAWMY"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C44",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "YGKUKIJX"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "U6",
+      "Comment.Text": "THVD1420DR",
+      "LibReference": "THVD1420DR",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "KYEFSGEW"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "J2",
+      "Comment.Text": "SS-7188S-A-NF",
+      "LibReference": "SS-7188S-A-NF",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "COZFDHHG"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R16",
+      "Comment.Text": "10 kOhm",
+      "LibReference": "GW_FRC0603J103TS_7289f91d",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "CJHZXOPZ"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R18",
+      "Comment.Text": "10 kOhm",
+      "LibReference": "GW_FRC0603J103TS_7289f91d",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "ILPXQPZL"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C51",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "HCWJDRLY"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R12",
+      "Comment.Text": "CRCW080575R0FKEA",
+      "LibReference": "CRCW080575R0FKEA",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "IJVLMCAI"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R14",
+      "Comment.Text": "CRCW080575R0FKEA",
+      "LibReference": "CRCW080575R0FKEA",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "NCGSEMQA"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C46",
+      "Comment.Text": "C1206C102KGRACAUTO",
+      "LibReference": "C1206C102KGRACAUTO",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "NIJCSQQZ"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R19",
+      "Comment.Text": "CRCW080575R0FKEA",
+      "LibReference": "CRCW080575R0FKEA",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "BPELKBGI"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "R17",
+      "Comment.Text": "CRCW080575R0FKEA",
+      "LibReference": "CRCW080575R0FKEA",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "MPSWLHLR"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C52",
+      "Comment.Text": "C1206C102KGRACAUTO",
+      "LibReference": "C1206C102KGRACAUTO",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "BXITNTOA"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "U7",
+      "Comment.Text": "ATA6561-GAQW",
+      "LibReference": "ATA6561-GAQW",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "PDGUCLHA"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C53",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "HWYTFHHZ"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator.Text": "C54",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "NLYTMBUU"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "U8",
+      "Comment.Text": "ISO1212DBQR",
+      "LibReference": "ISO1212DBQR",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "YBIQUACK"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "U9",
+      "Comment.Text": "SN74LVC2T45DCTR",
+      "LibReference": "SN74LVC2T45DCTR",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "XJPDQUZW"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "U10",
+      "Comment.Text": "BSP75NTA",
+      "LibReference": "BSP75NTA",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "HFVWTFFX"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "U11",
+      "Comment.Text": "BSP75NTA",
+      "LibReference": "BSP75NTA",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "HXFRPTPO"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "C56",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "DRLIHQRN"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R23",
+      "Comment.Text": "562 Ohm",
+      "LibReference": "GW_RC0603FR-07562RL_a6fad8df",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "UALMXCSK"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R22",
+      "Comment.Text": "MM204F1K00TKRTR3K0",
+      "LibReference": "MM204F1K00TKRTR3K0",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "KFWKUEKU"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "C57",
+      "Comment.Text": "10 nF",
+      "LibReference": "GW_C0603C103K1RACTU_97f3ee33",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "WYHGLROD"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R20",
+      "Comment.Text": "562 Ohm",
+      "LibReference": "GW_RC0603FR-07562RL_a6fad8df",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "NLIJFTYK"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R21",
+      "Comment.Text": "MM204F1K00TKRTR3K0",
+      "LibReference": "MM204F1K00TKRTR3K0",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "JUPRMEBQ"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "C55",
+      "Comment.Text": "10 nF",
+      "LibReference": "GW_C0603C103K1RACTU_97f3ee33",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "RNAUMUON"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "C58",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "MCGUOUKP"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R24",
+      "Comment.Text": "10 kOhm",
+      "LibReference": "GW_FRC0603J103TS_7289f91d",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "MPAKHNYW"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "R25",
+      "Comment.Text": "10 kOhm",
+      "LibReference": "GW_FRC0603J103TS_7289f91d",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "TKOUCDYB"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator.Text": "C59",
+      "Comment.Text": "100 nF",
+      "LibReference": "GW_C0603C104K5RACTU_dc5e12a5",
+      "SourceLibraryName": "Gateway_Academic.SchLib",
+      "UniqueId": "HWDGPBOG"
+    }
+  ],
+  "count": 106,
+  "sheets_processed": 5
+}

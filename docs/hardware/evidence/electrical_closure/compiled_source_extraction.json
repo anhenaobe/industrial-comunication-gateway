@@ -1,0 +1,21 @@
+{
+  "intlib": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Project Outputs for Gateway_Academic\\Gateway_Academic.IntLib",
+  "sha256": "358fbb2931b64476f4cd528cf62790ce388a69cd66b4a5e30af3139d3360aca4",
+  "embedded": [
+    {
+      "stream": "SchLib/0.schlib",
+      "path": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\validation\\closure_20261107\\decoded_final\\Gateway_Academic.SchLib",
+      "bytes": 174080,
+      "sha256": "8fa742631dafb542364a4326e4345583046a0be2a16c69df28413030a616d5a2",
+      "matches_current_source_bytes": true
+    },
+    {
+      "stream": "PCBLib/0.pcblib",
+      "path": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\validation\\closure_20261107\\decoded_final\\Gateway_Academic.PcbLib",
+      "bytes": 691712,
+      "sha256": "bd537ae6945dee59863f974c567a1581e23eb5872219a6f8cb5e1fecf5744785",
+      "matches_current_source_bytes": true
+    }
+  ],
+  "cross_reference_bytes": 19207
+}

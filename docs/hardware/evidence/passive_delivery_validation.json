@@ -1,0 +1,40 @@
+{
+  "structural_checks": "PASS",
+  "bom_groups": 114,
+  "mapping_groups": 122,
+  "counts": {
+    "bom_groups": 114,
+    "passive_groups": 95,
+    "required_known_units": 78,
+    "required_unknown_quantity_groups": 3,
+    "conditional_known_units": 8,
+    "required_distinct_specifications": 24,
+    "required_distinct_concrete_mpns": 22,
+    "teacher_candidate_required_units": 57,
+    "external_required_known_units": 21,
+    "fully_verified_units": 0,
+    "fully_verified_teacher_units": 0,
+    "fully_verified_external_units": 0,
+    "statuses": {
+      "PROVISIONAL": 49,
+      "CALCULATED": 38,
+      "BLOCKED": 26,
+      "MISSING": 1
+    }
+  },
+  "preserved_sha256": {
+    "docs/industrial_gateway_requirements.md": "94cf02d2ffda0c162331bf360872836a6e84cea0d94c643ddbf0c56d39a1b4c6",
+    "shared_lib (1).IntLib": "91594ede8aadf6449fff5b44b7443deafeb73cfaf0bc1eb1ff434d8ac1fb6159",
+    "hardware\\academic_rev1\\libraries\\Professor_shared.SchLib": "4224bca2915106499b00128131c8a18d48b1bddc8573ebf9c80952c32e85d620",
+    "hardware\\academic_rev1\\libraries\\Professor_shared.PcbLib": "f359611c12c5777b634ba5ecbd4cf5e3fa5ce805aa9b3c63db867b173a7fbc97",
+    "hardware\\academic_rev1\\libraries\\SS3P6L-M386A.SchLib": "4ee1abdea0db1cbf3acd6851413ff0169964a6576cfdf8f4b82c82d5119108a9",
+    "hardware\\academic_rev1\\libraries\\SS3P6L-M386A.PcbLib": "e793dfcca4a28d5ecb300129b51ac08c52ec590f49989ba222f4624e9b60c6d8",
+    "hardware\\academic_rev1\\libraries\\CL10B103KA8WPNC.SchLib": "9cc386e13ead09c12cc59c5c1ee92310bf323d5aaaffb94520701d273ad59ad9",
+    "hardware\\academic_rev1\\libraries\\CL10B103KA8WPNC.PcbLib": "c9496f975a16591976208cbb517f3227292981eccf8fcac6ddb7468af688f6f4"
+  },
+  "limitations": [
+    "See schematic_readiness_gate.md: IntLib compiled with six missing-model warnings; native placement/DFM pending",
+    "No ERC/DRC",
+    "No electrical simulation or physical validation"
+  ]
+}

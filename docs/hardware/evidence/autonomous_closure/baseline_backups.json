@@ -1,0 +1,542 @@
+[
+  {
+    "path": "hardware\\academic_rev1\\Ethernet.SchDoc",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\Ethernet.SchDoc",
+    "sha256": "6747abf6f60071890a92aaddc723602314847f6701630d5fc4f64562e238b35d"
+  },
+  {
+    "path": "hardware\\academic_rev1\\Field_IO.SchDoc",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\Field_IO.SchDoc",
+    "sha256": "019ba97be86fa9f2bed680e51681d89c3a681945c4ee670ed1f2d070445e6cec"
+  },
+  {
+    "path": "hardware\\academic_rev1\\MCU.SchDoc",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\MCU.SchDoc",
+    "sha256": "98802039762eea84ff157c4ea77605b3df81cc392e7f8880a1a084dc9522d5f0"
+  },
+  {
+    "path": "hardware\\academic_rev1\\Power.SchDoc",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\Power.SchDoc",
+    "sha256": "4549386af8102f763f2acbe40aebcf575cbad77c6cfd6cb020871c41414423a1"
+  },
+  {
+    "path": "hardware\\academic_rev1\\TopLevel.SchDoc",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\TopLevel.SchDoc",
+    "sha256": "90179d82c143bb58b59fd792baa25e1178418d7b849b904680d1c17037a61aab"
+  },
+  {
+    "path": "hardware\\academic_rev1\\Industrial_Gateway_Academic.PrjPcb",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\Industrial_Gateway_Academic.PrjPcb",
+    "sha256": "e4751c13954178bf743c08814dafd7df74fd9f47eec0cbf161906b82fb075d73"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.LibPkg",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.LibPkg",
+    "sha256": "73e70e6a93f8da86b27b99d618250b934dcdde6d262160927f9920ba5ae6631e"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib",
+    "sha256": "51284c9d735f80f6591e9cebbe74ae49490164e1dd8a8c5a5c2f75d6bb744eb3"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123154_484377.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123154_484377.bak",
+    "sha256": "1e044d55377349a9d355ca442e50065560242168a911d03f1aa29a4207515b11"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123200_398347.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123200_398347.bak",
+    "sha256": "71721731e0731cfec7aa7f13ce60e9dc1d9e981cc3c21f8af0f48d9aa0b24327"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123206_339739.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123206_339739.bak",
+    "sha256": "0167c131d006e5af0b12ef94d3913828485fe41bf6ef331ae484e07d9cc564a0"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123211_596152.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123211_596152.bak",
+    "sha256": "de6bbad6a22958895c7fe398a60ac85d5b7cdbcb62ab25c2fc47252cf1ae8674"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123217_344970.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123217_344970.bak",
+    "sha256": "f65f49cb5970ba1c2575aa4a9bd5ced52f347f66532d8c51f7ff5e6f5aaa5845"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123223_195026.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123223_195026.bak",
+    "sha256": "bef6f6351ba9bf9dae9b92ddcb5bd382744b587a4d76b73dd2c8af132fcc7e62"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123228_628765.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123228_628765.bak",
+    "sha256": "29a9d1413195a03a061ad11e630da3e8aadbc37603c2cb2e29d54dbc65b11734"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123234_660270.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123234_660270.bak",
+    "sha256": "de1043e8d16c27f349632ab2ec4225a02c6c9c8005340bd18cbdd8cd0c5324a6"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123239_992972.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123239_992972.bak",
+    "sha256": "13e48b073b8259fc86275c4bb576a61fc41ed6fdd9b70b50eaad0dc5d77702a3"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123246_454547.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123246_454547.bak",
+    "sha256": "81588cb1745e9acac0e69bdda609d8bfe83639c22261a2632288326c2a863264"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123252_604292.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123252_604292.bak",
+    "sha256": "24c4b8b3ea8234280262ed77e692402da07eeb4b17c2ea08eeefc74999e4bf6b"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123257_779951.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123257_779951.bak",
+    "sha256": "f31325d1082ddc13134fd77fe8f9a492d68875c8f06243ccd8c90a9711e2a0c2"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123303_111004.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123303_111004.bak",
+    "sha256": "d81f403af0862f985d558c0fc338bcc6ab7fcb1f6e7ddff4d574bdfda99fe821"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123309_706261.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123309_706261.bak",
+    "sha256": "02daefb0625b60128f9ca11a4b856b1b2149bc404bb6dde8cf3fdd1141fa8cd5"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123315_265915.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123315_265915.bak",
+    "sha256": "f8b40a614ddd659ac3da0dc6994a1af88e4e7c1b03f57c8e4599a70689d4035c"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123834_967047.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123834_967047.bak",
+    "sha256": "8ded107e3b06256b3a6230ce175b5de48800f1a7f38c16d17e458ad5183c215b"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123856_509829.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123856_509829.bak",
+    "sha256": "d60970dc53d5c15f683240734d4df72a5e2cef61f4289d36cfd9cbd956146a99"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123859_062612.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123859_062612.bak",
+    "sha256": "46ddb6342a98ed1550412830ca54b4894f1574380705d20d511b870294cba0fa"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123901_943123.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123901_943123.bak",
+    "sha256": "e1e69b40c58215bb348552caf4d1f1d85934ae3644f1e564f6519d663234ac8a"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123905_057740.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123905_057740.bak",
+    "sha256": "7f1934fc5ca3abdd7d19fc12eed0ca928a578602f2682f3ff6c068fd45bb4fdb"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123908_592195.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_123908_592195.bak",
+    "sha256": "464ba112219dbe55829060840193181b29cf42afe334a313f542bfaa16b92455"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_124113_245665.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261106_124113_245665.bak",
+    "sha256": "1eeefc21f7fcfe1ee501fbbb6bb77414b8b332ed5a649c07279722a1414af448"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261107_002432_492236.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261107_002432_492236.bak",
+    "sha256": "840659f16036efbcf25c9187c358203cda096e27876e9b6aadae155758710590"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261107_002854_676241.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261107_002854_676241.bak",
+    "sha256": "b59f0b68170506e489a10e5c65dc6da7e54eb391f652b9e393989f2b12a83846"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261107_102250_334332.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261107_102250_334332.bak",
+    "sha256": "bd537ae6945dee59863f974c567a1581e23eb5872219a6f8cb5e1fecf5744785"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261107_103057_751917.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261107_103057_751917.bak",
+    "sha256": "b8e76dd071044950fadbafa0276db4c5032d27be639f8070d0ae52de4b229d66"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261107_121033_336037.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261107_121033_336037.bak",
+    "sha256": "a74c9651837f3b05626383887200d911bfd617e2f427b83daeb85b9d5e652808"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261107_123412_273237.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261107_123412_273237.bak",
+    "sha256": "151208fb30094a50044ef1ec790f64ab0066fc0bc74c1ca36bad31ab948f4356"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261107_155235_066751.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261107_155235_066751.bak",
+    "sha256": "372fec4f15ed280ec553730bc9844c6826c477afca86e78d9403e2448b39187e"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261107_161625_353713.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261107_161625_353713.bak",
+    "sha256": "b992837ae9c9ebcd23040220214387a23ad0ff9ee015235d6852ab21c1ae69e7"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261107_181302_685448.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.PcbLib.20261107_181302_685448.bak",
+    "sha256": "d495b251c0c134d9990b267de6e83bfb546a1b628046ccb1df4f0ef00f4cfb7f"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib",
+    "sha256": "1ab8d2ae6d3bbe85c3c6b6680532cd9e8d6344c80d192d9721406aa249b6f2b7"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261106_123013_142161.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261106_123013_142161.bak",
+    "sha256": "be3329cf246ba515158bf201727d4894198cc3f316b37fd2ab8c68403bf71ccb"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261106_123037_859988.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261106_123037_859988.bak",
+    "sha256": "c6efeee19713597b7b82dcdcc4e5d721c3688905c8ae0c91a507c095a9524ac0"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261106_123044_704611.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261106_123044_704611.bak",
+    "sha256": "42d426e4083ee036fe01c7a78f9a0bfdfca656df1c1e52566ca16852de815e54"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261106_123052_028191.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261106_123052_028191.bak",
+    "sha256": "53fabd4ccade4b3eaf5b027acc9f0d09c1731306441d0084e5fea3801dee6844"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261106_123102_679822.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261106_123102_679822.bak",
+    "sha256": "f5c48a402f1e27b79bd31e33b212a47955ef83838bd19ca1822db61ef30809dc"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261106_123756_346691.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261106_123756_346691.bak",
+    "sha256": "4ecbcddb8dbe84d9541f2449e39f94b958c88f1ae2d3f234ae13fc35ce14e96e"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261106_124106_958598.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261106_124106_958598.bak",
+    "sha256": "ee6473a464322647a4a35d8c12bc1a9f81da1268cc9c3da676f6b79adb4c9c7d"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_002452_093519.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_002452_093519.bak",
+    "sha256": "fbc2177642108595aeae944ace2593c761e76ecb712278c816771669f8397e00"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_002900_661606.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_002900_661606.bak",
+    "sha256": "d1fd1448c4b33c25940a955584cf7c9ae555ed447ef44c45e56317ae1cbb7a9e"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_004116_861760.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_004116_861760.bak",
+    "sha256": "ceb08a973b89dbfd1a4a0d1d814e1d680c5d94be559ac15217355813d1ceb5d1"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_102340_677413.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_102340_677413.bak",
+    "sha256": "8fa742631dafb542364a4326e4345583046a0be2a16c69df28413030a616d5a2"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_103335_543793.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_103335_543793.bak",
+    "sha256": "0533cecb4f76cc4fc8c6b087304e864681d06b3ebe10973dd82890b17fbccbd3"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_121048_577199.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_121048_577199.bak",
+    "sha256": "4a16eb4e9006048896eb38b2a74965b58afc4671b293707644c5ebc7f76cad76"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_121330_153619.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_121330_153619.bak",
+    "sha256": "ee976170a8253aebd3bed238e4d8f1fe84e1518c8b530a428840c65907449c07"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_121346_498149.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_121346_498149.bak",
+    "sha256": "d7a9c636fc9befd8be48f0b0043f0eb2c551303421d7689930b80f196a7fc9b1"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_121404_008774.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_121404_008774.bak",
+    "sha256": "fd9f4b3a6f047fbbaf5fdfd9004da3dd417bc6b948393aaadee9ed9edf7909b8"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123317_806268.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123317_806268.bak",
+    "sha256": "d95c3704bb046d5c473cb98de408912b14c4fcde2a012b04fb65ef768e8be90d"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123418_710498.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123418_710498.bak",
+    "sha256": "25d18fac21875d79604ec943aa7cbb963a59366c843aae3390944e8f60b80cc1"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123435_034466.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123435_034466.bak",
+    "sha256": "cb53e2f9c2f9950a68510b90fd38595ecf5717d84a775143124668154e8d8fad"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123448_957125.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123448_957125.bak",
+    "sha256": "3dbf95640058fbc84f8f6c7548d819d3f519527ef0192531d0cc27520b8cd8a1"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123458_636707.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123458_636707.bak",
+    "sha256": "09bca9815542e14a05974bb2e9a68280523f9ba35760f8a386af6f40cfa1c4f6"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123511_177286.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123511_177286.bak",
+    "sha256": "515c6ef5024061cd5b1a1734d58b9f66fdff6dda30da6089ee1c98694f037057"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123521_525404.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123521_525404.bak",
+    "sha256": "123f41c91fefd59fff2ab8ebdf1ea84a40ba9f1d9e0b40328dd58a387264de8c"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123532_516363.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123532_516363.bak",
+    "sha256": "58473d8bb698c643cda39f285d9832b1d4a4b85498095c674e4f17a86b6ef9a2"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123542_999186.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123542_999186.bak",
+    "sha256": "b4d863884ea0d12fb8614cba932dc94a07ed7dacdae9d3ef1055f760be09e2e3"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123554_065163.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123554_065163.bak",
+    "sha256": "cc5ea98abee76855c8782c65e56ef57d9506639f02364649cdc11f2fc4225167"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123610_292182.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123610_292182.bak",
+    "sha256": "303145229dee4ac7e470a82dc2b80e4c4052401f7a1c51c213923a495894669c"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123625_713600.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123625_713600.bak",
+    "sha256": "f469dc17271a2e18921faa4f022176fa290b864b9714751c3a94c87c2ba68526"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123641_568750.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123641_568750.bak",
+    "sha256": "d1c625abeeab08e96d06f609eef3318393a539f5ee05d4fec8f384e5d090eae4"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123658_279726.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123658_279726.bak",
+    "sha256": "83ea37023e03da1367b6a9870f67d4ad89807ecb489ded7299cfb9b3eaeeb3aa"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123716_452440.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123716_452440.bak",
+    "sha256": "7aabaad0d2a38a457cba90d1df2cad6faec32a8e9dd6d163ce700c68d0c924b6"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_123751_956958.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_123751_956958.bak",
+    "sha256": "4d912ae9c311267fbe44dd10dc57d11b5ae19a632380a402167d507f945eaa96"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_124003_880778.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_124003_880778.bak",
+    "sha256": "fd0a0828a86dd49331e22c737922076e8901e66e486afa0cbb7b671c796f61d6"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_155239_642278.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_155239_642278.bak",
+    "sha256": "5e19fd8d7ab32f04ae36dd9b228d215ff7dcf0f471eca369f7a6f4c88be30a21"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_161628_507209.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_161628_507209.bak",
+    "sha256": "3d2d9e74b5723119b41f95d588e67dda81bd07e9558e419fef65fe96615edea2"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_165615_835280.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_165615_835280.bak",
+    "sha256": "198e0837070b746ccb6fcf3837c24f428a4fea70bf4e6220656b8557028cfde9"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_165633_610171.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_165633_610171.bak",
+    "sha256": "899b42246a0c688d5778899081974d4aa40b1fd2a43e6d7476d6d52b6344f80c"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_165650_537683.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_165650_537683.bak",
+    "sha256": "e1aba3eebca3f702d4d4ab8e0b0957625816bdb7f273ac55eef0f27c7593aa4e"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_165707_630066.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_165707_630066.bak",
+    "sha256": "81cf9f40164252b2c2e09b8122cbda4d2d9cc0e0f6b370d3d62cc9e180bc156d"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_165738_425823.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_165738_425823.bak",
+    "sha256": "b132c43d773cf6c848f0e01d08d4ccd0c3c758b7573d5b6842e516901247776b"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_165753_751490.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_165753_751490.bak",
+    "sha256": "d99e0c86ac89144bbe3f8d7eb6378d6722ec73a4f637fd37922dd81ae87c7772"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_165813_108525.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_165813_108525.bak",
+    "sha256": "f2f339a224a8de19af1b8ff2d96e97a42d8718ef4fb8639c4ce7f31fd3a9fd97"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_165829_675913.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_165829_675913.bak",
+    "sha256": "3c0d3379e9436bbaeb341d7fd37bdf183f559640d4c03c2705eb40a8a661f4bb"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_165854_368708.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_165854_368708.bak",
+    "sha256": "7cedf46b69302935239676445d784f02438bc51e3e27ca6fb922c32e2d52ea04"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_165911_598193.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_165911_598193.bak",
+    "sha256": "ec51410bf6424a906a621e24633b19bf7bf04bf13cb7f5ffc171fa83674f1875"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_165928_360405.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_165928_360405.bak",
+    "sha256": "ba8e2483a31f578c864747761e0714409782bf4daebe0626950e9c5d6f835bfc"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_165945_207409.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_165945_207409.bak",
+    "sha256": "4c0902d34e419a5d7b35fcb56c5ecf3c0b6e7e8dbe27e1b4af14fae374eb08e1"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_170007_124962.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_170007_124962.bak",
+    "sha256": "ad75b719763348059b6beeee9c092e5d68ad6a38a35b846adfd9518ed1e21461"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_170025_256739.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_170025_256739.bak",
+    "sha256": "9f1cf37506b98619bf58c8801abf437201bdd4104b37a12904bec5facee206fa"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_170043_594706.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_170043_594706.bak",
+    "sha256": "bb489e2a30242afe012c58c8cd56267834d61a7cc1515c05a95d6f47301bb3c8"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_170059_937447.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_170059_937447.bak",
+    "sha256": "2611d67648430fc0a2cf22c48ea09a5bfe9bd8be25f2a0dd90e81377a04a3347"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_181308_413237.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_181308_413237.bak",
+    "sha256": "53b56a44315cb9f9f43b316db8e6d65f5c995e58985608a379863a24410af10b"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213112_976653.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213112_976653.bak",
+    "sha256": "37a2428cbeb6018c61e0d5c83a59293359b9f71ff2834779eab10ef9c60cab5a"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213141_210385.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213141_210385.bak",
+    "sha256": "a57339e6bb904fc8c7fb2e6148d83b23c8876ceed2a293f3a1effe5841613429"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213150_412436.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213150_412436.bak",
+    "sha256": "fd548b418cc651c7fefbb17b8ef32f683e653fb8488e86e1e37761ea310e4b66"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213159_620393.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213159_620393.bak",
+    "sha256": "c21218bcb17f0574b9d0109194407b953e6b7a887a928026d21fdfc22fdefa14"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213218_115417.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213218_115417.bak",
+    "sha256": "a0c6a63aad06e9c0bfbd3b055f3e9c97fed405716171ed53743ab3230d23fa50"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213227_412932.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213227_412932.bak",
+    "sha256": "119b0ad46fb4292a081cd47bfea38212051b4601c72f2ac8307b7177bf9a6fba"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213236_803441.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213236_803441.bak",
+    "sha256": "86a4cfa39df5c8d6ac948b889dcbca3fa3dd7dc12eb28ef5d6484d208106721f"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213245_848792.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213245_848792.bak",
+    "sha256": "21610f027eaed1d9eb5ca5bac19835ec413b2475265c6e2dd8c0dafc4ce16767"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213255_454017.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213255_454017.bak",
+    "sha256": "056cc866dbf74e1d741d428b5efe103ed38f92071aa0af7d7c6bd4feedee4981"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213309_224030.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213309_224030.bak",
+    "sha256": "f9408de8e0b1999593e9145746f0b1cf0117c41cf8450bc2fc23f1468a51d86d"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213318_365370.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213318_365370.bak",
+    "sha256": "55b0179a96adcc007ee3726a6f986e0fa0ccd22f1d3ac4fc7266350af88f5efc"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213329_017882.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213329_017882.bak",
+    "sha256": "e05afdbb5ddce03c7e4fe4e89ec10ed0778bd88d3dbc2cc4ce193dade807a74a"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213428_388438.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213428_388438.bak",
+    "sha256": "37a2428cbeb6018c61e0d5c83a59293359b9f71ff2834779eab10ef9c60cab5a"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213451_146833.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213451_146833.bak",
+    "sha256": "aa5d5be6971dd3fda80dedcada610e256306426e526ddd0edfe588232c0d4f47"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213507_458883.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213507_458883.bak",
+    "sha256": "d280a35b29170080f6f7ac74ad39410497c34e5396e0c7beda209d1c2dde16c1"
+  },
+  {
+    "path": "hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261107_213526_548007.bak",
+    "backup": "hardware\\academic_rev1\\backups\\autonomous_20261108T195741Z\\libraries\\Gateway_Academic.SchLib.20261107_213526_548007.bak",
+    "sha256": "4017d63ec2b41b51b93b5ba8238662da9ee63ff6fce737af3b98edba87eb99c4"
+  }
+]

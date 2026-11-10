@@ -1,0 +1,300 @@
+{
+  "objects": [
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "ETH_MDIO",
+      "IOType": "3",
+      "Location.X": "3742",
+      "Location.Y": "4100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "ETH_MDC",
+      "IOType": "1",
+      "Location.X": "3777",
+      "Location.Y": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "ETH_RMII_RXD1",
+      "IOType": "2",
+      "Location.X": "3509",
+      "Location.Y": "3200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "ETH_RMII_RXD0",
+      "IOType": "2",
+      "Location.X": "3500",
+      "Location.Y": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "ETH_RMII_CRS_DV",
+      "IOType": "2",
+      "Location.X": "3388",
+      "Location.Y": "3400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "ETH_RMII_REF_CLK",
+      "IOType": "2",
+      "Location.X": "3341",
+      "Location.Y": "4200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "ETH_RMII_TX_EN",
+      "IOType": "1",
+      "Location.X": "3449",
+      "Location.Y": "1800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "ETH_RMII_TXD0",
+      "IOType": "1",
+      "Location.X": "6400",
+      "Location.Y": "1500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "ETH_RMII_TXD1",
+      "IOType": "1",
+      "Location.X": "6400",
+      "Location.Y": "1600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "PHY_nRESET",
+      "IOType": "1",
+      "Location.X": "3600",
+      "Location.Y": "6000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "USART3_RX",
+      "IOType": "2",
+      "Location.X": "6400",
+      "Location.Y": "2000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "RS485_nRE",
+      "IOType": "1",
+      "Location.X": "6400",
+      "Location.Y": "2200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "RS485_DE",
+      "IOType": "1",
+      "Location.X": "6400",
+      "Location.Y": "2100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "USART3_TX",
+      "IOType": "1",
+      "Location.X": "6400",
+      "Location.Y": "1900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "FDCAN1_TX",
+      "IOType": "1",
+      "Location.X": "6400",
+      "Location.Y": "4600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "FDCAN1_RX",
+      "IOType": "2",
+      "Location.X": "6400",
+      "Location.Y": "4500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "CAN_STBY",
+      "IOType": "1",
+      "Location.X": "3600",
+      "Location.Y": "2800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "DI1",
+      "IOType": "2",
+      "Location.X": "4000",
+      "Location.Y": "6200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "DI2",
+      "IOType": "2",
+      "Location.X": "4000",
+      "Location.Y": "6100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "DO1",
+      "IOType": "2",
+      "Location.X": "4000",
+      "Location.Y": "6400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Name": "DO2",
+      "IOType": "2",
+      "Location.X": "4000",
+      "Location.Y": "6300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "ETH_MDIO",
+      "IOType": "3",
+      "Location.X": "3842",
+      "Location.Y": "6800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "ETH_MDC",
+      "IOType": "2",
+      "Location.X": "3877",
+      "Location.Y": "6700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "ETH_RMII_RXD1",
+      "IOType": "1",
+      "Location.X": "3609",
+      "Location.Y": "6400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "ETH_RMII_RXD0",
+      "IOType": "1",
+      "Location.X": "3601",
+      "Location.Y": "6300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "ETH_RMII_CRS_DV",
+      "IOType": "1",
+      "Location.X": "6500",
+      "Location.Y": "6300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "ETH_RMII_REF_CLK",
+      "IOType": "1",
+      "Location.X": "6500",
+      "Location.Y": "6400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "ETH_RMII_TX_EN",
+      "IOType": "2",
+      "Location.X": "6500",
+      "Location.Y": "6800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "ETH_RMII_TXD0",
+      "IOType": "2",
+      "Location.X": "6500",
+      "Location.Y": "6900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "ETH_RMII_TXD1",
+      "IOType": "2",
+      "Location.X": "6500",
+      "Location.Y": "7000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "PHY_nRESET",
+      "IOType": "2",
+      "Location.X": "6500",
+      "Location.Y": "7700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "USART3_RX",
+      "IOType": "1",
+      "Location.X": "4800",
+      "Location.Y": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "RS485_nRE",
+      "IOType": "2",
+      "Location.X": "3600",
+      "Location.Y": "4700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "RS485_DE",
+      "IOType": "2",
+      "Location.X": "3600",
+      "Location.Y": "4600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "USART3_TX",
+      "IOType": "2",
+      "Location.X": "4800",
+      "Location.Y": "4500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "FDCAN1_TX",
+      "IOType": "2",
+      "Location.X": "4800",
+      "Location.Y": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "FDCAN1_RX",
+      "IOType": "1",
+      "Location.X": "4800",
+      "Location.Y": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Name": "CAN_STBY",
+      "IOType": "2",
+      "Location.X": "7600",
+      "Location.Y": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Name": "DI1",
+      "IOType": "1",
+      "Location.X": "4500",
+      "Location.Y": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Name": "DI2",
+      "IOType": "1",
+      "Location.X": "4500",
+      "Location.Y": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Name": "DO1",
+      "IOType": "1",
+      "Location.X": "3600",
+      "Location.Y": "3900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Name": "DO2",
+      "IOType": "1",
+      "Location.X": "4200",
+      "Location.Y": "3800"
+    }
+  ],
+  "count": 42,
+  "sheets_processed": 5
+}

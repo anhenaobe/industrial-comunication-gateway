@@ -1,0 +1,3502 @@
+{
+  "objects": [
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "PGND",
+      "Electrical": "7",
+      "ConnectionX": "6100",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "VIN",
+      "Electrical": "7",
+      "ConnectionX": "6100",
+      "ConnectionY": "5200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "3",
+      "Name": "NC",
+      "Electrical": "4",
+      "ConnectionX": "6100",
+      "ConnectionY": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "4",
+      "Name": "BOOT",
+      "Electrical": "7",
+      "ConnectionX": "6100",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "5",
+      "Name": "VCC",
+      "Electrical": "7",
+      "ConnectionX": "6100",
+      "ConnectionY": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "6",
+      "Name": "AGND",
+      "Electrical": "7",
+      "ConnectionX": "6100",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "7",
+      "Name": "FB",
+      "Electrical": "0",
+      "ConnectionX": "8100",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "8",
+      "Name": "PG",
+      "Electrical": "3",
+      "ConnectionX": "8100",
+      "ConnectionY": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "9",
+      "Name": "EN",
+      "Electrical": "0",
+      "ConnectionX": "8100",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "10",
+      "Name": "VIN",
+      "Electrical": "7",
+      "ConnectionX": "8100",
+      "ConnectionY": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "11",
+      "Name": "PGND",
+      "Electrical": "7",
+      "ConnectionX": "8100",
+      "ConnectionY": "5200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "12",
+      "Name": "SW",
+      "Electrical": "7",
+      "ConnectionX": "8100",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8500",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9000",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "10400",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "10400",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "9800",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9800",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "10100",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "10100",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8400",
+      "ConnectionY": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "8100",
+      "ConnectionY": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "9500",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9500",
+      "ConnectionY": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "4500",
+      "ConnectionY": "5200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4500",
+      "ConnectionY": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "4800",
+      "ConnectionY": "5200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4800",
+      "ConnectionY": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "5100",
+      "ConnectionY": "5200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "5100",
+      "ConnectionY": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "9200",
+      "ConnectionY": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9200",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "5600",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "5900",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "9500",
+      "ConnectionY": "4300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9500",
+      "ConnectionY": "4600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "5900",
+      "ConnectionY": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "5900",
+      "ConnectionY": "4600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "4400",
+      "ConnectionY": "8100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4400",
+      "ConnectionY": "8000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8500",
+      "ConnectionY": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9000",
+      "ConnectionY": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "PGND",
+      "Electrical": "7",
+      "ConnectionX": "6100",
+      "ConnectionY": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "VIN",
+      "Electrical": "7",
+      "ConnectionX": "6100",
+      "ConnectionY": "3500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "3",
+      "Name": "NC",
+      "Electrical": "4",
+      "ConnectionX": "6100",
+      "ConnectionY": "3400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "4",
+      "Name": "BOOT",
+      "Electrical": "7",
+      "ConnectionX": "6100",
+      "ConnectionY": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "5",
+      "Name": "VCC",
+      "Electrical": "7",
+      "ConnectionX": "6100",
+      "ConnectionY": "3200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "6",
+      "Name": "AGND",
+      "Electrical": "7",
+      "ConnectionX": "6100",
+      "ConnectionY": "3100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "7",
+      "Name": "FB",
+      "Electrical": "0",
+      "ConnectionX": "8100",
+      "ConnectionY": "3100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "8",
+      "Name": "PG",
+      "Electrical": "3",
+      "ConnectionX": "8100",
+      "ConnectionY": "3200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "9",
+      "Name": "EN",
+      "Electrical": "0",
+      "ConnectionX": "8100",
+      "ConnectionY": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "10",
+      "Name": "VIN",
+      "Electrical": "7",
+      "ConnectionX": "8100",
+      "ConnectionY": "3400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "11",
+      "Name": "PGND",
+      "Electrical": "7",
+      "ConnectionX": "8100",
+      "ConnectionY": "3500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "12",
+      "Name": "SW",
+      "Electrical": "7",
+      "ConnectionX": "8100",
+      "ConnectionY": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "10400",
+      "ConnectionY": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "10400",
+      "ConnectionY": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "9800",
+      "ConnectionY": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9800",
+      "ConnectionY": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "10100",
+      "ConnectionY": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "10100",
+      "ConnectionY": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8400",
+      "ConnectionY": "3200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "8100",
+      "ConnectionY": "3200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "9500",
+      "ConnectionY": "3100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9500",
+      "ConnectionY": "3400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "4500",
+      "ConnectionY": "3500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4500",
+      "ConnectionY": "3200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "4800",
+      "ConnectionY": "3500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4800",
+      "ConnectionY": "3200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "5100",
+      "ConnectionY": "3500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "5100",
+      "ConnectionY": "3200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "9200",
+      "ConnectionY": "3400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9200",
+      "ConnectionY": "3100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "5600",
+      "ConnectionY": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "5900",
+      "ConnectionY": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "5900",
+      "ConnectionY": "3200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "5900",
+      "ConnectionY": "2900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "9500",
+      "ConnectionY": "2600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9500",
+      "ConnectionY": "2900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "END1",
+      "Electrical": "4",
+      "ConnectionX": "4700",
+      "ConnectionY": "8100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "END2",
+      "Electrical": "4",
+      "ConnectionX": "5300",
+      "ConnectionY": "8100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "GND",
+      "Electrical": "4",
+      "ConnectionX": "7400",
+      "ConnectionY": "5900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "GND",
+      "Electrical": "4",
+      "ConnectionX": "7600",
+      "ConnectionY": "5900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "3",
+      "Name": "GND",
+      "Electrical": "4",
+      "ConnectionX": "7800",
+      "ConnectionY": "5900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "4",
+      "Name": "IN",
+      "Electrical": "4",
+      "ConnectionX": "7400",
+      "ConnectionY": "7900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "5",
+      "Name": "IN",
+      "Electrical": "4",
+      "ConnectionX": "7600",
+      "ConnectionY": "7900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "6",
+      "Name": "IN",
+      "Electrical": "4",
+      "ConnectionX": "7800",
+      "ConnectionY": "7900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "ANODE1",
+      "Electrical": "4",
+      "ConnectionX": "5500",
+      "ConnectionY": "8100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "ANODE2",
+      "Electrical": "4",
+      "ConnectionX": "5500",
+      "ConnectionY": "7700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "K",
+      "Name": "CATHODE",
+      "Electrical": "4",
+      "ConnectionX": "7300",
+      "ConnectionY": "7900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "IN",
+      "Electrical": "7",
+      "ConnectionX": "10000",
+      "ConnectionY": "7900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "UVLO",
+      "Electrical": "0",
+      "ConnectionX": "10000",
+      "ConnectionY": "7700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "3",
+      "Name": "OVP",
+      "Electrical": "0",
+      "ConnectionX": "10000",
+      "ConnectionY": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "4",
+      "Name": "SHDN_N",
+      "Electrical": "0",
+      "ConnectionX": "10000",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "10",
+      "Name": "OUT",
+      "Electrical": "7",
+      "ConnectionX": "12200",
+      "ConnectionY": "7900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "9",
+      "Name": "FLT_N",
+      "Electrical": "3",
+      "ConnectionX": "12200",
+      "ConnectionY": "7700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "8",
+      "Name": "dVdT",
+      "Electrical": "1",
+      "ConnectionX": "12200",
+      "ConnectionY": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "7",
+      "Name": "ILIM",
+      "Electrical": "1",
+      "ConnectionX": "12200",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "5",
+      "Name": "RTN",
+      "Electrical": "7",
+      "ConnectionX": "10500",
+      "ConnectionY": "6700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "11",
+      "Name": "RTN_EP",
+      "Electrical": "7",
+      "ConnectionX": "10900",
+      "ConnectionY": "6700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "6",
+      "Name": "GND",
+      "Electrical": "7",
+      "ConnectionX": "11700",
+      "ConnectionY": "6700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8600",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "8600",
+      "ConnectionY": "7900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8200",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "8200",
+      "ConnectionY": "7900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "9300",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9300",
+      "ConnectionY": "7900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "9300",
+      "ConnectionY": "6600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9300",
+      "ConnectionY": "7200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "12500",
+      "ConnectionY": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "12200",
+      "ConnectionY": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "9500",
+      "ConnectionY": "6600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "10100",
+      "ConnectionY": "6600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "12300",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Power.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "12900",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "PE2",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "6400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "PE3",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "6300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "3",
+      "Name": "PE4",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "6200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "4",
+      "Name": "PE5",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "6100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "5",
+      "Name": "PE6",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "6000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "6",
+      "Name": "VBAT",
+      "Electrical": "7",
+      "ConnectionX": "4400",
+      "ConnectionY": "5900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "7",
+      "Name": "PC13",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "5800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "8",
+      "Name": "PC14",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "5700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "9",
+      "Name": "PC15",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "5600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "10",
+      "Name": "VSS",
+      "Electrical": "7",
+      "ConnectionX": "4400",
+      "ConnectionY": "5500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "11",
+      "Name": "VDD",
+      "Electrical": "7",
+      "ConnectionX": "4400",
+      "ConnectionY": "5400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "12",
+      "Name": "PH0",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "13",
+      "Name": "PH1",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "5200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "14",
+      "Name": "NRST",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "15",
+      "Name": "PC0",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "16",
+      "Name": "PC1",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "17",
+      "Name": "PC2_C",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "18",
+      "Name": "PC3_C",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "4700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "19",
+      "Name": "VSSA",
+      "Electrical": "7",
+      "ConnectionX": "4400",
+      "ConnectionY": "4600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "20",
+      "Name": "VREF+",
+      "Electrical": "7",
+      "ConnectionX": "4400",
+      "ConnectionY": "4500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "21",
+      "Name": "VDDA",
+      "Electrical": "7",
+      "ConnectionX": "4400",
+      "ConnectionY": "4400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "22",
+      "Name": "PA0",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "4300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "23",
+      "Name": "PA1",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "4200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "24",
+      "Name": "PA2",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "4100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "25",
+      "Name": "PA3",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "4000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "26",
+      "Name": "VSS",
+      "Electrical": "7",
+      "ConnectionX": "4400",
+      "ConnectionY": "3900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "27",
+      "Name": "VDD",
+      "Electrical": "7",
+      "ConnectionX": "4400",
+      "ConnectionY": "3800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "28",
+      "Name": "PA4",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "3700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "29",
+      "Name": "PA5",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "30",
+      "Name": "PA6",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "3500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "31",
+      "Name": "PA7",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "3400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "32",
+      "Name": "PC4",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "33",
+      "Name": "PC5",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "3200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "34",
+      "Name": "PB0",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "3100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "35",
+      "Name": "PB1",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "3000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "36",
+      "Name": "PB2",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "2900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "37",
+      "Name": "PE7",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "2800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "38",
+      "Name": "PE8",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "2700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "39",
+      "Name": "PE9",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "2600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "40",
+      "Name": "PE10",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "2500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "41",
+      "Name": "PE11",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "2400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "42",
+      "Name": "PE12",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "2300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "43",
+      "Name": "PE13",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "2200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "44",
+      "Name": "PE14",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "2100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "45",
+      "Name": "PE15",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "2000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "46",
+      "Name": "PB10",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "1900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "47",
+      "Name": "PB11",
+      "Electrical": "1",
+      "ConnectionX": "4400",
+      "ConnectionY": "1800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "48",
+      "Name": "VCAP",
+      "Electrical": "7",
+      "ConnectionX": "4400",
+      "ConnectionY": "1700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "49",
+      "Name": "VSS",
+      "Electrical": "7",
+      "ConnectionX": "4400",
+      "ConnectionY": "1600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "50",
+      "Name": "VDD",
+      "Electrical": "7",
+      "ConnectionX": "4400",
+      "ConnectionY": "1500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "51",
+      "Name": "PB12",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "1500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "52",
+      "Name": "PB13",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "1600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "53",
+      "Name": "PB14",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "1700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "54",
+      "Name": "PB15",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "1800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "55",
+      "Name": "PD8",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "1900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "56",
+      "Name": "PD9",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "2000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "57",
+      "Name": "PD10",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "2100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "58",
+      "Name": "PD11",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "2200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "59",
+      "Name": "PD12",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "2300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "60",
+      "Name": "PD13",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "2400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "61",
+      "Name": "PD14",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "2500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "62",
+      "Name": "PD15",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "2600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "63",
+      "Name": "PC6",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "2700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "64",
+      "Name": "PC7",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "2800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "65",
+      "Name": "PC8",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "2900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "66",
+      "Name": "PC9",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "3000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "67",
+      "Name": "PA8",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "3100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "68",
+      "Name": "PA9",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "3200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "69",
+      "Name": "PA10",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "70",
+      "Name": "PA11",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "3400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "71",
+      "Name": "PA12",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "3500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "72",
+      "Name": "PA13",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "73",
+      "Name": "VCAP",
+      "Electrical": "7",
+      "ConnectionX": "6400",
+      "ConnectionY": "3700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "74",
+      "Name": "VSS",
+      "Electrical": "7",
+      "ConnectionX": "6400",
+      "ConnectionY": "3800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "75",
+      "Name": "VDD",
+      "Electrical": "7",
+      "ConnectionX": "6400",
+      "ConnectionY": "3900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "76",
+      "Name": "PA14",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "4000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "77",
+      "Name": "PA15",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "4100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "78",
+      "Name": "PC10",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "4200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "79",
+      "Name": "PC11",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "4300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "80",
+      "Name": "PC12",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "4400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "81",
+      "Name": "PD0",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "4500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "82",
+      "Name": "PD1",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "4600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "83",
+      "Name": "PD2",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "4700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "84",
+      "Name": "PD3",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "85",
+      "Name": "PD4",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "86",
+      "Name": "PD5",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "87",
+      "Name": "PD6",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "88",
+      "Name": "PD7",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "5200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "89",
+      "Name": "PB3",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "90",
+      "Name": "PB4",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "5400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "91",
+      "Name": "PB5",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "5500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "92",
+      "Name": "PB6",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "5600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "93",
+      "Name": "PB7",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "5700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "94",
+      "Name": "BOOT0",
+      "Electrical": "0",
+      "ConnectionX": "6400",
+      "ConnectionY": "5800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "95",
+      "Name": "PB8",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "5900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "96",
+      "Name": "PB9",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "6000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "97",
+      "Name": "PE0",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "6100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "98",
+      "Name": "PE1",
+      "Electrical": "1",
+      "ConnectionX": "6400",
+      "ConnectionY": "6200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "99",
+      "Name": "VSS",
+      "Electrical": "7",
+      "ConnectionX": "6400",
+      "ConnectionY": "6300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "100",
+      "Name": "VDD",
+      "Electrical": "7",
+      "ConnectionX": "6400",
+      "ConnectionY": "6400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "7500",
+      "ConnectionY": "6400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "7500",
+      "ConnectionY": "6100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8100",
+      "ConnectionY": "3900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "8100",
+      "ConnectionY": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3200",
+      "ConnectionY": "3800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3200",
+      "ConnectionY": "3500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3100",
+      "ConnectionY": "5400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3100",
+      "ConnectionY": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "4100",
+      "ConnectionY": "1500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4100",
+      "ConnectionY": "1200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3400",
+      "ConnectionY": "5400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3400",
+      "ConnectionY": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3300",
+      "ConnectionY": "1700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3300",
+      "ConnectionY": "1400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3600",
+      "ConnectionY": "1700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3600",
+      "ConnectionY": "1400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3200",
+      "ConnectionY": "4400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3200",
+      "ConnectionY": "4100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "2700",
+      "ConnectionY": "4400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "2700",
+      "ConnectionY": "4100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3200",
+      "ConnectionY": "5900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3200",
+      "ConnectionY": "5600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "2600",
+      "ConnectionY": "5900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "2600",
+      "ConnectionY": "5600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3600",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3600",
+      "ConnectionY": "4700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "6800",
+      "ConnectionY": "5800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "6800",
+      "ConnectionY": "5500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "6900",
+      "ConnectionY": "5800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "7400",
+      "ConnectionY": "5800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "STANDBY",
+      "Electrical": "0",
+      "ConnectionX": "8200",
+      "ConnectionY": "6400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "GND",
+      "Electrical": "7",
+      "ConnectionX": "8200",
+      "ConnectionY": "6200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "3",
+      "Name": "OUT_25MHz",
+      "Electrical": "2",
+      "ConnectionX": "9800",
+      "ConnectionY": "6400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "4",
+      "Name": "VCC",
+      "Electrical": "7",
+      "ConnectionX": "9800",
+      "ConnectionY": "6200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8800",
+      "ConnectionY": "5800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9100",
+      "ConnectionY": "5800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "ModeSelect",
+      "Electrical": "0",
+      "ConnectionX": "4500",
+      "ConnectionY": "7800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "CEXT",
+      "Electrical": "4",
+      "ConnectionX": "4500",
+      "ConnectionY": "7700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "3",
+      "Name": "VDDA3V3",
+      "Electrical": "7",
+      "ConnectionX": "4500",
+      "ConnectionY": "7600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "4",
+      "Name": "RD_M",
+      "Electrical": "1",
+      "ConnectionX": "4500",
+      "ConnectionY": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "5",
+      "Name": "RD_P",
+      "Electrical": "1",
+      "ConnectionX": "4500",
+      "ConnectionY": "7400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "6",
+      "Name": "TD_M",
+      "Electrical": "1",
+      "ConnectionX": "4500",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "7",
+      "Name": "TD_P",
+      "Electrical": "1",
+      "ConnectionX": "4500",
+      "ConnectionY": "7200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "8",
+      "Name": "XO",
+      "Electrical": "2",
+      "ConnectionX": "4500",
+      "ConnectionY": "7100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "9",
+      "Name": "XI/50MHzIn",
+      "Electrical": "0",
+      "ConnectionX": "4500",
+      "ConnectionY": "7000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "10",
+      "Name": "RBIAS",
+      "Electrical": "4",
+      "ConnectionX": "4500",
+      "ConnectionY": "6900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "11",
+      "Name": "MDIO",
+      "Electrical": "1",
+      "ConnectionX": "4500",
+      "ConnectionY": "6800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "12",
+      "Name": "MDC",
+      "Electrical": "0",
+      "ConnectionX": "4500",
+      "ConnectionY": "6700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "13",
+      "Name": "RX_D3",
+      "Electrical": "1",
+      "ConnectionX": "4500",
+      "ConnectionY": "6600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "14",
+      "Name": "RX_D2",
+      "Electrical": "1",
+      "ConnectionX": "4500",
+      "ConnectionY": "6500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "15",
+      "Name": "RX_D1",
+      "Electrical": "1",
+      "ConnectionX": "4500",
+      "ConnectionY": "6400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "16",
+      "Name": "RX_D0",
+      "Electrical": "1",
+      "ConnectionX": "4500",
+      "ConnectionY": "6300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "17",
+      "Name": "VDDIO",
+      "Electrical": "7",
+      "ConnectionX": "4500",
+      "ConnectionY": "6200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "18",
+      "Name": "RX_DV/CRS_DV",
+      "Electrical": "1",
+      "ConnectionX": "6500",
+      "ConnectionY": "6300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "19",
+      "Name": "RX_CLK/50MHz_RMII",
+      "Electrical": "1",
+      "ConnectionX": "6500",
+      "ConnectionY": "6400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "20",
+      "Name": "RX_ER",
+      "Electrical": "1",
+      "ConnectionX": "6500",
+      "ConnectionY": "6500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "21",
+      "Name": "PWRDN/INT",
+      "Electrical": "1",
+      "ConnectionX": "6500",
+      "ConnectionY": "6600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "22",
+      "Name": "TX_CLK",
+      "Electrical": "1",
+      "ConnectionX": "6500",
+      "ConnectionY": "6700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "23",
+      "Name": "TX_EN",
+      "Electrical": "0",
+      "ConnectionX": "6500",
+      "ConnectionY": "6800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "24",
+      "Name": "TX_D0",
+      "Electrical": "0",
+      "ConnectionX": "6500",
+      "ConnectionY": "6900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "25",
+      "Name": "TX_D1",
+      "Electrical": "0",
+      "ConnectionX": "6500",
+      "ConnectionY": "7000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "26",
+      "Name": "TX_D2",
+      "Electrical": "0",
+      "ConnectionX": "6500",
+      "ConnectionY": "7100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "27",
+      "Name": "TX_D3",
+      "Electrical": "0",
+      "ConnectionX": "6500",
+      "ConnectionY": "7200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "28",
+      "Name": "COL/LED2/TX_ER/GPIO",
+      "Electrical": "1",
+      "ConnectionX": "6500",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "29",
+      "Name": "CRS/LED3",
+      "Electrical": "1",
+      "ConnectionX": "6500",
+      "ConnectionY": "7400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "30",
+      "Name": "LED0",
+      "Electrical": "1",
+      "ConnectionX": "6500",
+      "ConnectionY": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "31",
+      "Name": "CLKOUT/LED1",
+      "Electrical": "1",
+      "ConnectionX": "6500",
+      "ConnectionY": "7600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "32",
+      "Name": "RST_N",
+      "Electrical": "0",
+      "ConnectionX": "6500",
+      "ConnectionY": "7700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "33",
+      "Name": "GND_EP",
+      "Electrical": "7",
+      "ConnectionX": "6500",
+      "ConnectionY": "7800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3100",
+      "ConnectionY": "6600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3100",
+      "ConnectionY": "6900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "STANDBY",
+      "Electrical": "0",
+      "ConnectionX": "4700",
+      "ConnectionY": "8700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "GND",
+      "Electrical": "7",
+      "ConnectionX": "4700",
+      "ConnectionY": "8500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "3",
+      "Name": "OUT_25MHz",
+      "Electrical": "2",
+      "ConnectionX": "6300",
+      "ConnectionY": "8700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "4",
+      "Name": "VCC",
+      "Electrical": "7",
+      "ConnectionX": "6300",
+      "ConnectionY": "8500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "2500",
+      "ConnectionY": "7600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "2500",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3000",
+      "ConnectionY": "7600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3000",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3300",
+      "ConnectionY": "7600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3300",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3600",
+      "ConnectionY": "7600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3600",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3900",
+      "ConnectionY": "7600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3900",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3600",
+      "ConnectionY": "6500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3900",
+      "ConnectionY": "6500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "5300",
+      "ConnectionY": "8100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "5600",
+      "ConnectionY": "8100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3500",
+      "ConnectionY": "6200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3500",
+      "ConnectionY": "5900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3800",
+      "ConnectionY": "6200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3800",
+      "ConnectionY": "5900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "4100",
+      "ConnectionY": "6200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4100",
+      "ConnectionY": "5900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "4400",
+      "ConnectionY": "6200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4400",
+      "ConnectionY": "5900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "TD+",
+      "Electrical": "4",
+      "ConnectionX": "9300",
+      "ConnectionY": "7700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "TCT",
+      "Electrical": "4",
+      "ConnectionX": "9300",
+      "ConnectionY": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "3",
+      "Name": "TD-",
+      "Electrical": "4",
+      "ConnectionX": "9300",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "4",
+      "Name": "NC",
+      "Electrical": "4",
+      "ConnectionX": "9300",
+      "ConnectionY": "7100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "5",
+      "Name": "NC",
+      "Electrical": "4",
+      "ConnectionX": "9300",
+      "ConnectionY": "6900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "6",
+      "Name": "RD+",
+      "Electrical": "4",
+      "ConnectionX": "9300",
+      "ConnectionY": "6700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "7",
+      "Name": "RCT",
+      "Electrical": "4",
+      "ConnectionX": "9300",
+      "ConnectionY": "6500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "8",
+      "Name": "RD-",
+      "Electrical": "4",
+      "ConnectionX": "9300",
+      "ConnectionY": "6300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "9",
+      "Name": "RX-",
+      "Electrical": "4",
+      "ConnectionX": "10900",
+      "ConnectionY": "7700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "10",
+      "Name": "CMT_RX",
+      "Electrical": "4",
+      "ConnectionX": "10900",
+      "ConnectionY": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "11",
+      "Name": "RX+",
+      "Electrical": "4",
+      "ConnectionX": "10900",
+      "ConnectionY": "7300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "12",
+      "Name": "NC",
+      "Electrical": "4",
+      "ConnectionX": "10900",
+      "ConnectionY": "7100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "13",
+      "Name": "NC",
+      "Electrical": "4",
+      "ConnectionX": "10900",
+      "ConnectionY": "6900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "14",
+      "Name": "TX-",
+      "Electrical": "4",
+      "ConnectionX": "10900",
+      "ConnectionY": "6700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "15",
+      "Name": "CMT_TX",
+      "Electrical": "4",
+      "ConnectionX": "10900",
+      "ConnectionY": "6500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "16",
+      "Name": "TX+",
+      "Electrical": "4",
+      "ConnectionX": "10900",
+      "ConnectionY": "6300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8700",
+      "ConnectionY": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "8700",
+      "ConnectionY": "7200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8400",
+      "ConnectionY": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "8400",
+      "ConnectionY": "7200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8700",
+      "ConnectionY": "6500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "8700",
+      "ConnectionY": "6200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8400",
+      "ConnectionY": "6500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "8400",
+      "ConnectionY": "6200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "R",
+      "Electrical": "2",
+      "ConnectionX": "5600",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "/RE",
+      "Electrical": "0",
+      "ConnectionX": "5600",
+      "ConnectionY": "4700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "3",
+      "Name": "DE",
+      "Electrical": "0",
+      "ConnectionX": "5600",
+      "ConnectionY": "4600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "4",
+      "Name": "D",
+      "Electrical": "0",
+      "ConnectionX": "5600",
+      "ConnectionY": "4500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "5",
+      "Name": "GND",
+      "Electrical": "7",
+      "ConnectionX": "7600",
+      "ConnectionY": "4500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "6",
+      "Name": "A",
+      "Electrical": "1",
+      "ConnectionX": "7600",
+      "ConnectionY": "4600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "7",
+      "Name": "B",
+      "Electrical": "1",
+      "ConnectionX": "7600",
+      "ConnectionY": "4700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "8",
+      "Name": "VCC",
+      "Electrical": "7",
+      "ConnectionX": "7600",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "9800",
+      "ConnectionY": "5200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9800",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "3",
+      "Name": "3",
+      "Electrical": "4",
+      "ConnectionX": "9800",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "4",
+      "Name": "4",
+      "Electrical": "4",
+      "ConnectionX": "9800",
+      "ConnectionY": "4600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "5",
+      "Name": "5",
+      "Electrical": "4",
+      "ConnectionX": "9800",
+      "ConnectionY": "4400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "6",
+      "Name": "6",
+      "Electrical": "4",
+      "ConnectionX": "11400",
+      "ConnectionY": "5200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "7",
+      "Name": "7",
+      "Electrical": "4",
+      "ConnectionX": "11400",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "8",
+      "Name": "8",
+      "Electrical": "4",
+      "ConnectionX": "11400",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "S1",
+      "Name": "SHIELD1",
+      "Electrical": "4",
+      "ConnectionX": "11400",
+      "ConnectionY": "4600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "S2",
+      "Name": "SHIELD2",
+      "Electrical": "4",
+      "ConnectionX": "11400",
+      "ConnectionY": "4400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "4600",
+      "ConnectionY": "4700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4600",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "4600",
+      "ConnectionY": "4300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4600",
+      "ConnectionY": "4600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8200",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "8200",
+      "ConnectionY": "4500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "11000",
+      "ConnectionY": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "11600",
+      "ConnectionY": "7500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "11000",
+      "ConnectionY": "6500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "11600",
+      "ConnectionY": "6500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "12200",
+      "ConnectionY": "5900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "12200",
+      "ConnectionY": "6500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "9600",
+      "ConnectionY": "3900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "9600",
+      "ConnectionY": "4500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "11600",
+      "ConnectionY": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "11600",
+      "ConnectionY": "4300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "11600",
+      "ConnectionY": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "11600",
+      "ConnectionY": "3900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "TXD",
+      "Electrical": "0",
+      "ConnectionX": "5600",
+      "ConnectionY": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "GND",
+      "Electrical": "7",
+      "ConnectionX": "5600",
+      "ConnectionY": "3500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "3",
+      "Name": "VCC",
+      "Electrical": "7",
+      "ConnectionX": "5600",
+      "ConnectionY": "3400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "4",
+      "Name": "RXD",
+      "Electrical": "2",
+      "ConnectionX": "5600",
+      "ConnectionY": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "5",
+      "Name": "VIO",
+      "Electrical": "7",
+      "ConnectionX": "7600",
+      "ConnectionY": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "6",
+      "Name": "CANL",
+      "Electrical": "1",
+      "ConnectionX": "7600",
+      "ConnectionY": "3400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "7",
+      "Name": "CANH",
+      "Electrical": "1",
+      "ConnectionX": "7600",
+      "ConnectionY": "3500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "8",
+      "Name": "STBY",
+      "Electrical": "0",
+      "ConnectionX": "7600",
+      "ConnectionY": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "4600",
+      "ConnectionY": "3400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4600",
+      "ConnectionY": "3100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "8200",
+      "ConnectionY": "3300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Ethernet.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "8200",
+      "ConnectionY": "3000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "1",
+      "Name": "GND1",
+      "Electrical": "7",
+      "ConnectionX": "4900",
+      "ConnectionY": "5400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "2",
+      "Name": "VCC1",
+      "Electrical": "7",
+      "ConnectionX": "4900",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "3",
+      "Name": "EN",
+      "Electrical": "0",
+      "ConnectionX": "4900",
+      "ConnectionY": "5200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "4",
+      "Name": "OUT1",
+      "Electrical": "2",
+      "ConnectionX": "4900",
+      "ConnectionY": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "5",
+      "Name": "OUT2",
+      "Electrical": "2",
+      "ConnectionX": "4900",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "6",
+      "Name": "NC",
+      "Electrical": "4",
+      "ConnectionX": "4900",
+      "ConnectionY": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "7",
+      "Name": "NC",
+      "Electrical": "4",
+      "ConnectionX": "4900",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "8",
+      "Name": "GND1",
+      "Electrical": "7",
+      "ConnectionX": "4900",
+      "ConnectionY": "4700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "9",
+      "Name": "FGND2",
+      "Electrical": "7",
+      "ConnectionX": "6900",
+      "ConnectionY": "4700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "10",
+      "Name": "IN2",
+      "Electrical": "0",
+      "ConnectionX": "6900",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "11",
+      "Name": "SENSE2",
+      "Electrical": "0",
+      "ConnectionX": "6900",
+      "ConnectionY": "4900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "12",
+      "Name": "SUB2",
+      "Electrical": "4",
+      "ConnectionX": "6900",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "13",
+      "Name": "SUB1",
+      "Electrical": "4",
+      "ConnectionX": "6900",
+      "ConnectionY": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "14",
+      "Name": "FGND1",
+      "Electrical": "7",
+      "ConnectionX": "6900",
+      "ConnectionY": "5200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "15",
+      "Name": "IN1",
+      "Electrical": "0",
+      "ConnectionX": "6900",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "16",
+      "Name": "SENSE1",
+      "Electrical": "0",
+      "ConnectionX": "6900",
+      "ConnectionY": "5400"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "1",
+      "Name": "VCCA",
+      "Electrical": "7",
+      "ConnectionX": "4900",
+      "ConnectionY": "4000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "2",
+      "Name": "A1",
+      "Electrical": "1",
+      "ConnectionX": "4900",
+      "ConnectionY": "3900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "3",
+      "Name": "A2",
+      "Electrical": "1",
+      "ConnectionX": "4900",
+      "ConnectionY": "3800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "4",
+      "Name": "GND",
+      "Electrical": "7",
+      "ConnectionX": "4900",
+      "ConnectionY": "3700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "5",
+      "Name": "DIR",
+      "Electrical": "0",
+      "ConnectionX": "6900",
+      "ConnectionY": "3700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "6",
+      "Name": "B2",
+      "Electrical": "1",
+      "ConnectionX": "6900",
+      "ConnectionY": "3800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "7",
+      "Name": "B1",
+      "Electrical": "1",
+      "ConnectionX": "6900",
+      "ConnectionY": "3900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "8",
+      "Name": "VCCB",
+      "Electrical": "7",
+      "ConnectionX": "6900",
+      "ConnectionY": "4000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "IN",
+      "Name": "IN",
+      "Electrical": "0",
+      "ConnectionX": "4900",
+      "ConnectionY": "3200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "D",
+      "Name": "D",
+      "Electrical": "4",
+      "ConnectionX": "4900",
+      "ConnectionY": "3100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "S",
+      "Name": "S",
+      "Electrical": "7",
+      "ConnectionX": "6900",
+      "ConnectionY": "3100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "S_TAB",
+      "Name": "S_TAB",
+      "Electrical": "7",
+      "ConnectionX": "6900",
+      "ConnectionY": "3200"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "IN",
+      "Name": "IN",
+      "Electrical": "0",
+      "ConnectionX": "4900",
+      "ConnectionY": "2700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "D",
+      "Name": "D",
+      "Electrical": "4",
+      "ConnectionX": "4900",
+      "ConnectionY": "2600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "S",
+      "Name": "S",
+      "Electrical": "7",
+      "ConnectionX": "6900",
+      "ConnectionY": "2600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "S_TAB",
+      "Name": "S_TAB",
+      "Electrical": "7",
+      "ConnectionX": "6900",
+      "ConnectionY": "2700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3400",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3400",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "7000",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "7300",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3900",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4500",
+      "ConnectionY": "5000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "7900",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "8200",
+      "ConnectionY": "4800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "7000",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "7300",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3900",
+      "ConnectionY": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4500",
+      "ConnectionY": "5100"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "7900",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "8200",
+      "ConnectionY": "5300"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "3400",
+      "ConnectionY": "4000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "3400",
+      "ConnectionY": "3700"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "4100",
+      "ConnectionY": "3600"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4100",
+      "ConnectionY": "3900"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "4700",
+      "ConnectionY": "3500"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "4700",
+      "ConnectionY": "3800"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "1",
+      "Name": "1",
+      "Electrical": "4",
+      "ConnectionX": "7600",
+      "ConnectionY": "4000"
+    },
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\Field_IO.SchDoc",
+      "Designator": "2",
+      "Name": "2",
+      "Electrical": "4",
+      "ConnectionX": "7600",
+      "ConnectionY": "3700"
+    }
+  ],
+  "count": 437,
+  "sheets_processed": 5
+}

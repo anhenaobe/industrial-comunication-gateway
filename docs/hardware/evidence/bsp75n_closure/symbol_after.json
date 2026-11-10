@@ -1,0 +1,1027 @@
+{
+  "status": "success",
+  "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+  "component_name": "BSP75NTA",
+  "component": {
+    "name": "BSP75NTA",
+    "description": "BSP75NTA smart low-side switch; physical terminal positions and Diodes land pattern verified; IN,D,S,S_TAB identifiers; driver VOH acceptance remains pending.",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 4,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "BSP75NTA"
+      ],
+      [
+        "ComponentDescription",
+        "BSP75NTA smart low-side switch; physical terminal positions and Diodes land pattern verified; IN,D,S,S_TAB identifiers; driver VOH acceptance remains pending."
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "4"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "rectangles": [
+      {
+        "owner_part_id": 1,
+        "x1": -80,
+        "y1": -10,
+        "x2": 80,
+        "y2": 20,
+        "line_width": 1,
+        "line_color": 128,
+        "fill_color": 11599871,
+        "filled": true,
+        "transparent": false,
+        "line_style": 0,
+        "unique_id": "FYCSAGUI",
+        "raw_params": [
+          [
+            "RECORD",
+            "14"
+          ],
+          [
+            "IsNotAccesible",
+            "T"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Location.X",
+            "-80"
+          ],
+          [
+            "Location.Y",
+            "-10"
+          ],
+          [
+            "Corner.X",
+            "80"
+          ],
+          [
+            "Corner.Y",
+            "20"
+          ],
+          [
+            "LineWidth",
+            "1"
+          ],
+          [
+            "Color",
+            "128"
+          ],
+          [
+            "AreaColor",
+            "11599871"
+          ],
+          [
+            "IsSolid",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "FYCSAGUI"
+          ]
+        ]
+      }
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "input",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 10,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "IN",
+        "designator": "IN",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": -80,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "D",
+        "designator": "D",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "S",
+        "designator": "S",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "power",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": true,
+        "show_designator": true,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 20,
+        "x": 80,
+        "y": 10,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "S_TAB",
+        "designator": "S_TAB",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Diodes Incorporated",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "LPGXEMNT",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Diodes Incorporated"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "LPGXEMNT"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "BSP75NTA",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "VWYJYLIQ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "BSP75NTA"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "VWYJYLIQ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "BSP75NTA",
+        "name": "Value",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "URDTTLCN",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "BSP75NTA"
+          ],
+          [
+            "Name",
+            "Value"
+          ],
+          [
+            "UniqueID",
+            "URDTTLCN"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "BSP75NTA",
+        "name": "Comment",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "ZASOGAXL",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "8"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "BSP75NTA"
+          ],
+          [
+            "Name",
+            "Comment"
+          ],
+          [
+            "UniqueID",
+            "ZASOGAXL"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_BLOCKED",
+        "name": "CAD_Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "INASINBF",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "9"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_BLOCKED"
+          ],
+          [
+            "Name",
+            "CAD_Status"
+          ],
+          [
+            "UniqueID",
+            "INASINBF"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROVISIONAL",
+        "name": "Electrical_Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "VRQJKRPQ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "10"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROVISIONAL"
+          ],
+          [
+            "Name",
+            "Electrical_Status"
+          ],
+          [
+            "UniqueID",
+            "VRQJKRPQ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Diodes DS33016 Rev7-2 pp1,8; terminal numbering absent",
+        "name": "CAD_Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "SFXAXHTW",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "11"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Diodes DS33016 Rev7-2 pp1,8; terminal numbering absent"
+          ],
+          [
+            "Name",
+            "CAD_Source"
+          ],
+          [
+            "UniqueID",
+            "SFXAXHTW"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_BLOCKED: terminal identifiers are role names, not manufacturer numbers. Tab=Source, isolated from Drain. Need exact numbered Type DN drawing/model before any placement or footprint binding.",
+        "name": "CAD_Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "KVLMAMEP",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "12"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_BLOCKED: terminal identifiers are role names, not manufacturer numbers. Tab=Source, isolated from Drain. Need exact numbered Type DN drawing/model before any placement or footprint binding."
+          ],
+          [
+            "Name",
+            "CAD_Limitations"
+          ],
+          [
+            "UniqueID",
+            "KVLMAMEP"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Diodes DS33016 Rev7-2 Jan2024 p1 Top View Pin Out, p8 Suggested Pad Layout; functional pad identifiers preserve original symbol pins",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "EEQHOKXF",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "13"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Diodes DS33016 Rev7-2 Jan2024 p1 Top View Pin Out, p8 Suggested Pad Layout; functional pad identifiers preserve original symbol pins"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "EEQHOKXF"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_VERIFIED",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "JCZAFBMI",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "14"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_VERIFIED"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "JCZAFBMI"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Physical mapping verified from Diodes top view: with tab above, left IN, middle D, right S; tab S_TAB=Source. No manufacturer numeric pin IDs asserted. Loaded driver VOH and startup OFF not yet verified.",
+        "name": "Limitations",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "NINXPVGO",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "15"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Physical mapping verified from Diodes top view: with tab above, left IN, middle D, right S; tab S_TAB=Source. No manufacturer numeric pin IDs asserted. Loaded driver VOH and startup OFF not yet verified."
+          ],
+          [
+            "Name",
+            "Limitations"
+          ],
+          [
+            "UniqueID",
+            "NINXPVGO"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "ELECTRICAL_BLOCKED_DRIVER_VOLTAGE_PENDING",
+        "name": "Electrical Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "SZXMKYTE",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "16"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "ELECTRICAL_BLOCKED_DRIVER_VOLTAGE_PENDING"
+          ],
+          [
+            "Name",
+            "Electrical Approval"
+          ],
+          [
+            "UniqueID",
+            "SZXMKYTE"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "sources/bsp75n_closure/BSP75N.pdf",
+        "name": "Datasheet",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "GZBKICPH",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "17"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "sources/bsp75n_closure/BSP75N.pdf"
+          ],
+          [
+            "Name",
+            "Datasheet"
+          ],
+          [
+            "UniqueID",
+            "GZBKICPH"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "IN left lower;D center lower;S right lower;S_TAB upper tab;Top View",
+        "name": "Physical Mapping",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "WZTOROQW",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "18"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "IN left lower;D center lower;S right lower;S_TAB upper tab;Top View"
+          ],
+          [
+            "Name",
+            "Physical Mapping"
+          ],
+          [
+            "UniqueID",
+            "WZTOROQW"
+          ]
+        ]
+      }
+    ],
+    "designator": "U?",
+    "designator_x": -80,
+    "designator_y": 30,
+    "designator_unique_id": "ZFHXDITO",
+    "footprints": [
+      {
+        "name": "GW_BSP75N_SOT223_DN_DIODES",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "21"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_BSP75N_SOT223_DN_DIODES"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "EYHZSOXF"
+          ]
+        ],
+        "unique_id": "EYHZSOXF"
+      }
+    ],
+    "primitive_order": [
+      "rectangle",
+      "pin",
+      "pin",
+      "pin",
+      "pin",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter"
+    ]
+  },
+  "type": "SchLib",
+  "units": "schematic units (10 = 1 grid)",
+  "message": "Retrieved symbol 'BSP75NTA' from 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib'"
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "asset_id": "RC0603FR-0713K3L",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "IN_RLIM"
+    ],
+    "mpn": "RC0603FR-0713K3L",
+    "symbol": "RC0603FR-0713K3L",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "TI SLVSDT4F Table6-1/Table7.5, Eq2/5/6/7, Fig10-1; input_protection_reference section10",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact manufacturer spec and existing source-bound lands; saved readback. Application settings proposed, hardware not tested.",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW"
+  },
+  {
+    "asset_id": "RC0603FR-07768KL",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "IN_UV_TOP"
+    ],
+    "mpn": "RC0603FR-07768KL",
+    "symbol": "RC0603FR-07768KL",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "TI SLVSDT4F Table6-1/Table7.5, Eq2/5/6/7, Fig10-1; input_protection_reference section10",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact manufacturer spec and existing source-bound lands; saved readback. Application settings proposed, hardware not tested.",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW"
+  },
+  {
+    "asset_id": "RC0603FR-0733K2L",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "IN_UV_MID"
+    ],
+    "mpn": "RC0603FR-0733K2L",
+    "symbol": "RC0603FR-0733K2L",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "TI SLVSDT4F Table6-1/Table7.5, Eq2/5/6/7, Fig10-1; input_protection_reference section10",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact manufacturer spec and existing source-bound lands; saved readback. Application settings proposed, hardware not tested.",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW"
+  },
+  {
+    "asset_id": "RC0603FR-0730K1L",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "IN_UV_BOTTOM"
+    ],
+    "mpn": "RC0603FR-0730K1L",
+    "symbol": "RC0603FR-0730K1L",
+    "footprint": "GW_RC0603_YAGEO_REFLOW",
+    "source": "TI SLVSDT4F Table6-1/Table7.5, Eq2/5/6/7, Fig10-1; input_protection_reference section10",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact manufacturer spec and existing source-bound lands; saved readback. Application settings proposed, hardware not tested.",
+    "package_requirement": "GW_RC0603_YAGEO_REFLOW"
+  },
+  {
+    "asset_id": "C0603C103K1RACTU",
+    "item_kind": "PASSIVE",
+    "component_ids": [
+      "IN_CDVDT"
+    ],
+    "mpn": "C0603C103K1RACTU",
+    "symbol": "C0603C103K1RACTU",
+    "footprint": "GW_0603_KEMET_NOMINAL",
+    "source": "TI SLVSDT4F Table6-1/Table7.5, Eq2/5/6/7, Fig10-1; input_protection_reference section10",
+    "cad_status": "CAD_VERIFIED",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_VERIFIED",
+    "limitations": "Exact manufacturer spec and existing source-bound lands; saved readback. Application settings proposed, hardware not tested.",
+    "package_requirement": "GW_0603_KEMET_NOMINAL"
+  },
+  {
+    "asset_id": "ACTIVE_TPS26620DRCR",
+    "item_kind": "ACTIVE",
+    "component_ids": [],
+    "mpn": "TPS26620DRCR",
+    "symbol": "TPS26620DRCR",
+    "footprint": "GW_DRC0010J_TI_TPS2662",
+    "source": "TI SLVSDT4F Table6-1/Table7.5, Eq2/5/6/7, Fig10-1; input_protection_reference section10",
+    "cad_status": "CAD_CANDIDATE",
+    "symbol_status": "CAD_VERIFIED",
+    "footprint_status": "CAD_CANDIDATE",
+    "limitations": "Numbered pins1-10/EP11 verified; RTN != GND. Manufacturer geometry saved; four EP copper regions require native custom-pad11 conversion and net inheritance verification before PCB use.",
+    "package_requirement": "GW_DRC0010J_TI_TPS2662"
+  }
+]

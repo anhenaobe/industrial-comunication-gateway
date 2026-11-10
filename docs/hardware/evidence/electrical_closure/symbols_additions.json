@@ -1,0 +1,983 @@
+[
+  {
+    "name": "KC2016Z25.0000C15XXK",
+    "designator": "Y?",
+    "description": "Kyocera TNY1T-H1-DEX01-11 17-Jul-2026 pp4,6 table2 fig4; Two independent oscillators proposed; 10nF per supply. Tie1 to3V3. Load<=15pF and PHY phase-noise qualification pending.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "STANDBY",
+        "electrical_type": "input",
+        "x": -60,
+        "y": 20,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "2",
+        "name": "GND",
+        "electrical_type": "power",
+        "x": -60,
+        "y": 0,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "3",
+        "name": "OUT_25MHz",
+        "electrical_type": "output",
+        "x": 60,
+        "y": 20,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "4",
+        "name": "VCC",
+        "electrical_type": "power",
+        "x": 60,
+        "y": 0,
+        "length": 20,
+        "orientation": "right"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -60,
+        "y1": -10,
+        "x2": 60,
+        "y2": 40
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_KC2016Z_KYOCERA",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Kyocera",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "KC2016Z25.0000C15XXK",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Kyocera TNY1T-H1-DEX01-11 17-Jul-2026 pp4,6 table2 fig4",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_CANDIDATE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "Two independent oscillators proposed; 10nF per supply. Tie1 to3V3. Load<=15pF and PHY phase-noise qualification pending.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "HX1188FNL",
+    "designator": "T?",
+    "description": "Pulse HX1188FNL revB 30-May-2014 sheets2-3 PS-2005.002-D; Use exact winding map; NC4,5,12,13 remain unconnected. FNLT is packaging variant; selected MPN FNL.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "TD+",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 140,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "2",
+        "name": "TCT",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 120,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "3",
+        "name": "TD-",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 100,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "4",
+        "name": "NC",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 80,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "5",
+        "name": "NC",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 60,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "6",
+        "name": "RD+",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 40,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "7",
+        "name": "RCT",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 20,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "8",
+        "name": "RD-",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 0,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "9",
+        "name": "RX-",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 140,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "10",
+        "name": "CMT_RX",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 120,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "11",
+        "name": "RX+",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 100,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "12",
+        "name": "NC",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 80,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "13",
+        "name": "NC",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 60,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "14",
+        "name": "TX-",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 40,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "15",
+        "name": "CMT_TX",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 20,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "16",
+        "name": "TX+",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 0,
+        "length": 20,
+        "orientation": "right"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -60,
+        "y1": -10,
+        "x2": 60,
+        "y2": 160
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_HX1188FNL_PULSE",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Pulse Electronics",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "HX1188FNL",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Pulse HX1188FNL revB 30-May-2014 sheets2-3 PS-2005.002-D",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_CANDIDATE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "Use exact winding map; NC4,5,12,13 remain unconnected. FNLT is packaging variant; selected MPN FNL.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "XAL4030-682MEC",
+    "designator": "L?",
+    "description": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 0,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 0,
+        "length": 20,
+        "orientation": "right"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -60,
+        "y1": -10,
+        "x2": 60,
+        "y2": 20
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_XAL4030_COILCRAFT",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Coilcraft",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "XAL4030-682MEC",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_CANDIDATE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "XAL4040-103MEC",
+    "designator": "L?",
+    "description": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 0,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 0,
+        "length": 20,
+        "orientation": "right"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -60,
+        "y1": -10,
+        "x2": 60,
+        "y2": 20
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_XAL4040_COILCRAFT",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Coilcraft",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "XAL4040-103MEC",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Coilcraft document806-4 revised02/25/26 Recommended Land Pattern",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_CANDIDATE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "CDSOT23-SM712",
+    "designator": "D?",
+    "description": "Bourns CDSOT23-SM712 saved2026-11-07 pp1-2 pin diagram and Recommended Footprint; CAD mapping supported; no transferred 1kV surge rating for THVD1420. Populate only after protection qualification.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "BUS_A",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 20,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "2",
+        "name": "BUS_B",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 0,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "3",
+        "name": "GND_REF",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 20,
+        "length": 20,
+        "orientation": "right"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -60,
+        "y1": -10,
+        "x2": 60,
+        "y2": 40
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_SM712_BOURNS",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Bourns",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "CDSOT23-SM712",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Bourns CDSOT23-SM712 saved2026-11-07 pp1-2 pin diagram and Recommended Footprint",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_CANDIDATE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "CAD mapping supported; no transferred 1kV surge rating for THVD1420. Populate only after protection qualification.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "TPD4E05U06DQAR",
+    "designator": "D?",
+    "description": "TI SLVSBO7O table4-2 p4; DQA0010A 4220328/A board/stencil pp29-30; PHY-side only, per DP83826EVM sheet3. GND3/8 to logic GND. NC6/7/9/10 may be pass-through pads; preserve isolation.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "D1+",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 80,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "2",
+        "name": "D1-",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 60,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "3",
+        "name": "GND",
+        "electrical_type": "power",
+        "x": -60,
+        "y": 40,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "4",
+        "name": "D2+",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 20,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "5",
+        "name": "D2-",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 0,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "6",
+        "name": "NC",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 80,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "7",
+        "name": "NC",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 60,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "8",
+        "name": "GND",
+        "electrical_type": "power",
+        "x": 60,
+        "y": 40,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "9",
+        "name": "NC",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 20,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "10",
+        "name": "NC",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 0,
+        "length": 20,
+        "orientation": "right"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -60,
+        "y1": -10,
+        "x2": 60,
+        "y2": 100
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_DQA0010A_TI",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Texas Instruments",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "TPD4E05U06DQAR",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "TI SLVSBO7O table4-2 p4; DQA0010A 4220328/A board/stencil pp29-30",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_CANDIDATE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "PHY-side only, per DP83826EVM sheet3. GND3/8 to logic GND. NC6/7/9/10 may be pass-through pads; preserve isolation.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "SS-7188S-A-NF",
+    "designator": "J?",
+    "description": "Cinch/Stewart CT710001 revB0 10-Jul-2023 component-side recommended hole layout; Numbered contacts per component-side drawing. S1/S2 are project labels for unnumbered shield tabs; MP1/2 are non-electrical mounting holes. Candidate copper lands; sourcing risk separate.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 80,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 60,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "3",
+        "name": "3",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 40,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "4",
+        "name": "4",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 20,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "5",
+        "name": "5",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 0,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "6",
+        "name": "6",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 80,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "7",
+        "name": "7",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 60,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "8",
+        "name": "8",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 40,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "S1",
+        "name": "SHIELD1",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 20,
+        "length": 20,
+        "orientation": "right"
+      },
+      {
+        "designator": "S2",
+        "name": "SHIELD2",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 0,
+        "length": 20,
+        "orientation": "right"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -60,
+        "y1": -10,
+        "x2": 60,
+        "y2": 100
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_SS7188SANF_STEWART",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Cinch / Stewart",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "SS-7188S-A-NF",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Cinch/Stewart CT710001 revB0 10-Jul-2023 component-side recommended hole layout",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_CANDIDATE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "Numbered contacts per component-side drawing. S1/S2 are project labels for unnumbered shield tabs; MP1/2 are non-electrical mounting holes. Candidate copper lands; sourcing risk separate.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "MM204F1K00TKRTR3K0",
+    "designator": "R?",
+    "description": "Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204; 1kOhm1%,0.25W@70C; normal Type3 operation supported. 500V/1kV system surge withstand NOT established.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 0,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 0,
+        "length": 20,
+        "orientation": "right"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -60,
+        "y1": -10,
+        "x2": 60,
+        "y2": 20
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_MM204_FIRSTOHM",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Firstohm",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "MM204F1K00TKRTR3K0",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_CANDIDATE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "1kOhm1%,0.25W@70C; normal Type3 operation supported. 500V/1kV system surge withstand NOT established.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  },
+  {
+    "name": "RC0603FR-0710KL",
+    "designator": "R?",
+    "description": "Existing exact Yageo RC0603FR-0710KL sheet p1; AN5419 boot example; TI SLLSF78B section10.1; 10kOhm1%0.1W@70C; replaces unqualified FOJAN identity. Shared professor lands remain CAD_CANDIDATE, not qualified manufacturer lands.",
+    "pins": [
+      {
+        "designator": "1",
+        "name": "1",
+        "electrical_type": "passive",
+        "x": -60,
+        "y": 0,
+        "length": 20,
+        "orientation": "left"
+      },
+      {
+        "designator": "2",
+        "name": "2",
+        "electrical_type": "passive",
+        "x": 60,
+        "y": 0,
+        "length": 20,
+        "orientation": "right"
+      }
+    ],
+    "rectangles": [
+      {
+        "x1": -60,
+        "y1": -10,
+        "x2": 60,
+        "y2": 20
+      }
+    ],
+    "footprints": [
+      {
+        "name": "GW_CAND_0603_res",
+        "is_current": true
+      }
+    ],
+    "parameters": [
+      {
+        "name": "Manufacturer",
+        "value": "Yageo",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Manufacturer Part Number",
+        "value": "RC0603FR-0710KL",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Source",
+        "value": "Existing exact Yageo RC0603FR-0710KL sheet p1; AN5419 boot example; TI SLLSF78B section10.1",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "CAD Status",
+        "value": "CAD_CANDIDATE",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "name": "Limitations",
+        "value": "10kOhm1%0.1W@70C; replaces unqualified FOJAN identity. Shared professor lands remain CAD_CANDIDATE, not qualified manufacturer lands.",
+        "hidden": true,
+        "x": 0,
+        "y": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,253 @@
+[
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "DP83826IRHBR",
+    "new_name": "DP83826IRHBR",
+    "would_rename": false,
+    "changes": [
+      "description: 'DP83826IRHBR; CAD_CANDIDATE; Multi-function strap pins conservatively bidirectional. Mode not frozen. EP33 must be soldered to ground; thermal vias are board-level optional, filled/plugged/tented if under paste.' -> 'DP83826IRHBR; CAD_VERIFIED_GEOMETRY; Manufacturer lands/pin33map verified;R0.05 usesAltium40% ofhalf0.25mm. Fourrectangularpastewindows approximate80percent,laser-corner/process review required. NativeinstanceECO notverified;optionalvias needplugging/tenting/fill treatment.'",
+      "parameters[4].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_GEOMETRY;NATIVE_ECO_PENDING'",
+      "parameters[6].value: 'SNLS647I table5-1 pp5-6; exposed pad p7; RHB0032M 4223725/A PDF pp111-113' -> 'TI SNLS647I RHB0032M4223725/A PDF112-113;32lead.6x.25,pitch.5,row4.8,EP33=2.1square,4x.94paste windows'",
+      "parameters[7].value: 'Multi-function strap pins conservatively bidirectional. Mode not frozen. EP33 must be soldered to ground; thermal vias are board-level optional, filled/plugged/tented if under paste.' -> 'Manufacturer lands/pin33map verified;R0.05 usesAltium40% ofhalf0.25mm. Fourrectangularpastewindows approximate80percent,laser-corner/process review required. NativeinstanceECO notverified;optionalvias needplugging/tenting/fill treatment.'"
+    ],
+    "message": "Updated component 'DP83826IRHBR'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161123_461555.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "THVD1420DR",
+    "new_name": "THVD1420DR",
+    "would_rename": false,
+    "changes": [
+      "description: 'THVD1420DR; CAD_CANDIDATE; ' -> 'THVD1420DR; CAD_VERIFIED_GEOMETRY; Exact8pinmap andTIlanddimensionsverified. Altium17%half-side givesR0.051mm vs0.05typ. Sharedlanddimensions alsoindependently matchMicrochipOA. NativeECO/assemblyreviewpending.'",
+      "parameters[4].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_GEOMETRY;NATIVE_ECO_PENDING'",
+      "parameters[6].value: 'SLLSF78B table4-1 p3; D0008A 4214825/C PDF pp30-32' -> 'TI SLLSF78B D0008A4214825/C PDF31;row5.4,pitch1.27,1.55x.60lands'",
+      "parameters[7].value: 'Circuit not electrically released.' -> 'Exact8pinmap andTIlanddimensionsverified. Altium17%half-side givesR0.051mm vs0.05typ. Sharedlanddimensions alsoindependently matchMicrochipOA. NativeECO/assemblyreviewpending.'"
+    ],
+    "message": "Updated component 'THVD1420DR'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161137_014311.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "ATA6561-GAQW",
+    "new_name": "ATA6561-GAQW",
+    "would_rename": false,
+    "changes": [
+      "description: 'ATA6561-GAQW; CAD_CANDIDATE; ' -> 'ATA6561-GAQW; CAD_VERIFIED_GEOMETRY; ExactselectedSOIC8,notVDFN,verifiedagainstMicrochiprecommendedlands. NoEP9. SharedTIfoot hasidenticalpadgeometry;smallroundedcornersareprototypeprocesschoice. NativeECO/assemblyreviewpending.'",
+      "parameters[4].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_GEOMETRY;NATIVE_ECO_PENDING'",
+      "parameters[6].value: 'DS20005991B pin table p3; C04-2057-OA RevE p19' -> 'Microchip DS20005991B p19 C04-2057-OARevE recommendedlands:C5.40,E1.27,X.60,Y1.55'",
+      "parameters[7].value: 'Circuit not electrically released.' -> 'ExactselectedSOIC8,notVDFN,verifiedagainstMicrochiprecommendedlands. NoEP9. SharedTIfoot hasidenticalpadgeometry;smallroundedcornersareprototypeprocesschoice. NativeECO/assemblyreviewpending.'"
+    ],
+    "message": "Updated component 'ATA6561-GAQW'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161149_337503.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "ISO1212DBQR",
+    "new_name": "ISO1212DBQR",
+    "would_rename": false,
+    "changes": [
+      "description: 'ISO1212DBQR; CAD_CANDIDATE; SUB12 and SUB13 must remain separate floating nets. TI recommends an individual 2x2mm floating copper island for each; these board-level islands are NOT encoded in this package footprint. Never join to either FGND, GND1 or each ' -> 'ISO1212DBQR; CAD_VERIFIED_GEOMETRY; Manufacturerimperialprimarylands1.6002x.4064mm matchsavedfoot;metricbracketdimensionsarerounded. Mask+.0508mm,smallroundedcornersareprototypechoices. SUB12/13requireseparatefloating2x2mmislands,notgrounds;nativeimplementationpending.'",
+      "parameters[4].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_GEOMETRY;NATIVE_ECO_PENDING'",
+      "parameters[6].value: 'SLLSEY7G table4-2 p4; DBQ0016A 4214846/A PDF pp44-46' -> 'TI SLLSEY7G Table4-2p4 andDBQ0016A4214846/APDF45;16lead,pitch.025inch,row5.4mm,lands.063x.016inch'",
+      "parameters[7].value: 'SUB12 and SUB13 must remain separate floating nets. TI recommends an individual 2x2mm floating copper island for each; these board-level islands are NOT encoded in this package footprint. Never join to either FGND, GND1 or each other. NC6/7 unconnected.' -> 'Manufacturerimperialprimarylands1.6002x.4064mm matchsavedfoot;metricbracketdimensionsarerounded. Mask+.0508mm,smallroundedcornersareprototypechoices. SUB12/13requireseparatefloating2x2mmislands,notgrounds;nativeimplementationpending.'"
+    ],
+    "message": "Updated component 'ISO1212DBQR'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161200_501454.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "KC2016Z25.0000C15XXK",
+    "new_name": "KC2016Z25.0000C15XXK",
+    "would_rename": false,
+    "changes": [
+      "description: 'Kyocera TNY1T-H1-DEX01-11 17-Jul-2026 pp4,6 table2 fig4; Two independent oscillators proposed; 10nF per supply. Tie1 to3V3. Load<=15pF and PHY phase-noise qualification pending.' -> 'KC2016Z25.0000C15XXK; CAD_VERIFIED_GEOMETRY; Exactpin1STANDBY/2GND/3OUT/4VCC,mirrorandlandsverified. Independentoscillatorsretained;totalPCB/inputload<=15pF andPHYphase-noiseperformance remainprototypeclockacceptanceconditions. Noautomaticclocksharing. Body2.0x1.6mm;noverified3D/courtyardclaim.'",
+      "parameters[2].value: 'Kyocera TNY1T-H1-DEX01-11 17-Jul-2026 pp4,6 table2 fig4' -> 'KyoceraTNY1T-H1-DEX01-11pp4/6;bottomviewmirroredtoPCBtop;lands.6x.8atx+/-.9,y+/-.6'",
+      "parameters[3].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_GEOMETRY;NATIVE_ECO_PENDING'",
+      "parameters[4].value: 'Two independent oscillators proposed; 10nF per supply. Tie1 to3V3. Load<=15pF and PHY phase-noise qualification pending.' -> 'Exactpin1STANDBY/2GND/3OUT/4VCC,mirrorandlandsverified. Independentoscillatorsretained;totalPCB/inputload<=15pF andPHYphase-noiseperformance remainprototypeclockacceptanceconditions. Noautomaticclocksharing. Body2.0x1.6mm;noverified3D/courtyardclaim.'"
+    ],
+    "message": "Updated component 'KC2016Z25.0000C15XXK'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161212_093639.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "HX1188FNL",
+    "new_name": "HX1188FNL",
+    "would_rename": false,
+    "changes": [
+      "description: 'Pulse HX1188FNL revB 30-May-2014 sheets2-3 PS-2005.002-D; Use exact winding map; NC4,5,12,13 remain unconnected. FNLT is packaging variant; selected MPN FNL.' -> 'HX1188FNL; CAD_VERIFIED_GEOMETRY; Exact16padpositionsandsourcepin1orientationverified. Manufacturerinchprimaryused;6.86inner/10.16outerspan. Body12.70x9.09mm plusstatedtolerances mustbeconsideredmanually;noverified3D/courtyardorunder-magneticskeepoutclaim. NativeECOpending.'",
+      "parameters[2].value: 'Pulse HX1188FNL revB 30-May-2014 sheets2-3 PS-2005.002-D' -> 'PulseRevB30May2014sheet3PS-2005.002-D;pin1lowerleftTOP,16lands.030x.065inch,pitch.050,rowcentres.335inch'",
+      "parameters[3].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_GEOMETRY;NATIVE_ECO_PENDING'",
+      "parameters[4].value: 'Use exact winding map; NC4,5,12,13 remain unconnected. FNLT is packaging variant; selected MPN FNL.' -> 'Exact16padpositionsandsourcepin1orientationverified. Manufacturerinchprimaryused;6.86inner/10.16outerspan. Body12.70x9.09mm plusstatedtolerances mustbeconsideredmanually;noverified3D/courtyardorunder-magneticskeepoutclaim. NativeECOpending.'"
+    ],
+    "message": "Updated component 'HX1188FNL'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161223_768529.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "SS-7188S-A-NF",
+    "new_name": "SS-7188S-A-NF",
+    "would_rename": false,
+    "changes": [
+      "description: 'Cinch/Stewart CT710001 revB0 10-Jul-2023 component-side recommended hole layout; Numbered contacts per component-side drawing. S1/S2 are project labels for unnumbered shield tabs; MP1/2 are non-electrical mounting holes. Candidate copper lands; sourcing risk separate.' -> 'SS-7188S-A-NF; CAD_VERIFIED_GEOMETRY; All8numberedholes,2shieldPTH,2mountNPTHandcomponent-sideorientationverified;chosen3.20mmNPHwithin3.175..3.2512drawingrange. Copperannuliareprototypechoices. Checkhousing16.13x21.59mmmax/boardedgeprojectionandTHassemblymanually;no3D/courtyardclaim.'",
+      "parameters[2].value: 'Cinch/Stewart CT710001 revB0 10-Jul-2023 component-side recommended hole layout' -> 'Stewart CT710001RevB0component-sidePCBholelayout;signals.035inch,shield.062inch,mount.125-.128inch;pin1lowerstaggeredrow'",
+      "parameters[3].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_GEOMETRY;NATIVE_ECO_PENDING'",
+      "parameters[4].value: 'Numbered contacts per component-side drawing. S1/S2 are project labels for unnumbered shield tabs; MP1/2 are non-electrical mounting holes. Candidate copper lands; sourcing risk separate.' -> 'All8numberedholes,2shieldPTH,2mountNPTHandcomponent-sideorientationverified;chosen3.20mmNPHwithin3.175..3.2512drawingrange. Copperannuliareprototypechoices. Checkhousing16.13x21.59mmmax/boardedgeprojectionandTHassemblymanually;no3D/courtyardclaim.'"
+    ],
+    "message": "Updated component 'SS-7188S-A-NF'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161235_053476.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "XAL4030-682MEC",
+    "new_name": "XAL4030-682MEC",
+    "would_rename": false,
+    "changes": [
+      "description: 'Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.' -> 'XAL4030-682MEC; CAD_VERIFIED_GEOMETRY; Savedinchprimarylands.9652x3.4036mm,centres2.3622mmmatchdrawing;metriclabelsarerounded. Nonpolarprojectpin1markedend->SW,pin2->output;4.0mmnominalbody,3.1mmmaxheight. Nativeplacement/thermalacceptancepending.'",
+      "parameters[2].value: 'Coilcraft document806-4 revised02/25/26 Recommended Land Pattern' -> 'Coilcraft806-4Rev25Feb2026p4;landcentres.093inch,width.038inch,height.134inch'",
+      "parameters[3].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_GEOMETRY;NATIVE_ECO_PENDING'",
+      "parameters[4].value: 'Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.' -> 'Savedinchprimarylands.9652x3.4036mm,centres2.3622mmmatchdrawing;metriclabelsarerounded. Nonpolarprojectpin1markedend->SW,pin2->output;4.0mmnominalbody,3.1mmmaxheight. Nativeplacement/thermalacceptancepending.'"
+    ],
+    "message": "Updated component 'XAL4030-682MEC'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161249_971583.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "XAL4040-103MEC",
+    "new_name": "XAL4040-103MEC",
+    "would_rename": false,
+    "changes": [
+      "description: 'Coilcraft document806-4 revised02/25/26 Recommended Land Pattern; Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.' -> 'XAL4040-103MEC; CAD_VERIFIED_GEOMETRY; Savedinchprimarylands.9652x3.4036mm,centres2.3622mmmatchdrawing. Nonpolarprojectpin1markedend->SW,pin2->output;4.0mmnominalbody,4.1mmmaxheight. Nativeplacement/thermalacceptancepending.'",
+      "parameters[2].value: 'Coilcraft document806-4 revised02/25/26 Recommended Land Pattern' -> 'Coilcraft806-4Rev25Feb2026p4;samerecommendedlandpatternasXAL4030'",
+      "parameters[3].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_GEOMETRY;NATIVE_ECO_PENDING'",
+      "parameters[4].value: 'Nonpolar winding; pin1=marked high-dv/dt end by project convention. Full load/hot Isat and loss qualification pending.' -> 'Savedinchprimarylands.9652x3.4036mm,centres2.3622mmmatchdrawing. Nonpolarprojectpin1markedend->SW,pin2->output;4.0mmnominalbody,4.1mmmaxheight. Nativeplacement/thermalacceptancepending.'"
+    ],
+    "message": "Updated component 'XAL4040-103MEC'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161303_929244.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "MM204F1K00TKRTR3K0",
+    "new_name": "MM204F1K00TKRTR3K0",
+    "would_rename": false,
+    "changes": [
+      "description: 'Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204; 1kOhm1%,0.25W@70C; normal Type3 operation supported. 500V/1kV system surge withstand NOT established.' -> 'MM204F1K00TKRTR3K0; CAD_VERIFIED_GEOMETRY; Saved1.3x1.6landsatx+/-1.45mmmatchmanufacturerreflowtable. Nonpolar1/2projectmappingverified. NormalDIType3applicationonly;no500V/1kVsurgequalificationinferredfromMELFor0.25W. NativeDIresistornetsmustbecorrected.'",
+      "parameters[2].value: 'Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204' -> 'FirstohmMMRev08March2023printedp78/PDF4MM16/MM204REFLOW:L1.3min,W1.6min,innerP1.6+/-.1mm'",
+      "parameters[3].value: 'CAD_CANDIDATE' -> 'CAD_VERIFIED_GEOMETRY;NATIVE_ECO_PENDING'",
+      "parameters[4].value: '1kOhm1%,0.25W@70C; normal Type3 operation supported. 500V/1kV system surge withstand NOT established.' -> 'Saved1.3x1.6landsatx+/-1.45mmmatchmanufacturerreflowtable. Nonpolar1/2projectmappingverified. NormalDIType3applicationonly;no500V/1kVsurgequalificationinferredfromMELFor0.25W. NativeDIresistornetsmustbecorrected.'"
+    ],
+    "message": "Updated component 'MM204F1K00TKRTR3K0'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161316_635588.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  },
+  {
+    "status": "success",
+    "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+    "file_type": "SchLib",
+    "dry_run": false,
+    "component_name": "TPD4E05U06DQAR",
+    "new_name": "TPD4E05U06DQAR",
+    "would_rename": false,
+    "changes": [
+      "description: 'TI SLVSBO7O table4-2 p4; DQA0010A 4220328/A board/stencil pp29-30; PHY-side only, per DP83826EVM sheet3. GND3/8 to logic GND. NC6/7/9/10 may be pass-through pads; preserve isolation.; TI board/stencil pp29-30;rounded lands,3/8 reduced paste verified.3/8 radius0.052mm vs0.05typ quantization. External1-10,2-9,4-7,5-6 continuity required;native instance/ECO pending.' -> 'TPD4E05U06DQAR; CAD_VERIFIED_GEOMETRY; TI DQA0010A pp29-30;R0.05 usingAltium50% for0.2mm leads and25% for0.4mm GND (percentageofhalfshortside). GNDpaste0.565x0.36mm. ExternalNC-flow-through continuity andnativeECO pending.'",
+      "parameters[4].value: 'TI board/stencil pp29-30;rounded lands,3/8 reduced paste verified.3/8 radius0.052mm vs0.05typ quantization. External1-10,2-9,4-7,5-6 continuity required;native instance/ECO pending.' -> 'TI DQA0010A pp29-30;R0.05 usingAltium50% for0.2mm leads and25% for0.4mm GND (percentageofhalfshortside). GNDpaste0.565x0.36mm. ExternalNC-flow-through continuity andnativeECO pending.'"
+    ],
+    "message": "Updated component 'TPD4E05U06DQAR'",
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib.20261108_161329_511737.bak",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    }
+  }
+]

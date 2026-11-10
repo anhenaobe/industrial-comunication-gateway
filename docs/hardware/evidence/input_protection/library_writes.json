@@ -1,0 +1,83 @@
+{
+  "pcb": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\": \"success\", \"filepath\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.PcbLib\", \"footprint_count\": 26, \"footprint_names\": [\"GW_LQFP100_ST_1L\", \"GW_RHB0032M_TI\", \"GW_RNX0012A_TI\", \"GW_RNX0012B_TI\", \"GW_SOIC8_1P27_5P4\", \"GW_DBQ0016A_TI\", \"GW_DCT0008A_TI\", \"GW_CAND_0603_cap\", \"GW_CAND_0603_fb\", \"GW_CAND_0603_res\", \"GW_CAND_0805_cap\", \"GW_CAND_CON_2x1_TH_5MM\", \"GW_CAND_CON_3x1_TH_5mm\", \"GW_CAND_H_2x1_TH_100mil\", \"GW_CAND_H_6x1_TH_100mil\", \"GW_KC2016Z_KYOCERA\", \"GW_HX1188FNL_PULSE\", \"GW_XAL4030_COILCRAFT\", \"GW_XAL4040_COILCRAFT\", \"GW_SM712_BOURNS\", \"GW_DQA0010A_TI\", \"GW_SS7188SANF_STEWART\", \"GW_MM204_FIRSTOHM\", \"GW_TDS3011P_SEMTECH\", \"GW_NIS3071_510CM_ONSEMI\", \"GW_SS3P6L_VISHAY_88987\"], \"validation\": {\"status\": \"valid\", \"error_count\": 0, \"warning_count\": 0, \"issues\": []}, \"bodies\": [{\"name\": \"GW_TDS3011P_SEMTECH\", \"source\": \"none\", \"note\": \"No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder.\"}, {\"name\": \"GW_NIS3071_510CM_ONSEMI\", \"source\": \"none\", \"note\": \"No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder.\"}, {\"name\": \"GW_SS3P6L_VISHAY_88987\", \"source\": \"none\", \"note\": \"No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder.\"}], \"warnings\": [], \"backup\": \"C:\\\\dev\\\\7mo\\\\design\\\\industrial-linux-gateway\\\\hardware\\\\academic_rev1\\\\libraries\\\\Gateway_Academic.PcbLib.20261107_102250_334332.bak\"}"
+      }
+    ],
+    "structuredContent": {
+      "status": "success",
+      "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+      "footprint_count": 26,
+      "footprint_names": [
+        "GW_LQFP100_ST_1L",
+        "GW_RHB0032M_TI",
+        "GW_RNX0012A_TI",
+        "GW_RNX0012B_TI",
+        "GW_SOIC8_1P27_5P4",
+        "GW_DBQ0016A_TI",
+        "GW_DCT0008A_TI",
+        "GW_CAND_0603_cap",
+        "GW_CAND_0603_fb",
+        "GW_CAND_0603_res",
+        "GW_CAND_0805_cap",
+        "GW_CAND_CON_2x1_TH_5MM",
+        "GW_CAND_CON_3x1_TH_5mm",
+        "GW_CAND_H_2x1_TH_100mil",
+        "GW_CAND_H_6x1_TH_100mil",
+        "GW_KC2016Z_KYOCERA",
+        "GW_HX1188FNL_PULSE",
+        "GW_XAL4030_COILCRAFT",
+        "GW_XAL4040_COILCRAFT",
+        "GW_SM712_BOURNS",
+        "GW_DQA0010A_TI",
+        "GW_SS7188SANF_STEWART",
+        "GW_MM204_FIRSTOHM",
+        "GW_TDS3011P_SEMTECH",
+        "GW_NIS3071_510CM_ONSEMI",
+        "GW_SS3P6L_VISHAY_88987"
+      ],
+      "validation": {
+        "status": "valid",
+        "error_count": 0,
+        "warning_count": 0,
+        "issues": []
+      },
+      "bodies": [
+        {
+          "name": "GW_TDS3011P_SEMTECH",
+          "source": "none",
+          "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+        },
+        {
+          "name": "GW_NIS3071_510CM_ONSEMI",
+          "source": "none",
+          "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+        },
+        {
+          "name": "GW_SS3P6L_VISHAY_88987",
+          "source": "none",
+          "note": "No 3D body written. Set component_bodies[].overall_height to the real part height, or pass auto_3d_body:true for a flagged 1.0 mm placeholder."
+        }
+      ],
+      "warnings": [],
+      "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261107_102250_334332.bak"
+    },
+    "isError": false
+  },
+  "sch": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"status\": \"error\", \"error\": \"Component name must be nonempty and contain no |, slash, or NUL\", \"tool\": \"write_schlib\"}"
+      }
+    ],
+    "structuredContent": {
+      "status": "error",
+      "error": "Component name must be nonempty and contain no |, slash, or NUL",
+      "tool": "write_schlib"
+    },
+    "isError": true
+  }
+}

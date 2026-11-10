@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Error executing tool proj_list_documents: An EDA handler is still running. No new command was queued; inspect the previous operation before retrying."
+    }
+  ],
+  "isError": true
+}

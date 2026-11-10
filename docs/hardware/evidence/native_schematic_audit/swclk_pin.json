@@ -1,0 +1,21 @@
+{
+  "objects": [
+    {
+      "_doc": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\MCU.SchDoc",
+      "Designator": "76",
+      "Name": "PA14",
+      "ConnectionX": "6400",
+      "ConnectionY": "4000"
+    }
+  ],
+  "count": 1,
+  "properties": {
+    "unknown_count": 0,
+    "unknown": [],
+    "failed_count": 0,
+    "failed": [],
+    "unreadable_count": 0,
+    "unreadable": []
+  },
+  "_hint_detach": "This MCP server has been holding Altium's scripting engine for over 10 minutes. When your Altium work is done, call detach_from_altium so Altium's own UI commands become responsive again. The user will have to re-launch StartMCPServer in Altium to run more MCP tools afterwards."
+}

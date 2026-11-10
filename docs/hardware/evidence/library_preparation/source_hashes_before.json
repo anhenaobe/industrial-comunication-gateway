@@ -1,0 +1,30 @@
+[
+    {
+        "Path":  "C:\\dev\\7mo\\design\\industrial-linux-gateway\\shared_lib (1).IntLib",
+        "Hash":  "91594EDE8AADF6449FFF5B44B7443DEAFEB73CFAF0BC1EB1FF434D8AC1FB6159"
+    },
+    {
+        "Path":  "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\CL10B103KA8WPNC.PcbLib",
+        "Hash":  "C9496F975A16591976208CBB517F3227292981ECCF8FCAC6DDB7468AF688F6F4"
+    },
+    {
+        "Path":  "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\CL10B103KA8WPNC.SchLib",
+        "Hash":  "9CC386E13EAD09C12CC59C5C1EE92310BF323D5AAAFFB94520701D273AD59AD9"
+    },
+    {
+        "Path":  "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Professor_shared.PcbLib",
+        "Hash":  "F359611C12C5777B634BA5ECBD4CF5E3FA5CE805AA9B3C63DB867B173A7FBC97"
+    },
+    {
+        "Path":  "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Professor_shared.SchLib",
+        "Hash":  "4224BCA2915106499B00128131C8A18D48B1BDDC8573EBF9C80952C32E85D620"
+    },
+    {
+        "Path":  "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\SS3P6L-M386A.PcbLib",
+        "Hash":  "E793DFCCA4A28D5ECB300129B51AC08C52EC590F49989BA222F4624E9B60C6D8"
+    },
+    {
+        "Path":  "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\SS3P6L-M386A.SchLib",
+        "Hash":  "4EE1ABDEA0DB1CBF3ACD6851413FF0169964A6576CFDF8F4B82C82D5119108A9"
+    }
+]

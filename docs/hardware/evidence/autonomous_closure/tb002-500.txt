@@ -1,0 +1,132 @@
+===PAGE1===
+                          CUI Devices is now Same Sky!   Learn More
+
+                                            Additional Resources:  Product Page    |  3D Model    |  PCB Footprint              date  09/12/2024
+                                                                                         page  1 of 3
+
+SERIES: TB002-500 | DESCRIPTION: TERMINAL BLOCK
+
+
+FEATURES
+• 2~24 poles
+• horizontal with board
+• interlocking (side)
+• 5.0 mm pitch
+• UL and CE safety approvals
+
+
+
+
+
+SPECIFICATIONS
+parameter                          conditions/description                                min          typ        max          units
+                             UL                                                                 300         Vrated voltage (per contact)                                   IEC                                                                  250         V
+                             UL                                                                                     15         Arated current (per contact)                                   IEC                                                                                                      17.5        A
+withstanding voltage                                                                     2500                    Vac
+surge voltage                                                                                    4000        V
+contact resistance                                                                                   20      mΩ
+insulation resistance                  at 500 Vdc                                      500                       MΩ
+operating temperature                                                                -40                      105           °C
+safety approvals                UL 1059, EN 60998-1:2004, EN 60998-2-1:2004
+flammability rating               UL94V-0
+RoHS                            yes
+SOLDERABILITY
+parameter                          conditions/description                                min          typ        max          units
+hand soldering                        for maximum 10 seconds                             345        350        355           °C
+wave soldering                        for maximum 5 seconds                              255        260        265           °C
+PART NUMBER KEY
+
+                       TB002-500 - X XX XX
+
+
+                                      Base Number      Screw Type:         No. of Poles:      Color:
+                                                                   “blank” = Slot      02 10 18      *BE = blue
+                                                P = Phillips        03  11 19      GR = green
+                                                                04 12 20     OR = orange
+                                                                 05 13 21      YL = yellow
+                                                                06 14 22     GY = gray
+                                                                     07 15 23     BK = black
+                                                                08 16 24
+                                                                09  17
+
+
+
+
+
+*Standard housing color is blue. All other colors are subject to higher MOQ. Please inquire with Same Sky sales for details.
+
+                                                       sameskydevices.com
+===PAGE2===
+                                            Additional Resources:  Product Page    |  3D Model    |  PCB Footprint
+
+SAME SKY | SERIES: TB002-500 | DESCRIPTION: TERMINAL BLOCK                                    date 09/12/2024 | page 2 of 3
+
+
+MECHANICAL DRAWING
+
+units: mm                                                                        DESCRIPTION      MATERIAL         PLATING/COLOR
+tolerance (per module):
+X≤6.00: ±0.25 mm                                                                housing          PA66 (UL94V-0)
+6.00<X≤30.00: ±0.40 mm                                                                                    contacts            copper alloy            tin
+unless otherwise noted
+                                                                            screws                steel                  zinc
+                                                                                      spring                stainless steel
+
+
+
+
+
+                                                                                            WIRE ASSEMBLY
+                                                                                                  UL           IEC
+                                                                                                 Wire Range    22~12 AWG      1.5 mm2
+                                                                                                                    Strip Length          5~6 mm
+                                                                                          Screw Size            M2.5
+                                                                                         Screw Torque            0.4 N·m
+
+
+
+
+
+              This series can be constructed of 2 and 3 pole modules where L is the total length, P is the pitch, and N is the number of poles.
+     N       02      03      04      05      06       07      08      09        10            11         12         13
+      L        10.00      15.00     20.00     25.00     30.00     35.00     40.00     45.00     50.00     55.00     60.00     65.00
+     B        5.00      10.00      15.00     20.00     25.00     30.00     35.00     40.00     45.00     50.00     55.00     60.00
+     N         14         15         16         17         18         19       20         21       22       23       24          --
+      L       70.00     75.00     80.00     85.00     90.00     95.00    100.00    105.00     110.00     115.00    120.00        --
+     B       65.00     70.00     75.00     80.00     85.00     90.00     95.00    100.00    105.00     110.00     115.00        --
+
+                                                       sameskydevices.com
+===PAGE3===
+                                            Additional Resources:  Product Page    |  3D Model    |  PCB Footprint
+
+SAME SKY | SERIES: TB002-500 | DESCRIPTION: TERMINAL BLOCK                                    date 09/12/2024 | page 3 of 3
+
+
+REVISION HISTORY
+
+
+                rev.                                     description                                       date
+
+                 1.0                                                   initial release                                  03/14/2019
+                 1.01                                 brand update                              02/06/2020
+               1.02                              updated datasheet                            04/20/2020
+               1.03                                 logo, datasheet style update                          08/15/2022
+               1.04                        CUI Devices rebranded to Same Sky                       09/12/2024
+
+                                  The revision history provided is for informational purposes only and is believed to be accurate.
+
+
+
+
+
+                                     Same Sky offers a one (1) year limited warranty. Complete warranty information is listed on our website.
+
+                                     Same Sky reserves the right to make changes to the product at any time without notice. Information provided by Same Sky is believed to be accurate and
+                                                             reliable. However, no responsibility is assumed by Same Sky for its use, nor for any infringements of patents or other rights of third parties which may result
+                                            from its use.
+
+                                     Same Sky products are not authorized or warranted for use as critical components in equipment that requires an extremely high level of reliability. A critical
+                                          component is any component of a life support device or system whose failure to perform can be reasonably expected to cause the failure of the life support
+                                                 device or system, or to affect its safety or effectiveness.
+
+                                 sameskydevices.com

@@ -1,0 +1,1084 @@
+{
+  "status": "success",
+  "filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib",
+  "component_name": "C1206C102KGRACAUTO",
+  "component": {
+    "name": "C1206C102KGRACAUTO",
+    "description": "KEMET1nF10%2kVDCX7R1206; Ethernet chassis AC return; no safety-Y or surge claim",
+    "part_count": 1,
+    "current_part_id": 1,
+    "display_mode_count": 1,
+    "part_id_locked": false,
+    "source_library_name": "*",
+    "target_file_name": "*",
+    "all_pin_count": 2,
+    "header_params": [
+      [
+        "RECORD",
+        "1"
+      ],
+      [
+        "IndexInSheet",
+        "-1"
+      ],
+      [
+        "OwnerPartId",
+        "-1"
+      ],
+      [
+        "LibraryPath",
+        "*"
+      ],
+      [
+        "SheetPartFileName",
+        "*"
+      ],
+      [
+        "AreaColor",
+        "11599871"
+      ],
+      [
+        "Color",
+        "128"
+      ],
+      [
+        "LibReference",
+        "C1206C102KGRACAUTO"
+      ],
+      [
+        "ComponentDescription",
+        "KEMET1nF10%2kVDCX7R1206; Ethernet chassis AC return; no safety-Y or surge claim"
+      ],
+      [
+        "PartCount",
+        "2"
+      ],
+      [
+        "DisplayModeCount",
+        "1"
+      ],
+      [
+        "CurrentPartId",
+        "1"
+      ],
+      [
+        "SourceLibraryName",
+        "*"
+      ],
+      [
+        "TargetFileName",
+        "*"
+      ],
+      [
+        "AllPinCount",
+        "2"
+      ],
+      [
+        "PartIDLocked",
+        "F"
+      ]
+    ],
+    "pins": [
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "left",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 25,
+        "x": -5,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "1",
+        "designator": "1",
+        "part_and_sequence": "|&|"
+      },
+      {
+        "owner_part_id": 1,
+        "owner_part_display_mode": 0,
+        "formal_type": 1,
+        "electrical_type": "passive",
+        "orientation": "right",
+        "hidden": false,
+        "show_name": false,
+        "show_designator": false,
+        "is_not_accessible": false,
+        "graphically_locked": false,
+        "length": 25,
+        "x": 5,
+        "y": 0,
+        "colour": 0,
+        "symbol_inner_edge": "none",
+        "symbol_outer_edge": "none",
+        "symbol_inside": "none",
+        "symbol_outside": "none",
+        "name": "2",
+        "designator": "2",
+        "part_and_sequence": "|&|"
+      }
+    ],
+    "lines": [
+      {
+        "owner_part_id": 1,
+        "is_not_accessible": true,
+        "x1": -5,
+        "y1": -12,
+        "x2": -5,
+        "y2": 12,
+        "line_width": 1,
+        "line_style": 0,
+        "color": 128,
+        "unique_id": "LLLGQINY",
+        "raw_params": [
+          [
+            "RECORD",
+            "13"
+          ],
+          [
+            "IsNotAccesible",
+            "T"
+          ],
+          [
+            "IndexInSheet",
+            "2"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Location.X",
+            "-5"
+          ],
+          [
+            "Location.Y",
+            "-12"
+          ],
+          [
+            "Corner.X",
+            "-5"
+          ],
+          [
+            "Corner.Y",
+            "12"
+          ],
+          [
+            "LineWidth",
+            "1"
+          ],
+          [
+            "Color",
+            "128"
+          ],
+          [
+            "UniqueID",
+            "LLLGQINY"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "is_not_accessible": true,
+        "x1": 5,
+        "y1": -12,
+        "x2": 5,
+        "y2": 12,
+        "line_width": 1,
+        "line_style": 0,
+        "color": 128,
+        "unique_id": "BZMVOCNI",
+        "raw_params": [
+          [
+            "RECORD",
+            "13"
+          ],
+          [
+            "IsNotAccesible",
+            "T"
+          ],
+          [
+            "IndexInSheet",
+            "3"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Location.X",
+            "5"
+          ],
+          [
+            "Location.Y",
+            "-12"
+          ],
+          [
+            "Corner.X",
+            "5"
+          ],
+          [
+            "Corner.Y",
+            "12"
+          ],
+          [
+            "LineWidth",
+            "1"
+          ],
+          [
+            "Color",
+            "128"
+          ],
+          [
+            "UniqueID",
+            "BZMVOCNI"
+          ]
+        ]
+      }
+    ],
+    "parameters": [
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "KEMET",
+        "name": "Manufacturer",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "JBSIAMIB",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "4"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "KEMET"
+          ],
+          [
+            "Name",
+            "Manufacturer"
+          ],
+          [
+            "UniqueID",
+            "JBSIAMIB"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "C1206C102KGRACAUTO",
+        "name": "Manufacturer Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "VFZNTIUZ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "5"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "C1206C102KGRACAUTO"
+          ],
+          [
+            "Name",
+            "Manufacturer Part Number"
+          ],
+          [
+            "UniqueID",
+            "VFZNTIUZ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "1 nF",
+        "name": "Value",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "HAAZHSFF",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "6"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "1 nF"
+          ],
+          [
+            "Name",
+            "Value"
+          ],
+          [
+            "UniqueID",
+            "HAAZHSFF"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "10%",
+        "name": "Tolerance",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "PULSLGUW",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "7"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "10%"
+          ],
+          [
+            "Name",
+            "Tolerance"
+          ],
+          [
+            "UniqueID",
+            "PULSLGUW"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "2000 VDC",
+        "name": "Voltage Rating",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "OMSESYLO",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "8"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "2000 VDC"
+          ],
+          [
+            "Name",
+            "Voltage Rating"
+          ],
+          [
+            "UniqueID",
+            "OMSESYLO"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "X7R",
+        "name": "Dielectric",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "FVZZSZGB",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "9"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "X7R"
+          ],
+          [
+            "Name",
+            "Dielectric"
+          ],
+          [
+            "UniqueID",
+            "FVZZSZGB"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "1206 /3216",
+        "name": "Package",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "FWVSJGEJ",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "10"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "1206 /3216"
+          ],
+          [
+            "Name",
+            "Package"
+          ],
+          [
+            "UniqueID",
+            "FWVSJGEJ"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "sources/ethernet_1nf/C600002.pdf",
+        "name": "Datasheet",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "GBTDMLVY",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "11"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "sources/ethernet_1nf/C600002.pdf"
+          ],
+          [
+            "Name",
+            "Datasheet"
+          ],
+          [
+            "UniqueID",
+            "GBTDMLVY"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "KEMET C1076_X7R_HV_AUTO_SMD9/10/2019 pp1-2 ordering/rating,p4 body,p10 Table3 densityB1206; C600002 exact catalog identity",
+        "name": "Source",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "QNOVEDHG",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "12"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "KEMET C1076_X7R_HV_AUTO_SMD9/10/2019 pp1-2 ordering/rating,p4 body,p10 Table3 densityB1206; C600002 exact catalog identity"
+          ],
+          [
+            "Name",
+            "Source"
+          ],
+          [
+            "UniqueID",
+            "QNOVEDHG"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "C600002",
+        "name": "LCSC Part Number",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "SSJVZESI",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "13"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "C600002"
+          ],
+          [
+            "Name",
+            "LCSC Part Number"
+          ],
+          [
+            "UniqueID",
+            "SSJVZESI"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "CAD_VERIFIED",
+        "name": "CAD Status",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "UJVEWZGT",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "14"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "CAD_VERIFIED"
+          ],
+          [
+            "Name",
+            "CAD Status"
+          ],
+          [
+            "UniqueID",
+            "UJVEWZGT"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "PROVISIONAL_APPLICATION; not safety-Y certified",
+        "name": "Electrical Approval",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "SNHPMGZI",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "15"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "PROVISIONAL_APPLICATION; not safety-Y certified"
+          ],
+          [
+            "Name",
+            "Electrical Approval"
+          ],
+          [
+            "UniqueID",
+            "SNHPMGZI"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "NOT_TESTED",
+        "name": "Electrical Test",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "FEVSCIVB",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "16"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "NOT_TESTED"
+          ],
+          [
+            "Name",
+            "Electrical Test"
+          ],
+          [
+            "UniqueID",
+            "FEVSCIVB"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "Nonpolar, project1-left/2-right; symbol1->pad1,2->pad2",
+        "name": "Terminal Mapping",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "PHOZHZAI",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "17"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "Nonpolar, project1-left/2-right; symbol1->pad1,2->pad2"
+          ],
+          [
+            "Name",
+            "Terminal Mapping"
+          ],
+          [
+            "UniqueID",
+            "PHOZHZAI"
+          ]
+        ]
+      },
+      {
+        "owner_part_id": 1,
+        "x": 0,
+        "y": 0,
+        "color": 8388608,
+        "font_id": 1,
+        "hidden": true,
+        "value": "JLC Extended observed2026-11-07; quantity unknown; no stock reservation",
+        "name": "Assembly",
+        "read_only_state": 0,
+        "param_type": 0,
+        "unique_id": "GPAALDCR",
+        "raw_params": [
+          [
+            "RECORD",
+            "41"
+          ],
+          [
+            "IndexInSheet",
+            "18"
+          ],
+          [
+            "OwnerPartId",
+            "1"
+          ],
+          [
+            "Color",
+            "8388608"
+          ],
+          [
+            "FontID",
+            "1"
+          ],
+          [
+            "IsHidden",
+            "T"
+          ],
+          [
+            "Text",
+            "JLC Extended observed2026-11-07; quantity unknown; no stock reservation"
+          ],
+          [
+            "Name",
+            "Assembly"
+          ],
+          [
+            "UniqueID",
+            "GPAALDCR"
+          ]
+        ]
+      }
+    ],
+    "designator": "C?",
+    "designator_x": -15,
+    "designator_y": 18,
+    "designator_unique_id": "OKMLYGYU",
+    "footprints": [
+      {
+        "name": "GW_C1206_KEMET_C1076_DENSITY_B",
+        "is_current": true,
+        "raw_params": [
+          [
+            "RECORD",
+            "45"
+          ],
+          [
+            "OwnerIndex",
+            "21"
+          ],
+          [
+            "IndexInSheet",
+            "-1"
+          ],
+          [
+            "Description",
+            ""
+          ],
+          [
+            "ModelType",
+            "PCBLIB"
+          ],
+          [
+            "ModelName",
+            "GW_C1206_KEMET_C1076_DENSITY_B"
+          ],
+          [
+            "IsCurrent",
+            "T"
+          ],
+          [
+            "UniqueID",
+            "RVFQVJJQ"
+          ]
+        ],
+        "unique_id": "RVFQVJJQ"
+      }
+    ],
+    "primitive_order": [
+      "pin",
+      "pin",
+      "line",
+      "line",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter",
+      "parameter"
+    ]
+  },
+  "type": "SchLib",
+  "units": "schematic units (10 = 1 grid)",
+  "message": "Retrieved symbol 'C1206C102KGRACAUTO' from 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.SchLib'"
+}

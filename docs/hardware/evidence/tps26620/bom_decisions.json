@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-07",
+  "patches": {
+    "IN_RLIM": {
+      "recommended_mpn": "RC0603FR-0713K3L",
+      "nominal_value": "13.3 kOhm",
+      "main_reference": "TPS26620DRCR",
+      "quantity": 1,
+      "assembly": "REQUIRED",
+      "verification_status": "CALCULATED",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "electrical_value_source": "TI SLVSDT4F Table6-1/Table7.5, Eq2/5/6/7, Fig10-1; input_protection_reference section10",
+      "observations": "Pin7 ILIM to EF_RTN pin5; Eq5 6.636/13.3=0.49895A. Table7.5 0.47/0.50/0.52A at13.3k test condition. Supersedes NIS62k, not buck FB resistors.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "tolerance": "1%",
+      "rated_voltage_or_current": "75 V",
+      "power_rating": "0.1 W",
+      "package": "0603"
+    },
+    "IN_CDVDT": {
+      "recommended_mpn": "C0603C103K1RACTU",
+      "nominal_value": "10 nF",
+      "main_reference": "TPS26620DRCR",
+      "quantity": 1,
+      "assembly": "REQUIRED",
+      "verification_status": "CALCULATED",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "electrical_value_source": "TI SLVSDT4F Table6-1/Table7.5, Eq2/5/6/7, Fig10-1; input_protection_reference section10",
+      "observations": "Pin8 dVdT to EF_RTN. Eq2 ramp4.92ms at24V; not NIS68pF option. 21.648uF COUT plus0.217A budget gives~0.322A typ startup estimate.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "tolerance": "10%",
+      "rated_voltage_or_current": "100 V; X7R",
+      "package": "0603",
+      "power_rating": "N/A"
+    },
+    "IN_RFAULT": {
+      "recommended_mpn": "RC0603FR-0715KL",
+      "nominal_value": "15.0 kOhm",
+      "main_reference": "TPS26620DRCR",
+      "quantity": 0,
+      "assembly": "DNP",
+      "verification_status": "CALCULATED",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "electrical_value_source": "TI SLVSDT4F Table6-1/Table7.5, Eq2/5/6/7, Fig10-1; input_protection_reference section10",
+      "observations": "DNP historical pull-up option. TPS pin9 FLT left NC in simple capture configuration; no fault line populated.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED"
+    },
+    "IN_BULK": {
+      "main_reference": "TPS26620DRCR",
+      "function": "TPS26620 local input bypass",
+      "observations": "Retained input bypass: VIN_CLAMP/pin1 to GND_PWR/pin6, NOT EF_RTN; TI section9.3.8 explicit IN-to-GND recommendation. Local short return."
+    },
+    "IN_HF": {
+      "main_reference": "TPS26620DRCR",
+      "function": "TPS26620 input high-frequency bypass",
+      "observations": "Retained input bypass: VIN_CLAMP/pin1 to GND_PWR/pin6, NOT EF_RTN; TI section9.3.8 explicit IN-to-GND recommendation. Local short return."
+    },
+    "DO_CVCCA3V3": {
+      "main_reference": "SN74LVC2T45DCTR candidate drive; not electrically approved"
+    },
+    "DO_CVCCB5": {
+      "main_reference": "SN74LVC2T45DCTR candidate drive; not electrically approved"
+    }
+  },
+  "new_rows": [
+    {
+      "clone_of": "ETH_RBIAS",
+      "component_id": "IN_UV_TOP",
+      "subsystem": "Entrada",
+      "recommended_mpn": "RC0603FR-07768KL",
+      "nominal_value": "768 kOhm",
+      "main_reference": "TPS26620DRCR",
+      "quantity": 1,
+      "assembly": "REQUIRED",
+      "verification_status": "CALCULATED",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "electrical_value_source": "TI SLVSDT4F Table6-1/Table7.5, Eq2/5/6/7, Fig10-1; input_protection_reference section10",
+      "observations": "IN to UVLO divider top; nominal UV rising15.759V / OV rising33.141V, local IN-to-RTN reference. Proposed academic thresholds.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "function": "IN to UVLO divider top",
+      "tolerance": "1%",
+      "rated_voltage_or_current": "75 V",
+      "power_rating": "0.1 W",
+      "package": "0603"
+    },
+    {
+      "clone_of": "ETH_RBIAS",
+      "component_id": "IN_UV_MID",
+      "subsystem": "Entrada",
+      "recommended_mpn": "RC0603FR-0733K2L",
+      "nominal_value": "33.2 kOhm",
+      "main_reference": "TPS26620DRCR",
+      "quantity": 1,
+      "assembly": "REQUIRED",
+      "verification_status": "CALCULATED",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "electrical_value_source": "TI SLVSDT4F Table6-1/Table7.5, Eq2/5/6/7, Fig10-1; input_protection_reference section10",
+      "observations": "UVLO to OVP divider middle; nominal UV rising15.759V / OV rising33.141V, local IN-to-RTN reference. Proposed academic thresholds.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "function": "UVLO to OVP divider middle",
+      "tolerance": "1%",
+      "rated_voltage_or_current": "75 V",
+      "power_rating": "0.1 W",
+      "package": "0603"
+    },
+    {
+      "clone_of": "ETH_RBIAS",
+      "component_id": "IN_UV_BOTTOM",
+      "subsystem": "Entrada",
+      "recommended_mpn": "RC0603FR-0730K1L",
+      "nominal_value": "30.1 kOhm",
+      "main_reference": "TPS26620DRCR",
+      "quantity": 1,
+      "assembly": "REQUIRED",
+      "verification_status": "CALCULATED",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "electrical_value_source": "TI SLVSDT4F Table6-1/Table7.5, Eq2/5/6/7, Fig10-1; input_protection_reference section10",
+      "observations": "OVP to EF_RTN divider bottom; nominal UV rising15.759V / OV rising33.141V, local IN-to-RTN reference. Proposed academic thresholds.",
+      "cad_route": "PROJECT_LOCAL_VERIFIED",
+      "function": "OVP to EF_RTN divider bottom",
+      "tolerance": "1%",
+      "rated_voltage_or_current": "75 V",
+      "power_rating": "0.1 W",
+      "package": "0603"
+    }
+  ],
+  "record_fields": {
+    "IN_RLIM": {
+      "design_approval": "PROPOSED_APPLICATION_VALUES",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET; CALCULATED_NOT_TESTED",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "IN_CDVDT": {
+      "design_approval": "PROPOSED_APPLICATION_VALUES",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET; CALCULATED_NOT_TESTED",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "IN_RFAULT": {
+      "design_approval": "PROPOSED_APPLICATION_VALUES",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET; CALCULATED_NOT_TESTED",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "IN_UV_TOP": {
+      "design_approval": "PROPOSED_APPLICATION_VALUES",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET; CALCULATED_NOT_TESTED",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "IN_UV_MID": {
+      "design_approval": "PROPOSED_APPLICATION_VALUES",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET; CALCULATED_NOT_TESTED",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "IN_UV_BOTTOM": {
+      "design_approval": "PROPOSED_APPLICATION_VALUES",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET; CALCULATED_NOT_TESTED",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "ACTIVE_TPS26620DRCR": {
+      "design_approval": "APPROVED_COMPONENT_SELECTION",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET; CALCULATED_NOT_TESTED",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    },
+    "ACTIVE_NIS3071MT4TWG": {
+      "design_approval": "SUPERSEDED",
+      "validation_scope": "SUPERVISED_LAB_24V_18_30V_TARGET; CALCULATED_NOT_TESTED",
+      "test_status": "NOT_ELECTRICALLY_TESTED"
+    }
+  },
+  "active_patches": {
+    "ACTIVE_NIS3071MT4TWG": {
+      "quantity": 0,
+      "assembly": "DNP",
+      "selection_status": "SUPERSEDED",
+      "capture_status": "HISTORICAL_ONLY",
+      "electrical_status": "PROVISIONAL",
+      "verification_status": "SUPERSEDED",
+      "observations": "Superseded by TPS26620DRCR; retained native historical resource and CAD mapping. No placement in academic circuit."
+    },
+    "ACTIVE_TPS26620DRCR": {
+      "quantity": 1,
+      "assembly": "REQUIRED",
+      "selection_status": "APPROVED_COMPONENT_SELECTION",
+      "capture_status": "SYMBOL_READY_FOOTPRINT_NATIVE_CHECK_PENDING",
+      "electrical_status": "DERIVED_PENDING_REVIEW",
+      "verification_status": "CALCULATED",
+      "pin_pad_check": "VERIFIED numbered1-10/EP11; extension net inheritance UNVERIFIED",
+      "dimensional_check": "TI DRC0010J dimensions saved; native custom-pad and corner review pending",
+      "action": "Finish native thermal-pad11 conversion/net check before PCB use"
+    }
+  }
+}

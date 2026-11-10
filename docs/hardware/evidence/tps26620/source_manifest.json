@@ -1,0 +1,27 @@
+[
+  {
+    "path": "hardware/academic_rev1/libraries/sources/tps26620/RC0603FR-0713K3L.pdf",
+    "sha256": "fec43cd16d83bcb022687fe95ed0e0cb8173a9ff2a5e80bcd59ab16f317e072c",
+    "url": "https://yageogroup.com/download/specsheet/RC0603FR-0713K3L"
+  },
+  {
+    "path": "hardware/academic_rev1/libraries/sources/tps26620/RC0603FR-0730K1L.pdf",
+    "sha256": "9a0c4d7f0e6c6e7bce2a744ee2812c5d245c81702d39bda40f5b6971f6da081c",
+    "url": "https://yageogroup.com/download/specsheet/RC0603FR-0730K1L"
+  },
+  {
+    "path": "hardware/academic_rev1/libraries/sources/tps26620/RC0603FR-0733K2L.pdf",
+    "sha256": "819ead45c6a63c0f88a91f3b0b69123efcacabfc71bd05d56c3e2ee4bb18d3e3",
+    "url": "https://yageogroup.com/download/specsheet/RC0603FR-0733K2L"
+  },
+  {
+    "path": "hardware/academic_rev1/libraries/sources/tps26620/RC0603FR-07768KL.pdf",
+    "sha256": "49d2d7425d1a6f4fca0162ef7dad8f78881e6d8537d72484cc65499b38f76355",
+    "url": "https://yageogroup.com/download/specsheet/RC0603FR-07768KL"
+  },
+  {
+    "path": "hardware/academic_rev1/libraries/sources/tps26620/tps2662.pdf",
+    "sha256": "ff038eaa557fb618f93c0b6276a5ae08d0d3d9fbff1dddf0c45974a89120aefa",
+    "url": "https://www.ti.com/lit/ds/symlink/tps2662.pdf"
+  }
+]

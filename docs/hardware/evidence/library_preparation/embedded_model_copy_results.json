@@ -1,0 +1,70 @@
+[
+  {
+    "status": "success",
+    "file_type": "PcbLib",
+    "target_filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "source_filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Professor_shared.PcbLib",
+    "component_name": "0603_fb",
+    "target_name": "GW_CAND_0603_fb_WITH_MODELS",
+    "target_component_count": 17,
+    "message": "Copied '0603_fb' from 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Professor_shared.PcbLib' to 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib'",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123856_509829.bak"
+  },
+  {
+    "status": "success",
+    "file_type": "PcbLib",
+    "target_filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "source_filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Professor_shared.PcbLib",
+    "component_name": "0603_res",
+    "target_name": "GW_CAND_0603_res_WITH_MODELS",
+    "target_component_count": 18,
+    "message": "Copied '0603_res' from 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Professor_shared.PcbLib' to 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib'",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123859_062612.bak"
+  },
+  {
+    "status": "success",
+    "file_type": "PcbLib",
+    "target_filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "source_filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Professor_shared.PcbLib",
+    "component_name": "CON_3x1_TH_5mm",
+    "target_name": "GW_CAND_CON_3x1_TH_5mm_WITH_MODELS",
+    "target_component_count": 19,
+    "message": "Copied 'CON_3x1_TH_5mm' from 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Professor_shared.PcbLib' to 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib'",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123901_943123.bak"
+  },
+  {
+    "status": "success",
+    "file_type": "PcbLib",
+    "target_filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib",
+    "source_filepath": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Professor_shared.PcbLib",
+    "component_name": "H_2x1_TH_100mil",
+    "target_name": "GW_CAND_H_2x1_TH_100mil_WITH_MODELS",
+    "target_component_count": 20,
+    "message": "Copied 'H_2x1_TH_100mil' from 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Professor_shared.PcbLib' to 'C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib'",
+    "validation": {
+      "status": "valid",
+      "error_count": 0,
+      "warning_count": 0,
+      "issues": []
+    },
+    "backup": "C:\\dev\\7mo\\design\\industrial-linux-gateway\\hardware\\academic_rev1\\libraries\\Gateway_Academic.PcbLib.20261106_123905_057740.bak"
+  }
+]

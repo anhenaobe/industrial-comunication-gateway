@@ -1,0 +1,92 @@
+{
+  "method": "Manufacturer bounds plus labelled engineering allowances; not measured consumption. DO drain current excluded from buck rails.",
+  "rails_mA": {
+    "3V3": {
+      "MCU_all_peripherals_550MHz_Tj105C_max_mA": 430,
+      "PHY_100BaseTX_leader_max_mA": 70,
+      "THVD1420_60mA_output_bound_plus1p8mA_quiescent_mA": 61.8,
+      "ISO1212_logic_max_mA": 1.9,
+      "ATA6561_VIO_max_mA": 0.5,
+      "two_oscillators_allowance_mA": 20,
+      "misc_IO_debug_translator_allowance_mA": 35
+    },
+    "5V": {
+      "ATA6561_dominant_max_mA": 70,
+      "BSP_inputs_two_at5V_max_mA": 2.4,
+      "two10k_output_pulldowns_mA": 1,
+      "translator_switching_and_misc_allowance_mA": 10
+    }
+  },
+  "rail_totals_mA": {
+    "3V3": 619.1999999999999,
+    "5V": 83.4
+  },
+  "design_limits_mA": {
+    "3V3": 700,
+    "5V": 100
+  },
+  "regulator_rating_mA": 1500,
+  "bucks": {
+    "B3": {
+      "L_H": 6.8e-06,
+      "ripple_nominal_A": 0.43191176470588233,
+      "ripple_fmin_Lminus20_A": 0.6351643598615916,
+      "normal_load_A": 0.7,
+      "peak_normal_A": 1.0175821799307958,
+      "rms_normal_A": 0.723615561148689,
+      "inductor_DCR_loss_25C_W": 0.03880020349293702,
+      "peak_at1p5A_A": 1.8175821799307958,
+      "ton_at30V_fmax_ns": 95.65217391304347,
+      "feedback_nominal_V": 3.314814814814815,
+      "feedback_min_V": 3.2199422442244225,
+      "feedback_max_V": 3.4120024317246536,
+      "thermal_note": "No efficiency/core-loss or effective RthetaJA measured; datasheet RthetaJA is not a board-temperature guarantee."
+    },
+    "B5": {
+      "L_H": 1e-05,
+      "ripple_nominal_A": 0.4166666666666667,
+      "ripple_fmin_Lminus20_A": 0.6127450980392156,
+      "normal_load_A": 0.1,
+      "peak_normal_A": 0.40637254901960784,
+      "rms_normal_A": 0.20319460195649228,
+      "inductor_DCR_loss_25C_W": 0.0038150154748173774,
+      "peak_at1p5A_A": 1.8063725490196079,
+      "ton_at30V_fmax_ns": 144.92753623188406,
+      "feedback_nominal_V": 5.016064257028113,
+      "feedback_min_V": 4.86249015865442,
+      "feedback_max_V": 5.173654821305423,
+      "thermal_note": "No efficiency/core-loss or effective RthetaJA measured; datasheet RthetaJA is not a board-temperature guarantee."
+    }
+  },
+  "DI": {
+    "typical_current_mA": 2.25,
+    "formula_VIH_typ_V": 10.5,
+    "formula_VIL_typ_V": 9.35,
+    "authoritative_table5p9_VIH_typ_max_V": [
+      10.4,
+      10.95
+    ],
+    "authoritative_table5p9_VIL_min_typ_V": [
+      8.7,
+      9.2
+    ],
+    "RTHR_max_continuous_W": 0.007638124999999999,
+    "RSENSE_max_continuous_W": 0.00429262625,
+    "pulse_example_only": "500V actually across1k gives250W initially; compare the actual resistor waveform/energy, not the generator setting, with the MM204 curve. Not a declared survival test."
+  },
+  "DO": {
+    "cold_Pconduction_per_0p5A_W": 0.16875,
+    "cold_deltaT_208CperW_C": 35.1,
+    "warning": "RDS increases with temperature; these cold calculations are not hot-current approval. DS33016 p5 gives520mA at85C minimum copper, only20mA above proposed0.5A, for its own stated conditions.",
+    "VI_protection_min_V": 4.5,
+    "translator_guaranteed_VOH_at4p5V_32mA_V": 3.8,
+    "protection_drive_verified": false
+  },
+  "input": {
+    "logic_buck_input_bound_at18V_eta_assumed0p75_A": 0.2081481481481481,
+    "including_2x0p5A_DO_A": 1.2081481481481482,
+    "eta_assumption": "0.75 is engineering budgeting only, not measured efficiency",
+    "SMBJ33A_nominal_clamp_to_60V_headroom_V": 6.700000000000003,
+    "fault_coordination": "BLOCKED"
+  }
+}
