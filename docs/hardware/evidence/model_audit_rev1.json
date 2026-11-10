@@ -1,0 +1,4518 @@
+[
+  {
+    "sheet": "Power",
+    "designator": "U2",
+    "uid": "HRMXGOKP",
+    "library": "LMR36015FBRNXR",
+    "parameters": {
+      "MANUFACTURER": "Texas Instruments",
+      "MANUFACTURER PART NUMBER": "LMR36015FBRNXR",
+      "VALUE": "LMR36015FBRNXR",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "SNVSB49D p4; RNX0012A 4222858/A PDF pp44-46 and RNX0012B 4223969/C pp47-49",
+      "CAD_LIMITATIONS": "CAD_CANDIDATE: confirm delivered RNX revision A/B. NC3 is externally connected to SW per TI. RNX12 is SW, not a ground exposed pad. Two footprint variants retained.",
+      "DESIGNATOR": "U2",
+      "COMMENT": "LMR36015FBRNXR"
+    },
+    "old_models": [
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI"
+    ],
+    "models": [
+      {
+        "index": 64,
+        "owner": 63,
+        "owner_record": "44",
+        "name": "GW_RNX0012A_TI",
+        "current": "T",
+        "type": "PCBLIB"
+      },
+      {
+        "index": 67,
+        "owner": 63,
+        "owner_record": "44",
+        "name": "GW_RNX0012B_TI",
+        "current": null,
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "L1",
+    "uid": "OEWBQQXK",
+    "library": "GW_XAL4030-682MEC_71dfd711",
+    "parameters": {
+      "MANUFACTURER": "Coilcraft",
+      "MANUFACTURER PART NUMBER": "XAL4030-682MEC",
+      "VALUE": "6.8 uH",
+      "TOLERANCE": "20%",
+      "RATING": "Isat25C 3.6 A; Irms20C 3.0 A",
+      "POWER RATING": "N/A",
+      "PACKAGE": "XAL4030",
+      "CAD_STATUS": "CAD_BLOCKED",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Inductor_10uH_4A_7.2*6.6mm",
+      "CAD_LIMITATIONS": "Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.",
+      "ELECTRICAL_NOTES": "DCRmax25C 74.1 mOhm. Isat es caida30% tipica; falta derating caliente/curva L(I)/perdidas nucleo y CAD. No usar inductor docente sin Isat verificable.",
+      "DESIGNATOR": "L1",
+      "COMMENT": "6.8 uH"
+    },
+    "old_models": [],
+    "models": [
+      {
+        "index": 96,
+        "owner": 95,
+        "owner_record": "44",
+        "name": "GW_XAL4030_COILCRAFT",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C6",
+    "uid": "GYVJIUFB",
+    "library": "GW_C3225X7R1C156M250AB_bb412b42",
+    "parameters": {
+      "MANUFACTURER": "TDK",
+      "MANUFACTURER PART NUMBER": "C3225X7R1C156M250AB",
+      "VALUE": "15 uF por unidad; 45 uF nominal banco",
+      "TOLERANCE": "20%",
+      "RATING": "16 V; X7R",
+      "POWER RATING": "N/A",
+      "PACKAGE": "1210",
+      "CAD_STATUS": "CAD_BLOCKED",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.",
+      "ELECTRICAL_NOTES": "Ceff a 3.3 V, ESR, escalon de carga y Bode pendientes. No atribuir 45 uF efectivos ni ESR3.04mOhm del modelo AR. Sin footprint1210 docente.",
+      "DESIGNATOR": "C6",
+      "COMMENT": "15 uF por unidad; 45 uF nominal banco"
+    },
+    "old_models": [],
+    "models": [
+      {
+        "index": 123,
+        "owner": 122,
+        "owner_record": "44",
+        "name": "GW_C3225_TDK_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C4",
+    "uid": "XJRSGURG",
+    "library": "GW_C3225X7R1C156M250AB_bb412b42",
+    "parameters": {
+      "MANUFACTURER": "TDK",
+      "MANUFACTURER PART NUMBER": "C3225X7R1C156M250AB",
+      "VALUE": "15 uF por unidad; 45 uF nominal banco",
+      "TOLERANCE": "20%",
+      "RATING": "16 V; X7R",
+      "POWER RATING": "N/A",
+      "PACKAGE": "1210",
+      "CAD_STATUS": "CAD_BLOCKED",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.",
+      "ELECTRICAL_NOTES": "Ceff a 3.3 V, ESR, escalon de carga y Bode pendientes. No atribuir 45 uF efectivos ni ESR3.04mOhm del modelo AR. Sin footprint1210 docente.",
+      "DESIGNATOR": "C4",
+      "COMMENT": "15 uF por unidad; 45 uF nominal banco"
+    },
+    "old_models": [],
+    "models": [
+      {
+        "index": 150,
+        "owner": 149,
+        "owner_record": "44",
+        "name": "GW_C3225_TDK_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C5",
+    "uid": "GXHOBYAR",
+    "library": "GW_C3225X7R1C156M250AB_bb412b42",
+    "parameters": {
+      "MANUFACTURER": "TDK",
+      "MANUFACTURER PART NUMBER": "C3225X7R1C156M250AB",
+      "VALUE": "15 uF por unidad; 45 uF nominal banco",
+      "TOLERANCE": "20%",
+      "RATING": "16 V; X7R",
+      "POWER RATING": "N/A",
+      "PACKAGE": "1210",
+      "CAD_STATUS": "CAD_BLOCKED",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.",
+      "ELECTRICAL_NOTES": "Ceff a 3.3 V, ESR, escalon de carga y Bode pendientes. No atribuir 45 uF efectivos ni ESR3.04mOhm del modelo AR. Sin footprint1210 docente.",
+      "DESIGNATOR": "C5",
+      "COMMENT": "15 uF por unidad; 45 uF nominal banco"
+    },
+    "old_models": [],
+    "models": [
+      {
+        "index": 177,
+        "owner": 176,
+        "owner_record": "44",
+        "name": "GW_C3225_TDK_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R6",
+    "uid": "MGEQAODF",
+    "library": "GW_RC0603FR-07100KL_ac663db8",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-07100KL",
+      "VALUE": "100 kOhm",
+      "TOLERANCE": "1%",
+      "RATING": "75 V max; limite sqrt(P*R)",
+      "POWER RATING": "0.1 W @70 C",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Vout nominal calculado 3.31481 V; ver esquinas de tolerancia. Cambiar parametros en copia docente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R6",
+      "COMMENT": "100 kOhm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 202,
+        "owner": 201,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C8",
+    "uid": "XAWODNOW",
+    "library": "GW_C0805C224K1RACTU_e16e52b8",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0805C224K1RACTU",
+      "VALUE": "220 nF",
+      "TOLERANCE": "10%",
+      "RATING": "100 V; X7R",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0805",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_10uF_0805_25V_",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Uno por par VIN-PGND en lados opuestos; falta Ceff y cotejo dimensiones pads. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C8",
+      "COMMENT": "220 nF"
+    },
+    "old_models": [
+      "GW_CAND_0805_cap"
+    ],
+    "models": [
+      {
+        "index": 229,
+        "owner": 228,
+        "owner_record": "44",
+        "name": "GW_0805_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C9",
+    "uid": "YFDKQRST",
+    "library": "GW_C0805C224K1RACTU_e16e52b8",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0805C224K1RACTU",
+      "VALUE": "220 nF",
+      "TOLERANCE": "10%",
+      "RATING": "100 V; X7R",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0805",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_10uF_0805_25V_",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Uno por par VIN-PGND en lados opuestos; falta Ceff y cotejo dimensiones pads. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C9",
+      "COMMENT": "220 nF"
+    },
+    "old_models": [
+      "GW_CAND_0805_cap"
+    ],
+    "models": [
+      {
+        "index": 256,
+        "owner": 255,
+        "owner_record": "44",
+        "name": "GW_0805_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C11",
+    "uid": "OOFJQOSD",
+    "library": "GW_C0603C200J5GACTU_c75b007a",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C200J5GACTU",
+      "VALUE": "20 pF",
+      "TOLERANCE": "5%",
+      "RATING": "50 V; C0G",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Valor guia fabricante; validar lazo. Con RFBT100k no obligatorio universal; reservar DNP hasta respuesta/Bode. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C11",
+      "COMMENT": "20 pF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 283,
+        "owner": 282,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C10",
+    "uid": "DILWSMQE",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C10",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 310,
+        "owner": 309,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R7",
+    "uid": "WSVQJHSJ",
+    "library": "GW_RC0603FR-0743K2L_a8308c0c",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-0743K2L",
+      "VALUE": "43.2 kOhm",
+      "TOLERANCE": "1%",
+      "RATING": "75 V max; limite sqrt(P*R)",
+      "POWER RATING": "0.1 W @70 C",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Vout nominal calculado 3.31481 V; ver esquinas de tolerancia. Cambiar parametros en copia docente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R7",
+      "COMMENT": "43.2 kOhm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 335,
+        "owner": 334,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "J1",
+    "uid": "JQFVLHLV",
+    "library": "TB002-500-02BE",
+    "parameters": {
+      "SNAPEDA_LINK": "https://www.snapeda.com/parts/TB002-500-02BE/Same+Sky/view-part/?ref=snap",
+      "PACKAGE": "None",
+      "VALUE": "*",
+      "MF": "Same Sky",
+      "MP": "TB002-500-02BE",
+      "CHECK_PRICES": "https://www.snapeda.com/parts/TB002-500-02BE/Same+Sky/view-part/?ref=eda",
+      "MANUFACTURER PART NUMBER": "TB002-500-02BE",
+      "MANUFACTURER": "Same Sky (Formerly CUI Devices)",
+      "DESIGNATOR": "J1",
+      "COMMENT": "TB002-500-02BE"
+    },
+    "old_models": [
+      "CUI_TB002-500-02BE"
+    ],
+    "models": [
+      {
+        "index": 363,
+        "owner": 362,
+        "owner_record": "44",
+        "name": "GW_TB002_500_2P_SAMESKY",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "L2",
+    "uid": "RKAKPZLP",
+    "library": "GW_XAL4040-103MEC_b36cb917",
+    "parameters": {
+      "MANUFACTURER": "Coilcraft",
+      "MANUFACTURER PART NUMBER": "XAL4040-103MEC",
+      "VALUE": "10 uH",
+      "TOLERANCE": "20%",
+      "RATING": "Isat25C 3.0 A; Irms20C 2.2 A",
+      "POWER RATING": "N/A",
+      "PACKAGE": "XAL4040",
+      "CAD_STATUS": "CAD_BLOCKED",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Inductor_10uH_4A_7.2*6.6mm",
+      "CAD_LIMITATIONS": "Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.",
+      "ELECTRICAL_NOTES": "DCRmax25C 92.4 mOhm. Isat es caida30% tipica; falta derating caliente/curva L(I)/perdidas nucleo y CAD. No usar inductor docente sin Isat verificable.",
+      "DESIGNATOR": "L2",
+      "COMMENT": "10 uH"
+    },
+    "old_models": [],
+    "models": [
+      {
+        "index": 394,
+        "owner": 393,
+        "owner_record": "44",
+        "name": "GW_XAL4040_COILCRAFT",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "U3",
+    "uid": "JLMOVQWE",
+    "library": "LMR36015FBRNXR",
+    "parameters": {
+      "MANUFACTURER": "Texas Instruments",
+      "MANUFACTURER PART NUMBER": "LMR36015FBRNXR",
+      "VALUE": "LMR36015FBRNXR",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "SNVSB49D p4; RNX0012A 4222858/A PDF pp44-46 and RNX0012B 4223969/C pp47-49",
+      "CAD_LIMITATIONS": "CAD_CANDIDATE: confirm delivered RNX revision A/B. NC3 is externally connected to SW per TI. RNX12 is SW, not a ground exposed pad. Two footprint variants retained.",
+      "DESIGNATOR": "U3",
+      "COMMENT": "LMR36015FBRNXR"
+    },
+    "old_models": [
+      "GW_RNX0012A_TI",
+      "GW_RNX0012B_TI"
+    ],
+    "models": [
+      {
+        "index": 433,
+        "owner": 432,
+        "owner_record": "44",
+        "name": "GW_RNX0012A_TI",
+        "current": "T",
+        "type": "PCBLIB"
+      },
+      {
+        "index": 436,
+        "owner": 432,
+        "owner_record": "44",
+        "name": "GW_RNX0012B_TI",
+        "current": null,
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C15",
+    "uid": "RIHZZXDF",
+    "library": "GW_C3225X7R1C156M250AB_bb412b42",
+    "parameters": {
+      "MANUFACTURER": "TDK",
+      "MANUFACTURER PART NUMBER": "C3225X7R1C156M250AB",
+      "VALUE": "15 uF por unidad; 45 uF nominal banco",
+      "TOLERANCE": "20%",
+      "RATING": "16 V; X7R",
+      "POWER RATING": "N/A",
+      "PACKAGE": "1210",
+      "CAD_STATUS": "CAD_BLOCKED",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.",
+      "ELECTRICAL_NOTES": "Ceff a 3.3 V, ESR, escalon de carga y Bode pendientes. No atribuir 45 uF efectivos ni ESR3.04mOhm del modelo AR. Sin footprint1210 docente.",
+      "DESIGNATOR": "C15",
+      "COMMENT": "15 uF por unidad; 45 uF nominal banco"
+    },
+    "old_models": [],
+    "models": [
+      {
+        "index": 463,
+        "owner": 462,
+        "owner_record": "44",
+        "name": "GW_C3225_TDK_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C13",
+    "uid": "FMATDAQA",
+    "library": "GW_C3225X7R1C156M250AB_bb412b42",
+    "parameters": {
+      "MANUFACTURER": "TDK",
+      "MANUFACTURER PART NUMBER": "C3225X7R1C156M250AB",
+      "VALUE": "15 uF por unidad; 45 uF nominal banco",
+      "TOLERANCE": "20%",
+      "RATING": "16 V; X7R",
+      "POWER RATING": "N/A",
+      "PACKAGE": "1210",
+      "CAD_STATUS": "CAD_BLOCKED",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.",
+      "ELECTRICAL_NOTES": "Ceff a 3.3 V, ESR, escalon de carga y Bode pendientes. No atribuir 45 uF efectivos ni ESR3.04mOhm del modelo AR. Sin footprint1210 docente.",
+      "DESIGNATOR": "C13",
+      "COMMENT": "15 uF por unidad; 45 uF nominal banco"
+    },
+    "old_models": [],
+    "models": [
+      {
+        "index": 490,
+        "owner": 489,
+        "owner_record": "44",
+        "name": "GW_C3225_TDK_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C14",
+    "uid": "WKNAIATP",
+    "library": "GW_C3225X7R1C156M250AB_bb412b42",
+    "parameters": {
+      "MANUFACTURER": "TDK",
+      "MANUFACTURER PART NUMBER": "C3225X7R1C156M250AB",
+      "VALUE": "15 uF por unidad; 45 uF nominal banco",
+      "TOLERANCE": "20%",
+      "RATING": "16 V; X7R",
+      "POWER RATING": "N/A",
+      "PACKAGE": "1210",
+      "CAD_STATUS": "CAD_BLOCKED",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Symbol only. Exact manufacturer land pattern absent locally; footprint blocked. Ratings copied from provisional BOM, not newly approved.",
+      "ELECTRICAL_NOTES": "Ceff a 3.3 V, ESR, escalon de carga y Bode pendientes. No atribuir 45 uF efectivos ni ESR3.04mOhm del modelo AR. Sin footprint1210 docente.",
+      "DESIGNATOR": "C14",
+      "COMMENT": "15 uF por unidad; 45 uF nominal banco"
+    },
+    "old_models": [],
+    "models": [
+      {
+        "index": 517,
+        "owner": 516,
+        "owner_record": "44",
+        "name": "GW_C3225_TDK_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R9",
+    "uid": "RURNYBAG",
+    "library": "GW_RC0603FR-07100KL_ac663db8",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-07100KL",
+      "VALUE": "100 kOhm",
+      "TOLERANCE": "1%",
+      "RATING": "75 V max; limite sqrt(P*R)",
+      "POWER RATING": "0.1 W @70 C",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Vout nominal calculado 3.31481 V; ver esquinas de tolerancia. Cambiar parametros en copia docente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R9",
+      "COMMENT": "100 kOhm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 542,
+        "owner": 541,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C18",
+    "uid": "AUPIRNQP",
+    "library": "GW_C0805C224K1RACTU_e16e52b8",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0805C224K1RACTU",
+      "VALUE": "220 nF",
+      "TOLERANCE": "10%",
+      "RATING": "100 V; X7R",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0805",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_10uF_0805_25V_",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Uno por par VIN-PGND en lados opuestos; falta Ceff y cotejo dimensiones pads. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C18",
+      "COMMENT": "220 nF"
+    },
+    "old_models": [
+      "GW_CAND_0805_cap"
+    ],
+    "models": [
+      {
+        "index": 569,
+        "owner": 568,
+        "owner_record": "44",
+        "name": "GW_0805_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C20",
+    "uid": "DFJBIELY",
+    "library": "GW_C0603C200J5GACTU_c75b007a",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C200J5GACTU",
+      "VALUE": "20 pF",
+      "TOLERANCE": "5%",
+      "RATING": "50 V; C0G",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Valor guia fabricante; validar lazo. Con RFBT100k no obligatorio universal; reservar DNP hasta respuesta/Bode. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C20",
+      "COMMENT": "20 pF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 596,
+        "owner": 595,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C19",
+    "uid": "CKIXXZPM",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C19",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 623,
+        "owner": 622,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R10",
+    "uid": "NOTQJJBT",
+    "library": "GW_RC0603FR-0724K9L_10698e9e",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-0724K9L",
+      "VALUE": "24.9 kOhm",
+      "TOLERANCE": "1%",
+      "RATING": "75 V max; limite sqrt(P*R)",
+      "POWER RATING": "0.1 W @70 C",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Vout nominal calculado 5.01606 V; ver esquinas de tolerancia. Cambiar parametros en copia docente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R10",
+      "COMMENT": "24.9 kOhm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 658,
+        "owner": 657,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "F1",
+    "uid": "MSRHFNGW",
+    "library": "0451002.MRL",
+    "parameters": {
+      "MANUFACTURER": "Littelfuse",
+      "MANUFACTURER PART NUMBER": "0451002.MRL",
+      "SOURCE": "Official451/453 series Rev01-Dec-2025 pp1-4; electrical row002 and ordering",
+      "DATASHEET": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+      "CAD STATUS": "CAD_VERIFIED",
+      "ELECTRICAL APPROVAL": "PROTOTYPE_APPROVED",
+      "LIMITATIONS": "User-approved2A125VDC fuse; manufacturer dimensioned native footprint linked. Nonpolar terminals project1/2; supervised current-limited lab source. Not electrically tested.",
+      "DESIGN APPROVAL": "PROTOTYPE_APPROVED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "DESIGNATOR": "F1",
+      "COMMENT": "0451002.MRL"
+    },
+    "old_models": [],
+    "models": [
+      {
+        "index": 680,
+        "owner": 679,
+        "owner_record": "44",
+        "name": "GW_0451_LITTELFUSE",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "D1",
+    "uid": "IHKGJGCT",
+    "library": "SS3P6L-M3_86A",
+    "parameters": {
+      "MANUFACTURER": "Vishay",
+      "MANUFACTURER PART NUMBER": "SS3P6L-M3/86A",
+      "SOURCE": "Vishay88987 Rev24-Apr-2020 pp1,4; numbered anodes1/2, cathodeK; minimum mounting lands",
+      "DATASHEET": "sources/SS3P6L_88987.pdf",
+      "CAD STATUS": "CAD_VERIFIED",
+      "ELECTRICAL APPROVAL": "PROTOTYPE_APPROVED",
+      "LIMITATIONS": "User-approved series reverse diode:manufacturer1/2 anodes,K large cathode. Same model also reserved DNP output clamp; do not populateSOUT withoutVF review. No hot reverse while charged.",
+      "DESIGN APPROVAL": "PROTOTYPE_APPROVED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "DESIGNATOR": "D1",
+      "COMMENT": "SS3P6L-M3_86A"
+    },
+    "old_models": [
+      "GW_SS3P6L_VISHAY_88987"
+    ],
+    "models": [
+      {
+        "index": 702,
+        "owner": 701,
+        "owner_record": "13",
+        "name": "GW_SS3P6L_VISHAY_88987",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "U1",
+    "uid": "PBWRWDQM",
+    "library": "TPS26620DRCR",
+    "parameters": {
+      "MANUFACTURER": "Texas Instruments",
+      "MANUFACTURER PART NUMBER": "TPS26620DRCR",
+      "DATASHEET": "https://www.ti.com/lit/ds/symlink/tps2662.pdf",
+      "LOCAL DATASHEET": "sources/tps26620/tps2662.pdf",
+      "SOURCE": "TI TPS2662 SLVSDT4F Dec2021 Table6-1 p4; DRC0010J4218878/B board p44/stencil p45",
+      "CAD STATUS": "CAD_CANDIDATE",
+      "DESIGN APPROVAL": "APPROVED_COMPONENT_SELECTION",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "CRITICAL CONNECTION": "Pin5 and EP11 to EF_RTN, NEVER directly to system GND pin6",
+      "FAULT RESPONSE": "TPS26620 latch-off, adjustable overvoltage cutoff; not TPS26621 auto-retry",
+      "FOOTPRINT LIMITATION": "Native custom-pad11 extension conversion/net inheritance pending; not PCB-release ready",
+      "DESIGNATOR": "U1",
+      "COMMENT": "TPS26620DRCR"
+    },
+    "old_models": [
+      "GW_DRC0010J_TI_TPS2662"
+    ],
+    "models": [
+      {
+        "index": 754,
+        "owner": 753,
+        "owner_record": "34",
+        "name": "GW_DRC0010J_TI_TPS2662_EPU",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C2",
+    "uid": "UTTETZAT",
+    "library": "C5750X7R2A475K230KA",
+    "parameters": {
+      "MANUFACTURER": "TDK",
+      "MANUFACTURER PART NUMBER": "C5750X7R2A475K230KA",
+      "VALUE": "4.7uF10%100VX7R",
+      "SOURCE": "TDK C5750X7R2A475K230KA exact2014web-derived PDF p1 lands,p2 DCbias; current official product page same PA/PB/PC",
+      "DESIGN APPROVAL": "PROTOTYPE_APPROVED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "CAD STATUS": "CAD_VERIFIED",
+      "LIMITATIONS": "None",
+      "DESIGNATOR": "C2",
+      "COMMENT": "C5750X7R2A475K230KA"
+    },
+    "old_models": [
+      "GW_C5750_TDK_REFLOW",
+      "GW_C5750_TDK_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 775,
+        "owner": 774,
+        "owner_record": "41",
+        "name": "GW_C5750_TDK_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      },
+      {
+        "index": 780,
+        "owner": 779,
+        "owner_record": "34",
+        "name": "GW_C5750_TDK_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C1",
+    "uid": "RKRKFCMQ",
+    "library": "C0805C224K1RACTU",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0805C224K1RACTU",
+      "VALUE": "220nF10%100VX7R",
+      "SOURCE": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805",
+      "DESIGN APPROVAL": "PROTOTYPE_APPROVED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "CAD STATUS": "CAD_VERIFIED",
+      "LIMITATIONS": "None",
+      "DESIGNATOR": "C1",
+      "COMMENT": "C0805C224K1RACTU"
+    },
+    "old_models": [
+      "GW_0805_KEMET_NOMINAL",
+      "GW_0805_KEMET_NOMINAL"
+    ],
+    "models": [
+      {
+        "index": 801,
+        "owner": 800,
+        "owner_record": "41",
+        "name": "GW_0805_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      },
+      {
+        "index": 806,
+        "owner": 805,
+        "owner_record": "34",
+        "name": "GW_0805_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R1",
+    "uid": "BLNFQLBZ",
+    "library": "RC0603FR-07768KL",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-07768KL",
+      "VALUE": "768kOhm1%0.1W75V",
+      "SOURCE": "Exact Yageo spec; manufacturer Mounting2018p4Fig4/Table1",
+      "DATASHEET": "https://yageogroup.com/download/specsheet/RC0603FR-07768KL",
+      "DESIGN APPROVAL": "PROPOSED_APPLICATION_VALUE",
+      "CAD STATUS": "CAD_VERIFIED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "DESIGNATOR": "R1",
+      "COMMENT": "RC0603FR-07768KL"
+    },
+    "old_models": [
+      "GW_RC0603_YAGEO_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 831,
+        "owner": 830,
+        "owner_record": "41",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R3",
+    "uid": "ROAOTNFT",
+    "library": "RC0603FR-0733K2L",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-0733K2L",
+      "VALUE": "33.2kOhm1%0.1W75V",
+      "SOURCE": "Exact Yageo spec; manufacturer Mounting2018p4Fig4/Table1",
+      "DATASHEET": "https://yageogroup.com/download/specsheet/RC0603FR-0733K2L",
+      "DESIGN APPROVAL": "PROPOSED_APPLICATION_VALUE",
+      "CAD STATUS": "CAD_VERIFIED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "DESIGNATOR": "R3",
+      "COMMENT": "RC0603FR-0733K2L"
+    },
+    "old_models": [
+      "GW_RC0603_YAGEO_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 853,
+        "owner": 852,
+        "owner_record": "41",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C3",
+    "uid": "ZVSXFFNA",
+    "library": "GW_C0603C103K1RACTU_97f3ee33",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C103K1RACTU",
+      "VALUE": "10 nF",
+      "TOLERANCE": "10%",
+      "RATING": "100 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local DI_CIN p1; no confundir con externo CL10B103KA8WPNC 25 V. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C3",
+      "COMMENT": "10 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 886,
+        "owner": 885,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R4",
+    "uid": "DZUIXBLP",
+    "library": "RC0603FR-0730K1L",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-0730K1L",
+      "VALUE": "30.1kOhm1%0.1W75V",
+      "SOURCE": "Exact Yageo spec; manufacturer Mounting2018p4Fig4/Table1",
+      "DATASHEET": "https://yageogroup.com/download/specsheet/RC0603FR-0730K1L",
+      "DESIGN APPROVAL": "PROPOSED_APPLICATION_VALUE",
+      "CAD STATUS": "CAD_VERIFIED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "DESIGNATOR": "R4",
+      "COMMENT": "RC0603FR-0730K1L"
+    },
+    "old_models": [
+      "GW_RC0603_YAGEO_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 907,
+        "owner": 906,
+        "owner_record": "41",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R2",
+    "uid": "OWKWZNDC",
+    "library": "RC0603FR-0713K3L",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-0713K3L",
+      "VALUE": "13.3kOhm1%0.1W75V",
+      "SOURCE": "Exact Yageo spec; manufacturer Mounting2018p4Fig4/Table1",
+      "DATASHEET": "https://yageogroup.com/download/specsheet/RC0603FR-0713K3L",
+      "DESIGN APPROVAL": "PROPOSED_APPLICATION_VALUE",
+      "CAD STATUS": "CAD_VERIFIED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "DESIGNATOR": "R2",
+      "COMMENT": "RC0603FR-0713K3L"
+    },
+    "old_models": [
+      "GW_RC0603_YAGEO_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 930,
+        "owner": 929,
+        "owner_record": "41",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C17",
+    "uid": "EDGIHUFV",
+    "library": "C0805C224K1RACTU",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0805C224K1RACTU",
+      "VALUE": "220nF10%100VX7R",
+      "SOURCE": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805",
+      "DESIGN APPROVAL": "PROTOTYPE_APPROVED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "CAD STATUS": "CAD_VERIFIED",
+      "LIMITATIONS": "None",
+      "DESIGNATOR": "C17",
+      "COMMENT": "C0805C224K1RACTU"
+    },
+    "old_models": [
+      "GW_0805_KEMET_NOMINAL"
+    ],
+    "models": [
+      {
+        "index": 955,
+        "owner": 954,
+        "owner_record": "41",
+        "name": "GW_0805_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R5",
+    "uid": "YCPJZLYO",
+    "library": "GW_RC0603FR-07100KL_ac663db8",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-07100KL",
+      "VALUE": "100 kOhm",
+      "TOLERANCE": "1%",
+      "RATING": "75 V max; limite sqrt(P*R)",
+      "POWER RATING": "0.1 W @70 C",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Vout nominal calculado 3.31481 V; ver esquinas de tolerancia. Cambiar parametros en copia docente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R5",
+      "COMMENT": "100 kOhm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 984,
+        "owner": 983,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "R8",
+    "uid": "KBWRAZAY",
+    "library": "GW_RC0603FR-07100KL_ac663db8",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-07100KL",
+      "VALUE": "100 kOhm",
+      "TOLERANCE": "1%",
+      "RATING": "75 V max; limite sqrt(P*R)",
+      "POWER RATING": "0.1 W @70 C",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Vout nominal calculado 3.31481 V; ver esquinas de tolerancia. Cambiar parametros en copia docente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R8",
+      "COMMENT": "100 kOhm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 1009,
+        "owner": 1008,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "D2",
+    "uid": "WUBXBPPV",
+    "library": "TDS3311P.C",
+    "parameters": {
+      "MANUFACTURER": "Semtech",
+      "MANUFACTURER PART NUMBER": "TDS3311P.C",
+      "VALUE": "33V working;42Vmax specified35A pulse",
+      "SOURCE": "Semtech TDS3311P Rev2.4 pp2,7-9; official product portal confirms33V orderTDS3311P.C",
+      "DESIGN APPROVAL": "PROTOTYPE_APPROVED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "CAD STATUS": "CAD_VERIFIED",
+      "LIMITATIONS": "None",
+      "DESIGNATOR": "D2",
+      "COMMENT": "TDS3311P.C"
+    },
+    "old_models": [
+      "GW_TDS3311P_SEMTECH"
+    ],
+    "models": [
+      {
+        "index": 1037,
+        "owner": 1036,
+        "owner_record": "44",
+        "name": "GW_TDS3311P_SEMTECH",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C60",
+    "uid": "ZLBZMHIR",
+    "library": "C5750X7R2A475K230KA",
+    "parameters": {
+      "MANUFACTURER": "TDK",
+      "MANUFACTURER PART NUMBER": "C5750X7R2A475K230KA",
+      "VALUE": "4.7uF10%100VX7R",
+      "SOURCE": "TDK C5750X7R2A475K230KA exact2014web-derived PDF p1 lands,p2 DCbias; current official product page same PA/PB/PC",
+      "DESIGN APPROVAL": "PROTOTYPE_APPROVED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "CAD STATUS": "CAD_VERIFIED",
+      "LIMITATIONS": "None",
+      "DESIGNATOR": "C60",
+      "COMMENT": "C5750X7R2A475K230KA"
+    },
+    "old_models": [
+      "GW_C5750_TDK_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 1057,
+        "owner": 1056,
+        "owner_record": "41",
+        "name": "GW_C5750_TDK_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C16",
+    "uid": "NACSMIJC",
+    "library": "C0805C225K5RACTU",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0805C225K5RACTU",
+      "VALUE": "2.2uF10%50VX7R",
+      "SOURCE": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805",
+      "DESIGN APPROVAL": "PROTOTYPE_APPROVED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "CAD STATUS": "CAD_VERIFIED",
+      "LIMITATIONS": "VCC5V local bypass;2.2uF prototype selection replaces known insufficient1uF part. Assumed>=60% bias retention; verify stableVCC at bring-up.",
+      "DESIGNATOR": "C16",
+      "COMMENT": "C0805C225K5RACTU"
+    },
+    "old_models": [
+      "GW_0805_KEMET_NOMINAL"
+    ],
+    "models": [
+      {
+        "index": 1080,
+        "owner": 1079,
+        "owner_record": "41",
+        "name": "GW_0805_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C61",
+    "uid": "EACTPBPA",
+    "library": "C0805C225K5RACTU",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0805C225K5RACTU",
+      "VALUE": "2.2uF10%50VX7R",
+      "SOURCE": "KEMET exact0805 spec body/termination dimensions; KEMET C1027 p12 Table3 nominal2012 reflow lands transferred to mechanically matching commercial0805",
+      "DESIGN APPROVAL": "PROTOTYPE_APPROVED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "CAD STATUS": "CAD_VERIFIED",
+      "LIMITATIONS": "VCC5V local bypass;2.2uF prototype selection replaces known insufficient1uF part. Assumed>=60% bias retention; verify stableVCC at bring-up.",
+      "DESIGNATOR": "C61",
+      "COMMENT": "C0805C225K5RACTU"
+    },
+    "old_models": [
+      "GW_0805_KEMET_NOMINAL"
+    ],
+    "models": [
+      {
+        "index": 1103,
+        "owner": 1102,
+        "owner_record": "41",
+        "name": "GW_0805_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C7",
+    "uid": "SGAYZVWG",
+    "library": "C3225X7R1C156M250AB",
+    "parameters": {
+      "MANUFACTURER": "TDK",
+      "MANUFACTURER PART NUMBER": "C3225X7R1C156M250AB",
+      "VALUE": "15uF20%16VX7R",
+      "SOURCE": "TDK official C3225X7R1C156M250AB product page lands PA2.0-2.4 PB1.0-1.2 PC1.9-2.5; TI table10-1 rated45uF example",
+      "DESIGN APPROVAL": "PROTOTYPE_APPROVED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "CAD STATUS": "CAD_VERIFIED",
+      "LIMITATIONS": "3 per buck:45uF rated per TI1MHz example. Prototype load-step/ripple confirmation pending; do not connect to24V input.",
+      "DESIGNATOR": "C7",
+      "COMMENT": "C3225X7R1C156M250AB"
+    },
+    "old_models": [
+      "GW_C3225_TDK_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 1128,
+        "owner": 1127,
+        "owner_record": "41",
+        "name": "GW_C3225_TDK_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C12",
+    "uid": "VDIDGJBL",
+    "library": "C5750X7R2A475K230KA",
+    "parameters": {
+      "MANUFACTURER": "TDK",
+      "MANUFACTURER PART NUMBER": "C5750X7R2A475K230KA",
+      "VALUE": "4.7uF10%100VX7R",
+      "SOURCE": "TDK C5750X7R2A475K230KA exact2014web-derived PDF p1 lands,p2 DCbias; current official product page same PA/PB/PC",
+      "DESIGN APPROVAL": "PROTOTYPE_APPROVED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "CAD STATUS": "CAD_VERIFIED",
+      "LIMITATIONS": "None",
+      "DESIGNATOR": "C12",
+      "COMMENT": "C5750X7R2A475K230KA"
+    },
+    "old_models": [
+      "GW_C5750_TDK_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 1151,
+        "owner": 1150,
+        "owner_record": "41",
+        "name": "GW_C5750_TDK_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Power",
+    "designator": "C21",
+    "uid": "ZRJTUGCW",
+    "library": "C3225X7R1C156M250AB",
+    "parameters": {
+      "MANUFACTURER": "TDK",
+      "MANUFACTURER PART NUMBER": "C3225X7R1C156M250AB",
+      "VALUE": "15uF20%16VX7R",
+      "SOURCE": "TDK official C3225X7R1C156M250AB product page lands PA2.0-2.4 PB1.0-1.2 PC1.9-2.5; TI table10-1 rated45uF example",
+      "DESIGN APPROVAL": "PROTOTYPE_APPROVED",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "CAD STATUS": "CAD_VERIFIED",
+      "LIMITATIONS": "3 per buck:45uF rated per TI1MHz example. Prototype load-step/ripple confirmation pending; do not connect to24V input.",
+      "DESIGNATOR": "C21",
+      "COMMENT": "C3225X7R1C156M250AB"
+    },
+    "old_models": [
+      "GW_C3225_TDK_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 1263,
+        "owner": 1262,
+        "owner_record": "41",
+        "name": "GW_C3225_TDK_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "U4",
+    "uid": "GRNOZAMD",
+    "library": "STM32H723VET6",
+    "parameters": {
+      "MANUFACTURER": "STMicroelectronics",
+      "MANUFACTURER PART NUMBER": "STM32H723VET6",
+      "VALUE": "STM32H723VET6",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "DS13313 Rev5 fig5, table7 pp57-71, fig65 p218 (PDF p219)",
+      "CAD_LIMITATIONS": "GPIOs use bidirectional ERC type; oscillator pins have dedicated types. VCAP power pins are LDO outputs, never connect to VDD.",
+      "DESIGNATOR": "U4",
+      "COMMENT": "STM32H723VET6"
+    },
+    "old_models": [
+      "GW_LQFP100_ST_1L"
+    ],
+    "models": [
+      {
+        "index": 240,
+        "owner": 239,
+        "owner_record": "44",
+        "name": "GW_LQFP100_ST_1L",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C22",
+    "uid": "KQULQVJX",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C22",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 272,
+        "owner": 271,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C31",
+    "uid": "BNBEPVDO",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C31",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 299,
+        "owner": 298,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C32",
+    "uid": "LSWJZRFS",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C32",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 326,
+        "owner": 325,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C26",
+    "uid": "YZKFPFLD",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C26",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 353,
+        "owner": 352,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C35",
+    "uid": "ILZXHJRZ",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C35",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 380,
+        "owner": 379,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C27",
+    "uid": "YPTBYMJC",
+    "library": "GW_C0805C475K4RACTU_82374e08",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0805C475K4RACTU",
+      "VALUE": "4.7 uF",
+      "TOLERANCE": "10%",
+      "RATING": "16 V; X7R",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0805",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_10uF_0805_25V_",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ceff a 3.3 V pendiente; no sustituir por 10 uF solo por disponibilidad. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C27",
+      "COMMENT": "4.7 uF"
+    },
+    "old_models": [
+      "GW_CAND_0805_cap"
+    ],
+    "models": [
+      {
+        "index": 407,
+        "owner": 406,
+        "owner_record": "44",
+        "name": "GW_0805_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C33",
+    "uid": "JYNLOCNH",
+    "library": "GW_C0603C225K8RACTU_46503424",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C225K8RACTU",
+      "VALUE": "2.2 uF",
+      "TOLERANCE": "10% candidato; ST permite 20%",
+      "RATING": "10 V; X7R; ESR <100 mOhm",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Falta ESR y capacitancia bajo VCORE/temperatura/envejecimiento. No conectar 3.3 V ni carga externa a VCAP. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C33",
+      "COMMENT": "2.2 uF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 434,
+        "owner": 433,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C34",
+    "uid": "RBNTEYAH",
+    "library": "GW_C0603C225K8RACTU_46503424",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C225K8RACTU",
+      "VALUE": "2.2 uF",
+      "TOLERANCE": "10% candidato; ST permite 20%",
+      "RATING": "10 V; X7R; ESR <100 mOhm",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Falta ESR y capacitancia bajo VCORE/temperatura/envejecimiento. No conectar 3.3 V ni carga externa a VCAP. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C34",
+      "COMMENT": "2.2 uF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 461,
+        "owner": 460,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C30",
+    "uid": "GLVNHTQP",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C30",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 492,
+        "owner": 491,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C29",
+    "uid": "GUCMBGVU",
+    "library": "GW_CL10A105KB8NNNC_c3932faa",
+    "parameters": {
+      "MANUFACTURER": "Samsung Electro-Mechanics",
+      "MANUFACTURER PART NUMBER": "CL10A105KB8NNNC",
+      "VALUE": "1 uF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X5R; -55..85 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Samsung ficha oficial; Ceff/ESR pendientes por aplicacion. Limite X5R 85 C: no homologado para ambiente superior. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C29",
+      "COMMENT": "1 uF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 519,
+        "owner": 518,
+        "owner_record": "44",
+        "name": "GW_SAMSUNG_CL10_1608_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C24",
+    "uid": "RFWMSFCK",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C24",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 546,
+        "owner": 545,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C23",
+    "uid": "XCSEVBTV",
+    "library": "GW_CL10A105KB8NNNC_c3932faa",
+    "parameters": {
+      "MANUFACTURER": "Samsung Electro-Mechanics",
+      "MANUFACTURER PART NUMBER": "CL10A105KB8NNNC",
+      "VALUE": "1 uF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X5R; -55..85 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Samsung ficha oficial; Ceff/ESR pendientes por aplicacion. Limite X5R 85 C: no homologado para ambiente superior. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C23",
+      "COMMENT": "1 uF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 573,
+        "owner": 572,
+        "owner_record": "44",
+        "name": "GW_SAMSUNG_CL10_1608_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C28",
+    "uid": "LGKHVULL",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C28",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 609,
+        "owner": 608,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "R11",
+    "uid": "DEJZJHXW",
+    "library": "GW_FRC0603J103TS_7289f91d",
+    "parameters": {
+      "MANUFACTURER": "FOJAN",
+      "MANUFACTURER PART NUMBER": "FRC0603J103TS",
+      "VALUE": "10 kOhm",
+      "TOLERANCE": "5%",
+      "RATING": ">= 3.3 V; tension de trabajo por verificar",
+      "POWER RATING": "0.1 W",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ratings transcritos del CAD; falta ficha FOJAN. Alternativa RC0603FR-0710KL con ficha oficial local, mismo footprint candidato. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R11",
+      "COMMENT": "10 kOhm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 634,
+        "owner": 633,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "Y1",
+    "uid": "RCWUKIAN",
+    "library": "KC2016Z25.0000C15XXK",
+    "parameters": {
+      "MANUFACTURER": "Kyocera",
+      "MANUFACTURER PART NUMBER": "KC2016Z25.0000C15XXK",
+      "SOURCE": "Kyocera TNY1T-H1-DEX01-11 17-Jul-2026 pp4,6 table2 fig4",
+      "CAD STATUS": "CAD_CANDIDATE",
+      "LIMITATIONS": "Two independent oscillators proposed; 10nF per supply. Tie1 to3V3. Load<=15pF and PHY phase-noise qualification pending.",
+      "DESIGNATOR": "Y1",
+      "COMMENT": "KC2016Z25.0000C15XXK"
+    },
+    "old_models": [
+      "GW_KC2016Z_KYOCERA"
+    ],
+    "models": [
+      {
+        "index": 656,
+        "owner": 655,
+        "owner_record": "44",
+        "name": "GW_KC2016Z_KYOCERA",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C25",
+    "uid": "OTVSHVWB",
+    "library": "GW_C0603C103K1RACTU_97f3ee33",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C103K1RACTU",
+      "VALUE": "10 nF",
+      "TOLERANCE": "10%",
+      "RATING": "100 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local DI_CIN p1; no confundir con externo CL10B103KA8WPNC 25 V. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C25",
+      "COMMENT": "10 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 688,
+        "owner": 687,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "J3",
+    "uid": "COUCKRXB",
+    "library": "GW_H_Male_6x1_TH_100mil_c0450d1e",
+    "parameters": {
+      "MANUFACTURER": "Wurth Elektronik",
+      "MANUFACTURER PART NUMBER": "61300611121",
+      "VALUE": "6 posiciones",
+      "TOLERANCE": "TBD",
+      "RATING": "TBD",
+      "POWER RATING": "N/A",
+      "PACKAGE": "TBD",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph H_Male_6x1_TH_100mil",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Pinout, MPN y orientacion pendientes. No alimentar VDD desde VTref; SWD PA13/PA14 y NRST. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "SOURCE": "schematic_construction_guide.md line 410, manufacturer PDF not in repo, IPC-7351 generic 2.54 mm land used",
+      "DESIGNATOR": "J3",
+      "COMMENT": "6 posiciones"
+    },
+    "old_models": [
+      "GW_CAND_H_6x1_TH_100mil"
+    ],
+    "models": [
+      {
+        "index": 786,
+        "owner": 785,
+        "owner_record": "44",
+        "name": "GW_WRPHD_6X1_254_WURTH",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C62",
+    "uid": "CWUGVEBI",
+    "library": "GW_CL10A105KB8NNNC_c3932faa",
+    "parameters": {
+      "MANUFACTURER": "Samsung Electro-Mechanics",
+      "MANUFACTURER PART NUMBER": "CL10A105KB8NNNC",
+      "VALUE": "1 uF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X5R; -55..85 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Samsung ficha oficial; Ceff/ESR pendientes por aplicacion. Limite X5R 85 C: no homologado para ambiente superior. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C62",
+      "COMMENT": "1 uF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 825,
+        "owner": 824,
+        "owner_record": "44",
+        "name": "GW_SAMSUNG_CL10_1608_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "C63",
+    "uid": "SIFCIMEA",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C63",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 853,
+        "owner": 852,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "MCU",
+    "designator": "J8",
+    "uid": "OGTGRVSS",
+    "library": "GW_H_Male_2x1_TH_100mil_f89d9046",
+    "parameters": {
+      "MANUFACTURER": "Wurth Elektronik",
+      "MANUFACTURER PART NUMBER": "61300211121",
+      "VALUE": "2 posiciones",
+      "TOLERANCE": "TBD",
+      "RATING": "TBD",
+      "POWER RATING": "N/A",
+      "PACKAGE": "TBD",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph H_Male_2x1_TH_100mil",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Pinout, MPN y orientacion pendientes. No alimentar VDD desde VTref; SWD PA13/PA14 y NRST. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "SOURCE": "schematic_construction_guide.md line 410, manufacturer PDF not in repo, IPC-7351 generic 2.54 mm land used",
+      "DESIGNATOR": "J8",
+      "COMMENT": "2 posiciones"
+    },
+    "old_models": [
+      "GW_CAND_H_2x1_TH_100mil"
+    ],
+    "models": [
+      {
+        "index": 916,
+        "owner": 915,
+        "owner_record": "44",
+        "name": "GW_WRPHD_2X1_254_WURTH",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "U5",
+    "uid": "WCLMUURL",
+    "library": "DP83826IRHBR",
+    "parameters": {
+      "MANUFACTURER": "Texas Instruments",
+      "MANUFACTURER PART NUMBER": "DP83826IRHBR",
+      "VALUE": "DP83826IRHBR",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "SNLS647I table5-1 pp5-6; exposed pad p7; RHB0032M 4223725/A PDF pp111-113",
+      "CAD_LIMITATIONS": "Multi-function strap pins conservatively bidirectional. Mode not frozen. EP33 must be soldered to ground; thermal vias are board-level optional, filled/plugged/tented if under paste.",
+      "DESIGNATOR": "U5",
+      "COMMENT": "DP83826IRHBR"
+    },
+    "old_models": [
+      "GW_RHB0032M_TI"
+    ],
+    "models": [
+      {
+        "index": 106,
+        "owner": 105,
+        "owner_record": "44",
+        "name": "GW_RHB0032M_TI",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R13",
+    "uid": "HECPLJIL",
+    "library": "GW_RC0603FR-076K49L_f42a9329",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-076K49L",
+      "VALUE": "6.49 kOhm",
+      "TOLERANCE": "1%",
+      "RATING": "75 V max; limite sqrt(P*R)",
+      "POWER RATING": "0.1 W @70 C",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "P<3.3^2/6490=1.68 mW; actualizacion de valor/MPN sobre simbolo generico pendiente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R13",
+      "COMMENT": "6.49 kOhm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 131,
+        "owner": 130,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "Y2",
+    "uid": "FKHSFCWU",
+    "library": "KC2016Z25.0000C15XXK",
+    "parameters": {
+      "MANUFACTURER": "Kyocera",
+      "MANUFACTURER PART NUMBER": "KC2016Z25.0000C15XXK",
+      "SOURCE": "Kyocera TNY1T-H1-DEX01-11 17-Jul-2026 pp4,6 table2 fig4",
+      "CAD STATUS": "CAD_CANDIDATE",
+      "LIMITATIONS": "Two independent oscillators proposed; 10nF per supply. Tie1 to3V3. Load<=15pF and PHY phase-noise qualification pending.",
+      "DESIGNATOR": "Y2",
+      "COMMENT": "KC2016Z25.0000C15XXK"
+    },
+    "old_models": [
+      "GW_KC2016Z_KYOCERA"
+    ],
+    "models": [
+      {
+        "index": 152,
+        "owner": 151,
+        "owner_record": "44",
+        "name": "GW_KC2016Z_KYOCERA",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C37",
+    "uid": "TAHHXFNC",
+    "library": "GW_C0603C202J5GACTU_fa733a70",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C202J5GACTU",
+      "VALUE": "2 nF",
+      "TOLERANCE": "5% seleccion",
+      "RATING": "50 V; C0G",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Conflicto EVM C57=100 nF; prevalece requisito actual 2 nF, no copiar C57. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C37",
+      "COMMENT": "2 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 179,
+        "owner": 178,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C38",
+    "uid": "IZIQQNAQ",
+    "library": "GW_C0603C103K1RACTU_97f3ee33",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C103K1RACTU",
+      "VALUE": "10 nF",
+      "TOLERANCE": "10%",
+      "RATING": "100 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local DI_CIN p1; no confundir con externo CL10B103KA8WPNC 25 V. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C38",
+      "COMMENT": "10 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 206,
+        "owner": 205,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C39",
+    "uid": "RQZPEICP",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C39",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 233,
+        "owner": 232,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C40",
+    "uid": "QFTYFZKS",
+    "library": "GW_CL10A105KB8NNNC_c3932faa",
+    "parameters": {
+      "MANUFACTURER": "Samsung Electro-Mechanics",
+      "MANUFACTURER PART NUMBER": "CL10A105KB8NNNC",
+      "VALUE": "1 uF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X5R; -55..85 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Samsung ficha oficial; Ceff/ESR pendientes por aplicacion. Limite X5R 85 C: no homologado para ambiente superior. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C40",
+      "COMMENT": "1 uF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 260,
+        "owner": 259,
+        "owner_record": "44",
+        "name": "GW_SAMSUNG_CL10_1608_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C41",
+    "uid": "EIFZMQEV",
+    "library": "GW_CL21A106KAYNNNE_c6e24382",
+    "parameters": {
+      "MANUFACTURER": "Samsung Electro-Mechanics",
+      "MANUFACTURER PART NUMBER": "CL21A106KAYNNNE",
+      "VALUE": "10 uF",
+      "TOLERANCE": "10%",
+      "RATING": "25 V; X5R; -55..85 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0805",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_10uF_0805_25V_",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ceff a 3.3 V y temperatura pendientes. No usar para entrada 30 V. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C41",
+      "COMMENT": "10 uF"
+    },
+    "old_models": [
+      "GW_CAND_0805_cap"
+    ],
+    "models": [
+      {
+        "index": 287,
+        "owner": 286,
+        "owner_record": "44",
+        "name": "GW_SAMSUNG_CL21_2012_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R15",
+    "uid": "GOYDQSAU",
+    "library": "GW_RC0603FR-072K49L_b905c5f0",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-072K49L",
+      "VALUE": "2.49 kOhm",
+      "TOLERANCE": "1%",
+      "RATING": "75 V max; limite sqrt(P*R)",
+      "POWER RATING": "0.1 W @70 C",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Candidato ENHANCED/RMII leader: ModeSelect NC, strap1=1 default, strap8=1, strap5=0 default. Ver tabla del informe; sin LEDs de straps. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R15",
+      "COMMENT": "2.49 kOhm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 324,
+        "owner": 323,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C36",
+    "uid": "KDCUGLRA",
+    "library": "GW_C0603C103K1RACTU_97f3ee33",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C103K1RACTU",
+      "VALUE": "10 nF",
+      "TOLERANCE": "10%",
+      "RATING": "100 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local DI_CIN p1; no confundir con externo CL10B103KA8WPNC 25 V. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C36",
+      "COMMENT": "10 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 357,
+        "owner": 356,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C47",
+    "uid": "WLLEHORR",
+    "library": "GW_C0603C103K1RACTU_97f3ee33",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C103K1RACTU",
+      "VALUE": "10 nF",
+      "TOLERANCE": "10%",
+      "RATING": "100 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local DI_CIN p1; no confundir con externo CL10B103KA8WPNC 25 V. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C47",
+      "COMMENT": "10 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 384,
+        "owner": 383,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C48",
+    "uid": "BXGPDHAO",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C48",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 411,
+        "owner": 410,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C49",
+    "uid": "WGKTYEQO",
+    "library": "GW_CL10A105KB8NNNC_c3932faa",
+    "parameters": {
+      "MANUFACTURER": "Samsung Electro-Mechanics",
+      "MANUFACTURER PART NUMBER": "CL10A105KB8NNNC",
+      "VALUE": "1 uF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X5R; -55..85 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Samsung ficha oficial; Ceff/ESR pendientes por aplicacion. Limite X5R 85 C: no homologado para ambiente superior. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C49",
+      "COMMENT": "1 uF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 438,
+        "owner": 437,
+        "owner_record": "44",
+        "name": "GW_SAMSUNG_CL10_1608_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C50",
+    "uid": "NJVBYEAV",
+    "library": "GW_CL21A106KAYNNNE_c6e24382",
+    "parameters": {
+      "MANUFACTURER": "Samsung Electro-Mechanics",
+      "MANUFACTURER PART NUMBER": "CL21A106KAYNNNE",
+      "VALUE": "10 uF",
+      "TOLERANCE": "10%",
+      "RATING": "25 V; X5R; -55..85 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0805",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_10uF_0805_25V_",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ceff a 3.3 V y temperatura pendientes. No usar para entrada 30 V. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C50",
+      "COMMENT": "10 uF"
+    },
+    "old_models": [
+      "GW_CAND_0805_cap"
+    ],
+    "models": [
+      {
+        "index": 465,
+        "owner": 464,
+        "owner_record": "44",
+        "name": "GW_SAMSUNG_CL21_2012_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "T1",
+    "uid": "TZFWBQJG",
+    "library": "HX1188FNL",
+    "parameters": {
+      "MANUFACTURER": "Pulse Electronics",
+      "MANUFACTURER PART NUMBER": "HX1188FNL",
+      "SOURCE": "Pulse HX1188FNL revB 30-May-2014 sheets2-3 PS-2005.002-D",
+      "CAD STATUS": "CAD_CANDIDATE",
+      "LIMITATIONS": "Use exact winding map; NC4,5,12,13 remain unconnected. FNLT is packaging variant; selected MPN FNL.",
+      "DESIGNATOR": "T1",
+      "COMMENT": "HX1188FNL"
+    },
+    "old_models": [
+      "GW_HX1188FNL_PULSE"
+    ],
+    "models": [
+      {
+        "index": 528,
+        "owner": 527,
+        "owner_record": "44",
+        "name": "GW_HX1188FNL_PULSE",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C43",
+    "uid": "NJVAAZFJ",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C43",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 559,
+        "owner": 558,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C42",
+    "uid": "XTTHKGIP",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C42",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 586,
+        "owner": 585,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C45",
+    "uid": "IYTKAWMY",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C45",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 613,
+        "owner": 612,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C44",
+    "uid": "YGKUKIJX",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C44",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 640,
+        "owner": 639,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "U6",
+    "uid": "KYEFSGEW",
+    "library": "THVD1420DR",
+    "parameters": {
+      "MANUFACTURER": "Texas Instruments",
+      "MANUFACTURER PART NUMBER": "THVD1420DR",
+      "VALUE": "THVD1420DR",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "SLLSF78B table4-1 p3; D0008A 4214825/C PDF pp30-32",
+      "CAD_LIMITATIONS": "Circuit not electrically released.",
+      "DESIGNATOR": "U6",
+      "COMMENT": "THVD1420DR"
+    },
+    "old_models": [
+      "GW_SOIC8_1P27_5P4"
+    ],
+    "models": [
+      {
+        "index": 681,
+        "owner": 680,
+        "owner_record": "44",
+        "name": "GW_SOIC8_1P27_5P4",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "J2",
+    "uid": "COZFDHHG",
+    "library": "SS-7188S-A-NF",
+    "parameters": {
+      "MANUFACTURER": "Cinch / Stewart",
+      "MANUFACTURER PART NUMBER": "SS-7188S-A-NF",
+      "SOURCE": "Cinch/Stewart CT710001 revB0 10-Jul-2023 component-side recommended hole layout",
+      "CAD STATUS": "CAD_CANDIDATE",
+      "LIMITATIONS": "Numbered contacts per component-side drawing. S1/S2 are project labels for unnumbered shield tabs; MP1/2 are non-electrical mounting holes. Candidate copper lands; sourcing risk separate.",
+      "DESIGNATOR": "J2",
+      "COMMENT": "SS-7188S-A-NF"
+    },
+    "old_models": [
+      "GW_SS7188SANF_STEWART"
+    ],
+    "models": [
+      {
+        "index": 714,
+        "owner": 713,
+        "owner_record": "44",
+        "name": "GW_SS7188SANF_STEWART",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R16",
+    "uid": "CJHZXOPZ",
+    "library": "GW_FRC0603J103TS_7289f91d",
+    "parameters": {
+      "MANUFACTURER": "FOJAN",
+      "MANUFACTURER PART NUMBER": "FRC0603J103TS",
+      "VALUE": "10 kOhm",
+      "TOLERANCE": "5%",
+      "RATING": ">= 3.3 V; tension de trabajo por verificar",
+      "POWER RATING": "0.1 W",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ratings transcritos del CAD; falta ficha FOJAN. Alternativa RC0603FR-0710KL con ficha oficial local, mismo footprint candidato. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R16",
+      "COMMENT": "10 kOhm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 745,
+        "owner": 744,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R18",
+    "uid": "ILPXQPZL",
+    "library": "GW_FRC0603J103TS_7289f91d",
+    "parameters": {
+      "MANUFACTURER": "FOJAN",
+      "MANUFACTURER PART NUMBER": "FRC0603J103TS",
+      "VALUE": "10 kOhm",
+      "TOLERANCE": "5%",
+      "RATING": ">= 3.3 V; tension de trabajo por verificar",
+      "POWER RATING": "0.1 W",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ratings transcritos del CAD; falta ficha FOJAN. Alternativa RC0603FR-0710KL con ficha oficial local, mismo footprint candidato. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R18",
+      "COMMENT": "10 kOhm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 772,
+        "owner": 771,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C51",
+    "uid": "HCWJDRLY",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C51",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 803,
+        "owner": 802,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R12",
+    "uid": "IJVLMCAI",
+    "library": "CRCW080575R0FKEA",
+    "parameters": {
+      "MANUFACTURER": "Vishay",
+      "MANUFACTURER PART NUMBER": "CRCW080575R0FKEA",
+      "VALUE": "75 Ohm",
+      "TOLERANCE": "1%",
+      "POWER RATING": "0.125 W at70C; derating applies",
+      "PACKAGE": "0805 /2012",
+      "TCR": "100 ppm/K",
+      "DATASHEET": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "LOCAL DATASHEET": "sources/ethernet_75ohm/C844859.pdf",
+      "SOURCE": "Vishay20035 Rev18-Jun-2018 p3 ordering, p9 body/reflow lands; JLC C844859 exact identity observed2026-11-07",
+      "LCSC PART NUMBER": "C844859",
+      "CAD STATUS": "CAD_VERIFIED",
+      "DESIGN APPROVAL": "RETAINED_ORIGINAL_SELECTION",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "TERMINAL MAPPING": "Nonpolar resistor: project pin1=left pad1,pin2=right pad2",
+      "ASSEMBLY": "JLC Extended observed; quantity unknown; verify before ordering",
+      "DESIGNATOR": "R12",
+      "COMMENT": "CRCW080575R0FKEA"
+    },
+    "old_models": [
+      "GW_CRCW0805_VISHAY_20035_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 830,
+        "owner": 829,
+        "owner_record": "41",
+        "name": "GW_CRCW0805_VISHAY_20035_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R14",
+    "uid": "NCGSEMQA",
+    "library": "CRCW080575R0FKEA",
+    "parameters": {
+      "MANUFACTURER": "Vishay",
+      "MANUFACTURER PART NUMBER": "CRCW080575R0FKEA",
+      "VALUE": "75 Ohm",
+      "TOLERANCE": "1%",
+      "POWER RATING": "0.125 W at70C; derating applies",
+      "PACKAGE": "0805 /2012",
+      "TCR": "100 ppm/K",
+      "DATASHEET": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "LOCAL DATASHEET": "sources/ethernet_75ohm/C844859.pdf",
+      "SOURCE": "Vishay20035 Rev18-Jun-2018 p3 ordering, p9 body/reflow lands; JLC C844859 exact identity observed2026-11-07",
+      "LCSC PART NUMBER": "C844859",
+      "CAD STATUS": "CAD_VERIFIED",
+      "DESIGN APPROVAL": "RETAINED_ORIGINAL_SELECTION",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "TERMINAL MAPPING": "Nonpolar resistor: project pin1=left pad1,pin2=right pad2",
+      "ASSEMBLY": "JLC Extended observed; quantity unknown; verify before ordering",
+      "DESIGNATOR": "R14",
+      "COMMENT": "CRCW080575R0FKEA"
+    },
+    "old_models": [
+      "GW_CRCW0805_VISHAY_20035_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 860,
+        "owner": 859,
+        "owner_record": "41",
+        "name": "GW_CRCW0805_VISHAY_20035_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C46",
+    "uid": "NIJCSQQZ",
+    "library": "C1206C102KGRACAUTO",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C1206C102KGRACAUTO",
+      "VALUE": "1 nF",
+      "TOLERANCE": "10%",
+      "VOLTAGE RATING": "2000 VDC",
+      "DIELECTRIC": "X7R",
+      "PACKAGE": "1206 /3216",
+      "DATASHEET": "sources/ethernet_1nf/C600002.pdf",
+      "SOURCE": "KEMET C1076_X7R_HV_AUTO_SMD9/10/2019 pp1-2 ordering/rating,p4 body,p10 Table3 densityB1206; C600002 exact catalog identity",
+      "LCSC PART NUMBER": "C600002",
+      "CAD STATUS": "CAD_VERIFIED",
+      "ELECTRICAL APPROVAL": "PROVISIONAL_APPLICATION; not safety-Y certified",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "TERMINAL MAPPING": "Nonpolar, project1-left/2-right; symbol1->pad1,2->pad2",
+      "ASSEMBLY": "JLC Extended observed2026-11-07; quantity unknown; no stock reservation",
+      "DESIGNATOR": "C46",
+      "COMMENT": "C1206C102KGRACAUTO"
+    },
+    "old_models": [
+      "GW_C1206_KEMET_C1076_DENSITY_B"
+    ],
+    "models": [
+      {
+        "index": 890,
+        "owner": 889,
+        "owner_record": "41",
+        "name": "GW_C1206_KEMET_C1076_DENSITY_B",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R19",
+    "uid": "BPELKBGI",
+    "library": "CRCW080575R0FKEA",
+    "parameters": {
+      "MANUFACTURER": "Vishay",
+      "MANUFACTURER PART NUMBER": "CRCW080575R0FKEA",
+      "VALUE": "75 Ohm",
+      "TOLERANCE": "1%",
+      "POWER RATING": "0.125 W at70C; derating applies",
+      "PACKAGE": "0805 /2012",
+      "TCR": "100 ppm/K",
+      "DATASHEET": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "LOCAL DATASHEET": "sources/ethernet_75ohm/C844859.pdf",
+      "SOURCE": "Vishay20035 Rev18-Jun-2018 p3 ordering, p9 body/reflow lands; JLC C844859 exact identity observed2026-11-07",
+      "LCSC PART NUMBER": "C844859",
+      "CAD STATUS": "CAD_VERIFIED",
+      "DESIGN APPROVAL": "RETAINED_ORIGINAL_SELECTION",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "TERMINAL MAPPING": "Nonpolar resistor: project pin1=left pad1,pin2=right pad2",
+      "ASSEMBLY": "JLC Extended observed; quantity unknown; verify before ordering",
+      "DESIGNATOR": "R19",
+      "COMMENT": "CRCW080575R0FKEA"
+    },
+    "old_models": [
+      "GW_CRCW0805_VISHAY_20035_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 920,
+        "owner": 919,
+        "owner_record": "41",
+        "name": "GW_CRCW0805_VISHAY_20035_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R17",
+    "uid": "MPSWLHLR",
+    "library": "CRCW080575R0FKEA",
+    "parameters": {
+      "MANUFACTURER": "Vishay",
+      "MANUFACTURER PART NUMBER": "CRCW080575R0FKEA",
+      "VALUE": "75 Ohm",
+      "TOLERANCE": "1%",
+      "POWER RATING": "0.125 W at70C; derating applies",
+      "PACKAGE": "0805 /2012",
+      "TCR": "100 ppm/K",
+      "DATASHEET": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+      "LOCAL DATASHEET": "sources/ethernet_75ohm/C844859.pdf",
+      "SOURCE": "Vishay20035 Rev18-Jun-2018 p3 ordering, p9 body/reflow lands; JLC C844859 exact identity observed2026-11-07",
+      "LCSC PART NUMBER": "C844859",
+      "CAD STATUS": "CAD_VERIFIED",
+      "DESIGN APPROVAL": "RETAINED_ORIGINAL_SELECTION",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "TERMINAL MAPPING": "Nonpolar resistor: project pin1=left pad1,pin2=right pad2",
+      "ASSEMBLY": "JLC Extended observed; quantity unknown; verify before ordering",
+      "DESIGNATOR": "R17",
+      "COMMENT": "CRCW080575R0FKEA"
+    },
+    "old_models": [
+      "GW_CRCW0805_VISHAY_20035_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 950,
+        "owner": 949,
+        "owner_record": "41",
+        "name": "GW_CRCW0805_VISHAY_20035_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C52",
+    "uid": "BXITNTOA",
+    "library": "C1206C102KGRACAUTO",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C1206C102KGRACAUTO",
+      "VALUE": "1 nF",
+      "TOLERANCE": "10%",
+      "VOLTAGE RATING": "2000 VDC",
+      "DIELECTRIC": "X7R",
+      "PACKAGE": "1206 /3216",
+      "DATASHEET": "sources/ethernet_1nf/C600002.pdf",
+      "SOURCE": "KEMET C1076_X7R_HV_AUTO_SMD9/10/2019 pp1-2 ordering/rating,p4 body,p10 Table3 densityB1206; C600002 exact catalog identity",
+      "LCSC PART NUMBER": "C600002",
+      "CAD STATUS": "CAD_VERIFIED",
+      "ELECTRICAL APPROVAL": "PROVISIONAL_APPLICATION; not safety-Y certified",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "TERMINAL MAPPING": "Nonpolar, project1-left/2-right; symbol1->pad1,2->pad2",
+      "ASSEMBLY": "JLC Extended observed2026-11-07; quantity unknown; no stock reservation",
+      "DESIGNATOR": "C52",
+      "COMMENT": "C1206C102KGRACAUTO"
+    },
+    "old_models": [
+      "GW_C1206_KEMET_C1076_DENSITY_B"
+    ],
+    "models": [
+      {
+        "index": 980,
+        "owner": 979,
+        "owner_record": "41",
+        "name": "GW_C1206_KEMET_C1076_DENSITY_B",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "U7",
+    "uid": "PDGUCLHA",
+    "library": "ATA6561-GAQW",
+    "parameters": {
+      "MANUFACTURER": "Microchip",
+      "MANUFACTURER PART NUMBER": "ATA6561-GAQW",
+      "VALUE": "ATA6561-GAQW",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "DS20005991B pin table p3; C04-2057-OA RevE p19",
+      "CAD_LIMITATIONS": "Circuit not electrically released.",
+      "DESIGNATOR": "U7",
+      "COMMENT": "ATA6561-GAQW"
+    },
+    "old_models": [
+      "GW_SOIC8_1P27_5P4"
+    ],
+    "models": [
+      {
+        "index": 1014,
+        "owner": 1013,
+        "owner_record": "44",
+        "name": "GW_SOIC8_1P27_5P4",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C53",
+    "uid": "HWYTFHHZ",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C53",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 1045,
+        "owner": 1044,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C54",
+    "uid": "NLYTMBUU",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C54",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 1073,
+        "owner": 1072,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "D3",
+    "uid": "CHFQVBCZ",
+    "library": "TPD4E05U06DQAR",
+    "parameters": {
+      "MANUFACTURER": "Texas Instruments",
+      "MANUFACTURER PART NUMBER": "TPD4E05U06DQAR",
+      "SOURCE": "TI SLVSBO7O table4-2 p4; DQA0010A 4220328/A board/stencil pp29-30",
+      "CAD STATUS": "CAD_CANDIDATE",
+      "LIMITATIONS": "PHY-side only, per DP83826EVM sheet3. GND3/8 to logic GND. NC6/7/9/10 may be pass-through pads; preserve isolation.",
+      "DESIGNATOR": "D3",
+      "COMMENT": "TPD4E05U06DQAR"
+    },
+    "old_models": [
+      "GW_DQA0010A_TI"
+    ],
+    "models": [
+      {
+        "index": 1109,
+        "owner": 1108,
+        "owner_record": "44",
+        "name": "GW_DQA0010A_TI",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R36",
+    "uid": "QMYQFUAL",
+    "library": "CRCW1206120RFKEA",
+    "parameters": {
+      "MANUFACTURER": "Vishay",
+      "MANUFACTURER PART NUMBER": "CRCW1206120RFKEA",
+      "VALUE": "120 Ohm",
+      "SOURCE": "Vishay20035 family ordering/power;18Jun2018p9 REFLOW1206 lands",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW;END_NODE_ONLY;STOCK_UNVERIFIED",
+      "TOLERANCE": "1%",
+      "POWER RATING": "0.25W at70C",
+      "PACKAGE": "1206",
+      "DATASHEET": "sources/ethernet_75ohm/C844859.pdf",
+      "DESIGNATOR": "R36",
+      "COMMENT": "CRCW1206120RFKEA"
+    },
+    "old_models": [
+      "GW_CRCW1206_VISHAY_20035_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 1147,
+        "owner": 1146,
+        "owner_record": "44",
+        "name": "GW_CRCW1206_VISHAY_20035_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R35",
+    "uid": "LZXKQHYA",
+    "library": "CRCW1206120RFKEA",
+    "parameters": {
+      "MANUFACTURER": "Vishay",
+      "MANUFACTURER PART NUMBER": "CRCW1206120RFKEA",
+      "VALUE": "120 Ohm",
+      "SOURCE": "Vishay20035 family ordering/power;18Jun2018p9 REFLOW1206 lands",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW;END_NODE_ONLY;STOCK_UNVERIFIED",
+      "TOLERANCE": "1%",
+      "POWER RATING": "0.25W at70C",
+      "PACKAGE": "1206",
+      "DATASHEET": "sources/ethernet_75ohm/C844859.pdf",
+      "DESIGNATOR": "R35",
+      "COMMENT": "CRCW1206120RFKEA"
+    },
+    "old_models": [
+      "GW_CRCW1206_VISHAY_20035_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 1171,
+        "owner": 1170,
+        "owner_record": "44",
+        "name": "GW_CRCW1206_VISHAY_20035_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "R34",
+    "uid": "GIKIFSPE",
+    "library": "RC0603FR-071ML",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-071ML",
+      "SOURCE": "Yageo RC_L product specification V.11 (2020), Table 2 p5",
+      "CAD STATUS": "CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING",
+      "LIMITATIONS": "Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.",
+      "DESIGNATOR": "R34",
+      "COMMENT": "RC0603FR-071ML"
+    },
+    "old_models": [
+      "GW_RC0603_YAGEO_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 1192,
+        "owner": 1191,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Ethernet",
+    "designator": "C65",
+    "uid": "LSSDIOIY",
+    "library": "C1206C102KGRACAUTO",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C1206C102KGRACAUTO",
+      "VALUE": "1 nF",
+      "TOLERANCE": "10%",
+      "VOLTAGE RATING": "2000 VDC",
+      "DIELECTRIC": "X7R",
+      "PACKAGE": "1206 /3216",
+      "DATASHEET": "sources/ethernet_1nf/C600002.pdf",
+      "SOURCE": "KEMET C1076_X7R_HV_AUTO_SMD9/10/2019 pp1-2 ordering/rating,p4 body,p10 Table3 densityB1206; C600002 exact catalog identity",
+      "LCSC PART NUMBER": "C600002",
+      "CAD STATUS": "CAD_VERIFIED",
+      "ELECTRICAL APPROVAL": "PROVISIONAL_APPLICATION; not safety-Y certified",
+      "ELECTRICAL TEST": "NOT_TESTED",
+      "TERMINAL MAPPING": "Nonpolar, project1-left/2-right; symbol1->pad1,2->pad2",
+      "ASSEMBLY": "JLC Extended observed2026-11-07; quantity unknown; no stock reservation",
+      "DESIGNATOR": "C65",
+      "COMMENT": "C1206C102KGRACAUTO"
+    },
+    "old_models": [
+      "GW_C1206_KEMET_C1076_DENSITY_B"
+    ],
+    "models": [
+      {
+        "index": 1219,
+        "owner": 1218,
+        "owner_record": "41",
+        "name": "GW_C1206_KEMET_C1076_DENSITY_B",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "U8",
+    "uid": "YBIQUACK",
+    "library": "ISO1212DBQR",
+    "parameters": {
+      "MANUFACTURER": "Texas Instruments",
+      "MANUFACTURER PART NUMBER": "ISO1212DBQR",
+      "VALUE": "ISO1212DBQR",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "SLLSEY7G table4-2 p4; DBQ0016A 4214846/A PDF pp44-46",
+      "CAD_LIMITATIONS": "SUB12 and SUB13 must remain separate floating nets. TI recommends an individual 2x2mm floating copper island for each; these board-level islands are NOT encoded in this package footprint. Never join to either FGND, GND1 or each other. NC6/7 unconnected.",
+      "DESIGNATOR": "U8",
+      "COMMENT": "ISO1212DBQR"
+    },
+    "old_models": [
+      "GW_DBQ0016A_TI"
+    ],
+    "models": [
+      {
+        "index": 72,
+        "owner": 71,
+        "owner_record": "44",
+        "name": "GW_DBQ0016A_TI",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "U10",
+    "uid": "HFVWTFFX",
+    "library": "BSP75NTA",
+    "parameters": {
+      "MANUFACTURER": "Diodes Incorporated",
+      "MANUFACTURER PART NUMBER": "BSP75NTA",
+      "VALUE": "BSP75NTA",
+      "CAD_STATUS": "CAD_BLOCKED",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Diodes DS33016 Rev7-2 pp1,8; terminal numbering absent",
+      "CAD_LIMITATIONS": "CAD_BLOCKED: terminal identifiers are role names, not manufacturer numbers. Tab=Source, isolated from Drain. Need exact numbered Type DN drawing/model before any placement or footprint binding.",
+      "SOURCE": "Diodes DS33016 Rev7-2 Jan2024 p1 Top View Pin Out, p8 Suggested Pad Layout; functional pad identifiers preserve original symbol pins",
+      "CAD STATUS": "CAD_VERIFIED",
+      "LIMITATIONS": "Physical mapping verified from Diodes top view: with tab above, left IN, middle D, right S; tab S_TAB=Source. No manufacturer numeric pin IDs asserted. Loaded driver VOH and startup OFF not yet verified.",
+      "ELECTRICAL APPROVAL": "ELECTRICAL_BLOCKED_DRIVER_VOLTAGE_PENDING",
+      "DATASHEET": "sources/bsp75n_closure/BSP75N.pdf",
+      "PHYSICAL MAPPING": "IN left lower;D center lower;S right lower;S_TAB upper tab;Top View",
+      "DESIGNATOR": "U10",
+      "COMMENT": "BSP75NTA"
+    },
+    "old_models": [
+      "GW_BSP75N_SOT223_DN_DIODES"
+    ],
+    "models": [
+      {
+        "index": 101,
+        "owner": 100,
+        "owner_record": "44",
+        "name": "GW_BSP75N_SOT223_DN_DIODES",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "U11",
+    "uid": "HXFRPTPO",
+    "library": "BSP75NTA",
+    "parameters": {
+      "MANUFACTURER": "Diodes Incorporated",
+      "MANUFACTURER PART NUMBER": "BSP75NTA",
+      "VALUE": "BSP75NTA",
+      "CAD_STATUS": "CAD_BLOCKED",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Diodes DS33016 Rev7-2 pp1,8; terminal numbering absent",
+      "CAD_LIMITATIONS": "CAD_BLOCKED: terminal identifiers are role names, not manufacturer numbers. Tab=Source, isolated from Drain. Need exact numbered Type DN drawing/model before any placement or footprint binding.",
+      "SOURCE": "Diodes DS33016 Rev7-2 Jan2024 p1 Top View Pin Out, p8 Suggested Pad Layout; functional pad identifiers preserve original symbol pins",
+      "CAD STATUS": "CAD_VERIFIED",
+      "LIMITATIONS": "Physical mapping verified from Diodes top view: with tab above, left IN, middle D, right S; tab S_TAB=Source. No manufacturer numeric pin IDs asserted. Loaded driver VOH and startup OFF not yet verified.",
+      "ELECTRICAL APPROVAL": "ELECTRICAL_BLOCKED_DRIVER_VOLTAGE_PENDING",
+      "DATASHEET": "sources/bsp75n_closure/BSP75N.pdf",
+      "PHYSICAL MAPPING": "IN left lower;D center lower;S right lower;S_TAB upper tab;Top View",
+      "DESIGNATOR": "U11",
+      "COMMENT": "BSP75NTA"
+    },
+    "old_models": [
+      "GW_BSP75N_SOT223_DN_DIODES"
+    ],
+    "models": [
+      {
+        "index": 130,
+        "owner": 129,
+        "owner_record": "44",
+        "name": "GW_BSP75N_SOT223_DN_DIODES",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "C56",
+    "uid": "DRLIHQRN",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C56",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 159,
+        "owner": 158,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R23",
+    "uid": "UALMXCSK",
+    "library": "GW_RC0603FR-07562RL_a6fad8df",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-07562RL",
+      "VALUE": "562 Ohm",
+      "TOLERANCE": "1%",
+      "RATING": "75 V max; limite sqrt(P*R)",
+      "POWER RATING": "0.1 W @70 C",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ityp2.25mA; P conservadora a2.75mA=4.30mW. No es resistor de24V completos; corriente de campo separada deVCC1. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R23",
+      "COMMENT": "562 Ohm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 190,
+        "owner": 189,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R22",
+    "uid": "KFWKUEKU",
+    "library": "MM204F1K00TKRTR3K0",
+    "parameters": {
+      "MANUFACTURER": "Firstohm",
+      "MANUFACTURER PART NUMBER": "MM204F1K00TKRTR3K0",
+      "SOURCE": "Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204",
+      "CAD STATUS": "CAD_CANDIDATE",
+      "LIMITATIONS": "1kOhm1%,0.25W@70C; normal Type3 operation supported. 500V/1kV system surge withstand NOT established.",
+      "DESIGNATOR": "R22",
+      "COMMENT": "MM204F1K00TKRTR3K0"
+    },
+    "old_models": [
+      "GW_MM204_FIRSTOHM"
+    ],
+    "models": [
+      {
+        "index": 209,
+        "owner": 208,
+        "owner_record": "41",
+        "name": "GW_MM204_FIRSTOHM",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "C57",
+    "uid": "WYHGLROD",
+    "library": "GW_C0603C103K1RACTU_97f3ee33",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C103K1RACTU",
+      "VALUE": "10 nF",
+      "TOLERANCE": "10%",
+      "RATING": "100 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local DI_CIN p1; no confundir con externo CL10B103KA8WPNC 25 V. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C57",
+      "COMMENT": "10 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 239,
+        "owner": 238,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R20",
+    "uid": "NLIJFTYK",
+    "library": "GW_RC0603FR-07562RL_a6fad8df",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-07562RL",
+      "VALUE": "562 Ohm",
+      "TOLERANCE": "1%",
+      "RATING": "75 V max; limite sqrt(P*R)",
+      "POWER RATING": "0.1 W @70 C",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ityp2.25mA; P conservadora a2.75mA=4.30mW. No es resistor de24V completos; corriente de campo separada deVCC1. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R20",
+      "COMMENT": "562 Ohm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 266,
+        "owner": 265,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R21",
+    "uid": "JUPRMEBQ",
+    "library": "MM204F1K00TKRTR3K0",
+    "parameters": {
+      "MANUFACTURER": "Firstohm",
+      "MANUFACTURER PART NUMBER": "MM204F1K00TKRTR3K0",
+      "SOURCE": "Firstohm MM rev08-March-2023 printedpp75-78; p78 reflow pad table MM16/MM204",
+      "CAD STATUS": "CAD_CANDIDATE",
+      "LIMITATIONS": "1kOhm1%,0.25W@70C; normal Type3 operation supported. 500V/1kV system surge withstand NOT established.",
+      "DESIGNATOR": "R21",
+      "COMMENT": "MM204F1K00TKRTR3K0"
+    },
+    "old_models": [
+      "GW_MM204_FIRSTOHM"
+    ],
+    "models": [
+      {
+        "index": 285,
+        "owner": 284,
+        "owner_record": "41",
+        "name": "GW_MM204_FIRSTOHM",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "C55",
+    "uid": "RNAUMUON",
+    "library": "GW_C0603C103K1RACTU_97f3ee33",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C103K1RACTU",
+      "VALUE": "10 nF",
+      "TOLERANCE": "10%",
+      "RATING": "100 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local DI_CIN p1; no confundir con externo CL10B103KA8WPNC 25 V. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C55",
+      "COMMENT": "10 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 315,
+        "owner": 314,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R24",
+    "uid": "MPAKHNYW",
+    "library": "GW_FRC0603J103TS_7289f91d",
+    "parameters": {
+      "MANUFACTURER": "FOJAN",
+      "MANUFACTURER PART NUMBER": "FRC0603J103TS",
+      "VALUE": "10 kOhm",
+      "TOLERANCE": "5%",
+      "RATING": ">= 3.3 V; tension de trabajo por verificar",
+      "POWER RATING": "0.1 W",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ratings transcritos del CAD; falta ficha FOJAN. Alternativa RC0603FR-0710KL con ficha oficial local, mismo footprint candidato. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R24",
+      "COMMENT": "10 kOhm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 342,
+        "owner": 341,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "C59",
+    "uid": "HWDGPBOG",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C59",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 371,
+        "owner": 370,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "Q1",
+    "uid": "ZGPLWPAI",
+    "library": "MMBT3904-7-F",
+    "parameters": {
+      "MANUFACTURER": "Diodes Incorporated",
+      "MANUFACTURER PART NUMBER": "MMBT3904-7-F",
+      "VALUE": "NPN 40V200mA",
+      "SOURCE": "Diodes DS30036 Rev27-2 March2025 p1 top view/order, p3 electrical, p6 suggested lands",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW",
+      "DATASHEET": "sources/autonomous_closure/MMBT3904.pdf",
+      "TERMINAL MAPPING": "Top view tab/lead above C/D; lower-left B/G; lower-right E/S; manufacturer functional IDs, no guessed numbers",
+      "DESIGNATOR": "Q1",
+      "COMMENT": "MMBT3904-7-F"
+    },
+    "old_models": [
+      "GW_MMBT3904_BEC_DIODES"
+    ],
+    "models": [
+      {
+        "index": 401,
+        "owner": 400,
+        "owner_record": "44",
+        "name": "GW_MMBT3904_BEC_DIODES",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R25",
+    "uid": "EIFUFBCH",
+    "library": "RC0603FR-07100RL",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-07100RL",
+      "VALUE": "100 Ohm",
+      "SOURCE": "Yageo RC0603 series order coding; Mounting13Feb2018V10 p4 Fig4/Table1",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW;ORDER_CODE_FAMILY_SUPPORTED;EXACT_NOMINAL_SHEET_PENDING",
+      "TOLERANCE": "1%",
+      "VOLTAGE RATING": "75V or sqrt(P*R),whichever lower",
+      "POWER RATING": "0.1W at70C",
+      "PACKAGE": "0603",
+      "DESIGNATOR": "R25",
+      "COMMENT": "RC0603FR-07100RL"
+    },
+    "old_models": [
+      "GW_RC0603_YAGEO_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 425,
+        "owner": 424,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R26",
+    "uid": "WWPIMQDJ",
+    "library": "RC0603FR-074K7L",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-074K7L",
+      "VALUE": "4.7 kOhm",
+      "SOURCE": "Yageo RC0603 series order coding; Mounting13Feb2018V10 p4 Fig4/Table1",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW;ORDER_CODE_FAMILY_SUPPORTED;EXACT_NOMINAL_SHEET_PENDING",
+      "TOLERANCE": "1%",
+      "VOLTAGE RATING": "75V or sqrt(P*R),whichever lower",
+      "POWER RATING": "0.1W at70C",
+      "PACKAGE": "0603",
+      "DESIGNATOR": "R26",
+      "COMMENT": "RC0603FR-074K7L"
+    },
+    "old_models": [
+      "GW_RC0603_YAGEO_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 450,
+        "owner": 449,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "Q2",
+    "uid": "LYKPEOLB",
+    "library": "DMP2035U-7",
+    "parameters": {
+      "MANUFACTURER": "Diodes Incorporated",
+      "MANUFACTURER PART NUMBER": "DMP2035U-7",
+      "VALUE": "PMOS20V;VGS±10V",
+      "SOURCE": "Diodes DS31830 Rev11-2 June2025 p1 top view/order,p2 electrical,p6 suggested lands",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW",
+      "DATASHEET": "sources/autonomous_closure/DMP2035U.pdf",
+      "TERMINAL MAPPING": "Top view tab/lead above C/D; lower-left B/G; lower-right E/S; manufacturer functional IDs, no guessed numbers",
+      "DESIGNATOR": "Q2",
+      "COMMENT": "DMP2035U-7"
+    },
+    "old_models": [
+      "GW_DMP2035U_GSD_DIODES"
+    ],
+    "models": [
+      {
+        "index": 486,
+        "owner": 485,
+        "owner_record": "44",
+        "name": "GW_DMP2035U_GSD_DIODES",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R27",
+    "uid": "GYTFUJGQ",
+    "library": "GW_RC0603FR-072K49L_b905c5f0",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-072K49L",
+      "VALUE": "2.49 kOhm",
+      "TOLERANCE": "1%",
+      "RATING": "75 V max; limite sqrt(P*R)",
+      "POWER RATING": "0.1 W @70 C",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.",
+      "ELECTRICAL_NOTES": "Candidato ENHANCED/RMII leader: ModeSelect NC, strap1=1 default, strap8=1, strap5=0 default. Ver tabla del informe; sin LEDs de straps. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R27",
+      "COMMENT": "2.49 kOhm"
+    },
+    "old_models": [
+      "GW_RC0603_YAGEO_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 512,
+        "owner": 511,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R30",
+    "uid": "KTKLPTQK",
+    "library": "GW_FRC0603J103TS_7289f91d",
+    "parameters": {
+      "MANUFACTURER": "FOJAN",
+      "MANUFACTURER PART NUMBER": "FRC0603J103TS",
+      "VALUE": "10 kOhm",
+      "TOLERANCE": "5%",
+      "RATING": ">= 3.3 V; tension de trabajo por verificar",
+      "POWER RATING": "0.1 W",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ratings transcritos del CAD; falta ficha FOJAN. Alternativa RC0603FR-0710KL con ficha oficial local, mismo footprint candidato. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R30",
+      "COMMENT": "10 kOhm"
+    },
+    "old_models": [
+      "GW_CAND_0603_res"
+    ],
+    "models": [
+      {
+        "index": 548,
+        "owner": 547,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "Q3",
+    "uid": "JWETHJDZ",
+    "library": "MMBT3904-7-F",
+    "parameters": {
+      "MANUFACTURER": "Diodes Incorporated",
+      "MANUFACTURER PART NUMBER": "MMBT3904-7-F",
+      "VALUE": "NPN 40V200mA",
+      "SOURCE": "Diodes DS30036 Rev27-2 March2025 p1 top view/order, p3 electrical, p6 suggested lands",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW",
+      "DATASHEET": "sources/autonomous_closure/MMBT3904.pdf",
+      "TERMINAL MAPPING": "Top view tab/lead above C/D; lower-left B/G; lower-right E/S; manufacturer functional IDs, no guessed numbers",
+      "DESIGNATOR": "Q3",
+      "COMMENT": "MMBT3904-7-F"
+    },
+    "old_models": [
+      "GW_MMBT3904_BEC_DIODES"
+    ],
+    "models": [
+      {
+        "index": 576,
+        "owner": 575,
+        "owner_record": "44",
+        "name": "GW_MMBT3904_BEC_DIODES",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "Q4",
+    "uid": "KCBTBQQQ",
+    "library": "DMP2035U-7",
+    "parameters": {
+      "MANUFACTURER": "Diodes Incorporated",
+      "MANUFACTURER PART NUMBER": "DMP2035U-7",
+      "VALUE": "PMOS20V;VGS±10V",
+      "SOURCE": "Diodes DS31830 Rev11-2 June2025 p1 top view/order,p2 electrical,p6 suggested lands",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW",
+      "DATASHEET": "sources/autonomous_closure/DMP2035U.pdf",
+      "TERMINAL MAPPING": "Top view tab/lead above C/D; lower-left B/G; lower-right E/S; manufacturer functional IDs, no guessed numbers",
+      "DESIGNATOR": "Q4",
+      "COMMENT": "DMP2035U-7"
+    },
+    "old_models": [
+      "GW_DMP2035U_GSD_DIODES"
+    ],
+    "models": [
+      {
+        "index": 612,
+        "owner": 611,
+        "owner_record": "44",
+        "name": "GW_DMP2035U_GSD_DIODES",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R28",
+    "uid": "FQNRBDVH",
+    "library": "RC0603FR-07100RL",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-07100RL",
+      "VALUE": "100 Ohm",
+      "SOURCE": "Yageo RC0603 series order coding; Mounting13Feb2018V10 p4 Fig4/Table1",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW;ORDER_CODE_FAMILY_SUPPORTED;EXACT_NOMINAL_SHEET_PENDING",
+      "TOLERANCE": "1%",
+      "VOLTAGE RATING": "75V or sqrt(P*R),whichever lower",
+      "POWER RATING": "0.1W at70C",
+      "PACKAGE": "0603",
+      "DESIGNATOR": "R28",
+      "COMMENT": "RC0603FR-07100RL"
+    },
+    "old_models": [
+      "GW_RC0603_YAGEO_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 636,
+        "owner": 635,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R29",
+    "uid": "SIHMJMSZ",
+    "library": "RC0603FR-074K7L",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-074K7L",
+      "VALUE": "4.7 kOhm",
+      "SOURCE": "Yageo RC0603 series order coding; Mounting13Feb2018V10 p4 Fig4/Table1",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW;ORDER_CODE_FAMILY_SUPPORTED;EXACT_NOMINAL_SHEET_PENDING",
+      "TOLERANCE": "1%",
+      "VOLTAGE RATING": "75V or sqrt(P*R),whichever lower",
+      "POWER RATING": "0.1W at70C",
+      "PACKAGE": "0603",
+      "DESIGNATOR": "R29",
+      "COMMENT": "RC0603FR-074K7L"
+    },
+    "old_models": [
+      "GW_RC0603_YAGEO_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 660,
+        "owner": 659,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "C58",
+    "uid": "JHIWKOKG",
+    "library": "GW_C0603C104K5RACTU_dc5e12a5",
+    "parameters": {
+      "MANUFACTURER": "KEMET",
+      "MANUFACTURER PART NUMBER": "C0603C104K5RACTU",
+      "VALUE": "100 nF",
+      "TOLERANCE": "10%",
+      "RATING": "50 V; X7R; -55..125 C",
+      "POWER RATING": "N/A",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_CANDIDATE",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Cap_0.1uF_0603_50V",
+      "CAD_LIMITATIONS": "Glyph pins/types inspected; exact manufacturer land-pattern/mask/paste qualification pending.",
+      "ELECTRICAL_NOTES": "Ficha KEMET local p1. Adaptar parametros; no usar el Y5V 0603F104Z500CT como equivalente. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "C58",
+      "COMMENT": "100 nF"
+    },
+    "old_models": [
+      "GW_CAND_0603_cap"
+    ],
+    "models": [
+      {
+        "index": 688,
+        "owner": 687,
+        "owner_record": "44",
+        "name": "GW_0603_KEMET_NOMINAL",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R31",
+    "uid": "NYCHPYYK",
+    "library": "GW_RC0603FR-072K49L_b905c5f0",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-072K49L",
+      "VALUE": "2.49 kOhm",
+      "TOLERANCE": "1%",
+      "RATING": "75 V max; limite sqrt(P*R)",
+      "POWER RATING": "0.1 W @70 C",
+      "PACKAGE": "0603",
+      "CAD_STATUS": "CAD_VERIFIED_SOURCE_LAND;NATIVE_INSTANCE_ECO_PENDING",
+      "ELECTRICAL_STATUS": "PROVISIONAL",
+      "CAD_SOURCE": "Professor_shared.SchLib glyph Res_10k_0603_1/10W",
+      "CAD_LIMITATIONS": "Same-manufacturer series mounting geometry verified; prototype mask/paste choices recorded. Electrical application limits unchanged. Native instance links/ECO pending.",
+      "ELECTRICAL_NOTES": "Candidato ENHANCED/RMII leader: ModeSelect NC, strap1=1 default, strap8=1, strap5=0 default. Ver tabla del informe; sin LEDs de straps. Modelo candidato existente; sin cotejo visual de pads/pines en Altium.",
+      "DESIGNATOR": "R31",
+      "COMMENT": "2.49 kOhm"
+    },
+    "old_models": [
+      "GW_RC0603_YAGEO_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 714,
+        "owner": 713,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R32",
+    "uid": "RNDWTKPP",
+    "library": "RC0603FR-074K7L",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-074K7L",
+      "VALUE": "4.7 kOhm",
+      "SOURCE": "Yageo RC0603 series order coding; Mounting13Feb2018V10 p4 Fig4/Table1",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW;ORDER_CODE_FAMILY_SUPPORTED;EXACT_NOMINAL_SHEET_PENDING",
+      "TOLERANCE": "1%",
+      "VOLTAGE RATING": "75V or sqrt(P*R),whichever lower",
+      "POWER RATING": "0.1W at70C",
+      "PACKAGE": "0603",
+      "DESIGNATOR": "R32",
+      "COMMENT": "RC0603FR-074K7L"
+    },
+    "old_models": [
+      "GW_RC0603_YAGEO_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 743,
+        "owner": 742,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "R33",
+    "uid": "INOIRBWY",
+    "library": "RC0603FR-074K7L",
+    "parameters": {
+      "MANUFACTURER": "Yageo",
+      "MANUFACTURER PART NUMBER": "RC0603FR-074K7L",
+      "VALUE": "4.7 kOhm",
+      "SOURCE": "Yageo RC0603 series order coding; Mounting13Feb2018V10 p4 Fig4/Table1",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW;ORDER_CODE_FAMILY_SUPPORTED;EXACT_NOMINAL_SHEET_PENDING",
+      "TOLERANCE": "1%",
+      "VOLTAGE RATING": "75V or sqrt(P*R),whichever lower",
+      "POWER RATING": "0.1W at70C",
+      "PACKAGE": "0603",
+      "DESIGNATOR": "R33",
+      "COMMENT": "RC0603FR-074K7L"
+    },
+    "old_models": [
+      "GW_RC0603_YAGEO_REFLOW"
+    ],
+    "models": [
+      {
+        "index": 767,
+        "owner": 766,
+        "owner_record": "44",
+        "name": "GW_RC0603_YAGEO_REFLOW",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "J5",
+    "uid": "GEAPITIA",
+    "library": "TB002-500-02BE",
+    "parameters": {
+      "MANUFACTURER": "Same Sky (formerly CUI Devices)",
+      "MANUFACTURER PART NUMBER": "TB002-500-02BE",
+      "VALUE": "2-pole5mm terminal block",
+      "SOURCE": "Same Sky TB002-500 Rev1.04 09/12/2024 p1 order key,p2 PCB layout",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW",
+      "DATASHEET": "sources/autonomous_closure/tb002-500.pdf",
+      "PHYSICAL MAPPING": "Project-defined1left then+X in PCBtopview; wire-entryfront-Y. Confirm wire polarity against silk before bringup.",
+      "DESIGNATOR": "J5",
+      "COMMENT": "TB002-500-02BE"
+    },
+    "old_models": [
+      "GW_TB002_500_2P_SAMESKY"
+    ],
+    "models": [
+      {
+        "index": 787,
+        "owner": 786,
+        "owner_record": "44",
+        "name": "GW_TB002_500_2P_SAMESKY",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "J6",
+    "uid": "FRLZEHLZ",
+    "library": "TB002-500-02BE",
+    "parameters": {
+      "MANUFACTURER": "Same Sky (formerly CUI Devices)",
+      "MANUFACTURER PART NUMBER": "TB002-500-02BE",
+      "VALUE": "2-pole5mm terminal block",
+      "SOURCE": "Same Sky TB002-500 Rev1.04 09/12/2024 p1 order key,p2 PCB layout",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW",
+      "DATASHEET": "sources/autonomous_closure/tb002-500.pdf",
+      "PHYSICAL MAPPING": "Project-defined1left then+X in PCBtopview; wire-entryfront-Y. Confirm wire polarity against silk before bringup.",
+      "DESIGNATOR": "J6",
+      "COMMENT": "TB002-500-02BE"
+    },
+    "old_models": [
+      "GW_TB002_500_2P_SAMESKY"
+    ],
+    "models": [
+      {
+        "index": 807,
+        "owner": 806,
+        "owner_record": "44",
+        "name": "GW_TB002_500_2P_SAMESKY",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "J7",
+    "uid": "DDGOBXHJ",
+    "library": "TB002-500-02BE",
+    "parameters": {
+      "MANUFACTURER": "Same Sky (formerly CUI Devices)",
+      "MANUFACTURER PART NUMBER": "TB002-500-02BE",
+      "VALUE": "2-pole5mm terminal block",
+      "SOURCE": "Same Sky TB002-500 Rev1.04 09/12/2024 p1 order key,p2 PCB layout",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW",
+      "DATASHEET": "sources/autonomous_closure/tb002-500.pdf",
+      "PHYSICAL MAPPING": "Project-defined1left then+X in PCBtopview; wire-entryfront-Y. Confirm wire polarity against silk before bringup.",
+      "DESIGNATOR": "J7",
+      "COMMENT": "TB002-500-02BE"
+    },
+    "old_models": [
+      "GW_TB002_500_2P_SAMESKY"
+    ],
+    "models": [
+      {
+        "index": 827,
+        "owner": 826,
+        "owner_record": "44",
+        "name": "GW_TB002_500_2P_SAMESKY",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "J4",
+    "uid": "QBMJUTDX",
+    "library": "TB002-500-03BE",
+    "parameters": {
+      "MANUFACTURER": "Same Sky (formerly CUI Devices)",
+      "MANUFACTURER PART NUMBER": "TB002-500-03BE",
+      "VALUE": "3-pole5mm terminal block",
+      "SOURCE": "Same Sky TB002-500 Rev1.04 09/12/2024 p1 order key,p2 PCB layout",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW",
+      "DATASHEET": "sources/autonomous_closure/tb002-500.pdf",
+      "PHYSICAL MAPPING": "Project-defined1left then+X in PCBtopview; wire-entryfront-Y. Confirm wire polarity against silk before bringup.",
+      "DESIGNATOR": "J4",
+      "COMMENT": "TB002-500-03BE"
+    },
+    "old_models": [
+      "GW_TB002_500_3P_SAMESKY"
+    ],
+    "models": [
+      {
+        "index": 849,
+        "owner": 848,
+        "owner_record": "44",
+        "name": "GW_TB002_500_3P_SAMESKY",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "J9",
+    "uid": "OWIWTRZK",
+    "library": "TB002-500-03BE",
+    "parameters": {
+      "MANUFACTURER": "Same Sky (formerly CUI Devices)",
+      "MANUFACTURER PART NUMBER": "TB002-500-03BE",
+      "VALUE": "3-pole5mm terminal block",
+      "SOURCE": "Same Sky TB002-500 Rev1.04 09/12/2024 p1 order key,p2 PCB layout",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW",
+      "DATASHEET": "sources/autonomous_closure/tb002-500.pdf",
+      "PHYSICAL MAPPING": "Project-defined1left then+X in PCBtopview; wire-entryfront-Y. Confirm wire polarity against silk before bringup.",
+      "DESIGNATOR": "J9",
+      "COMMENT": "TB002-500-03BE"
+    },
+    "old_models": [
+      "GW_TB002_500_3P_SAMESKY"
+    ],
+    "models": [
+      {
+        "index": 871,
+        "owner": 870,
+        "owner_record": "44",
+        "name": "GW_TB002_500_3P_SAMESKY",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "J10",
+    "uid": "IVYVIXIY",
+    "library": "TB002-500-03BE",
+    "parameters": {
+      "MANUFACTURER": "Same Sky (formerly CUI Devices)",
+      "MANUFACTURER PART NUMBER": "TB002-500-03BE",
+      "VALUE": "3-pole5mm terminal block",
+      "SOURCE": "Same Sky TB002-500 Rev1.04 09/12/2024 p1 order key,p2 PCB layout",
+      "CAD STATUS": "CAD_VERIFIED_GEOMETRY;NATIVE_PLACEMENT_PENDING",
+      "ELECTRICAL STATUS": "DERIVED_PENDING_REVIEW",
+      "DATASHEET": "sources/autonomous_closure/tb002-500.pdf",
+      "PHYSICAL MAPPING": "Project-defined1left then+X in PCBtopview; wire-entryfront-Y. Confirm wire polarity against silk before bringup.",
+      "DESIGNATOR": "J10",
+      "COMMENT": "TB002-500-03BE"
+    },
+    "old_models": [
+      "GW_TB002_500_3P_SAMESKY"
+    ],
+    "models": [
+      {
+        "index": 897,
+        "owner": 896,
+        "owner_record": "44",
+        "name": "GW_TB002_500_3P_SAMESKY",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  },
+  {
+    "sheet": "Field_IO",
+    "designator": "D4",
+    "uid": "AVTRSCHS",
+    "library": "CDSOT23-SM712",
+    "parameters": {
+      "MANUFACTURER": "Bourns",
+      "MANUFACTURER PART NUMBER": "CDSOT23-SM712",
+      "SOURCE": "Bourns CDSOT23-SM712 saved2026-11-07 pp1-2 pin diagram and Recommended Footprint",
+      "CAD STATUS": "CAD_CANDIDATE",
+      "LIMITATIONS": "CAD mapping supported; no transferred 1kV surge rating for THVD1420. Populate only after protection qualification.",
+      "DESIGNATOR": "D4",
+      "COMMENT": "CDSOT23-SM712"
+    },
+    "old_models": [
+      "GW_SM712_BOURNS"
+    ],
+    "models": [
+      {
+        "index": 918,
+        "owner": 917,
+        "owner_record": "44",
+        "name": "GW_SM712_BOURNS",
+        "current": "T",
+        "type": "PCBLIB"
+      }
+    ]
+  }
+]
