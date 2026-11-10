@@ -116,6 +116,16 @@ Comparación offline de nombres de modelos guardados; fuente indicada por los pa
 
 ## Temas escalados: requieren decisión del usuario
 
+### Decisiones recibidas después de la auditoría
+
+- Mantener FOJAN; no sustituir MPN por Yageo.
+- R36 en 1206 aceptado por el usuario.
+- Posponer validación de alturas; verificar dimensiones y numeración del cobre de pads contra datasheets antes del PCB.
+- Usuario informa que descargó el datasheet TDS; ubicación y contenido aún no verificados en esta sesión.
+- Mantener capacitores de entrada condicionado a ausencia de conflicto eléctrico/de potencia. La aprobación no sustituye comprobar capacidad efectiva a 24 V, corriente de rizado y requisitos del regulador. La salida sigue pendiente de revisión.
+
+Las entradas siguientes conservan el contexto de la auditoría; FOJAN y R36 ya no requieren decisión.
+
 - Mantener FOJAN FRC0603J103TS o sustituir MPN por Yageo RC0603FR-0710KL: afecta al BOM. El land 0603 asignado no cambia el MPN.
 - CIN de buck: tres C5750 de 4,7 µF frente a cinco previstos; confirmar capacidad efectiva bajo polarización. Salida: cuatro de 15 µF por riel frente a tres en TI Table 10-1.
 - R36: CRCW 1206 frente al 0603 solicitado, Not Fitted; confirmar aceptación.
